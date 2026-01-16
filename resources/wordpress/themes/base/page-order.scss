@@ -1,0 +1,87 @@
+// page-order
+
+.bs-container-fluid {
+    --bs-gutter-x: 1.5rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+
+    &,
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+}
+
+.bs-row {
+    --bs-gutter-x: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+
+    > * {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+    }
+
+    .ticket-line {
+        justify-content: center;
+    }    
+}
+
+@for $size from 1 through 12 {
+    .bs-col-#{$size} {
+        flex: 0 0 auto;
+        width: #{math.percentage(math.div($size, 12))};
+    }
+    .bs-offset-#{$size} {
+        margin-left: #{math.percentage(math.div($size, 12))};
+    }
+}
+
+@media (min-width: 992px) {
+    @for $size from 1 through 12 {
+        .bs-col-lg-#{$size} {
+            flex: 0 0 auto;
+            width: #{math.percentage(math.div($size, 12))};
+        }
+        .bs-offset-lg-#{$size} {
+            margin-left: #{math.percentage(math.div($size, 12))};
+        }
+    }
+}
+
+.ticket-success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.row-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.col-play-again {
+    display: flex;
+    justify-content: center;
+}
+
+.col-animation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}

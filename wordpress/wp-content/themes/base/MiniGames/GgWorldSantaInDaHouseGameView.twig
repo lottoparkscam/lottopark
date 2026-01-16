@@ -1,0 +1,106 @@
+<div class="content-area">
+    <div class="main-width relative">
+    <div class="content-box">
+        <div class="miniGameWindow">
+            <div class="gameMain">
+                <div id="gameOverlay" class="gameOverlay visible">
+                    <div class="gameOverlayContent"></div>
+                </div>
+                <button type="button" class="revealAllButton"><span>{{ 'Reveal all' | trans }}</span><img src="{{ revealAllIcon }}" alt="{{ 'Reveal all' | trans }}" /></button>
+                <div class="music">
+                    <button type="button" id="playMusic"><i class="fa-solid fa-volume-xmark"></i></button>
+                </div>
+                <div class="gameMainIcon"><img src="{{ gameLogoImg }}" alt="GG World Santa In Da House" /></div>
+                <div class="gameBoard">
+                    <div class="lineLayer"></div>
+                    <div class="gameGrid">
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                        <div class="gameGridItem"><div class="itemInvisible"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="gameOptions">
+                <div class="gameOptionsFirstRow">
+                    <div class="gameDesktopOnly desktopBalanceBox">
+                        <div class="balanceContent">
+                            <div class="gameTextSmall">{{ 'Balance:' | trans }} <strong class="gameBalanceAmount">{{ 'Loading...' | trans }}</strong></div>
+                            <div class="gameTextSmall bonusBalance">{{ 'Bonus balance:' | trans }} <strong class="gameBonusBalanceAmount">{{ 'Loading...' | trans }}</strong></div>
+                            <div class="gameParameters">
+                                <div class="gameParameter">{{ 'Multiplier:' | trans }} <strong class="gameMultiplier">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameParameter">{{ 'Bet:' | trans }} <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameParameter freeSpins">{{ 'Free Spins:' | trans }} <strong class="freeSpinCount">{{ 'Loading...' | trans }}</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gameBoxRow gameMax pb-m">
+                        <div class="gameBoxCol gameStake">
+                            <div class="gameTextSmall">{{ 'Choose the bet <span class="gameDesktopOnly">you want to play with:</span>' | trans | raw }}</div>
+                            <div class="gameStakeMenu">
+                                <div class="gameStakeTrigger">
+                                    <a href="javascript:void(0)">
+                                        <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong>
+                                        <span class="fa fa-chevron-down" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <div class="gameStakeWrapper">
+                                    <ul class="stake-options" id="availableBets"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gameBoxCol desktop balanceContent">
+                            <div class="gameTextSmall">{{ 'Balance:' | trans }}</div>
+                            <strong class="gameBalanceAmount">{{ 'Loading...' | trans }}</strong>
+                            <div class="gameTextSmall bonusBalance">{{ 'Bonus balance:' | trans }}</div>
+                            <strong class="gameBonusBalanceAmount bonusBalance">{{ 'Loading...' | trans }}</strong>
+                            <div class="gameParameters">
+                                <div class="gameParameter">{{ 'Multiplier:' | trans }} <strong class="gameMultiplier">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameParameter">{{ 'Bet:' | trans }} <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameParameter freeSpins">{{ 'Free Spins:' | trans }} <strong class="freeSpinCount">{{ 'Loading...' | trans }}</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gameBoxRow gameMax gameRulesBox">
+                        <div class="gameBoxCol gameRules">
+                            <div class="gameTextSmall">{{ 'Click on the tiles, find three identical selected symbols<br> in one line, and win!' | trans|raw }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gameHistory">
+                    <div class="gameTextSmall center gameHistoryTitle">{{ 'Game history:' | trans }}</div>
+                    <div id="gameHistory" class="gameHistoryList">{{ 'Loading...' | trans }}</div>
+                    {% include 'Partials/PromoCodes.twig' %}
+                </div>
+            </div>
+        </div>
+    </div>
+        {% include 'Partials/GamingLabsCertificate.twig' with {
+            'gliCheckImg': gliCheckImg,
+            'gliImg': gliImg,
+            'whitelabelDomain': whitelabelDomain
+        } %}
+    </div>
+    <audio id="backgroundMusic" autoplay loop muted>
+        <source src="{{ backgroundMusicFilePath }}" type="audio/mpeg">
+    </audio>
+    <audio id="clickMusic" muted>
+        <source src="{{ clickMusicFilePath }}" type="audio/mpeg">
+    </audio>
+</div>
+<script>
+    window.miniGameSlug = '{{ miniGameSlug }}';
+    window.giftImg = '{{ giftImg }}';
+    window.treeImg = '{{ treeImg }}';
+    window.happySantaImg = '{{ happySantaImg }}';
+    window.sadSantaImg = '{{ sadSantaImg }}';
+    window.depositUrl = '{{ depositUrl }}';
+    window.clickSoundFilePath = '{{ clickSoundFilePath }}';
+    window.wonSoundFilePath = '{{ wonSoundFilePath }}';
+    window.lossSoundFilePath = '{{ lossSoundFilePath }}';
+</script>

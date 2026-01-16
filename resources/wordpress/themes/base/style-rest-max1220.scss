@@ -1,0 +1,298 @@
+@media screen and (max-width: 1220px) {
+  /**** MAIN BODY ****/
+  div.main-width {
+    margin: 0px 30px;
+  }
+  .user-info-area .fa-circle-user,
+  #user-info-user-name {
+    display: none;
+  }
+  /***** LIST ****/
+  .widget-list-pending-text {
+    height: 54px;
+    line-height: 60px;
+  }
+  .widget-list-ticket h2,
+  .widget-list-ticket .widget-div-title {
+    padding-top: 20px;
+  }
+  .widget-list-button-container {
+    padding: 7px 20px 15px 20px;
+  }
+  .widget-list-ticket-image {
+    line-height: 8px;
+  }
+
+  .widget-list-ticket .widget-list-hamount {
+    padding: 7px 0 10px 0;
+  }
+  .widget-list-countdown-group {
+    padding-top: 12px;
+  }
+  .widget-list-ticket {
+    width: calc(25% - 22.5px);
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    min-width: 170px;
+    height: auto;
+  }
+
+  .widget-list-carousel {
+    height: 319px;
+  }
+  .widget-list-carousel .widget-list-ticket:first-of-type {
+    margin-left: 0;
+  }
+  .widget-list-carousel .widget-list-ticket:last-of-type {
+    margin-right: 0;
+  }
+  .widget-list-carousel .widget-list-ticket {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* type2 */
+  .widget-list-pending-text-type2 {
+    line-height: normal;
+    height: auto;
+  }
+  .widget-list-type2 .widget-list-carousel {
+    height: 313px;
+  }
+
+  /* view1 */
+  .widget-list-display1 .widget-list-ticket-image {
+    margin-top: 10px;
+  }
+
+  /* view2 */
+  .widget-list-type1.widget-list-display2 .widget-list-pending-text {
+    padding-top: 11px;
+  }
+  .widget-list-display2 .widget-list-carousel {
+    height: 226px;
+  }
+  .widget-list-display2 .widget-list-button-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .widget-list-display2 .widget-list-countdown-group {
+    padding-top: 18px;
+  }
+  .widget-list-display2 .widget-list-ticket {
+    width: calc(50% - 15px);
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* grid */
+  .widget-list-grid .widget-list-ticket {
+    margin-bottom: 15px;
+  }
+
+  /* common */
+
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin-left: 15px;
+  }
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(3n) {
+    margin-right: 15px;
+  }
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket-last,
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(2n + 1) {
+    margin-left: 0;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(5n) {
+    margin-right: 15px;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(5n + 1) {
+    margin-left: 15px;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(4n),
+  .widget-list-display1 .widget-list-grid .widget-list-ticket-last {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(4n + 1) {
+    margin-left: 0;
+  }
+
+  /***** TICKET ****/
+  .widget_lotto_platform_widget_ticket div.content-box {
+    padding-bottom: 30px;
+  }
+  .widget-ticket-summary-content {
+    text-align: left;
+  }
+  .widget-ticket-content {
+    margin-bottom: 0;
+  }
+  .widget-ticket-content {
+    text-align: left;
+  }
+  .widget-ticket-entity:hover {
+    margin-bottom: 20px;
+    padding-top: 27px;
+    top: 0;
+  }
+  .widget-ticket-entity-horizontal:hover {
+    padding-top: 19px;
+    top: initial;
+  }
+  .widget-ticket-entity:nth-of-type(5n) {
+    border-radius: 0;
+  }
+  .widget-ticket-entity:nth-of-type(5n + 1) {
+    border-radius: 0;
+    margin-left: -1px;
+  }
+  .widget-ticket-entity:nth-of-type(4n + 1) {
+    margin-left: 2px;
+  }
+  .widget-ticket-entity-horizontal {
+    width: 100%;
+
+    &:nth-child(n) {
+      border-radius: 4px;
+      margin-left: 0;
+    }
+  }
+
+  .widget-ticket-numbers,
+  .widget-ticket-bnumbers {
+    text-align: center;
+  }
+
+  .widget-raffle-ticket-summary {
+    width: 27%;
+  }
+
+  /***** NEWS WIDGET ****/
+  section.latest-news.latest-news-columns-2 .news-container {
+    width: calc(50% - 15px);
+  }
+  section.latest-news.latest-news-columns-2 .grid-sizer {
+    width: calc(50% - 15px);
+  }
+  section.latest-news.latest-news-columns-2 .gutter-sizer {
+    width: 30px;
+  }
+  section.latest-news article.news img {
+    width: 40%;
+    max-width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 40%;
+  }
+
+  /**** PAYMENTS ****/
+  label.payment-cc-content-field {
+    width: 100%;
+    text-align: left;
+    line-height: normal;
+  }
+  .payment-cc-content .checkbox {
+    margin-left: 0;
+  }
+  .payment-cc-content input[type='text'],
+  .platform-form.payment-form select {
+    width: 100%;
+  }
+
+  /**** ORDER ****/
+  div.order-lottery-quick-pick-container {
+    display: none;
+  }
+
+  //ticket card
+  .ticket-card-details {
+    .widget-ticket-numbers {
+      text-align: left;
+    }
+  }
+
+  /**** TABLES *****/
+  table.table-transactions,
+  table.table-transactions thead,
+  table.table-transactions tbody,
+  table.table-transactions th,
+  table.table-transactions td,
+  table.table-transactions tr {
+    display: block;
+  }
+  table.table-transactions thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  table.table-transactions .mobile-only-label {
+    display: inline-block;
+    font-weight: 400;
+  }
+  table.table-transactions tr td:first-of-type .mobile-only-label {
+    font-weight: inherit;
+  }
+  table.table-transactions
+    tr
+    td:first-of-type
+    .tickets-date
+    .mobile-only-label {
+    font-weight: normal;
+  }
+  table.table-transactions tbody tr td {
+    padding: 0;
+    height: auto;
+    text-align: left;
+    border-bottom-width: 0;
+  }
+  table.table-transactions tbody tr td:first-of-type {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    border-top-width: 1px;
+    border-top-color: #eaeaea;
+  }
+  table.table-transactions tbody tr td:last-of-type {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  table.table-transactions {
+    margin-top: 0px;
+  }
+  table.table-transactions .mobile-hide {
+    display: none;
+  }
+  table.table-transactions .tickets-id {
+    float: left;
+  }
+  table.table-transactions .tickets-date {
+    float: right;
+  }
+  table.table-tickets tbody tr td:nth-of-type(2) {
+    clear: both;
+    padding: 10px 0;
+  }
+  table.table-transactions .transactions-date {
+    font-size: 1em;
+  }
+}

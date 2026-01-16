@@ -1,0 +1,50 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+.vscode
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# the composer package lock file and install directory
+# composer.lock commented by icetique - we want this one for auto-deployment and it is recommended by composer to commit this file
+#/composer.lock
+/fuel/vendor
+
+# any of the fuel packages installed by default
+/docs/
+/fuel/core/
+/fuel/packages/auth/
+/fuel/packages/email/
+/fuel/packages/oil/
+/fuel/packages/orm/
+/fuel/packages/parser/
+
+# dynamically generated files
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+/fuel/app/config/crypt.php
+
+# test tools
+testa.bat
+testf.bat
+testff.bat
+testu.bat
+
+# migrations
+/fuel/app/config/*/migrations.php
+
+# tmp files
+/fuel/app/mautic-import.json
+/fuel/app/tmp_offset_new_user_fields_db_update.txt
+/fuel/app/tmp_offset_mautic_new_user_fields.txt
+!/fuel/app/tests/unit/classes/services/

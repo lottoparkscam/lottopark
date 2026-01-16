@@ -1,0 +1,52 @@
+.promotions-page-content {
+  .content-box {
+    background-color: unset !important;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    .col {
+      padding: 2rem;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1 1 0px;
+      .ball-with-icon {
+        background: #41934c;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        i {
+          font-size: 50px;
+          color: white;
+        }
+      }
+      .btn {
+        margin-top: auto;
+      }
+      .img-container {
+        max-height: 100px;
+        .rounded {
+          border-radius: 100%;
+        }
+      }
+      .h2-container {
+        flex: 0 0 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

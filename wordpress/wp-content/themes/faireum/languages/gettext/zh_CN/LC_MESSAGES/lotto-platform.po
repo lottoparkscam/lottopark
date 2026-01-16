@@ -1,0 +1,2144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "使用相同号码的彩票已添加到您的订单中."
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr "由于彩票规则已经改变，您不能使用相同的数字."
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "无法添加更多彩票，您已达到最大订单!"
+
+msgid "This lottery is no longer available."
+msgstr "此彩票不再可用."
+
+msgid "Incorrect ticket."
+msgstr "彩票不正确."
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr "您的免费快速彩票已被使用!"
+
+msgid "Incorrect transaction."
+msgstr "交易不正确."
+
+msgid "Your card has been removed!"
+msgstr "您的卡已被删除!"
+
+msgid "Wrong card!"
+msgstr "错卡!"
+
+msgid "Change e-mail address"
+msgstr "更改电子邮件地址"
+
+msgid "Change password"
+msgstr "更改密码"
+
+msgid "Edit profile"
+msgstr "编辑个人资料"
+
+msgid "My tickets"
+msgstr "我的彩票"
+
+msgid "My payment methods"
+msgstr "我的付款方式"
+
+msgid "My transactions"
+msgstr "我的交易"
+
+msgid "Deposit"
+msgstr "存款"
+
+msgid "Withdrawal"
+msgstr "提款"
+
+msgid "My details"
+msgstr "我的详细资料"
+
+msgid "E-mail address"
+msgstr "电子邮件地址"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Remember me"
+msgstr "记住我"
+
+msgid "You have been successfully logged in!"
+msgstr "您已成功登录!"
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in "
+"the e-mail, <a href=\"%s\">try to resend</a> or contact us for manual "
+"activation."
+msgstr ""
+"您的帐户无效。 请按照电子邮件中提供的激活链接，<a href=\"%s\">尝试重新发送</"
+"a>或与我们联系以进行手动激活."
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr "您的帐户无效。 请联系我们以激活您的帐户."
+
+msgid "Wrong credentials! Please try again."
+msgstr "错误的凭证！ 请再试一次."
+
+msgid "Too many login attempts! Please try again later."
+msgstr "登录尝试太多！ 请稍后再试."
+
+msgid "Incorrect captcha! Please try again."
+msgstr "验证码不正确！ 请再试一次."
+
+msgid "Security error! Please try again."
+msgstr "安全错误！ 请再试一次."
+
+msgid "The item has been deleted!"
+msgstr "该项目已被删除!"
+
+msgid "Undo"
+msgstr "撤消"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "找不到要删除的指定项目!"
+
+msgid "Your order has been deleted!"
+msgstr "您的订单已被删除!"
+
+msgid "Your country has been blocked."
+msgstr "您的卡已被删除!"
+
+msgid "Your item has been restored!"
+msgstr "您的项目已恢复!"
+
+msgid "Lines"
+msgstr "线"
+
+msgid "Lottery"
+msgstr "彩票"
+
+msgid "Unknown error! Please contact us!"
+msgstr "未知错误!请联系我们!"
+
+msgid "You need to choose at least %d lines for every %d-lines ticket!"
+msgstr ""
+
+msgid "Security error! Please contact us!"
+msgstr "安全错误！ 请联系我们!"
+
+msgid "The ticket has been added to your order!"
+msgstr "彩票已添加到您的订单!"
+
+msgid "Bad request! Please contact us!"
+msgstr "错误的请求！ 请联系我们!"
+
+msgid "You didn't reach the minimum order for this payment type!"
+msgstr ""
+
+msgid "Amount"
+msgstr "金额"
+
+msgid "Incorrect deposit amount value!"
+msgstr "存款金额不正确!"
+
+msgid "Return to %s"
+msgstr "返回 %s"
+
+msgid "Transaction ID"
+msgstr "交易ID"
+
+msgid "%s ticket"
+msgstr "%s 彩票"
+
+msgid "Transaction %s"
+msgstr "交易%s"
+
+msgid ""
+"A part of your order was removed as we have disabled some of the lotteries."
+msgstr "您的订单的一部分已被删除，因为我们已经禁用了一些彩票."
+
+msgid "IPN Error: Bad request! Please contact us!"
+msgstr "错误的请求！ 请联系我们!"
+
+msgid "IPN Error: IPN Mode is not HMAC"
+msgstr ""
+
+msgid "IPN Error: No HMAC signature sent."
+msgstr ""
+
+msgid "IPN Error: Error reading POST data."
+msgstr ""
+
+msgid "IPN Error: No or incorrect Merchant ID passed."
+msgstr ""
+
+msgid "IPN Error: HMAC signature does not match"
+msgstr ""
+
+msgid "IPN Error: Original currency mismatch"
+msgstr ""
+
+msgid "IPN Error: Amount is less than order total!"
+msgstr ""
+
+msgid "You have been successfully logged out!"
+msgstr "您已成功注销!"
+
+msgid "New password"
+msgstr "新密码"
+
+msgid "Repeat new password"
+msgstr "重复新密码"
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "您的密码已被更改。 您已成功登录!"
+
+msgid ""
+"This password reset link has expired. Please start the password reset "
+"process <a href=\"%s\">once again</a>."
+msgstr ""
+"此密码重置链接已过期。 请重新启动密码重设过程<a href=\"%s\">再一次</a>."
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual "
+"password change."
+msgstr "错误的密码链接。 请重试或联系我们手动更改密码."
+
+msgid "Forgotten Password"
+msgstr "忘记密码"
+
+msgid ""
+"<p>We have received a password reset request for your account. To complete "
+"the process please follow the link: <a href=\"%1$s\">reset password link</a>."
+"</p><p>Please ignore this e-mail if you did not request a password reset.</p>"
+msgstr ""
+"<p>我们已收到您的帐户密码重置请求。要完成此过程，请按照以下链接：<a href="
+"\"%1$s\">重置密码链接</a>。</p> <p>k</a>.</p><p>如果您没有要求重置密码，请忽"
+"略此电子邮件。</p>"
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+"我们已收到您的帐户密码重置请求。要完成此过程，请点击链接：%1$s\n"
+"\n"
+"如果您没有要求重置密码，请忽略此电子邮件."
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link "
+"to complete the process."
+msgstr "我们已经通过密码重设链接向您发送了一封电子邮件。 请按照链接完成此过程."
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later "
+"or contact us to reset your password."
+msgstr "我们在发送电子邮件时遇到问题。 请稍后再试或联系我们重置您的密码."
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr "您可以每24小时发送一次丢失的密码链接。 请稍后再试或联系我们."
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr "我们找不到您的帐户。 请尝试另一封电子邮件或与我们联系."
+
+msgid ""
+"Your account has been activated before. Please login to access your account."
+msgstr "您的帐户已被激活。 请登录以访问您的帐户."
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+"您的激活链接已过期。 请<a href=\"%s\">尝试重新发送</a>激活电子邮件或与我们联"
+"系."
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr "激活链接不正确.请联系我们进行手动激活."
+
+msgid "Account Activation"
+msgstr "帐号激活"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"谢谢你的注册！要完成激活过程，请点击链接：<a href=\"%1$s\">激活链接</a>."
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: %1$s"
+msgstr "谢谢你的注册！要完成激活过程，请点击链接：%1$s"
+
+msgid "The activation e-mail has been resend to you."
+msgstr "激活的电子邮件已经重新发送给您."
+
+msgid ""
+"We have encountered an error while trying to send the message. Please "
+"contact us to activate your account."
+msgstr "尝试发送邮件时遇到错误。请联系我们以激活您的帐户."
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later "
+"or contact us."
+msgstr "您可以每24小时重新发送一次激活链接. 请稍后再试或联系我们."
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr "重新发送链接不正确。请联系我们进行手动激活."
+
+msgid "Repeat password"
+msgstr "重复输入密码"
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s"
+"\" target=\"_blank\">Policy</a>"
+msgstr ""
+"我接受<a href=\"%s\" target=\"_blank\">条款</a>和<a href=\"%s\" target="
+"\"_blank\">政策</a>"
+
+msgid ""
+"Your account is created, however we've encountered problems while sending "
+"the activation e-mail. Please <a href=\"%s\">try to resend</a> the "
+"activation e-mail or contact us for manual activation."
+msgstr ""
+"您的帐户已创建，但是我们在发送激活电子邮件时遇到问题。请<a href=\"%s\">尝试重"
+"新发送激活电子邮件或与我们联系以进行手动激活."
+
+msgid "This e-mail is already registered."
+msgstr "此邮箱号已被注册."
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr "您的电子邮件域被阻止。请使用其他电子邮件地址."
+
+msgid "User ID"
+msgstr ""
+
+msgid "E-mail"
+msgstr "电子邮件"
+
+msgid "First Name"
+msgstr "名字"
+
+msgid "Last Name"
+msgstr "姓氏"
+
+msgid "Balance"
+msgstr ""
+
+msgid "Address #1"
+msgstr "地址 #1"
+
+msgid "Address #2"
+msgstr "地址 #2"
+
+msgid "City"
+msgstr "城市"
+
+msgid "Country"
+msgstr "国家"
+
+msgid "Region"
+msgstr "地区"
+
+msgid "Postal/ZIP Code"
+msgstr "邮政编码"
+
+msgid "Phone Country"
+msgstr "国家"
+
+msgid "Phone"
+msgstr "电话"
+
+msgid "Birthdate"
+msgstr "生日"
+
+msgid "Time Zone"
+msgstr "时区"
+
+msgid "Date register"
+msgstr ""
+
+msgid "Register IP"
+msgstr ""
+
+msgid "Last IP"
+msgstr "姓氏"
+
+msgid "Register Country"
+msgstr "国家"
+
+msgid "Last Country"
+msgstr "国家"
+
+msgid "Last Active"
+msgstr "姓氏"
+
+msgid "Last Update"
+msgstr "姓氏"
+
+msgid "First Purchase"
+msgstr "名字"
+
+msgid "Anonymous"
+msgstr ""
+
+msgid "Payment Type"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date Confirmed"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Ticket ID"
+msgstr ""
+
+msgid "Draw Date"
+msgstr ""
+
+msgid "Date Processed"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Prize"
+msgstr ""
+
+msgid "Prize Net"
+msgstr ""
+
+msgid "Prize Jackpot"
+msgstr ""
+
+msgid "Prize Quickpick"
+msgstr ""
+
+msgid "Win"
+msgstr ""
+
+msgid "No winnings"
+msgstr ""
+
+msgid "Quick Pick"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Jackpot"
+msgstr "Eurojackpot"
+
+msgid "Numbers"
+msgstr ""
+
+msgid "Bonus Numbers"
+msgstr ""
+
+msgid "Withdrawal ID"
+msgstr "提款"
+
+msgid "Withdrawal Type"
+msgstr "提款"
+
+msgid "Data"
+msgstr ""
+
+msgid "Declined"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Card Number"
+msgstr "卡号"
+
+msgid "Exp Month"
+msgstr ""
+
+msgid "Exp Year"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Last used"
+msgstr "姓氏"
+
+msgid "PersonalData"
+msgstr ""
+
+msgid "Repeat e-mail"
+msgstr "重复电子邮件"
+
+msgid "This e-mail address is already used by you."
+msgstr "该电子邮件地址已被您使用."
+
+msgid "This e-mail address is already registered."
+msgstr "该邮箱地址已被注册."
+
+msgid ""
+"Failed to update your e-mail address! Please try again or contact us to "
+"solve this issue."
+msgstr "无法更新您的电子邮件地址！ 请重试或联系我们解决这个问题."
+
+msgid "E-mail Activation"
+msgstr "激活电子邮件"
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"感谢您更新您的电子邮件！ 要完成激活过程，请点击链接：<a href=\"%1$s\">激活链"
+"接</a>."
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: %1$s"
+msgstr "感谢您更新您的电子邮件！ 要完成激活过程，请点击链接：％1 $ s%1$s"
+
+msgid ""
+"Your email address has been changed, however we've encountered problems "
+"while sending the activation e-mail. Please contact us to activate your "
+"account."
+msgstr ""
+"您的电子邮件地址已更改，但发送激活电子邮件时遇到问题。 请联系我们以激活您的帐"
+"户."
+
+msgid "Current password"
+msgstr "当前密码"
+
+msgid "Your password has been changed."
+msgstr "您的密码已被更改."
+
+msgid "Wrong current password! Please try again."
+msgstr "当前密码错误！ 请再试一次."
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr "错误国家! 请联系我们解决问题!"
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr "错误地区! 请联系我们解决问题!"
+
+msgid "Wrong birth date!"
+msgstr "错误的出生日期!"
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr "错误的时区! 请联系我们解决问题!"
+
+msgid "E-mail and Repeat e-mail are not equal!"
+msgstr ""
+
+msgid "Your data has been saved!"
+msgstr "您的数据已被保存!"
+
+msgid "Your e-mail has been changed."
+msgstr "您的电子邮件已更改."
+
+msgid "Confirmation Password"
+msgstr "忘记密码"
+
+msgid ""
+"Your account have been successfully deleted and you have been successfully "
+"logged out!"
+msgstr "您的密码已被更改。 您已成功登录!"
+
+msgid "Wrong Confirmation Password! Please try again."
+msgstr "当前密码错误！ 请再试一次."
+
+msgid "Incorrect withdrawal type."
+msgstr "提款类型不正确."
+
+msgid "Incorrect withdrawal amount."
+msgstr "提款金额不正确."
+
+msgid ""
+"We have received your withdrawal request. Please allow up to 24h for our "
+"acceptance."
+msgstr "我们已收到您的提款申请。请允许最多24小时等待我们的接受."
+
+msgid ""
+"You do not have enough balance to withdraw money from the account (minimum "
+"%s)!"
+msgstr "您没有足够的余额从帐户中提取资金(最低%s)!"
+
+msgid "Please select another payment method."
+msgstr ""
+
+msgid "Card number"
+msgstr "卡号"
+
+msgid "Expiration date"
+msgstr "截止日期"
+
+msgid "Name on card"
+msgstr "卡上的名字"
+
+msgid "Save card details for future use"
+msgstr "保存卡片详细信息以备将来使用"
+
+msgid "Choose saved card"
+msgstr "选择保存的卡"
+
+msgid "CVV code"
+msgstr "CVV代码"
+
+msgid "This card looks expired, please check the expiration date."
+msgstr "此卡已过期，请检查有效期."
+
+msgid "Account IBAN number"
+msgstr "帐号IBAN号码"
+
+msgid "SWIFT"
+msgstr "SWIFT"
+
+msgid "Bank name"
+msgstr "银行名称"
+
+msgid "First Name (optional)"
+msgstr "名字 （可选）"
+
+msgid "Last Name (optional)"
+msgstr "姓氏（可选）"
+
+msgid "Bitcoin Wallet Address"
+msgstr "比特币钱包地址"
+
+msgid "Neteller E-mail"
+msgstr "Neteller电子邮件"
+
+msgid "Skrill E-mail"
+msgstr "Skrill电子邮件"
+
+msgid "and %d Powerball number"
+msgstr ""
+
+msgid "and %d Mega Ball number"
+msgstr ""
+
+msgid "and %d Euronumbers"
+msgstr "卡号"
+
+msgid "and %d Lucky Stars numbers"
+msgstr ""
+
+msgid "and %d Reintegro number"
+msgstr ""
+
+msgid "Reintegro"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "<strong>彩票当地时间：</strong>"
+
+msgid "Bank account"
+msgstr "银行账户"
+
+msgid "Skrill"
+msgstr "Skrill"
+
+msgid "Neteller"
+msgstr "Neteller"
+
+msgid "BTC"
+msgstr "BTC"
+
+msgid "Redirecting to the payment page..."
+msgstr "重定向到付款页面..."
+
+msgid "Amount (%s)"
+msgstr "金额"
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr "<strong>彩票当地时间：</strong>"
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr "<strong>彩票当地时间：</strong>"
+
+msgid "Choose withdrawal type"
+msgstr "提款类型不正确."
+
+msgid "Enter withdrawal amount"
+msgstr "提款金额不正确."
+
+msgid "Your first name"
+msgstr "名字"
+
+msgid "Your last name"
+msgstr "自定义名称"
+
+msgid "Your account IBAN number"
+msgstr "帐号IBAN号码"
+
+msgid "Your bank SWIFT number"
+msgstr ""
+
+msgid "Your bank name"
+msgstr "银行名称"
+
+msgid "Your bitcoin wallet address"
+msgstr "比特币钱包地址"
+
+msgid "Your Neteller e-mail"
+msgstr "Neteller电子邮件"
+
+msgid "Your Skrill e-mail"
+msgstr "Skrill电子邮件"
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "快速选票已添加到您的订单."
+
+msgid "FAQ Category"
+msgstr "常见问题类别"
+
+msgid "FAQ"
+msgstr "常见问题"
+
+msgid "This category cannot be deleted."
+msgstr "此类别无法删除."
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "乐透平台：您无法删除此页面."
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+"乐透平台：禁用视觉编辑器。 请编辑Wordpress之外的HTML内容并将其粘贴到此处."
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "乐透平台：您无法编辑此页面."
+
+msgid "Lotto Next Draw"
+msgstr "乐透下一期"
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery "
+"Page"
+msgstr "显示下一期乐透信息&bull; LIMIT：结果/信息/播放 - 彩票页面"
+
+msgid "Lotto Featured"
+msgstr "乐透特色"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "显示特色彩票作为滑块&bull;; 限制：无"
+
+msgid "Lotto List"
+msgstr "乐透列表"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "显示彩票和&bull的清单; 限制：无"
+
+msgid "Lotto News"
+msgstr "乐透新闻"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "显示最近的帖子（新闻）＆bull; 限制：无"
+
+msgid "Lotto Small Next Draw"
+msgstr "下一期小乐透"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "显示下一期小乐透抽奖部件&bull; 限制：无"
+
+msgid "Lotto Small Lottery"
+msgstr "小乐透"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "显示下一期小乐透小部件&bull; 限制：无"
+
+msgid "Lotto Small Results"
+msgstr "小乐透结果"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "显示下一期小乐透小部件&bull; 限制：无"
+
+msgid "Lotto Small Slider"
+msgstr "乐透小滑块"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "显示小滑块部件&bull; 限制：无"
+
+msgid "Small Slider"
+msgstr "小滑块"
+
+msgid "Lotto Small Text"
+msgstr "乐透小文字"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "显示小文字&bull; 限制：无"
+
+msgid "Lotto Small Winners"
+msgstr "小乐透赢家"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "显示小乐透最后赢家&bull; 限制：无"
+
+msgid "Small Winners"
+msgstr "小乐透赢家"
+
+msgid "Lotto Ticket"
+msgstr "乐透彩票"
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/"
+"Info/Play - Lottery Page"
+msgstr ""
+"显示彩票（用户可以选择他的号码）＆bull; 限制：结果/信息/播放 - 彩票页面"
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-"
+"mail for better website experience. You can resend the activation e-mail <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"我们已经通过激活链接向您发送了一封电子邮件。 请激活您的电子邮件以获得更好的网"
+"站体验。 您可以重新发送激活电子邮件<a href=\"%s\">此处</a>."
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Small"
+msgstr "小"
+
+msgid "Large with background"
+msgstr ""
+
+msgid "Disable for mobile"
+msgstr "隐藏在手机上"
+
+msgid "Line #1 text"
+msgstr ""
+
+msgid "Line #2 text"
+msgstr ""
+
+msgid "Language: "
+msgstr "语言: "
+
+msgid "[hide]"
+msgstr "[隐藏]"
+
+msgid "[show]"
+msgstr "[显示]"
+
+msgid "Order"
+msgstr "下单"
+
+msgid "by highest jackpot"
+msgstr "由最高大奖"
+
+msgid "by nearest draw"
+msgstr "由最近一次的抽奖"
+
+msgid "by custom order"
+msgstr "由定制订单"
+
+msgid "Slide count"
+msgstr "幻灯片计数"
+
+msgid "Custom name"
+msgstr "自定义名称"
+
+msgid "Custom order"
+msgstr "定制订单"
+
+msgid "Carousel"
+msgstr "轮播"
+
+msgid "Grid"
+msgstr "格"
+
+msgid "Count"
+msgstr "计数"
+
+msgid "Countdown"
+msgstr "倒数"
+
+msgid "Always"
+msgstr "总是"
+
+msgid "24 hours before"
+msgstr "24小时前"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Tall - 5 elements"
+msgstr "高 - 5元素"
+
+msgid "Short - 3 elements"
+msgstr "短 - 3元素"
+
+msgid "Columns"
+msgstr "列"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "Number of posts to show:"
+msgstr "显示的帖子数量:"
+
+msgid "Width (%):"
+msgstr "宽度(%):"
+
+msgid "The margins are calculated automatically."
+msgstr "边距自动计算."
+
+msgid "Content"
+msgstr "内容"
+
+msgid "Hide on mobile"
+msgstr "隐藏在手机上"
+
+msgid "Please save before use."
+msgstr "使用前请保存."
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr "请填写英文字段并使用WPML字符串翻译<a href=\"%s\">此处</a>进行翻译."
+
+msgid "Name"
+msgstr "名字"
+
+msgid "Amount<span></span>"
+msgstr "金额<span></span>"
+
+msgid "Amount:"
+msgstr "金额:"
+
+msgid "by newest"
+msgstr "最新"
+
+msgid "by random"
+msgstr "随机"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Compact"
+msgstr "紧凑"
+
+msgid "Not found"
+msgstr "没有找到"
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+"您要查找的网页不存在。 <br>返回 <a href=\"%s\">主页</a> 或试试手运，<a href="
+"\"%s\">玩彩票</a>."
+
+msgid "404 - Not Found"
+msgstr "404未找到"
+
+msgid "back to order"
+msgstr "返回订单"
+
+msgid "deposit"
+msgstr "存款"
+
+msgid "buy tickets"
+msgstr "购买门票"
+
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"popup-signup\">Sign up</a>."
+msgstr "没有帐号？ <a href=\"#\" class=\"popup-signup\">注册</a>."
+
+msgid "Your e-mail address"
+msgstr "您的电子邮件地址"
+
+msgid "Your password"
+msgstr "您的密码"
+
+msgid "login"
+msgstr "登录"
+
+msgid "Forgotten password"
+msgstr "忘记密码"
+
+msgid ""
+"Remember your password? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr "记得密码了吗？<a href=\"#\" class=\"popup-login\">在此登录</a>."
+
+msgid "Your new password"
+msgstr "您的新密码"
+
+msgid "Repeat your new password"
+msgstr "重复输入您的新密码"
+
+msgid "change"
+msgstr "更改"
+
+msgid "send"
+msgstr "发送"
+
+msgid "Ticket %s"
+msgstr "门票%s"
+
+msgid "withdrawal"
+msgstr "提款"
+
+msgid "Withdrawal List"
+msgstr "提款清单"
+
+msgid "pending"
+msgstr "处理中"
+
+msgid "approved"
+msgstr "批准"
+
+msgid "declined"
+msgstr "拒绝"
+
+msgid "canceled"
+msgstr "取消"
+
+msgid "next"
+msgstr "下一个"
+
+msgid "previous"
+msgstr "之前"
+
+msgid "Image %1 of %2"
+msgstr "图片%1之%2"
+
+msgid "win"
+msgstr "胜利"
+
+msgid "no winnings"
+msgstr "没有胜出"
+
+msgid "Date processed"
+msgstr "处理日期"
+
+msgid "Draw date"
+msgstr "抽奖日期"
+
+msgid "Free"
+msgstr "免费"
+
+msgid "Pay out"
+msgstr "支付"
+
+msgid "paid out"
+msgstr "支付"
+
+msgid "Draw result"
+msgstr "抽奖结果"
+
+msgid "Ticket details"
+msgstr "彩票详情"
+
+msgid "Lines: %s"
+msgstr "行：%s"
+
+msgid "Match"
+msgstr "匹配"
+
+msgid "none"
+msgstr "没有"
+
+msgid "Net"
+msgstr "净"
+
+msgid "-"
+msgstr "-"
+
+msgid "return to ticket list"
+msgstr "返回彩票列表"
+
+msgid "Sort by"
+msgstr "排序方式"
+
+msgid "by lowest"
+msgstr "最低"
+
+msgid "by highest"
+msgstr "最高"
+
+msgid "by oldest"
+msgstr "由最早"
+
+msgid "Ticket ID and date"
+msgstr "彩票ID和日期"
+
+msgid "Lottery name"
+msgstr "彩票名称"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Valid to draw"
+msgstr "有效抽奖"
+
+msgid "quick pick"
+msgstr "快速选择"
+
+msgid "Play again"
+msgstr "再玩一次"
+
+msgid "Details"
+msgstr "详细信息"
+
+msgid "No tickets."
+msgstr "没有彩票."
+
+msgid "failure"
+msgstr "失败"
+
+msgid "Confirmation date"
+msgstr "确认日期"
+
+msgid "Payment method"
+msgstr "付款方法"
+
+msgid "Credit Card"
+msgstr "信用卡"
+
+msgid "Transaction details"
+msgstr "交易明细"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a> 彩票"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "行： <span>%s</span> &times; %s"
+
+msgid "Total Sum"
+msgstr "总和"
+
+msgid "return to the transaction list"
+msgstr "返回到交易列表"
+
+msgid "Account balance"
+msgstr "账户余额"
+
+msgid "(confirmed)"
+msgstr "(确认)"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "No transactions."
+msgstr "没有交易."
+
+msgid "Number"
+msgstr "号码"
+
+msgid "Remove"
+msgstr "清除"
+
+msgid "Confirm"
+msgstr "确认"
+
+msgid "Are you sure?"
+msgstr "您确定吗?"
+
+msgid "No payment methods saved!"
+msgstr "没有保存付款方式!"
+
+msgid "Choose country"
+msgstr "选择您的国家"
+
+msgid "Choose time zone"
+msgstr "选择时区"
+
+msgid "Choose your country"
+msgstr "选择您的国家"
+
+msgid "Choose region"
+msgstr "选择地区"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Address (optional additional information)"
+msgstr "地址（可选附加信息）"
+
+msgid "Click here to cancel the e-mail change"
+msgstr "点击此处取消电子邮件更改"
+
+msgid "Change e-mail"
+msgstr "更改电子邮件"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "您将需要激活您的新电子邮件地址."
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail "
+"for better user experience."
+msgstr ""
+"我们将向您发送可选的激活电子邮件. 请激活您的电子邮件以获得更好的用户体验."
+
+msgid "Click here to cancel the password change"
+msgstr "点击此处取消密码更改"
+
+msgid "Old password"
+msgstr "旧密码"
+
+msgid "save changes"
+msgstr "保存更改"
+
+msgid "Download personal data"
+msgstr ""
+
+msgid "Delete account"
+msgstr "我的帐户"
+
+msgid "choose"
+msgstr "选择"
+
+msgid ""
+"Are you sure you want to delete your account? This operation cannot be "
+"undone."
+msgstr ""
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "好"
+
+msgid "try again"
+msgstr "再试一次"
+
+msgid "bn"
+msgstr "bn"
+
+msgid "m"
+msgstr "m"
+
+msgid "%s to win"
+msgstr "%s达到胜利"
+
+msgid "Draw event on %s"
+msgstr "在%s上绘制事件"
+
+msgid "Already a member? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr "已经是会员？<a href=\"#\" class=\"popup-login\">在此登录</a>."
+
+msgid "Repeat your password"
+msgstr "重复输入您的新密码"
+
+msgid "sign up"
+msgstr "注册"
+
+msgid "Play %s"
+msgstr "玩%s"
+
+msgid "%s Results"
+msgstr "%s结果"
+
+msgid "%s Information"
+msgstr "%s信息"
+
+msgid "%s News"
+msgstr "%s新闻"
+
+msgid "show all"
+msgstr "显示所有"
+
+msgid "Latest Result"
+msgstr "最新结果"
+
+msgid "Schedule"
+msgstr "时间表"
+
+msgid "Guess Range"
+msgstr "猜测范围"
+
+msgid "Tier"
+msgstr "水平"
+
+msgid "Match %s"
+msgstr "匹配%s"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "赢取机会"
+
+msgid "Prize #%d"
+msgstr "奖#%d"
+
+msgid "Free Quick Pick"
+msgstr "免费快速选择"
+
+msgid "%s shared"
+msgstr "%s 共享"
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr "预计"
+
+msgid "1 in %s"
+msgstr "1/ %s"
+
+msgid "Overall chances of winning any prize"
+msgstr "获奖的总体机会"
+
+msgid "from A to Z"
+msgstr "从A到Z"
+
+msgid "from Z to A"
+msgstr "从Z到A"
+
+msgid "Draw"
+msgstr "抽奖"
+
+msgid "Winning Odds"
+msgstr "获胜赔率"
+
+msgid "Estimated Jackpot"
+msgstr "估计大奖"
+
+msgid "Next Draw"
+msgstr "下一次抽獎"
+
+msgid "play"
+msgstr "玩"
+
+msgid "Choose payment method"
+msgstr "选择付款方式"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "以帐户余额支付 <span>(%s)</span>"
+
+msgid "Bank payment"
+msgstr "银行名称"
+
+msgid "BTC, ETH + %d altcoins"
+msgstr ""
+
+msgid "QIWI, Yandex.Money, Payeer..."
+msgstr ""
+
+msgid "Payment card"
+msgstr "支付卡"
+
+msgid "BTC, ETH + 150 altcoins"
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment "
+"is processed."
+msgstr "以帐户余额支付。付款处理后剩余余额将为%s ."
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr "您的信用卡将由%s 收取."
+
+msgid "New card"
+msgstr "新卡"
+
+msgid "Card number (spaces allowed)"
+msgstr "卡号（允许空格）"
+
+msgid ""
+"The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr "在支付卡背面的3或4位CVV代码."
+
+msgid "What is this?"
+msgstr "这是什么?"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "此付款类型的最低订单为%s."
+
+msgid "Pay using %s."
+msgstr "使用%s 付款."
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you "
+"don't have an Entropay account, you can always register it <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "Available payment methods: %s."
+msgstr "我的付款方式"
+
+msgid ""
+"Please be aware that wire transfers may take up to 2 working days to be "
+"processed."
+msgstr ""
+
+msgid "This can result in delay of processing the ticket."
+msgstr ""
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "支付<span class=\"%s\">%s</span>"
+
+msgid "Estimated jackpot"
+msgstr "估计大奖"
+
+msgid "Winners"
+msgstr "获奖者"
+
+msgid "Payout per winner"
+msgstr "每个赢家支付"
+
+msgid "Total Winners"
+msgstr "总获奖者"
+
+msgid "Total Prize"
+msgstr "总奖金"
+
+msgid "Last Draw"
+msgstr "上一次抽奖"
+
+msgid "Payout"
+msgstr "奖金"
+
+msgid "Results"
+msgstr "结果"
+
+msgid "Rollover"
+msgstr "累积"
+
+msgid "Total payout"
+msgstr "总奖金"
+
+msgid "change language"
+msgstr "更改语言"
+
+msgid "Wrong line"
+msgstr "错线"
+
+msgid "Too few lines"
+msgstr "行数太少"
+
+msgid "Incorrect order"
+msgstr "订单不正确"
+
+msgid "Minimum bets"
+msgstr ""
+
+msgid "Log in"
+msgstr "登录"
+
+msgid "Sign up"
+msgstr "注册"
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr "至少有一行没有正确填写. 您要继续进行错误的行吗?"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s "
+"lines! Do you want to quick pick the lines for you?"
+msgstr ""
+"你选择的行数太少了。这个彩票的最小金额是%1s线！你想我们为你快速选择线路吗?"
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr "你选择了错误的行数。 所选行数应为%1s 的倍数。 你想快点选择其余的线吗?"
+
+msgid "You need to choose at least %1d lines for every %2d-lines ticket!"
+msgstr ""
+
+msgid "draw in %s"
+msgstr "以%s绘制"
+
+msgid "%d Quick-Pick lines"
+msgstr "%d 快速选择线"
+
+msgid "only %s"
+msgstr "只有%s"
+
+msgid "or pick the numbers manually"
+msgstr "或手动选择号码"
+
+msgid "Latest news"
+msgstr "最新消息"
+
+msgid "Primary"
+msgstr "主要"
+
+msgid "Footer"
+msgstr "页脚"
+
+msgid "Front Page"
+msgstr "首页"
+
+msgid "Front Page widget area."
+msgstr "前页按钮区."
+
+msgid "Play - List Page - Top"
+msgstr "播放 - 列表页 - 顶部"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr "播放彩票页面（带彩票列表）按钮区域.该区域的按钮将在\"更多\"内容之前显示."
+
+msgid "Play - List Page - Bottom"
+msgstr "播放 - 列表页面 - 底部"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr "播放彩票页面（带彩票列表）按鈕区域.该区域的按鈕将显示在\"更多\"内容之后."
+
+msgid "Play - Lottery Page - Top"
+msgstr "播放 - 彩票页 - 顶部"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display before content."
+msgstr "播放彩票页（带购票）按鈕区域。.该区域的按鈕将显示在内容之前."
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "播放 - 彩票页 - 底部"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display after content."
+msgstr "播放彩票页（带购票）按鈕区域.内容将显示该区域的按鈕."
+
+msgid "Results - List Page - Top"
+msgstr "结果 - 列表页 - 顶部"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr "彩票结果 - 列表页面按鈕区域.该区域的按鈕将在\"更多\"内容之前显示."
+
+msgid "Results - List Page - Bottom"
+msgstr "结果 - 列表页 - 底部"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr "彩票结果 - 列表页面按鈕区域.该区域的按鈕将显示在\"更多\"内容之后."
+
+msgid "Results - Lottery Page - Top"
+msgstr "结果 - 彩票页 - 顶部"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr "彩票结果 - 特定彩票页面按鈕区域.该区域的按鈕将在\"更多\"内容之前显示."
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "结果 - 彩票页 - 底部"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr "彩票结果 - 特定彩票页面按鈕区域.该区域的按鈕将显示在\"更多\"内容之后."
+
+msgid "Results - Lottery Page - Content"
+msgstr "结果 - 彩票页 - 内容"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr "彩票结果 - 特定彩票页面按鈕区域. 该区域的按鈕将显示在内容旁边."
+
+msgid "Info - List Page - Top"
+msgstr "信息 - 列表页 - 顶部"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr "彩票信息 - 列表页面按鈕区域.该区域的按鈕将在\"更多\"内容之前显示."
+
+msgid "Info - List Page - Bottom"
+msgstr "信息 - 列表页 - 底部"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr "彩票信息 - 列表页面按鈕区. 该区域的按鈕将显示在\"更多\"内容之后."
+
+msgid "Info - Lottery Page - Top"
+msgstr "信息 - 彩票页 - 顶部"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr "彩票信息 - 特定彩票页面按鈕区域. 该区域的按鈕将在\"更多\"内容之前显示."
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "信息 - 彩票页 - 底部"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr "彩票信息 - 特定彩票页面按鈕区域。 该区域的按鈕将显示在\"更多\"内容之后."
+
+msgid "Info - Lottery Page - Content"
+msgstr "信息 - 彩票页 - 内容"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr "彩票信息 - 特定彩票页面按鈕区域. 该区域的按鈕将在\"更多\"内容之前显示."
+
+msgid "News - Default Page - Content"
+msgstr "新闻 - 默认页面 - 内容"
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display "
+"next to content."
+msgstr "彩票新闻 - 默认页面按鈕区域.该区域的按鈕将显示在内容旁边."
+
+msgid "News - Lottery Page - Content"
+msgstr "新闻 - 彩票页 - 内容"
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content related to the lottery."
+msgstr ""
+"彩票新闻 - 特定彩票页面按鈕区. 该区域的按鈕将显示在与彩票相关的内容旁边."
+
+msgid "Home"
+msgstr "主页"
+
+msgid "Login"
+msgstr "登录"
+
+msgid "Sign Up"
+msgstr "注册"
+
+msgid "My account"
+msgstr "我的帐户"
+
+msgid "log out"
+msgstr "登出"
+
+msgid "Theme Options"
+msgstr "主题选项"
+
+msgid "Change your theme options."
+msgstr "更改您的主题选项."
+
+msgid "Choose header color scheme"
+msgstr "选择标题颜色方案"
+
+msgid "Choose font"
+msgstr "选择字体"
+
+msgid "Deposit button place"
+msgstr ""
+
+msgid "Choose single page header image"
+msgstr "选择单页头图像"
+
+msgid "%s: Lotto Featured #%d"
+msgstr "%s：乐透精选 #%d"
+
+msgid "Change your lotto featured widget style."
+msgstr "更改您的乐透特色小部件样式."
+
+msgid "Choose large background image"
+msgstr "选择背景图片"
+
+msgid "Choose mobile background image for \"large background\" option"
+msgstr "选择移动背景图片"
+
+msgid "Choose background image"
+msgstr "选择背景图片"
+
+msgid "Choose mobile background image"
+msgstr "选择移动背景图片"
+
+msgid "Social Links"
+msgstr "社交链接"
+
+msgid "Add your social links."
+msgstr "添加您的社交链接."
+
+msgid "Facebook URL (%s)"
+msgstr "Facebook网址（%s）"
+
+msgid "Twitter URL (%s)"
+msgstr "Twitter网址(%s)"
+
+msgid "Social Share Links"
+msgstr "社交链接"
+
+msgid "Add social share links to articles."
+msgstr ""
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "checkout"
+msgstr "查看"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Sum"
+msgstr "总和"
+
+msgid "Play"
+msgstr "玩"
+
+msgid "Information"
+msgstr "信息"
+
+msgid "News"
+msgstr "新闻"
+
+msgid "Share with: "
+msgstr ""
+
+msgid "USA"
+msgstr "美国"
+
+msgid "Europe"
+msgstr "欧洲"
+
+msgid "Italy"
+msgstr "意大利"
+
+msgid "UK"
+msgstr "英国"
+
+msgid "Poland"
+msgstr "波兰"
+
+msgid "Spain"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Powerball"
+msgstr "强力球"
+
+msgid "Mega Millions"
+msgstr "超级百万"
+
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+msgid "SuperEnalotto"
+msgstr "超级乐透"
+
+msgid "UK Lottery"
+msgstr "英国彩票"
+
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+msgid "Polish Lotto"
+msgstr "波兰乐透"
+
+msgid "La Primitiva"
+msgstr ""
+
+msgid "BonoLoto"
+msgstr ""
+
+msgid "Lotto 6aus49"
+msgstr ""
+
+msgid "Mega-Sena"
+msgstr ""
+
+msgid "El Gordo"
+msgstr ""
+
+msgid "Loteria de Navidad"
+msgstr ""
+
+msgid "Loteria del Nino"
+msgstr ""
+
+msgid "Lotto America"
+msgstr "彩票"
+
+msgid "GlucksSpirale"
+msgstr ""
+
+msgid "Thunderball"
+msgstr "强力球"
+
+msgid "Lotto IE"
+msgstr ""
+
+msgid "Lotto FR"
+msgstr ""
+
+msgid "Lotto AT"
+msgstr ""
+
+msgid "Lotto 6/49"
+msgstr ""
+
+msgid "Oz Lotto"
+msgstr "波兰乐透"
+
+msgid "Powerball AU"
+msgstr "强力球"
+
+msgid "Saturday Lotto"
+msgstr ""
+
+msgid "Mon & Wed Lotto"
+msgstr ""
+
+msgid "Debit card"
+msgstr "借记卡"
+
+msgid "edit profile"
+msgstr "编辑个人资料"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "show win"
+msgstr "显示胜利"
+
+msgid "show no winnings"
+msgstr "没有胜利"
+
+msgid "show pending"
+msgstr "显示处理中"
+
+msgid "show approved"
+msgstr "显示批准"
+
+msgid "show failure"
+msgstr "显示失败"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr "感谢您选择我们！ 您已经登录."
+
+msgid "Your account is now fully active."
+msgstr "您的帐户现在已完全激活."
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent "
+"you to your e-mail."
+msgstr ""
+"要完全激活您的帐户并访问所有功能，请按照我们发送给您的电子邮件的确认链接确认"
+"您的电子邮件地址."
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+"要激活您的帐户，请按照我们发送给您的电子邮件的确认链接确认您的电子邮件地址."
+
+msgid "Different amount"
+msgstr "不同的金额"
+
+msgid "The minimum deposit amount is %s."
+msgstr "最低存款金额为%s."
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr "付款无法处理。 请重试或联系我们."
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We "
+"suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr "类别"
+
+msgid "Add Quick Pick ticket:"
+msgstr "添加快速选票:"
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "一些彩票已被移到下一次抽奖!"
+
+msgid ""
+"For orders less than %1s you can pay with account balance only, however your "
+"balance is insufficient."
+msgstr "对于小于%1s 的订单，您只能使用帐户余额支付，但您的余额不足."
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr "对于小于 %1s的订单，您只能使用帐户余额支付."
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to "
+"your order."
+msgstr "你没有彩票。<a href=\"%s\">立即抽奖</a>，在你的订单添加彩票."
+
+msgid "add more tickets"
+msgstr "添加更多彩票"
+
+msgid "pay now"
+msgstr "现在付款"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "谢谢！ 您的付款已成功处理。"
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+msgstr "根据付款方式，付款的注册可能需要60分钟."
+
+msgid "&laquo; back to the news list"
+msgstr "&laquo; 回到新闻列表"
+
+msgid "choose category"
+msgstr "选择类别"
+
+msgid "This FAQ category is empty!"
+msgstr "这个常问问题类别是空的!"
+
+msgid "Next estimated jackpot"
+msgstr "下一个估计大奖"
+
+msgid "Next draw in"
+msgstr "下一次抽奖在"
+
+msgid "days"
+msgstr "天"
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "小时"
+
+msgctxt "featured"
+msgid "min"
+msgstr "分钟"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "秒"
+
+msgid "Buy tickets"
+msgstr "购买彩票"
+
+msgid "Get a Ticket"
+msgstr "获得彩票"
+
+msgid "Play now"
+msgstr "现在玩"
+
+msgid "No active lotteries."
+msgstr "没有有效彩票."
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "小时"
+
+msgctxt "inline"
+msgid "min"
+msgstr "分钟"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "秒"
+
+msgid "see more"
+msgstr "查看更多"
+
+msgid "No latest news."
+msgstr "没有最新消息."
+
+msgid "This lottery is inactive."
+msgstr "这个彩票是无效的."
+
+msgid "Latest results"
+msgstr "最新结果"
+
+msgid "No latest results."
+msgstr "没有最新的结果."
+
+msgid "How to play and win?"
+msgstr "如何玩和赢?"
+
+msgid "learn more"
+msgstr "了解更多"
+
+msgid "No slides."
+msgstr "没有幻灯片."
+
+msgid "Latest winners"
+msgstr "最新获奖者"
+
+msgid "%s from %s won"
+msgstr "%s来自%s赢了"
+
+msgid "No winners."
+msgstr "没有赢家."
+
+msgid "Quick Pick All"
+msgstr "快速选择全部"
+
+msgid "Clear All"
+msgstr "全部清除"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "您不能为您的订单添加更多彩票!"
+
+msgid "You can order a multiple of %s lines only."
+msgstr "您只能订购%s行的倍数."
+
+msgid "Minimum lines for this lottery is %s."
+msgstr "此彩票的最低线为%s."
+
+msgid ""
+"It's too late to buy a ticket for the nearest draw. Your order will be moved "
+"to the next draw!"
+msgstr "买票的时间太迟了。你的订单将被移到下一次抽奖!"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Pick %d numbers"
+msgstr "选择%d 个数字"
+
+msgid "Processing..."
+msgstr "处理中..."
+
+msgid "confirm"
+msgstr "确认"
+
+msgid "+ Add new line"
+msgstr "+添加新线"
+
+msgid "+ Edit line"
+msgstr "+编辑线"
+
+msgid "Fewer Lines -"
+msgstr "减线 -"
+
+msgid "More Lines +"
+msgstr "更多线+"
+
+msgid "continue"
+msgstr "继续"
+
+msgid "required"
+msgstr "字段 :label 是必需填写的。"
+
+msgid "min_length"
+msgstr "字段 :label 至少要包含 :param:1 个字符。"
+
+msgid "max_length"
+msgstr "字段 :label 不可以包含超过 :param:1 个字符。"
+
+msgid "exact_length"
+msgstr "字段 :label 必须完全包含 :param:1 字符。"
+
+msgid "match_value"
+msgstr "字段 :label 必须包含值 :param:1。"
+
+msgid "match_pattern"
+msgstr "字段 :label 包含无效字符。 "
+
+msgid "match_field"
+msgstr "字段 :label 必须与字段 :param:1 匹配。 "
+
+msgid "valid_email"
+msgstr "字段 :label 必须包含有效的电子邮件地址。 "
+
+msgid "valid_emails"
+msgstr "字段 :label 必须包含有效的电子邮件地址列表。 "
+
+msgid "valid_url"
+msgstr "字段 :label 必须包含有效的 URL。 "
+
+msgid "valid_ip"
+msgstr "字段 :label 包含有效的 IP 地址。 "
+
+msgid "numeric_min"
+msgstr "最小数值 :label 必须是 :param:1"
+
+msgid "numeric_max"
+msgstr "最大数值 :label 必须是 :param:1"
+
+msgid "numeric_between"
+msgstr "字段 :label 必须包含一个数值在 :param:1 和 :param:2 之间。 "
+
+msgid "valid_string"
+msgstr "字段 :label 包含无效字符。"
+
+msgid "required_with"
+msgstr "字段 :label 必须包含一个值，如果 :param:1 包含一个值。 "
+
+msgid "valid_date"
+msgstr "字段 :label 必须包含有效的格式化日期。 "
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

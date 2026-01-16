@@ -1,0 +1,1957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "First Name"
+msgstr "Tên riêng"
+
+msgid "Last Name"
+msgstr "Tên họ"
+
+msgid "City"
+msgstr "Thành phố"
+
+msgid "Postal/ZIP Code"
+msgstr "Mã bưu chính/ZIP code"
+
+msgid "Region"
+msgstr "Vùng lãnh thổ"
+
+msgid "Address #1"
+msgstr "Địa chỉ #1"
+
+msgid "Address #2"
+msgstr "Địa chỉ #2"
+
+msgid "Phone"
+msgstr "Số điện thoại"
+
+msgid "Country"
+msgstr "Quốc gia"
+
+msgid "Time Zone"
+msgstr "Múi giờ"
+
+msgid "Birthdate"
+msgstr "Ngày sinh"
+
+msgid ""
+"Wrong phone number! Please try to specify it in other format or contact us!"
+msgstr ""
+"Bạn nhập sai số điện thoại ! Vui long nhập đúng định dạng hoặc liên hệ với "
+"chúng tôi !"
+
+msgid "You have to specify phone country!"
+msgstr "Bạn phải điền mã vùng điện thoại !"
+
+msgid "Your data has been saved!"
+msgstr "Dữ liệu của bạn đã được lưu !"
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr "Sai múi giờ ! Vui long liên hệ chúng tôi để giải quyết vấn đề này !"
+
+msgid "Wrong birth date!"
+msgstr "Sai ngày sinh !"
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr ""
+"Sai vùng lãnh thổ ! Vui lòng liên hệ chúng tôi để giải quyết vấn đề này !"
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr ""
+"Sai tên quốc gia ! Vui lòng liên hệ chúng tôi để giải quyết vấn đề này !"
+
+msgid "Current password"
+msgstr "Mật khẩu hiện tại"
+
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+msgid "Repeat new password"
+msgstr "Nhắc lại mật khẩu"
+
+msgid "Your password has been changed."
+msgstr "Mật khẩu của bạn đã được thay đổi."
+
+msgid "Wrong current password! Please try again."
+msgstr "Sai mật khẩu ! Vui long thử lại."
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Repeat e-mail"
+msgstr "Nhắc lại e-mail"
+
+msgid "E-mail Activation"
+msgstr "Kích hoạt e-mail"
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"Cảm ơn vì đã cập nhật địa chỉ mail ! Để hoàn tất quá trình kích hoạt, vui "
+"lòng click theo đường link sau: <a href=\"%1$s\">link kích hoạt</a>."
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: %1$s"
+msgstr ""
+"Cảm ơn vì đã cập nhật địa chỉ mail ! Để hoàn tất quá trình kích hoạt, vui "
+"long click theo đường link sau: <a href=\"%1$s\">activation link</a>"
+
+msgid ""
+"Your email address has been changed, however we've encountered problems "
+"while sending the activation e-mail. Please contact us to activate your "
+"account."
+msgstr ""
+"Địa chỉ e-mail của bạn đã được thay đổi, tuy nhiên chúng tôi đã gặp phải sự "
+"cố khi gửi thư kích hoạt. Vui lòng iên hệ chúng tôi để kích hoạt tài khoản."
+
+msgid ""
+"Failed to update your e-mail address! Please try again or contact us to "
+"solve this issue."
+msgstr ""
+"Cập nhật địa chỉ e-mail that bại ! Vui long thử lại hoặc liên hệ chúng tôi "
+"để giải quyết vấn đề này."
+
+msgid "This e-mail address is already registered."
+msgstr "Địa chỉ e-mail này đã tồn tại."
+
+msgid "This e-mail address is already used by you."
+msgstr "Địa chỉ e-mail này đã được sử dung bởi bạn."
+
+msgid "Your e-mail has been changed."
+msgstr "Địa chỉ e-mail của bạn đã được thay đổi."
+
+msgid "Security error! Please try again."
+msgstr "Lỗi bảo mật! Vui lòng thử lại."
+
+msgid "Amount"
+msgstr "Tổng số tiền"
+
+msgid "Type"
+msgstr "Loại"
+
+msgid "Account IBAN number"
+msgstr "Mã IBAN của tài khoản"
+
+msgid "SWIFT"
+msgstr "Mã SWIFT"
+
+msgid "Bank name"
+msgstr "Tên ngân hàng"
+
+msgid "Skrill E-mail"
+msgstr "Địa chỉ e-mail của ví Skrill"
+
+msgid "Neteller E-mail"
+msgstr "Địa chỉ e-mail của Neteller"
+
+msgid "First Name (optional)"
+msgstr "Tên đầu (tùy chọn)"
+
+msgid "Last Name (optional)"
+msgstr "Tên họ (tùy chọn)"
+
+msgid "Bitcoin Wallet Address"
+msgstr "Địa chỉ ví bitcoin"
+
+msgid ""
+"We have received your withdrawal request. Please allow up to 24h for our "
+"acceptance."
+msgstr ""
+"Chúng tôi đã nhận được lệnh rút tiền của bạn. Vui lòng đợi trong vòng 24 giờ "
+"nữa."
+
+msgid "Incorrect withdrawal amount."
+msgstr "Sai số tiền rút."
+
+msgid "Incorrect withdrawal type."
+msgstr "Sai kiểu rút tiền."
+
+msgid "Security error! Please contact us!"
+msgstr "Lỗi bảo mật ! Vui lòng liên hệ chúng tôi !"
+
+msgid ""
+"You do not have enough balance to withdraw money from the account (minimum "
+"%s)!"
+msgstr "Số dư của bạn không đủ để rút tiền (tối thiểu %s)!"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "Vé có cùng dãy số đã được them vào đơn hang."
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr "Bạn không thể chơi với cùng bộ số do luật chơi đã thay đổi."
+
+msgid "This lottery is no longer available."
+msgstr "Kiểu xổ số này không còn được hỗ trợ."
+
+msgid "Incorrect ticket."
+msgstr "Sai mã vé."
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr "Vé Quick Pick mien phí của bạn đã được sử dung!"
+
+msgid "Incorrect transaction."
+msgstr "Sai giao dịch."
+
+msgid "Your card has been removed!"
+msgstr "Thẻ của bạn đã bị xóa!"
+
+msgid "Wrong card!"
+msgstr "Sai thẻ!"
+
+msgid "Change e-mail address"
+msgstr "Thay đổi địa chỉ e-mail"
+
+msgid "Change password"
+msgstr "Thay đổi mật khẩu"
+
+msgid "Edit profile"
+msgstr "Cập nhật thông tin người dùng"
+
+msgid "My tickets"
+msgstr "Vé của tôi"
+
+msgid "My payment methods"
+msgstr "Phương thức thanh toán của tôi"
+
+msgid "My transactions"
+msgstr "Giao dịch của tôi"
+
+msgid "Deposit"
+msgstr "Số tiền gửi"
+
+msgid "Withdrawal"
+msgstr "Số tiền rút"
+
+msgid "My details"
+msgstr "Chi tiết"
+
+msgid "E-mail address"
+msgstr "Địa chỉ e-mail"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Remember me"
+msgstr "Ghi nhớ đăng nhập"
+
+msgid "You have been successfully logged in!"
+msgstr "Bạn đã đăng nhập thành công!"
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in "
+"the e-mail, <a href=\"%s\">try to resend</a> or contact us for manual "
+"activation."
+msgstr ""
+"Tài khoản của bạn chưa hoạt động. Vui lòng click theo đường link được gửi "
+"vào e-mail của bạn, <a href=\"%s\">gửi lại </a> hoặc liên hệ chúng tôi để tự "
+"kích hoạt."
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr ""
+"Tài khoản của bạn chưa hoạt động. Vui lòng liên hệ chúng tôi để kích hoạt "
+"tài khoản."
+
+msgid "Wrong credentials! Please try again."
+msgstr "Sai thông tin đăng nhập! Vui lòng thử lại."
+
+msgid "Too many login attempts! Please try again later."
+msgstr "Quá nhiều nỗ lực đăng nhập! Vui lòng thử lại sau."
+
+msgid "Incorrect captcha! Please try again."
+msgstr "Sai mã captcha! Vui lòng thử lại."
+
+msgid "The item has been deleted!"
+msgstr "Mục này đã bị xóa!"
+
+msgid "Undo"
+msgstr "Hoàn tác"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "Không tìm thấy mục cần xóa!"
+
+msgid "Your order has been deleted!"
+msgstr "Yêu cầu của bạn đã được xóa!"
+
+msgid "Your item has been restored!"
+msgstr "Mặt hang của bạn đã được khôi phục!"
+
+msgid "Lines"
+msgstr "Hàng đợi"
+
+msgid "Lottery"
+msgstr "Lô tô"
+
+msgid "The ticket has been added to your order!"
+msgstr "Vé đã được thêm!"
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "Không thể thêm vé, bạn đã đạt số vé tối đa!"
+
+msgid "Bad request! Please contact us!"
+msgstr "Yêu cầu không chính xác! Vui lòng liên hệ chúng tôi!"
+
+msgid "Unknown error! Please contact us!"
+msgstr "Lỗi không xác định! Vui lòng liên hệ chúng tôi!"
+
+msgid "Incorrect deposit amount value!"
+msgstr "Sai giá trị tiền gửi !"
+
+msgid "Card number"
+msgstr "Mã số thẻ"
+
+msgid "Expiration date"
+msgstr "Ngày hết hạn"
+
+msgid "Name on card"
+msgstr "Tên trên thẻ"
+
+msgid "Save card details for future use"
+msgstr "Lưu thông tin thẻ cho lần sử dung sau"
+
+msgid "Choose saved card"
+msgstr "Chọn thẻ đã lưu"
+
+msgid "CVV code"
+msgstr "Mã CVV"
+
+msgid "%s ticket"
+msgstr "%s vé"
+
+msgid "This card looks expired, please check the expiration date."
+msgstr "Thẻ này đã hết hạn, vui lòng kiểm tra lại ngày hết hạn."
+
+msgid "Return to %s"
+msgstr "Quay về %s"
+
+msgid "Transaction ID"
+msgstr "Mã giao dịch"
+
+msgid ""
+"A part of your order was removed as we have disabled some of the lotteries."
+msgstr ""
+"Một phần của đơn hang đã bị xóa do chúng tôi đã vô hiệu hóa một số loại vé."
+
+msgid "You have been successfully logged out!"
+msgstr "Đăng xuất thành công!"
+
+msgid "Forgotten Password"
+msgstr "Quên mật khẩu"
+
+msgid ""
+"<p>We have received a password reset request for your account. To complete "
+"the process please follow the link: <a href=\"%1$s\">reset password link</a>."
+"</p><p>Please ignore this e-mail if you did not request a password reset.</p>"
+msgstr ""
+"<p> Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu của bạn. Để hoàn tất quá "
+"trình này vui lòng click đường link: <a href=\"%1$s\">link đặt lại mật khảu</"
+"a>.</p><p> Vui lòng bỏ qua e-mail này nếu bạn không yêu cầu đặt lại mật "
+"khẩu. </p>"
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+"Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu từ phía bạn. Để hoàn tất quá "
+"trình vui lòng click theo đường link:  %1$s\n"
+"\n"
+"Vui lòng bỏ qua e-mail này nếu bạn không yêu cầu đặt lại mật khẩu."
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link "
+"to complete the process."
+msgstr ""
+"Chúng tôi đã gửi e-mail có chứa link đặt lại mật khẩu. Vui lòng click theo "
+"đường link để hoàn tất quá trình này."
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later "
+"or contact us to reset your password."
+msgstr ""
+"Chúng tôi đã gặp phải sự cố khi gửi mail. Vui lòng thử lại sau hoặc liên hệ "
+"chúng tôi để đặt lại mật khẩu."
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+"Bạn có thể gửi link báo mất mật khẩu trong vòng 24 giờ. Vui lòng thử lại sau "
+"hoặc liên hệ chúng tôi."
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr ""
+"Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử địa chỉ e-mail khác "
+"hoặc liên hệ chúng tôi."
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "Mật khẩu của bạn đã được thay đổi. Bạn đã đăng nhập thành công!"
+
+msgid ""
+"This password reset link has expired. Please start the password reset "
+"process <a href=\"%s\">once again</a>."
+msgstr ""
+"Link khôi phục mật khẩu đã hết hạn. Vui lòng bắt đầu quá trình đặt lại mật "
+"khẩu <a href = \"%s\"> lần nữa </a>."
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual "
+"password change."
+msgstr ""
+"Sai đường link khôi phục mật khẩu. Vui lòng thử lại hoặc liên hệ chúng tôi "
+"để tự thay đổi mật khẩu."
+
+msgid ""
+"Your account has been activated before. Please login to access your account."
+msgstr ""
+"Tài khoản của bạn đã được kích hoạt từ trước. Vui long đăng nhập vào tài "
+"khoản."
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+"Link kích hoạt đã hết hạn. Vui lòng click  <a href=\"%s\">gửi lại</a> e-mail "
+"kích hoạt hoặc liên hệ chúng tôi."
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr "Sai link kích hoạt. Vui lòng liên hệ chúng tôi để tự kích hoạt."
+
+msgid "Account Activation"
+msgstr "Kích hoạt Tài khoản"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"Cảm ơn bạn vì đã đăng ký tài khoản! Để hoàn thành quá trình kích hoạt vui "
+"long click theo đường link: <a href=\"%1$s\">kích hoạt</a>."
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: %1$s"
+msgstr ""
+"Cảm ơn bạn vì đã đăng ký tài khoản! Để hoàn thành quá trình kích hoạt vui "
+"lòng click theo đường link: %1$s"
+
+msgid "The activation e-mail has been resend to you."
+msgstr "Mail kích hoạt đã được gửi."
+
+msgid ""
+"We have encountered an error while trying to send the message. Please "
+"contact us to activate your account."
+msgstr ""
+"Chúng tôi đã gặp phải một sự cố khi gửi tin nhắn. Vui long liên hệ chúng tôi "
+"để kích hoạt tài khoản."
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later "
+"or contact us."
+msgstr ""
+"Bạn có thể gửi lại link kích hoạt một lần trong vòng 24 giờ. Vui lòng thử "
+"lại sau hoặc liên hệ chúng tôi."
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr "Sai link gửi lại. Vui lòng liên hệ chúng tôi để tự kích hoạt."
+
+msgid "Repeat password"
+msgstr "Nhắc lại mật khẩu"
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s"
+"\" target=\"_blank\">Policy</a>"
+msgstr ""
+"Tôi đồng ý với  <a href=\"%s\" target=\"_blank\">Điều khoản</a> và <a href="
+"\"%s\" target=\"_blank\">Chính sách</a>"
+
+msgid ""
+"Your account is created, however we've encountered problems while sending "
+"the activation e-mail. Please <a href=\"%s\">try to resend</a> the "
+"activation e-mail or contact us for manual activation."
+msgstr ""
+"Tài khoản của bạn đã được tạo, tuy nhiên chúng tôi đã gặp phải sự cố khi gửi "
+"e-mail kích hoạt. Vui lòng <a href=\"%s\">gửi lại </a> e-mail kích hoạt hoặc "
+"liên hệ chúng tôi."
+
+msgid "This e-mail is already registered."
+msgstr "Địa chỉ e-mail này đã được đăng ký từ trước."
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr ""
+"Tên miền e-mail của bạn đã bị block. Vui lòng sử dung địa chỉ e-mail khác."
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "<strong>Giờ Quay Xổ Số Địa Phương:</strong>"
+
+msgid "Bank account"
+msgstr "Số tài khoản ngân hàng"
+
+msgid "Skrill"
+msgstr "Địa chỉ ví Skrill"
+
+msgid "Neteller"
+msgstr "Địa chỉ Neteller"
+
+msgid "BTC"
+msgstr "Địa chỉ ví BTC"
+
+msgid "Redirecting to the payment page..."
+msgstr "Chuyển đến trang thanh toán..."
+
+msgid "Transaction %s"
+msgstr "Giao dịch %s"
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "Vé chọn nhanh đã được them vào đơn hang."
+
+msgid "FAQ Category"
+msgstr "Mục Hỏi & Đáp"
+
+msgid "FAQ"
+msgstr "Hỏi & Đáp"
+
+msgid "This category cannot be deleted."
+msgstr "Mục này không thể bị xóa."
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "GIao diện Lotto: Bạn không thể xóa trang này."
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+"Giao diện Lotto: Visual editor đã bị vô hiệu hóa. Vui lòng sửa lại nội dung "
+"code HTML bên ngoài file WordPress và dán lại vào đây."
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "GIao diện Lotto: Bạn không thể sửa trang này."
+
+msgid "Lotto Next Draw"
+msgstr "Lượt quayLotto tiếp theo"
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery "
+"Page"
+msgstr ""
+"Hiển thị lượt quay xổ số tiếp theo &bull; GIỚI HẠN: Kết quả/Thông tin/Chơi - "
+"Trang Xổ số"
+
+msgid "Lotto Featured"
+msgstr "Lotto Nổi bật"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "Hiển thị các lượt quay Lotto nổi bật theo slide &bull; GIỚI HẠN: none"
+
+msgid "Lotto List"
+msgstr "Danh sách Lotto"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "HIển thị danh sách xổ số &bull; GIỚI HẠN: none"
+
+msgid "Lotto News"
+msgstr "Tin tức Lotto"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "Hiển thị bài viết gần đây &bull; GIỚI HẠN: không có"
+
+msgid "Lotto Small Next Draw"
+msgstr "Lượt quay Lotto tiếp theo"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "Hiển thị widget người thắng Lotto nhỏ &bull; GIỚI HẠN: none"
+
+msgid "Lotto Small Lottery"
+msgstr "Slide Lotto nhỏ"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "Hiển thị widget slide nhỏ. &bull; GIỚI HẠN: không có"
+
+msgid "Lotto Small Results"
+msgstr "Kết quả Lotto nhỏ"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "Hiển thị widget kết quả nhỏ &bull; GIỚI HẠN: không có"
+
+msgid "Lotto Small Slider"
+msgstr "Slide Lotto nhỏ"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "Hiển thị widget slide nhỏ  &bull; GIỚI HẠN: không có"
+
+msgid "Small Slider"
+msgstr "Slide nhỏ"
+
+msgid "Lotto Small Text"
+msgstr "Kết quả Lotto nhỏ"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "Hiển thị kết quả nhỏ &bull; GIỚI HẠN: không có"
+
+msgid "Lotto Small Winners"
+msgstr "Người thắng Lotto nhỏ"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "Hiển thị widget người thắng Lotto nhỏ &bull; GIỚI HẠN: không có"
+
+msgid "Small Winners"
+msgstr "Người thắng giải nhỏ"
+
+msgid "Lotto Ticket"
+msgstr "Vé Lotto"
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/"
+"Info/Play - Lottery Page"
+msgstr ""
+"Hiển thị vé lotto (người dùng có thể chọn số)  &bull; GIỚI HẠN: Kết quả/"
+"Thông tin/Chơi - Trang Xổ số"
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-"
+"mail for better website experience. You can resend the activation e-mail <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"Chúng tôi đã gửi một e-mail chứa link kích hoạt. Vui lòng kích hoạt e-mail "
+"của bạn để trải nghiệm tốt hơn. Bạn có thể gửi lại mail kích hoạt <a href="
+"\"%s\">tại đây</a>."
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Small"
+msgstr "Nhỏ"
+
+msgid "Language: "
+msgstr "Ngôn ngữ : "
+
+msgid "[hide]"
+msgstr "[hide]"
+
+msgid "[show]"
+msgstr "[show]"
+
+msgid "Order"
+msgstr "Thứ tự số"
+
+msgid "by highest jackpot"
+msgstr "theo jackpot cao nhất"
+
+msgid "by nearest draw"
+msgstr "theo lần quay gần nhất"
+
+msgid "by custom order"
+msgstr "theo thứ tự tùy chọn"
+
+msgid "Slide count"
+msgstr "Số slide"
+
+msgid "Custom name"
+msgstr "Tên tùy chọn"
+
+msgid "Custom order"
+msgstr "Thứ tự tùy chọn"
+
+msgid "Carousel"
+msgstr "Carousel"
+
+msgid "Grid"
+msgstr "Lưới"
+
+msgid "Count"
+msgstr "Đếm số lượng"
+
+msgid "Countdown"
+msgstr "Đếm ngược"
+
+msgid "Always"
+msgstr "Luôn luôn"
+
+msgid "24 hours before"
+msgstr "24 giờ trước khi"
+
+msgid "Display"
+msgstr "Hiển thị"
+
+msgid "Tall - 5 elements"
+msgstr "Cao - 5 thành phần"
+
+msgid "Short - 3 elements"
+msgstr "Thấp - 3 thành phần"
+
+msgid "Columns"
+msgstr "Số cột"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "Number of posts to show:"
+msgstr "Số bài post để hiển thị:"
+
+msgid "Width (%):"
+msgstr "Độ rộn (%):"
+
+msgid "The margins are calculated automatically."
+msgstr "Lề được căn tự động."
+
+msgid "Content"
+msgstr "Nội dung"
+
+msgid "Hide on mobile"
+msgstr "Ẩn trên thiết bị di động"
+
+msgid "Please save before use."
+msgstr "Vui lòng lưu lại trước khi sử dụng."
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr ""
+"Vui lòng điền thông tin bang tiếng Anh và sử dụng WPML String Translation để "
+"dịch <a href=\"%s\"> tại đây </a>."
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Amount<span></span>"
+msgstr "Số tiền <span></span>"
+
+msgid "Amount:"
+msgstr "Tổng số tiền:"
+
+msgid "by newest"
+msgstr "mới nhất"
+
+msgid "by random"
+msgstr "theo ngẫu nhiên"
+
+msgid "Normal"
+msgstr "Bình thường"
+
+msgid "Compact"
+msgstr "Thu gọn"
+
+msgid "Not found"
+msgstr "Không tìm thấy"
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+"Xin lỗi, trang bạn đang tìm kiếm không tồn tại. <br> Vui lòng quay về <a "
+"href=\"%s\"> trang chủ </a> hoặc thử vận may và <a href=\"%s\">chơi </a>."
+
+msgid "404 - Not Found"
+msgstr "404 - Not Found"
+
+msgid "back to order"
+msgstr "quay lại đơn hàng"
+
+msgid "deposit"
+msgstr "số tiền gửi"
+
+msgid "buy tickets"
+msgstr "mua vé"
+
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"popup-signup\">Sign up</a>."
+msgstr "Chưa có tài khoản? <a href=\"#\" class=\"popup-signup\">Đăng ký</a>."
+
+msgid "Your e-mail address"
+msgstr "Địa chỉ e-mail của bạn"
+
+msgid "Your password"
+msgstr "Mật khẩu"
+
+msgid "login"
+msgstr "đăng nhập"
+
+msgid "Forgotten password"
+msgstr "Quên mật khẩu"
+
+msgid ""
+"Remember your password? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr ""
+"Nhớ mật khẩu? <a href=\"#\" class=\"popup-login\">Đăng nhập tại đây</a>."
+
+msgid "Your new password"
+msgstr "Mật khẩu mới"
+
+msgid "Repeat your new password"
+msgstr "Nhắc lại mật khẩu"
+
+msgid "change"
+msgstr "thay đổi"
+
+msgid "send"
+msgstr "gửi"
+
+msgid "Ticket %s"
+msgstr "Vé %s"
+
+msgid "Your first name"
+msgstr "Tên đầu"
+
+msgid "Your last name"
+msgstr "Tên họ"
+
+msgid "Your account IBAN number"
+msgstr "Mã số IBAN"
+
+msgid "Your bank SWIFT number"
+msgstr "Mã SWIFT"
+
+msgid "Your bank name"
+msgstr "Tên ngân hang của bạn"
+
+msgid "Your Skrill e-mail"
+msgstr "Địa chỉ e-mail của ví Skrill"
+
+msgid "Your Neteller e-mail"
+msgstr "Địa chỉ e-mail của ví Neteller"
+
+msgid "Your bitcoin wallet address"
+msgstr "Địa chỉ e-mail của ví bitcoin"
+
+msgid "Choose withdrawal type"
+msgstr "Chọn phương thức rút tiền"
+
+msgid "Amount (%s)"
+msgstr "Số tiền (%s)"
+
+msgid "Enter withdrawal amount"
+msgstr "Nhập số tiền cần rút"
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr "<strong>Tối thiểu:</strong> %s"
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr "<strong>Tối đa:</strong> %s"
+
+msgid "submit"
+msgstr "gửi"
+
+msgid "Withdrawal List"
+msgstr "Danh sách rút tiền"
+
+msgid "Withdrawal ID"
+msgstr "ID"
+
+msgid "Date"
+msgstr "Ngày rút"
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "pending"
+msgstr "đang chờ"
+
+msgid "approved"
+msgstr "xác nhận"
+
+msgid "declined"
+msgstr "từ chối"
+
+msgid "canceled"
+msgstr "đã hủy"
+
+msgid "next"
+msgstr "tiếp theo"
+
+msgid "previous"
+msgstr "trước"
+
+msgid "Image %1 of %2"
+msgstr "Ảnh %1 của %2"
+
+msgid "win"
+msgstr "thắng"
+
+msgid "no winnings"
+msgstr "không thắng"
+
+msgid "Date processed"
+msgstr "Ngày xử lý"
+
+msgid "Draw date"
+msgstr "Ngày rút"
+
+msgid "Free"
+msgstr "Miễn phí"
+
+msgid "Pay out"
+msgstr "Thanh toán"
+
+msgid "paid out"
+msgstr "đã thanh toán"
+
+msgid "Draw result"
+msgstr "Kết quả quay số"
+
+msgid "Ticket details"
+msgstr "Chi tiết vé"
+
+msgid "Lines: %s"
+msgstr "Hàng đợi: %s"
+
+msgid "Match"
+msgstr "Trùng"
+
+msgid "none"
+msgstr "không có"
+
+msgid "Prize"
+msgstr "Giải thưởng"
+
+msgid "Jackpot"
+msgstr "Giải độc đắc"
+
+msgid "Quick Pick"
+msgstr "Chọn nhanh"
+
+msgid "Net"
+msgstr "Mạng lưới"
+
+msgid "-"
+msgstr "-"
+
+msgid "return to ticket list"
+msgstr "quay lại danh sách vé"
+
+msgid "Sort by"
+msgstr "Sắp xếp theo"
+
+msgid "Ticket ID"
+msgstr "ID vé"
+
+msgid "by lowest"
+msgstr "thấp nhất"
+
+msgid "by highest"
+msgstr "cao nhất"
+
+msgid "Draw Date"
+msgstr "Ngày rút"
+
+msgid "by oldest"
+msgstr "cũ nhất"
+
+msgid "Ticket ID and date"
+msgstr "ID vé và ngày mua"
+
+msgid "Lottery name"
+msgstr "Tên xổ số"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Valid to draw"
+msgstr "Được phép rút"
+
+msgid "quick pick"
+msgstr "chọn nhanh"
+
+msgid "Play again"
+msgstr "Chơi lại"
+
+msgid "Details"
+msgstr "Chi tiết"
+
+msgid "No tickets."
+msgstr "Không có vé."
+
+msgid "failure"
+msgstr "thất bại"
+
+msgid "Confirmation date"
+msgstr "Ngày xác nhận"
+
+msgid "Payment method"
+msgstr "Phương thức thanh toán"
+
+msgid "Balance"
+msgstr "Số dư"
+
+msgid "Credit Card"
+msgstr "Mã thẻ tín dụng"
+
+msgid "Transaction details"
+msgstr "Chi tiết giao dịch"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a> vé"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "Số dãy: <span>%s</span> &times; %s"
+
+msgid "Total Sum"
+msgstr "Tổng tiền"
+
+msgid "return to the transaction list"
+msgstr "quay lại danh sách giao dịch"
+
+msgid "Account balance"
+msgstr "Số dư tài khoản"
+
+msgid "withdrawal"
+msgstr "số tiền rút"
+
+msgid "(confirmed)"
+msgstr "(xác nhận)"
+
+msgid "Method"
+msgstr "Phương thức"
+
+msgid "No transactions."
+msgstr "Không có giao dịch."
+
+msgid "Number"
+msgstr "Số"
+
+msgid "Remove"
+msgstr "Xóa"
+
+msgid "Confirm"
+msgstr "Xác nhận"
+
+msgid "Are you sure?"
+msgstr "Bạn chắc chứ?"
+
+msgid "No payment methods saved!"
+msgstr "Không có phương thức thanh toán nào được lưu!"
+
+msgid "Choose code"
+msgstr "Chọn code"
+
+msgid "Choose time zone"
+msgstr "Chọn múi giờ"
+
+msgid "Choose your country"
+msgstr "Chọn quốc gia"
+
+msgid "Choose region"
+msgstr "Chọn vùng lãnh thổ"
+
+msgid "Address"
+msgstr "Địa chỉ"
+
+msgid "Address (optional additional information)"
+msgstr "Address (optional additional information)"
+
+msgid "Click here to cancel the e-mail change"
+msgstr "Click here to cancel the e-mail change"
+
+msgid "Change e-mail"
+msgstr "Change e-mail"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "Bạn cần phải kích hoạt địa chỉ e-mail mới."
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail "
+"for better user experience."
+msgstr ""
+"Chúng tôi sẽ gửi một e-mail kích hoạt tùy chọn cho bạn. Vui lòng kích hoạt e-"
+"mail của bạn để có trải nghiệm tốt hơn."
+
+msgid "Click here to cancel the password change"
+msgstr "Click để hủy thay đổi mật khẩu"
+
+msgid "Old password"
+msgstr "Mật khẩu cũ"
+
+msgid "save changes"
+msgstr "lưu thay đổi"
+
+msgid "choose"
+msgstr "chọn"
+
+msgid "try again"
+msgstr "thử lại"
+
+msgid "Pending"
+msgstr "Đang chờ"
+
+msgid "bn"
+msgstr "bn"
+
+msgid "m"
+msgstr "m"
+
+msgid "%s to win"
+msgstr "%s để thắng"
+
+msgid "Draw event on %s"
+msgstr "Kỳ quay thưởng vào %s"
+
+msgid "Already a member? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr "Already a member? <a href=\"#\" class=\"popup-login\">Login here</a>."
+
+msgid "Repeat your password"
+msgstr "Nhắc lại mật khẩu"
+
+msgid "sign up"
+msgstr "đăng ký"
+
+msgid "Play %s"
+msgstr "Chơi %s"
+
+msgid "%s Results"
+msgstr "%s Kết quả"
+
+msgid "%s Information"
+msgstr "%s Thông tin"
+
+msgid "%s News"
+msgstr "%s Tin tức"
+
+msgid "show all"
+msgstr "show all"
+
+msgid "Latest Result"
+msgstr "Kết quả mới nhất"
+
+msgid "Schedule"
+msgstr "Lịch trình"
+
+msgid "Guess Range"
+msgstr "Miền đoán số"
+
+msgid "Tier"
+msgstr ""
+
+msgid "Match %s"
+msgstr "Trùng %s"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "Cơ hội chiến thắng"
+
+msgid "Prize #%d"
+msgstr "Prize #%d"
+
+msgid "Free Quick Pick"
+msgstr "Chọn số nhanh miễn phí"
+
+msgid "%s shared"
+msgstr "%s chia"
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr "Ước lượng"
+
+msgid "1 in %s"
+msgstr "1 trong %s"
+
+msgid "Overall chances of winning any prize"
+msgstr "Tổng quan cơ hội để thắng bất kỳ giải nào"
+
+msgid "Play"
+msgstr "Chơi"
+
+msgid "Results"
+msgstr "Kêt quả"
+
+msgid "Information"
+msgstr "Thông tin"
+
+msgid "News"
+msgstr "Tin tức"
+
+msgid "from A to Z"
+msgstr "từ A đến Z"
+
+msgid "from Z to A"
+msgstr "từ Z đến A"
+
+msgid "Draw"
+msgstr "Draw"
+
+msgid "Winning Odds"
+msgstr "Xác suất thắng"
+
+msgid "Estimated Jackpot"
+msgstr "Ước tính giải độc đắc"
+
+msgid "Next Draw"
+msgstr "Lượt quay tiếp theo"
+
+msgid "play"
+msgstr "chơi"
+
+msgid "Choose payment method"
+msgstr "Chọn phương thức thanh toán"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "Thanh toán bằng số dư tài khoản <span>(%s)</span>"
+
+msgid "Payment card"
+msgstr "Thẻ thanh toán"
+
+msgid "Bank payment"
+msgstr "Tên ngân hàng"
+
+msgid "BTC, ETH + 150 altcoins"
+msgstr ""
+
+msgid "QIWI, Yandex.Money, Payeer..."
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment "
+"is processed."
+msgstr ""
+"Thanh toán bằng số dư tài khoản. Số dư còn lại là %s sau khi thanh toán xong."
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr "Thẻ tín dung của bạn sẽ thanh toán ở mức giá %s."
+
+msgid "New card"
+msgstr "Thẻ mới"
+
+msgid "Card number (spaces allowed)"
+msgstr "Số thẻ (cho phép khoảng trống)"
+
+msgid ""
+"The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr "Mã CVV gồm 3-4 chữ số nằm ở mặt sau thẻ thanh toán của bạn."
+
+msgid "What is this?"
+msgstr "Đây là gì?"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "Đơn hàng tối thiểu cho kiểu thanh toán này là %s."
+
+msgid "Pay using %s."
+msgstr "Thanh toán bằng %s."
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you "
+"don't have an Entropay account, you can always register it <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "Available payment methods: %s."
+msgstr "Phương thức thanh toán của tôi"
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "Thanh toán <span class=\"%s\">%s</span>"
+
+msgid "Estimated jackpot"
+msgstr "Giải jackpot ước lượng"
+
+msgid "Winners"
+msgstr "Người thắng"
+
+msgid "Payout per winner"
+msgstr "Tiền thưởng cho mỗi người thắng"
+
+msgid "Total Winners"
+msgstr "Tổng số người thắng"
+
+msgid "Total Prize"
+msgstr "Tổng giải thưởng"
+
+msgid "Last Draw"
+msgstr "Lần quay trước"
+
+msgid "Payout"
+msgstr "Thanh toán"
+
+msgid "Rollover"
+msgstr "Chuyển khoản"
+
+msgid "Total payout"
+msgstr "Tổng thanh toán"
+
+msgid "change language"
+msgstr "thay đổi ngôn ngữ"
+
+msgid "Wrong line"
+msgstr "Hàng sai"
+
+msgid "Too few lines"
+msgstr "Hàng quá ít"
+
+msgid "Incorrect order"
+msgstr "Đơn đặt hàng không đúng"
+
+msgid "Log in"
+msgstr "Đăng nhập"
+
+msgid "Sign up"
+msgstr "Đăng ký"
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr ""
+"Một trong các hàng không được điền đúng vị trí. Bạn có muốn tiếp tục không?"
+
+msgid "Back"
+msgstr "Quay lại"
+
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s "
+"lines! Do you want to quick pick the lines for you?"
+msgstr ""
+"Bạn chọn quá ít hàng. Số hàng tối thiểu là %1s hàng! Bạn có muốn chọn nhanh "
+"hàng không?"
+
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+msgid "OK"
+msgstr "OK"
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr ""
+"Bạn đã chọn sai số hàng. Hàng được chọn phải là bội số của  %1s.  Bạn có "
+"muốn chọn nhanh phần hàng còn lại không?"
+
+msgid "draw in %s"
+msgstr "draw in %s"
+
+msgid "%d Quick-Pick lines"
+msgstr "%d dãy số Chọn Nhanh"
+
+msgid "only %s"
+msgstr "only %s"
+
+msgid "or pick the numbers manually"
+msgstr "hoặc tự chọn số"
+
+msgid "Latest news"
+msgstr "Tin tức mới nhất"
+
+msgid "Primary"
+msgstr "Ưu tiên"
+
+msgid "Footer"
+msgstr "Cuối trang"
+
+msgid "Front Page"
+msgstr "Trang đầu"
+
+msgid "Front Page widget area."
+msgstr "Widget trang đầu."
+
+msgid "Play - List Page - Top"
+msgstr "Chơi - Trang danh sách - Đầu trang"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Thông tin xổ số (gồm danh sách xổ số) - Vùng widget. Widget trong trang sẽ "
+"hiển thị trước nội dung \"thêm\"."
+
+msgid "Play - List Page - Bottom"
+msgstr "Chơi - Trang danh sách - Cuối trang"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Thông tin xổ số (gồm danh sách xổ số) - Vùng widget. Widget trong trang sẽ "
+"hiển thị sau nội dung \"thêm\"."
+
+msgid "Play - Lottery Page - Top"
+msgstr "Chơi - Trang xổ số - Đầu trang"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display before content."
+msgstr ""
+"Thông tin xổ số (gồm danh sách xổ số) - Vùng widget. Widget trong trang sẽ "
+"hiển thị trước  nội dung \"thêm\"."
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "Chơi - Trang xổ số - Cuối trang"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display after content."
+msgstr ""
+"Thông tin xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị sau nội "
+"dung \"thêm\"."
+
+msgid "Results - List Page - Top"
+msgstr "Kết quả - Trang danh sách - Đầu trang"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"Kết quả xổ số - Vùng widget. Widget trong trang sẽ hiển thị sau nội dung "
+"\"thêm\"."
+
+msgid "Results - List Page - Bottom"
+msgstr "Kết quả - Trang danh sách - Cuối trang"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"Kết quả xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị sau nội "
+"dung \"thêm\"."
+
+msgid "Results - Lottery Page - Top"
+msgstr "Kết quả - Trang xổ số - Đầu trang"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Kết quả xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị trước nội "
+"dung \"thêm\"."
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "Kết quả - Trang xổ số - Cuối trang"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Kết quả xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị sau nội "
+"dung \"thêm\"."
+
+msgid "Results - Lottery Page - Content"
+msgstr "Kết quả - Trang xổ số - Nội dung"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"Kết quả xổ số - Widget trang Xổ số đặc biệt. Widget trong trang sẽ hiển thị "
+"cạnh nội dung."
+
+msgid "Info - List Page - Top"
+msgstr "Thông tin - Trang danh sách - Đầu trang"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"Thông tin xổ số - Widget trang Xổ số. Widget trong trang sẽ hiển thị trước "
+"nội dung \"thêm\"."
+
+msgid "Info - List Page - Bottom"
+msgstr "Thông tin - Trang danh sách - Cuối trang"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"Thông tin xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị sau nội "
+"dung \"thêm\"."
+
+msgid "Info - Lottery Page - Top"
+msgstr "Thông tin - Trang xổ số - Đầu trang"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Thông tin xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị trước "
+"nội dung \"thêm\"."
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "Thông tin - Trang xổ số - Cuối  trang"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Thông tin xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị sau nội "
+"dung \"thêm\"."
+
+msgid "Info - Lottery Page - Content"
+msgstr "Thông tin - Trang xổ số - Nội dung"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"Thông tin xổ số - Widget trang Xổ số đặc biệt. Widget trong trang sẽ hiển "
+"thị cạnh nội dung \"thêm\"."
+
+msgid "News - Default Page - Content"
+msgstr "Tin tức - Trang Mặc Định - Nội dung"
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display "
+"next to content."
+msgstr ""
+"Kết quả xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị cạnh nội "
+"dung."
+
+msgid "News - Lottery Page - Content"
+msgstr "Kết quả - Trang xổ số - Nội dung"
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content related to the lottery."
+msgstr ""
+"Kết quả xổ số - Widget trang xổ số. Widget trong trang sẽ hiển thị cạnh nội "
+"dung liên quan đến xổ số."
+
+msgid "Home"
+msgstr "Trang chủ"
+
+msgid "Login"
+msgstr "Đăng nhập"
+
+msgid "Sign Up"
+msgstr "Đăng ký"
+
+msgid "My account"
+msgstr "Tài khoản của tôi"
+
+msgid "Theme Options"
+msgstr "Lựa chọn"
+
+msgid "Change your theme options."
+msgstr "Thay đổi nền của bạn."
+
+msgid "Choose header color scheme"
+msgstr "Thay đổi màu header"
+
+msgid "Choose font"
+msgstr "Chọn font"
+
+msgid "Choose single page header image"
+msgstr "Chọn ảnh header cho trang"
+
+msgid "%s: Lotto Featured #%d"
+msgstr "%s: Thông tin lotto nổi bật #%d"
+
+msgid "Change your lotto featured widget style."
+msgstr "Thay đổi widget lotto."
+
+msgid "Choose background image"
+msgstr "Chọn ảnh nền"
+
+msgid "Choose mobile background image"
+msgstr "Chọn ảnh nền cho thiết bị di động"
+
+msgid "Social Links"
+msgstr "Mạng xã hội"
+
+msgid "Add your social links."
+msgstr "Thêm link mạng xã hội của bạn."
+
+msgid "Facebook URL (%s)"
+msgstr "Địa chỉ URL Facebook (%s)"
+
+msgid "Twitter URL (%s)"
+msgstr "Địa chỉ URL Twitter (%s)"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Anonymous"
+msgstr "Vô danh"
+
+msgid "log out"
+msgstr "đăng xuất"
+
+msgid "checkout"
+msgstr "thanh toán"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Sum"
+msgstr "Tổng"
+
+msgid "USA"
+msgstr "USA"
+
+msgid "Europe"
+msgstr "Châu Âu"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "UK"
+msgstr "Anh"
+
+msgid "Poland"
+msgstr "Ba Lan"
+
+msgid "Powerball"
+msgstr "Powerball"
+
+msgid "Mega Millions"
+msgstr "Mega Millions"
+
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+msgid "SuperEnalotto"
+msgstr "SuperEnalotto"
+
+msgid "UK Lottery"
+msgstr "Xổ số Anh"
+
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+msgid "Polish Lotto"
+msgstr "Lotto Ba Lan"
+
+msgid "Debit card"
+msgstr "Thẻ debit"
+
+msgid "edit profile"
+msgstr "cập nhật tài khoản"
+
+msgid "Show"
+msgstr "HIển thị"
+
+msgid "show win"
+msgstr "hiển thị người thắng"
+
+msgid "show no winnings"
+msgstr "hiển thị không có người thắng"
+
+msgid "show pending"
+msgstr "hiển thị đang chờ"
+
+msgid "show approved"
+msgstr "hiển thị đã xác nhận"
+
+msgid "show failure"
+msgstr "hiển thị thất bại"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr "Cảm ơn vì đã tin tưởng chúng tôi ! Bạn đã đăng nhập thành công."
+
+msgid "Your account is now fully active."
+msgstr "Tài khoản của bạn đã được kích hoạt hoàn toàn."
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent "
+"you to your e-mail."
+msgstr ""
+"Để kích hoạt hoàn toàn tài khoản và sử dung toàn bộ tính năng của website, "
+"vui lòng click theo đường link xác nhận chúng tôi đã đính kèm trong e-mail."
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+"Để kích hoạt hoàn toàn tài khoản, vui lòng click theo đường link xác nhận "
+"chúng tôi đã đính kèm trong e-mail."
+
+msgid "Different amount"
+msgstr "Số tiền khác"
+
+msgid "The minimum deposit amount is %s."
+msgstr "Số tiền gửi tối thiểu là %s."
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr ""
+"Không thể tiền hành thanh toán. Vui lòng thử lại hoặc liên hệ chúng tôi."
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We "
+"suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr "Danh mục"
+
+msgid "Add Quick Pick ticket:"
+msgstr "Thêm vé chọn nhanh:"
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "Một số vé đã được chuyển sang lượt quay tiếp theo!"
+
+msgid ""
+"For orders less than %1s you can pay with account balance only, however your "
+"balance is insufficient."
+msgstr ""
+"Đối với đơn hàng ít hơn %1s bạn chỉ có thể thanh toán bằng số dư tài khoản, "
+"tuy nhiên số dư của bạn không đủ."
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr ""
+"Đối với đơn hàng ít hơn%1s bạn chỉ có thể thanh toán bằng số dư tài khoản."
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to "
+"your order."
+msgstr ""
+"Bạn không có vé nào. <a href=\"%s\">Chơi ngay</a> để thêm vé vào đơn hang "
+"của bạn."
+
+msgid "add more tickets"
+msgstr "thêm vé"
+
+msgid "pay now"
+msgstr "thanh toán ngay"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "Thank you! Your payment has been successfully processed."
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+msgstr ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+
+msgid "&laquo; back to the news list"
+msgstr "quay trở về mục tin tức"
+
+msgid "choose category"
+msgstr "chọn danh mục"
+
+msgid "This FAQ category is empty!"
+msgstr "Danh mục FAQ trống!"
+
+msgid "Next estimated jackpot"
+msgstr "Mức jackpot ước lượng tiếp theo"
+
+msgid "Next draw in"
+msgstr "Kỳ quay thưởng tiếp theo"
+
+msgid "days"
+msgstr "ngày"
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "giờ"
+
+msgctxt "featured"
+msgid "min"
+msgstr "phút"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "giây"
+
+msgid "Buy tickets"
+msgstr "Mua vé"
+
+msgid "Get a Ticket"
+msgstr "Mua 1 vé"
+
+msgid "Play now"
+msgstr "Thanh toán ngay"
+
+msgid "No active lotteries."
+msgstr "Không có vé nào."
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "giờ"
+
+msgctxt "inline"
+msgid "min"
+msgstr "phút"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "giây"
+
+msgid "see more"
+msgstr "xem thêm"
+
+msgid "No latest news."
+msgstr "Không có tin tức."
+
+msgid "This lottery is inactive."
+msgstr "Xổ số này không hoạt động."
+
+msgid "Latest results"
+msgstr "Kết quả mới nhất"
+
+msgid "No latest results."
+msgstr "Không có kết quả mới."
+
+msgid "How to play and win?"
+msgstr "Cách chơi và trúng thưởng?"
+
+msgid "learn more"
+msgstr "tìm hiểu thêm"
+
+msgid "No slides."
+msgstr "Không có slide."
+
+msgid "Latest winners"
+msgstr "Người chiến thắng mới nhất"
+
+msgid "%s from %s won"
+msgstr "%s từ %s đã chiến thắng"
+
+msgid "No winners."
+msgstr "Không có người thắng."
+
+msgid "Quick Pick All"
+msgstr "Chọn Nhanh tất cả"
+
+msgid "Clear All"
+msgstr "Xóa tất cả"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "Bạn không thể thêm vé!"
+
+msgid "You can order a multiple of %s lines only."
+msgstr "Bạn chỉ có thể đặt mua  %s dãy số."
+
+msgid "Minimum lines for this lottery is %s."
+msgstr "Một hàng số tối thiểu cho kiểu xổ số này là %s."
+
+msgid ""
+"It's too late to buy a ticket for the nearest draw. Your order will be moved "
+"to the next draw!"
+msgstr ""
+"Quá muộn để mua vé cho lượt quay tới. Vé của bạn sẽ được chuyển cho lượt "
+"quay sau!"
+
+msgid "Clear"
+msgstr "Xóa"
+
+msgid "Pick %d numbers and %d bonus"
+msgstr "Chọn %d số và %d bonus"
+
+msgid "Pick %d numbers"
+msgstr "Chọn %d số"
+
+msgid "Processing..."
+msgstr "Đang xử lý..."
+
+msgid "confirm"
+msgstr "xác nhận"
+
+msgid "+ Add new line"
+msgstr "+ Thêm dãy số mới"
+
+msgid "+ Edit line"
+msgstr "+ Sửa dãy số"
+
+msgid "Fewer Lines -"
+msgstr "Ít hàng số hơn -"
+
+msgid "More Lines +"
+msgstr "Nhiều hàng số hơn +"
+
+msgid "continue"
+msgstr "tiếp tục"
+
+msgid "required"
+msgstr "Trường :label là bắt buộc."
+
+msgid "min_length"
+msgstr "Trường :label phải chứa ít nhất  :param:1 kí tự."
+
+msgid "max_length"
+msgstr "Trường :label không được chứa nhiều hơn :param:1 kí tự."
+
+msgid "exact_length"
+msgstr "Trường :label phải chứa chính xác :param:1 kí tự."
+
+msgid "match_value"
+msgstr "Trường :label phải chứa giá trị :param:1."
+
+msgid "match_pattern"
+msgstr "Trường :label chứa kí tự chưa đúng."
+
+msgid "match_field"
+msgstr "Trường :label phải khớp với trường :param:1."
+
+msgid "valid_email"
+msgstr "Trường :label phải chứa địa chỉ email hợp lệ."
+
+msgid "valid_emails"
+msgstr "Trường :label phải chứa một danh sách địa chỉ email hợp lệ."
+
+msgid "valid_url"
+msgstr "Trường :label phải chứa một URL hợp lệ."
+
+msgid "valid_ip"
+msgstr "Trường :label phải chứa một địa chỉ IP hợp lệ."
+
+msgid "numeric_min"
+msgstr " Giá trị số tối thiểu của :label phải là :param:1"
+
+msgid "numeric_max"
+msgstr "Giá trị số tối đa của :label phải là :param:1"
+
+msgid "numeric_between"
+msgstr "Trường :label phải chứa một giá trị số giữa :param:1 và :param:2"
+
+msgid "valid_string"
+msgstr "Trường :label chứa kí tự không hợp lệ."
+
+msgid "required_with"
+msgstr "Trường :label phải chứa một giá trị nếu :param:1 đã chứa giá trị."
+
+msgid "valid_date"
+msgstr "Trường :label phải chứa một giá trị ngày tháng đúng định dạng."
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

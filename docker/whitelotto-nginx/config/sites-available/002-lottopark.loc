@@ -1,0 +1,254 @@
+upstream backend_lottopark_loc {
+    server httpd:8443;
+}
+
+map $upstream_http_page_cache $no_cache_map {
+    default     1;
+    true   0;
+}
+map $http_origin $allow_origin {
+    ~^https?://(.*\.)?lottopark.loc(:\d+)?$ $http_origin;
+    default "";
+}
+
+proxy_cache_path /var/cache/nginx/lottopark.loc/ levels=1:2 keys_zone=lottopark_loc_cache:10m max_size=2g inactive=60m use_temp_path=off;
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name lottopark.loc www.lottopark.loc aff.lottopark.loc www.aff.lottopark.loc api.lottopark.loc www.api.lottopark.loc manager.lottopark.loc www.manager.lottopark.loc content.lottopark.loc www.content.lottopark.loc casino.lottopark.loc www.casino.lottopark.loc;
+
+	location ~ /\.ht {
+		deny all;
+	}
+	return 301 https://$server_name$request_uri;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/localhost.crt;
+	ssl_certificate_key     /etc/ssl/whitelotto/localhost.key;
+
+	server_name lottopark.loc www.lottopark.loc;
+
+	add_header X-Cache $upstream_cache_status;
+	include conf.d/headers-security;
+	include conf.d/headers-security-lottopark-loc;
+
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+
+	#Don't cache if there is a cookie called wordpress_logged_in_[hash]
+	if ($http_cookie ~* "wordpress_logged_in_") {
+		set $no_cache_map 1;
+	}
+	if ($upstream_http_page_cache = true) {
+		set $no_cache_map 0;
+	}
+
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+		proxy_cache lottopark_loc_cache;
+		proxy_no_cache $no_cache_map;
+		include conf.d/proxy-cache;
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	location ~ "^/([a-z]{0,3}?/?auth/.*)|(wp-admin).*|(wp-login).*$"
+	{
+		proxy_no_cache 1;
+		proxy_cache_bypass 1;
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	location ^~ (/order|/index.php|/testing.php) {
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	include conf.d/headers-proxy;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/localhost.crt;
+	ssl_certificate_key     /etc/ssl/whitelotto/localhost.key;
+
+	server_name aff.lottopark.loc www.aff.lottopark.loc manager.lottopark.loc www.manager.lottopark.loc;
+
+	add_header X-Cache $upstream_cache_status;
+	include conf.d/headers-security;
+	include conf.d/headers-security-lottopark-loc;
+
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+
+	location / {
+		proxy_pass_header set-cookie;
+		proxy_no_cache 1;
+		proxy_cache_bypass 1;
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	include conf.d/headers-proxy;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/localhost.crt;
+	ssl_certificate_key     /etc/ssl/whitelotto/localhost.key;
+
+	server_name api.lottopark.loc www.api.lottopark.loc;
+
+	include "sites-available/custom_page_404";
+	add_header X-Cache $upstream_cache_status;
+
+	location ~ /\.ht {
+		include conf.d/headers-security;
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		include conf.d/headers-security;
+		allow all;
+		default_type "text/plain";
+	}
+	location ^~ /api/slots {
+		include conf.d/headers-security;
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	location ^~ /api/internal/seoWidgets {
+		add_header X-Content-Type-Options "nosniff";
+		add_header Strict-Transport-Security "max-age=15768000; includeSubDomains; preload";
+		add_header X-XSS-Protection "1; mode=block";
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	location / {
+		include conf.d/headers-security;
+		include conf.d/headers-security-lottopark-loc;
+		proxy_pass_header set-cookie;
+		proxy_no_cache 1;
+		proxy_cache_bypass 1;
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	include conf.d/headers-proxy;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/localhost.crt;
+	ssl_certificate_key     /etc/ssl/whitelotto/localhost.key;
+
+	server_name content.lottopark.loc www.content.lottopark.loc;
+
+	add_header X-Cache $upstream_cache_status;
+	include conf.d/headers-security;
+	include conf.d/headers-security-lottopark-loc;
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+		proxy_pass https://backend_lottopark_loc;
+	}
+
+	proxy_cache lottopark_loc_cache;
+	include conf.d/proxy-cache;
+	include conf.d/headers-proxy;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/localhost.crt;
+	ssl_certificate_key     /etc/ssl/whitelotto/localhost.key;
+
+	server_name casino.lottopark.loc www.casino.lottopark.loc;
+
+	add_header X-Cache $upstream_cache_status;
+	include conf.d/headers-security;
+	include conf.d/headers-security-lottopark-loc;
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+		proxy_pass_header set-cookie;
+		proxy_pass https://backend_lottopark_loc;
+		proxy_ignore_headers Set-Cookie;
+	}
+
+	include conf.d/headers-proxy;
+
+	error_log /var/log/nginx/lottopark.loc-error.log warn;
+	access_log /var/log/nginx/lottopark.loc-access.log combined;
+}
+

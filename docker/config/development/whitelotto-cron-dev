@@ -1,0 +1,50 @@
+## WHITELOTTO DEV CRON
+
+# every hour update lottery
+0 * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/lotteryupdate
+# send e-mail notifications after draw
+* * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/drawnotification
+# every day at noon check for lottery draw changes
+0 12 * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/check_superenalotto_delay
+5 12 * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r sync_draws >> /dev/null 2>&1
+
+# every 2 hour, check for UK Lottery quick picks. Make sure lottorisq.php is adjusted first
+#0 */2 * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/providerscheck
+
+# turn this on, only if you want to turn on sending tickets to l-tech. Make sure lottorisq.php is adjusted first
+#* * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/purchasetickets
+
+# update currencies each day at twelve o'clock. Turn this on only if you adjusted openexchangerates.php first
+#0 12 * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/updatecurrencies
+
+# there's no much reason to turn this on development environment
+#0 0 1 * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/calcaffpayouts
+#5 * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/checkneteller#wlaczone co 15min
+#*/15 * * * * /usr/bin/wget -4 -q --spider https://whitelotto.com/wp-cron-multisite.php
+#0 0 * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/lottorisqbalance
+#*/5 * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/optimizeimages
+#* * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/updateestimated
+#0 0 1 * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/monthlyvolume
+#0 0 * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/task/check_prepaids_are_low_for_whitelabels
+#*/5 * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/dev/update_new_user_fields
+#*/5 * * * * /usr/bin/wget -4 -q --spider https://empire.whitelotto.loc/dev/import_to_mautic
+
+# LCS stuff. Disabled by default, unless you have LCS project set up locally. Make sure you've adjusted lottery_central_server.php
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_draw_data lotto-zambia >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:synchronize_tickets lotto-zambia >> /dev/null 2>&1        
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_tickets_prizes lotto-zambia >> /dev/null 2>&1      
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_draw_data gg-world >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:synchronize_tickets gg-world >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_tickets_prizes gg-world >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_draw_data somoslotto-plus >> /dev/null 2>&1        
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:synchronize_tickets somoslotto-plus >> /dev/null 2>&1     
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_tickets_prizes somoslotto-plus >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_draw_data gg-world-million >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:synchronize_tickets gg-world-million >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_tickets_prizes gg-world-million >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_draw_data gg-world-x >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:synchronize_tickets gg-world-x >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil r lcs:update_tickets_prizes gg-world-x >> /dev/null 2>&1
+#0 */2 * * * sudo -H -u www-data env FUEL_ENV="production" php /var/www/whitelotto/platform/oil refine check_lcs_pendings >> /dev/null 2>&1
+#* * * * * sudo -H -u www-data FUEL_ENV="production" php /var/www/whitelotto/platform/oil refine send_multi_draw_notifications >> /dev/null 2>&1
+

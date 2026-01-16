@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'required'        => _('required'),
+    'min_length'      => _('min_length'),
+    'max_length'      => _('max_length'),
+    'exact_length'    => _('exact_length'),
+    'match_value'     => _('match_value'),
+    'match_pattern'   => _('match_pattern'),
+    'match_field'     => _('match_field'),
+    'valid_email'     => _('valid_email'),
+    'valid_emails'    => _('valid_emails'),
+    'valid_url'       => _('valid_url'),
+    'valid_ip'        => _('valid_ip'),
+    'numeric_min'     => _('numeric_min'),
+    'numeric_max'     => _('numeric_max'),
+    'numeric_between' => _('numeric_between'),
+    'valid_string'    => _('valid_string'),
+    'required_with'   => _('required_with'),
+    'valid_date'      => _('valid_date'),
+    'Validator_Wordpress_Currency:is_currency_ok' => _('Validator_Wordpress_Currency:is_currency_ok'),
+    'Validator_Wordpress_Currency:check_min_formatted' => _('Validator_Wordpress_Currency:check_min_formatted'),
+    'Validator_Wordpress_Currency:check_max_formatted' => _('Validator_Wordpress_Currency:check_max_formatted'),
+    'Validator_Wordpress_Withdrawal_Type:check_min_value' => _('Validator_Wordpress_Withdrawal_Type:check_min_value'),
+];

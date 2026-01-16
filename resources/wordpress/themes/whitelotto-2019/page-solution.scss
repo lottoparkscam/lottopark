@@ -1,0 +1,472 @@
+// Page solution
+
+[data-page="page-solution"] {
+  background-color: #253876;
+
+  .wl-page {
+    padding: 40px;
+    display: block;
+    float: left;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    background-color: #253876;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+  }
+
+  .content-wrapper {
+    max-width: 50%;
+    float: left;
+    text-align: left;
+  }
+
+  .content-wrapper-right {
+    max-width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70px;
+      height: 10px;
+      background-color: #2bbdd2;
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .content-wrapper-right h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: unset;
+    width: 70px;
+    height: 10px;
+    background-color: #2bbdd2;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  div.full {
+    float: left;
+    width: calc(100% + 20px);
+    margin: 20px -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div.full p.box {
+    float: left;
+    width: calc(20% - 20px);
+    background: #262638;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 0 10px;
+    flex: 1;
+    flex-basis: 20%;
+    margin-top: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  div.full p.box5 {
+    flex-basis: 15%;
+  }
+
+  span.icon1 {
+    width: 100%;
+    background: url(../images/solution/icons/icon1.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon2 {
+    width: 100%;
+    background: url(../images/solution/icons/icon2.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon3 {
+    width: 100%;
+    background: url(../images/solution/icons/icon3.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon4 {
+    width: 100%;
+    background: url(../images/solution/icons/icon4.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon5 {
+    width: 100%;
+    background: url(../images/solution/icons/icon5.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon6 {
+    width: 100%;
+    background: url(../images/solution/icons/icon6.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon7 {
+    width: 100%;
+    background: url(../images/solution/icons/icon7.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon8 {
+    width: 100%;
+    background: url(../images/solution/icons/icon8.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon9 {
+    width: 100%;
+    background: url(../images/solution/icons/icon9.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon10 {
+    width: 100%;
+    background: url(../images/solution/icons/icon10.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon11 {
+    width: 100%;
+    background: url(../images/solution/icons/icon11.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon12 {
+    width: 100%;
+    background: url(../images/solution/icons/icon12.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon13 {
+    width: 100%;
+    background: url(../images/solution/icons/icon13.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon14 {
+    width: 100%;
+    background: url(../images/solution/icons/icon14.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon15 {
+    width: 100%;
+    background: url(../images/solution/icons/icon15.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon16 {
+    width: 100%;
+    background: url(../images/solution/icons/icon16.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon17 {
+    width: 100%;
+    background: url(../images/solution/icons/icon17.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon18 {
+    width: 100%;
+    background: url(../images/solution/icons/icon18.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon19 {
+    width: 100%;
+    background: url(../images/solution/icons/icon19.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon20 {
+    width: 100%;
+    background: url(../images/solution/icons/icon20.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  span.icon21 {
+    width: 100%;
+    background: url(../images/solution/icons/icon21.png) no-repeat center;
+    background-size: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 0 20px;
+  }
+
+  div.page1 {
+    background: #1f2e5d url(../images/solution/graphics/1.png) no-repeat calc(50% + 390px) -70px;
+    background-size: 900px;
+  }
+
+  div.page2 {
+    background: #253876 url(../images/solution/graphics/2.png) no-repeat calc(50% - 450px) -50px;
+    background-size: 1200px;
+  }
+
+  div.page3 {
+    background: #1f2e5d;
+  }
+
+  div.page4 {
+    background: #253876 url(../images/solution/graphics/4.png) no-repeat calc(50% + 450px) -30px;
+    background-size: 1200px;
+  }
+
+  div.page5 {
+    background: #1f2e5d url(../images/solution/graphics/5.png) no-repeat calc(50% - 310px) -100px;
+    background-size: 900px;
+  }
+
+  div.page6 {
+    background: #253876 url(../images/solution/graphics/6.png) no-repeat calc(50% + 490px) -90px;
+    background-size: 1300px;
+  }
+
+  div.page7 {
+    background: #1f2e5d url(../images/solution/graphics/7.png) no-repeat calc(50% - 370px) 50px;
+    background-size: 550px;
+  }
+
+  div.page8 {
+    background: #253876 url(../images/solution/graphics/9.png) no-repeat calc(50% + 390px) 50px;
+    background-size: 550px;
+  }
+
+  div.page9 {
+    background: #1f2e5d url(../images/solution/graphics/8.png) no-repeat calc(50% - 320px) 50px;
+    background-size: 700px;
+  }
+
+  div.page10 {
+    background: #253876 url(../images/solution/graphics/10.png) no-repeat calc(50% + 490px) 50px;
+    background-size: 800px;
+  }
+
+  div.page11 {
+    background: #1f2e5d url(../images/solution/graphics/11.png) no-repeat calc(50% - 410px) 50px;
+    background-size: 630px;
+  }
+
+  @media (max-width: 1100px) {
+    div.full {
+      flex-wrap: wrap;
+    }
+
+    div.full p.box {
+      flex-basis: 40%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .content-wrapper {
+      max-width: 60%;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    div.full {
+      flex-wrap: wrap;
+    }
+
+    div.full p.box {
+      flex-basis: 35%;
+    }
+
+    .content-wrapper {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .page {
+      padding: 20px;
+    }
+
+    div.page1 {
+      background: #1f2e5d url(../images/solution/graphics/1.png) no-repeat 50% calc(100% + 260px);
+      background-size: 700px;
+      padding-bottom: 180px;
+    }
+
+    div.page2 {
+      background: #253876 url(../images/solution/graphics/2.png) no-repeat calc(50% + 30px) calc(100% + 370px);
+      background-size: 900px;
+      padding-bottom: 200px;
+    }
+
+    div.page4 {
+      background: #253876 url(../images/solution/graphics/4.png) no-repeat calc(50% - 30px) calc(100% + 270px);
+      background-size: 800px;
+      padding-bottom: 220px;
+    }
+
+    div.page5 {
+      background: #1f2e5d url(../images/solution/graphics/5.png) no-repeat calc(50% + 20px) calc(100% + 210px);
+      background-size: 700px;
+      padding-bottom: 180px;
+    }
+
+    div.page6 {
+      background: #253876 url(../images/solution/graphics/6.png) no-repeat calc(50% + 20px) calc(100% + 240px);
+      background-size: 700px;
+      padding-bottom: 180px;
+    }
+
+    div.page7 {
+      background: #1f2e5d url(../images/solution/graphics/7.png) no-repeat 50% calc(100% + 260px);
+      background-size: 350px;
+      padding-bottom: 220px;
+    }
+
+    div.page8 {
+      background: #253876 url(../images/solution/graphics/9.png) no-repeat 50% calc(100% + 80px);
+      background-size: 350px;
+      padding-bottom: 180px;
+    }
+
+    div.page9 {
+      background: #1f2e5d url(../images/solution/graphics/8.png) no-repeat calc(50% + 40px) calc(100% + 260px);
+      background-size: 600px;
+      padding-bottom: 220px;
+    }
+
+    div.page10 {
+      background: #253876 url(../images/solution/graphics/10.png) no-repeat 50% calc(100% + 120px);
+      background-size: 450px;
+      padding-bottom: 180px;
+    }
+
+    div.page11 {
+      background: #1f2e5d url(../images/solution/graphics/11.png) no-repeat 50% calc(100% + 180px);
+      background-size: 450px;
+      padding-bottom: 200px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    div.full {
+      flex-wrap: wrap;
+    }
+
+    div.full p.box {
+      flex-basis: 80%;
+    }
+  }
+}

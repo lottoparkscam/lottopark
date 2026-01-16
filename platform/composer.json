@@ -1,0 +1,256 @@
+{
+    "name": "fuel/fuel",
+    "type": "project",
+    "description": "FuelPHP is a simple, flexible, community driven PHP 5.3.3+ framework, based on the best ideas of other frameworks, with a fresh start!",
+    "keywords": [
+        "application",
+        "website",
+        "development",
+        "framework",
+        "PHP",
+        "PHP8"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "name": "fuel/core",
+            "url": "https://gitlab.gginternational.work/public-gg-international/fuel-core.git",
+            "canonical": false
+        },
+        {
+            "type": "vcs",
+            "name": "fuel/orm",
+            "url": "https://gitlab.gginternational.work/public-gg-international/fuel-orm.git",
+            "canonical": false
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/public-gg-international/fuel-fixtures.git",
+            "canonical": false
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/public-gg-international/uow.git",
+            "canonical": false
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/public-gg-international/uow-fuel.git",
+            "canonical": false
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/lcs-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/http.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/serialization.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/onramper.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/now-payments.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/arrays.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/zen.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/gcash.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.gginternational.work/gglib/lenco.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "fuel/app/classes/events/",
+            "fuel/app/classes/services/",
+            "fuel/app/classes/model/",
+            "fuel/app/classes/bus/",
+            "fuel/app/classes/controller/api/",
+            "fuel/app/classes/controller/Crm/",
+            "fuel/app/classes/wrappers/",
+            "fuel/app/classes/repositories/",
+            "fuel/app/classes/traits/config/lcs/",
+            "fuel/app/classes/traits/cli/",
+            "fuel/app/classes/traits/Scans/",
+            "fuel/app/classes/helpers/",
+            "fuel/app/classes/validators/",
+            "fuel/app/classes/factories/",
+            "fuel/app/classes/models/",
+            "fuel/app/classes/enums/",
+            "fuel/app/tasks/seeders/",
+            "fuel/app/classes/presenter/wordpress/",
+            "fuel/app/classes/presenter/aff/",
+            "fuel/app/classes/presenter/whitelabel/affs/",
+            "fuel/app/classes/Presenters/",
+            "fuel/app/classes/lotto/",
+            "fuel/app/classes/Exceptions/",
+            "fuel/app/classes/Abstracts/",
+            "fuel/app/classes/Orm/",
+            "fuel/app/classes/Interfaces/",
+            "fuel/app/core/",
+            "fuel/app/classes/traits/Logs",
+            "fuel/app/classes/traits/Payments",
+            "fuel/app/classes/task/Alert/",
+            "fuel/app/classes/task/lotterycentralserver/send",
+            "fuel/app/classes/forms/wordpress/"
+        ],
+        "psr-4": {
+            "Modules\\": "fuel/app/classes/modules/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "fuel/app/tests/",
+            "fuel/app/classes/test/",
+            "fuel/app/tasks/factory/utils/faker.php",
+            "fuel/app/tasks/delete_old_logs.php",
+            "fuel/app/tasks/sync_logs.php",
+            "fuel/app/tasks/ForgeWordpressSeeder.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-dom": "*",
+        "composer/installers": "~1.0",
+        "fuel/core": "1.8.3",
+        "fuel/auth": "dev-1.9/develop",
+        "fuel/email": "dev-1.9/develop",
+        "fuel/oil": "dev-1.9/develop",
+        "fuel/orm": "1.8.3",
+        "fuel/parser": "dev-1.9/develop",
+        "fuelphp/upload": "2.0.6",
+        "paypal/rest-api-sdk-php": "*",
+        "mautic/api-library": "^3.1.0",
+        "stripe/stripe-php": "^10.6.1",
+        "firebase/php-jwt": "^6.4.0",
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "7.7.1",
+        "php-di/php-di": "^7.0.2",
+        "ext-json": "*",
+        "webmozart/assert": "^1.11",
+        "ext-bcmath": "*",
+        "myclabs/php-enum": "^1.8",
+        "peppeocchi/php-cron-scheduler": "^4.0",
+        "nesbot/carbon": "^2.66.0",
+        "php-di/invoker": "^2.3.3",
+        "ext-intl": "*",
+        "zircote/swagger-php": "^4.6.2",
+        "ramsey/uuid": "^4.7.3",
+        "doctrine/inflector": "^2.0.6",
+        "twig/twig": "^3.5.1",
+        "mobiledetect/mobiledetectlib": "^3.74",
+        "giggsey/libphonenumber-for-php": "^8.13",
+        "gglib/lcs-client": "4.1.1",
+        "public-gg-international/uow-fuel": "2.0.0",
+        "jblond/twig-trans": "^1.1",
+        "hybridauth/hybridauth": "3.8.*",
+        "gglib/onramper": "^1.0",
+        "adilbaig/pagerduty": "^3.2",
+        "gglib/now-payments": "^1.2.0",
+        "gglib/http": "^2.0",
+        "gglib/serialization": "^2.0",
+        "gglib/zen": "1.2.0",
+        "gglib/gcash": "1.1.0",
+        "endroid/qr-code": "4.8.0",
+        "bshaffer/oauth2-server-php": "^1.14",
+        "ext-openssl": "*",
+        "gglib/lenco": "^1.2.0",
+        "http-interop/http-factory-guzzle": "^1.2"
+    },
+    "require-dev": {
+        "php-webdriver/webdriver": "^1.13",
+        "phpstan/phpstan": "^1.9",
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "^9.6.3",
+        "fakerphp/faker": "^1.19.0",
+        "public-gg-international/fuel-fixtures": "2.1.0",
+        "gettext/gettext": "^5.6",
+        "slevomat/coding-standard": "^8.7",
+        "php-mock/php-mock-phpunit": "^2.7.1",
+        "ottaviano/faker-gravatar": "^0.2.0",
+        "symfony/event-dispatcher": "^6.0",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0"
+    },
+    "suggest": {
+        "dwoo/dwoo": "Allow Dwoo templating with the Parser package",
+        "mustache/mustache": "Allow Mustache templating with the Parser package",
+        "smarty/smarty": "Allow Smarty templating with the Parser package",
+        "twig/twig": "Allow Twig templating with the Parser package",
+        "pyrocms/lex": "Allow Lex templating with the Parser package",
+        "mthaml/mthaml": "Allow Haml templating with Twig supports with the Parser package",
+        "zordius/lightncandy": "Allow Handlebars templating with an extremely fast PHP implementation of handlebars"
+    },
+    "config": {
+        "vendor-dir": "fuel/vendor",
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "fuel/{$name}": ["fuel/core"],
+            "{$name}": ["fuel/docs"]
+    }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php8.0 oil r install"
+        ],
+        "oil": "php8.0 oil",
+
+        "cache_reset": "@oil r cache:reset",
+        "migration:fresh": "@oil r migration:fresh --drop-cache --seed --update-lotteries",
+        "migrate": "@oil r migrate --catchup",
+
+        "forge:migration": "@oil r forge:migration",
+
+        "phpunit": "./fuel/vendor/bin/phpunit --verbose --testdox --configuration fuel/app/phpunit.xml",
+        "tests:unit": "@phpunit --testsuite unit",
+        "tests:feature": "@phpunit --testsuite feature",
+        "tests:e2e": "@phpunit --testsuite e2e",
+        "tests:selenium": "@phpunit --testsuite selenium",
+        "tests:feature:fail": "@phpunit --testsuite feature --group skipped,random",
+        "tests:unit:fail": "@phpunit --testsuite unit --group skipped,random",
+
+        "tests:fail": [
+            "@tests:feature:fail",
+            "@tests:unit:fail"
+        ],
+
+        "tests:unit:fixture": "@phpunit --testsuite unit --group fixture",
+        "tests:feature:fixture": "@phpunit --testsuite feature --group fixture",
+
+        "check": [
+            "@phpcs",
+            "@phpstan",
+            "@tests:unit",
+            "@tests:feature"
+        ],
+
+        "phpstan": "php8.0 -d memory_limit=1400M ./fuel/vendor/bin/phpstan analyse -c ./../phpstan.neon",
+
+        "phpcs": "php8.0 -d memory_limit=400M ./fuel/vendor/bin/phpcs -s --standard=./../phpcs.xml",
+        "phpcbf": "./fuel/vendor/bin/phpcbf --standard=./../phpcs.xml",
+        "phpcs-fuel": "@oil r phpcs"
+    },
+    "minimum-stability": "stable"
+}

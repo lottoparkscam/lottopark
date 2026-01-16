@@ -1,0 +1,15 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = lottopark.loc
+DNS.3 = www.lottopark.loc
+DNS.4 = manager.lottopark.loc
+DNS.5 = aff.lottopark.loc
+DNS.6 = api.lottopark.loc
+DNS.7 = whitelotto.loc
+DNS.8 = www.whitelotto.loc
+DNS.9 = admin.whitelotto.loc
+DNS.10 = empire.whitelotto.loc

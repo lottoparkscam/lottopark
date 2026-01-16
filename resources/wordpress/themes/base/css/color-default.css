@@ -1,0 +1,2165 @@
+/***
+Headers - color: #384656
+Links, details primary color: #1db4ed
+
+Body background: #ffffff;
+Body text: #87979c;
+
+Main area background, borders, hrs: #e5ebef;
+
+Content boxes: #ffffff;
+
+Numbers: #1db4ed;
+Bonus numbers: #67bd2e;
+
+Input color: #767b82;
+Background color: #e5ebef;
+
+Input focus color: #60646a;
+Input focus background color: #ffffff;
+Input focus border color: #bdc5ca;
+
+Input error color: #f44336;
+Input error background color: #ffffff;
+Input error border color: #f44336;
+
+Input error focus color: #60646a;
+Input error focus background color: #ffffff;
+Input error focus border color: #f44336;
+
+Select arrows (user menu, language menu): #31343f;
+Secondary arrows (results, filters): #7a7f85;
+
+Header details (mobile menu trigger, text) - color: #292d38
+
+Details (checkout, notification count, quick-pick background #1): #67bd2e;
+Quick pick icon background: #356715;
+
+Quick-pick background hover: #5bb326;
+Quick-pick icon background hover: #356715;
+
+Button primary/secondary/tertiary text color: #ffffff
+Button default text color: #1db4ed;
+
+Button primary background: #67bd2e;
+Button secondary background: #1db4ed;
+Button tertiary background: #1db4ed;
+Button default background: #ffffff;
+
+Button primary hover background: #5bb326;
+Button secondary hover background: #15a4e8;
+Button tertiary hover background: #15a4e8;
+Button default hover background: none;
+
+Text/Alert background OK: #4caf50;
+Text/Alert background WARNING: #f46921;
+Text/Alert background ERROR: #f44336;
+Alert background INFO: #50c1eb;
+
+
+Tooltip cloud background: rgba(34,34,34,0.85);
+Tooltip cloud text: #ffffff;
+
+Floating user-menu border: #cccccc;
+
+Main navigation border, footer border, dialog border: #e5e5e5;
+
+Lang select border: #cccccc;
+Lang select hover border: #cccccc;
+
+Categories select border: #9a9fa5;
+Categories select color: #767b82;
+Categories select background: #e5ebef;
+
+Table text color: #767b82;
+Table footer background: #f8fafb;
+Table hover background: #f8fafb;
+Table sortable header hover: #d9e2e7;
+
+Table "short lottery information" background/small widgets: #f2f5f7;
+
+FAQ/payment navigation background: #f2f5f7;
+FAQ/payment navigation border/small widget text border: #ced4d8;
+FAQ navigation color: #484c51;
+Payment navigation color: #767b82;
+
+Deposit amount border: #cad0d4;
+Deposit amount hover border: #cad0d4;
+Deposit amount manual border: #e5ebef;
+Deposit amount manual hover border: #cad0d4;
+
+Deposit amount active color: #595e63;
+Deposit amount active border: #67bd2e;
+
+Deposit amount manual error (border/cloud): #f44336;
+
+Carousel arrows: #000000;
+
+Pagination background: #ecf0f3;
+
+Small slider page default: #cecece;
+Small slider page-line: #e3e3e3;
+Small winners country background: #f4f8f9;
+Small lottery info backgrounds:
+- Powerball: #ca2828;
+- Mega Millions: #224189;
+- Eurojackpot: #8e6844;
+- SuperEnalotto: #259956;
+- UK Lottery: #4599ff;
+- Euro Millions: #164888;
+- PL Lotto: #1c9eda;
+
+Icons:
+Remove hover: #e23a0d;
+View hover: #15a4e8;
+Refresh (replay) hover: #5bb326;
+
+Play lottery:
+Ticket entity border: #d3d0d0;
+Ticket numbers color: #9fa3a8;
+Ticket numbers border: #cf32d4;
+
+Dark header:
+Floating user-menu border: #545760;
+Main navigation border: #3f424c;
+Main background: #292d38;
+
+Mobile:
+Menu background color: #292d38;
+Menu user-balance: #6cbf35;
+Menu/submenu border: #3f424c;
+Menu text color: #ffffff;
+Submenu background color: #30343e;
+
+
+Mobile payment label: #484c51;
+Mobile payment select border: #767b82;
+
+***/
+
+/*** DEFAULTS ***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div.header-logo,
+div.widget-div-title {
+  color: #384656;
+}
+
+a {
+  color: #1db4ed;
+}
+
+/*** ADJUSTMENTS ***/
+.mobile-menu-trigger {
+  color: #292d38;
+}
+
+span.fa-search {
+  color: #1db4ed;
+}
+
+span.fa-refresh {
+  color: #67bd2e;
+}
+
+span.fa-times {
+  color: #ff3600;
+}
+
+span.fa-search:hover {
+  color: #15a4e8;
+}
+
+span.fa-refresh:hover {
+  color: #5bb326;
+}
+
+span.fa-times:hover {
+  color: #e23a0d;
+}
+
+a.disabled span.fa-refresh {
+  color: #e5ebef;
+}
+
+/*** BUTTONS ***/
+.btn {
+  color: #ffffff;
+}
+.btn-primary,
+.btn-primary:disabled:hover,
+.btn-primary.disabled:hover,
+.wpcf7-form input[type='submit'] {
+  background: #67bd2e;
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary-hover,
+.wpcf7-form input[type='submit']:hover {
+  color: #ffffff;
+  background-color: #5bb326;
+}
+.btn-secondary,
+.btn-secondary:disabled:hover,
+.btn-secondary.disabled:hover {
+  background: #1db4ed;
+  color: #ffffff;
+}
+.btn-secondary:hover,
+.btn-secondary-hover {
+  background: #15a4e8;
+}
+.btn-tertiary,
+.btn-tertiary:disabled:hover,
+.btn-tertiary.disabled:hover {
+  background: #1db4ed;
+  color: #ffffff;
+}
+.btn-tertiary:hover,
+.btn-tertiary-hover {
+  background: #15a4e8;
+}
+.btn-default,
+.btn-default:disabled:hover,
+.btn-default.disabled:hover {
+  background: #ffffff;
+  color: #1db4ed;
+  border: 1px solid #ffffff;
+}
+.btn-default:hover,
+.btn-default-hover {
+  background: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-ok,
+.text-ok {
+  color: #4caf50;
+}
+.btn-danger,
+.text-danger {
+  color: #f44336;
+}
+.btn-warning,
+.text-warning {
+  color: #f46921;
+}
+
+/*** HELPERS ****/
+.tooltip-cloud {
+  background-color: rgba(34, 34, 34, 0.85);
+  color: #ffffff;
+}
+
+/*** SEPARATOR ***/
+hr {
+  background-color: #e5ebef;
+  border: none;
+  height: 1px;
+  display: block;
+}
+hr.separator {
+  background-color: #e5ebef;
+}
+
+/*** WPCF7 - contact form ***/
+.wpcf7-form input[type='text'],
+.wpcf7-form input[type='email'],
+.wpcf7-form input[type='password'],
+.wpcf7-form input[type='tel'],
+.wpcf7-form textarea {
+  color: #767b82;
+  border: 1px solid #e5ebef;
+  background-color: #e5ebef;
+}
+.wpcf7-form input[type='text'].wpcf7-not-valid,
+.wpcf7-form input[type='email'].wpcf7-not-valid,
+.wpcf7-form input[type='password'].wpcf7-not-valid,
+.wpcf7-form input[type='tel'].wpcf7-not-valid,
+.wpcf7-form textarea.wpcf7-not-valid {
+  color: #f44336;
+  background: #ffffff;
+  border: 1px solid #f44336;
+}
+
+.wpcf7-form input[type='text']:focus,
+.wpcf7-form input[type='email']:focus,
+.wpcf7-form input[type='password']:focus,
+.wpcf7-form input[type='tel']:focus,
+.wpcf7-form textarea:focus {
+  color: #60646a;
+  background-color: #ffffff;
+  border: 1px solid #bdc5ca;
+}
+.wpcf7-form input[type='text'].wpcf7-not-valid:focus,
+.wpcf7-form input[type='email'].wpcf7-not-valid:focus,
+.wpcf7-form input[type='password'].wpcf7-not-valid:focus,
+.wpcf7-form input[type='tel'].wpcf7-not-valid:focus,
+.wpcf7-form textarea.wpcf7-not-valid:focus {
+  color: #60646a;
+  background: #ffffff;
+  border: 1px solid #f44336;
+}
+span.wpcf7-not-valid-tip {
+  color: #f44336;
+}
+.wpcf7-form.invalid .wpcf7-response-output,
+.wpcf7-form.failed .wpcf7-response-output {
+  color: #ffffff;
+  background-color: #f44336;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+  color: #ffffff;
+  background-color: #67bd2e;
+}
+div.wpcf7-validation-errors,
+div.wpcf7-spam-blocked,
+div.wpcf7-mail-sent-ng {
+  background: #f44336;
+}
+div.wpcf7-mail-sent-ok {
+  background: #4caf50;
+}
+
+/************* REST ********************/
+/************* MAIN BODY ***************/
+body {
+  background-color: #ffffff;
+  color: #87979c;
+}
+
+/***** MAIN AREAS ***/
+div.home-widget-area {
+  background-color: #e5ebef;
+}
+div.content-area {
+  background-color: #e5ebef;
+}
+div.content-box {
+  background: #ffffff;
+}
+
+/************ HEADER ****************/
+header div.main-width {
+  background-image: url('../../base/images/header_bg.png');
+  background-position: top right 340px;
+  background-repeat: no-repeat;
+}
+
+/*** HEADER - USER AREA ****/
+div.user-info-area {
+  background: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+div.user-info-area:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.user-info div.menu-wrapper div.user-menu-content {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+}
+div.user-info div.menu-wrapper div.user-menu-content div.user-menu-item {
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+div.user-info
+  div.menu-wrapper
+  div.user-menu-content
+  div.user-menu-item
+  span.user-menu-item-link {
+  color: #292d38;
+}
+section.user-area div.user-info div.user-info-area a > span.fa-user-circle-o {
+  color: #1db4ed;
+}
+
+section.user-area
+  div.user-info
+  div.user-info-area-active
+  a
+  > span.fa-user-circle-o {
+  color: #ffffff;
+}
+
+section.user-area div.user-info div.user-info-area a > span.fa-chevron-down {
+  color: #31343f;
+}
+
+section.user-area div.user-info div.user-info-area a > span.user-balance {
+  color: #1db4ed;
+}
+
+section.user-area
+  div.user-info
+  div.user-info-area-active
+  a
+  > span.user-balance {
+  color: #ffffff;
+}
+
+section.user-area
+  div.user-info
+  div.user-info-area-active
+  a
+  > span.fa-chevron-down {
+  color: #ffffff;
+}
+
+/**** HEADER - ORDER AREA ***/
+div.order-info {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+div.order-info-notempty {
+  box-shadow: 0 0 0 1px #67bd2e;
+}
+
+div.order-info:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+div.order-info-notempty:hover {
+  box-shadow: 0 0 0 1px #5bb326;
+}
+
+div.order-info > a.user-info-link {
+  color: #292d38;
+}
+div.order-info > a.user-info-link > span.order-count {
+  color: #ffffff;
+  background-color: #67bd2e;
+}
+div.order-info div.order-info-desc span.order-info-link {
+  color: #67bd2e;
+}
+
+div.order-info-area .menu-wrapper .menu {
+  color: #767b82;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+div.order-info-area .menu-wrapper .menu .menu-arrow {
+  background-color: #ffffff;
+}
+div.order-info-area .menu-wrapper .menu ul li {
+  border-bottom: 1px solid #e5ebef;
+}
+
+/** common **/
+div.menu-wrapper > ul {
+  background: #ffffff;
+}
+div.menu-wrapper > ul {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+div.menu-wrapper > ul > li {
+  border-bottom: 1px solid #cccccc;
+}
+div.menu-wrapper > ul > li:last-of-type {
+  border-bottom: none;
+}
+div.menu-wrapper > ul > li > a:hover {
+  color: #1db4ed;
+}
+
+div.user-info
+  div.menu-wrapper
+  div.user-menu-content
+  div.user-menu-item.user-menu-item-nmr,
+header.header-dark
+  div.user-info
+  div.menu-wrapper
+  div.user-menu-content
+  div.user-menu-item.user-menu-item-nmr {
+  border-right-width: 0;
+}
+
+section.user-area div.user-info div.user-info-area a,
+div.order-info > a.user-info-link,
+div.menu-wrapper > ul > li > a {
+  color: #292d38;
+}
+
+div.user-info-area-active,
+header.header-dark div.user-info-area-active,
+div.user-info-area-active:hover,
+header.header-dark div.user-info-area-active:hover {
+  background-color: #1db4ed;
+  box-shadow: none;
+  border: 1px solid #1db4ed;
+}
+
+/*** DARK HEADER */
+header.header-dark .mobile-menu-trigger {
+  color: #ffffff;
+}
+header.header-dark {
+  background-color: #292d38;
+  color: #ffffff;
+}
+header.header-dark div.user-info-area {
+  background-color: #292d38;
+  color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+header.header-dark div.user-info-area:hover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+header.header-dark section.user-area div.user-info div.user-info-area-active a {
+  color: #292d38;
+}
+header.header-dark div.user-info div.menu-wrapper div.user-menu-content {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+  background-color: #292d38;
+}
+header.header-dark
+  div.user-info
+  div.menu-wrapper
+  div.user-menu-content
+  div.user-menu-item {
+  border-right: 1px solid #545760;
+  border-bottom: 1px solid #545760;
+}
+header.header-dark
+  div.user-info
+  div.menu-wrapper
+  div.user-menu-content
+  div.user-menu-item
+  span.user-menu-item-link {
+  color: #ffffff;
+}
+header.header-dark
+  section.user-area
+  div.user-info
+  div.user-info-area
+  a
+  > span.fa-chevron-down {
+  color: #ffffff;
+}
+
+header.header-dark div.order-info {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+header.header-dark div.order-info:hover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+/* common */
+header.header-dark section.user-area div.user-info div.user-info-area a,
+header.header-dark div.order-info > a.user-info-link,
+header.header-dark div.menu-wrapper > ul > li > a {
+  color: #ffffff;
+}
+header.header-dark div.order-info-area .menu-wrapper .menu {
+  color: #767b82;
+}
+
+/**** PRIMARY NAVIGATION ****/
+nav#primary-nav {
+  border-top: 1px solid #e5e5e5;
+}
+nav#primary-nav.nav-dark {
+  background-color: #292d38;
+  border-top: 1px solid #3f424c;
+}
+nav#primary-nav div > ul.menu > li > a {
+  color: #292d38;
+  transition: color 0.2s;
+}
+
+nav#primary-nav.nav-dark div > ul.menu > li > a {
+  color: #ffffff;
+}
+nav#primary-nav div > ul.menu > li > a:hover {
+  color: #1db4ed;
+}
+nav#primary-nav div > ul.menu > li.menu-item-home > a {
+  border: 1px solid #e5e5e5;
+  color: #1db4ed;
+}
+
+nav#primary-nav div > ul.menu > li.menu-item-mobile-highlight > a {
+  color: #1db4ed;
+}
+nav#primary-nav.nav-dark div > ul.menu > li.menu-item-home > a {
+  border: 1px solid #3f424c;
+}
+
+nav#primary-nav
+  div
+  > ul.menu
+  > li.menu-item-mobile-user
+  > a
+  > span.mobile-user-menu-balance {
+  color: #6cbf35;
+}
+
+/*** ADJUSTMENTS ***/
+.mobile-close-area {
+  background-color: #292d38;
+  border-bottom: 1px solid #3f424c;
+}
+
+.mobile-close-area > a > span.fa-times {
+  color: #ffffff;
+}
+
+/*** FOOTER ***/
+footer div.lang-select {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+footer div.lang-select:hover {
+  border: 1px solid #cccccc;
+}
+
+footer div.lang-select div.menu-wrapper.language-large > ul > li {
+  border-width: 0;
+}
+
+footer div.lang-select a {
+  color: #292d38;
+}
+footer div.lang-select a > span {
+  color: #31343f;
+  font-size: 10px;
+}
+
+footer nav#footer-nav div a,
+footer nav#social-nav div a {
+  color: #1db4ed;
+}
+footer nav#social-nav div a:hover span {
+  border-bottom: 1px solid #1db4ed;
+}
+.footer-logotypes {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/************ INFOBOX ************/
+div.infobox-wrapper div.infobox-content {
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+div.infobox-details {
+  border-bottom: 1px solid #e5ebef;
+  border-top: 1px solid #e5ebef;
+}
+div.infobox-title a {
+  color: #384656;
+}
+
+div.infobox-amount {
+  color: #1db4ed;
+}
+
+a.infobox-purchase {
+  background-color: #67bd2e;
+  color: #ffffff;
+}
+
+span.infobox-purchase-icon {
+  background-color: #356715;
+}
+
+a.infobox-purchase:hover {
+  background-color: #5bb326;
+}
+
+span.infobox-purchase-description-secondary-text {
+  color: #356715;
+}
+
+a.infobox-purchase-manual {
+  color: #67bd2e;
+}
+
+div.infobox-links a {
+  color: #384656;
+}
+
+div.infobox-content .infobox-arrow {
+  background-color: #ffffff;
+}
+
+/*** SMALL PURCHASE ***/
+
+a.small-purchase {
+  background: #67bd2e;
+}
+
+a.small-purchase:hover {
+  background: #5bb326;
+}
+
+.small-purchase-description-primary-text {
+  color: #ffffff;
+}
+.small-purchase-description-secondary-text {
+  color: #356715;
+}
+
+/***** LATEST NEWS *****/
+section.latest-news .news-container article.news {
+  background: #ffffff;
+}
+
+section.latest-news article h2 a {
+  color: inherit;
+}
+
+article.news strong {
+  color: #384656;
+}
+
+/*** CONTENT NAVIGATION ***/
+nav.content-nav ul li a {
+  background: #ffffff;
+  color: inherit;
+}
+nav.content-nav ul li.content-nav-active a,
+nav.content-nav ul li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background: #1db4ed;
+}
+
+select.content-nav {
+  border: 1px solid #6a6a6a;
+  color: #6a6a6a;
+  background: #ffffff url('../../base/images/arrow-down.png') no-repeat right
+    20px center;
+  transition: border 0.5s;
+}
+
+select.news-categories {
+  border: 1px solid #9a9fa5;
+  color: #767b82;
+  background: #e5ebef url('../../base/images/arrow-down.png') no-repeat right
+    20px center;
+  transition: border 0.5s;
+}
+
+/*** PAGINATION ***/
+nav.pagination .page-numbers {
+  color: #87979c;
+  background: #ffffff;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav.pagination a.page-numbers-inactive:hover {
+  cursor: default;
+}
+
+nav.pagination .page-numbers:hover {
+  background-color: #1db4ed;
+  color: #ffffff;
+}
+nav.pagination .current {
+  background-color: #1db4ed;
+  color: #ffffff;
+}
+
+/************ TABLES ***********/
+table.table {
+  color: #767b82;
+}
+table.table tbody tr td {
+  border: 1px solid #e5ebef;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+article table thead tr td,
+article table tbody tr td,
+article table tfoot tr td {
+  border: 1px solid #e5ebef;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+table.table thead tr,
+article table thead tr {
+  background: #e5ebef;
+}
+table.table thead tr th,
+article table thead tr td {
+  border-top: none;
+}
+
+table.table tfoot tr td,
+article table tfoot tr td {
+  border-bottom: none;
+  border-top: none;
+}
+
+table.table tfoot tr,
+article table tfoot tr {
+  background: #f8fafb;
+}
+table.table-hover tbody tr:hover td {
+  background-color: #f8fafb;
+}
+
+/********* TICKETS ************/
+.ticket-line-number,
+.ticket-line-bnumber,
+.ticket-line-dnumber {
+  color: #ffffff;
+}
+.ticket-line-number {
+  background: #1db4ed;
+}
+.ticket-line-bnumber {
+  background: #67bd2e;
+}
+
+/*********** CONTACT ************/
+.contact-content table span.fa {
+  color: #1db4ed;
+}
+
+.contact-content article table thead tr td,
+.contact-content article table tbody tr td,
+.contact-content article table tfoot tr td {
+  border: none;
+}
+
+/************** FAQ ********************/
+section.faq nav.faq-nav {
+  background: #f2f5f7;
+  color: #484c51;
+  border: 1px solid #ced4d8;
+}
+
+section.faq nav.faq-nav a {
+  color: #484c51;
+}
+section.faq nav.faq-nav ol li a:hover {
+  background-color: #ffffff;
+}
+section.faq nav.faq-nav ol li.current-cat {
+  background-color: #ffffff;
+}
+
+section.faq nav.faq-nav ol li {
+  border-bottom: 1px solid #ced4d8;
+}
+
+section.faq nav.faq-nav ol li:last-of-type {
+  border-bottom: none;
+}
+
+section.faq div.faq-content-answers {
+  border: 1px solid #ced4d8;
+}
+
+section.faq h3 {
+  border-bottom: 1px solid #ced4d8;
+}
+
+section.faq h3.active {
+  border-bottom: none;
+}
+
+div.content-box section.faq .faq-answer {
+  border-bottom: 1px solid #ced4d8;
+}
+
+div.content-box section.faq .faq-answer:last-of-type {
+  border-bottom: none;
+}
+section.faq h3:last-of-type {
+  border-bottom: none;
+}
+
+span.faq-toggle-plus {
+  border: 1px solid #1db4ed;
+}
+
+/**** ACTIVE MARK ***/
+.faq-item-active-mark {
+  border: 1px solid #ced4d8;
+  background-color: #ffffff;
+  border-left: none;
+  border-bottom: none;
+}
+
+.payment-item-active-mark {
+  background-color: #ffffff;
+}
+
+/***** COUNTER *****/
+
+.digit-anim {
+  box-shadow: 0px 1px 1px 1px rgba(15, 75, 38, 0.75);
+}
+
+.digit,
+.digit-next-up,
+.digit-next-bottom,
+.digit-bottom {
+  color: #32442d;
+  transition: background 0.4s;
+  background: rgb(249, 249, 249);
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(249, 249, 249, 1) 47%,
+    rgba(213, 213, 213, 1) 49%,
+    rgba(237, 237, 237, 1) 52%,
+    rgba(226, 225, 225, 1) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(249, 249, 249, 1) 47%,
+    rgba(213, 213, 213, 1) 49%,
+    rgba(237, 237, 237, 1) 52%,
+    rgba(226, 225, 225, 1) 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(249, 249, 249, 1) 47%,
+    rgba(213, 213, 213, 1) 49%,
+    rgba(237, 237, 237, 1) 52%,
+    rgba(226, 225, 225, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e2e1e1',GradientType=0 );
+}
+
+.digit-group-label {
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(44, 57, 40, 0.74);
+}
+
+/*** FORMS ***/
+
+.platform-form input[type='text'],
+.platform-form input[type='email'],
+.platform-form input[type='password'],
+.platform-form input[type='tel'],
+.platform-form input[type='number'] {
+  border: 1px solid #e5ebef;
+  color: #767b82;
+  background-color: #e5ebef;
+  transition: border 0.5s;
+}
+.platform-form select {
+  border: 1px solid #e5ebef;
+  color: #767b82;
+  background: #e5ebef url('../../base/images/arrow-down.png') no-repeat right
+    20px center;
+  transition: border 0.5s;
+}
+
+.platform-form input.date-control {
+  background-image: url('../../base/images/calendar.png');
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.platform-form select:disabled,
+select.content-nav:disabled,
+.platform-form input[type='text']:disabled,
+.platform-form input[type='email']:disabled,
+.platform-form input[type='password']:disabled,
+.platform-form input[type='tel']:disabled,
+.platform-form input[type='number']:disabled {
+  opacity: 0.6;
+}
+
+.platform-form div.has-error input[type='text'],
+.platform-form div.has-error input[type='email'],
+.platform-form div.has-error input[type='password'],
+.platform-form div.has-error input[type='tel'],
+.platform-form div.has-error input[type='number'],
+.platform-form div.has-error select,
+.payment-cc-content div.has-error input[type='text'],
+.payment-cc-content div.has-error select {
+  color: #f44336;
+  background-color: #ffffff;
+  box-shadow: none;
+  border: 1px solid #f44336;
+}
+
+.platform-form input[type='text']:focus,
+.platform-form input[type='email']:focus,
+.platform-form input[type='password']:focus,
+.platform-form input[type='tel']:focus,
+.platform-form input[type='number']:focus,
+.payment-cc-content input[type='text']:focus,
+.platform-form select:focus,
+.payment-cc-content select:focus {
+  color: #60646a;
+  background-color: #ffffff;
+  border-color: #bdc5ca;
+}
+
+.platform-form div.has-error input[type='text']:focus,
+.platform-form div.has-error input[type='email']:focus,
+.platform-form div.has-error input[type='password']:focus,
+.platform-form div.has-error input[type='tel']:focus,
+.platform-form div.has-error input[type='number']:focus,
+.platform-form div.has-error select:focus,
+.payment-cc-content div.has-error input[type='text']:focus {
+  color: #60646a;
+  border-color: #f44336;
+}
+
+.platform-form input[type='text']:invalid,
+.platform-form input[type='email']:invalid,
+.platform-form input[type='password']:invalid,
+.platform-form input[type='tel']:invalid,
+.platform-form input[type='number']:invalid,
+.platform-form select:invalid,
+.platform-form input[type='text']:-moz-ui-invalid,
+.platform-form input[type='email']:-moz-ui-invalid,
+.platform-form input[type='password']:-moz-ui-invalid,
+.platform-form input[type='tel']:-moz-ui-invalid,
+.platform-form input[type='number']:-moz-ui-invalid,
+.platform-form select:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*** PAYMENTS/DEPO ****/
+.deposit-amount {
+  border: 1px solid #cad0d4;
+  color: #767b82;
+}
+
+.deposit-amount:hover {
+  border: 2px solid #cad0d4;
+}
+
+.deposit-amount.platform-form {
+  border: 1px solid #e5ebef;
+}
+
+.deposit-amount.platform-form label {
+  color: #87979c;
+}
+.deposit-amount.platform-form:hover {
+  border: 2px solid #e5ebef;
+}
+
+.deposit-amount-active,
+.deposit-amount-active:hover,
+.deposit-amount-active.platform-form,
+.deposit-amount-active.platform-form:hover {
+  color: #595e63;
+  border: 2px solid #67bd2e;
+}
+
+.deposit-amount-active.deposit-amount-error.platform-form,
+.deposit-amount-active.deposit-amount-error.platform-form:hover {
+  border: 2px solid #f44336;
+}
+
+.deposit-amount-error-cloud {
+  background: #f44336;
+  color: #ffffff;
+}
+#paymentTypeMobile {
+  background-color: #ffffff;
+  border: 1px solid #767b82;
+}
+
+.payment-mobile-label {
+  color: #484c51;
+}
+
+.cvv-info .tooltip-cloud {
+  background: #ffffff;
+  color: #87979c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.payment-nav {
+  background: #ffffff;
+}
+.payment-nav-title {
+  color: #484c51;
+}
+.payment-nav ul li a {
+  background: #f2f5f7;
+  border-top: 1px solid #ced4d8;
+  color: #767b82;
+}
+.payment-nav ul li a span {
+  color: #1db4ed;
+}
+
+.payment-nav ul li.active a,
+.payment-nav ul li:hover a {
+  background: #ffffff;
+}
+.payment-content {
+  background: #ffffff;
+}
+
+/***** ALERTS *****/
+.platform-alert {
+  color: #ffffff;
+}
+
+.platform-alert-error {
+  background: #f44336;
+}
+.platform-alert-success {
+  background: #4caf50;
+}
+.platform-alert-warning {
+  background: #fc8f37;
+}
+.platform-alert-info {
+  background: #50c1eb;
+}
+.platform-alert a {
+  color: inherit;
+}
+
+/***** DIALOGS ****/
+#dialog-wrapper {
+  background: rgba(41, 45, 56, 0.6);
+}
+
+#dialog {
+  background: #ffffff;
+}
+
+#dialog .dialog-title {
+  border-bottom: 1px solid #e5e5e5;
+  color: #384656;
+}
+.dialog-close,
+.widget-ticket-mobile-close .dialog-close {
+  border: 2px solid #384656;
+}
+.dialog-close span,
+.widget-ticket-mobile-close .dialog-close span {
+  background: transparent url('../../base/images/dialog_close.png');
+}
+.dialog-close:hover,
+.widget-ticket-mobile-close .dialog-close:hover {
+  background-color: #384656;
+}
+
+#dialog .dialog-content a {
+  color: #67bd2e;
+}
+
+#dialog .dialog-content .platform-alert a {
+  color: inherit;
+}
+
+/************ TABLES ***********/
+th.tablesorter-headerUnSorted {
+  background-image: url('../../base/images/arrow_none.png');
+}
+th.tablesorter-header {
+  transition: background-color 0.2s;
+}
+th.tablesorter-header:hover {
+  background-color: #d9e2e7;
+}
+th.tablesorter-headerAsc {
+  background-image: url('../../base/images/arrow_up.png');
+}
+th.tablesorter-headerDesc {
+  background-image: url('../../base/images/arrow_down.png');
+}
+th.sorter-false {
+  background-image: none;
+}
+th.sorter-false:hover {
+  background-color: transparent;
+}
+
+/**** FEATURED ****/
+.widget-featured-pager a span {
+  color: #ffffff;
+}
+
+.widget-featured-wrapper-small .widget-featured-content {
+  background-color: #1db4ed;
+}
+
+.widget-featured-wrapper-small .widget-featured-amount {
+  color: #ffffff;
+}
+
+.widget-featured-wrapper-small .widget-featured-info-container {
+  color: #ffffff;
+}
+
+.widget-featured-nolottery {
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(44, 57, 40, 0.74);
+}
+
+.widget-featured-content h2 {
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(44, 57, 40, 0.74);
+}
+.widget-featured-wrapper-small .widget-featured-nolottery {
+  text-shadow: none;
+}
+.widget-featured-wrapper-small .widget-featured-content h2 {
+  color: #ffffff;
+  text-shadow: none;
+}
+
+.widget-featured-content .hamount {
+  color: #fe8d20; /* todo */
+  text-shadow: 0px 1px 1px rgba(44, 57, 40, 0.74);
+}
+
+.widget-featured-content time.platform-countdown {
+  background: transparent
+    url('../../base/images/widget/featured/countdown_shadow.png') no-repeat
+    center 39px;
+}
+
+.widget-featured-countdown time {
+  color: #ffffff;
+}
+
+/*** LATEST NEWS ****/
+.widget-latest-news-title {
+  color: #384656;
+}
+
+/*** LIST ***/
+.widget-list-content .widget-list-title,
+.widget-list-content-grid .widget-list-title {
+  color: #384656;
+}
+
+.widget-list-ticket {
+  background: #ffffff;
+}
+
+.widget-list-ticket .widget-list-hamount {
+  color: #1db4ed;
+  background: #ffffff;
+  border-bottom: 1px solid #e5ebef;
+}
+
+.widget-list-pending-text {
+  background: #ffffff;
+  color: #384656;
+}
+
+.widget-list-ticket-countdown {
+  color: #384656;
+}
+
+.widget-list-ticket-countdown-before {
+  color: #87979c;
+}
+
+/* carousel */
+.widget-list-carousel-prev > a {
+  color: #000000;
+}
+
+.widget-list-carousel-next > a {
+  color: #000000;
+}
+
+/* type 2 */
+.widget-list-type2 .widget-list-pending-text {
+  color: #87979c;
+}
+
+/** display type 2 **/
+.widget-list-display2 .widget-list-ticket h2,
+.widget-list-display2 .widget-list-ticket .widget-div-title {
+  background-color: transparent;
+}
+
+/* common */
+.widget-list-content .widget-list-nolottery,
+.widget-news-nonews {
+  color: #384656;
+}
+
+/*** PLAY (TICKET) ***/
+
+.widget-ticket-entity {
+  color: #767b82;
+  border: 1px solid #d3d0d0;
+  background: #ffffff;
+}
+
+.widget-ticket-entity-mobile {
+  border: 1px solid #ced4d8;
+}
+.widget-ticket-entity-mobile a.widget-ticket-entity-newline,
+.widget-ticket-entity-mobile a.widget-ticket-entity-editline {
+  color: #767b82;
+}
+
+/*.widget-ticket-entity:hover,*/
+.widget-ticket-entity.checked {
+  border: 1px solid #67bd2e;
+}
+.widget-ticket-icon-ok {
+  color: #67bd2e;
+}
+.widget-ticket-icon-ok span {
+  background: #ffffff;
+}
+.widget-ticket-numbers {
+  color: #9fa3a8;
+  transition: 0.5s color;
+}
+
+.widget-ticket-numbers > a {
+  border: 1px solid #cfd2d4;
+  color: inherit;
+}
+
+.widget-ticket-numbers > a:hover,
+.widget-ticket-numbers > a.checked,
+.widget-ticket-numbers > a.checked:hover,
+.widget-ticket-entity.checked .widget-ticket-numbers > a.checked:hover,
+.widget-ticket-entity .widget-ticket-numbers.checked > a.checked:hover {
+  border: 1px solid #1db4ed;
+  background: #1db4ed;
+}
+
+.widget-ticket-entity:hover .widget-ticket-numbers,
+.widget-ticket-entity:hover .widget-ticket-bnumbers,
+.widget-ticket-entity.checked .widget-ticket-numbers > a,
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a {
+  color: #767b82;
+}
+
+.widget-ticket-entity:hover .widget-ticket-numbers > a,
+.widget-ticket-entity:hover .widget-ticket-bnumbers > a {
+}
+
+.widget-ticket-bnumbers {
+  color: #9fa3a8;
+  transition: 0.5s color;
+}
+
+.widget-ticket-bnumbers > a {
+  color: inherit;
+  border: 1px solid #cfd2d4;
+}
+
+.widget-ticket-bnumbers > a:hover,
+.widget-ticket-bnumbers > a.checked,
+.widget-ticket-bnumbers > a.checked:hover,
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a.checked:hover,
+.widget-ticket-entity .widget-ticket-bnumbers.checked > a.checked:hover {
+  border: 1px solid #67bd2e;
+  background: #67bd2e;
+}
+
+.widget-ticket-entity:hover .widget-ticket-numbers > a:hover,
+.widget-ticket-entity .widget-ticket-numbers > a.checked,
+.widget-ticket-entity.checked:hover .widget-ticket-numbers > a.checked,
+.widget-ticket-entity:hover .widget-ticket-numbers.checked > a.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers > a:hover,
+.widget-ticket-entity .widget-ticket-bnumbers > a.checked,
+.widget-ticket-entity.checked:hover .widget-ticket-bnumbers > a.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers.checked > a.checked {
+  color: #ffffff;
+}
+
+.widget-ticket-entity.checked .widget-ticket-numbers > a:hover,
+.widget-ticket-entity .widget-ticket-numbers.checked > a:hover {
+  background: none;
+  color: inherit;
+  border: 1px solid #cfd2d4;
+}
+
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a:hover,
+.widget-ticket-entity .widget-ticket-bnumbers.checked > a:hover {
+  background: none;
+  color: inherit;
+  border: 1px solid #cfd2d4;
+}
+
+.widget-ticket-entity.checked:hover .widget-ticket-numbers,
+.widget-ticket-entity.checked:hover .widget-ticket-bnumbers,
+.widget-ticket-entity:hover .widget-ticket-numbers.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers.checked {
+  color: #767b82;
+}
+
+.widget-ticket-entity.processing {
+  border: 1px solid #d3d0d0;
+}
+
+.widget-ticket-summary-content-header {
+  color: #767b82;
+}
+
+.widget-ticket-summary-content-total-value {
+  color: #767b82;
+}
+
+.play-lottery-jackpot-amount {
+  color: #1db4ed;
+}
+
+/*** RESULTS ***/
+
+.results-payout-amount {
+  color: #67bd2e;
+}
+
+.results-short-content a {
+  background: #e5ebef;
+}
+
+.results-short-jackpot {
+  color: #384656;
+}
+.results-short-jackpot span {
+  color: #1db4ed;
+}
+.results-short-content .results-short-prev span,
+.results-short-content .results-short-next span {
+  color: #7a7f85;
+}
+
+table.table-results-detailed .table-results-detailed-amount {
+  color: #67bd2e;
+}
+
+/*** NAVIGATION/FILTERS ***/
+.results-short-content select,
+.myaccount-mobile-nav,
+.myaccount-filter-select,
+.mobile-language-area select,
+#faq-mobile-cats,
+.results-detailed-multiplier-wrapper select,
+.results-short-winnings-table-wrapper select {
+  color: #767b82;
+  background: #e5ebef url('../../base/images/arrow-down.png') no-repeat right
+    20px center;
+  border: none;
+}
+
+.myaccount-tickets-mobile-sort,
+.results-mobile-sort,
+.info-mobile-sort {
+  border: none;
+  color: #384656;
+  background: transparent url('../../base/images/arrow-down.png') no-repeat
+    right 0 center;
+}
+
+/**** NEXT DRAW ***/
+.widget-draw-countdown .digit-anim {
+  box-shadow: 0 1px 1px 1px rgba(35, 35, 35, 0.5);
+}
+
+.widget-draw-countdown .digit,
+.widget-draw-countdown .digit-next-up,
+.widget-draw-countdown .digit-next-bottom,
+.widget-draw-countdown .digit-bottom {
+  color: #222222; /* todo */
+}
+.widget-draw-countdown .digit-group-label {
+  text-shadow: none;
+  color: #222222; /* todo */
+}
+
+.widget-draw-title {
+  color: #222222; /* todo */
+}
+
+.widget-draw-jackpot {
+  color: #508f40; /* todo */
+}
+
+.widget-draw-image {
+  border: 1px solid #bbbbbb; /* todo */
+}
+
+/*** LOTTERY INFORMATION ***/
+
+table.table-short tr th {
+  color: #384656;
+  border-bottom: none;
+}
+
+table.table-short tr td .table-short-label {
+  color: #384656;
+}
+
+table.table-short thead tr {
+  background: #f2f5f7;
+}
+table.table-short tbody td {
+  border-top: none;
+  border-bottom: none;
+}
+
+table.table-short tbody tr:first-of-type td {
+  border-bottom: 1px solid #ffffff;
+}
+table.table-short tbody tr:nth-of-type(2n) td,
+table.table-short tbody tr:nth-of-type(2n) th {
+  border-top: 1px solid #ffffff;
+  border-bottom: none;
+}
+table.table-short tbody tr {
+  background: #f2f5f7;
+}
+
+table.table-short tbody tr td,
+table.table-short thead tr th {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+table.table-short tbody tr td:first-of-type,
+table.table-short thead tr th:first-of-type {
+  border-left: none;
+}
+table.table-short tbody tr td:last-of-type,
+table.table-short thead tr th:last-of-type {
+  border-right: none;
+}
+
+table.table-short tr td span.fa {
+  color: #87979c;
+}
+
+table.table-info-detailed tbody td {
+  color: #767b82;
+}
+
+table.table-info tbody tr td.info-jackpot .info-jackpot-amount {
+  color: #67bd2e;
+}
+
+table.table-info-detailed .table-info-detailed-prize-amount {
+  color: #67bd2e;
+}
+
+/*** MY ACCOUNT ***/
+
+div.account-tickets,
+div.header-transaction,
+div.header-withdrawal {
+  color: #384656;
+}
+.myaccount-content nav.pagination {
+  background-color: #ecf0f3;
+}
+.myaccount-balance {
+  color: #384656;
+}
+.myaccount-balance span {
+  color: #67bd2e;
+}
+
+.myaccount-scan-btn-disabled {
+  color: inherit;
+}
+
+/*** ORDER ***/
+
+.order-lottery-quick-pick-container {
+  color: #767b82;
+}
+table.table-order tbody tr td {
+  border-top: none;
+}
+
+table.table-order tbody tr:nth-of-type(2n + 1) td {
+  border-top: 1px solid #e5ebef;
+  border-bottom: none;
+}
+table.table-order tbody tr:nth-of-type(2n) td {
+  border-top: none;
+}
+table.table-order tbody tr:nth-last-of-type(2) td {
+  border-bottom: 1px solid #e5ebef;
+}
+table.table-order tbody tr.active:nth-last-of-type(2) td {
+  border-bottom: none;
+}
+table.table-order {
+  border-bottom: 1px solid #e5ebef;
+}
+
+.order-sum {
+  color: #747474;
+}
+/*** TRANSACTION/TICKET DETAILS ***/
+tr.transaction-shade td:nth-of-type(2) {
+  color: #767b82;
+}
+table.table-payment tfoot tr {
+  background: transparent;
+}
+
+table.table-payment tbody tr:hover td {
+  background-color: transparent;
+}
+
+table.table-payment tbody tr:first-of-type td {
+  border-top: 1px solid #e5ebef;
+}
+table.table-tickets tbody tr td:nth-last-of-type(2) {
+  border-right: none;
+}
+table.table-tickets thead tr th:nth-last-of-type(2) {
+  border-right: none;
+}
+
+/*** SUCCESS (THANK YOU PAGE) ***/
+.success-content {
+  border-radius: 3px;
+}
+table.table-success tbody tr td {
+  border: none;
+  border-bottom: 1px solid #e5ebef;
+}
+
+table.table-success tbody tr:last-of-type td {
+  border-bottom: none;
+}
+
+table.table-transactions tbody tr:last-of-type td {
+  border-bottom: none;
+}
+
+.transactions-amount {
+  color: #67bd2e;
+}
+.tickets-date {
+  color: #87979c;
+}
+
+/*.transactions-status-0
+{
+	color: #5c5c5c;
+}*/
+.transactions-status-1 {
+  color: #67bd2e;
+}
+.transactions-status-2 {
+  color: #f44336;
+}
+.transactions-status-3 {
+  color: #f46921;
+}
+.transactions-status-4 {
+  color: #f44336;
+}
+
+.myaccount-transactions-label {
+  color: #767b82;
+}
+.myaccount-transactions-value {
+  color: #767b82;
+}
+
+.tickets-lines strong {
+  color: #767b82;
+}
+
+.ticket-prize {
+  color: #767b82;
+}
+
+.ticket-prize span {
+  color: #67bd2e;
+}
+
+/**** SMALL WIDGETS ****/
+.widget .small-widget {
+  background-color: #ffffff;
+}
+
+.small-widget-title {
+  color: #384656;
+  border-bottom: 1px solid #e5ebef;
+}
+
+.widget .small-widget-draw {
+  background-color: #f2f5f7;
+}
+.small-widget-draw .widget-small-draw-button-container {
+  border-top: 1px solid #ffffff;
+}
+
+.small-widget-draw-title a {
+  color: #384656;
+}
+.small-widget-draw .small-widget-draw-amount {
+  color: #1db4ed;
+}
+
+.small-widget-results h2 a,
+.small-widget-results .widget-div-title a {
+  color: #384656;
+}
+
+.small-widget-lottery h2.small-widget-title {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.small-widget-lottery .small-widget-content {
+  color: #ffffff;
+}
+.small-widgets-content .widget .small-widget-lottery {
+  background-image: url('../../base/images/small_lottery_bg.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.small-widget-title a {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.small-widget-results .ticket-line {
+  border-bottom: 1px solid #f2f5f7;
+}
+.small-widget-results .small-widget-results-item:last-of-type .ticket-line {
+  border-bottom: none;
+}
+
+.small-widget-slider-page-active,
+.small-widget-slider-page {
+  color: #ffffff;
+}
+
+.small-widget-slider-page {
+  background: #cecece;
+}
+.small-widget-slider-page-active,
+.small-widget-slider-page:hover,
+.small-widget-slider-page-marked {
+  background: #1db4ed;
+}
+.small-widget-slider-page-unmarked {
+  background: #cecece;
+}
+
+.small-widget-slider-pager-line {
+  background: #e3e3e3;
+}
+
+.small-widget-slider-pager-line-fill {
+  background: #1db4ed;
+}
+
+.small-widget-slider .small-widget-slider-header {
+  color: #384656;
+}
+
+.small-widget-winners-amount {
+  color: #1db4ed;
+}
+
+.small-widget-winners-item-compact-name {
+  color: #384656;
+}
+
+.small-widget-winners-item-compact-country {
+  background-color: #f4f8f9;
+}
+
+.small-widget-winners-item-compact-amount span,
+.small-widget-winners-item-compact-amount h2 {
+  color: #67bd2e;
+}
+
+.small-widget-winners-item-compact {
+  border-bottom: 1px solid #f2f5f7;
+}
+
+.small-widget-winners-item-compact:last-of-type {
+  border-bottom: none;
+}
+
+.small-widgets-content .widget .small-widget-lottery-powerball {
+  background-color: #ca2828;
+}
+
+.small-widgets-content .widget .small-widget-lottery-mega-millions {
+  background-color: #224189;
+}
+
+.small-widgets-content .widget .small-widget-lottery-eurojackpot {
+  background-color: #8e6844;
+}
+
+.small-widgets-content .widget .small-widget-lottery-superenalotto {
+  background-color: #259956;
+}
+.small-widgets-content .widget .small-widget-lottery-lotto-uk {
+  background-color: #4599ff;
+}
+
+.small-widgets-content .widget .small-widget-lottery-euromillions {
+  background-color: #164888;
+}
+
+.small-widgets-content .widget .small-widget-lottery-lotto-pl {
+  background-color: #1c9eda;
+}
+
+.small-widgets-content .widget .small-widget-lottery-powerball .btn {
+  color: #ca2828;
+}
+
+.small-widgets-content .widget .small-widget-lottery-mega-millions .btn {
+  color: #224189;
+}
+
+.small-widgets-content .widget .small-widget-lottery-eurojackpot .btn {
+  color: #8e6844;
+}
+
+.small-widgets-content .widget .small-widget-lottery-superenalotto .btn {
+  color: #259956;
+}
+.small-widgets-content .widget .small-widget-lottery-lotto-uk .btn {
+  color: #4599ff;
+}
+
+.small-widgets-content .widget .small-widget-lottery-euromillions .btn {
+  color: #164888;
+}
+
+.small-widgets-content .widget .small-widget-lottery-lotto-pl .btn {
+  color: #1c9eda;
+}
+
+.small-widgets-content .widget .btn:hover {
+  color: #ffffff;
+}
+
+.small-widgets-content .small-widget-text {
+  border: 1px solid #ced4d8;
+}
+
+.small-widgets-content .small-widget-text h2.small-widget-title,
+.small-widgets-content .small-widget-text h1.small-widget-title {
+  border-bottom: 1px solid #ced4d8;
+}
+
+/* others common */
+table.table-info .mobile-only-label,
+table.table-order .mobile-only-label {
+  color: inherit;
+}
+
+.myaccount-personal-link > a {
+  color: inherit !important;
+}
+
+.order-summary-multidraw-badge {
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 1000px) {
+  /*** HEADER ***/
+  header div.main-width {
+    background-image: none;
+  }
+  /*** PRIMARY NAVIGATION ***/
+  nav#primary-nav {
+    border-top: none;
+  }
+  nav#primary-nav > div {
+    background-color: #292d38;
+  }
+  nav#primary-nav div > ul.menu {
+    background-color: #292d38;
+  }
+  nav#primary-nav div > ul.menu > li > a {
+    color: #ffffff;
+  }
+  nav#primary-nav div > ul.menu > li.menu-item-mobile-highlight > a:hover {
+    color: #ffffff;
+  }
+  nav#primary-nav div > ul.menu > li > div.mobile-user-menu-container {
+    background-color: #30343e;
+    border-top: 1px solid #3f424c;
+    border-bottom: 1px solid #3f424c;
+  }
+  nav#primary-nav div > ul.menu > li > div > ul > li > a {
+    color: #ffffff;
+  }
+
+  nav#primary-nav div > ul.menu > li > div > ul > li > a:hover {
+    color: #1db4ed;
+  }
+
+  /*** HEADER - ORDER AREA ***/
+  div.order-info {
+    box-shadow: none;
+  }
+  div.order-info:hover {
+    box-shadow: none;
+  }
+
+  header.header-dark div.order-info {
+    box-shadow: none;
+  }
+  header.header-dark div.order-info:hover {
+    box-shadow: none;
+  }
+
+  /* remove hover from tables */
+  table.table-hover tbody tr:hover td {
+    background-color: transparent;
+  }
+
+  /* LOTTERY INFORMATION */
+  table.table-short tbody tr {
+    background: transparent;
+  }
+  table.table-short tbody tr td {
+    border-right: none;
+    font-weight: normal;
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+  table.table-short tbody tr:first-of-type td {
+    border-bottom-width: 1px;
+    border-color: #e5ebef;
+  }
+  table.table-short tbody tr:first-of-type td:last-of-type {
+    border-bottom-width: 0;
+  }
+  table.table-short tbody tr:nth-of-type(2n) td,
+  table.table-short tbody tr:nth-of-type(2n) th {
+    border-top-width: 0;
+  }
+
+  /*** TRANSACTION DETAILS TABLE ***/
+  table.table-payment tbody tr td:first-of-type,
+  table.table-payment tbody tr td:nth-of-type(2) {
+    border-top-width: 1px;
+  }
+
+  table.table-payment tbody tr:last-of-type td:last-of-type {
+    border-bottom-width: 1px;
+  }
+
+  table.table-payment tbody tr td,
+  table.table-payment tbody tr:first-of-type td {
+    border-width: 0;
+  }
+
+  table.table-payment tbody tr:last-of-type td:last-of-type,
+  table.table-payment tbody tr:last-of-type td:nth-last-of-type(2) {
+    border-bottom-width: 1px;
+  }
+
+  /*** TRANSACTIONS TABLE ***/
+  table.table-transactions tbody tr td {
+    border-bottom-width: 0;
+  }
+  table.table-transactions tbody tr td:first-of-type {
+    border-top-width: 1px;
+  }
+
+  /** common - info + results */
+  table.table-info tbody tr td,
+  table.table-results tbody tr td {
+    border-bottom-width: 0;
+    border-top-width: 0;
+  }
+
+  table.table-info tbody tr:first-of-type td:first-of-type,
+  table.table-info tbody tr:first-of-type td:nth-of-type(2),
+  table.table-info tbody tr:first-of-type td:nth-of-type(3),
+  table.table-results tbody tr:first-of-type td:first-of-type,
+  table.table-results tbody tr:first-of-type td:nth-of-type(2),
+  table.table-results tbody tr:first-of-type td:nth-of-type(3) {
+    border-top-width: 1px;
+  }
+
+  table.table-results thead tr th:last-of-type,
+  table.table-results tbody tr td:last-of-type,
+  table.table-results tfoot tr td:last-of-type,
+  table.table-info thead tr th:last-of-type,
+  table.table-info tbody tr td:last-of-type {
+    border-bottom-width: 1px;
+  }
+
+  /*** THANK YOU PAGE ***/
+  table.table-success tbody tr td {
+    border-bottom-width: 0;
+  }
+
+  table.table-success tbody tr td:last-of-type {
+    border-bottom-width: 1px;
+  }
+
+  table.table-success tbody tr:last-of-type td:last-of-type {
+    border-bottom-width: 0;
+  }
+
+  /*** DEPOSIT ***/
+  .deposit-amount.platform-form:nth-last-of-type(2) {
+    border-width: 0;
+  }
+
+  .deposit-amount.deposit-amount-active.platform-form:nth-last-of-type(2) {
+    border-width: 0;
+  }
+
+  /*** ORDER ***/
+
+  table.table-order tbody tr:nth-of-type(2n + 1) td {
+    border-top-width: 0;
+  }
+
+  table.table-order tbody tr:nth-of-type(2n + 1) td:first-of-type,
+  table.table-order tbody tr:nth-of-type(2n + 1) td:nth-of-type(2) {
+    border-top-width: 1px;
+  }
+
+  table.table-order tbody tr td.order-summary-lines {
+    border-bottom-width: 0;
+  }
+
+  table.table-order tbody tr:nth-last-of-type(2) td {
+    border-bottom-width: 0;
+  }
+  table.table.table-order {
+    border-bottom: 1px solid #e5ebef;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /*** FEATURED ***/
+  .widget-featured-content time.platform-countdown {
+    background: none;
+  }
+
+  /*** COUNTDOWN ***/ /* todo */
+  .digit {
+    background: none;
+    color: #ffffff;
+    text-shadow: 0px 1px 1px rgba(44, 57, 40, 0.74);
+  }
+  .digit-anim {
+    box-shadow: none;
+  }
+
+  /*** FOOTER ***/
+  div.main-width-nav {
+    border-top: 1px solid #e5e5e5;
+  }
+
+  /*** FAQ ***/
+  section.faq nav.faq-nav {
+    background: transparent;
+    border: none;
+  }
+}
+@media screen and (max-width: 720px) {
+  /*** MYACCOUNT - SAVED CARDS */
+  table.table-payments tbody tr td {
+    border-top-width: 0;
+    border-bottom-width: 0;
+  }
+  table.table-payments tbody tr td:first-of-type {
+    border-top-width: 1px;
+  }
+  table.table-payments tbody tr:last-of-type td:nth-last-of-type(2) {
+    border-bottom-width: 1px;
+  }
+
+  /*** MYACCOUNT - WITHDRAWALS ***/
+  table.table-withdrawals tbody tr td {
+    border-bottom-width: 0;
+  }
+  table.table-withdrawals tbody tr td:last-of-type {
+    border-bottom-width: 1px;
+  }
+  table.table-withdrawals tbody tr:last-of-type td:last-of-type {
+    border-bottom-width: 0;
+  }
+
+  /*** LOTTERY INFORMATION ***/
+  table.table-info-detailed tbody tr td,
+  table.table-info-detailed tfoot tr td {
+    border-top-width: 0;
+    border-bottom-width: 0;
+  }
+  table.table-info-detailed thead tr th:last-of-type,
+  table.table-info-detailed tbody tr td:last-of-type {
+    border-bottom-width: 1px;
+  }
+
+  table.table-info-detailed tbody tr:last-of-type td:last-of-type {
+    border-bottom-width: 1px;
+  }
+  table.table-info-detailed tfoot tr {
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 620px) {
+  /*** RESULTS ***/
+  table.table-results-detailed tbody tr td {
+    border-bottom-width: 0;
+  }
+  table.table-results-detailed tbody tr td:last-of-type {
+    border-bottom-width: 1px;
+  }
+  table.table-results-detailed tfoot tr {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*** NEXT DRAW ***/ /* todo */
+  .widget-draw-countdown .digit-anim {
+    box-shadow: none;
+  }
+  .widget-draw-countdown .digit {
+    text-shadow: none;
+  }
+
+  /** TICKET ***/
+  .widget-ticket-entity:not(.widget-ticket-entity-horizontal) {
+    border: none;
+  }
+  .widget-ticket-entity:not(.widget-ticket-entity-horizontal).checked {
+    border: none;
+  }
+  .widget-ticket-entity.processing {
+    border: none;
+  }
+
+  /*** SMALL WIDGETS ***/
+  .small-widget-winners-item-compact-country {
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /*** ORDER ****/
+  table.order tbody tr:nth-last-of-type(2) td:nth-last-of-type(2) {
+    border-bottom-width: 0;
+  }
+}

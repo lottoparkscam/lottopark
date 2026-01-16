@@ -1,0 +1,2099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "First Name"
+msgstr "이름"
+
+msgid "Last Name"
+msgstr "성"
+
+msgid "City"
+msgstr "도시"
+
+msgid "Postal/ZIP Code"
+msgstr "우편 번호"
+
+msgid "Region"
+msgstr "지역"
+
+msgid "Address #1"
+msgstr "주소 #1"
+
+msgid "Address #2"
+msgstr "주소 #2"
+
+msgid "Phone"
+msgstr "전화번호"
+
+msgid "Country"
+msgstr "국가"
+
+msgid "Time Zone"
+msgstr "시간대"
+
+msgid "Birthdate"
+msgstr "생일"
+
+msgid ""
+"Wrong phone number! Please try to specify it in other format or contact us!"
+msgstr "잘못된 전화번호입니다! 다른 형식으로 지정하거나 저희에게 문의주십시오!"
+
+msgid "You have to specify phone country!"
+msgstr "전화 국가를 지정해야 합니다!"
+
+msgid "Your data has been saved!"
+msgstr "귀하의 데이터가 저장되었습니다!"
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr "잘못된 시간대입니다! 해당 문제를 해결하려면 저희에게 문의주십시오!"
+
+msgid "Wrong birth date!"
+msgstr "생년월일이 잘못되었습니다!"
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr "잘못된 지역입니다! 문제를 해결하려면 문의하여 주십시오!"
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr "잘못된 국가입니다! 문제를 해결하려면 문의하여 주십시오!"
+
+msgid "Current password"
+msgstr "현재 비밀번호"
+
+msgid "New password"
+msgstr "새로운 비밀번호"
+
+msgid "Repeat new password"
+msgstr "새 비밀번호를 한 번 더 써주십시오"
+
+msgid "Your password has been changed."
+msgstr "비밀번호가 변경되었습니다."
+
+msgid "Wrong current password! Please try again."
+msgstr "현재 비밀번호가 잘못되었습니다! 다시 시도하십시오."
+
+msgid "E-mail"
+msgstr "이메일"
+
+msgid "Repeat e-mail"
+msgstr "이메일을 재입력해주십시오"
+
+msgid "E-mail Activation"
+msgstr "이메일 활성화"
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"이메일을 업데이트 해주셔서 감사합니다! 활성 프로세스를 완료하려면 다음 링크"
+"를 따라주십시오: <a href=\"%1$s\">활성화 링크</a>."
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: %1$s"
+msgstr ""
+"이메일을 업데이트 해주셔서 감사합니다! 활성 프로세스를 완료하려면 다음 링크"
+"를 클릭해주십시오: %1$s"
+
+msgid ""
+"Your email address has been changed, however we've encountered problems "
+"while sending the activation e-mail. Please contact us to activate your "
+"account."
+msgstr ""
+"이메일 주소가 변경되었습니다만 활성화 이메일을 보내는 동안 문제가 발생했습니"
+"다. 계정을 활성화하려면 저희에게 문의해주십시오."
+
+msgid ""
+"Failed to update your e-mail address! Please try again or contact us to "
+"solve this issue."
+msgstr ""
+"이메일 주소를 업데이트하지 못했습니다! 해당 문제를 해결하려면 다시 시도하거"
+"나 문의해주시길 바랍니다."
+
+msgid "This e-mail address is already registered."
+msgstr "해당 이메일 주소는 이미 가입되어 있습니다."
+
+msgid "This e-mail address is already used by you."
+msgstr "해당 이메일 주소는 이미 사용자가 사용하고 있습니다."
+
+msgid "Your e-mail has been changed."
+msgstr "귀하의 이메일이 변경되었습니다."
+
+msgid "Security error! Please try again."
+msgstr "보안 오류입니다! 다시 시도해주십시오."
+
+msgid "Amount"
+msgstr "금액"
+
+msgid "Type"
+msgstr "유형"
+
+msgid "Account IBAN number"
+msgstr "계정 IBAN 번호"
+
+msgid "SWIFT"
+msgstr "SWIFT"
+
+msgid "Bank name"
+msgstr "은행명"
+
+msgid "Skrill E-mail"
+msgstr "Skrill 이메일"
+
+msgid "Neteller E-mail"
+msgstr "Neteller 이메일"
+
+msgid "First Name (optional)"
+msgstr "이름 (선택 사항)"
+
+msgid "Last Name (optional)"
+msgstr "성 (선택 사항)"
+
+msgid "Bitcoin Wallet Address"
+msgstr "비트코인 월렛 주소"
+
+msgid ""
+"We have received your withdrawal request. Please allow up to 24h for our "
+"acceptance."
+msgstr "귀하의 인출 요청을 받았습니다. 수락하는데 최대 24시간이 걸립니다."
+
+msgid "Incorrect withdrawal amount."
+msgstr "인출 금액이 잘못되었습니다."
+
+msgid "Incorrect withdrawal type."
+msgstr "잘못된 인출 유형입니다."
+
+msgid "Security error! Please contact us!"
+msgstr "보안 오류입니다! 문의주시길 바랍니다!"
+
+msgid ""
+"You do not have enough balance to withdraw money from the account (minimum "
+"%s)!"
+msgstr "계좌에서 인출할 금액이 충분하지 않습니다 (최소 %s)!"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "동일한 번호를 사용하는 티켓이 주문에 추가되었습니다."
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr "복권 규정이 변경되었기 때문에 동일한 번호로 처리할 수 없습니다."
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "티켓을 더 추가하는데 실패하였습니다. 최대 주문에 도달하였습니다!"
+
+msgid "This lottery is no longer available."
+msgstr "해당 복권은 더 이상 이용할 수 없습니다."
+
+msgid "Incorrect ticket."
+msgstr "잘못된 티켓입니다."
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr "귀하의 무료 \"퀵 픽\" 티켓이 사용되었습니다!"
+
+msgid "Incorrect transaction."
+msgstr "잘못된 거래입니다."
+
+msgid "Your card has been removed!"
+msgstr "귀하의 카드가 삭제되었습니다!"
+
+msgid "Wrong card!"
+msgstr "카드가 잘못되었습니다!"
+
+msgid "Change e-mail address"
+msgstr "이메일 주소 변경하기"
+
+msgid "Change password"
+msgstr "비밀번호 변경"
+
+msgid "Edit profile"
+msgstr "프로필 편집"
+
+msgid "My tickets"
+msgstr "내 티켓"
+
+msgid "My payment methods"
+msgstr "내 지불 방식"
+
+msgid "My transactions"
+msgstr "입출금 내역"
+
+msgid "Deposit"
+msgstr "입금"
+
+msgid "Withdrawal"
+msgstr "인출"
+
+msgid "My details"
+msgstr "내 세부 정보"
+
+msgid "E-mail address"
+msgstr "이메일 주소"
+
+msgid "Password"
+msgstr "비밀번호"
+
+msgid "Remember me"
+msgstr "기억해두기"
+
+msgid "You have been successfully logged in!"
+msgstr "성공적으로 로그인되었습니다!"
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in "
+"the e-mail, <a href=\"%s\">try to resend</a> or contact us for manual "
+"activation."
+msgstr ""
+"귀하의 계정이 활성화되어있지 않습니다. 이메일에 제공된 다음 활성화 링크를 클"
+"릭하거나 <a href=\"%s\">다시 보내기</a>, 수동 활성화를 위해 당사에게 문의해주시"
+"길 바랍니다."
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr ""
+"귀하의 계정이 비활성화 상태입니다. 계정을 활성화하려면 저희에게 문의해주십시"
+"오."
+
+msgid "Wrong credentials! Please try again."
+msgstr "잘못된 자격 증명입니다! 다시 시도해주십시오."
+
+msgid "Too many login attempts! Please try again later."
+msgstr "로그인 시도가 너무 많았습니다! 나중에 다시 시도해주십시오."
+
+msgid "Incorrect captcha! Please try again."
+msgstr "캡차 입력이 잘못되었습니다! 다시 시도해주십시오."
+
+msgid "The item has been deleted!"
+msgstr "해당 항목이 삭제되었습니다!"
+
+msgid "Undo"
+msgstr "실행 취소"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "삭제할 지정 항목을 찾을 수 없습니다!"
+
+msgid "Your order has been deleted!"
+msgstr "귀하의 주문이 삭제되었습니다!"
+
+msgid "Your item has been restored!"
+msgstr "귀하의 항목이 복원되었습니다!"
+
+msgid "Lines"
+msgstr "라인"
+
+msgid "Lottery"
+msgstr "복권"
+
+msgid "The ticket has been added to your order!"
+msgstr "해당 티켓이 귀하의 주문에 추가되었습니다!"
+
+msgid "Bad request! Please contact us!"
+msgstr "잘못된 요청입니다! 문의하여 주십시오!"
+
+msgid "Unknown error! Please contact us!"
+msgstr "알 수 없는 오류입니다! 저희에게 문의해주시길 바랍니다!"
+
+msgid "Incorrect deposit amount value!"
+msgstr "입금액이 잘못 입력되었습니다!"
+
+msgid "Card number"
+msgstr "카드 번호"
+
+msgid "Expiration date"
+msgstr "만료일"
+
+msgid "Name on card"
+msgstr "카드명"
+
+msgid "Save card details for future use"
+msgstr "나중에 사용할 수 있도록 카드 정보 저장"
+
+msgid "Choose saved card"
+msgstr "저장된 카드 선택하기"
+
+msgid "CVV code"
+msgstr "CVV 코드"
+
+msgid "%s ticket"
+msgstr "%s 티켓"
+
+msgid "This card looks expired, please check the expiration date."
+msgstr "해당 카드가 만료된 것 같습니다, 만료 날짜를 확인해주십시오."
+
+msgid "Return to %s"
+msgstr "%s 로 돌아가기"
+
+msgid "Transaction ID"
+msgstr "거래 ID"
+
+msgid ""
+"A part of your order was removed as we have disabled some of the lotteries."
+msgstr "복권 중 일부가 사용할 수 없어 귀하의 주문 중 일부가 삭제되었습니다."
+
+msgid "You have been successfully logged out!"
+msgstr "성공적으로 로그아웃되었습니다!"
+
+msgid "Forgotten Password"
+msgstr "비밀번호를 잊어버렸습니다"
+
+msgid ""
+"<p>We have received a password reset request for your account. To complete "
+"the process please follow the link: <a href=\"%1$s\">reset password link</a>."
+"</p><p>Please ignore this e-mail if you did not request a password reset.</p>"
+msgstr ""
+"<p>귀하의 계정에 관한 비밀번호 재설정 요청을 받았습니다. 해당 과정을 완료하려"
+"면 다음 링크를 클릭해주십시오: <a href=\"%1$s\">비밀번호 링크 재설정</a>.</"
+"p><p>비밀번호 재설정을 요청하지 않은 경우 해당 이메일을 무시해주십시오.</p>"
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+"귀하의 계정에 대한 비밀번호 재설정을 요청 받았습니다. 프로세스를 완료하려면 "
+"다음 링크를 클릭하여 주십시오: %1$s\n"
+"\n"
+"암호 재설정을 요청하지 않는 경우, 해당 이메일을 무시하여 주십시오."
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link "
+"to complete the process."
+msgstr ""
+"비밀번호 재설정 링크가 있는 이메일을 전송하였습니다. 해당 프로세스를 완료하려"
+"면 링크를 클릭해주십시오."
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later "
+"or contact us to reset your password."
+msgstr ""
+"이메일을 보내는 동안 문제가 발생했습니다. 나중에 다시 시도하거나 저희에게 문"
+"의하여 비밀번호를 재설정해주십시오."
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+"24시간마다 한 번 분실된 비밀번호 링크를 보낼 수 있습니다. 나중에 다시 시도하"
+"거나 나중에 문의해주시길 바랍니다."
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr ""
+"귀하의 계정을 찾을 수 없습니다. 다른 이메일을 보내거나 저희에게 문의해주시길 "
+"바랍니다."
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "귀하의 비밀번호가 변경되었습니다. 성공적으로 로그인되었습니다!"
+
+msgid ""
+"This password reset link has expired. Please start the password reset "
+"process <a href=\"%s\">once again</a>."
+msgstr ""
+"비밀번호 재설정 링크가 만료되었습니다. 비밀번호 재설정 과정을 시작하려면 <a "
+"href=\"%s\">다시 시도해주십시오</a>."
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual "
+"password change."
+msgstr ""
+"분실한 비밀번호 링크가 잘못되었습니다. 수동 암호 변경을 위하여 다시 시도하거"
+"나 저희에게 문의해주시길 바랍니다."
+
+msgid ""
+"Your account has been activated before. Please login to access your account."
+msgstr ""
+"이전에 귀하의 계정이 활성화되었습니다. 귀하의 계정에 액세스하려면 로그인해주"
+"십시오."
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+"귀하의 활성화 링크가 만료되었습니다. 활성화 이메일을 보내려면 <a href=\"%s\">다"
+"시 시도해주십시오</a>."
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr ""
+"활성화 링크가 잘못되었습니다. 수동 활성화를 위해 저희에게 문의해주십시오."
+
+msgid "Account Activation"
+msgstr "계정 활성화"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"등록해주셔서 감사합니다! 활성화 프로세스를 완료하려면 다음 링크를 따르십시"
+"오: <a href=\"%1$s\">활성화 링크</a>."
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: %1$s"
+msgstr ""
+"등록해주셔서 감사합니다! 활성화 프로세스를 완료하려면 다음 링크를 따르십시"
+"오: %1$s"
+
+msgid "The activation e-mail has been resend to you."
+msgstr "활성화 이메일이 재전송되었습니다."
+
+msgid ""
+"We have encountered an error while trying to send the message. Please "
+"contact us to activate your account."
+msgstr ""
+"메시지를 보내는 도중에 오류가 발생했습니다. 계정을 활성화하려면 저희에게 문의"
+"해주십시오."
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later "
+"or contact us."
+msgstr ""
+"24시간마다 한 번 활성화 링크를 보낼 수 있습니다. 나중에 다시 시도하거나 저희"
+"에게 문의하십시오."
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr ""
+"재전송 링크가 잘못되었습니다. 수동으로 활성화하려면 저희에게 문의해주십시오."
+
+msgid "Repeat password"
+msgstr "비밀번호 다시 입력하기"
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s"
+"\" target=\"_blank\">Policy</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">이용 약관</a> 및 <a href=\"%s\" target=\"_blank\">정"
+"책</a>에 동의합니다"
+
+msgid ""
+"Your account is created, however we've encountered problems while sending "
+"the activation e-mail. Please <a href=\"%s\">try to resend</a> the "
+"activation e-mail or contact us for manual activation."
+msgstr ""
+"귀하의 계정이 생성되었지만, 활성화 이메일을 보내는 동안 문제가 발생했습니다. "
+"수동 활성화를 위해 활성화 이메일을 <a href=\"%s\">재전송하거나</a> 문의해주시"
+"길 바랍니다."
+
+msgid "This e-mail is already registered."
+msgstr "해당 이메일은 이미 등록되었습니다."
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr ""
+"귀하의 이메일 도메인이 차단되었습니다. 다른 이메일 주소를 사용해주십시오."
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "<strong>복권 현지 시간:</strong>"
+
+msgid "Bank account"
+msgstr "은행 계좌"
+
+msgid "Skrill"
+msgstr "Skrill"
+
+msgid "Neteller"
+msgstr "Neteller"
+
+msgid "BTC"
+msgstr "BTC"
+
+msgid "Redirecting to the payment page..."
+msgstr "지불 페이지로 리디렉션 중..."
+
+msgid "Transaction %s"
+msgstr "%s 거래"
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "Quick Pick 티켓이 주문에 추가되었습니다."
+
+msgid "FAQ Category"
+msgstr "FAQ 카테고리"
+
+msgid "FAQ"
+msgstr "자주하는 질문"
+
+msgid "This category cannot be deleted."
+msgstr "해당 카테고리는 삭제할 수 없습니다."
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "로또 플랫폼: 해당 페이지를 삭제할 수 없습니다."
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+"로또 플랫폼: 비주얼 편집기가 비활성화되었습니다. Wordpress 외부 HTML 콘텐츠"
+"를 편집하여 여기에 붙이십시오."
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "로또 플랫폼: 해당 페이지를 편집할 수 없습니다."
+
+msgid "Lotto Next Draw"
+msgstr "복권 다음 추첨"
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery "
+"Page"
+msgstr ""
+"복권 다음 추첨 정보 표시하기 &bull; LIMIT: 결과/정보/플레이 - 복권 페이지"
+
+msgid "Lotto Featured"
+msgstr "로또 추천"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "추천된 복권을 슬라이더로 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto List"
+msgstr "복권 목록"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "복권 목록 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto News"
+msgstr "복권 소식"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "최근 게시물 (소식) 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto Small Next Draw"
+msgstr "작은 복권 다음 추첨"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "작은 복권 다음 추첨 위젯 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto Small Lottery"
+msgstr "로또 작은 복권"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "작은 복권 위젯 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto Small Results"
+msgstr "로또 작은 결과"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "작은 결과 위젯 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto Small Slider"
+msgstr "로또 작은 슬라이더"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "작은 슬라이더 위젯 표시하기 &bull; LIMIT: 없음"
+
+msgid "Small Slider"
+msgstr "작은 슬라이더"
+
+msgid "Lotto Small Text"
+msgstr "로또 작은 텍스트"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "작은 텍스트 표시하기 &bull; LIMIT: 없음"
+
+msgid "Lotto Small Winners"
+msgstr "로또 작은 수상자"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "작은 마지막 수상자 위젯 표시하기 &bull; LIMIT: 없음"
+
+msgid "Small Winners"
+msgstr "작은 수상자"
+
+msgid "Lotto Ticket"
+msgstr "로또 티켓"
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/"
+"Info/Play - Lottery Page"
+msgstr ""
+"복권 (사용자가 자신의 선택할 수 있음) 표시하기 &bull; LIMIT: 결과/정보/플레"
+"이 - 로또 페이지"
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-"
+"mail for better website experience. You can resend the activation e-mail <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"활성화 링크가 있는 이메일을 보냈습니다. 더 나은 웹 사이트 경험을 위해 이메일"
+"을 활성화하십시오. 활성화 이메일은 <a href=\"%s\">여기</a>로 다시 전송할 수 있"
+"습니다."
+
+msgid "Title"
+msgstr "제목"
+
+msgid "Small"
+msgstr "스몰"
+
+msgid "Language: "
+msgstr "언어: "
+
+msgid "[hide]"
+msgstr "[숨기기]"
+
+msgid "[show]"
+msgstr "[보기]"
+
+msgid "Order"
+msgstr "주문"
+
+msgid "by highest jackpot"
+msgstr "가장 높은 거액 상금별로"
+
+msgid "by nearest draw"
+msgstr "가장 가까운 당첨별로"
+
+msgid "by custom order"
+msgstr "고객 주문별로"
+
+msgid "Slide count"
+msgstr "슬라이드 수"
+
+msgid "Custom name"
+msgstr "맞춤 이름"
+
+msgid "Custom order"
+msgstr "맞춤 주문"
+
+msgid "Carousel"
+msgstr "캐러셀"
+
+msgid "Grid"
+msgstr "그리드"
+
+msgid "Count"
+msgstr "카운트"
+
+msgid "Countdown"
+msgstr "카운트다운"
+
+msgid "Always"
+msgstr "항상"
+
+msgid "24 hours before"
+msgstr "24시간 전"
+
+msgid "Display"
+msgstr "표시하기"
+
+msgid "Tall - 5 elements"
+msgstr "높이 - 5개 요소"
+
+msgid "Short - 3 elements"
+msgstr "요약 - 3개 요소"
+
+msgid "Columns"
+msgstr "칼럼"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "Number of posts to show:"
+msgstr "표시할 게시물 수:"
+
+msgid "Width (%):"
+msgstr "너비 (%):"
+
+msgid "The margins are calculated automatically."
+msgstr "여백은 자동으로 계산됩니다."
+
+msgid "Content"
+msgstr "콘텐츠"
+
+msgid "Hide on mobile"
+msgstr "모바일에서 숨기기"
+
+msgid "Please save before use."
+msgstr "사용 전에 저장하십시오."
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr ""
+"입력란에 영어로 채우고 WPML 문자열 번역 <a href=\"%s\">여기</a>를 클릭하여 번역"
+"하십시오."
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Amount<span></span>"
+msgstr "금액<span></span>"
+
+msgid "Amount:"
+msgstr "금액:"
+
+msgid "by newest"
+msgstr "최신별로"
+
+msgid "by random"
+msgstr "랜덤별로"
+
+msgid "Normal"
+msgstr "일반"
+
+msgid "Compact"
+msgstr "콤팩트"
+
+msgid "Not found"
+msgstr "찾을 수 없습니다"
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+"죄송합니다, 찾으시는 페이지가 존재하지 않습니다. <br><a href=\"%s\">홈페이지"
+"</a>로 돌아가거나 <a href=\"%s\">복권 플레이</a>로 행운을 빕니다."
+
+msgid "404 - Not Found"
+msgstr "404 - 페이지를 찾을 수 없습니다"
+
+msgid "back to order"
+msgstr "주문으로 돌아가기"
+
+msgid "deposit"
+msgstr "입금"
+
+msgid "buy tickets"
+msgstr "티켓 구매하기"
+
+msgid "Don't have an account? "
+msgstr ""
+
+msgid "Sign up"
+msgstr "가입하기"
+
+msgid "Your e-mail address"
+msgstr "귀하의 이메일 주소"
+
+msgid "Your password"
+msgstr "귀하의 비밀번호"
+
+msgid "login"
+msgstr "로그인"
+
+msgid "Forgotten password"
+msgstr "비밀번호를 잊어버렸습니다"
+
+msgid "Remember your password? "
+msgstr "비밀번호 재입력하기"
+
+msgid "Login here"
+msgstr "로그인"
+
+msgid "Your new password"
+msgstr "귀하의 새로운 비밀번호"
+
+msgid "Repeat your new password"
+msgstr "새로운 비밀번호를 재입력해주십시오"
+
+msgid "change"
+msgstr "변경하기"
+
+msgid "send"
+msgstr "보내기"
+
+msgid "Play %s"
+msgstr "%s로 플레이하기"
+
+msgid "%s Results"
+msgstr "%s 결과"
+
+msgid "%s Information"
+msgstr "%s 정보"
+
+msgid "%s News"
+msgstr "%s 소식"
+
+msgid "Ticket %s"
+msgstr "%s 티켓"
+
+msgid "choose"
+msgstr "선택됨"
+
+msgid "Refer a friend"
+msgstr ""
+
+msgid "next"
+msgstr "다음"
+
+msgid "previous"
+msgstr "이전"
+
+msgid "Number"
+msgstr "번호"
+
+msgid "Remove"
+msgstr "삭제하기"
+
+msgid "Confirm"
+msgstr "확인"
+
+msgid "Are you sure?"
+msgstr "확실합니까?"
+
+msgid "No payment methods saved!"
+msgstr "지불 방식이 저장되지 않았습니다!"
+
+msgid "Choose country"
+msgstr "귀하 국가 선택하기"
+
+msgid "Choose time zone"
+msgstr "시간대 선택하기"
+
+msgid "Gender"
+msgstr ""
+
+msgid "Choose your country"
+msgstr "귀하 국가 선택하기"
+
+msgid "Choose region"
+msgstr "지역 선택하기"
+
+msgid "Address"
+msgstr "주소"
+
+msgid "Address (optional additional information)"
+msgstr "주소 (추가 정보 선택 사항)"
+
+msgid "National id"
+msgstr ""
+
+msgid "Click here to cancel the e-mail change"
+msgstr "여기를 클릭하여 이메일 변경을 취소합니다"
+
+msgid "Change e-mail"
+msgstr "이메일 변경하기"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "새로운 이메일 주소로 활성화해야합니다."
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail "
+"for better user experience."
+msgstr ""
+"선택적인 활성화 이메일로 전송합니다. 더 나은 환경을 위해 이메일을 활성화하십"
+"시오."
+
+msgid "Click here to cancel the password change"
+msgstr "여기를 클릭하여 비밀번호 변경을 취소합니다"
+
+msgid "Old password"
+msgstr "옛 비밀번호"
+
+msgid "save changes"
+msgstr "변경 저장하기"
+
+msgid "Download personal data"
+msgstr ""
+
+msgid "Delete account"
+msgstr "내 계정"
+
+msgid ""
+"Share this link with your friend. If someone registers and makes an order, "
+"You will receive a free ticket."
+msgstr ""
+
+msgid "Copy to clipboard"
+msgstr ""
+
+msgid "Share it:"
+msgstr ""
+
+msgid "What is your experience with %s?"
+msgstr ""
+
+msgid "Great lottery for You"
+msgstr ""
+
+msgid "Clicks:"
+msgstr ""
+
+msgid "Unique clicks:"
+msgstr ""
+
+msgid "Registrations:"
+msgstr "지역"
+
+msgid "Free ticket receive:"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete your account? This operation cannot be "
+"undone."
+msgstr ""
+
+msgid "Confirmation Password"
+msgstr "확인 날짜"
+
+msgid "Cancel"
+msgstr "취소하기"
+
+msgid "OK"
+msgstr "확인"
+
+msgid "Image %1 of %2"
+msgstr "%2 중 %1 이미지"
+
+msgid "purchased"
+msgstr ""
+
+msgid "win"
+msgstr "당첨"
+
+msgid "no winnings"
+msgstr "상금 없음"
+
+msgid "cancelled"
+msgstr "취소됨"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Date"
+msgstr "날짜"
+
+msgid "Ticket type"
+msgstr "%s 티켓"
+
+msgid "Multi draw"
+msgstr "추첨 유효"
+
+msgid "Single draw"
+msgstr ""
+
+msgid "Date processed"
+msgstr "처리된 날짜"
+
+msgid "Free"
+msgstr "무료"
+
+msgid "Draw date"
+msgstr "추첨 날짜"
+
+msgid "pending"
+msgstr "대기 상태"
+
+msgid "paid out"
+msgstr "지불됨"
+
+msgid "Pay out"
+msgstr "지불"
+
+msgid "Draw result"
+msgstr "추첨 결과"
+
+msgid "Ticket details"
+msgstr "티켓 세부 정보"
+
+msgid "Lines: %s"
+msgstr "라인: %s"
+
+msgid "Match"
+msgstr "매치"
+
+msgid "R"
+msgstr ""
+
+msgid "none"
+msgstr "없음"
+
+msgid "Prize"
+msgstr "당첨"
+
+msgid "Jackpot"
+msgstr "공동 자금"
+
+msgid "Quick Pick"
+msgstr "Quick Pick"
+
+msgid "Net"
+msgstr "Net"
+
+msgid "-"
+msgstr "-"
+
+msgid "return to ticket list"
+msgstr "티켓 목록으로 돌아가기"
+
+msgid "Past Tickets"
+msgstr "티켓 받기"
+
+msgid "Upcoming Draws"
+msgstr ""
+
+msgid "Show"
+msgstr "나타내기"
+
+msgid "show all"
+msgstr "모두 표시하기"
+
+msgid "show win"
+msgstr "당첨 나타내기"
+
+msgid "show no winnings"
+msgstr "당첨 없음 나타내기"
+
+msgid "Sort by"
+msgstr "종류별로"
+
+msgid "Ticket ID"
+msgstr "티켓 ID"
+
+msgid "by lowest"
+msgstr "가장 낮은 순으로"
+
+msgid "by highest"
+msgstr "가장 높은 순으로"
+
+msgid "Draw Date"
+msgstr "추첨 날짜"
+
+msgid "by oldest"
+msgstr "가장 오래된 순으로"
+
+msgid "Ticket ID and date"
+msgstr "티켓 ID 및 날짜"
+
+msgid "Lottery name"
+msgstr "복권명"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Valid to draw"
+msgstr "추첨 유효"
+
+msgid "quick pick"
+msgstr "퀵픽"
+
+msgid "Play again"
+msgstr "다시 시도하기"
+
+msgid "Details"
+msgstr "세부 정보"
+
+msgid "No tickets."
+msgstr "티켓 없음."
+
+msgid "Transaction details"
+msgstr "거래 세부 정보"
+
+msgid "return to the transaction list"
+msgstr "거래 목록으로 돌아가기"
+
+msgid "Account balance"
+msgstr "잔고"
+
+msgid "withdrawal"
+msgstr "인출"
+
+msgid "(confirmed)"
+msgstr "(확인됨)"
+
+msgid "Method"
+msgstr "방법"
+
+msgid "No transactions."
+msgstr "거래가 없습니다."
+
+msgid "Withdrawal List"
+msgstr "인출 목록"
+
+msgid "Withdrawal ID"
+msgstr "인출 ID"
+
+msgid "approved"
+msgstr "승인됨"
+
+msgid "declined"
+msgstr "거절됨"
+
+msgid "canceled"
+msgstr "취소됨"
+
+msgid "Purchase number"
+msgstr "%d 번호 선택하기"
+
+msgid "Card Number"
+msgstr "번호"
+
+msgid "Brand"
+msgstr ""
+
+msgid "Date of the order"
+msgstr "주문으로 돌아가기"
+
+msgid "Refusal reason"
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment "
+"is processed."
+msgstr "계정 잔액으로 결제합니다. 지불이 처리된 후 나머지 잔액은 %s 가 됩니다."
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr "귀하의 신용 카드는 %s으로 청구됩니다."
+
+msgid "New card"
+msgstr "새로운 카드"
+
+msgid ""
+"The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr "3자리 또는 4자리 CVV 코드는 지불 카드의 뒷면에 있습니다."
+
+msgid "Card number (spaces allowed)"
+msgstr "카드 번호 (공백 허용)"
+
+msgid "What is this?"
+msgstr "이게 무엇인가요?"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "해당 지불 유형의 최소 주문은 %s입니다."
+
+msgid "Address "
+msgstr "주소"
+
+msgid "This payment method is not supported in your country."
+msgstr ""
+
+msgid "National ID"
+msgstr "거래 ID"
+
+msgid ""
+"Brazil: CPF/CNPJ, Argentina: DNI, Uruguay: CI, Mexico: CURP/RFC/IFE, Peru: "
+"DNI, Chile: RUT, Colombia: CC"
+msgstr ""
+
+msgid "Bank"
+msgstr "은행명"
+
+msgid "Surname"
+msgstr ""
+
+msgid ""
+"Please be aware that wire transfers may take up to 2 working days to be "
+"processed."
+msgstr ""
+
+msgid "This can result in delay of processing the ticket."
+msgstr ""
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you "
+"don't have an Entropay account, you can always register it <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "This charge will appear on your statement as "
+msgstr ""
+
+msgid "I accept the "
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr ""
+
+msgid ""
+"This payment method is available in the deposit section, because the "
+"confirmation may take longer."
+msgstr ""
+
+msgid "try again"
+msgstr "다시 시도해주십시오"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a> 티켓"
+
+msgid "%s to win"
+msgstr "당첨 할 %s"
+
+msgid "First draw event on %s"
+msgstr "%s에 당첨 이벤트"
+
+msgid "Lines: <span>%s</span> &times; %s &times; %s draws"
+msgstr "라인: <span>%s</span> &times; %s"
+
+msgid "<span>%s</span> multi-draw discount"
+msgstr ""
+
+msgid "Draw event on %s"
+msgstr "%s에 당첨 이벤트"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "라인: <span>%s</span> &times; %s"
+
+msgid "Already a member? "
+msgstr ""
+
+msgid "Repeat your password"
+msgstr "비밀번호 재입력하기"
+
+msgid "Choose account currency"
+msgstr "귀하 국가 선택하기"
+
+msgid "sign up"
+msgstr "가입하기"
+
+msgid ""
+"Use this link to invite your friends. Your friends will be connected to your "
+"affiliate account (see more at %s)"
+msgstr ""
+
+msgid "Login"
+msgstr "로그인"
+
+msgid "Sign Up"
+msgstr "가입하기"
+
+msgid "Latest Result"
+msgstr "최신 결과"
+
+msgid "Schedule"
+msgstr "일정"
+
+msgid "Guess Range"
+msgstr "범위 추측하기"
+
+msgid "Tier"
+msgstr "수평"
+
+msgid "Match %s"
+msgstr "%s 매치"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "당첨 확률"
+
+msgid "Prize #%d"
+msgstr "#%d 당첨"
+
+msgid "Free Quick Pick"
+msgstr "무료 Quick Pick"
+
+msgid "%s shared"
+msgstr "%s 공유"
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr "견적"
+
+msgid "1 in %s"
+msgstr "%s의 1"
+
+msgid "Overall chances of winning any prize"
+msgstr "상금 획득에 관한 전체 확률"
+
+msgid "from A to Z"
+msgstr "A에서 Z까지"
+
+msgid "from Z to A"
+msgstr "Z에서 A까지"
+
+msgid "Draw"
+msgstr "추첨"
+
+msgid "Winning Odds"
+msgstr "우승 확률"
+
+msgid "Estimated Jackpot"
+msgstr "추정되는 공동 자금"
+
+msgid "Pending"
+msgstr "대기 상태"
+
+msgid "Next Draw"
+msgstr "다음 추첨"
+
+msgid "play"
+msgstr "플레이"
+
+msgid "No lotteries."
+msgstr "활성화된 복권이 없습니다."
+
+msgid "Choose payment method"
+msgstr "지불 방식을 선택합니다"
+
+msgid "Credit Card"
+msgstr "신용 카드"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "계정 잔액<span>(%s)</span>으로 지불하기"
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "<span class=\"%s\">%s</span> 지불하기"
+
+msgid "Estimated jackpot"
+msgstr "추정되는 공동 자금"
+
+msgid "Winners"
+msgstr "수상자"
+
+msgid "Payout per winner"
+msgstr "우승자 당 지불금"
+
+msgid "Total Sum"
+msgstr "총액"
+
+msgid "Total Winners"
+msgstr "전체 수상자"
+
+msgid "Total Prize"
+msgstr "전체 당첨"
+
+msgid "Last Draw"
+msgstr "지난 추첨"
+
+msgid "Payout"
+msgstr "지불금"
+
+msgid "Results"
+msgstr "결과"
+
+msgid "Rollover"
+msgstr "롤오버"
+
+msgid "Total payout"
+msgstr "총 지불금"
+
+msgid "change language"
+msgstr "언어 변경하기"
+
+msgid "Wrong line"
+msgstr "잘못된 라인"
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr ""
+"최소 1개의 행이 제대로 채워지지 않았습니다. 잘못된 줄 지정 없이 계속 진행하시"
+"겠습니까?"
+
+msgid "Too few lines"
+msgstr "행이 너무 적습니다"
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s "
+"lines! Do you want to quick pick the lines for you?"
+msgstr ""
+"너무 적은 행을 선택하였습니다. 해당 복권의 최소 금액은 %1s 라인입니다! 귀하"
+"의 라인을 빠른 선택하시겠습니까?"
+
+msgid "Incorrect order"
+msgstr "잘못된 주문"
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr ""
+"잘못된 라인을 선택했습니다. 선택한 라인은 %1s의 배수이어야 합니다. 나머지 줄"
+"을 빨리 선택하시겠습니까?"
+
+msgid "Minimum bets"
+msgstr ""
+
+msgid "You need to choose at least %1d lines for every %2d-lines ticket!"
+msgstr ""
+
+msgid "Back"
+msgstr "뒤로가기"
+
+msgid "Continue"
+msgstr "계속하기"
+
+msgid "Claim your bonus ticket here"
+msgstr ""
+
+msgid "draw in %s"
+msgstr "%s에 당첨"
+
+msgid "%d Quick-Pick lines"
+msgstr "%d 줄-자동선택구매"
+
+msgid "only %s"
+msgstr "유일한 %s"
+
+msgid "or pick the numbers manually"
+msgstr "번호선택하기"
+
+msgid "Latest news"
+msgstr "최신 소식"
+
+msgid "Primary"
+msgstr "일차"
+
+msgid "Footer"
+msgstr "바닥글"
+
+msgid "Front Page"
+msgstr "첫 페이지"
+
+msgid "Front Page widget area."
+msgstr "첫 페이지 위젯 영역."
+
+msgid "Play - List Page - Top"
+msgstr "플레이 - 목록 페이지 - 상단"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"(복권 목록이 있는) 복권 페이지 위젯 영역을 플레이합니다. 해당 영역의 위젯은 "
+"\"더보기\" 콘텐츠 전에 표시됩니다."
+
+msgid "Play - List Page - Bottom"
+msgstr "플레이 - 목록 페이지 - 하단"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"(복권 목록이 있는) 복권 페이지 위젯 영역을 플레이합니다. 해당 영역의 위젯은 "
+"\"더 보기\" 콘텐츠 후에 표시됩니다."
+
+msgid "Play - Lottery Page - Top"
+msgstr "플레이 - 복권 페이지 - 상단"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display before content."
+msgstr ""
+"(티켓 구매가 있는) 복권 페이지 위젯 영역을 플레이합니다. 해당 영역의 위젯은 "
+"콘텐츠 전에 표시됩니다."
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "플레이 - 복권 페이지 - 하단"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display after content."
+msgstr ""
+"(티켓 구매가 포함된) 복권 페이지 위젯 영역을 플레이합니다. 해당 영역의 위젯"
+"은 콘텐츠 이후에 표시됩니다."
+
+msgid "Results - List Page - Top"
+msgstr "결과 - 목록 페이지 - 상단"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"복권 결과 - 목록 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 전에 표"
+"시됩니다."
+
+msgid "Results - List Page - Bottom"
+msgstr "결과 - 목록 페이지 - 하단"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"복권 결과 - 목록 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 이후에 "
+"표시됩니다."
+
+msgid "Results - Lottery Page - Top"
+msgstr "결과 - 복권 페이지 - 상단"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"복권 결과 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 전"
+"에 표시됩니다."
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "결과 - 복권 페이지 - 하단"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"복권 결과 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 이"
+"후에 표시됩니다."
+
+msgid "Results - Lottery Page - Content"
+msgstr "결과 - 복권 페이지 - 콘텐츠"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"복권 결과 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 콘텐츠 다음에 표시"
+"됩니다."
+
+msgid "Info - List Page - Top"
+msgstr "정보 - 목록 페이지 - 상단"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"복권 정보 - 목록 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 전에 표"
+"시됩니다."
+
+msgid "Info - List Page - Bottom"
+msgstr "정보 - 목록 페이지 - 하단"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"복권 정보 - 목록 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 이후에 "
+"표시됩니다."
+
+msgid "Info - Lottery Page - Top"
+msgstr "정보 - 복권 페이지 - 상단"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"복권 정보 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\" 콘텐츠 전"
+"에 표시됩니다."
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "정보 - 복권 페이지 - 하단"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"복권 정보 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 \"더보기\"콘텐츠 이"
+"후에 표시됩니다."
+
+msgid "Info - Lottery Page - Content"
+msgstr "정보 - 복권 페이지 - 콘텐츠"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"복권 정보 - 특정 복권 페이지 위젯 영역. 해당 영역의 위젯은 콘텐츠 옆에 표시됩"
+"니다."
+
+msgid "News - Default Page - Content"
+msgstr "소식 - 기본 페이지 - 콘텐츠"
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display "
+"next to content."
+msgstr ""
+"복권 소식 - 기본 페이지 위젯 영역. 해당 영역의 위젯은 콘텐츠 옆에 표시됩니다."
+
+msgid "News - Lottery Page - Content"
+msgstr "소식 - 복권 페이지 - 콘텐츠"
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content related to the lottery."
+msgstr ""
+"복권 뉴스 - 특정 복권 페이지 위젯 영역. 해당 영역에 위젯은 복권과 관련된 콘텐"
+"츠 옆에 표시됩니다."
+
+msgid "Home"
+msgstr "홈"
+
+msgid "My account"
+msgstr "내 계정"
+
+msgid "log out"
+msgstr "로그아웃"
+
+msgid "Theme Options"
+msgstr "테마 옵션"
+
+msgid "Change your theme options."
+msgstr "테마 옵션 변경."
+
+msgid "Choose header color scheme"
+msgstr "머리글 색 구성표 선택하기"
+
+msgid "Choose font"
+msgstr "폰트 선택하기"
+
+msgid "Deposit button place"
+msgstr ""
+
+msgid "Remove H1 from the logotype."
+msgstr ""
+
+msgid "Choose single page header image"
+msgstr "단일 페이지 헤더 이미지 선택하기"
+
+msgid "%s: Lotto Featured #%d"
+msgstr "%s: 복권 특징 #%d"
+
+msgid "Change your lotto featured widget style."
+msgstr "복권 특징 위젯 스타일 변경하기."
+
+msgid "Choose large background image"
+msgstr "배경 이미지 선택하기"
+
+msgid "Choose mobile background image for \"large background\" option"
+msgstr "모바일 배경 이미지 선택하기"
+
+msgid "Choose background image"
+msgstr "배경 이미지 선택하기"
+
+msgid "Choose mobile background image"
+msgstr "모바일 배경 이미지 선택하기"
+
+msgid "Social Links"
+msgstr "소셜 링크"
+
+msgid "Add your social links."
+msgstr "소셜 링크 추가하기."
+
+msgid "Facebook URL (%s)"
+msgstr "페이스북 URL (%s)"
+
+msgid "Twitter URL (%s)"
+msgstr "트위터 URL (%s)"
+
+msgid "Social Share Links"
+msgstr "소셜 링크"
+
+msgid "Add social share links to articles."
+msgstr ""
+
+msgid "Menu"
+msgstr "메뉴"
+
+msgid "Anonymous"
+msgstr "익명인"
+
+msgid "checkout"
+msgstr "결제금액"
+
+msgid "Delete"
+msgstr "삭제하기"
+
+msgid "Sum"
+msgstr "총계"
+
+msgid "Play"
+msgstr "플레이"
+
+msgid "Information"
+msgstr "정보"
+
+msgid "News"
+msgstr "소식"
+
+msgid "Share with: "
+msgstr ""
+
+msgid "USA"
+msgstr "미국"
+
+msgid "Europe"
+msgstr "유럽"
+
+msgid "Italy"
+msgstr "이탈리아"
+
+msgid "UK"
+msgstr "영국"
+
+msgid "Poland"
+msgstr "폴란드"
+
+msgid "Spain"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Powerball"
+msgstr "파워볼 구매"
+
+msgid "Mega Millions"
+msgstr "메가 밀리언스"
+
+msgid "Eurojackpot"
+msgstr "유로잭팟"
+
+msgid "SuperEnalotto"
+msgstr "수퍼 에나 로그"
+
+msgid "UK Lottery"
+msgstr ""
+
+msgid "EuroMillions"
+msgstr "유로밀리언즈"
+
+msgid "Polish Lotto"
+msgstr "폴란드 복권"
+
+msgid "La Primitiva"
+msgstr ""
+
+msgid "BonoLoto"
+msgstr ""
+
+msgid "Lotto 6aus49"
+msgstr ""
+
+msgid "Mega-Sena"
+msgstr ""
+
+msgid "El Gordo"
+msgstr ""
+
+msgid "Loteria de Navidad"
+msgstr ""
+
+msgid "Loteria del Nino"
+msgstr ""
+
+msgid "Lotto America"
+msgstr "복권"
+
+msgid "GlucksSpirale"
+msgstr ""
+
+msgid "Thunderball"
+msgstr "파워 볼"
+
+msgid "Lotto IE"
+msgstr ""
+
+msgid "French Lotto"
+msgstr ""
+
+msgid "Lotto AT"
+msgstr ""
+
+msgid "Lotto 6/49"
+msgstr ""
+
+msgid "Oz Lotto"
+msgstr "폴란드 복권"
+
+msgid "Powerball AU"
+msgstr "파워 볼"
+
+msgid "Saturday Lotto"
+msgstr ""
+
+msgid "Mon & Wed Lotto"
+msgstr ""
+
+msgid "Debit card"
+msgstr "신용 카드"
+
+msgid "edit profile"
+msgstr "프로필 편집하기"
+
+msgid "show approved"
+msgstr "승인 나타내기"
+
+msgid "show pending"
+msgstr "대기 상태 나타내기"
+
+msgid "show failure"
+msgstr "실패 나타내기"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr "선택해주셔서 감사합니다! 로그인되었습니다."
+
+msgid "Your account is now fully active."
+msgstr "귀하의 계정은 현재 활성화 상태입니다."
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent "
+"you to your e-mail."
+msgstr ""
+"계정을 완전히 활성화하고 모든 기능에 액세스하려면 이메일로 보낸 확인 링크를 "
+"따라 이메일 주소를 확인해주십시오."
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+"귀하의 계정을 활성화하려면 귀하의 이메일로 보낸 확인 링크를 따라 귀하의 이메"
+"일 주소를 확인하십시오."
+
+msgid "Different amount"
+msgstr "다양한 금액"
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr "해당 지불을 처리할 수 없습니다. 다시 시도하거나 저희에게 문의주십시오."
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We "
+"suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr "카테고리"
+
+msgid "Add Quick Pick ticket:"
+msgstr "Quick Pick 티켓 추가하기:"
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "티켓 일부는 다음 당첨으로 이동하였습니다!"
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to "
+"your order."
+msgstr ""
+"티켓이 없습니다. 주문에 티켓을 추가하려면 <a href=\"%s\">지금 플레이하기</a>"
+"를 합니다."
+
+msgid "add more tickets"
+msgstr "더 많은 티켓 추가하기"
+
+msgid "pay now"
+msgstr "지금 결제하기"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "감사합니다! 귀하의 지불이 성공적으로 처리되었습니다."
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+msgstr "지불 방법에 따라, 지불 등록이 최대 60분까지 소요될 수 있습니다."
+
+msgid "&laquo; back to the news list"
+msgstr "&laquo; 새로운 목록으로 돌아가기"
+
+msgid "choose category"
+msgstr "카테고리 선택하기"
+
+msgid "This FAQ category is empty!"
+msgstr "해당 FAQ 카테고리는 비어있습니다!"
+
+msgid "Next estimated jackpot"
+msgstr "다음 추정되는 공동 자금"
+
+msgid "Next draw in"
+msgstr "다음 추첨"
+
+msgid "days"
+msgstr "일"
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "시간"
+
+msgctxt "featured"
+msgid "min"
+msgstr "분"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "초"
+
+msgid "Buy tickets"
+msgstr "티켓 구매하기"
+
+msgid "Get a Ticket"
+msgstr "티켓 받기"
+
+msgid "Play now"
+msgstr "바로 구매"
+
+msgid "No active lotteries."
+msgstr "활성화된 복권이 없습니다."
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "시간"
+
+msgctxt "inline"
+msgid "min"
+msgstr "분"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "초"
+
+msgid "see more"
+msgstr "자세히 알아보기"
+
+msgid "No latest news."
+msgstr "최신 소식이 없습니다."
+
+msgid "This lottery is inactive."
+msgstr "해당 복권은 비활성화입니다."
+
+msgid "Latest results"
+msgstr "최신 결과"
+
+msgid "No latest results."
+msgstr "최신 결과가 없습니다."
+
+msgid "How to play and win?"
+msgstr "어떻게 플레이하고 당첨되나요?"
+
+msgid "learn more"
+msgstr "자세히 알아보기"
+
+msgid "No slides."
+msgstr "슬라이드 없음."
+
+msgid "Latest winners"
+msgstr "최신 당첨자"
+
+msgid "%s from %s won"
+msgstr "%s ~ %s 우승"
+
+msgid "No winners."
+msgstr "수상자 없음."
+
+msgid "Pick %d numbers"
+msgstr "%d 번호 선택하기"
+
+msgid "Quick Pick All"
+msgstr "Quick Pick 전체"
+
+msgid "Clear All"
+msgstr "모두 표시하기"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "귀하의 주문에 티켓을 더 추가할 수 없습니다!"
+
+msgid "Clear"
+msgstr "표시하기"
+
+msgid "Processing..."
+msgstr "처리 중..."
+
+msgid "confirm"
+msgstr "확인"
+
+msgid "+ Add new line"
+msgstr "+ 새로운 라인 추가하기"
+
+msgid "+ Edit line"
+msgstr "+ 라인 편집하기"
+
+msgid "Choose the type of ticket"
+msgstr ""
+
+msgid "Single ticket"
+msgstr "%s 티켓"
+
+msgid "Multi-draws"
+msgstr ""
+
+msgid "draws"
+msgstr "%s에 당첨"
+
+msgid "discount"
+msgstr ""
+
+msgid "Choose the type of game you wish to play"
+msgstr ""
+
+msgid "%s jackpot"
+msgstr "공동 자금"
+
+msgid "Fewer Lines -"
+msgstr "라인 빼기 -"
+
+msgid "More Lines +"
+msgstr "라인 더하기 +"
+
+msgid "continue"
+msgstr "계속 진행하기"
+
+msgid "required"
+msgstr "해당 필드 :label이 요구됩니다."
+
+msgid "min_length"
+msgstr "해당 필드 :label은 최소 :param:1문자를 포함해야합니다."
+
+msgid "max_length"
+msgstr "해당 필드 :label는 :param:1 개 이상의 문자를 초과할 수 없습니다."
+
+msgid "exact_length"
+msgstr "해당 필드 :label는 정확히 :param:1 문자를 포함해야합니다."
+
+msgid "match_value"
+msgstr "해당 필드 :label은 :param:1 값을 포함해야합니다."
+
+msgid "match_pattern"
+msgstr "해당 필드 :label는 잘못된 문자를 포함하고 있습니다."
+
+msgid "match_field"
+msgstr "해당 필드 :label은 :param:1의 필드와 일치해야합니다."
+
+msgid "valid_email"
+msgstr "해당 필드 :label은 반드시 올바른 이메일 주소이어야 합니다."
+
+msgid "valid_emails"
+msgstr "해당 필드 :label에는 반드시 올바른 이메일 주소 목록이 있어야합니다."
+
+msgid "valid_url"
+msgstr "해당 필드 :label은 유효한 URL을 포함해야 합니다."
+
+msgid "valid_ip"
+msgstr "해당 필드 :label은 반드시 올바른 IP 주소이어야 합니다."
+
+msgid "numeric_min"
+msgstr ":label의 최소 숫자 값은 반드시 다음과 같아야합니다 :param:1"
+
+msgid "numeric_max"
+msgstr ":label의 최대 숫자 값은 다음과 같아야합니다 :param:1"
+
+msgid "numeric_between"
+msgstr "해당 필드 :label은 :param:1 과 :param:2 사이의 숫자 값을 포함해야합니다"
+
+msgid "valid_string"
+msgstr "해당 필드 :label은 잘못된 문자를 포함하고 있습니다."
+
+msgid "required_with"
+msgstr "만일 :param:1이 하나의 값을 포함한다면 해당 필드 :label은 반드시 하나의 값을 포함해야만 합니다."
+
+msgid "valid_date"
+msgstr "해당 :label는 올바른 형식의 날짜가 포함되어야만 합니다."
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

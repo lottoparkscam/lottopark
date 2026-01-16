@@ -1,0 +1,82 @@
+//
+//    This is the base file of colors 
+//   used in lottopark.
+//    It can be used as a copy in other projects.
+//    In that case you should change the name 
+//    of the file to colors_base.scss
+//    inside the theme project directory.
+//    After that you can change variables of colors to us in that theme.
+//
+
+$mainFontColor0: #ffffff; // White //
+$mainFontColor1: #424242; // Grey almost black //
+$mainFontColor2: #9d37af; // Violet //
+$mainFontColor3: #53b54e; // Green light //
+$mainFontColor4: #8e918c; // Grey lighter //
+$mainFontColor5: #3f78bc; // Blue //
+$mainFontColor6: #292d38; // Grey dark //
+$mainFontColor7: #41934c; // Green dark //
+$mainFontColor8: #398844; // Green dark //
+$mainFontColor9: #67bd2e; // Green //
+$mainFontColor10: #5bb326; // Green //
+$mainFontColor11: #fe7104; // Orange //
+$mainFontColor12: #fe6803; // Orange a bit darker //
+$mainFontColor13: #eaeaea; // Grey //
+$mainFontColor14: #747474; // Grey //
+$mainFontColor15: #f44336; // Light red //
+$mainFontColor16: #606060; // Grey //
+$mainFontColor17: #494949; // Grey darker //
+$mainFontColor18: #f4f4f4; // Grey //
+$mainFontColor19: #595e63; // Grey //
+
+$mainBackgroundColor0: transparent; // - //
+$mainBackgroundColor1: $mainFontColor0; // White //
+$mainBackgroundColor2: #f1f1f1; // Grey almost white //
+$mainBackgroundColor3: #1a1d1a; // Grey dark //
+$mainBackgroundColor4: #f4f8f9; // Grey almost white //
+$mainBackgroundColor5: $mainFontColor7; // Green dark //
+$mainBackgroundColor6: $mainFontColor8; // Green dark //
+$mainBackgroundColor7: $mainFontColor9; // Green //
+$mainBackgroundColor8: $mainFontColor10; // Green //
+$mainBackgroundColor9: $mainFontColor11; // Orange //
+$mainBackgroundColor10: $mainFontColor12; // Orange a bit darker //
+$mainBackgroundColor11: $mainFontColor13; // Grey //
+$mainBackgroundColor12: $mainFontColor18; // Grey //
+$mainBackgroundColor13: $mainFontColor1; // Grey //
+$mainBackgroundColor14: #f9f9f9; // Grey almost white //
+$mainBackgroundColor15: #e0e0e0; // Grey almost white //
+$mainBackgroundColor16: #efefef; // Grey almost white //
+$mainBackgroundColor17: #f2f2f2; // Grey lighter //
+$mainBackgroundColor18: #484848; // Grey darker //
+
+$mainButtonColor1: #3aaf37; // Green darker //
+$mainButtonColor2: #f2f2f2; // Grey //
+$mainButtonColor3: #67bd2e; // Green //
+$mainButtonColor4: #1db4ed; // Blue light //
+
+$mainButtonColor5: $mainFontColor7; // Green dark //
+$mainButtonColor6: $mainFontColor8; // Green dark //
+$mainButtonColor7: $mainFontColor9; // Green //
+$mainButtonColor8: $mainFontColor10; // Green //
+$mainButtonColor9: $mainFontColor11; // Orange //
+$mainButtonColor10: $mainFontColor12; // Orange a bit darker //
+
+$mainBorderLineColor0: $mainFontColor0; // White //
+$mainBorderLineColor1: #cccccc; // Grey //
+$mainBorderLineColor2: #e5e5e5; // Grey //
+$mainBorderLineColor3: $mainFontColor13; // Grey //
+$mainBorderLineColor4: $mainFontColor15; // Light red //
+$mainBorderLineColor5: #bbbbbb; // Light grey //
+$mainBorderLineColor6: $mainFontColor7; // Green dark //
+$mainBorderLineColor7: #d3d3d3; // Grey light //
+$mainBorderLineColor8: #555555; // Grey dark //
+$mainBorderLineColor9: $mainFontColor9; // Green //
+$mainBorderLineColor10: $mainFontColor14; // Grey //
+$mainBorderLineColor11: $mainFontColor1; // Grey //
+$mainBorderLineColor12: $mainFontColor11; // Orange //
+$mainBorderLineColor13: $mainFontColor18; // Grey //
+
+$mainLineColor1: $mainFontColor13; // Grey //
+$mainLineColor2: $mainFontColor18; // Grey //
+$mainLineColor3: #f2f5f7; // Grey //
+$mainLineColor4: #e5ebef; // Grey //

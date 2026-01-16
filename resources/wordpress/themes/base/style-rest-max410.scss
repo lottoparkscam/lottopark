@@ -1,0 +1,10 @@
+@media screen and (max-width: 410px) {
+  /**** TICKET ****/
+  .widget-ticket-entity,
+  .widget-ticket-entity:nth-of-type(5n),
+  .widget-ticket-entity:nth-of-type(5n + 1) {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

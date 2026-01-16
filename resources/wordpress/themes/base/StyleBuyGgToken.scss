@@ -1,0 +1,27 @@
+.buyGgTokenContainer {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: 49%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.ggTokenHeader {
+  font-size: clamp(16px, 4vw, 32px);
+}
+
+@include screen_max_w_700 {
+  .buyGgTokenContainer {
+    flex-direction: column;
+
+    div {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

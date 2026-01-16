@@ -1,0 +1,45 @@
+{
+  "code": 200,
+  "orderWithGameData": [
+    {
+      "gameOrder": 0,
+      "game": {
+        "is_deleted": "0",
+        "has_demo": "1",
+        "order": "0",
+        "id": "2343",
+        "slot_provider_id": "1",
+        "uuid": "2470a37e76168ff67d34c0dc349dd63f1a480cd0",
+        "name": "Casinowar Mobile",
+        "image": "\/wp-content\/slots\/games\/2470a37e79968ff67d34c0dc349dd63fba380cd0.png",
+        "type": "card",
+        "provider": "SuperSpadeGames",
+        "technology": "HTML5",
+        "has_lobby": "1",
+        "has_freespins": "0",
+        "is_mobile": "1",
+        "freespin_valid_until_full_day": "0"
+      }
+    },
+    {
+      "gameOrder": 1,
+      "game": {
+        "is_deleted": "0",
+        "has_demo": "1",
+        "order": "0",
+        "id": "3921",
+        "slot_provider_id": "1",
+        "uuid": "4ecbf4addbdb4dcf8e1109449d1ecr4b",
+        "name": "Monkey and Crab",
+        "image": "\/wp-content\/slots\/games\/1ecbf4addbdb4dcf8e1609449d1eca4b.png",
+        "type": "slots",
+        "provider": "KAGaming",
+        "technology": "HTML5",
+        "has_lobby": "0",
+        "has_freespins": "1",
+        "is_mobile": "0",
+        "freespin_valid_until_full_day": "0"
+      }
+    }
+  ]
+}

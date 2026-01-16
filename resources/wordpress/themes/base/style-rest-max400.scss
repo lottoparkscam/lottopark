@@ -1,0 +1,1071 @@
+@media screen and (max-width: 400px) {
+  /***** MAIN ****/
+  p {
+    margin: 15px 0;
+  }
+
+  table {
+    font-size: 0.875em;
+    line-height: 20px;
+  }
+
+  table.table .ticket-line-number,
+  table.table .ticket-line-bnumber {
+    font-size: 0.85714em;
+  }
+
+  div.main-width.content-width {
+    margin: 0;
+  }
+
+  .tooltip-cloud {
+    font-size: 12px;
+  }
+  .local-amount .tooltip-cloud {
+    font-size: 12px;
+  }
+  table.table-order .tooltip-cloud,
+  table.table-order .tooltip-cloud {
+    font-size: 12px;
+  }
+
+  /***** MAIN PADDINGS ****/
+
+  .login {
+    &-signup {
+      &-buttons {
+        &-login {
+          &-div {
+            display: inline-block;
+            width: 50%;
+          }
+        }
+
+        &-signup {
+          &-div {
+            display: inline-block;
+            width: 50%;
+            float: right;
+          }
+        }
+
+        &-front {
+          &-page {
+            margin-bottom: 10px;
+            &-small {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .deposit {
+    &-button {
+      &-main {
+        &-div {
+          &-mobile {
+            text-align: center;
+            height: inherit;
+            display: block;
+          }
+        }
+      }
+
+      &-middle {
+        &-div {
+          &-mobile {
+            width: 100%;
+            display: inline-block;
+          }
+        }
+      }
+
+      &-div {
+        &-mobile {
+          margin: 10px;
+        }
+      }
+
+      &-front {
+        &-page {
+          margin-bottom: 0px;
+        }
+      }
+
+      &-nofront {
+        &-page {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    &-login {
+      display: none;
+
+      &-mobile {
+        height: 30px;
+        width: 100%;
+        margin: 10px 0px 0px;
+        padding: 0px !important;
+        display: inline-block;
+      }
+    }
+
+    &-signup {
+      display: none;
+
+      &-mobile {
+        height: 30px;
+        width: 100%;
+        margin: 10px 0px 0px;
+        padding: 0px !important;
+        display: inline-block;
+      }
+    }
+
+    &-deposit {
+      display: none;
+
+      &-second {
+        &-mobile {
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+
+  div.content-area.content-area-nmb {
+    padding-bottom: 0;
+  }
+  div.content-area.content-area-nmt {
+    padding-top: 0;
+  }
+  div.content-area.content-area-mobile-nmb {
+    padding-bottom: 0;
+  }
+  div.content-area.content-area-mobile-nmt {
+    padding-top: 0;
+  }
+  .widget-area-mobile-nmt {
+    padding-top: 0;
+  }
+  .widget-area-mobile-nmb {
+    padding-bottom: 0;
+  }
+  .widget-banner-mobile-nmt {
+    padding-top: 0;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(5n),
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(5n + 1),
+  .widget-list-display1 .widget-list-grid .widget-list-ticket-last {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div.content-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+  }
+  div.content-payment div.content-box {
+    margin-bottom: 0;
+  }
+  div.content-area div.content-box {
+    padding-bottom: 1px;
+  }
+  div.content-area div.news-more-box.content-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+  }
+
+  div.content-area div.content-box-mobile-nmt {
+    margin-top: 0;
+  }
+  div.content-area div.content-box-mobile-nmb {
+    margin-bottom: 0;
+  }
+
+  .order-buttons .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  select.content-nav {
+    font-size: 1.4em;
+    height: 40px;
+    width: 100%;
+  }
+
+  .results-short-content select,
+  .myaccount-mobile-nav,
+  .myaccount-filter-select,
+  .mobile-language-area select,
+  #faq-mobile-cats {
+    line-height: 40px;
+    height: 42px;
+  }
+
+  /**** ALERTS ****/
+  .platform {
+    &-alert {
+      font-size: 0.75em;
+      line-height: 18px;
+
+      &-front {
+        font-size: 1.2em;
+        line-height: 18px;
+      }
+    }
+
+    /**** FORMS/buttons ****/
+    &-form {
+      .platform {
+        &-alert {
+          line-height: 18px;
+        }
+      }
+
+      &-profile {
+        .btn {
+          width: 100%;
+          box-sizing: border-box;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      label {
+        font-size: 0.875em;
+        margin-bottom: 0px;
+        margin-top: 5px;
+
+        &.payment {
+          &-mobile {
+            &-label {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+
+      input[type='text'],
+      input[type='email'],
+      input[type='password'],
+      input[type='tel'],
+      input[type='number'],
+      select {
+        font-size: 0.875em;
+      }
+
+      .form {
+        &-help {
+          font-size: 0.875em;
+        }
+      }
+    }
+  }
+
+  div.content-box .platform-alert {
+    font-size: 1.2em;
+    line-height: 18px;
+  }
+
+  div.content-box .myaccount-content .platform-alert {
+    font-size: 0.75em;
+    line-height: 18px;
+  }
+
+  /***** FAQ ******/
+  section.faq nav.faq-nav select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  section.faq h2 {
+    margin: 20px 0;
+  }
+  section.faq h3 {
+    font-size: 0.875em;
+  }
+  section.faq .faq-answer {
+    font-size: 0.875em;
+    line-height: 20px;
+  }
+  section.faq {
+    margin: 0;
+  }
+  span.faq-toggle-plus {
+    margin-left: 19px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+  }
+  #faq-mobile-cats {
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.875em;
+  }
+
+  /****** ARTICLES/POSTS *****/
+  article.page p,
+  article.post p {
+    font-size: 0.875em;
+    line-height: 20px;
+  }
+  .myaccount-content p {
+    font-size: 0.875em;
+  }
+
+  article.page h1,
+  article.post h1 {
+    line-height: 26px;
+    font-size: 1.25em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  article.page h1.play-lottery,
+  article.page h1.header-order,
+  article.page h1.header-payment {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+  article.page > .btn,
+  article.post > .btn {
+    font-size: 0.875em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  article.page-not-found p:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  article.post a.post-content-list-link {
+    font-size: 0.875em;
+    margin-top: 10px;
+  }
+
+  /**** CONTACT FORM ****/
+  .contact-content {
+    margin-top: 15px;
+  }
+  .contact-content-icon {
+    margin-top: 0;
+    transform: scale(0.75);
+  }
+  .wpcf7-form label {
+    font-size: 1.4em;
+  }
+  .wpcf7-form input[type='text'],
+  .wpcf7-form input[type='email'],
+  .wpcf7-form input[type='password'],
+  .wpcf7-form input[type='tel'],
+  .wpcf7-form textarea {
+    font-size: 1.4em;
+  }
+
+  .contact-content table span.fa {
+    font-size: 35px;
+  }
+
+  span.wpcf7-not-valid-tip {
+    font-size: 1.4em;
+  }
+
+  div.wpcf7-response-output {
+    font-size: 1.2em;
+    line-height: 18px;
+  }
+
+  /**** HELPERS ****/
+  p.help-block {
+    margin: 15px 0;
+    font-size: 0.875em;
+  }
+
+  /*** HEADER ***/
+
+  div.user-info div.user-info-area {
+    background-position: right 10px top 14px;
+  }
+  div.order-info {
+    height: auto;
+  }
+
+  div.user-info {
+    margin: 0;
+    height: auto;
+    padding-right: 0;
+  }
+  div.user-info > div.menu-wrapper {
+    position: absolute;
+    display: none;
+    top: 42px;
+    left: 0;
+    right: 0;
+    float: none;
+    padding-top: 0;
+    margin: 0 15px;
+  }
+  div.user-info > div.menu-wrapper > ul {
+    margin-top: 15px;
+  }
+
+  .user-area .btn {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .user-area .btn-login-order {
+    width: 49%;
+  }
+  .user-area .btn-signup-order {
+    width: 49%;
+  }
+
+  /***** BUTTONS ****/
+  div.deposit-failure .btn,
+  div.button-box .btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  div.button-box .btn:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  /**** MOBILE ****/
+  table.table-short .mobile-only-label {
+    font-size: 1.125em;
+    padding-top: 15px;
+  }
+
+  table.table-short .table-short-country .mobile-only-label {
+    padding-top: 0;
+  }
+  table.table-short .mobile-only-time strong {
+    display: block;
+  }
+
+  .widget-list-carousel .mobile-only {
+    margin-bottom: 0;
+  }
+
+  .mobile-language-area select {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .results-content .mobile-only.pull-right,
+  .info-content .mobile-only.pull-right {
+    float: left;
+  }
+
+  /**** TABLES ****/
+
+  table.table-results thead tr th:last-of-type,
+  table.table-results tbody tr td:last-of-type,
+  table.table-results tfoot tr td:last-of-type,
+  table.table-info thead tr th:last-of-type,
+  table.table-info tbody tr td:last-of-type {
+    padding-bottom: 10px;
+  }
+  table.table-results .btn-table-second,
+  table.table-info .btn-table-second {
+    margin-left: 0;
+  }
+  table.table-short tbody tr td {
+    padding: 0px 0 20px 0;
+  }
+  table.table-short tbody tr td.table-short-line {
+    padding-top: 0;
+  }
+
+  .table-btn .btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  table.table-info-detailed tbody tr td:nth-child(1) {
+    float: none;
+    width: 100%;
+  }
+  table.table-info-detailed tbody tr td:nth-child(2) {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 0;
+  }
+  table.table-results-detailed tbody tr td:nth-child(1) {
+    float: none;
+    width: 100%;
+  }
+  table.table-results-detailed tbody tr td:nth-child(2) {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 0;
+  }
+  table.order tbody tr td:nth-last-of-type(2) {
+    width: 100%;
+    display: block;
+    height: 50px;
+  }
+
+  table.order tbody tr td:nth-last-of-type(2) .btn,
+  table.order tbody tr td:last-of-type .btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  table.order tbody tr td:last-of-type {
+    width: 100%;
+    display: block;
+  }
+
+  table.table-success tbody tr td:nth-of-type(2) .order-summary-content-header,
+  table.table-order tbody tr td:nth-of-type(2) .order-summary-content-header {
+    line-height: 25px;
+  }
+
+  table.table-transactions .btn {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /**** ORDER ****/
+  table.table-order
+    tbody
+    tr
+    td.order-summary-lines
+    .ticket-line
+    .ticket-line-number,
+  table.table-order
+    tbody
+    tr
+    td.order-summary-lines
+    .ticket-line
+    .ticket-line-bnumber {
+    font-size: 1.371em;
+  }
+
+  /**** INFORMATION ***/
+
+  .info-mobile-show .info-mobile-latest-results {
+    margin-bottom: 15px;
+  }
+  /**** RESULTS ****/
+  .results-short-content select {
+    padding-right: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .results-short-jackpot {
+    font-size: 1.6em;
+  }
+
+  .results-short-content a {
+    display: none;
+  }
+
+  .results-lottery-image img,
+  .info-lottery-image img {
+    width: 35px;
+    padding-bottom: 6px;
+  }
+
+  table#results-table tbody tr td:nth-child(3) {
+    padding-left: 47px;
+    margin-bottom: 10px;
+    line-height: 0.5rem;
+  }
+
+  table#results-table tbody tr td:nth-child(2) .results-image {
+    font-size: 0.9rem;
+  }
+
+  table#results-table tbody tr td:last-of-type .btn-results-mobile {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  table#info-table tbody tr td:nth-child(3) {
+    padding-top: 15px;
+  }
+
+  /**** LIST ****/
+  .widget-list-carousel .mobile-only .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .widget-list-content .widget-list-title,
+  .widget-list-content-grid .widget-list-title {
+    padding: 5px 0;
+    font-size: 1.8em;
+    line-height: 30px;
+  }
+
+  /* LATEST NEWS **/
+  h1.news-title {
+    font-size: 1.6em;
+  }
+
+  .widget-latest-news-title {
+    padding: 5px 0;
+    font-size: 1.8em;
+    line-height: 30px;
+  }
+
+  select.news-categories {
+    font-size: 1.4em;
+    height: 40px;
+    width: 100%;
+  }
+
+  /**** NEXT DRAW / COUNTER *****/
+  .widget-draw-countdown time {
+    font-size: 1.4em;
+  }
+  .widget-draw-button {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .widget-draw-title {
+    font-size: 2em;
+  }
+  .widget-draw-jackpot {
+    font-size: 3em;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .widget-draw-title {
+    margin-bottom: 0px;
+    font-size: 1.6em;
+  }
+  .widget-draw-content {
+    margin: 15px 0;
+  }
+
+  /***** TICKET *****/
+  .play-lottery-jackpot-amount {
+    font-size: 1.125em;
+  }
+  .widget-ticket-summary-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .widget-ticket-time-remain {
+    font-size: 1.2em;
+    margin-left: 0;
+  }
+  .widget-ticket-header .widget-ticket-time-remain.mobile-show {
+    line-height: 22px;
+    margin-top: 0;
+  }
+  .widget-ticket-buttons-bottom div.pull-right button {
+    width: 49%;
+    margin: 0 1%;
+  }
+  .widget-ticket-buttons-bottom div.pull-right button:first-of-type {
+    margin-left: 0;
+  }
+  .widget-ticket-buttons-bottom div.pull-right button:last-of-type {
+    margin-right: 0;
+  }
+  .widget-ticket-image {
+    margin-right: 12px;
+    margin-top: 29px;
+  }
+
+  .widget-ticket-wrapper .widget-ticket-header h1 {
+    line-height: 22px;
+    font-size: 1.125em;
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+  .widget-ticket-wrapper .widget-ticket-header-raffle h1 {
+    margin-top: 0;
+  }
+  .play-lottery-jackpot-amount {
+    line-height: 18px;
+  }
+  .widget-ticket-mobile-button .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .widget-ticket-header .widget-ticket-time-remain {
+    margin-bottom: 0;
+  }
+  .widget-raffle-ticket-summary {
+    font-size: 14px;
+    .widget-chosen-tickets-container {
+      margin: 10px 0;
+    }
+  }
+
+  /**** REFER A FRIEND ****/
+  .statistics-wrapper .statistic {
+    font-size: 0.875em;
+  }
+
+  .social-network a {
+    padding: 0 9px;
+    font-size: 0.7em;
+  }
+
+  .social-network p {
+    margin-right: 4px;
+  }
+
+  /**** SMALL WIDGETS ****/
+  .small-widget-draw .small-widget-draw-title {
+    font-size: 1.7em;
+  }
+  .small-widget-draw .small-widget-draw-amount {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  .small-widget-draw .widget-ticket-time-remain {
+    font-size: 1.2em;
+    margin: 6px 0 13px;
+  }
+  .small-widget-draw-image {
+    padding-top: 15px;
+  }
+  .widget-ticket-time-remain span {
+    margin-right: 5px;
+  }
+
+  .small-widgets-content .small-widget-text h2.small-widget-title,
+  .small-widgets-content .small-widget-text h1.small-widget-title {
+    font-size: 1.5em;
+    padding: 10px;
+  }
+  .small-widgets-content .small-widget-text .small-widget-content {
+    padding: 0 10px;
+  }
+  .small-widgets-content .small-widget-text .small-widget-content p {
+    font-size: 0.875rem;
+    margin: 10px 0;
+  }
+
+  /******* DIALOGS *****/
+  #dialog .dialog-buttons .btn {
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  #dialog .dialog-buttons .pull-right,
+  #dialog .dialog-buttons .pull-left {
+    float: none;
+  }
+
+  /**** MY ACCOUNT /mobile/buttons ****/
+  div.account-tickets,
+  div.header-transaction,
+  div.header-withdrawal {
+    font-size: 1.125em;
+    margin-top: 25px;
+  }
+
+  div.header-withdrawal {
+    margin-bottom: 15px;
+  }
+  .myaccount-data .btn-xs {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+  }
+  .myaccount-data > .btn-secondary {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .myaccount-filter-select {
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-right: 0;
+    height: 40px;
+    line-height: 40px;
+  }
+  .table-sort-label {
+    font-size: 0.875em;
+  }
+
+  .myaccount-tickets-mobile-sort,
+  .results-mobile-sort,
+  .info-mobile-sort {
+    font-size: 0.875em;
+  }
+  .myaccount-details .btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.875em;
+  }
+
+  .myaccount-balance {
+    font-size: 1em;
+  }
+  article.page h1.account {
+    margin-bottom: 3px;
+  }
+  .myaccount-details {
+    line-height: 20px;
+  }
+
+  .myaccount-details table {
+    line-height: 24px;
+  }
+
+  .myaccount-data {
+    margin: 20px 0 0;
+  }
+  .myaccount-transactions-label {
+    margin: 15px 0 5px 0;
+    font-size: 0.875em;
+    height: auto;
+    line-height: 14px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .myaccount-details .myaccount-transactions-value {
+    margin: 0;
+    font-size: 0.875em;
+    height: auto;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .myaccount-details-image {
+    margin-bottom: 15px;
+  }
+  .myaccount-transactions-value .transactions-status {
+    font-size: 1em;
+  }
+  .tickets-lines .transactions-status {
+    font-size: 1em;
+  }
+  .transactions-status span.sprite {
+    margin-right: 3px;
+  }
+
+  table.table-transactions tbody tr td:first-of-type,
+  table.table-tickets tbody tr td:nth-of-type(2) {
+    font-size: 1.143em;
+  }
+  .myaccount-tickets-match-data {
+    font-size: 0.875em;
+  }
+  .tickets-lines strong {
+    margin-top: 5px;
+  }
+
+  .ticket-prize {
+    font-size: 1em;
+  }
+  .myaccount-transactions-label:first-of-type {
+    margin-top: 0;
+  }
+
+  .tickets-lines-counter {
+    font-size: 14px;
+  }
+
+  /**** FORMS/buttons ****/
+
+  .payment-form a {
+    font-size: 0.875em;
+  }
+
+  /**** PAYMENTS ****/
+  .order-summary-content-header {
+    font-size: 1.143em;
+  }
+
+  .payment-form .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  label.payment-cc-content-field {
+    height: auto;
+    line-height: 20px;
+    font-size: 0.875em;
+  }
+  .deposit-amount.platform-form input[type='text'] {
+    width: 80%;
+  }
+  .deposit-amount-active.deposit-amount-error .deposit-amount-error-cloud {
+    font-size: 0.75em;
+    padding: 10px 0;
+  }
+  .deposit-amount.platform-form:nth-last-of-type(2) {
+    text-align: left;
+  }
+  p.descriptor {
+    font-size: 0.875em;
+    margin: 0 0 5px 0;
+  }
+  .payment-content {
+    padding: 20px;
+    border-radius: 0;
+  }
+  .payment-type-item p {
+    font-size: 0.875em;
+  }
+
+  /**** THANK YOU PAGE ***/
+
+  .payment-deposit-content {
+    font-size: 1.6em;
+  }
+
+  table.table-success.table-success-deposit tbody tr td:first-of-type {
+    padding-left: 20px;
+  }
+
+  /*** OTHERS ****/
+  .results-content,
+  .info-content {
+    margin-top: 15px;
+  }
+
+  /*** TICKETS ****/
+  .reintegro .tooltip-cloud {
+    font-size: 12px;
+  }
+
+  // multidraws
+
+  .myaccount-tickets-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
+      &.myaccount-tickets-menu-item {
+        flex: 1;
+        padding: 10px 12px;
+        font-size: 13px;
+        text-align: center;
+      }
+    }
+  }
+
+  /** PROMO CODES **/
+  .deposit-promo-code .form-promo-code,
+  .order-promo-code .form-promo-code,
+  .deposit-promo-code .promo-info {
+    text-align: left;
+  }
+  .deposit-promo-code .promo-info button {
+    display: block;
+    margin-left: 0;
+  }
+  .form-promo-code input[type='text'] {
+    width: 70%;
+  }
+  .promo-code-alert span {
+    font-size: 1.4em;
+  }
+  .platform-form.form-promo-code button {
+    font-size: 0.9em;
+  }
+  .free-ticket-content {
+    font-size: 1.4em;
+  }
+
+  //ticket card
+  .ticket-card {
+    margin-bottom: 10px;
+
+    .ticket-card-details {
+      > div:not(.widget-ticket-numbers) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  // raffle results
+  .results-short-content .results-short-select-wrapper {
+    select.results-short-select {
+      margin: 10px 0;
+    }
+  }
+
+  //raffle info
+  table.table-short.table-raffle-info {
+    thead th {
+      font-size: 14px;
+    }
+  }
+
+  table.table.table-info-detailed-raffle {
+    thead tr th:first-of-type,
+    tbody tr td:first-of-type,
+    tfoot tr td:first-of-type {
+      padding-left: 10px;
+    }
+    thead tr th:last-of-type,
+    tbody tr td:last-of-type,
+    tfoot tr td:last-of-type {
+      padding-right: 10px;
+    }
+  }
+
+  // play keno
+  .widget-ticket-options {
+    .widget-ticket-additional-form {
+      .widget-ticket-option-top {
+        .widget-ticket-options-description {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // results keno
+  .results-short-winnings-table-wrapper {
+    select {
+      width: auto;
+      margin-left: 5px;
+    }
+  }
+
+  /**** CASINO PROMO BANNER ****/
+  #casinoPromoBanner {
+    div {
+      &.textContainer {
+        h2 {
+          font-size: 5vw;
+        }
+      }
+    }
+  }
+}

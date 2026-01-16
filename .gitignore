@@ -1,0 +1,148 @@
+# WORDPRESS
+
+# exclude all wordpress files
+/wordpress/*
+/wordpress/.htaccess.stary
+
+# include .htaccesses
+!/wordpress/.htaccess.*
+
+# include .env
+!/wordpress/.env.*
+
+# include .maintenance.off
+!/wordpress/.maintenance.off
+!/wordpress/maintenance-config.php
+
+# include wp-cron-multisite.php
+!/wordpress/wp-cron-multisite.php
+
+# add lotto-platform plugin files
+!/wordpress/wp-content
+/wordpress/wp-content/*
+!/wordpress/wp-content/plugins
+/wordpress/wp-content/plugins/*
+!/wordpress/wp-content/plugins/lotto-platform
+/wordpress/wp-content/plugins/lotto-platform/public/*
+!/wordpress/wp-content/sunrise.php
+
+# exclude robots.txt
+/wordpress/robots.txt
+
+# add lotto themes
+!/wordpress/wp-content/themes
+!/wordpress/wp-content/themes/*
+/wordpress/wp-content/themes/*/css/*
+/wordpress/wp-content/themes/*/js/*
+/wordpress/wp-content/themes/*/images/*
+/wordpress/wp-content/themes/*/fonts/*
+/wordpress/wp-content/themes/*/webfonts/*
+!/wordpress/wp-content/themes/*/hooks
+!/wordpress/wp-content/themes/*/languages
+!/wordpress/wp-content/themes/*/css/.gitkeep
+!/wordpress/wp-content/themes/*/js/.gitkeep
+!/wordpress/wp-content/themes/*/images/.gitkeep
+
+# base theme
+!/wordpress/wp-content/themes/base/box
+!/wordpress/wp-content/themes/base/components
+!/wordpress/wp-content/themes/base/inc
+!/wordpress/wp-content/themes/base/languages
+!/wordpress/wp-content/themes/base/partials
+!/wordpress/wp-content/themes/base/Slots
+!/wordpress/wp-content/themes/base/Views
+!/wordpress/wp-content/themes/base/widget
+
+# add custom maintenance page
+!/wordpress/wp-content/maintenance.php
+!/wordpress/wp-content/maintenance-view.php
+
+# add Aweber integration
+!/wordpress/aweber-service-worker.js
+
+# FUELPHP
+/platform/public/.htaccess
+/platform/fuel/app/.maintenance
+/platform/fuel/app/.maintenance-domain
+/platform/fuel/app/.maintenance-crm
+/platform/fuel/app/cache/*
+/platform/fuel/app/config/crypt.php
+!/platform/fuel/app/cache/.gitkeep
+/platform/fuel/app/logs/*
+!/platform/fuel/app/logs/.gitkeep
+/platform/fuel/app/tmp/banners/*
+!/platform/fuel/app/tmp/banners/.gitkeep
+/platform/fuel/app/tmp/scheduler/*
+!/platform/fuel/app/tmp/scheduler/.gitkeep
+/platform/fuel/app/vendor/cldr/*.json
+/platform/fuel/app/vendor/entropay/*.json
+/platform/fuel/app/vendor/geoip2/GeoIP2-Country.mmdb*
+/platform/fuel/app/vendor/geoip2/GeoIP2-City.mmdb*
+/platform/public/assets/*
+/platform/.env
+/.env
+*.php_cs.cache
+
+# SUBLIME TEXT (TK)
+/*.sublime-*
+/.phpcsfixer
+
+# NBPROJECT (PG)
+/nbproject/*
+/nbproject
+/nbproject/private/
+/.php_cs
+/.php_cs.cache
+
+# IDE FILES (PG2)
+/.idea/*
+wordpress/.htaccess.stary
+.history/
+
+# IDE FILES
+/.idea
+/.idea/workspace.xml
+/.vscode
+
+# MAC FILES
+default.profraw
+
+#REACT + WEBPACK NODE MODULES
+/node_modules
+/mix-manifest.json
+
+# DOCKER INSTALL FILES
+/whitelotto-deployment.sh
+/dockerhost.sh
+/whitelotto-setup.sh
+/platform/public/.htaccess.*
+/wordpress/.htaccess.*
+.DS_Store
+docker-setup.log
+/wordpress/wp-content/themes/index.php
+
+# DOCKER RUNTIME FILES
+.composer
+.config
+.npm
+.wp-cli
+.local
+.cache
+
+# Tools
+phpstan/tmp
+
+# Xdebug3 log
+/xdebug.log
+
+# Page Cache
+/purge-page-cache.sh
+
+# Docker sync
+/.docker-sync/*
+
+# React node_modules
+/resources/crm/node_modules
+
+# Deployment complete
+.setup_complete

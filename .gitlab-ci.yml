@@ -1,0 +1,352 @@
+variables:
+  WHITELOTTO_WORK_SERVER_IP: "145.239.70.48"
+  SCRIPTS_PATH: "/usr/local/devops-tools/cicd/review-apps/whitelotto"
+
+stages:
+  - Monitoring maintenance
+  - Review
+  - Update sources
+  - Deploy
+  - Review clean-up
+  - Phpcs Analysis
+  - Phpstan Analysis
+  - NPM Tests
+  - VPN Unlock
+  - Static Analysis Review Apps
+  - Tests
+
+# == MONITORING MAINTENANCE - MASTER ==============================================================
+Uptime Kuma maintenance:
+  resource_group: uptimekuma_maintenance
+  stage: Monitoring maintenance
+  tags:
+    - whitelotto
+  only:
+    - master
+  script:
+    - /usr/local/devops-tools/uptime-kuma/maintenance/maintenance.py --whitelotto --duration=7
+  allow_failure: true
+
+# == REVIEW - RA ==================================================================================
+Deploy:
+  stage: Review
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  when: manual
+  script:
+    - whoami
+    - exit_code=0;
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP ${SCRIPTS_PATH}/build_review_app.sh $CI_COMMIT_REF_SLUG $CI_COMMIT_REF_NAME $CF_EMAIL $CF_AUTH_KEY $CF_WHITELOTTO_WORK_ZONE_ID $CF_LOTTOPARK_WORK_ZONE_ID $REVIEW_APPS_WEBHOOK_URL $LOGS_WEBHOOK_URL || exit_code=$?
+    - if [ "$exit_code" != "0" ]; then exit $exit_code; fi; exit_code=0;
+Refresh:
+  stage: Review
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  script:
+     - exit_code=0;
+     - ssh git@$WHITELOTTO_WORK_SERVER_IP ${SCRIPTS_PATH}/refresh_review_app.sh ${CI_COMMIT_REF_SLUG} ${CI_COMMIT_REF_NAME} || exit_code=$?
+     - if [ "$exit_code" != "0" ] && [ "$exit_code" != "3" ]; then exit $exit_code; fi; exit_code=0;
+LCS:
+  stage: Review
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  when: manual
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ ! -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then echo "Review app does not exist! Please set it up first!"; exit 1; fi;"; if [ "$?" -eq "1" ]; then exit 1; fi;
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php bash -c 'export PROJECT_FOLDER; export LCS_REVIEW_APPS_DB_NAME; export LCS_REVIEW_APPS_DB_USER; export LCS_REVIEW_APPS_DB_PASSWORD; /var/www/docker/config/testing/scripts/lcs.sh ${LCS_HOST} ${LCS_PORT}'; fi;"
+
+# == GIT UPDATE - STAGING =========================================================================
+Git Update I. Staging:
+  resource_group: gitupdate_staging
+  stage: Update sources
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  script:
+    - ssh git@51.83.75.162 git --git-dir=/var/lib/git/whitelotto.git remote update
+    - ssh git@51.83.75.162 git --git-dir=/var/lib/git/whitelotto.git fetch -p
+
+# == GIT UPDATE - PRE-MASTER ======================================================================
+Git Update II. Pre-master:
+  resource_group: gitupdate_pre-master
+  stage: Update sources
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  script:
+    - ssh git@54.36.99.29 git --git-dir=/var/lib/git/whitelotto.git remote update
+    - ssh git@54.36.99.29 git --git-dir=/var/lib/git/whitelotto.git fetch -p
+
+# == GIT UPDATE - MASTER ==========================================================================
+Git Update III. Master:
+  resource_group: gitupdate_master
+  stage: Update sources
+  tags:
+    - whitelotto-old
+  only:
+    - master
+  script:
+    - ssh git@31.7.56.178 git --git-dir=/var/lib/git/whitelotto.git remote update
+    - ssh git@31.7.56.178 git --git-dir=/var/lib/git/whitelotto.git fetch -p
+
+# == DEPLOY - STAGING =============================================================================
+Deploy Staging:
+  stage: Deploy
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: deploy_staging
+  script:
+     - exit_code=0;
+     - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/deployment.sh $CI_COMMIT_REF_NAME $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA || exit_code=$?
+     - if [ "$exit_code" != "0" ]; then exit $exit_code; fi; exit_code=0;
+
+# == DEPLOY - PRE-MASTER ==========================================================================
+Deploy Pre-Master:
+  stage: Deploy
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: deploy_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/deployment.sh pre-master $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/deployment.sh texts $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA
+
+# == DEPLOY - MASTER ==============================================================================
+Deploy Master:
+  stage: Deploy
+  tags:
+    - whitelotto-old
+  only:
+    - master
+  resource_group: deploy_master
+  script:
+    ssh git@31.7.56.178 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/deployment.sh $CI_COMMIT_REF_NAME $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA
+
+# == CLEANUP - RA =================================================================================
+Clean-Up:
+  stage: Review clean-up
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  when: manual
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP ${SCRIPTS_PATH}/cleanup_review_app.sh $CI_COMMIT_REF_SLUG $CF_EMAIL $CF_AUTH_KEY $CF_WHITELOTTO_WORK_ZONE_ID $CF_LOTTOPARK_WORK_ZONE_ID $REVIEW_APPS_WEBHOOK_URL
+
+# == PHPCS ANALYSIS - STAGING =====================================================================
+Code Sniffer Staging:
+  stage: Phpcs Analysis
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: phpcs_staging
+  script:
+    - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh staging phpcs
+
+# == PHPCS ANALYSIS - PRE-MASTER ==================================================================
+Code Sniffer Pre-Master:
+  stage: Phpcs Analysis
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: phpcs_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh pre-master phpcs
+
+# == PHPSTAN ANALYSIS - STAGING ===================================================================
+Phpstan Staging:
+  stage: Phpstan Analysis
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: phpstan_staging
+  script:
+    - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh staging phpstan
+
+# == PHPSTAN ANALYSIS - PRE-MASTER ================================================================
+Phpstan Pre-Master:
+  stage: Phpstan Analysis
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: phpstan_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh pre-master phpstan
+
+# == TESTS NPM REACT - STAGING ====================================================================
+React-Tests Staging:
+  stage: NPM Tests
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: react-tests_staging
+  script:
+    - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh staging react-tests
+
+# == TESTS NPM REACT - PRE-MASTER =================================================================
+React-Tests Pre-Master:
+  stage: NPM Tests
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: react-tests_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh pre-master react-tests
+
+# == TESTS NPM JS - STAGING =======================================================================
+JS-Tests Staging:
+  stage: NPM Tests
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: js-tests_staging
+  script:
+    - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh staging js-tests
+
+# == TESTS NPM JS - PRE-MASTER ====================================================================
+JS-Tests Pre-Master:
+  stage: NPM Tests
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: js-tests_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh pre-master js-tests
+
+# == VPN UNLOCK - RA ==============================================================================
+VPN Unlock:
+  stage: VPN Unlock
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  when: manual
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP sudo -Hu root ${SCRIPTS_PATH}/vpn_release.sh ${CI_COMMIT_REF_SLUG}
+
+# == STATIC ANALYSIS - RA =========================================================================
+Code Sniffer RA:
+  stage: Static Analysis Review Apps
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php sudo -Hu www-data composer --working-dir=/var/www/platform phpcs; fi;"
+PHPStan RA:
+  stage: Static Analysis Review Apps
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php sudo -Hu www-data composer --working-dir=/var/www/platform phpstan; fi;"
+
+# == STATIC ANALYSIS - RA =========================================================================
+#Code Sniffer Review Apps:
+#  stage: Static Analysis
+#  tags:
+#    - whitelotto
+#  except:
+#    - staging
+#    - pre-master
+#    - master
+#  script:
+#    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php composer --working-dir=/var/www/platform phpcs ; fi;"
+
+# == STATIC ANALYSIS - RA ========================================================================
+#Phpstan Review Apps:
+#  stage: Static Analysis
+#  tags:
+#    - whitelotto
+#  except:
+#    - staging
+#    - pre-master
+#    - master
+#  script:
+#    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php composer --working-dir=/var/www/platform phpstan ; fi;"
+
+# == TESTS RELEASE - RA ===========================================================================
+Release Lock:
+  stage: Tests
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  when: manual
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP rm /var/www/.tests/${CI_COMMIT_REF_SLUG}.lock
+
+# == TESTS PHPUNIT - RA ===========================================================================
+PHPUnit Review Apps:
+  stage: Tests
+  tags:
+    - whitelotto
+  except:
+    - staging
+    - pre-master
+    - master
+  script:
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then if [ -f "\""/var/www/.tests/${CI_COMMIT_REF_SLUG}.lock"\"" ]; then echo \"The tests are ongoing, please wait patiently.\"; exit 1; fi; fi;"
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then touch /var/www/.tests/${CI_COMMIT_REF_SLUG}.lock; fi;"
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker container start ${CI_COMMIT_REF_SLUG}_chrome; fi;"
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker exec ${CI_COMMIT_REF_SLUG}_php sudo -Hu www-data /var/www/platform/fuel/vendor/bin/phpunit --testsuite unit --verbose --testdox --configuration /var/www/platform/fuel/app/phpunit.xml; fi;"
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -d "\""/var/www/$CI_COMMIT_REF_SLUG"\"" ]; then sudo -Hu root docker container stop ${CI_COMMIT_REF_SLUG}_chrome; fi;"
+    - ssh git@$WHITELOTTO_WORK_SERVER_IP "if [ -f \"/var/www/.tests/${CI_COMMIT_REF_SLUG}.lock\" ]; then rm /var/www/.tests/${CI_COMMIT_REF_SLUG}.lock; fi;"
+
+# == TESTS PHPUNIT - STAGING ======================================================================
+PHPUnit Staging:
+  stage: Tests
+  tags:
+    - whitelotto-old
+  only:
+    - staging
+  resource_group: phpunit_staging
+  script:
+    - ssh git@51.83.75.162 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh staging phpunit
+
+# == TESTS PHPUNIT - PRE-MASTER ===================================================================
+PHPUnit Pre-Master:
+  stage: Tests
+  tags:
+    - whitelotto-old
+  only:
+    - pre-master
+  resource_group: phpunit_pre-master
+  script:
+    - ssh git@54.36.99.29 sudo -Hu root /usr/local/devops-tools/cicd/deployment/whitelotto/tests.sh pre-master phpunit

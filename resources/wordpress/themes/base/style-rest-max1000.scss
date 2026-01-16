@@ -1,0 +1,1485 @@
+@media screen and (max-width: 1000px) {
+  /**** MAIN BODY ****/
+  div {
+    &.main {
+      &-width {
+        margin: 0px 20px;
+      }
+    }
+
+    .content-box-sidebar.mobile-hide {
+      display: none !important;
+    }
+
+    &.user {
+      &-info {
+        display: none;
+      }
+    }
+
+    &.order {
+      &-info {
+        height: auto;
+
+        > a {
+          &.user {
+            &-info {
+              &-link {
+                padding: 20px 5px 0 15px;
+                display: block;
+                height: 30px;
+                margin-right: 10px;
+
+                > span {
+                  &.fa {
+                    margin-right: 18px;
+                    line-height: normal;
+                  }
+
+                  &.order {
+                    &-count {
+                      top: 9px;
+                      left: 28px;
+                      width: 20px;
+                      height: 20px;
+                      line-height: 18px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        div {
+          &.order {
+            &-info {
+              &-desc {
+                display: none;
+              }
+            }
+          }
+        }
+
+        &-area {
+          .menu {
+            &-wrapper {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+
+    /* content box */
+    &.content {
+      &-nav {
+        &-wrapper {
+          &.mobile {
+            &-only {
+              display: block;
+            }
+          }
+        }
+      }
+
+      &-area {
+        padding: 10px 0;
+
+        &.content {
+          &-area {
+            &-nmb {
+              padding-bottom: 0;
+            }
+
+            &-nmt {
+              padding-top: 0;
+            }
+          }
+        }
+      }
+
+      &-box {
+        margin: 10px 0;
+        border-radius: 0;
+
+        &-top {
+          margin-bottom: 1px;
+        }
+
+        &-bottom {
+          margin-top: 0;
+        }
+
+        &-nmt {
+          margin-top: 0;
+        }
+
+        &-nmb {
+          margin-bottom: 0;
+        }
+
+        &-smt {
+          margin-top: 20px;
+        }
+
+        &-smb {
+          margin-bottom: 20px;
+        }
+
+        &-main {
+          width: 100%;
+          float: none;
+        }
+
+        &-sidebar {
+          width: 100%;
+          float: none;
+          padding-left: 0;
+          padding-top: 0;
+        }
+
+        &.play {
+          &-box {
+            margin-top: 20px;
+
+            &-nolottery {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.error {
+      &-area {
+        padding-bottom: 10px;
+      }
+    }
+
+    /***** INFOBOX ******/
+    &.infobox {
+      &-wrapper {
+        display: none !important;
+      }
+    }
+
+    /***** CONTACT FORM *****/
+    &.wpcf7 {
+      &-response {
+        &-output {
+          padding: 10px 15px;
+        }
+      }
+    }
+
+    &.news {
+      &-category {
+        &-select {
+          float: none;
+        }
+      }
+    }
+  }
+
+  /**** HEADER ****/
+  header div.main-width {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  header h1 > a,
+  header div.header-logo a {
+    line-height: 50px;
+  }
+
+  header .mobile-menu {
+    display: block;
+  }
+
+  section.user-area {
+    margin-top: 0;
+    float: right;
+  }
+
+  .login {
+    &-signup {
+      &-buttons {
+        &-main {
+          &-div {
+            &-mobile {
+              text-align: center;
+              height: inherit;
+              display: none !important;
+            }
+          }
+        }
+
+        &-login {
+          &-div {
+            display: inline-block;
+            width: 50%;
+          }
+        }
+
+        &-signup {
+          &-div {
+            display: inline-block;
+            width: 50%;
+            float: right;
+          }
+        }
+
+        &-front {
+          &-page {
+            margin-top: 0px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    &-button {
+      &-main {
+        &-div {
+          padding: 0px 10px 0px 20px;
+        }
+      }
+    }
+  }
+
+  .signup {
+    &-button {
+      &-main {
+        &-div {
+          padding: 0px 20px 0px 10px;
+        }
+      }
+    }
+  }
+
+  .deposit {
+    &-button {
+      &-main {
+        &-div {
+          &-mobile {
+            text-align: center;
+            height: inherit;
+            display: block;
+          }
+        }
+      }
+
+      &-middle {
+        &-div {
+          &-mobile {
+            width: 100%;
+            display: inline-block;
+          }
+        }
+      }
+
+      &-div {
+        &-mobile {
+          margin: 20px 20px 0px 20px;
+        }
+      }
+
+      &-front {
+        &-page {
+          margin-bottom: 20px;
+
+          &-small {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .btn {
+    &-login {
+      display: none;
+
+      &-mobile {
+        height: 52px !important;
+        width: 100%;
+        margin: 20px 0px 0px;
+        padding: 0px !important;
+        display: inline-block;
+        line-height: 50px !important;
+      }
+    }
+
+    &-signup {
+      display: none;
+
+      &-mobile {
+        height: 52px !important;
+        width: 100%;
+        margin: 20px 0px 0px;
+        padding: 0px !important;
+        display: inline-block;
+        line-height: 50px !important;
+      }
+    }
+
+    &-deposit {
+      display: none;
+
+      &-mobile {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        height: 42px !important;
+        font-size: 2.1em !important;
+      }
+
+      &-second {
+        &-mobile {
+          width: 100%;
+          padding: 0px;
+          height: 52px;
+          line-height: 50px;
+          display: inline-block;
+        }
+      }
+    }
+
+    &-withdrawal {
+      margin-bottom: 20px;
+    }
+  }
+
+  /**** NAVIGATION ****/
+  .mobile-close-area {
+    display: block;
+  }
+
+  nav {
+    &#primary {
+      &-nav {
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: none;
+
+        div {
+          > a {
+            &#mobile {
+              &-close {
+                padding: 4px 0 5px 5px;
+                line-height: 18px;
+              }
+            }
+          }
+
+          > ul {
+            &.menu {
+              display: block;
+              padding: 30px;
+              min-height: 100%;
+
+              > li {
+                display: block;
+
+                &.menu {
+                  &-item {
+                    &-home {
+                      display: none;
+                    }
+
+                    &-mobile {
+                      display: block;
+                    }
+                  }
+                }
+
+                > a {
+                  font-size: 2.1em;
+                  text-align: center;
+                  display: block;
+                  padding: 15px 0;
+
+                  &:hover {
+                    text-decoration: none;
+                  }
+                }
+
+                > div {
+                  > ul {
+                    > li {
+                      > a {
+                        &:hover {
+                          text-decoration: none;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        > div {
+          margin: 0;
+          min-height: 100%;
+          padding-bottom: 30px;
+        }
+      }
+    }
+
+    &.content {
+      &-nav {
+        padding: 10px 0;
+
+        &.mobile {
+          &-hide {
+            display: none;
+          }
+        }
+      }
+    }
+
+    /***** PAGINATION *****/
+    &.pagination {
+      padding: 10px 0;
+    }
+  }
+
+  select {
+    &.content {
+      &-nav {
+        width: 100%;
+        margin-bottom: 10px;
+
+        &-wrapper {
+          padding: 10px 0;
+        }
+      }
+    }
+
+    &.news {
+      &-categories {
+        width: 100%;
+        margin-top: 7px;
+      }
+    }
+  }
+
+  /***** MAIN PADDINGS ****/
+  .home {
+    &-widget {
+      &-area {
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .widget-area-nmt {
+    padding-top: 0;
+  }
+  .widget-area-nmb {
+    padding-bottom: 0;
+  }
+
+  /***** NEWS WIDGET ****/
+
+  section.latest-news .news-container,
+  section.latest-news.latest-news-columns-2 .news-container {
+    width: calc(50% - 10px);
+  }
+  section.latest-news .grid-sizer,
+  section.latest-news.latest-news-columns-2 .grid-sizer {
+    width: calc(50% - 10px);
+  }
+  section.latest-news .gutter-sizer,
+  section.latest-news.latest-news-columns-2 .gutter-sizer {
+    width: 20px;
+  }
+
+  /**** LIST *****/
+
+  .widget-list-ticket {
+    width: calc(33.33% - 13.33px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .widget-list-carousel .widget-list-ticket {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .widget-list-carousel {
+    height: 319px;
+    padding: 10px 0;
+  }
+
+  /* grid */
+  .widget-list-grid .widget-list-ticket {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .widget-list-display2 .widget-list-grid .widget-list-ticket {
+    margin: 10px;
+  }
+
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin-left: 10px;
+  }
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(3n) {
+    margin-right: 10px;
+  }
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket-last,
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(2n + 1) {
+    margin-left: 0;
+  }
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(5n) {
+    margin-right: 10px;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(5n + 1) {
+    margin-left: 10px;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(4n) {
+    margin-right: 10px;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(4n + 1) {
+    margin-left: 10px;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(3n),
+  .widget-list-display1 .widget-list-grid .widget-list-ticket-last {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin-left: 0;
+  }
+
+  /* type2 */
+  .widget-list-type2 .widget-list-carousel {
+    height: 313px;
+  }
+
+  /* display2 */
+  .widget-list-display2 .widget-list-carousel {
+    height: 226px;
+  }
+
+  .widget-list-display2 .widget-list-ticket {
+    width: calc(50% - 10px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /*** SMALL WIDGETS ***/
+  .small-widgets-content .widget {
+    padding: 10px 0;
+  }
+
+  /*** LATEST NEWS ***/
+  section.latest-news .news-container {
+    padding: 10px 0;
+  }
+  section.latest-news article time,
+  section.post-content article.post time {
+    display: block;
+  }
+  h1.news-title {
+    margin: 15px 0;
+  }
+
+  /*** ORDER ***/
+  .order-content {
+    padding: 10px 0;
+  }
+
+  /***** ARTICLES/POSTS *****/
+  article.page,
+  article.post {
+    text-align: justify;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: center;
+    }
+  }
+
+  article.post .wp-post-image {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+
+  /*** TABLES ****/
+
+  table.table-info thead tr th:last-of-type,
+  table.table-info tbody tr td:last-of-type,
+  table.table-info tfoot tr td:last-of-type,
+  table.table-results thead tr th:last-of-type,
+  table.table-results tbody tr td:last-of-type,
+  table.table-results tfoot tr td:last-of-type {
+    padding-right: 0;
+  }
+  table.table-info thead tr th:first-of-type,
+  table.table-info tbody tr td:first-of-type,
+  table.table-info tfoot tr td:first-of-type,
+  table.table-results thead tr th:first-of-type,
+  table.table-results tbody tr td:first-of-type,
+  table.table-results tfoot tr td:first-of-type {
+    padding-left: 0;
+  }
+  table.table-results,
+  table.table-results thead,
+  table.table-results tbody,
+  table.table-results tfoot,
+  table.table-results th,
+  table.table-results td,
+  table.table-results tr,
+  table.table-info,
+  table.table-info thead,
+  table.table-info tbody,
+  table.table-info tfoot,
+  table.table-info th,
+  table.table-info td,
+  table.table-info tr,
+  table.table-order,
+  table.table-order thead,
+  table.table-order tbody,
+  table.table-order tfoot,
+  table.table-order th,
+  table.table-order td,
+  table.table-order tr,
+  table.table-payment,
+  table.table-payment thead,
+  table.table-payment tbody,
+  table.table-payment tfoot,
+  table.table-payment th,
+  table.table-payment td,
+  table.table-payment tr {
+    display: block;
+  }
+  table.table-order tbody tr:nth-child(4n + 2).hidden-normal,
+  table.table-order tbody tr:nth-child(4n).hidden-normal {
+    display: none;
+  }
+  table.table-short,
+  table.table-short thead,
+  table.table-short tbody,
+  table.table-short th,
+  table.table-short td,
+  table.table-short tr {
+    display: block;
+  }
+  table.table-order tbody tr:nth-child(4n + 2) td:nth-of-type(1),
+  table.table-order tbody tr:nth-child(4n) td:nth-of-type(1),
+  table.table-order tbody tr:nth-child(4n + 2) td:nth-of-type(3),
+  table.table-order tbody tr:nth-child(4n) td:nth-of-type(3),
+  table.table-order tbody tr:nth-child(4n + 2) td:nth-of-type(4),
+  table.table-order tbody tr:nth-child(4n) td:nth-of-type(4),
+  table.table-order tbody tr:nth-child(4n + 2) td:nth-of-type(5),
+  table.table-order tbody tr:nth-child(4n) td:nth-of-type(5) {
+    display: none;
+  }
+  table.table-order tbody tr:nth-child(4n + 2) td:nth-of-type(2),
+  table.table-order tbody tr:nth-child(4n) td:nth-of-type(2) {
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  table.table-results,
+  table.table-info {
+    margin-top: 25px;
+  }
+  table.table-results thead tr,
+  table.table-info thead tr,
+  table.table-short thead tr,
+  table.table-payment thead tr,
+  table.table-order thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .table-short-label {
+    display: none;
+  }
+  table.table-short tbody tr {
+    width: 100%;
+  }
+  table.table-short tbody {
+    width: 100%;
+  }
+  table.table-short tbody tr td,
+  table.table-short tbody tr td:first-of-type,
+  table.table-short thead tr th:first-of-type {
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  table.table-payment tbody tr td {
+    height: auto;
+    padding: 0px;
+    text-align: left;
+  }
+  table.table-payment tbody tr td:nth-of-type(2) {
+    padding-top: 18px;
+    padding-bottom: 15px;
+  }
+  table.table-payment tbody tr td:nth-of-type(3) {
+    clear: both;
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 15px;
+  }
+  table.table-payment tbody tr td:last-of-type {
+    padding-bottom: 15px;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+  table.table-payment tbody tr td:first-of-type {
+    float: left;
+    width: auto;
+    padding-right: 10px;
+    padding-top: 18px;
+  }
+  table.table-payment tfoot tr td:nth-of-type(2) {
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+  }
+  table.table-results thead tr th:first-of-type,
+  table.table-results tbody tr td:first-of-type,
+  table.table-results tfoot tr td:first-of-type,
+  table.table-info thead tr th:first-of-type,
+  table.table-info tbody tr td:first-of-type {
+    padding-top: 10px;
+  }
+  table.table-results thead tr th:last-of-type,
+  table.table-results tbody tr td:last-of-type,
+  table.table-results tfoot tr td:last-of-type,
+  table.table-info thead tr th:last-of-type,
+  table.table-info tbody tr td:last-of-type {
+    padding-bottom: 15px;
+  }
+
+  table.table-results thead tr th,
+  table.table-results tbody tr td,
+  table.table-results tfoot tr td,
+  table.table-info thead tr th,
+  table.table-info tbody tr td,
+  table.table-order tbody tr td {
+    padding: 0px;
+    height: auto;
+  }
+
+  /**** TABLES ****/
+  table.table-success,
+  table.table-success tbody,
+  table.table-success td,
+  table.table-success tr {
+    display: block;
+  }
+  table.table-success tbody tr td {
+    height: auto;
+  }
+
+  table.table-success tbody tr td {
+    padding-top: 18px;
+  }
+  table.table-success tbody tr td:first-of-type {
+    padding-right: 10px;
+    padding-bottom: 0;
+    float: left;
+    width: auto;
+  }
+  table.table-success tbody tr td:last-of-type {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  table.table-success-deposit tbody tr td:last-of-type {
+    padding-top: 20px;
+    text-align: right;
+    padding-bottom: 20px;
+  }
+  table.table-success-deposit tbody tr td:first-of-type {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  table.table-success tbody tr td {
+    padding-top: 13px;
+    padding-bottom: 11px;
+  }
+  table#widget-results-table tbody tr td:nth-child(1) {
+    float: right;
+    width: 50%;
+    height: 35px;
+    padding-top: 10px;
+    text-align: right;
+  }
+  table#widget-results-table tbody tr td:nth-child(2) {
+    float: left;
+    padding-top: 10px;
+    width: 50%;
+    height: 35px;
+    font-size: 1.125em;
+  }
+  table#widget-results-table tbody tr td:nth-child(3) {
+    clear: both;
+    padding-top: 5px;
+  }
+  table#info-table tbody tr td:nth-child(1),
+  table#results-table tbody tr td:nth-child(1) {
+    // float: right;
+    // width: 30%;
+    padding-top: 10px;
+    text-align: right;
+  }
+
+  .results-lottery-image img,
+  .info-lottery-image img {
+    width: 45px;
+  }
+  table.table tbody tr td.results-lottery-image,
+  table.table tbody tr td.info-lottery-image {
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  table#info-table tbody tr td:nth-child(3),
+  table#results-table tbody tr td:nth-child(2) {
+    padding-top: 8px;
+    font-size: 1.125em;
+  }
+
+  table#results-table tbody tr td:nth-child(2) a {
+    float: left;
+  }
+
+  table#results-table tbody tr td:nth-child(2) .results-image,
+  table#info-table tbody tr .info-image {
+    float: right;
+    font-size: 1rem;
+    margin-top: 0;
+    border-top-width: 0;
+  }
+
+  table#results-table tbody tr td:nth-child(3) {
+    clear: both;
+    padding-left: 57px;
+    border-top-width: 0;
+  }
+
+  table#info-table tbody tr td:nth-child(2) {
+    border-top-width: 0;
+  }
+
+  table#info-table tbody tr td:nth-child(5) {
+    clear: both;
+  }
+
+  table#info-table tbody tr:first-child td:nth-child(3) {
+    border-top-width: 1px;
+  }
+
+  table#results-table tbody tr td:nth-child(5) {
+    clear: both;
+  }
+
+  table#results-table tbody tr td:last-of-type {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  table#results-table tbody tr td:last-of-type .btn-results-mobile {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  table.table-short span.fa {
+    display: none;
+  }
+
+  table.table-results tbody tr td:nth-last-of-type(2) {
+    padding-bottom: 10px;
+  }
+  table.table-short tbody tr td .ticket-line {
+    margin-top: 0;
+  }
+
+  table.table-info tbody tr td:nth-last-of-type(2) {
+    padding-bottom: 10px;
+  }
+
+  table.table-info tbody tr td,
+  table.table-results tbody tr td,
+  article table tbody tr td {
+    font-weight: normal;
+  }
+  table.table-info tbody tr td.info-image i,
+  table.table-results tbody tr td.results-image i {
+    vertical-align: -5px;
+  }
+  .info-play {
+    text-align: left;
+  }
+  .results-payout-amount {
+    font-weight: bold;
+  }
+
+  .info-lottery-image,
+  .results-lottery-image {
+    display: block;
+    float: left;
+  }
+
+  .results-payout .mobile-hide {
+    display: none;
+  }
+
+  table.table-results tbody tr td .ticket-line {
+    padding: 10px 0;
+  }
+
+  table.table-success tbody tr td:nth-of-type(2) .order-summary-content-header {
+    min-height: 40px;
+    display: block;
+  }
+  table.table-success .mobile-hide {
+    display: none;
+  }
+  table.table-success .mobile-only {
+    display: inline-block;
+  }
+
+  /***** THANK YOU WIDGET ****/
+
+  .success-content {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px 0;
+  }
+
+  /***** TRANSACTIONS ****/
+  .transactions-date br {
+    display: none;
+  }
+
+  table.table-withdrawals .transactions-date {
+    font-size: 1em;
+  }
+
+  /****** INFO *****/
+  table.table-info tbody tr td.info-jackpot {
+    font-size: 1em;
+  }
+  /* short */
+  table.table-short tbody tr td.table-short-country {
+    padding-top: 0;
+  }
+  table.table-short tr td.table-short-line {
+    padding-top: 12px;
+    display: none;
+  }
+  table.table-short tbody tr:first-of-type td:last-of-type {
+    padding-bottom: 0;
+  }
+  table.table-short tbody tr td {
+    padding-bottom: 20px;
+  }
+
+  /****** RESULTS *****/
+  .results-payout-jackpot {
+    font-size: inherit;
+  }
+
+  .results-short-jackpot {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 32px;
+  }
+
+  /******* ORDER *****/
+
+  table.table-order tbody tr td {
+    padding-top: 18px;
+  }
+  table.table-order tbody tr td:first-of-type,
+  table.table-payment tbody tr td:first-of-type {
+    float: left;
+    width: auto;
+    padding-right: 10px;
+  }
+  table.table-order tbody tr td:first-of-type img,
+  table.table-success tbody tr td:first-of-type img,
+  table.table-payment tbody tr td:first-of-type img {
+    max-width: 22px;
+  }
+
+  table.table-payment tbody tr td:nth-of-type(2) .order-summary-content-header {
+    min-height: 40px;
+  }
+
+  .order-summary-image {
+    margin-top: 5px;
+    line-height: normal;
+  }
+  table.table-order tbody tr td.order-summary-lines {
+    padding: 0;
+  }
+
+  table.table-order
+    tbody
+    tr
+    td.order-summary-lines
+    div.ticket-line:last-of-type {
+    margin-bottom: 0;
+  }
+  table.table-order tbody tr td:nth-of-type(2) .order-summary-content-header {
+    display: block;
+  }
+  table.table-order tbody tr td:nth-of-type(2) {
+    padding-bottom: 0;
+  }
+  table.table-order tbody tr td:nth-of-type(3) {
+    text-align: left;
+    padding-top: 0;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  table.table-order tbody tr {
+    position: relative;
+    clear: both;
+    padding-bottom: 0;
+  }
+  table.table-order tbody tr td:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  table.table-order tbody tr td:nth-of-type(5) {
+    text-align: right;
+    padding-top: 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    top: -22px;
+  }
+
+  table.table-order tbody tr:nth-of-type(2n + 1) td:nth-of-type(2) {
+    height: auto;
+  }
+
+  table.table-order .mobile-hide {
+    display: none;
+  }
+  table.table-order .mobile-only {
+    display: inline-block;
+  }
+  .order-content .col-amount {
+    font-size: 1em;
+  }
+
+  /***** MOBILE ******/
+
+  table.table-short .mobile-only-time {
+    display: block;
+  }
+  table.table-info .mobile-only-label,
+  table.table-order .mobile-only-label {
+    display: inline-block;
+    font-weight: normal;
+  }
+  table.table-order .mobile-only-label {
+    font-weight: normal;
+  }
+
+  table.table-short .mobile-only-label {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 1.375em;
+    font-weight: 600;
+  }
+
+  table.table-payment .mobile-only-label {
+    display: inline;
+  }
+
+  table.table-payment .mobile-unbold {
+    font-weight: normal;
+    font-size: inherit;
+  }
+  .myaccount-transactions-value .mobile-only-time {
+    display: block;
+  }
+
+  .myaccount-details span.fa-clock-o {
+    display: none;
+  }
+
+  .results-content .mobile-only,
+  .info-content .mobile-only {
+    display: block;
+  }
+  .info-mobile-show {
+    display: block;
+  }
+
+  .mobile-only-tickets {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .myaccount-balance {
+    margin-bottom: 20px;
+  }
+
+  /*** MY ACCOUNT ***/
+  .myaccount-details .myaccount-transactions-value {
+    display: inline;
+    float: none;
+  }
+  .myaccount-transactions-label {
+    display: block;
+    float: none;
+  }
+  .myaccount-transaction-value-time {
+    height: 60px;
+  }
+
+  .myaccount-transaction-value-time strong {
+    font-weight: 300;
+  }
+
+  .myaccount-transactions br {
+    display: none;
+  }
+  .myaccount-transactions-label {
+    margin-top: 15px;
+  }
+  .myaccount-transactions-label:first-of-type {
+    margin-top: 0;
+  }
+
+  /***** ALERTS ****/
+  .platform {
+    &-alert {
+      padding: 10px 15px;
+
+      .main {
+        &-width {
+          margin: 0;
+        }
+      }
+
+      .sprite {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  /***** PAYMENT *****/
+  .deposit-amount {
+    width: 32%;
+    /*line-height: 50px;*/
+    /*height: 52px;*/
+    /*padding-top: 2px;*/
+    /*line-height: inherit !important;*/
+    padding-top: 16px;
+    height: 60px;
+  }
+  .deposit-amount:nth-last-of-type(3) {
+    margin-right: 0;
+  }
+
+  .deposit-amount.platform-form:nth-last-of-type(2) {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    text-align: center;
+    border: 0;
+    border-width: 0;
+  }
+
+  .deposit-amount-gateway-currency {
+    font-size: small;
+    line-height: 14px;
+  }
+
+  .deposit-amount-error-cloud {
+    margin-top: 15px;
+  }
+  .deposit-amount.platform-form label {
+    margin-top: 15px;
+    margin-bottom: 3px;
+  }
+
+  .deposit-amount:hover {
+    padding-top: 15px;
+    /*line-height: 48px;*/
+  }
+  .deposit-amount-active {
+    padding-top: 15px;
+  }
+
+  .deposit-amount.platform-form {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .deposit-amount.platform-form:hover {
+    padding-left: 0px;
+    padding-top: 14px;
+    /*line-height: 24px;*/
+  }
+  .deposit-amount-value {
+    font-size: 1.6em;
+  }
+
+  .deposit-amount.platform-form:hover label,
+  .deposit-amount-active.platform-form label {
+    /*margin-top: 15px;*/
+  }
+
+  .deposit-amount input[type='text'] {
+    width: 40%;
+  }
+
+  .pull-up-deposit-amount {
+    /*line-height: 2px !important;*/
+  }
+
+  .cvv-info div.tooltip-cloud {
+    width: 200px;
+    white-space: normal;
+  }
+  .cvv-info div.tooltip-cloud img {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  /*** TICKETS/PLAY ***/
+
+  .widget-ticket-header-wrapper {
+    width: 100% !important;
+  }
+
+  .widget-ticket-wrapper .widget-ticket-header h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  .widget-ticket-entity-horizontal {
+    flex-wrap: wrap;
+
+    &:nth-child(n) {
+      border-radius: 4px;
+    }
+
+    .widget-ticket-entity-content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .widget-ticket-entity-help-wrapper {
+        display: block;
+        width: 100%;
+        margin: 0 0 19px 0;
+      }
+
+      .widget-ticket-numbers {
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    .widget-ticket-buttons-visible {
+      display: flex;
+      width: 100%;
+      margin-top: 19px;
+      justify-content: center;
+    }
+  }
+
+  #number-selector {
+    width: 70%;
+  }
+
+  .play-lottery-jackpot-amount {
+    font-size: 2em;
+    line-height: 24px;
+  }
+  .play-lottery-jackpot-amount .main-prize {
+    line-height: inherit;
+  }
+  .widget-ticket-image.widget-ticket-image-raffle {
+    margin-top: 24px;
+  }
+  .widget-ticket-buttons-all button {
+    display: none;
+  }
+  .widget-ticket-buttons-all {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: none;
+  }
+  .widget-ticket-header-wrapper {
+    float: none;
+  }
+  .widget-ticket-buttons-all .widget-ticket-time-remain {
+    display: none;
+  }
+  .widget-ticket-header .widget-ticket-time-remain.mobile-show {
+    display: block;
+    font-size: 0.875em;
+    text-align: left;
+    margin-top: 4px;
+  }
+
+  .order-summary-multidraw-badge {
+    display: none;
+  }
+
+  .widget-ticket-wrapper .widget-ticket-header-raffle h1 {
+    margin-top: 0;
+  }
+
+  .widget-ticket-entity.widget-raffle-ticket-entity {
+    width: 100%;
+  }
+
+  .widget-raffle-ticket-summary {
+    width: 100%;
+  }
+
+  /** PROMO CODES **/
+  .order-promo-code .form-promo-code {
+    text-align: center;
+  }
+
+  .form-promo-code label {
+    display: block;
+  }
+
+  .form-promo-code input[type='text'] {
+    width: 80%;
+  }
+
+  //ticket card
+  .ticket-card {
+    max-width: 100%;
+  }
+
+  // raffle info
+  table.table-short.table-raffle-info {
+    display: table;
+    thead {
+      display: table-header-group;
+      tr {
+        position: inherit;
+        display: table-row;
+      }
+
+      th {
+        display: table-cell;
+        font-size: 20px;
+        line-height: 40px;
+        vertical-align: middle;
+        &:first-of-type {
+          padding: 10px 30px;
+        }
+      }
+    }
+
+    tbody {
+      display: table-row-group;
+      tr {
+        display: table-row;
+        background: #f4f4f4;
+        border-top: 1px solid #ffffff;
+      }
+
+      td {
+        display: table-cell;
+        padding: 10px 30px;
+        border-right: 1px solid #ffffff;
+        &:first-of-type {
+          padding: 10px 30px;
+        }
+      }
+    }
+  }
+
+  .results-short-content .results-short-select-wrapper {
+    select.results-short-select {
+      margin: -30px 0 0 0;
+    }
+  }
+
+  .results-short-jackpot.results-short-jackpot-raffle {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  #winnings-table-content-label-horizontal {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1em;
+  }
+
+  #winnings-table-content-label-vertical {
+    font-size: 1em;
+  }
+
+  /**** CASINO PROMO BANNER ****/
+  #casinoPromoBanner {
+    div {
+      &.textContainer {
+        h2 {
+          font-size: 6.2vw;
+        }
+      }
+      &.buttonContainer {
+        button {
+          padding: 0 3vw;
+        }
+      }
+    }
+  }
+}

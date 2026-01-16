@@ -1,0 +1,59 @@
+{# JS: resources/lotto-platform/js/modules/Lottery.js #}
+<div class="infobox-wrapper hidden-normal" id="infobox_{{ lotterySlug }}" data-lottery-slug="{{ lotterySlug }}">
+    <div class="infobox-content">
+        <div class="infobox-arrow"></div>
+        <time class="infobox-next-draw">
+            <span class="fa fa-clock-o" aria-hidden="true"></span>
+            <span class="loading"></span>
+            {# Next draw will be generated automatically by JS #}
+        </time>
+        <div class="infobox-details">
+            <div class="infobox-image">
+                {% if lotteryImageSize is not empty %}
+                    <img width="{{ lotteryImageSize[0] }}"
+                         height="{{ lotteryImageSize[1] }}"
+                         src="{{ lotteryImageUrl }}"
+                         alt="{{ lotteryName }}"
+                    />
+                {% endif %}
+            </div>
+            <div class="infobox-title">
+                <a href="{{ playInfoHref }}"
+                   rel="{{ playInfoHref }}"
+                >
+                    {{ title ? title : lotteryName }}
+                </a>
+            </div>
+            <div class="infobox-jackpot infobox-amount">
+                <span class="loading"></span>
+                {# Jackpot will be generated automatically by JS #}
+            </div>
+            <a href="{{ quickPickBaseUrl }}" rel="nofollow" class="infobox-purchase">
+                <span class="infobox-purchase-icon">
+                    <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                </span>
+                <span class="infobox-purchase-description">
+                    <span class="infobox-purchase-description-primary-text">
+                        <span class="loading"></span>
+                        {# This description will be generated automatically by JS #}
+                    </span>
+                    <span class="infobox-purchase-description-secondary-text">
+                        {# This description will be generated automatically by JS #}
+                    </span>
+                </span>
+                <div class="clearfix"></div>
+            </a>
+            <a href="{{ playInfoHref }}" rel="nofollow" class="infobox-purchase-manual">
+                {{ pickNumbersText }}
+            </a>
+        </div>
+        <div class="infobox-links">
+            <a href="{{ resultsUrl }}">
+                {{ resultsText }}
+            </a>
+            <a href="{{ informationUrl }}">
+                {{ informationText }}
+            </a>
+        </div>
+    </div>
+</div>

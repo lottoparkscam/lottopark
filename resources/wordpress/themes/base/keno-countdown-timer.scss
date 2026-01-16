@@ -1,0 +1,98 @@
+.keno-countdown {
+  display: flex;
+  align-items: center;
+  .draw-in-text {
+    font-size: 1.5em;
+    margin-right: 1em;
+    text-align: left;
+  }
+  .timer {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    font-size: 3em;
+    font-weight: 600;
+    color: #5d5c5f;
+    background-color: #fdfdfd;
+    border-radius: 11px;
+    box-shadow: 0 0 0 1.5px #e5e5e5;
+    white-space: nowrap;
+    span {
+      margin: 0;
+    }
+    @media (max-width: 1000px) {
+      padding: 16px;
+      font-size: 2em;
+    }
+    @media (max-width: 700px) {
+      padding: 8px;
+      font-size: 1.5em;
+    }
+  }
+  &.mobile {
+    margin-top: 10px;
+    font-size: 1em;
+    @media (min-width: 1001px) {
+      display: none;
+    }
+    @media (max-width: 600px) {
+      align-items: baseline;
+      flex-direction: column;
+      .draw-in-text {
+        margin-bottom: 10px;
+      }
+    }
+    .draw-in-text {
+      font-size: 1.3em;
+    }
+    .timer {
+      font-size: 1.6em;
+    }
+  }
+  &.success {
+    font-size: 1em;
+    .draw-in-text {
+      margin-right: 10px;
+      margin-left: 0px;
+      font-size: 1em;
+    }
+    .timer {
+      width: 6em;
+      padding-top: 5px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      font-size: 1em;
+      div {
+        font-size: 1.5em;
+      }
+    }
+  }
+  &.details {
+    font-size: 1em;
+    .draw-in-text {
+      margin-left: 0px;
+      text-align: left;
+      font-size: 1em;
+      margin-right: 10px;
+    }
+    .timer {
+      font-size: 1.5em;
+      padding: 5px;
+    }
+  }
+  &.desktop-only {
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+}
+
+.keno-widget-ticket-wrapper {
+  .widget-ticket-buttons-all {
+    width: unset;
+  }
+  select {
+    background-color: unset;
+  }
+}

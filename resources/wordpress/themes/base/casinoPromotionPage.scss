@@ -1,0 +1,33 @@
+#casino-promotion-page {
+  div.main {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 2rem;
+    background-color: #ffffff;
+    img {
+      max-width: 100%;
+    }
+    ul {
+      list-style: decimal;
+      li {
+        font-size: 1.6em;
+      }
+    }
+    #playButtonContainer {
+      text-align: center;
+      a {
+        font-size: 1.6em;
+        color: #ffffff;
+        background-color: #16d383;
+        display: block;
+        border-radius: 3px;
+        line-height: 50px;
+        height: 52px;
+        padding: 0 20px;
+        text-decoration: none;
+        width: 92px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

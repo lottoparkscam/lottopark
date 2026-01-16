@@ -1,0 +1,4464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-10-01 15:21+0200\n"
+"PO-Revision-Date: 2017-10-01 15:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sq_AL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: classes/controller/admin.php\n"
+"X-Poedit-SearchPath-1: classes/controller/aff.php\n"
+"X-Poedit-SearchPath-2: classes/controller/api.php\n"
+"X-Poedit-SearchPath-3: classes/controller/dev.php\n"
+"X-Poedit-SearchPath-4: classes/controller/index.php\n"
+"X-Poedit-SearchPath-5: classes/controller/task.php\n"
+"X-Poedit-SearchPath-6: classes/controller/whitelabel.php\n"
+"X-Poedit-SearchPath-7: views/admin\n"
+"X-Poedit-SearchPath-8: views/aff\n"
+"X-Poedit-SearchPath-9: views/index\n"
+"X-Poedit-SearchPath-10: views/whitelabel\n"
+"X-Poedit-SearchPath-11: lang/translation.php\n"
+
+#: classes/controller/admin.php:70 classes/controller/aff.php:135
+#: classes/controller/aff.php:437 classes/controller/whitelabel.php:100
+#: classes/controller/whitelabel.php:525 classes/controller/whitelabel.php:1525
+#: classes/controller/whitelabel.php:1949 views/admin/signin/index.php:13
+#: views/admin/signin/index.php:14 views/aff/settings/edit.php:20
+#: views/aff/settings/profile.php:14 views/aff/signin/index.php:13
+#: views/aff/signin/index.php:14 views/whitelabel/affs/edit.php:44
+#: views/whitelabel/affs/index.php:48 views/whitelabel/affs/index.php:72
+#: views/whitelabel/affs/new.php:29 views/whitelabel/affs/view.php:30
+#: views/whitelabel/signin/index.php:13 views/whitelabel/signin/index.php:14
+msgid "Login"
+msgstr "Hyr"
+
+#: classes/controller/admin.php:72 classes/controller/admin.php:184
+#: classes/controller/admin.php:252 classes/controller/aff.php:137
+#: classes/controller/whitelabel.php:102 classes/controller/whitelabel.php:529
+#: views/admin/signin/index.php:17 views/admin/signin/index.php:18
+#: views/admin/whitelabels/add.php:34 views/admin/whitelabels/edit.php:34
+#: views/aff/settings/profile.php:45 views/aff/signin/index.php:17
+#: views/aff/signin/index.php:18 views/whitelabel/affs/new.php:37
+#: views/whitelabel/affs/view.php:53 views/whitelabel/settings/account.php:18
+#: views/whitelabel/signin/index.php:17 views/whitelabel/signin/index.php:18
+#: views/whitelabel/users/view.php:40
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+#: classes/controller/admin.php:74 classes/controller/aff.php:139
+#: classes/controller/whitelabel.php:104 views/admin/signin/index.php:21
+#: views/aff/signin/index.php:21 views/whitelabel/signin/index.php:21
+msgid "Remember me"
+msgstr "Më mbaj mend"
+
+#: classes/controller/admin.php:90 classes/controller/admin.php:94
+#: classes/controller/aff.php:156 classes/controller/aff.php:160
+#: classes/controller/whitelabel.php:120 classes/controller/whitelabel.php:124
+msgid "Wrong credentials! Please try again."
+msgstr "Kredenciale të gabuara! Ju lutemi provoni përsëri."
+
+#: classes/controller/admin.php:99 classes/controller/aff.php:165
+#: classes/controller/whitelabel.php:129
+msgid "Too many login attempts! Please try again later."
+msgstr "Shumë përpjekje për të hyrë! Ju lutem provoni përsëri më vonë."
+
+#: classes/controller/admin.php:104 classes/controller/aff.php:170
+#: classes/controller/whitelabel.php:134
+msgid "Wrong captcha."
+msgstr "Captcha e gabuar."
+
+#: classes/controller/admin.php:108 classes/controller/aff.php:174
+#: classes/controller/whitelabel.php:138 classes/controller/whitelabel.php:2142
+#: classes/controller/whitelabel.php:4594
+msgid "Security error! Please try again."
+msgstr "Gabim sigurie! Ju lutemi provoni përsëri."
+
+#: classes/controller/admin.php:124 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/menu.php:2
+msgid "Lottery List"
+msgstr "Lista e Lotarisë"
+
+#: classes/controller/admin.php:125 views/admin/lotteries/delays.php:10
+#: views/admin/lotteries/menu.php:3
+msgid "Postponed Draws"
+msgstr "Tërheqje të shtyra për më vonë"
+
+#: classes/controller/admin.php:126 views/admin/lotteries/logs.php:7
+#: views/admin/lotteries/menu.php:4
+msgid "Lottery Logs"
+msgstr "Regjistrat e Lotarisë"
+
+#: classes/controller/admin.php:127 views/admin/lotteries/imvalaplogs.php:7
+#: views/admin/lotteries/menu.php:5
+msgid "Imvalap Logs"
+msgstr "Regjistrat e Imvalap"
+
+#: classes/controller/admin.php:128 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/lotteries/menu.php:6
+msgid "Lottorisq Logs"
+msgstr "Regjistrat e Lottorisq"
+
+#: classes/controller/admin.php:129 views/admin/payments/menu.php:2
+#: views/admin/payments/paymentlogs.php:7
+msgid "Payment Logs"
+msgstr "Regjistrat e Pagesave"
+
+#: classes/controller/admin.php:130 views/admin/shared/navbar.php:16
+#: views/admin/whitelabels/index.php:10 views/admin/whitelabels/menu.php:2
+msgid "Whitelabels"
+msgstr "Whitelabels"
+
+#: classes/controller/admin.php:131 classes/controller/aff.php:193
+#: classes/controller/aff.php:294 classes/controller/whitelabel.php:163
+#: views/admin/shared/navbar.php:14 views/aff/shared/navbar.php:14
+#: views/whitelabel/shared/navbar.php:14
+msgid "Dashboard"
+msgstr "Paneli"
+
+#: classes/controller/admin.php:177 classes/controller/admin.php:245
+#: classes/controller/admin.php:488 classes/controller/whitelabel.php:242
+#: classes/controller/whitelabel.php:1316
+#: classes/controller/whitelabel.php:3220 views/admin/lotteries/index.php:19
+#: views/admin/whitelabels/add.php:21 views/admin/whitelabels/edit.php:21
+#: views/admin/whitelabels/index.php:19 views/admin/whitelabels/payments.php:21
+#: views/admin/whitelabels/payments_edit.php:37
+#: views/whitelabel/affs/groups.php:20 views/whitelabel/affs/groups_edit.php:21
+#: views/whitelabel/affs/payouts.php:65 views/whitelabel/affs/payouts.php:72
+#: views/whitelabel/affs/payouts.php:77 views/whitelabel/affs/payouts.php:83
+#: views/whitelabel/settings/account.php:14
+#: views/whitelabel/settings/account_edit.php:24
+#: views/whitelabel/settings/lottery.php:17
+#: views/whitelabel/settings/paymentmethods.php:26
+#: views/whitelabel/settings/paymentmethods_edit.php:37
+#: views/whitelabel/transactions/view.php:238
+#: views/whitelabel/users/index.php:67
+msgid "Name"
+msgstr "Emri"
+
+#: classes/controller/admin.php:180 classes/controller/admin.php:248
+#: views/admin/whitelabels/add.php:25 views/admin/whitelabels/edit.php:25
+#: views/admin/whitelabels/index.php:20
+#: views/whitelabel/transactions/view.php:114
+msgid "Domain"
+msgstr "Fusha"
+
+#: classes/controller/admin.php:182 classes/controller/admin.php:250
+#: classes/controller/whitelabel.php:240 views/admin/whitelabels/add.php:30
+#: views/admin/whitelabels/edit.php:30 views/whitelabel/affs/index.php:72
+#: views/whitelabel/settings/account.php:12
+#: views/whitelabel/settings/account_edit.php:20
+msgid "Username"
+msgstr "Emri i Përdoruesit"
+
+#: classes/controller/admin.php:213
+msgid "Whitelabel has been saved!"
+msgstr "Whitelabel është ruajtur!"
+
+#: classes/controller/admin.php:233 classes/controller/admin.php:649
+msgid "Wrong whitelabel!"
+msgstr "Whitelabel i gabuar!"
+
+#: classes/controller/admin.php:254 views/admin/whitelabels/add.php:44
+msgid "Prefix"
+msgstr "Prefiksi"
+
+#: classes/controller/admin.php:349
+msgid "Whitelabel has been added!"
+msgstr "Whitelabel u shtua!"
+
+#: classes/controller/admin.php:429 classes/controller/admin.php:454
+#: classes/controller/whitelabel.php:3162
+#: classes/controller/whitelabel.php:3187
+msgid "Payment method order has been changed!"
+msgstr "Rendi i mënyrave të pagesës ka ndryshuar!"
+
+#: classes/controller/admin.php:484 classes/controller/whitelabel.php:246
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:3216
+#: classes/controller/whitelabel.php:4699
+#: views/admin/whitelabels/payments.php:19
+#: views/admin/whitelabels/payments_edit.php:20
+#: views/aff/settings/profile.php:48 views/whitelabel/affs/index.php:18
+#: views/whitelabel/affs/index.php:79 views/whitelabel/affs/view.php:56
+#: views/whitelabel/reports/reports.php:20
+#: views/whitelabel/settings/account.php:23
+#: views/whitelabel/settings/account_edit.php:32
+#: views/whitelabel/settings/paymentmethods.php:24
+#: views/whitelabel/settings/paymentmethods_edit.php:20
+#: views/whitelabel/transactions/view.php:439
+#: views/whitelabel/transactions/view.php:497
+#: views/whitelabel/users/index.php:25 views/whitelabel/users/index.php:76
+#: views/whitelabel/users/view.php:43
+msgid "Language"
+msgstr "Gjuha"
+
+#: classes/controller/admin.php:486 classes/controller/whitelabel.php:3218
+#: views/admin/whitelabels/payments.php:22
+#: views/admin/whitelabels/payments_edit.php:28
+#: views/whitelabel/settings/paymentmethods.php:27
+#: views/whitelabel/settings/paymentmethods_edit.php:28
+msgid "Integrated Method"
+msgstr "Metoda e Integruar"
+
+#: classes/controller/admin.php:490 classes/controller/whitelabel.php:3222
+#: views/admin/whitelabels/payments_edit.php:41
+#: views/whitelabel/settings/paymentmethods_edit.php:41
+msgid "Show on payment page"
+msgstr "Shfaqe në faqen e pagesave"
+
+#: classes/controller/admin.php:498 classes/controller/whitelabel.php:3230
+#: views/admin/whitelabels/payments_edit.php:47
+#: views/whitelabel/settings/paymentmethods_edit.php:47
+msgid "Merchant E-mail (required)"
+msgstr "E-mail-i i Tregtarit (e detyrueshme)"
+
+#: classes/controller/admin.php:500 classes/controller/whitelabel.php:3232
+#: views/admin/whitelabels/payments_edit.php:56
+#: views/whitelabel/settings/paymentmethods_edit.php:56
+msgid "Merchant Logo URL"
+msgstr "URL-ja e Logos së Tregtarit"
+
+#: classes/controller/admin.php:502 classes/controller/whitelabel.php:3234
+#: views/admin/whitelabels/payments_edit.php:61
+#: views/whitelabel/settings/paymentmethods_edit.php:61
+msgid "Merchant Description"
+msgstr "Përshkrimi i Tregtarit"
+
+#: classes/controller/admin.php:504 classes/controller/whitelabel.php:3236
+#: views/admin/whitelabels/payments_edit.php:51
+#: views/whitelabel/settings/paymentmethods_edit.php:51
+msgid "Secret Word (required)"
+msgstr "Fjala Sekrete (e detyrueshme)"
+
+#: classes/controller/admin.php:510 classes/controller/whitelabel.php:3242
+#: views/admin/whitelabels/payments_edit.php:68
+#: views/whitelabel/settings/paymentmethods_edit.php:68
+msgid "App Client ID"
+msgstr "ID e Klientit të Aplikacionit"
+
+#: classes/controller/admin.php:511 classes/controller/whitelabel.php:3243
+msgid "App Client Secret"
+msgstr "Sekreti i Klientit të Aplikacionit"
+
+#: classes/controller/admin.php:512 classes/controller/whitelabel.php:3244
+#: views/admin/whitelabels/payments_edit.php:77
+#: views/whitelabel/settings/paymentmethods_edit.php:77
+msgid "Webhook Secret Key"
+msgstr "Çelësi Sekret i Webhook-ut"
+
+#: classes/controller/admin.php:513 classes/controller/whitelabel.php:3245
+#: classes/controller/whitelabel.php:3452
+#: views/admin/whitelabels/payments_edit.php:82
+#: views/whitelabel/settings/ccsettings_edit.php:65
+#: views/whitelabel/settings/paymentmethods_edit.php:82
+msgid "Test account"
+msgstr "Llogari provë"
+
+#: classes/controller/admin.php:518 classes/controller/whitelabel.php:3250
+#: classes/controller/whitelabel.php:3446
+#: views/admin/whitelabels/payments_edit.php:101
+#: views/whitelabel/settings/ccsettings_edit.php:38
+#: views/whitelabel/settings/paymentmethods_edit.php:101
+msgid "API Key"
+msgstr "Çelësi API"
+
+#: classes/controller/admin.php:519 classes/controller/whitelabel.php:3251
+#: views/admin/whitelabels/payments_edit.php:106
+#: views/whitelabel/settings/paymentmethods_edit.php:106
+msgid "API Secret"
+msgstr "Sekreti API"
+
+#: classes/controller/admin.php:524 classes/controller/whitelabel.php:3256
+#: views/whitelabel/transactions/view.php:577
+msgid "tpay.com ID"
+msgstr "ID e tpay.com"
+
+#: classes/controller/admin.php:525 classes/controller/whitelabel.php:3257
+#: views/admin/whitelabels/payments_edit.php:93
+#: views/whitelabel/settings/paymentmethods_edit.php:93
+msgid "tpay.com Security Code"
+msgstr "Kodi i Sigurisë së tpay.com"
+
+#: classes/controller/admin.php:530 classes/controller/whitelabel.php:3262
+#: views/admin/whitelabels/payments_edit.php:113
+#: views/whitelabel/settings/paymentmethods_edit.php:113
+msgid "Configuration Key"
+msgstr "Çelësi i konfigurimit"
+
+#: classes/controller/admin.php:601 classes/controller/whitelabel.php:3337
+#: classes/controller/whitelabel.php:3493
+msgid "Payment method has been saved!"
+msgstr "Mënyra e pagesës është ruajtur!"
+
+#: classes/controller/admin.php:606 classes/controller/whitelabel.php:3342
+msgid "This method is already added!"
+msgstr "Kjo mënyrë është shtuar tashmë!"
+
+#: classes/controller/admin.php:612 classes/controller/whitelabel.php:289
+#: classes/controller/whitelabel.php:3348
+msgid "Wrong language!"
+msgstr "Gjuha e gabuar!"
+
+#: classes/controller/admin.php:618 classes/controller/whitelabel.php:3354
+msgid "Wrong method!"
+msgstr "Mënyrë e gabuar!"
+
+#: classes/controller/admin.php:680 views/admin/lotteries/index.php:23
+#: views/admin/lotteries/jackpot.php:20
+msgid "Current Jackpot"
+msgstr "Jackpot-i Aktual"
+
+#: classes/controller/admin.php:688
+msgid "Current Jackpot has been changed!"
+msgstr "Jackpot-i aktual ka ndryshuar!"
+
+#: classes/controller/admin.php:714 views/admin/lotteries/nextdraw.php:20
+#: views/admin/lotteries/nextdraw.php:22
+msgid "Next Draw Date"
+msgstr "Data e Shortit të Ardhshëm"
+
+#: classes/controller/admin.php:761
+msgid "Lottery next draw has been changed!"
+msgstr "Shorti i ardhshëm i lotarisë ka ndryshuar!"
+
+#: classes/controller/admin.php:766
+msgid "Wrong date format!"
+msgstr "Format i gabuar i datës!"
+
+#: classes/controller/admin.php:801 views/admin/lotteries/index.php:21
+#: views/admin/lotteries/index.php:60 views/admin/lotteries/source.php:20
+msgid "Source"
+msgstr "Burimi"
+
+#: classes/controller/admin.php:810
+msgid "The source has been changed!"
+msgstr "Burimi ka ndryshuar!"
+
+#: classes/controller/admin.php:867 views/admin/lotteries/draw_add.php:20
+#: views/admin/lotteries/imvalaplogs.php:46 views/admin/lotteries/logs.php:46
+#: views/admin/lotteries/lottorisqlogs.php:46
+#: views/admin/payments/paymentlogs.php:46 views/aff/reports/commissions.php:57
+#: views/aff/reports/index.php:175 views/aff/reports/payouts.php:18
+#: views/whitelabel/affs/commissions.php:63
+#: views/whitelabel/affs/payouts.php:35 views/whitelabel/affs/reports.php:181
+#: views/whitelabel/tickets/index.php:68 views/whitelabel/tickets/view.php:29
+#: views/whitelabel/transactions/index.php:58
+#: views/whitelabel/transactions/view.php:23
+#: views/whitelabel/transactions/view.php:581
+#: views/whitelabel/transactions/withdrawal.php:23
+#: views/whitelabel/transactions/withdrawals.php:58
+msgid "Date"
+msgstr "Data"
+
+#: classes/controller/admin.php:869 views/admin/lotteries/draw_add.php:27
+msgid "Next Jackpot"
+msgstr "Jackpot-i i ardhshëm"
+
+#: classes/controller/admin.php:873
+#, php-format
+msgid "Draw Number #%s"
+msgstr "Numri i Shortit #%s"
+
+#: classes/controller/admin.php:880 views/admin/lotteries/draw_add.php:48
+msgid "Extra Number"
+msgstr "Numër Ekstra"
+
+#: classes/controller/admin.php:880
+#, php-format
+msgid "Bonus Number #%s"
+msgstr "Numër Bonus #%s"
+
+#: classes/controller/admin.php:887 views/admin/lotteries/draw_add.php:70
+#: views/admin/lotteries/draw_add.php:71
+msgid "Winners count"
+msgstr "Numri i fituesve"
+
+#: classes/controller/admin.php:891 views/admin/lotteries/draw_add.php:76
+msgid "Prize per winner"
+msgstr "Çmimi për secilin fitues"
+
+#: classes/controller/admin.php:929
+msgid "The draw has been successfully added!"
+msgstr "Shorti u shtua me sukses!"
+
+#: classes/controller/admin.php:934
+msgid "Bonus numbers must differ (from each other and from draw numbers)."
+msgstr ""
+"Numrat bonus duhet të jenë të ndryshëm (nga njëri-tjetri dhe nga numrat e "
+"shortit)."
+
+#: classes/controller/admin.php:940
+msgid "Draw numbers must differ."
+msgstr "Numrat e shortit duhet të jenë të ndryshëm."
+
+#: classes/controller/admin.php:1029
+msgid "The postponed date has been deleted!"
+msgstr "Data e shtyrë është fshirë!"
+
+#: classes/controller/admin.php:1034
+msgid ""
+"It's too late to delete this postponed date. Use coding skills to adjust "
+"tickets and draw date within the system!"
+msgstr ""
+"Është shumë vonë për ta fshirë këtë datë të shtyrë. Përdorni aftësitë "
+"koduese për të rregulluar biletat dhe datën e shortit brenda sistemit!"
+
+#: classes/controller/admin.php:1070 views/admin/lotteries/delays.php:20
+#: views/admin/lotteries/delays_edit.php:28
+msgid "Original date"
+msgstr "Data origjinale"
+
+#: classes/controller/admin.php:1072 views/admin/lotteries/delays_edit.php:35
+msgid "Delayed date"
+msgstr "Data e vonuar"
+
+#: classes/controller/admin.php:1074 views/admin/lotteries/delays.php:19
+#: views/admin/lotteries/delays_edit.php:20 views/admin/lotteries/logs.php:19
+#: views/admin/lotteries/logs.php:47 views/whitelabel/reports/index.php:17
+#: views/whitelabel/tickets/index.php:13 views/whitelabel/tickets/index.php:66
+#: views/whitelabel/tickets/view.php:27
+msgid "Lottery"
+msgstr "Lotaria"
+
+#: classes/controller/admin.php:1105
+msgid "The postponed date has been saved!"
+msgstr "Data e shtyrë u ruajt!"
+
+#: classes/controller/admin.php:1110
+msgid "The postponed date for this draw already exists!"
+msgstr "Data e shtyrë për këtë short ekziston tashmë!"
+
+#: classes/controller/admin.php:1116
+msgid "The draw date should be within the future draws!"
+msgstr "Data e shortit duhet të jetë brenda shorteve të ardhshëm!"
+
+#: classes/controller/admin.php:1122
+msgid "Wrong lottery!"
+msgstr "Lotari e gabuar!"
+
+#: classes/controller/aff.php:185 classes/controller/aff.php:937
+#: views/aff/reports/menu.php:2 views/aff/reports/payouts.php:7
+#: views/whitelabel/affs/menu.php:9 views/whitelabel/affs/payouts.php:7
+msgid "Payouts"
+msgstr "Pagesat"
+
+#: classes/controller/aff.php:186 classes/controller/whitelabel.php:161
+#: classes/controller/whitelabel.php:2484 views/aff/reports/index.php:7
+#: views/aff/reports/menu.php:3 views/whitelabel/affs/reports.php:7
+#: views/whitelabel/reports/menu.php:3 views/whitelabel/reports/reports.php:7
+msgid "Generate report"
+msgstr "Gjenero raportin"
+
+#: classes/controller/aff.php:187 views/aff/reports/index.php:56
+#: views/aff/reports/index.php:64 views/aff/reports/leads.php:7
+#: views/aff/reports/menu.php:4 views/whitelabel/affs/leads.php:7
+#: views/whitelabel/affs/menu.php:11 views/whitelabel/affs/reports.php:44
+#: views/whitelabel/affs/reports.php:52
+msgid "Leads"
+msgstr "Drejtimet"
+
+#: classes/controller/aff.php:188 views/aff/reports/ftps.php:7
+#: views/aff/reports/menu.php:5 views/whitelabel/affs/ftps.php:7
+#: views/whitelabel/affs/menu.php:12
+msgid "First-Time Purchases"
+msgstr "Blerjet e herës së parë"
+
+#: classes/controller/aff.php:189 views/aff/reports/commissions.php:7
+#: views/aff/reports/index.php:156 views/aff/reports/menu.php:6
+#: views/aff/reports/payouts.php:21 views/whitelabel/affs/commissions.php:7
+#: views/whitelabel/affs/groups.php:21 views/whitelabel/affs/menu.php:13
+#: views/whitelabel/affs/payouts.php:38 views/whitelabel/affs/reports.php:163
+msgid "Commissions"
+msgstr "Komisionet"
+
+#: classes/controller/aff.php:190 views/aff/settings/menu.php:2
+#: views/aff/settings/profile.php:7
+msgid "Edit profile"
+msgstr "Modifiko profilin"
+
+#: classes/controller/aff.php:191 views/aff/settings/menu.php:3
+msgid "Payment settings"
+msgstr "Cilësimet e pagesave"
+
+#: classes/controller/aff.php:192 classes/controller/whitelabel.php:2212
+#: views/aff/settings/menu.php:4 views/whitelabel/settings/menu.php:3
+msgid "Google Analytics"
+msgstr "Analiza e të dhënave në Google"
+
+#: classes/controller/aff.php:263 views/aff/dashboard/index.php:48
+#: views/aff/reports/commissions.php:12 views/aff/reports/commissions.php:51
+#: views/aff/reports/ftps.php:12 views/aff/reports/ftps.php:49
+#: views/aff/reports/index.php:20 views/aff/reports/index.php:81
+#: views/aff/reports/index.php:127 views/aff/reports/index.php:169
+#: views/aff/reports/leads.php:12 views/aff/reports/leads.php:55
+msgid "Medium"
+msgstr "Medium"
+
+#: classes/controller/aff.php:265 views/aff/dashboard/index.php:53
+#: views/aff/reports/commissions.php:20 views/aff/reports/commissions.php:52
+#: views/aff/reports/ftps.php:20 views/aff/reports/ftps.php:50
+#: views/aff/reports/index.php:28 views/aff/reports/index.php:82
+#: views/aff/reports/index.php:128 views/aff/reports/index.php:170
+#: views/aff/reports/leads.php:20 views/aff/reports/leads.php:56
+msgid "Campaign"
+msgstr "Fushata"
+
+#: classes/controller/aff.php:267 views/aff/dashboard/index.php:58
+#: views/aff/reports/commissions.php:28 views/aff/reports/commissions.php:53
+#: views/aff/reports/ftps.php:28 views/aff/reports/ftps.php:51
+#: views/aff/reports/index.php:36 views/aff/reports/index.php:83
+#: views/aff/reports/index.php:129 views/aff/reports/index.php:171
+#: views/aff/reports/leads.php:28 views/aff/reports/leads.php:57
+msgid "Content"
+msgstr "Përmbajtja"
+
+#: classes/controller/aff.php:324 views/aff/settings/payment.php:20
+#: views/whitelabel/affs/payouts.php:64 views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/affs/payouts.php:76 views/whitelabel/affs/payouts.php:81
+#: views/whitelabel/transactions/index.php:13
+#: views/whitelabel/transactions/index.php:56
+#: views/whitelabel/transactions/view.php:30
+#: views/whitelabel/transactions/withdrawal.php:29
+#: views/whitelabel/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:53
+#: views/whitelabel/users/deposit.php:21
+msgid "Method"
+msgstr "Mënyra"
+
+#: classes/controller/aff.php:337 classes/controller/aff.php:350
+#: classes/controller/aff.php:359 views/aff/settings/payment.php:32
+#: views/aff/settings/payment.php:55 views/aff/settings/payment.php:70
+#: views/whitelabel/transactions/view.php:197
+msgid "First name"
+msgstr "Emri"
+
+#: classes/controller/aff.php:339 classes/controller/aff.php:352
+#: classes/controller/aff.php:361 views/aff/settings/payment.php:36
+#: views/aff/settings/payment.php:59 views/aff/settings/payment.php:74
+#: views/whitelabel/transactions/view.php:201
+msgid "Last name"
+msgstr "Mbiemri"
+
+#: classes/controller/aff.php:341 views/aff/settings/payment.php:40
+msgid "Account IBAN number"
+msgstr "Numri IBAN i llogarisë"
+
+#: classes/controller/aff.php:343 views/aff/settings/payment.php:44
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#: classes/controller/aff.php:345 views/aff/settings/payment.php:48
+#: views/whitelabel/transactions/withdrawal.php:75
+msgid "Bank name"
+msgstr "Emri i bankës"
+
+#: classes/controller/aff.php:354 views/aff/settings/payment.php:63
+#: views/whitelabel/affs/payouts.php:74
+#: views/whitelabel/transactions/withdrawal.php:59
+msgid "Skrill e-mail"
+msgstr "E-mail i Skrill"
+
+#: classes/controller/aff.php:363 views/aff/settings/payment.php:78
+#: views/whitelabel/affs/payouts.php:79
+#: views/whitelabel/transactions/withdrawal.php:55
+msgid "Neteller e-mail"
+msgstr "E-mail i Neteller"
+
+#: classes/controller/aff.php:368 views/aff/settings/payment.php:84
+msgid "First name (optional)"
+msgstr "Emri (jo e detyrueshme)"
+
+#: classes/controller/aff.php:370 views/aff/settings/payment.php:88
+msgid "Last name (optional)"
+msgstr "Mbiemri (jo e detyrueshme)"
+
+#: classes/controller/aff.php:372 views/aff/settings/payment.php:92
+msgid "Bitcoin wallet address"
+msgstr "Adresa e portofolit Bitcoin"
+
+#: classes/controller/aff.php:389
+msgid "Payment settings have been saved!"
+msgstr "Cilësimet e pagesave u ruajtën!"
+
+#: classes/controller/aff.php:439 classes/controller/whitelabel.php:1527
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4112
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:28
+#: views/aff/settings/profile.php:18 views/whitelabel/affs/commissions.php:36
+#: views/whitelabel/affs/edit.php:48 views/whitelabel/affs/ftps.php:36
+#: views/whitelabel/affs/index.php:51 views/whitelabel/affs/leads.php:36
+#: views/whitelabel/affs/view.php:26 views/whitelabel/tickets/view.php:21
+#: views/whitelabel/transactions/view.php:17
+#: views/whitelabel/transactions/view.php:382
+#: views/whitelabel/transactions/view.php:461
+#: views/whitelabel/transactions/withdrawal.php:17
+#: views/whitelabel/transactions/withdrawal.php:50
+#: views/whitelabel/users/edit.php:20 views/whitelabel/users/index.php:46
+#: views/whitelabel/users/view.php:15
+msgid "First Name"
+msgstr "Emri"
+
+#: classes/controller/aff.php:441 classes/controller/whitelabel.php:1531
+#: views/aff/settings/edit.php:24 views/aff/settings/profile.php:16
+#: views/whitelabel/affs/edit.php:40 views/whitelabel/affs/view.php:24
+#: views/whitelabel/transactions/view.php:205
+msgid "Company"
+msgstr "Kompania"
+
+#: classes/controller/aff.php:443 classes/controller/whitelabel.php:1529
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4114
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:32
+#: views/aff/settings/profile.php:20 views/whitelabel/affs/commissions.php:39
+#: views/whitelabel/affs/edit.php:52 views/whitelabel/affs/ftps.php:39
+#: views/whitelabel/affs/index.php:54 views/whitelabel/affs/leads.php:39
+#: views/whitelabel/affs/view.php:28 views/whitelabel/tickets/view.php:23
+#: views/whitelabel/transactions/view.php:19
+#: views/whitelabel/transactions/view.php:386
+#: views/whitelabel/transactions/view.php:465
+#: views/whitelabel/transactions/withdrawal.php:19
+#: views/whitelabel/transactions/withdrawal.php:52
+#: views/whitelabel/users/edit.php:24 views/whitelabel/users/index.php:49
+#: views/whitelabel/users/view.php:17
+msgid "Last Name"
+msgstr "Mbiemri"
+
+#: classes/controller/aff.php:445 classes/controller/whitelabel.php:1533
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4116
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:45
+#: views/aff/settings/profile.php:29 views/whitelabel/affs/edit.php:65
+#: views/whitelabel/affs/view.php:37 views/whitelabel/transactions/view.php:217
+#: views/whitelabel/transactions/view.php:410
+#: views/whitelabel/transactions/view.php:485
+#: views/whitelabel/users/edit.php:37 views/whitelabel/users/view.php:24
+msgid "City"
+msgstr "Qyteti"
+
+#: classes/controller/aff.php:447 classes/controller/whitelabel.php:1535
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4118
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:60
+#: views/aff/settings/profile.php:37 views/whitelabel/affs/edit.php:80
+#: views/whitelabel/affs/view.php:45 views/whitelabel/users/edit.php:52
+#: views/whitelabel/users/view.php:32
+msgid "Postal/ZIP Code"
+msgstr "Kodi Postal/ZIP"
+
+#: classes/controller/aff.php:449 classes/controller/whitelabel.php:1537
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4120
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:49
+#: views/aff/settings/profile.php:31 views/whitelabel/affs/edit.php:69
+#: views/whitelabel/affs/view.php:39 views/whitelabel/transactions/view.php:414
+#: views/whitelabel/transactions/view.php:489
+#: views/whitelabel/users/edit.php:41 views/whitelabel/users/view.php:26
+msgid "Region"
+msgstr "Rajoni"
+
+#: classes/controller/aff.php:451 classes/controller/whitelabel.php:1539
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4122
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:64
+#: views/aff/settings/profile.php:33 views/whitelabel/affs/edit.php:84
+#: views/whitelabel/affs/view.php:41 views/whitelabel/transactions/view.php:398
+#: views/whitelabel/transactions/view.php:473
+#: views/whitelabel/users/edit.php:56 views/whitelabel/users/view.php:28
+msgid "Address #1"
+msgstr "Adresa #1"
+
+#: classes/controller/aff.php:453 classes/controller/whitelabel.php:1541
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4124
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:68
+#: views/aff/settings/profile.php:35 views/whitelabel/affs/edit.php:88
+#: views/whitelabel/affs/view.php:43 views/whitelabel/transactions/view.php:229
+#: views/whitelabel/transactions/view.php:402
+#: views/whitelabel/transactions/view.php:477
+#: views/whitelabel/users/edit.php:60 views/whitelabel/users/view.php:30
+msgid "Address #2"
+msgstr "Adresa #2"
+
+#: classes/controller/aff.php:455 classes/controller/aff.php:459
+#: classes/controller/whitelabel.php:1543
+#: classes/controller/whitelabel.php:1547
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4126
+#: classes/controller/whitelabel.php:4130
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:89
+#: views/aff/settings/profile.php:41 views/whitelabel/affs/edit.php:109
+#: views/whitelabel/affs/index.php:77 views/whitelabel/affs/view.php:49
+#: views/whitelabel/users/edit.php:81 views/whitelabel/users/index.php:74
+#: views/whitelabel/users/view.php:36
+msgid "Phone"
+msgstr "Telefoni"
+
+#: classes/controller/aff.php:457 classes/controller/whitelabel.php:1545
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4128
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:36
+#: views/aff/settings/profile.php:27 views/whitelabel/affs/commissions.php:23
+#: views/whitelabel/affs/edit.php:56 views/whitelabel/affs/ftps.php:23
+#: views/whitelabel/affs/ftps.php:57 views/whitelabel/affs/index.php:26
+#: views/whitelabel/affs/index.php:78 views/whitelabel/affs/leads.php:23
+#: views/whitelabel/affs/leads.php:60 views/whitelabel/affs/reports.php:67
+#: views/whitelabel/affs/reports.php:122 views/whitelabel/affs/view.php:35
+#: views/whitelabel/reports/reports.php:28
+#: views/whitelabel/transactions/view.php:209
+#: views/whitelabel/transactions/view.php:390
+#: views/whitelabel/transactions/view.php:469
+#: views/whitelabel/users/edit.php:28 views/whitelabel/users/index.php:33
+#: views/whitelabel/users/index.php:75 views/whitelabel/users/view.php:22
+msgid "Country"
+msgstr "Shteti"
+
+#: classes/controller/aff.php:461 classes/controller/whitelabel.php:248
+#: classes/controller/whitelabel.php:1549
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4132
+#: classes/controller/whitelabel.php:4699 views/admin/lotteries/index.php:27
+#: views/aff/settings/edit.php:93 views/aff/settings/profile.php:43
+#: views/whitelabel/affs/edit.php:113 views/whitelabel/affs/index.php:80
+#: views/whitelabel/affs/view.php:51 views/whitelabel/settings/account.php:21
+#: views/whitelabel/settings/account_edit.php:40
+#: views/whitelabel/users/edit.php:85 views/whitelabel/users/index.php:77
+#: views/whitelabel/users/view.php:38
+msgid "Time Zone"
+msgstr "Zona Kohore"
+
+#: classes/controller/aff.php:463 classes/controller/whitelabel.php:1551
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4134
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:72
+#: views/aff/settings/profile.php:39 views/whitelabel/affs/edit.php:92
+#: views/whitelabel/affs/view.php:47 views/whitelabel/users/edit.php:64
+#: views/whitelabel/users/view.php:34
+msgid "Birthdate"
+msgstr "Data e lindjes"
+
+#: classes/controller/aff.php:526 classes/controller/aff.php:532
+#: classes/controller/whitelabel.php:1616
+#: classes/controller/whitelabel.php:1622
+#: classes/controller/whitelabel.php:4187
+#: classes/controller/whitelabel.php:4193
+msgid "Wrong phone number! Please try to specify it in other format!"
+msgstr ""
+"Numër telefoni i gabuar! Ju lutem përpiquni ta specifikoni në një format "
+"tjetër!"
+
+#: classes/controller/aff.php:538 classes/controller/whitelabel.php:1628
+#: classes/controller/whitelabel.php:4199
+msgid "You have to specify the user's country before adding a phone number!"
+msgstr ""
+"Duhet të specifikoni shtetin e përdoruesit përpara se të vendosni një numër "
+"telefoni!"
+
+#: classes/controller/aff.php:563
+msgid "Your details has been saved!"
+msgstr "Detajet tuaja u ruajtën!"
+
+#: classes/controller/aff.php:569 classes/controller/whitelabel.php:283
+#: classes/controller/whitelabel.php:1661
+#: classes/controller/whitelabel.php:4272
+msgid "Wrong timezone!"
+msgstr "Zonë kohore e gabuar!"
+
+#: classes/controller/aff.php:575 classes/controller/whitelabel.php:1667
+#: classes/controller/whitelabel.php:4278
+msgid "Wrong birthdate!"
+msgstr "Datë lindjeje e gabuar!"
+
+#: classes/controller/aff.php:581 classes/controller/whitelabel.php:1673
+#: classes/controller/whitelabel.php:4284
+msgid "Wrong region!"
+msgstr "Rajon i gabuar!"
+
+#: classes/controller/aff.php:587 classes/controller/whitelabel.php:1679
+#: classes/controller/whitelabel.php:4290
+msgid "Wrong country!"
+msgstr "Shtet i gabuar!"
+
+#: classes/controller/aff.php:593 classes/controller/whitelabel.php:1685
+msgid "This login is already in use by another affiliate!"
+msgstr "Ky përdorues është në përdorim nga një i anëtarësuar tjetër!"
+
+#: classes/controller/aff.php:618 classes/controller/whitelabel.php:202
+#: classes/controller/whitelabel.php:432 classes/controller/whitelabel.php:4322
+#: views/aff/settings/password.php:20 views/aff/settings/password.php:22
+#: views/whitelabel/affs/password.php:20 views/whitelabel/affs/password.php:22
+#: views/whitelabel/settings/password.php:20
+#: views/whitelabel/settings/password.php:22
+#: views/whitelabel/users/password.php:20
+#: views/whitelabel/users/password.php:22
+msgid "New password"
+msgstr "Fjalëkalim i ri"
+
+#: classes/controller/aff.php:630 classes/controller/whitelabel.php:219
+msgid "Your password has been changed!"
+msgstr "Fjalëkalimi juaj u ndryshua!"
+
+#: classes/controller/aff.php:778 classes/controller/whitelabel.php:2189
+#: views/aff/settings/analytics.php:20
+#: views/whitelabel/settings/analytics.php:20
+msgid "Google Analytics Tracking ID"
+msgstr "ID e Gjurmimit të Analizës së të Dhënave në Google"
+
+#: classes/controller/aff.php:786
+msgid "Google Analytics Tracking ID saved!"
+msgstr "ID e Gjurmimit të Analizës së të Dhënave në Google u ruajt!"
+
+#: classes/controller/whitelabel.php:153 classes/controller/whitelabel.php:3868
+#: views/whitelabel/users/index.php:9 views/whitelabel/users/menu.php:2
+msgid "Active users"
+msgstr "Përdorues aktivë"
+
+#: classes/controller/whitelabel.php:154 classes/controller/whitelabel.php:3869
+#: views/whitelabel/users/index.php:11 views/whitelabel/users/menu.php:3
+msgid "Inactive users"
+msgstr "Përdorues joaktivë"
+
+#: classes/controller/whitelabel.php:155 classes/controller/whitelabel.php:3870
+#: views/whitelabel/users/index.php:10 views/whitelabel/users/menu.php:4
+msgid "Deleted users"
+msgstr "Përdorues të fshirë"
+
+#: classes/controller/whitelabel.php:156 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:2
+msgid "Purchases"
+msgstr "Blerjet"
+
+#: classes/controller/whitelabel.php:157 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:3
+msgid "Deposits"
+msgstr "Depozitat"
+
+#: classes/controller/whitelabel.php:158
+#: views/whitelabel/transactions/menu.php:4
+#: views/whitelabel/transactions/withdrawals.php:7
+msgid "Withdrawals"
+msgstr "Tërheqjet"
+
+#: classes/controller/whitelabel.php:159 views/whitelabel/shared/navbar.php:17
+#: views/whitelabel/tickets/index.php:7 views/whitelabel/tickets/menu.php:2
+msgid "Tickets"
+msgstr "Biletat"
+
+#: classes/controller/whitelabel.php:160 views/whitelabel/reports/index.php:7
+#: views/whitelabel/reports/menu.php:2
+msgid "Winners"
+msgstr "Fituesit"
+
+#: classes/controller/whitelabel.php:244 classes/controller/whitelabel.php:474
+#: classes/controller/whitelabel.php:527 classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4365
+#: classes/controller/whitelabel.php:4699 views/aff/settings/profile.php:22
+#: views/whitelabel/affs/commissions.php:33 views/whitelabel/affs/email.php:20
+#: views/whitelabel/affs/ftps.php:33 views/whitelabel/affs/index.php:45
+#: views/whitelabel/affs/index.php:73 views/whitelabel/affs/leads.php:33
+#: views/whitelabel/affs/new.php:33 views/whitelabel/affs/view.php:32
+#: views/whitelabel/settings/account.php:16
+#: views/whitelabel/settings/account_edit.php:28
+#: views/whitelabel/tickets/index.php:64 views/whitelabel/tickets/view.php:25
+#: views/whitelabel/transactions/index.php:54
+#: views/whitelabel/transactions/view.php:21
+#: views/whitelabel/transactions/view.php:189
+#: views/whitelabel/transactions/view.php:374
+#: views/whitelabel/transactions/view.php:457
+#: views/whitelabel/transactions/view.php:593
+#: views/whitelabel/transactions/withdrawal.php:21
+#: views/whitelabel/transactions/withdrawals.php:51
+#: views/whitelabel/users/email.php:20 views/whitelabel/users/index.php:43
+#: views/whitelabel/users/index.php:68 views/whitelabel/users/view.php:19
+msgid "E-mail"
+msgstr "E-mail"
+
+#: classes/controller/whitelabel.php:277 classes/controller/whitelabel.php:2137
+#: classes/controller/whitelabel.php:2282
+msgid "Settings have been saved!"
+msgstr "Cilësimet u ruajtën!"
+
+#: classes/controller/whitelabel.php:311
+#: views/whitelabel/settings/account.php:7 views/whitelabel/settings/menu.php:8
+msgid "Account settings"
+msgstr "Cilësimet e llogarisë"
+
+#: classes/controller/whitelabel.php:389
+msgid "Affiliate has been deleted!"
+msgstr "I anëtarësuari është fshirë!"
+
+#: classes/controller/whitelabel.php:393 classes/controller/whitelabel.php:415
+#: classes/controller/whitelabel.php:510 classes/controller/whitelabel.php:1741
+#: classes/controller/whitelabel.php:1769
+#: classes/controller/whitelabel.php:1790
+#: classes/controller/whitelabel.php:1824
+msgid "Wrong affiliate."
+msgstr "Anëtar i gabuar."
+
+#: classes/controller/whitelabel.php:411
+msgid "Affiliate e-mail address has been confirmed!"
+msgstr "Adresa e e-mail-it e të anëtarësuarit është konfirmuar!"
+
+#: classes/controller/whitelabel.php:443
+msgid "Affiliate password has been changed!"
+msgstr "Fjalëkalimi i të anëtarësuarit është ndryshuar!"
+
+#: classes/controller/whitelabel.php:457 classes/controller/whitelabel.php:4046
+msgid "Wrong affiliate!"
+msgstr "Anëtar i gabuar!"
+
+#: classes/controller/whitelabel.php:490 classes/controller/whitelabel.php:4429
+msgid "User e-mail address has been saved!"
+msgstr "Adresa e e-mail-it të përdoruesit  është ruajtur!"
+
+#: classes/controller/whitelabel.php:495 classes/controller/whitelabel.php:4440
+msgid "This e-mail is already taken!"
+msgstr "Ky e-mail është tashmë në përdorim!"
+
+#: classes/controller/whitelabel.php:531 classes/controller/whitelabel.php:1553
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/edit.php:20
+#: views/whitelabel/affs/index.php:34 views/whitelabel/affs/index.php:76
+#: views/whitelabel/affs/new.php:20 views/whitelabel/affs/view.php:22
+msgid "Group"
+msgstr "Grup"
+
+#: classes/controller/whitelabel.php:576
+msgid "Affiliate has been successfully created!"
+msgstr "I anëtarësuari u krijua me sukses!"
+
+#: classes/controller/whitelabel.php:581
+msgid "The email address and/or login you have provided are already in use."
+msgstr ""
+"Adresa e e-mail-it dhe/ose përdoruesi qw keni vendosur janë tashmë në "
+"përdorim."
+
+#: classes/controller/whitelabel.php:606
+msgid "Affiliate group has been deleted!"
+msgstr "Grupi i të anëtarësuarve është fshirë!"
+
+#: classes/controller/whitelabel.php:611 classes/controller/whitelabel.php:1289
+#: classes/controller/whitelabel.php:1307
+msgid "Wrong affiliate group!"
+msgstr "Grupi i të anëtarësuarve i gabuar!"
+
+#: classes/controller/whitelabel.php:849
+msgid "Commission has been accepted."
+msgstr "Komisioni është pranuar."
+
+#: classes/controller/whitelabel.php:853
+msgid "It is too late to edit this commission!"
+msgstr "Është shumë vonë për ta modifikuar këtë komision!"
+
+#: classes/controller/whitelabel.php:858 classes/controller/whitelabel.php:890
+msgid "Incorrect commission!"
+msgstr "Komision i gabuar!"
+
+#: classes/controller/whitelabel.php:881
+msgid "Commission has been deleted!"
+msgstr "Komisioni është fshirë!"
+
+#: classes/controller/whitelabel.php:885
+msgid "It is too late to delete this commission!"
+msgstr "Është shumë vonë për ta fshirë këtë komision!"
+
+#: classes/controller/whitelabel.php:1104
+msgid "The item has been paid out."
+msgstr "Artikulli është paguar."
+
+#: classes/controller/whitelabel.php:1108
+msgid "Incorrect item!"
+msgstr "Artikull i gabuar!"
+
+#: classes/controller/whitelabel.php:1237
+msgid "Lead has been accepted."
+msgstr "Drejtimi është pranuar."
+
+#: classes/controller/whitelabel.php:1241
+#: classes/controller/whitelabel.php:1258
+msgid "Incorrect lead!"
+msgstr "Drejtim i gabuar!"
+
+#: classes/controller/whitelabel.php:1254
+msgid ""
+"Lead has been deleted! The user and lead commissions are left untouched. You "
+"will need to remove them manually."
+msgstr ""
+"Drejtimi është fshirë! Komisionet e përdoruesit dhe të drejtimit janë të "
+"paprekura. Do t'ju duhet t'i hiqni manualisht."
+
+#: classes/controller/whitelabel.php:1319
+#: classes/controller/whitelabel.php:1321
+#: classes/controller/whitelabel.php:2239
+#: views/admin/lotteries/imvalaplogs.php:28
+#: views/admin/lotteries/imvalaplogs.php:45 views/admin/lotteries/logs.php:28
+#: views/admin/lotteries/logs.php:45 views/admin/lotteries/lottorisqlogs.php:28
+#: views/admin/lotteries/lottorisqlogs.php:45
+#: views/admin/payments/paymentlogs.php:28
+#: views/admin/payments/paymentlogs.php:45 views/admin/whitelabels/index.php:21
+#: views/aff/reports/commissions.php:55 views/aff/reports/index.php:173
+#: views/whitelabel/affs/commissions.php:61
+#: views/whitelabel/affs/groups_edit.php:32
+#: views/whitelabel/affs/groups_edit.php:47
+#: views/whitelabel/affs/reports.php:179
+#: views/whitelabel/transactions/view.php:429
+msgid "Type"
+msgstr "Lloji"
+
+#: classes/controller/whitelabel.php:1325 views/aff/dashboard/index.php:27
+#: views/whitelabel/affs/groups.php:37 views/whitelabel/affs/groups.php:59
+#: views/whitelabel/affs/groups_edit.php:56
+msgid "1st-tier First Time Purchase commission value"
+msgstr "Vlera e komisionit të rangut të parë, Blerja e Parë"
+
+#: classes/controller/whitelabel.php:1330 views/aff/dashboard/index.php:30
+#: views/whitelabel/affs/groups.php:40 views/whitelabel/affs/groups.php:62
+#: views/whitelabel/affs/groups_edit.php:63
+msgid "2nd-tier First Time Purchase commission value"
+msgstr "Vlera e komisionit të rangut të dytë, Blerja e Parë"
+
+#: classes/controller/whitelabel.php:1338 views/aff/dashboard/index.php:21
+#: views/whitelabel/affs/groups.php:31 views/whitelabel/affs/groups.php:53
+#: views/whitelabel/affs/groups_edit.php:28
+msgid "1st-tier sale commission value"
+msgstr "Vlera e komisionit të shitjes së rangut të parë"
+
+#: classes/controller/whitelabel.php:1343 views/aff/dashboard/index.php:24
+#: views/whitelabel/affs/groups.php:34 views/whitelabel/affs/groups.php:56
+#: views/whitelabel/affs/groups_edit.php:43
+msgid "2nd-tier sale commission value"
+msgstr "Vlera e komisionit të shitjes së rangut të dytë"
+
+#: classes/controller/whitelabel.php:1403
+msgid "Affiliate group has been saved!"
+msgstr "Grupi i të anëtarësuarve është ruajtur!"
+
+#: classes/controller/whitelabel.php:1408
+msgid "The affiliate group with this name already exists!"
+msgstr "Grupi i të anëtarësuarve me këtë emër ekziston tashmë!"
+
+#: classes/controller/whitelabel.php:1451 views/whitelabel/affs/settings.php:28
+msgid "Automatically payout commissions"
+msgstr "Paguaj komisionet automatikisht"
+
+#: classes/controller/whitelabel.php:1453 views/whitelabel/affs/settings.php:31
+msgid "Automatically accept new affiliate leads (registrations)"
+msgstr "Prano automatikisht drejtime të reja të anëtarësuarish (regjistrime)"
+
+#: classes/controller/whitelabel.php:1470
+msgid "Affiliate settings has been saved!"
+msgstr "Cilësimet e të anëtarësuarit janë ruajtur!"
+
+#: classes/controller/whitelabel.php:1555 views/whitelabel/affs/edit.php:29
+#: views/whitelabel/affs/index.php:75 views/whitelabel/affs/view.php:15
+msgid "Parent"
+msgstr "Prind"
+
+#: classes/controller/whitelabel.php:1655
+msgid "Affiliate details has been saved!"
+msgstr "Detajet e të anëtarësuarit janë ruajtur!"
+
+#: classes/controller/whitelabel.php:1700
+#: classes/controller/whitelabel.php:3906
+#: classes/controller/whitelabel.php:3929
+#: classes/controller/whitelabel.php:3964
+#: classes/controller/whitelabel.php:4062
+#: classes/controller/whitelabel.php:4084
+#: classes/controller/whitelabel.php:4305
+#: classes/controller/whitelabel.php:4348
+#: classes/controller/whitelabel.php:4455
+#: classes/controller/whitelabel.php:4484
+#: classes/controller/whitelabel.php:4525
+#: classes/controller/whitelabel.php:4602
+msgid "Incorrect user."
+msgstr "Përdorues i gabuar."
+
+#: classes/controller/whitelabel.php:1765
+msgid "Affiliate has been activated and confirmed!"
+msgstr "I anëtarësuari është aktivizuar dhe konfirmuar!"
+
+#: classes/controller/whitelabel.php:1786
+msgid "Affiliate has been accepted!"
+msgstr "I anëtarësuari është pranuar!"
+
+#: classes/controller/whitelabel.php:1815
+msgid "Affiliate has been restored!"
+msgstr "I anëtarësuari është rikthyer!"
+
+#: classes/controller/whitelabel.php:1819
+msgid ""
+"Affiliate cannot be restored, because an active affiliate with this e-mail "
+"address exists."
+msgstr ""
+"I anëtarësuari nuk mund të rikthehet, sepse ekziston një i anëtarësuar aktiv "
+"me këtë adresë e-mail-i."
+
+#: classes/controller/whitelabel.php:1949
+msgid "Affiliate ID"
+msgstr "ID e të anëtarësuarit"
+
+#: classes/controller/whitelabel.php:1949
+msgid "Parent Affiliate"
+msgstr "I anëtarësuari Prind"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/view.php:338
+#: views/whitelabel/transactions/view.php:443
+#: views/whitelabel/transactions/view.php:639
+msgid "Currency"
+msgstr "Monedha"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+msgid "Phone Country"
+msgstr "Shteti i Telefonit"
+
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/view.php:58
+msgid "Date created"
+msgstr "Data e krijimit"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699 views/whitelabel/affs/view.php:62
+#: views/whitelabel/users/view.php:53
+msgid "Last Active"
+msgstr "Aktiv për herë të fundit"
+
+#: classes/controller/whitelabel.php:1954
+msgid "Default"
+msgstr "I parazgjedhur"
+
+#: classes/controller/whitelabel.php:2010 views/whitelabel/affs/index.php:12
+#: views/whitelabel/shared/navbar.php:19
+msgid "Affiliates"
+msgstr "Të anëtarësuarit"
+
+#: classes/controller/whitelabel.php:2090 views/admin/lotteries/index.php:20
+#: views/whitelabel/settings/lottery.php:18
+#: views/whitelabel/settings/lottery_edit.php:21
+msgid "Enabled"
+msgstr "I aktivizuar"
+
+#: classes/controller/whitelabel.php:2092
+#: views/whitelabel/settings/lottery.php:22
+#: views/whitelabel/settings/lottery_edit.php:46
+msgid "Minimum Lines"
+msgstr "Minimumi i Rreshtave"
+
+#: classes/controller/whitelabel.php:2094
+#: views/whitelabel/settings/lottery_edit.php:50
+msgid "Line Price by Currency"
+msgstr "Çmimi i Rreshtit sipas Monedhës"
+
+#: classes/controller/whitelabel.php:2162
+msgid "Incorrect lottery!"
+msgstr "Lotari e gabuar!"
+
+#: classes/controller/whitelabel.php:2174
+#: views/whitelabel/settings/lottery.php:7
+#: views/whitelabel/settings/lottery_edit.php:7
+#: views/whitelabel/settings/menu.php:4
+msgid "Lottery settings"
+msgstr "Cilësimet e lotarisë"
+
+#: classes/controller/whitelabel.php:2200
+msgid "Google Analytics have been saved!"
+msgstr "Analiza e të Dhënave në Google u ruajt!"
+
+#: classes/controller/whitelabel.php:2241
+#: views/whitelabel/settings/index.php:39
+msgid "Maximum Auto-Payout"
+msgstr "Maksimumi i Auto-Pagesës"
+
+#: classes/controller/whitelabel.php:2243
+#: views/whitelabel/settings/index.php:45
+msgid "Minimum Payment by Currency"
+msgstr "Minimumi i Pagesës sipas Monedhës"
+
+#: classes/controller/whitelabel.php:2245
+#: views/whitelabel/settings/index.php:52
+msgid "Minimum Deposit by Currency"
+msgstr "Minimumi i Depozitës sipas Monedhës"
+
+#: classes/controller/whitelabel.php:2248
+#: views/whitelabel/settings/index.php:59
+msgid "Minimum Withdrawal by Currency"
+msgstr "Minimumi i Tërheqjes sipas Monedhës"
+
+#: classes/controller/whitelabel.php:2250
+#: views/whitelabel/settings/index.php:66
+msgid "Maximum Order Amount by Currency"
+msgstr "Maksimumi i Shumës së Porosisë sipas Monedhës"
+
+#: classes/controller/whitelabel.php:2252
+#: views/whitelabel/settings/index.php:74
+msgid "Maximum order items"
+msgstr "Maksimumi i artikujve të porosisë"
+
+#: classes/controller/whitelabel.php:2255
+#: views/whitelabel/settings/index.php:20
+msgid "Default site currency"
+msgstr "Monedha e paracaktuar e faqes"
+
+#: classes/controller/whitelabel.php:2287
+msgid "Incorrect currency."
+msgstr "Monedhë e gabuar."
+
+#: classes/controller/whitelabel.php:2299 views/whitelabel/settings/index.php:7
+#: views/whitelabel/settings/menu.php:2
+msgid "Site settings"
+msgstr "Cilësimet e faqes së internetit"
+
+#: classes/controller/whitelabel.php:2623
+msgid "Line prize has been paid out to the user account balance!"
+msgstr "Çmimi i rreshtit i është paguar balancës së llogarisë së përdoruesit!"
+
+#: classes/controller/whitelabel.php:2628
+#: classes/controller/whitelabel.php:2633
+#: classes/controller/whitelabel.php:2638
+msgid "Incorrect line!"
+msgstr "Rresht i gabuar!"
+
+#: classes/controller/whitelabel.php:2671
+msgid "The ticket has been marked as paid out!"
+msgstr "Bileta është shënuar si e paguar!"
+
+#: classes/controller/whitelabel.php:2675
+msgid ""
+"The ticket has been marked as paid out, however there are still some lines "
+"that will have to be paid automatically!"
+msgstr ""
+"Bileta është shënuar si e paguar, megjithatë kanë mbetur edhe disa rreshta "
+"që do të duhet të paguhen automatikisht!"
+
+#: classes/controller/whitelabel.php:2680
+#: classes/controller/whitelabel.php:2746
+msgid "Incorrect ticket!"
+msgstr "Biletë e gabuar!"
+
+#: classes/controller/whitelabel.php:2892
+#: classes/controller/whitelabel.php:2925
+#: classes/controller/whitelabel.php:2930
+#: classes/controller/whitelabel.php:2952
+#: classes/controller/whitelabel.php:2982
+msgid "Incorrect withdrawal!"
+msgstr "Tërheqje e gabuar!"
+
+#: classes/controller/whitelabel.php:2921
+msgid "Withdrawal has been approved!"
+msgstr "Tërheqja është miratuar!"
+
+#: classes/controller/whitelabel.php:2948
+msgid "Withdrawal has been declined!"
+msgstr "Tërheqja është refuzuar!"
+
+#: classes/controller/whitelabel.php:2978
+msgid ""
+"Withdrawal has been canceled! The withdrawal amount has been returned to "
+"user account."
+msgstr ""
+"Tërheqja është anulluar! Shuma e tërheqjes është kthyer në llogarinë e "
+"përdoruesit."
+
+#: classes/controller/whitelabel.php:3389 views/admin/whitelabels/index.php:33
+#: views/admin/whitelabels/payments.php:10
+#: views/whitelabel/settings/ccsettings.php:13
+#: views/whitelabel/settings/menu.php:6
+#: views/whitelabel/settings/paymentmethods.php:7
+#: views/whitelabel/settings/paymentmethods.php:13
+msgid "Payment methods"
+msgstr "Mënyrat e pagesës"
+
+#: classes/controller/whitelabel.php:3435
+#: views/whitelabel/settings/ccsettings.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:20
+#: views/whitelabel/transactions/view.php:42
+msgid "Gateway"
+msgstr "Porta"
+
+#: classes/controller/whitelabel.php:3443
+#: views/whitelabel/settings/ccsettings_edit.php:33
+#: views/whitelabel/transactions/view.php:106
+#: views/whitelabel/transactions/view.php:378
+msgid "Account ID"
+msgstr "ID e Llogarisë"
+
+#: classes/controller/whitelabel.php:3445
+#: views/whitelabel/settings/ccsettings_edit.php:43
+msgid "Endpoint URL"
+msgstr "URL e Pikës së Mbarimit"
+
+#: classes/controller/whitelabel.php:3447
+#: views/whitelabel/settings/ccsettings_edit.php:48
+msgid "Secret key"
+msgstr "Çelësi sekret"
+
+#: classes/controller/whitelabel.php:3448
+#: views/whitelabel/settings/ccsettings_edit.php:61
+msgid "Descriptor"
+msgstr "Deskriptor"
+
+#: classes/controller/whitelabel.php:3450
+#: views/whitelabel/settings/ccsettings_edit.php:53
+msgid "Minimum order"
+msgstr "Minimumi i porosisë"
+
+#: classes/controller/whitelabel.php:3498
+msgid "This gateway is already added!"
+msgstr "Kjo portë është shtuar tashmë!"
+
+#: classes/controller/whitelabel.php:3504
+msgid "Wrong gateway!"
+msgstr "Portë e gabuar!"
+
+#: classes/controller/whitelabel.php:3536
+#: views/whitelabel/settings/ccsettings.php:7
+#: views/whitelabel/settings/ccsettings.php:14
+#: views/whitelabel/settings/paymentmethods.php:14
+msgid "Credit Card methods"
+msgstr "Mënyrat me Kartë Krediti"
+
+#: classes/controller/whitelabel.php:3672
+msgid "Transaction accepted! The amount has been subtracted from user balance!"
+msgstr "Transaksioni u pranua! Shuma është zbritur nga balanca e përdoruesit!"
+
+#: classes/controller/whitelabel.php:3675
+msgid "Transaction accepted! The amount has been added to user balance!"
+msgstr "Transaksioni u pranua! Shuma është shtuar në balancën e përdoruesit!"
+
+#: classes/controller/whitelabel.php:3678
+msgid "Transaction accepted!"
+msgstr "Transaksioni u pranua!"
+
+#: classes/controller/whitelabel.php:3684
+#: classes/controller/whitelabel.php:3689
+#: classes/controller/whitelabel.php:3726
+msgid "Incorrect transaction!"
+msgstr "Transaksion i gabuar!"
+
+#: classes/controller/whitelabel.php:3902
+msgid "User has been deleted!"
+msgstr "Përdoruesi është fshirë!"
+
+#: classes/controller/whitelabel.php:3925
+msgid "User has been activated and confirmed!"
+msgstr "Përdoruesi është aktivizuar dhe konfirmuar!"
+
+#: classes/controller/whitelabel.php:3955
+msgid "User has been restored!"
+msgstr "Përdoruesi është rikthyer!"
+
+#: classes/controller/whitelabel.php:3959
+msgid ""
+"User cannot be restored because there exists active user with this e-mail."
+msgstr ""
+"Përdoruesi nuk mund të rikthehet sepse ekziston një përdorues aktiv me këtë "
+"e-mail."
+
+#: classes/controller/whitelabel.php:4010 views/aff/shared/header.php:7
+#: views/whitelabel/affs/commissions.php:13
+#: views/whitelabel/affs/commissions.php:52 views/whitelabel/affs/ftps.php:13
+#: views/whitelabel/affs/ftps.php:52 views/whitelabel/affs/leads.php:13
+#: views/whitelabel/affs/leads.php:52 views/whitelabel/affs/payouts.php:13
+#: views/whitelabel/affs/payouts.php:32 views/whitelabel/affs/reports.php:21
+#: views/whitelabel/affs/reports.php:59 views/whitelabel/affs/reports.php:117
+#: views/whitelabel/affs/reports.php:170 views/whitelabel/users/aff.php:20
+#: views/whitelabel/users/index.php:71
+msgid "Affiliate"
+msgstr "I anëtarësuar"
+
+#: classes/controller/whitelabel.php:4020
+#: classes/controller/whitelabel.php:4041
+msgid "User affiliate has been changed."
+msgstr "I anëtarësuari i përdoruesit ka ndryshuar."
+
+#: classes/controller/whitelabel.php:4080
+msgid "User e-mail address confirmed!"
+msgstr "Adresa e e-mail-it të përdoruesit u konfirmua!"
+
+#: classes/controller/whitelabel.php:4266
+msgid "User details has been saved!"
+msgstr "Detajet e përdoruesit janë ruajtur!"
+
+#: classes/controller/whitelabel.php:4334
+msgid "User password has been changed!"
+msgstr "Fjalëkalimi i përdoruesit ka ndryshuar!"
+
+#: classes/controller/whitelabel.php:4434
+msgid "Cannot update e-mail in eMerchantPay system. Please contact us!"
+msgstr ""
+"E-mail-i në sistemin eMerchantPay nuk mund të përditësohet. Ju lutem na "
+"kontaktoni!"
+
+#: classes/controller/whitelabel.php:4501
+#: views/admin/payments/paymentlogs.php:68
+#: views/whitelabel/transactions/withdrawal.php:33
+#: views/whitelabel/transactions/withdrawals.php:55
+msgid "User balance"
+msgstr "Balanca e përdoruesit"
+
+#: classes/controller/whitelabel.php:4510
+msgid "User balance saved!"
+msgstr "Balanca e përdoruesit u ruajt!"
+
+#: classes/controller/whitelabel.php:4549 views/aff/reports/commissions.php:58
+#: views/aff/reports/index.php:176 views/aff/reports/payouts.php:20
+#: views/whitelabel/affs/commissions.php:64
+#: views/whitelabel/affs/payouts.php:37 views/whitelabel/affs/reports.php:182
+#: views/whitelabel/tickets/index.php:67 views/whitelabel/tickets/view.php:35
+#: views/whitelabel/transactions/index.php:57
+#: views/whitelabel/transactions/view.php:45
+#: views/whitelabel/transactions/view.php:334
+#: views/whitelabel/transactions/view.php:585
+#: views/whitelabel/transactions/view.php:607
+#: views/whitelabel/transactions/withdrawal.php:31
+#: views/whitelabel/transactions/withdrawals.php:57
+#: views/whitelabel/users/deposit.php:30
+msgid "Amount"
+msgstr "Shuma"
+
+#: classes/controller/whitelabel.php:4583
+msgid "Deposit has been added!"
+msgstr "Depozita u shtua!"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/tickets/index.php:45
+#: views/whitelabel/tickets/view.php:19
+#: views/whitelabel/transactions/index.php:36
+#: views/whitelabel/transactions/view.php:15
+#: views/whitelabel/transactions/withdrawal.php:15
+#: views/whitelabel/transactions/withdrawals.php:33
+msgid "User ID"
+msgstr "ID e përdoruesit"
+
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/index.php:15
+#: views/whitelabel/transactions/index.php:88
+#: views/whitelabel/transactions/view.php:33
+#: views/whitelabel/users/balance.php:20 views/whitelabel/users/index.php:73
+#: views/whitelabel/users/view.php:45
+msgid "Balance"
+msgstr "Balanca"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/users/view.php:47
+msgid "Date register"
+msgstr "Regjistri i datave"
+
+#: lang/translation.php:3
+msgid "Powerball"
+msgstr "Powerball"
+
+#: lang/translation.php:4
+msgid "Mega Millions"
+msgstr "Mega Millions"
+
+#: lang/translation.php:5
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+#: lang/translation.php:6
+msgid "SuperEnalotto"
+msgstr "SuperEnalotto"
+
+#: lang/translation.php:7
+msgid "UK Lottery"
+msgstr "Lotaria e Mbretërisë së Bashkuar"
+
+#: lang/translation.php:8
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+#: lang/translation.php:9
+msgid "Polish Lotto"
+msgstr "Loto Polake"
+
+#: lang/translation.php:12 views/aff/settings/payment.php:30
+msgid "Bank account"
+msgstr "Llogaria bankare"
+
+#: lang/translation.php:13 views/aff/settings/payment.php:53
+#: views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/transactions/view.php:286
+msgid "Skrill"
+msgstr "Skrill"
+
+#: lang/translation.php:14 views/aff/settings/payment.php:68
+#: views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/transactions/view.php:312
+msgid "Neteller"
+msgstr "Neteller"
+
+#: lang/translation.php:15 views/whitelabel/affs/payouts.php:81
+msgid "BTC"
+msgstr "BTC"
+
+#: lang/translation.php:16
+msgid "Debit card"
+msgstr "Kartë debiti"
+
+#: views/admin/lotteries/delays.php:8 views/admin/lotteries/draws.php:8
+#: views/admin/lotteries/draws.php:58 views/whitelabel/affs/groups.php:8
+#: views/whitelabel/affs/index.php:9
+#: views/whitelabel/settings/ccsettings.php:10
+#: views/whitelabel/settings/paymentmethods.php:10
+msgid "Add New"
+msgstr "Shto të Re"
+
+#: views/admin/lotteries/delays.php:11
+msgid ""
+"Here you can add or edit delayed lottery draw dates to automatically process "
+"the changes within the system."
+msgstr ""
+"Këtu mund të shtoni ose të modifikoni data shorti të vonuara për të "
+"procesuar automatikisht ndryshimet brenda sistemit."
+
+#: views/admin/lotteries/delays.php:21
+msgid "Postponed date"
+msgstr "Datë e shtyrë për më vonë"
+
+#: views/admin/lotteries/delays.php:22 views/admin/lotteries/index.php:32
+#: views/admin/whitelabels/index.php:22 views/admin/whitelabels/payments.php:24
+#: views/aff/reports/payouts.php:23 views/whitelabel/affs/commissions.php:66
+#: views/whitelabel/affs/groups.php:22 views/whitelabel/affs/index.php:91
+#: views/whitelabel/affs/leads.php:65 views/whitelabel/affs/payouts.php:41
+#: views/whitelabel/settings/ccsettings.php:25
+#: views/whitelabel/settings/lottery.php:23
+#: views/whitelabel/settings/paymentmethods.php:29
+#: views/whitelabel/tickets/index.php:74
+#: views/whitelabel/transactions/index.php:64
+#: views/whitelabel/transactions/withdrawals.php:61
+#: views/whitelabel/users/index.php:86
+msgid "Manage"
+msgstr "Administro"
+
+#: views/admin/lotteries/delays.php:32 views/admin/lotteries/index.php:46
+#: views/admin/whitelabels/index.php:32 views/admin/whitelabels/payments.php:36
+#: views/whitelabel/affs/groups.php:44 views/whitelabel/affs/groups.php:66
+#: views/whitelabel/settings/ccsettings.php:34
+#: views/whitelabel/settings/lottery.php:44
+#: views/whitelabel/settings/paymentmethods.php:41
+#: views/whitelabel/users/index.php:122
+msgid "Edit"
+msgstr "Modifiko"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:140 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:97 views/whitelabel/affs/leads.php:99
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/index.php:177
+#: views/whitelabel/tickets/view.php:99
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawals.php:97
+#: views/whitelabel/transactions/withdrawals.php:99
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:143
+#: views/whitelabel/users/index.php:150
+msgid "Are you sure?"
+msgstr "Jeni të sigurtë?"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:99 views/whitelabel/users/index.php:150
+msgid "Delete"
+msgstr "Fshij"
+
+#: views/admin/lotteries/delays.php:49
+msgid "There are no delays specified."
+msgstr "Nuk ka asnjë vonesë të specifikuar."
+
+#: views/admin/lotteries/delays.php:59 views/aff/reports/payouts.php:78
+#: views/whitelabel/affs/commissions.php:141
+#: views/whitelabel/affs/groups.php:83 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:169 views/whitelabel/affs/leads.php:119
+#: views/whitelabel/affs/payouts.php:140 views/whitelabel/tickets/view.php:156
+#: views/whitelabel/transactions/index.php:140
+#: views/whitelabel/transactions/view.php:754
+#: views/whitelabel/transactions/withdrawal.php:95
+#: views/whitelabel/transactions/withdrawals.php:123
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:170
+msgid "Confirm"
+msgstr "Konfirmo"
+
+#: views/admin/lotteries/delays.php:64 views/aff/reports/payouts.php:83
+#: views/whitelabel/affs/commissions.php:146
+#: views/whitelabel/affs/groups.php:88 views/whitelabel/affs/index.php:174
+#: views/whitelabel/affs/leads.php:124 views/whitelabel/affs/payouts.php:145
+#: views/whitelabel/tickets/index.php:182 views/whitelabel/tickets/view.php:161
+#: views/whitelabel/transactions/index.php:145
+#: views/whitelabel/transactions/view.php:759
+#: views/whitelabel/transactions/withdrawal.php:100
+#: views/whitelabel/transactions/withdrawals.php:128
+#: views/whitelabel/users/index.php:175
+msgid "OK"
+msgstr "OK"
+
+#: views/admin/lotteries/delays.php:65 views/admin/lotteries/draws.php:59
+#: views/admin/lotteries/index.php:91 views/admin/whitelabels/index.php:59
+#: views/admin/whitelabels/payments.php:61 views/aff/reports/payouts.php:84
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:89 views/whitelabel/affs/index.php:175
+#: views/whitelabel/affs/leads.php:125 views/whitelabel/affs/payouts.php:146
+#: views/whitelabel/tickets/index.php:183 views/whitelabel/tickets/view.php:162
+#: views/whitelabel/transactions/index.php:146
+#: views/whitelabel/transactions/view.php:760
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawal.php:101
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/transactions/withdrawals.php:129
+#: views/whitelabel/users/index.php:176
+msgid "Cancel"
+msgstr "Anullo"
+
+#: views/admin/lotteries/delays_edit.php:7
+msgid "Add new postponed draw"
+msgstr "Shto short të ri të shtyrë për më vonë"
+
+#: views/admin/lotteries/delays_edit.php:8
+msgid "You can add a postponed lottery draw here."
+msgstr "Këtu mund të shtoni një short lotarie të shtyrë për më vonë."
+
+#: views/admin/lotteries/delays_edit.php:9 views/admin/lotteries/draw_add.php:9
+#: views/admin/lotteries/draws.php:12 views/admin/lotteries/jackpot.php:9
+#: views/admin/lotteries/nextdraw.php:9 views/admin/lotteries/source.php:9
+#: views/admin/whitelabels/add.php:9 views/admin/whitelabels/edit.php:9
+#: views/admin/whitelabels/payments_edit.php:9 views/aff/dashboard/index.php:44
+#: views/aff/settings/edit.php:9 views/aff/settings/password.php:9
+#: views/whitelabel/affs/edit.php:9 views/whitelabel/affs/email.php:9
+#: views/whitelabel/affs/groups_edit.php:9 views/whitelabel/affs/new.php:9
+#: views/whitelabel/affs/password.php:9 views/whitelabel/affs/view.php:9
+#: views/whitelabel/settings/account_edit.php:9
+#: views/whitelabel/settings/ccsettings_edit.php:9
+#: views/whitelabel/settings/lottery_edit.php:9
+#: views/whitelabel/settings/password.php:9
+#: views/whitelabel/settings/paymentmethods_edit.php:9
+#: views/whitelabel/tickets/view.php:9 views/whitelabel/transactions/view.php:9
+#: views/whitelabel/transactions/withdrawal.php:9
+#: views/whitelabel/users/aff.php:9 views/whitelabel/users/balance.php:9
+#: views/whitelabel/users/deposit.php:9 views/whitelabel/users/edit.php:9
+#: views/whitelabel/users/email.php:9 views/whitelabel/users/password.php:9
+#: views/whitelabel/users/view.php:9
+msgid "Back"
+msgstr "Prapa"
+
+#: views/admin/lotteries/delays_edit.php:29
+#: views/admin/lotteries/delays_edit.php:36
+#: views/admin/lotteries/draw_add.php:21
+msgid "Enter date"
+msgstr "Fut datën"
+
+#: views/admin/lotteries/delays_edit.php:31
+#: views/admin/lotteries/delays_edit.php:38
+#: views/admin/lotteries/draw_add.php:23 views/aff/settings/edit.php:75
+#: views/whitelabel/affs/edit.php:95 views/whitelabel/users/edit.php:67
+msgid "Format: mm/dd/yyyy"
+msgstr "Formati: mm/dd/yyyy"
+
+#: views/admin/lotteries/delays_edit.php:41
+#: views/admin/lotteries/draw_add.php:86 views/admin/lotteries/jackpot.php:26
+#: views/admin/lotteries/nextdraw.php:27 views/admin/lotteries/source.php:27
+#: views/admin/whitelabels/add.php:48 views/admin/whitelabels/edit.php:44
+#: views/admin/whitelabels/payments_edit.php:118
+#: views/aff/settings/analytics.php:24 views/aff/settings/edit.php:101
+#: views/aff/settings/password.php:29 views/aff/settings/payment.php:96
+#: views/whitelabel/affs/edit.php:121 views/whitelabel/affs/email.php:23
+#: views/whitelabel/affs/groups_edit.php:69 views/whitelabel/affs/new.php:46
+#: views/whitelabel/affs/password.php:29 views/whitelabel/affs/settings.php:43
+#: views/whitelabel/settings/account_edit.php:47
+#: views/whitelabel/settings/analytics.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:69
+#: views/whitelabel/settings/index.php:77
+#: views/whitelabel/settings/lottery_edit.php:57
+#: views/whitelabel/settings/password.php:29
+#: views/whitelabel/settings/paymentmethods_edit.php:118
+#: views/whitelabel/users/aff.php:30 views/whitelabel/users/balance.php:27
+#: views/whitelabel/users/deposit.php:37 views/whitelabel/users/edit.php:93
+#: views/whitelabel/users/email.php:23 views/whitelabel/users/password.php:29
+msgid "Submit"
+msgstr "Vendos"
+
+#: views/admin/lotteries/draw_add.php:7
+msgid "Add Draw"
+msgstr "Shto Short"
+
+#: views/admin/lotteries/draw_add.php:8
+msgid ""
+"You can manually add a lottery draw here. You should only do this when "
+"automatic update is not available!<br>All users' tickets will be processed "
+"according to the added draw data! This operation cannot be undone!"
+msgstr ""
+"Këtu mund të shtoni një short lotarie. Këtë duhet ta bëni vetëm kur "
+"përditësimi automatik nuk është i disponueshëm!<br>Të gjitha biletat e "
+"përdoruesve do të procesohen sipas të dhënave të shtuara të shortit! Ky "
+"operacion nuk mund të zhbëhet!"
+
+#: views/admin/lotteries/draw_add.php:28
+msgid "Enter next jackpot"
+msgstr "Futni jackpot-in tjetër"
+
+#: views/admin/lotteries/draw_add.php:30
+#, php-format
+msgid ""
+"You should add a draw only if the next jackpot is already known.<br>Unit: "
+"million (e.g. type '29.5' for 29.5 million jackpot). Use dot for decimal "
+"digits. <br>Currency: %s<br>Jackpot for this draw: %s"
+msgstr ""
+"Duhet të shtoni një short vetëm nëse jackpot-i i ardhshëm është i njohur."
+"<br>Njësia: milion (p.sh. shkruani '29.5' për një jackpot 29.5 milion). "
+"Përdorni pikë për shifrat dhjetore. <br>Monedha: %s<br>Jackpot-i për këtë "
+"short: %s"
+
+#: views/admin/lotteries/draw_add.php:34 views/admin/lotteries/draws.php:23
+msgid "Draw Numbers"
+msgstr "Numrat e Shortit"
+
+#: views/admin/lotteries/draw_add.php:39 views/admin/lotteries/draw_add.php:53
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: views/admin/lotteries/draw_add.php:44 views/admin/lotteries/draw_add.php:58
+#, php-format
+msgid "Range: %s"
+msgstr "Shtrirja: %s"
+
+#: views/admin/lotteries/draw_add.php:48
+msgid "Bonus Numbers"
+msgstr "Numrat Bonus"
+
+#: views/admin/lotteries/draw_add.php:61
+msgid "Draw winners"
+msgstr "Fituesit e shortit"
+
+#: views/admin/lotteries/draw_add.php:63
+msgid ""
+"Type 0's in case of no winner/prize.<br>You should add a draw only if prize "
+"breakout is already known."
+msgstr ""
+"Shkruani 0 në rast se nuk ka fitues/çmim.<br>Duhet të shtoni një short vetëm "
+"nëse shpërthimi i çmimit është i njohur."
+
+#: views/admin/lotteries/draw_add.php:66 views/whitelabel/tickets/view.php:71
+msgid "Match"
+msgstr "Përputhje"
+
+#: views/admin/lotteries/draw_add.php:78
+msgid "Free Quick Pick"
+msgstr "Zgjedhje e Shpejtë Falas"
+
+#: views/admin/lotteries/draw_add.php:80 views/whitelabel/tickets/index.php:71
+#: views/whitelabel/tickets/view.php:78
+msgid "Prize"
+msgstr "Çmimi"
+
+#: views/admin/lotteries/draws.php:10
+msgid "Draws"
+msgstr "Shortet"
+
+#: views/admin/lotteries/draws.php:11
+msgid "This is a list of lottery draws."
+msgstr "Kjo është një listë shortesh të lotarisë."
+
+#: views/admin/lotteries/draws.php:20 views/whitelabel/reports/index.php:19
+#: views/whitelabel/tickets/index.php:36 views/whitelabel/tickets/index.php:69
+#: views/whitelabel/tickets/view.php:32
+msgid "Draw Date"
+msgstr "Data e Shortit"
+
+#: views/admin/lotteries/draws.php:21
+msgid "Download Date"
+msgstr "Data e Shkarkimit"
+
+#: views/admin/lotteries/draws.php:22 views/whitelabel/tickets/index.php:133
+#: views/whitelabel/tickets/view.php:81 views/whitelabel/tickets/view.php:118
+msgid "Jackpot"
+msgstr "Jackpot-i"
+
+#: views/admin/lotteries/draws.php:24
+msgid "Draw Bonus Numbers"
+msgstr "Numrat Bonus të Shortit"
+
+#: views/admin/lotteries/draws.php:42
+msgid "There are no draws for this lottery yet."
+msgstr "Nuk ka ende shorte për këtë lotari."
+
+#: views/admin/lotteries/draws.php:52
+msgid "Confirm new draw"
+msgstr "Konfirmo shortin e ri"
+
+#: views/admin/lotteries/draws.php:55
+msgid ""
+"Are you sure you want to add new draw?&#10;You should only do this when "
+"automatic update is not available!&#10;All users' tickets will be processed "
+"according to added draw data!"
+msgstr ""
+"Jeni të sigurtë që doni të shtoni short të ri?&#10;Këtë duhet ta bëni vetëm "
+"kur përditësimi automatik nuk është i disponueshëm!&#10;Të gjitha biletat e "
+"përdoruesve do të procesohen sipas të dhënave të shortit të shtuar!"
+
+#: views/admin/lotteries/imvalaplogs.php:7 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/logs.php:7 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/shared/navbar.php:15
+msgid "Lotteries"
+msgstr "Lotaritë"
+
+#: views/admin/lotteries/imvalaplogs.php:8
+msgid ""
+"Here you can find all logs related to Imvalap provider. Logs are kept for 1 "
+"month."
+msgstr ""
+"Këtu mund të gjeni të gjithë regjistrat lidhur me Imvalap. Regjistrat mbahen "
+"për 1 muaj."
+
+#: views/admin/lotteries/imvalaplogs.php:11 views/admin/lotteries/logs.php:11
+#: views/admin/lotteries/lottorisqlogs.php:11
+#: views/admin/payments/paymentlogs.php:11
+msgid "Date Range"
+msgstr "Vargu i Datave"
+
+#: views/admin/lotteries/imvalaplogs.php:14 views/admin/lotteries/logs.php:14
+#: views/admin/lotteries/lottorisqlogs.php:14
+#: views/admin/payments/paymentlogs.php:14 views/aff/reports/index.php:14
+#: views/whitelabel/affs/reports.php:14 views/whitelabel/reports/reports.php:14
+msgid "to"
+msgstr "deri"
+
+#: views/admin/lotteries/imvalaplogs.php:19
+#: views/admin/lotteries/imvalaplogs.php:47
+#: views/admin/lotteries/lottorisqlogs.php:19
+#: views/admin/lotteries/lottorisqlogs.php:47
+#: views/admin/payments/paymentlogs.php:19
+#: views/admin/payments/paymentlogs.php:47
+msgid "Whitelabel"
+msgstr "Whitelabel"
+
+#: views/admin/lotteries/imvalaplogs.php:21
+#: views/admin/lotteries/imvalaplogs.php:30 views/admin/lotteries/logs.php:21
+#: views/admin/lotteries/logs.php:30 views/admin/lotteries/lottorisqlogs.php:21
+#: views/admin/lotteries/lottorisqlogs.php:30
+#: views/admin/payments/paymentlogs.php:21
+#: views/admin/payments/paymentlogs.php:30
+msgid "All"
+msgstr "Të gjitha"
+
+#: views/admin/lotteries/imvalaplogs.php:36 views/admin/lotteries/logs.php:36
+#: views/admin/lotteries/lottorisqlogs.php:36
+#: views/admin/payments/paymentlogs.php:36 views/aff/reports/commissions.php:34
+#: views/aff/reports/ftps.php:34 views/aff/reports/leads.php:34
+#: views/whitelabel/affs/commissions.php:10
+#: views/whitelabel/affs/commissions.php:41 views/whitelabel/affs/ftps.php:10
+#: views/whitelabel/affs/ftps.php:41 views/whitelabel/affs/index.php:15
+#: views/whitelabel/affs/index.php:56 views/whitelabel/affs/leads.php:10
+#: views/whitelabel/affs/leads.php:41 views/whitelabel/affs/payouts.php:10
+#: views/whitelabel/affs/payouts.php:21 views/whitelabel/affs/reports.php:18
+#: views/whitelabel/tickets/index.php:10 views/whitelabel/tickets/index.php:50
+#: views/whitelabel/transactions/index.php:10
+#: views/whitelabel/transactions/index.php:41
+#: views/whitelabel/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/withdrawals.php:38
+#: views/whitelabel/users/index.php:22 views/whitelabel/users/index.php:51
+msgid "Filter"
+msgstr "Filter"
+
+#: views/admin/lotteries/imvalaplogs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:48
+msgid "Ticket ID"
+msgstr "ID e biletës"
+
+#: views/admin/lotteries/imvalaplogs.php:49
+msgid "Job ID"
+msgstr "ID e punës"
+
+#: views/admin/lotteries/imvalaplogs.php:50 views/admin/lotteries/logs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:50
+#: views/admin/payments/paymentlogs.php:50
+msgid "Message"
+msgstr "Mesazh"
+
+#: views/admin/lotteries/imvalaplogs.php:86 views/admin/lotteries/logs.php:73
+#: views/admin/lotteries/lottorisqlogs.php:86
+#: views/admin/payments/paymentlogs.php:99
+msgid "There are no logs for this criteria."
+msgstr "Nuk ka asnjë regjistër për këto kritere."
+
+#: views/admin/lotteries/index.php:8
+msgid "Show Logs"
+msgstr "Shfaq Regjistrat"
+
+#: views/admin/lotteries/index.php:11
+msgid ""
+"This is an overview of the lotteries. Draws and Jackpots are automatically "
+"updated every 20 minutes."
+msgstr ""
+"Kjo është një përmbledhje e lotarive. Shortet dhe Jackpot-et përditësohen "
+"automatikisht çdo 20 minuta."
+
+#: views/admin/lotteries/index.php:22 views/whitelabel/users/view.php:55
+msgid "Last Update"
+msgstr "Përditësimi i Fundit"
+
+#: views/admin/lotteries/index.php:24
+msgid "Draw Days"
+msgstr "Ditët e Shortit"
+
+#: views/admin/lotteries/index.php:25
+msgid "Draw Hour"
+msgstr "Ora e Shortit"
+
+#: views/admin/lotteries/index.php:26
+msgid "Draw Rules"
+msgstr "Rregullat e Shortit"
+
+#: views/admin/lotteries/index.php:26
+msgid ""
+"Amount of numbers (range of numbers) + Amount of bonus numbers (range of "
+"bonus numbers)&#10;*1 Extra number within the base range of draw numbers"
+msgstr ""
+"Sasia e numrave (vargu i numrave) + Sasia e numrave bonus (vargu i numrave "
+"bonus)&#10;*1 Numër ekstra brenda vargut bazë të numrave të shortit"
+
+#: views/admin/lotteries/index.php:28
+msgid "Last (Next) Draw Date"
+msgstr "Data e Shortit të Fundit (të Ardhshëm)"
+
+#: views/admin/lotteries/index.php:29
+msgid "Last Numbers"
+msgstr "Numrat e Fundit"
+
+#: views/admin/lotteries/index.php:30
+msgid "Last Bonus Numbers"
+msgstr "Numrat e Fundit Bonus"
+
+#: views/admin/lotteries/index.php:31
+msgid "Last Extra Number"
+msgstr "Numri i Fundit Ekstra"
+
+#: views/admin/lotteries/index.php:45
+msgid "pending"
+msgstr "në pritje"
+
+#: views/admin/lotteries/index.php:53
+msgid "Next Draw"
+msgstr "Shorti i Radhës"
+
+#: views/admin/lotteries/index.php:59
+msgid "View Draws"
+msgstr "Shih Shortet"
+
+#: views/admin/lotteries/index.php:63 views/admin/lotteries/index.php:90
+#: views/admin/whitelabels/index.php:58 views/admin/whitelabels/payments.php:60
+msgid "Disable"
+msgstr "Çaktivizo"
+
+#: views/admin/lotteries/index.php:65
+msgid "Enable"
+msgstr "Aktivizo"
+
+#: views/admin/lotteries/index.php:74 views/whitelabel/settings/lottery.php:53
+msgid "There are no lotteries."
+msgstr "Nuk ka lotari."
+
+#: views/admin/lotteries/index.php:84 views/admin/whitelabels/index.php:52
+#: views/admin/whitelabels/payments.php:54
+msgid "Confirm lottery switch off"
+msgstr "Konfirmo ndërprerjen e lotarisë"
+
+#: views/admin/lotteries/index.php:87 views/admin/whitelabels/index.php:55
+#: views/admin/whitelabels/payments.php:57
+msgid ""
+"Are you sure you want to disable this lottery?&#10;All bought users' tickets "
+"will stay pending unless you provide the latest draw numbers manually."
+msgstr ""
+"Jeni të sigurtë që doni ta çaktivizoni këtë lotari?&#10;Të gjitha biletat e "
+"blera të përdoruesve do të qëndrojnë në pritje po të mos i jepni numrat më "
+"të fundit të shortit manualisht."
+
+#: views/admin/lotteries/jackpot.php:7
+msgid "Edit Jackpot"
+msgstr "Modifiko Jackpot-in"
+
+#: views/admin/lotteries/jackpot.php:8
+msgid ""
+"You can edit the current lottery jackpot here. You should only do this when "
+"the automated script does not work."
+msgstr ""
+"Këtu mund të modifikoni jackpot-in aktual të lotarisë. Këtë duhet ta bëni "
+"vetëm kur skripti i automatizuar nuk funksionon."
+
+#: views/admin/lotteries/jackpot.php:21
+msgid "Enter current jackpot"
+msgstr "Futni jackpot-in aktual"
+
+#: views/admin/lotteries/jackpot.php:23
+#, php-format
+msgid ""
+"Unit: million (e.g. type '29.5' for 29.5 million jackpot). Use dot for "
+"decimal digits. <br>Currency: %s"
+msgstr ""
+"Njësia: milion (p.sh. shkruani '29.5' për një jackpot 29.5 milion). Përdorni "
+"pikë për shifrat dhjetore. <br>Monedha: %s"
+
+#: views/admin/lotteries/logs.php:8
+msgid ""
+"Here you can find all logs related to the lotteries' data download. Logs are "
+"kept for 7 days."
+msgstr ""
+"Këtu mund të gjeni të gjithë regjistrat lidhur me shkarkimet e të dhënave të "
+"lotarive. Regjistrat mbahen për 7 ditë."
+
+#: views/admin/lotteries/lottorisqlogs.php:8
+msgid ""
+"Here you can find all logs related to Lottorisq provider. Logs are kept for "
+"1 month."
+msgstr ""
+"Këtu mund të gjeni të gjithë regjistrat lidhur me Lottorisq. Regjistrat "
+"mbahen për 1 muaj."
+
+#: views/admin/lotteries/lottorisqlogs.php:49
+msgid "Slip ID"
+msgstr "ID e biletës"
+
+#: views/admin/lotteries/nextdraw.php:7
+msgid "Change next draw"
+msgstr "Ndrysho shortin e ardhshëm"
+
+#: views/admin/lotteries/nextdraw.php:8
+msgid ""
+"You can manually change the lottery draw date here. You should only do this "
+"and you have to do this only when the lottery draw has been moved! It will "
+"automatically move every ticket to the chosen next draw date. The operation "
+"cannot be undone!"
+msgstr ""
+"Këtu mund të ndryshoni manualisht datën e shortit të lotarisë. Këtë duhet ta "
+"bëni atëherë dhe vetëm atëherë kur shorti i lotarisë është zhvendosur! Çdo "
+"biletë do të zhvendoset automatikisht në datën e zgjedhur të shortit të "
+"ardhshëm. Ky operacion nuk mund të zhbëhet!"
+
+#: views/admin/lotteries/nextdraw.php:24
+msgid ""
+"Format: mm/dd/yyyy<br><strong>Date should be in lottery local timezone!</"
+"strong>"
+msgstr ""
+"Formati: mm/dd/yyyy<br><strong>Data duhet të jetë në zonën kohore lokale të "
+"lotarisë!</strong>"
+
+#: views/admin/lotteries/source.php:7
+msgid "Change source"
+msgstr "Ndrysho burimin"
+
+#: views/admin/lotteries/source.php:8
+msgid ""
+"Here you can change the source for the lottery. You should do this only when "
+"the original one is not working for a longer period of time!"
+msgstr ""
+"Këtu mund të ndryshoni burimin për lotarinë. Këtë duhet ta bëni vetëm "
+"atëherë kur burimi origjinal nuk funksionon për një periudhë kohe më të "
+"gjatë!"
+
+#: views/admin/payments/paymentlogs.php:7 views/admin/shared/navbar.php:17
+msgid "Payments"
+msgstr "Pagesat"
+
+#: views/admin/payments/paymentlogs.php:8
+msgid ""
+"Here you can find all logs related to payments. Logs are kept for 1 year."
+msgstr ""
+"Këtu mund të gjeni të gjithë regjistrat lidhur me pagesat. Regjistrat mbahen "
+"për 1 vit."
+
+#: views/admin/payments/paymentlogs.php:48
+#: views/whitelabel/transactions/view.php:615
+msgid "Payment Method"
+msgstr "Mënyra e Pagesës"
+
+#: views/admin/payments/paymentlogs.php:49 views/aff/reports/commissions.php:49
+#: views/aff/reports/index.php:167 views/whitelabel/affs/commissions.php:58
+#: views/whitelabel/affs/reports.php:176 views/whitelabel/tickets/index.php:42
+#: views/whitelabel/tickets/index.php:61 views/whitelabel/tickets/view.php:17
+#: views/whitelabel/transactions/view.php:102
+msgid "Transaction ID"
+msgstr "ID e Transaksionit"
+
+#: views/admin/payments/paymentlogs.php:51
+msgid "Data"
+msgstr "Të Dhënat"
+
+#: views/admin/payments/paymentlogs.php:70
+#: views/whitelabel/settings/ccsettings_edit.php:7
+#: views/whitelabel/transactions/index.php:17
+#: views/whitelabel/transactions/index.php:90
+#: views/whitelabel/transactions/view.php:35
+#: views/whitelabel/users/deposit.php:23
+msgid "Credit Card"
+msgstr "Kartë Krediti"
+
+#: views/admin/payments/paymentlogs.php:88
+msgid "Show data"
+msgstr "Shfaq të dhënat"
+
+#: views/admin/shared/header.php:7
+msgid "Admin panel"
+msgstr "Paneli i administratorit"
+
+#: views/admin/shared/header.php:7 views/admin/shared/navbar.php:10
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+msgid "Lotto network"
+msgstr "Rrjeti i lotove"
+
+#: views/admin/shared/navbar.php:5 views/aff/shared/navbar.php:5
+#: views/whitelabel/shared/navbar.php:5
+msgid "Toggle navigation"
+msgstr "Aktivizo navigacionin"
+
+#: views/admin/shared/navbar.php:20 views/aff/shared/navbar.php:20
+#: views/whitelabel/shared/navbar.php:25
+msgid "Sign out"
+msgstr "Dil"
+
+#: views/admin/signin/index.php:11 views/aff/signin/index.php:11
+#: views/whitelabel/signin/index.php:11
+msgid "Please sign in"
+msgstr "Ju lutem identifikohuni"
+
+#: views/admin/signin/index.php:27 views/aff/signin/index.php:27
+#: views/whitelabel/signin/index.php:27
+msgid "Sign in"
+msgstr "Identifikohuni"
+
+#: views/admin/whitelabels/add.php:7
+msgid "Add whitelabel"
+msgstr "Shto whitelabel"
+
+#: views/admin/whitelabels/add.php:8
+msgid "You can add new whitelabel here."
+msgstr "Këtu mund të shtoni whitelabel të ri."
+
+#: views/admin/whitelabels/add.php:22 views/admin/whitelabels/edit.php:22
+msgid "Enter site name"
+msgstr "Futni emrin e faqes"
+
+#: views/admin/whitelabels/add.php:26 views/admin/whitelabels/edit.php:26
+msgid "Enter site domain"
+msgstr "Futni domain-in e faqes"
+
+#: views/admin/whitelabels/add.php:27 views/admin/whitelabels/edit.php:27
+msgid ""
+"E.g. <strong>https://whitelabel.com</strong>. Only lowercase letters (a-z), "
+"numbers, and hyphens are allowed."
+msgstr ""
+"E.g. <strong>https://whitelabel.com</strong>. Lejohen vetëm shkronja të "
+"vogla (a-z), numra, dhe viza ndarëse."
+
+#: views/admin/whitelabels/add.php:31 views/admin/whitelabels/edit.php:31
+msgid "Enter site username"
+msgstr "Futni emrin e përdoruesit të faqes"
+
+#: views/admin/whitelabels/add.php:36 views/admin/whitelabels/edit.php:36
+#: views/whitelabel/affs/new.php:39
+msgid "Enter password"
+msgstr "Futni fjalëkalimin"
+
+#: views/admin/whitelabels/add.php:38 views/admin/whitelabels/edit.php:38
+#: views/aff/settings/password.php:24 views/whitelabel/affs/new.php:41
+#: views/whitelabel/affs/password.php:24
+#: views/whitelabel/settings/password.php:24
+#: views/whitelabel/users/password.php:24
+msgid "Random"
+msgstr "I rastësishëm"
+
+#: views/admin/whitelabels/add.php:41 views/admin/whitelabels/edit.php:41
+#: views/aff/settings/password.php:27 views/whitelabel/affs/new.php:44
+#: views/whitelabel/affs/password.php:27
+#: views/whitelabel/settings/password.php:27
+#: views/whitelabel/users/password.php:27
+msgid "Generated password"
+msgstr "Fjalëkalim i gjeneruar"
+
+#: views/admin/whitelabels/add.php:45
+msgid "Enter site prefix"
+msgstr "Futni parashtesën e faqes"
+
+#: views/admin/whitelabels/add.php:46
+msgid "Should be 2-letters long, e.g. <strong>WL</strong>."
+msgstr "Duhet të përmbajë 2 shkronja, p.sh. <strong>WL</strong>."
+
+#: views/admin/whitelabels/edit.php:7
+msgid "Edit whitelabel"
+msgstr "Modifiko whitelabel"
+
+#: views/admin/whitelabels/edit.php:8
+msgid "You can edit whitelabel here."
+msgstr "Këtu mund të modifikoni whitelabel-in."
+
+#: views/admin/whitelabels/edit.php:42
+msgid "Leave blank to keep the current password"
+msgstr "Lëreni bosh për të mbajtur fjalëkalimin aktual"
+
+#: views/admin/whitelabels/index.php:8 views/admin/whitelabels/payments.php:8
+msgid "Add new"
+msgstr "Shto të re"
+
+#: views/admin/whitelabels/index.php:11
+msgid "This is an overview of your whitelabels."
+msgstr "Kjo është një përmbledhje e whitelabel-ave tuaja."
+
+#: views/admin/whitelabels/index.php:42
+msgid "There are no whitelabels."
+msgstr "Nuk ka whitelabels."
+
+#: views/admin/whitelabels/payments.php:11
+msgid "Here you can manage payment methods of your whitelabels."
+msgstr "Këtu mund të menaxhoni mënyrat e pagesës për whitelabel-at tuaja."
+
+#: views/admin/whitelabels/payments.php:20
+#: views/whitelabel/settings/paymentmethods.php:25
+msgid "Order"
+msgstr "Porosia"
+
+#: views/admin/whitelabels/payments.php:23
+#: views/whitelabel/settings/paymentmethods.php:28
+msgid "Manual"
+msgstr "Manual"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:31 views/whitelabel/tickets/index.php:150
+#: views/whitelabel/users/index.php:139
+msgid "No"
+msgstr "Jo"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:32 views/whitelabel/tickets/index.php:149
+#: views/whitelabel/users/index.php:139
+msgid "Yes"
+msgstr "Po"
+
+#: views/admin/whitelabels/payments.php:44
+msgid "There are no payment methods specified for this whitelabel."
+msgstr "Nuk ka asnjë mënyrë pagese të specifikuar për këtë whitelabel."
+
+#: views/admin/whitelabels/payments_edit.php:7
+#: views/whitelabel/settings/paymentmethods_edit.php:7
+#: views/whitelabel/transactions/view.php:130
+msgid "Payment method"
+msgstr "Mënyrë pagese"
+
+#: views/admin/whitelabels/payments_edit.php:8
+#: views/whitelabel/settings/paymentmethods_edit.php:8
+msgid "You can add new or edit payment method here."
+msgstr "Këtu mund të shtoni një të re apo të modifikoni një mënyrë pagese."
+
+#: views/admin/whitelabels/payments_edit.php:30
+#: views/aff/settings/payment.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:30
+#: views/whitelabel/users/aff.php:22 views/whitelabel/users/index.php:115
+msgid "None"
+msgstr "Asnjë"
+
+#: views/admin/whitelabels/payments_edit.php:38
+#: views/whitelabel/affs/groups_edit.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:38
+msgid "Enter name"
+msgstr "Fut emrin"
+
+#: views/admin/whitelabels/payments_edit.php:42
+#: views/whitelabel/settings/paymentmethods_edit.php:42
+msgid "Do not check this for manual-only payments."
+msgstr "Mos e check-oni këtë për pagesa që janë vetëm manuale."
+
+#: views/admin/whitelabels/payments_edit.php:45
+#: views/whitelabel/settings/paymentmethods_edit.php:45
+msgid "Skrill integration details"
+msgstr "Detajet e integrimit të Skrill"
+
+#: views/admin/whitelabels/payments_edit.php:48
+#: views/whitelabel/settings/paymentmethods_edit.php:48
+msgid "Enter merchant account e-mail"
+msgstr "Futni e-mail-in e llogarisë së tregtarit"
+
+#: views/admin/whitelabels/payments_edit.php:52
+#: views/whitelabel/settings/paymentmethods_edit.php:52
+msgid "Enter Skrill secret word"
+msgstr "Futni fjalën sekrete të Skrill"
+
+#: views/admin/whitelabels/payments_edit.php:53
+#: views/whitelabel/settings/paymentmethods_edit.php:53
+msgid ""
+"Can be set in <strong>Settings &gt; Developer Settings</strong> section of "
+"your Skrill Digital Wallet account."
+msgstr ""
+"Mund të vendoset në seksionin <strong>Cilësimet &gt; Cilësimet e "
+"Zhvilluesit</strong> të llogarisë suaj Skrill Portofoli Digjital."
+
+#: views/admin/whitelabels/payments_edit.php:57
+#: views/whitelabel/settings/paymentmethods_edit.php:57
+msgid "Enter merchant logo URL"
+msgstr "Futni URL-në e logos së tregtarit"
+
+#: views/admin/whitelabels/payments_edit.php:58
+#: views/whitelabel/settings/paymentmethods_edit.php:58
+msgid "At least 107px &times; 65px."
+msgstr "Të paktën 107px &times; 65px."
+
+#: views/admin/whitelabels/payments_edit.php:62
+#: views/whitelabel/settings/paymentmethods_edit.php:62
+msgid "Enter merchant description (logo alt)"
+msgstr "Futni përshkrimin e tregtarit (logo alt)"
+
+#: views/admin/whitelabels/payments_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:66
+msgid "Neteller integration details"
+msgstr "Detajet e integrimit të Neteller"
+
+#: views/admin/whitelabels/payments_edit.php:69
+#: views/whitelabel/settings/paymentmethods_edit.php:69
+msgid "Enter App Client ID"
+msgstr "Futni ID-në e Klientit të Aplikacionit"
+
+#: views/admin/whitelabels/payments_edit.php:72
+#: views/admin/whitelabels/payments_edit.php:73
+#: views/whitelabel/settings/paymentmethods_edit.php:72
+#: views/whitelabel/settings/paymentmethods_edit.php:73
+msgid "Enter App Client Secret"
+msgstr "Futni Sekretin e Klientit të Aplikacionit"
+
+#: views/admin/whitelabels/payments_edit.php:74
+#: views/whitelabel/settings/paymentmethods_edit.php:74
+msgid ""
+"Both Client ID &amp; Client Secret should be taken from <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+msgstr ""
+"ID e Klientit &amp; Sekreti i Klientit duhet të merren nga <strong>Paneli i "
+"Tregtarit në Neteller &gt; Zhvillues &gt; Aplikacionet</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:78
+#: views/whitelabel/settings/paymentmethods_edit.php:78
+msgid "Enter Webhook Secret Key"
+msgstr "Futni Çelësin Sekret të Webhook"
+
+#: views/admin/whitelabels/payments_edit.php:79
+#, php-format
+msgid ""
+"Can be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; "
+"Webhooks</strong>. You should set the <strong>Webhook URL</strong> to "
+"<strong>%s</strong> and check following hooks: <strong>payment_cancelled</"
+"strong>, <strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Mund të vendoset në <strong>Paneli i Tregtarit në Neteller &gt; Zhvillues "
+"&gt; Webhooks</strong>. Duhet ta vendosni <strong>Webhook URL</strong> në "
+"<strong>%s</strong> dhe të check-oni hooks që vijojnë: "
+"<strong>pagesa_anulluar</strong>, <strong>pagesa_refuzuar</strong>, "
+"<strong>pagesa_dështuar</strong>, <strong>pagesa_sukses</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:83
+#: views/whitelabel/settings/ccsettings_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:83
+msgid "Check it for test account."
+msgstr "Check-ojeni për llogari provë."
+
+#: views/admin/whitelabels/payments_edit.php:87
+#: views/whitelabel/settings/paymentmethods_edit.php:87
+msgid "tpay.com integration details"
+msgstr "detajet e integrimit të tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:89
+#: views/whitelabel/transactions/view.php:308
+msgid "Merchant ID"
+msgstr "ID e Tregtarit"
+
+#: views/admin/whitelabels/payments_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:90
+msgid "Enter tpay.com ID"
+msgstr "Futni ID-në e tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:94
+#: views/whitelabel/settings/paymentmethods_edit.php:94
+msgid "Enter tpay.com Security Code"
+msgstr "Futni Kodin e Sigurisë së tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:95
+#: views/whitelabel/settings/paymentmethods_edit.php:95
+msgid ""
+"Can be set in <strong>Settings &gt; notifications &gt; Security Code</"
+"strong> section of your tpay.com Merchant Panel.<br>Make sure <strong>Allow "
+"notification URL overwrite</strong> is set to <strong>yes</strong>."
+msgstr ""
+"Mund të vendoset në seksionin <strong>Cilësimet &gt; lajmërimet &gt; Kodi i "
+"Sigurisë</strong> të panelit tuaj të Tregtarit në tpay.com.<br>Sigurohuni që "
+"<strong>Lejo mbishkrimin e URL-së lajmërimit</strong> është e vendosur në "
+"<strong>po</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:99
+#: views/whitelabel/settings/paymentmethods_edit.php:99
+msgid "Cubits integration details"
+msgstr "Detajet e integrimit të Cubits"
+
+#: views/admin/whitelabels/payments_edit.php:102
+#: views/whitelabel/settings/ccsettings_edit.php:39
+#: views/whitelabel/settings/paymentmethods_edit.php:102
+msgid "Enter API Key"
+msgstr "Futni çelësin API"
+
+#: views/admin/whitelabels/payments_edit.php:105
+#: views/whitelabel/settings/paymentmethods_edit.php:105
+msgid "Enter API Secret"
+msgstr "Futni Sekretin e API"
+
+#: views/admin/whitelabels/payments_edit.php:107
+#: views/whitelabel/settings/paymentmethods_edit.php:107
+msgid ""
+"Can be generated in <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+msgstr ""
+"Mund të gjenerohet në <strong>Tregtari &gt; Veglat e Integrimit &gt; "
+"Integrim API</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:111
+#: views/whitelabel/settings/paymentmethods_edit.php:111
+msgid "Sofort integration details"
+msgstr "Detajet e integrimit të Sofort"
+
+#: views/admin/whitelabels/payments_edit.php:114
+#: views/whitelabel/settings/paymentmethods_edit.php:114
+msgid "Enter Configuration Key"
+msgstr "Futni Çelësin e Konfigurimit"
+
+#: views/admin/whitelabels/payments_edit.php:115
+#: views/whitelabel/settings/paymentmethods_edit.php:115
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Projects &gt; My projects "
+"&gt; (choose your project) &gt; General settings &gt; Configuration key for "
+"your shop system</strong>."
+msgstr ""
+"Mund të gjendet tek <strong>Paneli i tregtarit &gt; Projektet &gt; Projektet "
+"e mia &gt; (zgjidh projektin tënd) &gt; Cilësimet e përgjithshme &gt; Çelësi "
+"i konfigurimit për sistemin e dyqanit tuaj</strong>."
+
+#: views/aff/dashboard/index.php:6
+msgid "Your data"
+msgstr "Të dhënat tuaja"
+
+#: views/aff/dashboard/index.php:9
+msgid "Ref"
+msgstr "Ref (link-u i referencës për të anëtarësuarit)"
+
+#: views/aff/dashboard/index.php:12
+msgid "General link"
+msgstr "Link-u i përgjithshëm"
+
+#: views/aff/dashboard/index.php:18
+msgid "Your plan"
+msgstr "Plani juaj"
+
+#: views/aff/dashboard/index.php:37
+msgid "Generate your affiliate link"
+msgstr "Gjeneroni link-un tuaj të anëtarësimit"
+
+#: views/aff/dashboard/index.php:41
+msgid "Generated link"
+msgstr "Link-u i gjeneruar"
+
+#: views/aff/dashboard/index.php:49
+msgid "Enter medium"
+msgstr "Futni mediumin"
+
+#: views/aff/dashboard/index.php:50
+msgid ""
+"The advertising or marketing medium, for example: cpc, banner, email "
+"newsletter."
+msgstr ""
+"Mediumi i reklamimit apo marketingut, për shembull: cpc, baner, buletin "
+"informativ me e-mail."
+
+#: views/aff/dashboard/index.php:54
+msgid "Enter campaign"
+msgstr "Futni fushatën"
+
+#: views/aff/dashboard/index.php:55
+msgid "The individual campaign name, slogan, promo code, etc."
+msgstr "Emrin, sloganin, kodin promocional, etj. të fushatës individuale."
+
+#: views/aff/dashboard/index.php:59
+msgid "Enter content"
+msgstr "Futni përmbajtjen"
+
+#: views/aff/dashboard/index.php:60
+msgid ""
+"Used to differentiate similar content, or links within the same ad. For "
+"example, if you have two call-to-action links within the same email message, "
+"you can use <em>content</em> and set different values for each so you can "
+"tell which version is more effective."
+msgstr ""
+"Përdoret për të diferencuar përmbajtje të ngjashme, ose link-e brenda të "
+"njëjtës reklamë. Për shembull, nëse keni dy link-e që bëjnë thirrje për "
+"veprim brenda të njëjtit e-mail, mund të përdorni <em>përmbajtje</em> dhe të "
+"caktoni vlera të ndryshme për secilin në mënyrë që të dalloni cili version "
+"është më i efektshëm."
+
+#: views/aff/dashboard/index.php:62
+msgid "Generate link"
+msgstr "Gjenero link"
+
+#: views/aff/reports/commissions.php:8
+msgid "Here you can view your latest commissions."
+msgstr "Këtu mund të shihni komisionet tuaja më të fundit."
+
+#: views/aff/reports/commissions.php:45 views/aff/reports/ftps.php:45
+#: views/aff/reports/index.php:77 views/aff/reports/index.php:123
+#: views/aff/reports/index.php:163 views/aff/reports/leads.php:51
+#: views/aff/settings/profile.php:12 views/whitelabel/affs/commissions.php:30
+#: views/whitelabel/affs/ftps.php:30 views/whitelabel/affs/groups.php:19
+#: views/whitelabel/affs/index.php:42 views/whitelabel/affs/index.php:70
+#: views/whitelabel/affs/leads.php:30 views/whitelabel/affs/view.php:13
+#: views/whitelabel/settings/ccsettings.php:23
+#: views/whitelabel/tickets/index.php:39 views/whitelabel/tickets/index.php:60
+#: views/whitelabel/tickets/view.php:15
+#: views/whitelabel/transactions/index.php:33
+#: views/whitelabel/transactions/index.php:51
+#: views/whitelabel/transactions/view.php:13
+#: views/whitelabel/transactions/withdrawal.php:13
+#: views/whitelabel/transactions/withdrawals.php:30
+#: views/whitelabel/transactions/withdrawals.php:48
+#: views/whitelabel/users/index.php:40 views/whitelabel/users/index.php:65
+#: views/whitelabel/users/view.php:13
+msgid "ID"
+msgstr "ID"
+
+#: views/aff/reports/commissions.php:59 views/aff/reports/index.php:177
+#: views/whitelabel/affs/commissions.php:65
+#: views/whitelabel/affs/reports.php:183
+msgid "Commission"
+msgstr "Komision"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "Sale"
+msgstr "Shitje"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "FTP"
+msgstr "BHP"
+
+#: views/aff/reports/commissions.php:78 views/aff/reports/index.php:197
+#: views/whitelabel/affs/commissions.php:95
+#: views/whitelabel/affs/reports.php:213
+msgid "Tier"
+msgstr "Rresht"
+
+#: views/aff/reports/commissions.php:94
+#: views/whitelabel/affs/commissions.php:130
+msgid "No commissions."
+msgstr "Nuk ka komisione."
+
+#: views/aff/reports/ftps.php:8
+msgid "Here you can view the latest first-time purchases."
+msgstr ""
+"Këtu mund të shihni blerjet më të fundit që janë bërë për herë të parë."
+
+#: views/aff/reports/ftps.php:47 views/aff/reports/index.php:79
+#: views/aff/reports/index.php:125 views/aff/reports/leads.php:53
+#: views/whitelabel/affs/ftps.php:58 views/whitelabel/affs/leads.php:61
+#: views/whitelabel/affs/reports.php:68 views/whitelabel/affs/reports.php:123
+msgid "Register country"
+msgstr "Regjistro shtetin"
+
+#: views/aff/reports/ftps.php:48 views/aff/reports/index.php:80
+#: views/aff/reports/index.php:126 views/aff/reports/leads.php:54
+#: views/whitelabel/affs/ftps.php:59 views/whitelabel/affs/leads.php:62
+#: views/whitelabel/affs/reports.php:69 views/whitelabel/affs/reports.php:124
+msgid "Last country"
+msgstr "Shteti i fundit"
+
+#: views/aff/reports/ftps.php:52 views/aff/reports/index.php:84
+#: views/aff/reports/index.php:130 views/aff/reports/leads.php:58
+#: views/whitelabel/affs/ftps.php:60 views/whitelabel/affs/leads.php:63
+#: views/whitelabel/affs/reports.php:70 views/whitelabel/affs/reports.php:125
+msgid "Registered"
+msgstr "I regjistruar"
+
+#: views/aff/reports/ftps.php:53 views/aff/reports/index.php:85
+#: views/aff/reports/index.php:131 views/aff/reports/leads.php:59
+#: views/whitelabel/affs/ftps.php:61 views/whitelabel/affs/leads.php:64
+#: views/whitelabel/affs/reports.php:71 views/whitelabel/affs/reports.php:126
+msgid "First purchase"
+msgstr "Blerja e parë"
+
+#: views/aff/reports/ftps.php:77 views/whitelabel/affs/ftps.php:96
+msgid "No first-time purchases."
+msgstr "Nuk ka blerje të para."
+
+#: views/aff/reports/index.php:8 views/whitelabel/affs/reports.php:8
+#: views/whitelabel/reports/reports.php:8
+msgid "Here you can generate a report for a given date range."
+msgstr "Këtu mund të gjeneroni një raport për një varg të caktuar datash."
+
+#: views/aff/reports/index.php:11 views/whitelabel/affs/reports.php:11
+#: views/whitelabel/reports/reports.php:11
+msgid "Range"
+msgstr "Vargu"
+
+#: views/aff/reports/index.php:42 views/aff/reports/index.php:47
+#: views/whitelabel/affs/reports.php:30 views/whitelabel/affs/reports.php:35
+#: views/whitelabel/reports/reports.php:34
+#: views/whitelabel/reports/reports.php:39
+msgid "Report"
+msgstr "Raport"
+
+#: views/aff/reports/index.php:48 views/whitelabel/affs/reports.php:36
+#: views/whitelabel/reports/reports.php:40
+msgid "Start Date"
+msgstr "Data e Fillimit"
+
+#: views/aff/reports/index.php:50 views/whitelabel/affs/reports.php:38
+#: views/whitelabel/reports/reports.php:42
+msgid "End Date"
+msgstr "Data e Mbarimit"
+
+#: views/aff/reports/index.php:52 views/whitelabel/affs/reports.php:40
+msgid "Clicks"
+msgstr "Klikimet"
+
+#: views/aff/reports/index.php:54 views/whitelabel/affs/reports.php:42
+msgid "Unique clicks"
+msgstr "Klikimet unike"
+
+#: views/aff/reports/index.php:58 views/aff/reports/index.php:116
+#: views/whitelabel/affs/reports.php:46 views/whitelabel/affs/reports.php:110
+msgid "First-time purchases"
+msgstr "Blerjet e herës së parë"
+
+#: views/aff/reports/index.php:60 views/whitelabel/affs/reports.php:48
+msgid "Total commission"
+msgstr "Komisioni total"
+
+#: views/aff/reports/index.php:69 views/aff/reports/index.php:121
+#: views/aff/reports/index.php:161 views/whitelabel/affs/reports.php:57
+#: views/whitelabel/affs/reports.php:115 views/whitelabel/affs/reports.php:168
+msgid "#"
+msgstr "#"
+
+#: views/aff/reports/index.php:71 views/aff/reports/leads.php:45
+#: views/whitelabel/affs/index.php:88 views/whitelabel/affs/leads.php:55
+#: views/whitelabel/affs/reports.php:62 views/whitelabel/users/index.php:84
+msgid "Active"
+msgstr "Aktiv"
+
+#: views/aff/reports/index.php:74 views/aff/reports/leads.php:48
+msgid "Confirmed"
+msgstr "I konfirmuar"
+
+#: views/aff/reports/leads.php:8
+msgid "Here you can view your latest leads."
+msgstr "Këtu mund të shihni drejtimet tuaja më të fundit."
+
+#: views/aff/reports/leads.php:89 views/whitelabel/affs/leads.php:108
+msgid "No leads."
+msgstr "Nuk ka drejtime."
+
+#: views/aff/reports/payouts.php:8 views/whitelabel/affs/payouts.php:8
+msgid ""
+"Here you can view and manage your payouts. They are calculated automatically "
+"every month."
+msgstr ""
+"Këtu mmund të shihni dhe të administroni pagesat tuaja. Ato llogariten "
+"automatikisht çdo muaj."
+
+#: views/aff/reports/payouts.php:22 views/whitelabel/affs/payouts.php:40
+#: views/whitelabel/tickets/index.php:30 views/whitelabel/tickets/index.php:72
+#: views/whitelabel/tickets/view.php:57 views/whitelabel/tickets/view.php:61
+#: views/whitelabel/tickets/view.php:102
+msgid "Paid out"
+msgstr "Paguar"
+
+#: views/aff/reports/payouts.php:57 views/whitelabel/affs/payouts.php:116
+msgid "View report"
+msgstr "Shih raportin"
+
+#: views/aff/reports/payouts.php:67 views/whitelabel/affs/payouts.php:129
+msgid "No payouts."
+msgstr "Nuk ka pagesa."
+
+#: views/aff/settings/analytics.php:7 views/whitelabel/settings/analytics.php:7
+msgid "Edit Google Analytics settings"
+msgstr "Modifikoni cilësimet e Analizës së të Dhënave në Google"
+
+#: views/aff/settings/analytics.php:8 views/whitelabel/settings/analytics.php:8
+msgid "Here you can edit Google Analytics settings."
+msgstr "Këtu mund të modifikoni cilësimet e Analizës së të Dhënave në Google."
+
+#: views/aff/settings/analytics.php:21
+#: views/whitelabel/settings/analytics.php:21
+msgid "Enter Google Analytics Tracking ID"
+msgstr "Futni ID-në e Gjurmimit të Analizës së të Dhënave në Google"
+
+#: views/aff/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will see the data related to "
+"your leads only. You will have to <a href=\"https://support.google.com/"
+"analytics/answer/3123666\" target=\"_blank\">enable User-ID</a> to take the "
+"full advantage of the Google Analytics feature."
+msgstr ""
+"Format shembull: <strong>UA-XXXXX-Y</strong>. Do të shihni vetëm të dhënat "
+"që kanë lidhje me drejtimet tuaja. Do t'ju duhet të <a href=\"https://"
+"support.google.com/analytics/answer/3123666\" target=\"_blank\">aktivizoni "
+"ID-në e Përdoruesit</a> për të përfituar avantazhet e plota të Analizës së "
+"të Dhënave në Google."
+
+#: views/aff/settings/edit.php:7 views/whitelabel/affs/edit.php:7
+#: views/whitelabel/users/edit.php:7
+msgid "Edit details"
+msgstr "Modifiko detajet"
+
+#: views/aff/settings/edit.php:8
+msgid "Edit your details here."
+msgstr "Modifikoni detajet tuaja këtu."
+
+#: views/aff/settings/edit.php:21
+msgid "Your login"
+msgstr "Identifikimi juaj"
+
+#: views/aff/settings/edit.php:25
+msgid "Your company"
+msgstr "Kompania juaj"
+
+#: views/aff/settings/edit.php:29
+msgid "Your first name"
+msgstr "Emri juaj"
+
+#: views/aff/settings/edit.php:33
+msgid "Your last name"
+msgstr "Mbiemri juaj"
+
+#: views/aff/settings/edit.php:38
+msgid "Your country"
+msgstr "Shteti juaj"
+
+#: views/aff/settings/edit.php:46
+msgid "Your city"
+msgstr "Qyteti juaj"
+
+#: views/aff/settings/edit.php:51 views/aff/settings/edit.php:55
+msgid "Your region"
+msgstr "Rajoni juaj"
+
+#: views/aff/settings/edit.php:61
+msgid "Your postal/ZIP code"
+msgstr "Kodi juaj postal/ZIP"
+
+#: views/aff/settings/edit.php:65
+msgid "Your address #1"
+msgstr "Adresa juaj #1"
+
+#: views/aff/settings/edit.php:69
+msgid "Your address #2"
+msgstr "Adresa juaj #2"
+
+#: views/aff/settings/edit.php:74
+msgid "Your birthdate"
+msgstr "Data e lindjes suaj"
+
+#: views/aff/settings/edit.php:78 views/whitelabel/affs/edit.php:98
+#: views/whitelabel/users/edit.php:70
+msgid "Phone prefix"
+msgstr "Prefiksi i telefonit"
+
+#: views/aff/settings/edit.php:80 views/whitelabel/affs/edit.php:100
+#: views/whitelabel/users/edit.php:72
+msgid "Choose a phone prefix"
+msgstr "Zgjidh një prefiks telefoni"
+
+#: views/aff/settings/edit.php:90
+msgid "Your phone"
+msgstr "Telefoni juaj"
+
+#: views/aff/settings/edit.php:95
+msgid "Choose timezone"
+msgstr "Zgjidh zonën kohore"
+
+#: views/aff/settings/password.php:7 views/whitelabel/affs/password.php:7
+#: views/whitelabel/settings/password.php:7
+#: views/whitelabel/users/password.php:7
+msgid "Change password"
+msgstr "Ndrysho fjalëkalimin"
+
+#: views/aff/settings/password.php:8
+msgid "You can change your password here."
+msgstr "Këtu mund të ndryshoni fjalëkalimin tuaj."
+
+#: views/aff/settings/payment.php:7
+msgid "Edit payment settings"
+msgstr "Modifiko cilësimet e pagesës"
+
+#: views/aff/settings/payment.php:8
+msgid "Edit your payment details here."
+msgstr "Modifikoni detajet e pagesës suaj këtu."
+
+#: views/aff/settings/payment.php:33 views/aff/settings/payment.php:56
+#: views/aff/settings/payment.php:71
+msgid "Enter first name"
+msgstr "Futni emrin"
+
+#: views/aff/settings/payment.php:37 views/aff/settings/payment.php:60
+#: views/aff/settings/payment.php:75
+msgid "Enter last name"
+msgstr "Futni mbiemrin"
+
+#: views/aff/settings/payment.php:41
+msgid "Enter your account IBAN number"
+msgstr "Futni numrin IBAN të llogarisë suaj"
+
+#: views/aff/settings/payment.php:45
+msgid "Enter your bank SWIFT code"
+msgstr "Futni kodin tuaj bankar SWIFT"
+
+#: views/aff/settings/payment.php:49
+msgid "Enter your bank name"
+msgstr "Futni emrin e bankës suaj"
+
+#: views/aff/settings/payment.php:64
+msgid "Enter Skrill e-mail"
+msgstr "Futni e-mail-in e Skrill"
+
+#: views/aff/settings/payment.php:79
+msgid "Enter Neteller e-mail"
+msgstr "Futni e-mail-in e Neteller"
+
+#: views/aff/settings/payment.php:85
+msgid "Enter first name (optional)"
+msgstr "Futni emrin (jo e detyrueshme)"
+
+#: views/aff/settings/payment.php:89
+msgid "Enter last name (optional)"
+msgstr "Futni mbiemrin (jo e detyrueshme)"
+
+#: views/aff/settings/payment.php:93
+msgid "Enter bitcoin wallet address"
+msgstr "Futni adresën e portofolit bitcoin"
+
+#: views/aff/settings/profile.php:8
+msgid "You can view and edit your details here."
+msgstr "Këtu mund të shihni dhe të modifikoni detajet tuaja."
+
+#: views/aff/settings/profile.php:13 views/aff/settings/profile.php:17
+#: views/aff/settings/profile.php:28 views/aff/settings/profile.php:30
+#: views/aff/settings/profile.php:32 views/aff/settings/profile.php:34
+#: views/aff/settings/profile.php:36 views/aff/settings/profile.php:38
+#: views/aff/settings/profile.php:40 views/aff/settings/profile.php:42
+#: views/aff/settings/profile.php:44 views/aff/settings/profile.php:49
+#: views/whitelabel/affs/view.php:14 views/whitelabel/affs/view.php:19
+#: views/whitelabel/affs/view.php:25 views/whitelabel/affs/view.php:36
+#: views/whitelabel/affs/view.php:38 views/whitelabel/affs/view.php:40
+#: views/whitelabel/affs/view.php:42 views/whitelabel/affs/view.php:44
+#: views/whitelabel/affs/view.php:46 views/whitelabel/affs/view.php:48
+#: views/whitelabel/affs/view.php:50 views/whitelabel/affs/view.php:52
+#: views/whitelabel/affs/view.php:57 views/whitelabel/settings/account.php:24
+#: views/whitelabel/tickets/view.php:16 views/whitelabel/tickets/view.php:18
+#: views/whitelabel/tickets/view.php:20
+#: views/whitelabel/transactions/view.php:14
+#: views/whitelabel/transactions/view.php:16
+#: views/whitelabel/transactions/withdrawal.php:14
+#: views/whitelabel/transactions/withdrawal.php:16
+#: views/whitelabel/users/view.php:14 views/whitelabel/users/view.php:23
+#: views/whitelabel/users/view.php:25 views/whitelabel/users/view.php:27
+#: views/whitelabel/users/view.php:29 views/whitelabel/users/view.php:31
+#: views/whitelabel/users/view.php:33 views/whitelabel/users/view.php:35
+#: views/whitelabel/users/view.php:37 views/whitelabel/users/view.php:39
+#: views/whitelabel/users/view.php:44 views/whitelabel/users/view.php:58
+msgid "-"
+msgstr "-"
+
+#: views/aff/settings/profile.php:19 views/aff/settings/profile.php:21
+#: views/whitelabel/affs/view.php:27 views/whitelabel/affs/view.php:29
+#: views/whitelabel/tickets/view.php:22 views/whitelabel/tickets/view.php:24
+#: views/whitelabel/transactions/view.php:18
+#: views/whitelabel/transactions/view.php:20
+#: views/whitelabel/transactions/withdrawal.php:18
+#: views/whitelabel/transactions/withdrawal.php:20
+#: views/whitelabel/transactions/withdrawal.php:51
+#: views/whitelabel/transactions/withdrawal.php:53
+#: views/whitelabel/users/view.php:16 views/whitelabel/users/view.php:18
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: views/aff/settings/profile.php:47 views/whitelabel/affs/view.php:55
+#: views/whitelabel/settings/account.php:20 views/whitelabel/users/view.php:42
+msgid "Change Password"
+msgstr "Ndrysho Fjalëkalimin"
+
+#: views/aff/settings/profile.php:50 views/whitelabel/affs/view.php:64
+#: views/whitelabel/settings/account.php:25 views/whitelabel/users/view.php:59
+msgid "Edit Details"
+msgstr "Modifiko Detajet"
+
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+#, php-format
+msgid "%s management panel"
+msgstr "%s paneli i menaxhimit"
+
+#: views/aff/shared/navbar.php:15 views/whitelabel/affs/menu.php:10
+#: views/whitelabel/shared/navbar.php:18
+msgid "Reports"
+msgstr "Raportet"
+
+#: views/aff/shared/navbar.php:16 views/whitelabel/affs/menu.php:18
+#: views/whitelabel/shared/navbar.php:20
+msgid "Settings"
+msgstr "Cilësimet"
+
+#: views/whitelabel/affs/commissions.php:8
+msgid "Here you can view the latest commissions of your affiliates."
+msgstr "Këtu mund të shihni komisionet më të fundit të të anëtarësuarve tuaj."
+
+#: views/whitelabel/affs/commissions.php:16
+#: views/whitelabel/affs/commissions.php:73
+#: views/whitelabel/affs/commissions.php:80 views/whitelabel/affs/edit.php:34
+#: views/whitelabel/affs/ftps.php:16 views/whitelabel/affs/ftps.php:68
+#: views/whitelabel/affs/ftps.php:75 views/whitelabel/affs/index.php:98
+#: views/whitelabel/affs/index.php:109 views/whitelabel/affs/leads.php:16
+#: views/whitelabel/affs/leads.php:72 views/whitelabel/affs/leads.php:81
+#: views/whitelabel/affs/payouts.php:16 views/whitelabel/affs/payouts.php:48
+#: views/whitelabel/affs/reports.php:24 views/whitelabel/affs/reports.php:79
+#: views/whitelabel/affs/reports.php:88 views/whitelabel/affs/reports.php:134
+#: views/whitelabel/affs/reports.php:141 views/whitelabel/affs/reports.php:191
+#: views/whitelabel/affs/reports.php:198 views/whitelabel/affs/view.php:17
+#: views/whitelabel/tickets/index.php:83
+#: views/whitelabel/transactions/index.php:71
+#: views/whitelabel/transactions/withdrawals.php:68
+#: views/whitelabel/users/aff.php:25 views/whitelabel/users/index.php:93
+#: views/whitelabel/users/index.php:108
+msgid "anonymous"
+msgstr "anonim"
+
+#: views/whitelabel/affs/commissions.php:55 views/whitelabel/affs/ftps.php:55
+#: views/whitelabel/affs/leads.php:58 views/whitelabel/affs/reports.php:65
+#: views/whitelabel/affs/reports.php:120 views/whitelabel/affs/reports.php:173
+msgid "User"
+msgstr "Përdoruesi"
+
+#: views/whitelabel/affs/commissions.php:76 views/whitelabel/affs/ftps.php:71
+#: views/whitelabel/affs/leads.php:75 views/whitelabel/affs/payouts.php:51
+#: views/whitelabel/affs/reports.php:82 views/whitelabel/affs/reports.php:137
+#: views/whitelabel/affs/reports.php:194 views/whitelabel/users/index.php:113
+msgid "View affiliate"
+msgstr "Shih të anëtarësuarin"
+
+#: views/whitelabel/affs/commissions.php:84 views/whitelabel/affs/ftps.php:79
+#: views/whitelabel/affs/leads.php:85 views/whitelabel/affs/reports.php:92
+#: views/whitelabel/affs/reports.php:145 views/whitelabel/affs/reports.php:202
+#: views/whitelabel/tickets/index.php:88 views/whitelabel/tickets/index.php:90
+#: views/whitelabel/tickets/index.php:92
+#: views/whitelabel/transactions/index.php:76
+#: views/whitelabel/transactions/index.php:78
+#: views/whitelabel/transactions/index.php:80
+msgid "View user"
+msgstr "Shih përdoruesin"
+
+#: views/whitelabel/affs/commissions.php:85 views/whitelabel/affs/ftps.php:80
+#: views/whitelabel/affs/leads.php:86 views/whitelabel/affs/reports.php:93
+#: views/whitelabel/affs/reports.php:146 views/whitelabel/affs/reports.php:203
+#: views/whitelabel/reports/index.php:49 views/whitelabel/reports/index.php:65
+#: views/whitelabel/reports/index.php:72 views/whitelabel/reports/index.php:78
+#: views/whitelabel/transactions/index.php:83
+#: views/whitelabel/transactions/view.php:743
+#: views/whitelabel/users/index.php:97
+msgid "View tickets"
+msgstr "Shih biletat"
+
+#: views/whitelabel/affs/commissions.php:90
+#: views/whitelabel/affs/reports.php:208 views/whitelabel/tickets/index.php:95
+msgid "View transaction"
+msgstr "Shih transaksionin"
+
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/index.php:145 views/whitelabel/affs/leads.php:97
+#: views/whitelabel/transactions/index.php:116
+msgid "Accept"
+msgstr "Prano"
+
+#: views/whitelabel/affs/edit.php:8
+msgid "Edit affiliate details here."
+msgstr "Modifiko detajet e të anëtarësuarit këtu."
+
+#: views/whitelabel/affs/edit.php:22 views/whitelabel/affs/groups.php:28
+#: views/whitelabel/affs/groups_edit.php:7 views/whitelabel/affs/index.php:35
+#: views/whitelabel/affs/index.php:116 views/whitelabel/affs/new.php:22
+#: views/whitelabel/affs/view.php:23
+msgid "Default Group"
+msgstr "Grupi i Parazgjedhur"
+
+#: views/whitelabel/affs/edit.php:31
+msgid "Choose parent"
+msgstr "Zgjidh prindin"
+
+#: views/whitelabel/affs/edit.php:41
+msgid "User company"
+msgstr "Kompania e përdoruesit"
+
+#: views/whitelabel/affs/edit.php:45 views/whitelabel/affs/new.php:30
+msgid "Enter login"
+msgstr "Fut identifikimin"
+
+#: views/whitelabel/affs/edit.php:49 views/whitelabel/users/edit.php:21
+msgid "User first name"
+msgstr "Emri i përdoruesit"
+
+#: views/whitelabel/affs/edit.php:53 views/whitelabel/users/edit.php:25
+msgid "User last name"
+msgstr "Mbiemri i përdoruesit"
+
+#: views/whitelabel/affs/edit.php:58 views/whitelabel/users/edit.php:30
+msgid "Choose user country"
+msgstr "Zgjidh shtetin e përdoruesit"
+
+#: views/whitelabel/affs/edit.php:66 views/whitelabel/users/edit.php:38
+msgid "User city"
+msgstr "Qyteti i përdoruesit"
+
+#: views/whitelabel/affs/edit.php:71 views/whitelabel/affs/edit.php:75
+#: views/whitelabel/users/edit.php:43 views/whitelabel/users/edit.php:47
+msgid "Choose user region"
+msgstr "Zgjidh rajonin e përdoruesit"
+
+#: views/whitelabel/affs/edit.php:81 views/whitelabel/users/edit.php:53
+msgid "User Postal/ZIP Code"
+msgstr "Kodi Postal/ZIP i Përdoruesit"
+
+#: views/whitelabel/affs/edit.php:85 views/whitelabel/users/edit.php:57
+msgid "User address #1"
+msgstr "Adresa #1 e përdoruesit"
+
+#: views/whitelabel/affs/edit.php:89 views/whitelabel/users/edit.php:61
+msgid "User address #2"
+msgstr "Adresa #2 e përdoruesit"
+
+#: views/whitelabel/affs/edit.php:94 views/whitelabel/users/edit.php:66
+msgid "User birthdate"
+msgstr "Data e lindjes së përdoruesit"
+
+#: views/whitelabel/affs/edit.php:110 views/whitelabel/users/edit.php:82
+msgid "User phone"
+msgstr "Telefoni i përdoruesit"
+
+#: views/whitelabel/affs/edit.php:115 views/whitelabel/users/edit.php:87
+msgid "Choose time zone"
+msgstr "Zgjidh zonën kohore"
+
+#: views/whitelabel/affs/email.php:7 views/whitelabel/users/email.php:7
+msgid "Edit e-mail"
+msgstr "Modifiko e-mail-in"
+
+#: views/whitelabel/affs/email.php:8
+msgid "You can edit affiliate e-mail here."
+msgstr "Këtu mund të modifikoni e-mail-in e të anëtarësuarit."
+
+#: views/whitelabel/affs/email.php:21 views/whitelabel/users/email.php:21
+msgid "New e-mail"
+msgstr "E-mail i ri"
+
+#: views/whitelabel/affs/ftps.php:8
+msgid ""
+"Here you can view the latest first-time purchases of your affiliate leads."
+msgstr ""
+"Këtu mund të shihni blerjet më të fundit që janë bërë për herë të parë nga "
+"drejtimet e të anëtarësuarve tuaj."
+
+#: views/whitelabel/affs/groups.php:10 views/whitelabel/affs/menu.php:17
+msgid "Affiliate groups"
+msgstr "Grupet e të anëtarësuarve"
+
+#: views/whitelabel/affs/groups.php:11
+msgid "You can manage affiliate groups here."
+msgstr "Këtu mund të menaxhoni grupet e të anëtarësuarve."
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "Edit affiliate group"
+msgstr "Modifiko grupin e të anëtarësuarve"
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "New affiliate group"
+msgstr "Grup i ri të anëtarësuarish"
+
+#: views/whitelabel/affs/groups_edit.php:8
+msgid "You can add or edit affiliate group here."
+msgstr "Këtu mund të shtoni apo të modifikoni grupin e të anëtarësuarve."
+
+#: views/whitelabel/affs/groups_edit.php:29
+#: views/whitelabel/affs/groups_edit.php:44
+#: views/whitelabel/affs/groups_edit.php:58
+#: views/whitelabel/affs/groups_edit.php:65
+msgid "Enter commission value"
+msgstr "Fut vlerën e komisionit"
+
+#: views/whitelabel/affs/index.php:13
+msgid "You can manage your affiliates here."
+msgstr "Këtu mund të menaxhoni të anëtarësuarit tuaj."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "How to open in Excel"
+msgstr "Si ta hapni në Excel"
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid ""
+"1. Download and save the file.<br>2. Open Excel and create new file.<br>3. "
+"Choose <i>Data->From Text</i> from <i>Get External Data</i> section.<br>4. "
+"Navigate and choose saved file.<br>5. Choose <i>Delimited</i>, file origin "
+"<i>Unicode (UTF-8)</i>, check <i>My data has headers.</i><br>6. On next step "
+"choose only <i>Comma</i> as the delimiter.<br>7. You can adjust some format "
+"settings in the last step (for best results you should set all columns to "
+"<i>Text</i> type instead of <i>General</i>).<br>8. Click <i>Finish</i> and "
+"choose data placement."
+msgstr ""
+"1. Shkarkojeni dhe ruajeni dokumentin.<br>2. Hapni Excel dhe krijoni një "
+"dokument të ri.<br>3. Zgjidhni <i>Data->From Text</i> nga seksioni <i>Get "
+"External Data</i>.<br>4. Navigoni dhe zgjidhni dokumentin e ruajtur.<br>5. "
+"Zgjidhni <i>Delimited</i>, origjinën e dokumentit <i>Unicode (UTF-8)</i>, "
+"check-oni <i>My data has headers.</i><br>6. Në hapin tjetër zgjidhni vetëm "
+"<i>Comma</i> si delimitues.<br>7. Mund të rregulloni disa cilësime formatimi "
+"në hapin e fundit (për rezultatin më të mirë duhet t'i vendosni të gjitha "
+"kolonat në llojin <i>Text</i> në vend të <i>General</i>).<br>8. Klikoni "
+"<i>Finish</i> dhe zgjidhni vendosjen e të dhënave."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "Export View to CSV"
+msgstr "Eksporto Pamjen në CSV"
+
+#: views/whitelabel/affs/index.php:82
+msgid "Created"
+msgstr "U krijua"
+
+#: views/whitelabel/affs/index.php:83
+msgid "Last Active<br>IP<br>Country"
+msgstr "Aktiv për herë të fundit<br>IP<br>Shteti"
+
+#: views/whitelabel/affs/index.php:85 views/whitelabel/users/index.php:81
+msgid "Date Deleted"
+msgstr "Data e fshirjes"
+
+#: views/whitelabel/affs/index.php:89 views/whitelabel/users/index.php:111
+msgid "Accepted"
+msgstr "U pranua"
+
+#: views/whitelabel/affs/index.php:140 views/whitelabel/users/index.php:143
+msgid "Restore"
+msgstr "Rikthe"
+
+#: views/whitelabel/affs/index.php:143 views/whitelabel/users/index.php:146
+msgid "Activate"
+msgstr "Aktivizo"
+
+#: views/whitelabel/affs/index.php:147 views/whitelabel/tickets/index.php:157
+#: views/whitelabel/transactions/index.php:113
+#: views/whitelabel/transactions/withdrawals.php:95
+#: views/whitelabel/users/index.php:148
+msgid "Details"
+msgstr "Detajet"
+
+#: views/whitelabel/affs/index.php:159
+msgid "No affiliates."
+msgstr "Nuk ka të anëtarësuar."
+
+#: views/whitelabel/affs/leads.php:8
+msgid "Here you can view your affiliates latest leads."
+msgstr "Këtu mund të shihni drejtimet më të fundit të të anëtarësuarve tuaj."
+
+#: views/whitelabel/affs/menu.php:2
+msgid "Active & Accepted"
+msgstr "Aktiv & I Pranuar"
+
+#: views/whitelabel/affs/menu.php:5 views/whitelabel/tickets/index.php:86
+#: views/whitelabel/transactions/index.php:74
+#: views/whitelabel/transactions/withdrawals.php:71
+#: views/whitelabel/users/index.php:112
+msgid "Deleted"
+msgstr "I Fshirë"
+
+#: views/whitelabel/affs/new.php:7
+msgid "New affiliate"
+msgstr "I anëtarësuar i ri"
+
+#: views/whitelabel/affs/new.php:8
+msgid "You can add new affiliate here."
+msgstr "Këtu mund të shtoni të anëtarësuarin e ri."
+
+#: views/whitelabel/affs/new.php:34
+#: views/whitelabel/settings/account_edit.php:29
+msgid "Enter e-mail"
+msgstr "Futni e-mail-in"
+
+#: views/whitelabel/affs/password.php:8
+msgid "You can change affiliate password here."
+msgstr "Këtu mund të ndryshoni fjalëkalimin e të anëtarësuarit."
+
+#: views/whitelabel/affs/payouts.php:39
+msgid "Payment"
+msgstr "Pagesa"
+
+#: views/whitelabel/affs/payouts.php:64
+msgid "Bank Account"
+msgstr "Llogaria Bankare"
+
+#: views/whitelabel/affs/payouts.php:66 views/whitelabel/affs/payouts.php:73
+#: views/whitelabel/affs/payouts.php:78 views/whitelabel/affs/payouts.php:86
+msgid "Surname"
+msgstr "Mbiemri"
+
+#: views/whitelabel/affs/payouts.php:67
+msgid "Account Number"
+msgstr "Numri i Llogarisë"
+
+#: views/whitelabel/affs/payouts.php:68
+msgid "SWIFT Code"
+msgstr "Kodi SWIFT"
+
+#: views/whitelabel/affs/payouts.php:69
+msgid "Bank Name"
+msgstr "Emri i Bankës"
+
+#: views/whitelabel/affs/payouts.php:88
+#: views/whitelabel/transactions/view.php:531
+msgid "Bitcoin Address"
+msgstr "Adresa e Bitcoin"
+
+#: views/whitelabel/affs/payouts.php:91
+msgid "Not defined"
+msgstr "I papërcaktuar"
+
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/view.php:145
+msgid "Mark as paid out"
+msgstr "Shënoje të paguar"
+
+#: views/whitelabel/affs/settings.php:7
+msgid "Affiliate settings"
+msgstr "Cilësimet e të anëtarësuarve"
+
+#: views/whitelabel/affs/settings.php:8
+msgid "You can adjust affiliate settings here."
+msgstr "Këtu mund të rregulloni cilësimet e të anëtarësuarit."
+
+#: views/whitelabel/affs/view.php:7
+msgid "Affiliate details"
+msgstr "Detajet e të anëtarësuarit"
+
+#: views/whitelabel/affs/view.php:8
+msgid "You can view and edit affiliate details here."
+msgstr "Këtu mund të shihni dhe të modifikoni detajet e të anëtarësuarit."
+
+#: views/whitelabel/affs/view.php:34 views/whitelabel/users/view.php:21
+msgid "Edit E-mail"
+msgstr "Modifiko E-mail-in"
+
+#: views/whitelabel/affs/view.php:60 views/whitelabel/users/view.php:51
+msgid "Last IP"
+msgstr "IP e fundit"
+
+#: views/whitelabel/reports/index.php:8
+msgid "Here you can view information about draw winners."
+msgstr "Këtu mund të shihni informacion rreth fituesve të shortit."
+
+#: views/whitelabel/reports/index.php:18
+msgid "Date Processed"
+msgstr "Data e Procesimit"
+
+#: views/whitelabel/reports/index.php:20
+msgid "Total Winners"
+msgstr "Fitues në Total"
+
+#: views/whitelabel/reports/index.php:21
+msgid "Total Prizes"
+msgstr "Çmimet në Total"
+
+#: views/whitelabel/reports/index.php:22
+msgid "Site Winners (Tickets/Lines)"
+msgstr "Fituesit e Faqes (Biletat/Rreshtat)"
+
+#: views/whitelabel/reports/index.php:23
+msgid "Site Prizes"
+msgstr "Çmimet e Faqes"
+
+#: views/whitelabel/reports/index.php:24
+msgid "Paid Out Tickets/Lines"
+msgstr "Biletat/Rreshtat e Paguar"
+
+#: views/whitelabel/reports/index.php:25
+msgid "Awaiting Tickets/Lines"
+msgstr "Duke Pritur Biletat/Rreshtat"
+
+#: views/whitelabel/reports/index.php:26
+msgid "Site No-Winners (Tickets/Lines)"
+msgstr "Jo-Fituesit e Faqes (Biletat/Rreshtat)"
+
+#: views/whitelabel/reports/index.php:40 views/whitelabel/reports/index.php:55
+msgid "Jackpots"
+msgstr "Jackpot-et"
+
+#: views/whitelabel/reports/index.php:43 views/whitelabel/reports/index.php:58
+msgid "Quick Picks"
+msgstr "Zgjedhjet e Shpejta"
+
+#: views/whitelabel/reports/index.php:88
+msgid "No winners data."
+msgstr "Nuk ka të dhëna për fituesit."
+
+#: views/whitelabel/reports/reports.php:44
+msgid "New Users (Active)"
+msgstr "Përdorues të Rinj (Aktivë)"
+
+#: views/whitelabel/reports/reports.php:48
+msgid ""
+"New <span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> "
+"Users"
+msgstr ""
+"Përdorues të rinj <span data-toggle=\"tooltip\" title=\"Blerje e Herë së Parë"
+"\">BHP</span>"
+
+#: views/whitelabel/reports/reports.php:52
+msgid "Sold Tickets"
+msgstr "Biletat e Shitura"
+
+#: views/whitelabel/reports/reports.php:56
+msgid "Deposits Sum"
+msgstr "Shuma e Depozitave"
+
+#: views/whitelabel/reports/reports.php:60
+msgid "Sales Sum"
+msgstr "Shuma e Shitjeve"
+
+#: views/whitelabel/reports/reports.php:64
+msgid "Deposits sum by currency"
+msgstr "Shuma e depozitave sipas monedhës"
+
+#: views/whitelabel/reports/reports.php:71
+msgid "Sales sum by currency"
+msgstr "Shuma e shitjeve sipas monedhës"
+
+#: views/whitelabel/settings/account.php:8
+msgid "You can change your account settings here."
+msgstr "Këtu mund të ndryshoni cilësimet e llogarisë suaj."
+
+#: views/whitelabel/settings/account_edit.php:7
+msgid "Edit account settings"
+msgstr "Modifiko cilësimet e llogarisë"
+
+#: views/whitelabel/settings/account_edit.php:8
+msgid "You can edit your account settings here."
+msgstr "Këtu mund të modifikoni cilësimet e llogarisë suaj."
+
+#: views/whitelabel/settings/account_edit.php:21
+msgid "Enter username"
+msgstr "Futni emrin e përdoruesit"
+
+#: views/whitelabel/settings/account_edit.php:25
+msgid "Enter realname"
+msgstr "Fut emrin e vërtetë"
+
+#: views/whitelabel/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will have to <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">enable User-ID</a> to take the full advantage of the Google Analytics "
+"feature."
+msgstr ""
+"Format shembull: <strong>UA-XXXXX-Y</strong>. Do t'ju duhet të <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">aktivizoni ID-në e Përdoruesit</a> për të përfituar avantazhet e plota të "
+"Analizës së të Dhënave në Google."
+
+#: views/whitelabel/settings/ccsettings.php:8
+msgid "Here you can manage Credit Card payment methods settings."
+msgstr ""
+"Këtu mund të menaxhoni cilësimet e mënyrave të pagesës me Kartë Krediti."
+
+#: views/whitelabel/settings/ccsettings.php:43
+msgid "No Credit Card payment methods."
+msgstr "Nuk ka mënyra pagese me Kartë Krediti."
+
+#: views/whitelabel/settings/ccsettings_edit.php:8
+msgid "Here you can add or edit Credit Card payment methods."
+msgstr ""
+"Këtu mund të shtoni apo të modifikoni mënyrat e pagesës me Kartë Krediti."
+
+#: views/whitelabel/settings/ccsettings_edit.php:22
+msgid "Choose gateway"
+msgstr "Zgjidh portën"
+
+#: views/whitelabel/settings/ccsettings_edit.php:31
+msgid "eMerchantPay Gateway Settings"
+msgstr "Cilësimet e Portës eMerchantPay"
+
+#: views/whitelabel/settings/ccsettings_edit.php:34
+msgid "Enter Account ID"
+msgstr "Futni ID e Llogarisë"
+
+#: views/whitelabel/settings/ccsettings_edit.php:35
+msgid ""
+"Given by eMerchantPay or visible in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+msgstr ""
+"E dhënë nga eMerchantPay ose e dukshme në llogarinë tuaj eMerchantPay: "
+"<strong>Llogaria &gt; Llogaria Ime &gt; Tabi i detajeve &gt; Paneli i "
+"Detajeve të Llogarisë &gt; ID e Llogarisë</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:40
+msgid ""
+"Given by eMerchantPay or set up in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+msgstr ""
+"E dhënë nga eMerchantPay ose e vendosur në llogarinë tuaj eMerchantPay: "
+"<strong>Llogaria &gt; Llogaria Ime &gt; Tabi i eCommerce &gt; Paneli API "
+"&gt; Çelëso API</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:44
+msgid "Enter endpoint URL"
+msgstr "Futni URL-në e pikës së mbarimit"
+
+#: views/whitelabel/settings/ccsettings_edit.php:45
+msgid ""
+"Probably <strong>https://my.emerchantpay.com</strong>. Please consult with "
+"eMerchantPay."
+msgstr ""
+"Me shumë mundësi <strong>https://my.emerchantpay.com</strong>. Ju lutem "
+"konsultohuni me eMerchantPay."
+
+#: views/whitelabel/settings/ccsettings_edit.php:49
+msgid "Enter secret key"
+msgstr "Futni çelësin sekret"
+
+#: views/whitelabel/settings/ccsettings_edit.php:50
+#, php-format
+msgid ""
+"Can be read or set up in your eMerchantPay account: <strong>Account &gt; My "
+"Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Also, please ensure the field <strong>Account &gt; My Account &gt; "
+"eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; Merchant "
+"Notification URL</strong> is set to <strong>%s</strong> and the following "
+"server notifications (<strong>Account &gt; My Account &gt; Notifications tab "
+"&gt; Server Notifications panel</strong>) are enabled: <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+msgstr ""
+"Mund të lexohet ose të vendoset në llogarinë tuaj eMerchantPay: "
+"<strong>Llogaria &gt; Llogaria Ime &gt; Tabi Format e Pagesës &gt; Paneli "
+"Format e Pagesës &gt; Çelësi Sekret</strong>. Gjithashtu, ju lutem "
+"sigurohuni që fusha <strong>Llogaria &gt; Llogaria IME &gt; Tabi eCommerce "
+"&gt; Paneli eCommerce &gt; Nënpaneli i Lajmërimeve &gt; URL e Lajmërimeve të "
+"Tregtarit</strong> është e vendosur si <strong>%s</strong> dhe lajmërimet e "
+"serverit që vijojnë (<strong>Llogaria &gt; Llogaria Ime &gt; Tabi i "
+"Lajmërimeve &gt; Paneli i Lajmërimeve të Serverit</strong>) janë të "
+"aktivizuara: <strong>Porosi e Suksesshme, Porosi në Pritje, Porosi e "
+"Refuzuar, Porosi e Dështuar</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:56
+msgid "Enter minimum order"
+msgstr "Futni porosinë minimale"
+
+#: views/whitelabel/settings/ccsettings_edit.php:58
+msgid ""
+"Should be the same as value in your eMerchantPay account: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [choose specific account] "
+"&gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; Minimum "
+"Amount per TX</strong>."
+msgstr ""
+"Duhet të jetë njësoj me vlerën në llogarinë tuaj eMerchantPay: "
+"<strong>Llogaria &gt; Llogaria Ime &gt; Tabi i Pragjeve &gt; Paneli i "
+"Limiteve të Transaksioneve Individuale &gt; Sasia Minimale për TX</strong> "
+"dhe/ose <strong> Llogaria &gt; Llogaria Ime &gt; Tabi i Detajeve &gt; Paneli "
+"i Aksesit të Llogarisë &gt; [zgjidh llogarinë specifike] &gt; Tabi i "
+"Pragjeve &gt; Paneli i Limiteve të Transaksioneve Individuale &gt; Sasia "
+"Minimale për TX</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:62
+msgid "Enter descriptor"
+msgstr "Futni deskriptorin"
+
+#: views/whitelabel/settings/index.php:8
+msgid "You can change site settings here."
+msgstr "Këtu mund të ndryshoni cilësimet e faqes së internetit."
+
+#: views/whitelabel/settings/index.php:22
+msgid "Auto-adjusted by user IP country"
+msgstr "Përshtatur automatikisht sipas IP-së vendit të përdoruesit"
+
+#: views/whitelabel/settings/index.php:27
+msgid ""
+"Default currency for English language for users that do not have country set "
+"up in their profile."
+msgstr ""
+"Monedha e paracaktuar për përdoruesit e gjuhës angleze të cilët nuk e kanë "
+"shtetin të përcaktuar në profilin e tyre."
+
+#: views/whitelabel/settings/index.php:30
+msgid "Activation Type"
+msgstr "Lloji i Aktivizimit"
+
+#: views/whitelabel/settings/index.php:32
+msgid "No activation"
+msgstr "Nuk ka aktivizim"
+
+#: views/whitelabel/settings/index.php:33
+msgid "Activation optional"
+msgstr "Aktivizimi jo i detyrueshëm"
+
+#: views/whitelabel/settings/index.php:34
+msgid "Activation required"
+msgstr "Aktivizimi i detyrueshëm"
+
+#: views/whitelabel/settings/index.php:36
+msgid ""
+"Be aware that changing the e-mail activation type from no activation or "
+"optional level to required level will make all your not-confirmed users "
+"inactive! In other way, changing activation type from required level to "
+"optional or no activation level will make all your not-confirmed users "
+"active!"
+msgstr ""
+"Kini parasysh se ndërrimi i llojit të aktivizimit të e-mail-it nga niveli pa "
+"aktivizim apo jo i detyrueshëm në nivel të detyrueshëm do t'i bëjë joaktivë "
+"të gjithë përdoruesit tuaj të pakonfirmuar! Nga ana tjetër, ndryshimi i "
+"llojit të aktivizimit nga niveli i detyrueshëm në nivel jo të detyrueshëm "
+"apo pa aktivizim do t'i bëjë aktivë të gjithë përdoruesit tuaj të "
+"pakonfirmuar!"
+
+#: views/whitelabel/settings/index.php:42
+msgid "Enter maximum automatic payout"
+msgstr "Futni pagesën automatike maksimale"
+
+#: views/whitelabel/settings/index.php:49
+msgid "Enter minimum payment amount"
+msgstr "Futni shumën minimale të pagesës"
+
+#: views/whitelabel/settings/index.php:56
+msgid "Enter minimum deposit amount"
+msgstr "Futni shumën minimale të depozitës"
+
+#: views/whitelabel/settings/index.php:63
+msgid "Enter minimum withdrawal amount"
+msgstr "Futni shumën minimale të tërheqjes"
+
+#: views/whitelabel/settings/index.php:70
+msgid "Enter maximum order amount"
+msgstr "Futni sasinë maksimale të porosisë"
+
+#: views/whitelabel/settings/index.php:75
+msgid "Enter maximum order items count"
+msgstr "Futni numrin maksimal të artikujve të porositur"
+
+#: views/whitelabel/settings/lottery.php:8
+#: views/whitelabel/settings/lottery_edit.php:8
+msgid "You can change lottery settings here."
+msgstr "Këtu mund të ndryshoni cilësimet e lotarisë."
+
+#: views/whitelabel/settings/lottery.php:21
+msgid "Line Price"
+msgstr "Çmimi i Rreshtit"
+
+#: views/whitelabel/settings/lottery.php:34
+msgid "Imvalap"
+msgstr "Imvalap"
+
+#: views/whitelabel/settings/lottery.php:35
+msgid "Lottorisq"
+msgstr "Lottorisq"
+
+#: views/whitelabel/settings/lottery.php:36
+msgid "Insurance/None"
+msgstr "Sigurimi/Asnjë"
+
+#: views/whitelabel/settings/lottery_edit.php:22
+msgid "All tickets bought before disabling a lottery will be processed."
+msgstr ""
+"Të gjitha biletat e blera para çaktivizimit të një lotarie do të procesohen."
+
+#: views/whitelabel/settings/lottery_edit.php:47
+msgid "Enter minimum lines count"
+msgstr "Futni numrin minimal të rreshtave"
+
+#: views/whitelabel/settings/lottery_edit.php:48
+#, php-format
+msgid ""
+"The value has to be a multiple of <span>X</span> due to our ticket "
+"provider's limits."
+msgstr ""
+"Vlera duhet të jetë një shumëfish i <span>X</span> për shkak të limiteve të "
+"ofruesit tonë të biletave."
+
+#: views/whitelabel/settings/lottery_edit.php:54
+msgid "Enter line price"
+msgstr "Futni çmimin e rreshtit"
+
+#: views/whitelabel/settings/password.php:8
+msgid "You can edit your password here."
+msgstr "Këtu mund të modifikoni fjalëkalimin tuaj."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid "Here you can view and manage site payment methods."
+msgstr "Këtu mund të shihni dhe të menaxhoni mënyrat e pagesës së faqes."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid ""
+"The default payments are those from English language. You don't have to "
+"specify every payment method for every language if they are the same."
+msgstr ""
+"Pagesat e paracaktuara janë ato të gjuhës angleze. Nuk është nevoja të "
+"specifikoni çdo mënyrë pagese për çdo gjuhë nëse ato janë të njëjta."
+
+#: views/whitelabel/settings/paymentmethods.php:50
+msgid "No payment methods."
+msgstr "Nuk ka mënyra pagese."
+
+#: views/whitelabel/settings/paymentmethods_edit.php:79
+#, php-format
+msgid ""
+"Optional for non-shared accounts - improves payment confirmation speed. Can "
+"be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; Webhooks</"
+"strong>. You should set the <strong>Webhook URL</strong> to <strong>%s</"
+"strong> and check following hooks: <strong>payment_cancelled</strong>, "
+"<strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Jo e detyrueshme për llogaritë jo të ndara - përmirëson shpejtësinë e "
+"konfirmimit të pagesës. Mund të vendoset te <strong>Paneli i Tregtarit në "
+"Neteller &gt; Zhvilluesi &gt; Webhooks</strong>. Duhet ta vendosni "
+"<strong>Webhook URL</strong> në <strong>%s</strong> dhe të kontrolloni hooks "
+"që vijojnë: <strong>pagesa_anulluar</strong>, <strong>pagesa_refuzuar</"
+"strong>, <strong>pagesa_dështuar</strong>, <strong>pagesa_sukses</strong>."
+
+#: views/whitelabel/shared/navbar.php:15
+msgid "Users"
+msgstr "Përdoruesit"
+
+#: views/whitelabel/shared/navbar.php:16
+msgid "Transactions"
+msgstr "Transaksionet"
+
+#: views/whitelabel/shared/navbar.php:24
+msgid "Support"
+msgstr "Mbështetje"
+
+#: views/whitelabel/tickets/index.php:8
+msgid "Here you can view and manage users' tickets."
+msgstr "Këtu mund të shihni dhe të menaxhoni biletat e përdoruesve."
+
+#: views/whitelabel/tickets/index.php:21 views/whitelabel/tickets/index.php:70
+#: views/whitelabel/tickets/view.php:43 views/whitelabel/tickets/view.php:94
+#: views/whitelabel/tickets/view.php:107
+#: views/whitelabel/transactions/index.php:25
+#: views/whitelabel/transactions/index.php:60
+#: views/whitelabel/transactions/view.php:49
+#: views/whitelabel/transactions/view.php:358
+#: views/whitelabel/transactions/view.php:527
+#: views/whitelabel/transactions/view.php:623
+#: views/whitelabel/transactions/view.php:729
+#: views/whitelabel/transactions/withdrawal.php:37
+#: views/whitelabel/transactions/withdrawals.php:21
+#: views/whitelabel/transactions/withdrawals.php:60
+msgid "Status"
+msgstr "Statusi"
+
+#: views/whitelabel/tickets/index.php:22 views/whitelabel/tickets/index.php:120
+#: views/whitelabel/tickets/view.php:46 views/whitelabel/tickets/view.php:59
+#: views/whitelabel/tickets/view.php:97
+#: views/whitelabel/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:101
+#: views/whitelabel/transactions/view.php:52
+#: views/whitelabel/transactions/withdrawal.php:40
+#: views/whitelabel/transactions/withdrawals.php:22
+#: views/whitelabel/transactions/withdrawals.php:86
+msgid "Pending"
+msgstr "Në pritje"
+
+#: views/whitelabel/tickets/index.php:23 views/whitelabel/tickets/index.php:122
+#: views/whitelabel/tickets/view.php:48
+msgid "Win"
+msgstr "Fitore"
+
+#: views/whitelabel/tickets/index.php:24 views/whitelabel/tickets/index.php:124
+#: views/whitelabel/tickets/view.php:50 views/whitelabel/tickets/view.php:109
+msgid "No winnings"
+msgstr "Nuk ka fitore"
+
+#: views/whitelabel/tickets/index.php:25 views/whitelabel/tickets/index.php:126
+#: views/whitelabel/tickets/index.php:144 views/whitelabel/tickets/view.php:52
+#: views/whitelabel/tickets/view.php:83 views/whitelabel/tickets/view.php:132
+msgid "Quick Pick"
+msgstr "Zgjedhje e Shpejtë"
+
+#: views/whitelabel/tickets/index.php:48
+#: views/whitelabel/transactions/index.php:39
+#: views/whitelabel/transactions/withdrawals.php:36
+msgid "User E-mail"
+msgstr "E-mail-i i Përdoruesit"
+
+#: views/whitelabel/tickets/index.php:63
+#: views/whitelabel/transactions/index.php:53
+#: views/whitelabel/transactions/withdrawals.php:50
+msgid "User ID &bull; User Name"
+msgstr "ID e Përdoruesit &bull; Emri i Përdoruesit"
+
+#: views/whitelabel/tickets/index.php:73 views/whitelabel/tickets/view.php:64
+msgid "Lines"
+msgstr "Rreshtat"
+
+#: views/whitelabel/tickets/index.php:103 views/whitelabel/tickets/view.php:38
+msgid "Free"
+msgstr "Falas"
+
+#: views/whitelabel/tickets/index.php:114
+msgid "Valid to"
+msgstr "I vlefshëm deri"
+
+#: views/whitelabel/tickets/index.php:128 views/whitelabel/tickets/view.php:53
+msgid "Expired"
+msgstr "I skaduar"
+
+#: views/whitelabel/tickets/index.php:167
+msgid "No tickets."
+msgstr "Nuk ka bileta."
+
+#: views/whitelabel/tickets/view.php:7
+msgid "Ticket details"
+msgstr "Detajet e biletës"
+
+#: views/whitelabel/tickets/view.php:8
+msgid "Here you can view ticket details."
+msgstr "Këtu mund të shihni detajet e biletës."
+
+#: views/whitelabel/tickets/view.php:75
+msgid "none"
+msgstr "asnjë"
+
+#: views/whitelabel/tickets/view.php:87 views/whitelabel/tickets/view.php:124
+msgid "Net"
+msgstr "Neto"
+
+#: views/whitelabel/tickets/view.php:99
+msgid "Pay out to user balance"
+msgstr "Paguaj në balancën e përdoruesit"
+
+#: views/whitelabel/tickets/view.php:117
+msgid "Total Prize"
+msgstr "Çmimi Total"
+
+#: views/whitelabel/tickets/view.php:136
+msgid "Slip images"
+msgstr "Figurat e biletës"
+
+#: views/whitelabel/tickets/view.php:145
+msgid ""
+"Are you sure? The 'mark as paid out' function will not automatically pay out "
+"the lines to the user and will not increase user balance. It will only mark "
+"the tickets and lines as paid out. Also, the Quick Pick lines will not be "
+"marked as paid out as they are paid out automatically after some time. This "
+"function is intended to be used only with bigger prizes which are not "
+"automatically paid out. If you want to pay out the lines to the user balance "
+"please use 'Pay out to user balance' button within specific line."
+msgstr ""
+"Jeni të sigurtë? Funksioni 'shënoje si të paguar' nuk do t'i paguajë "
+"rreshtat përdoruesit automatikisht dhe nuk do ta rrisë balancën e "
+"përdoruesit. Ky funksion vetëm do të shënojë biletat dhe rreshtat si të "
+"paguara. Gjithashtu, rreshtat e Zgjedhjes së Shpejtë nuk do të shënohen si "
+"të paguara pasi ato paguhen automaikisht pas një farë kohe. Ky funksion ka "
+"për qëllim të përdoret vetëm me çmime më të mëdha të cilat nuk paguhen "
+"automatikisht. Nëse doni t'i paguani rreshtat balancës së përdoruesit ju "
+"lute përdorni butonin 'Paguaj në balancën e përdoruesit' brenda rreshtit "
+"specifik."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' non-deposit transactions."
+msgstr ""
+"Këtu mund të shihni dhe të menaxhoni transaksionet që nuk kanë lidhje me "
+"depozitën të përdoruesve tuaj."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' deposit transactions."
+msgstr ""
+"Këtu mund të shihni dhe të menaxhoni transaksionet e depozitës të "
+"përdoruesve tuaj."
+
+#: views/whitelabel/transactions/index.php:27
+#: views/whitelabel/transactions/index.php:103
+#: views/whitelabel/transactions/view.php:54
+#: views/whitelabel/transactions/withdrawal.php:42
+#: views/whitelabel/transactions/withdrawals.php:23
+#: views/whitelabel/transactions/withdrawals.php:88
+msgid "Approved"
+msgstr "Miratuar"
+
+#: views/whitelabel/transactions/index.php:28
+#: views/whitelabel/transactions/index.php:105
+#: views/whitelabel/transactions/view.php:56
+#: views/whitelabel/transactions/view.php:601
+msgid "Error"
+msgstr "Gabim"
+
+#: views/whitelabel/transactions/index.php:59
+#: views/whitelabel/transactions/view.php:26
+msgid "Date confirmed"
+msgstr "Data e konfirmuar"
+
+#: views/whitelabel/transactions/index.php:62
+msgid "Tickets/Processed"
+msgstr "Biletat/Të procesuara"
+
+#: views/whitelabel/transactions/index.php:130
+msgid "No transactions."
+msgstr "Nuk ka transaksione."
+
+#: views/whitelabel/transactions/view.php:7
+msgid "Transaction details"
+msgstr "Detajet e transaksionit"
+
+#: views/whitelabel/transactions/view.php:8
+msgid "You can view transaction details here."
+msgstr "Këtu mund të shihni detajet e transaksionit."
+
+#: views/whitelabel/transactions/view.php:60
+msgid "Payment ID"
+msgstr "ID e pagesës"
+
+#: views/whitelabel/transactions/view.php:64
+msgid "eMerchantPay"
+msgstr "eMerchantPay"
+
+#: views/whitelabel/transactions/view.php:66
+msgid "Order date"
+msgstr "Data e porosisë"
+
+#: views/whitelabel/transactions/view.php:70
+msgid "Order total"
+msgstr "Totali i porosisë"
+
+#: views/whitelabel/transactions/view.php:74
+msgid "Order currency"
+msgstr "Monedha e porosisë"
+
+#: views/whitelabel/transactions/view.php:78
+msgid "Order status"
+msgstr "Statusi i porosisë"
+
+#: views/whitelabel/transactions/view.php:82
+msgid "Test transaction"
+msgstr "Transaksion provë"
+
+#: views/whitelabel/transactions/view.php:86
+msgid "Transaction type"
+msgstr "Lloji i transaksionit"
+
+#: views/whitelabel/transactions/view.php:90
+msgid "Response"
+msgstr "Përgjigjja"
+
+#: views/whitelabel/transactions/view.php:94
+msgid "Response code"
+msgstr "Kodi i përgjigjes"
+
+#: views/whitelabel/transactions/view.php:98
+msgid "Response text"
+msgstr "Teksti i përgjigjes"
+
+#: views/whitelabel/transactions/view.php:110
+msgid "Client ID"
+msgstr "ID e Klientit"
+
+#: views/whitelabel/transactions/view.php:118
+msgid "Merchant user ID"
+msgstr "ID e përdoruesit të tregtarit"
+
+#: views/whitelabel/transactions/view.php:122
+msgid "Notification type"
+msgstr "Lloji i njoftimit"
+
+#: views/whitelabel/transactions/view.php:126
+msgid "emerchantpaypassthrough"
+msgstr "të Dhëna Shtesë"
+
+#: views/whitelabel/transactions/view.php:134
+msgid "Errors"
+msgstr "Gabimet"
+
+#: views/whitelabel/transactions/view.php:136
+msgid "Error code"
+msgstr "Kodi i gabimit"
+
+#: views/whitelabel/transactions/view.php:138
+msgid "Error text"
+msgstr "Teksti i gabimit"
+
+#: views/whitelabel/transactions/view.php:143
+msgid "Card details"
+msgstr "Detajet e kartës"
+
+#: views/whitelabel/transactions/view.php:146
+msgid "Auth code"
+msgstr "Kodi i Autorizimit"
+
+#: views/whitelabel/transactions/view.php:150
+msgid "Brand"
+msgstr "Marka"
+
+#: views/whitelabel/transactions/view.php:154
+msgid "Category"
+msgstr "Kategoria"
+
+#: views/whitelabel/transactions/view.php:158
+msgid "Exp. month"
+msgstr "Muaji i skadimit"
+
+#: views/whitelabel/transactions/view.php:162
+msgid "Exp. year"
+msgstr "Viti i skadimit"
+
+#: views/whitelabel/transactions/view.php:166
+msgid "Holder name"
+msgstr "Emri i mbajtësit"
+
+#: views/whitelabel/transactions/view.php:170
+msgid "Issuing bank"
+msgstr "Banka lëshuese"
+
+#: views/whitelabel/transactions/view.php:174
+msgid "Issuing country"
+msgstr "Shteti lëshues"
+
+#: views/whitelabel/transactions/view.php:178
+msgid "Number"
+msgstr "Numri"
+
+#: views/whitelabel/transactions/view.php:182
+msgid "Subcategory"
+msgstr "Nënkategoria"
+
+#: views/whitelabel/transactions/view.php:186
+msgid "Customer data"
+msgstr "Të dhënat e konsumatorit"
+
+#: views/whitelabel/transactions/view.php:193
+#: views/whitelabel/transactions/view.php:304
+#: views/whitelabel/transactions/view.php:370
+msgid "Customer ID"
+msgstr "ID e konsumatorit"
+
+#: views/whitelabel/transactions/view.php:213
+msgid "State"
+msgstr "Shteti"
+
+#: views/whitelabel/transactions/view.php:221
+msgid "Postcode"
+msgstr "Kodi Postar"
+
+#: views/whitelabel/transactions/view.php:225
+msgid "Address"
+msgstr "Adresa"
+
+#: views/whitelabel/transactions/view.php:233
+msgid "Items"
+msgstr "Artikujt"
+
+#: views/whitelabel/transactions/view.php:242
+#: views/whitelabel/transactions/view.php:366
+#: views/whitelabel/transactions/view.php:597
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: views/whitelabel/transactions/view.php:246
+msgid "Item ID"
+msgstr "ID e artikullit"
+
+#: views/whitelabel/transactions/view.php:250
+msgid "Code"
+msgstr "Kodi"
+
+#: views/whitelabel/transactions/view.php:254
+msgid "Quantity"
+msgstr "Sasia"
+
+#: views/whitelabel/transactions/view.php:258
+msgid "Digital"
+msgstr "Digjital"
+
+#: views/whitelabel/transactions/view.php:262
+msgid "Pass-through"
+msgstr "Të Dhëna Shtesë"
+
+#: views/whitelabel/transactions/view.php:266
+msgid "Rebill"
+msgstr "Rifaturo"
+
+#: views/whitelabel/transactions/view.php:270
+msgid "Discount"
+msgstr "Ulje çmimi"
+
+#: views/whitelabel/transactions/view.php:274
+msgid "Predefined"
+msgstr "I parapërcaktuar"
+
+#: views/whitelabel/transactions/view.php:279
+msgid "Unit price"
+msgstr "Çmimi i njësisë"
+
+#: views/whitelabel/transactions/view.php:288
+msgid "Merchant e-mail"
+msgstr "E-mail-i i tregtarit"
+
+#: views/whitelabel/transactions/view.php:292
+msgid "User e-mail"
+msgstr "E-mail-i i Përdoruesit"
+
+#: views/whitelabel/transactions/view.php:296
+msgid "Skrill amount"
+msgstr "Shuma në Skrill"
+
+#: views/whitelabel/transactions/view.php:300
+msgid "Failed reason code"
+msgstr "Kodi i arsyes së dështimit"
+
+#: views/whitelabel/transactions/view.php:314
+msgid "Order ID"
+msgstr "ID e porosisë"
+
+#: views/whitelabel/transactions/view.php:318
+msgid "Event ID"
+msgstr "ID e eventit"
+
+#: views/whitelabel/transactions/view.php:322
+msgid "Event Date"
+msgstr "Data e Eventit"
+
+#: views/whitelabel/transactions/view.php:326
+msgid "Event Type"
+msgstr "Lloji i Eventit"
+
+#: views/whitelabel/transactions/view.php:330
+msgid "Attempt Number"
+msgstr "Numri i Përpjekjes"
+
+#: views/whitelabel/transactions/view.php:342
+msgid "Create Date"
+msgstr "Krijo Datën"
+
+#: views/whitelabel/transactions/view.php:346
+msgid "Update Date"
+msgstr "Përditëso Datën"
+
+#: views/whitelabel/transactions/view.php:350
+msgid "Error Code"
+msgstr "Kodi i Gabimit"
+
+#: views/whitelabel/transactions/view.php:354
+msgid "Error Message"
+msgstr "Mesazhi i Gabimit"
+
+#: views/whitelabel/transactions/view.php:362
+msgid "Transaction Type"
+msgstr "Lloji i Transaksionit"
+
+#: views/whitelabel/transactions/view.php:394
+msgid "Date of Birth"
+msgstr "Data e Lindjes"
+
+#: views/whitelabel/transactions/view.php:406
+#: views/whitelabel/transactions/view.php:481
+msgid "Address #3"
+msgstr "Adresa #3"
+
+#: views/whitelabel/transactions/view.php:418
+#: views/whitelabel/transactions/view.php:493
+msgid "Post Code"
+msgstr "Kodi Postar"
+
+#: views/whitelabel/transactions/view.php:422
+msgid "Gender"
+msgstr "Gjinia"
+
+#: views/whitelabel/transactions/view.php:426
+msgid "Customer Contact Details"
+msgstr "Detajet e Kontaktit të Konsumatorit"
+
+#: views/whitelabel/transactions/view.php:433
+msgid "Value"
+msgstr "Vlera"
+
+#: views/whitelabel/transactions/view.php:447
+msgid "Verification Level"
+msgstr "Niveli i Verifikimit"
+
+#: views/whitelabel/transactions/view.php:451
+msgid "Customer Balance"
+msgstr "Balanca e Konsumatorit"
+
+#: views/whitelabel/transactions/view.php:455
+msgid "Billing Details"
+msgstr "Detajet e Faturimit"
+
+#: views/whitelabel/transactions/view.php:502
+msgid "Fees"
+msgstr "Tarifat"
+
+#: views/whitelabel/transactions/view.php:505
+msgid "Fee Name"
+msgstr "Emri i Tarifës"
+
+#: views/whitelabel/transactions/view.php:509
+msgid "Fee Type"
+msgstr "Lloji i Tarifës"
+
+#: views/whitelabel/transactions/view.php:513
+msgid "Fee Amount"
+msgstr "Shuma e Tarifës"
+
+#: views/whitelabel/transactions/view.php:517
+msgid "Fee Currency"
+msgstr "Monedha e Tarifës"
+
+#: views/whitelabel/transactions/view.php:525
+msgid "cubits"
+msgstr "kubitë"
+
+#: views/whitelabel/transactions/view.php:535
+msgid "Create Time"
+msgstr "Krijo Kohën"
+
+#: views/whitelabel/transactions/view.php:539
+msgid "Invoice Currency"
+msgstr "Monedha e Invoice-it"
+
+#: views/whitelabel/transactions/view.php:543
+msgid "Invoice Amount"
+msgstr "Shuma e Invoice-it"
+
+#: views/whitelabel/transactions/view.php:547
+msgid "Paid Currency"
+msgstr "Monedha e Paguar"
+
+#: views/whitelabel/transactions/view.php:551
+msgid "Paid Amount"
+msgstr "Shuma e Paguar"
+
+#: views/whitelabel/transactions/view.php:555
+msgid "Pending Currency"
+msgstr "Monedha në Pritje"
+
+#: views/whitelabel/transactions/view.php:559
+msgid "Pending Amount"
+msgstr "Sasia në Pritje"
+
+#: views/whitelabel/transactions/view.php:563
+msgid "Merchant Currency"
+msgstr "Monedha e Tregtarit"
+
+#: views/whitelabel/transactions/view.php:567
+msgid "Merchant Amount"
+msgstr "Sasia e Tregtarit"
+
+#: views/whitelabel/transactions/view.php:571
+msgid "Share to keep in BTC"
+msgstr "Pjesë për t'u mbajtur në BTC"
+
+#: views/whitelabel/transactions/view.php:575
+msgid "tpay.com"
+msgstr "tpay.com"
+
+#: views/whitelabel/transactions/view.php:589
+msgid "Amount paid"
+msgstr "Sasia e paguar"
+
+#: views/whitelabel/transactions/view.php:605
+msgid "Sofort"
+msgstr "Sofort"
+
+#: views/whitelabel/transactions/view.php:611
+msgid "Amount Refunded"
+msgstr "Sasia e Rimbursuar"
+
+#: views/whitelabel/transactions/view.php:619
+msgid "Consumer Protection"
+msgstr "Mbrojtja e Konsumatorit"
+
+#: views/whitelabel/transactions/view.php:627
+#: views/whitelabel/transactions/view.php:733
+msgid "Status Reason"
+msgstr "Arsyeja e Statusit"
+
+#: views/whitelabel/transactions/view.php:631
+#: views/whitelabel/transactions/view.php:651
+msgid "Status Modified Time"
+msgstr "Koha e Modifikimit të Statusit"
+
+#: views/whitelabel/transactions/view.php:635
+msgid "Language Code"
+msgstr "Kodi i Gjuhës"
+
+#: views/whitelabel/transactions/view.php:643
+msgid "Reason"
+msgstr "Arsyeja"
+
+#: views/whitelabel/transactions/view.php:647
+msgid "Test"
+msgstr "Provë"
+
+#: views/whitelabel/transactions/view.php:655
+msgid "Project ID"
+msgstr "ID e Projektit"
+
+#: views/whitelabel/transactions/view.php:659
+msgid "Recipient Holder"
+msgstr "Marrësi"
+
+#: views/whitelabel/transactions/view.php:663
+msgid "Recipient Account Number"
+msgstr "Numri i Llogarisë së Marrësit"
+
+#: views/whitelabel/transactions/view.php:667
+msgid "Recipient Bank Code"
+msgstr "Kodi Bankar i Marrësit"
+
+#: views/whitelabel/transactions/view.php:671
+msgid "Recipient Country Code"
+msgstr "Kodi i Shtetit të Marrësit"
+
+#: views/whitelabel/transactions/view.php:675
+msgid "Recipient Bank Name"
+msgstr "Emri i Bankës së Marrësit"
+
+#: views/whitelabel/transactions/view.php:679
+msgid "Recipient BIC"
+msgstr "BIC e Marrësit"
+
+#: views/whitelabel/transactions/view.php:683
+msgid "Recipient IBAN"
+msgstr "IBAN i Marrësit"
+
+#: views/whitelabel/transactions/view.php:687
+msgid "Sender Holder"
+msgstr "Dërguesi"
+
+#: views/whitelabel/transactions/view.php:691
+msgid "Sender Account Number"
+msgstr "Numri i Llogarisë së Dërguesit"
+
+#: views/whitelabel/transactions/view.php:695
+msgid "Sender Bank Code"
+msgstr "Kodi Bankar i Dërguesit"
+
+#: views/whitelabel/transactions/view.php:699
+msgid "Sender Country Code"
+msgstr "Kodi i Shtetit të Marrësit"
+
+#: views/whitelabel/transactions/view.php:703
+msgid "Sender Bank Name"
+msgstr "Emri i Bankës së Dërguesit"
+
+#: views/whitelabel/transactions/view.php:707
+msgid "Sender BIC"
+msgstr "BIC e Dërguesit"
+
+#: views/whitelabel/transactions/view.php:711
+msgid "Sender IBAN"
+msgstr "IBAN i Dërguesit"
+
+#: views/whitelabel/transactions/view.php:715
+msgid "Exchange Rate"
+msgstr "Kursi i Këmbimit"
+
+#: views/whitelabel/transactions/view.php:719
+msgid "Costs (Exchange Rate)"
+msgstr "Kostot (Kursi i Këmbimit)"
+
+#: views/whitelabel/transactions/view.php:723
+msgid "Costs (Fees)"
+msgstr "Kostot (Tarifat)"
+
+#: views/whitelabel/transactions/view.php:726
+msgid "Status History"
+msgstr "Historia e Statusit"
+
+#: views/whitelabel/transactions/view.php:737
+msgid "Time"
+msgstr "Koha"
+
+#: views/whitelabel/transactions/withdrawal.php:7
+msgid "Withdrawal details"
+msgstr "Detajet e tërheqjes"
+
+#: views/whitelabel/transactions/withdrawal.php:8
+msgid "Here you can view the withdrawal details."
+msgstr "Këtu mund të shihni detajet e tërheqjes."
+
+#: views/whitelabel/transactions/withdrawal.php:26
+#: views/whitelabel/transactions/withdrawals.php:59
+msgid "Date approved"
+msgstr "Data e miratuar"
+
+#: views/whitelabel/transactions/withdrawal.php:44
+#: views/whitelabel/transactions/withdrawals.php:24
+#: views/whitelabel/transactions/withdrawals.php:90
+msgid "Declined"
+msgstr "Refuzuar"
+
+#: views/whitelabel/transactions/withdrawal.php:46
+#: views/whitelabel/transactions/withdrawals.php:25
+#: views/whitelabel/transactions/withdrawals.php:92
+msgid "Canceled"
+msgstr "Anulluar"
+
+#: views/whitelabel/transactions/withdrawal.php:49
+msgid "Request details"
+msgstr "Detajet e kërkesës"
+
+#: views/whitelabel/transactions/withdrawal.php:63
+msgid "Bitcoin wallet"
+msgstr "Portofoli Bitcoin"
+
+#: views/whitelabel/transactions/withdrawal.php:67
+msgid "Account IBAN"
+msgstr "IBAN i llogarisë"
+
+#: views/whitelabel/transactions/withdrawal.php:71
+msgid "SWIFT number"
+msgstr "Numri SWIFT"
+
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawals.php:97
+msgid "Approve"
+msgstr "Mirato"
+
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawals.php:99
+msgid "Decline"
+msgstr "Refuzo"
+
+#: views/whitelabel/transactions/withdrawals.php:8
+msgid "Here you can manage your users' withdrawals."
+msgstr "Këtu mund të menaxhoni tërheqjet e përdoruesve tuaj."
+
+#: views/whitelabel/transactions/withdrawals.php:113
+msgid "No withdrawals."
+msgstr "Nuk ka tërheqje."
+
+#: views/whitelabel/users/aff.php:7 views/whitelabel/users/index.php:117
+msgid "Change affiliate"
+msgstr "Ndrysho të anëtarësuarin"
+
+#: views/whitelabel/users/aff.php:8
+msgid "You can change your user affiliate here."
+msgstr "Këtu mund të ndryshoni të anëtarësuarin e përdoruesit tuaj."
+
+#: views/whitelabel/users/balance.php:7
+msgid "Edit balance"
+msgstr "Modifiko balancën"
+
+#: views/whitelabel/users/balance.php:8
+msgid "You can edit user balance here."
+msgstr "Këtu mund të modifikoni balancën e përdoruesit."
+
+#: views/whitelabel/users/balance.php:23
+msgid "Enter user balance"
+msgstr "Futni balancën e përdoruesit"
+
+#: views/whitelabel/users/balance.php:25 views/whitelabel/users/deposit.php:35
+msgid "Use dot for decimal digits. No whitespaces."
+msgstr "Përdorni pikë për shifrat dhjetore. Pa hapësira boshe."
+
+#: views/whitelabel/users/deposit.php:7
+msgid "Deposit"
+msgstr "Depozita"
+
+#: views/whitelabel/users/deposit.php:8
+msgid "Here you can add manual deposit to the user."
+msgstr "Këtu mund t'i shtoni përdoruesit një depozitë manuale."
+
+#: views/whitelabel/users/deposit.php:33
+msgid "Enter amount"
+msgstr "Futni shumën"
+
+#: views/whitelabel/users/edit.php:8
+msgid "Edit user details here."
+msgstr "Modifikoni detajet e përdoruesit këtu."
+
+#: views/whitelabel/users/email.php:8
+msgid "You can edit user e-mail here."
+msgstr "Këtu mund të modifikoni e-mail-in e përdoruesit."
+
+#: views/whitelabel/users/index.php:14
+msgid "Here you can view and manage your activated users."
+msgstr "Këtu mund të shihni dhe të menaxhoni përdoruesit tuaj të aktivizuar."
+
+#: views/whitelabel/users/index.php:15
+msgid "Here you can manage your inactive useres."
+msgstr "Këtu mund të menaxhoni përdoruesit tuaj joaktivë."
+
+#: views/whitelabel/users/index.php:16
+msgid "Here you can manage your deleted users."
+msgstr "Këtu mund të menaxhoni përdoruesit tuaj të fshirë."
+
+#: views/whitelabel/users/index.php:79
+msgid "Registered<br>IP<br>Country"
+msgstr "Regjistruar<br>IP<br>Shteti"
+
+#: views/whitelabel/users/index.php:98
+msgid "View purchases"
+msgstr "Shih blerjet"
+
+#: views/whitelabel/users/index.php:99
+msgid "View deposits"
+msgstr "Shih depozitat"
+
+#: views/whitelabel/users/index.php:100
+msgid "View withdrawals"
+msgstr "Shih tërheqjet"
+
+#: views/whitelabel/users/index.php:123
+msgid "Manual deposit"
+msgstr "Depozita manuale"
+
+#: views/whitelabel/users/index.php:160
+msgid "No users."
+msgstr "Nuk ka përdorues."
+
+#: views/whitelabel/users/password.php:8
+msgid "You can change user password here."
+msgstr "Këtu mund të ndryshoni fjalëkalimin e përdoruesit."
+
+#: views/whitelabel/users/view.php:7
+msgid "User details"
+msgstr "Detajet e përdoruesit"
+
+#: views/whitelabel/users/view.php:8
+msgid "You can view and edit user details here."
+msgstr "Këtu mund të shihni dhe të modifikoni detajet e përdoruesit."
+
+#: views/whitelabel/users/view.php:49
+msgid "Register IP"
+msgstr "Regjistro IP"
+
+#: views/whitelabel/users/view.php:57
+msgid "First Purchase"
+msgstr "Blerja e Parë"
+
+#~ msgid "Provider"
+#~ msgstr "Dhënësi"
+
+#~ msgid "Minimum lines count should be multiple of %s!"
+#~ msgstr "Numri minimal i rreshtave duhet të jetë shumëfish i %s!"
+
+#~ msgid "Lines multiplier"
+#~ msgstr "Shumëfishuesi i rreshtave"

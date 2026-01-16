@@ -1,0 +1,15 @@
+FROM docker-repo.gginternational.work/gg-nginx AS gg-nginx
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+COPY ./config/conf.d/ /etc/nginx/conf.d/
+COPY ./config/sites-available/ /etc/nginx/sites-available/
+
+STOPSIGNAL SIGQUIT
+
+COPY startup-gg.sh /usr/local/bin/
+
+ENTRYPOINT ["startup-gg.sh"]
+
+EXPOSE 80 443
+CMD ["nginx", "-g", "daemon off;"]

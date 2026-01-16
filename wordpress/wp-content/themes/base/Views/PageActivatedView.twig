@@ -1,0 +1,20 @@
+<div class="content-area">
+    <div class="main-width content-width">
+        <div class="content-box">
+            <section class="page-content">
+                <article class="page">
+                    <h1 class="text-center">{{ title | raw }}</h1>
+                    <p class="text-center">{{ pageMessage | raw}}</p>
+                    {{ content | raw }}
+                </article>
+
+                <div class="button-box">
+                    {{ actionButtons | raw }}
+                </div>
+
+                {{ additionalThemeHooks | raw }}
+            </section>
+        </div>
+    </div>
+    {{ pageWidget | raw }}
+</div>

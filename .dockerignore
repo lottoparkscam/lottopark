@@ -1,0 +1,14 @@
+/docker
+!/docker/whitelotto-php/config/
+!/docker/config/development/scripts/
+/docker/dockerhost.sh
+/docker/whitelotto-deployment.sh
+/docker/whitelotto-setup.sh
+/docker/purge-page-cache.sh
+/sql
+.dockerignore
+.env
+.env.example
+.gitlab-ci.yml
+docker-compose.yml
+.git

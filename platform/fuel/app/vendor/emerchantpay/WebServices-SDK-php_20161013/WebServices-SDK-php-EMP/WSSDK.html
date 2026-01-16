@@ -1,0 +1,1895 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>WSSDK</title></head><body><article class="markdown-body">
+<h1>WSSDK - PHP</h1>
+
+<p>This SDK is for merchants wanting to integrate with the Web Services API using PHP. This API supports versions 5.3+ only and may not be suitable for earlier versions.</p>
+
+<p>This documentation assumes you know how to import and use PHP libraries within your application.</p>
+
+<p>The following information will be required:</p>
+
+<p>CLIENT_ID and YOUR_API_TOKEN are your authentication credentials and will be provided by your Account Manager.</p>
+
+<p>WEB_SERVICE_DOMAIN is the base URL for access to the Web Services API - eg. https://my.example.com  please refer to the Web Services API documentation or speak to your Account Manager.</p>
+
+<p>For information on specific fields, capabilities or other constraints - please refer to the Web Services API documentation - available for download via the Payment Gateway.</p>
+
+
+<h2>Overview</h2>
+
+<h3>Step 1 - Initialise the WS SDK Library</h3>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>123456<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>XXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>https://my.example.com<span class="pl-pds">"</span></span>
+<span class="pl-s1">);</span></pre></div>
+
+
+<h3>Step 2 - Get the Request Object</h3>
+
+<p>After instantiating the object, you need to create a new request. To retrieve an order submit request object for example, you use <code>$req = $myWSSDK-&gt;orderSubmitRequest(...)</code>.</p>
+
+
+<h3>Step 3 - Add required information to the request</h3>
+
+<p>You will need to add multiple models to the request before sending to the Payment Gateway. In this example, we add an item and credit card information</p>
+
+<div class="highlight highlight-text-xml"><pre>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// add a predefined item</span></span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">PredefinedItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order - this does not yet send the request!!</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$predefItem</span>);</span>
+<span class="pl-s1"></span>
+
+</pre></div>
+
+<h3>Step 4 - Get the response</h3>
+
+<p>The <code>send</code> function will return a response object, for example <code>$res = $req-&gt;Send()</code>. In all reponses, you can retrieve headers, xml and dynamic object. Some reponses may also provide more such as <code>getStatus()</code>, you can find out more by checking the reponse class defination from technical documentation.</p>
+
+<p>There are other options you can use to get more information about the response</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get the headers returned by the response</span></span>
+<span class="pl-s1"><span class="pl-smi">$headers</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getHeaders();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get the status of a response that includes a status data element</span></span>
+<span class="pl-s1"><span class="pl-smi">$status</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getStatus();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get raw xml string data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$xml</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getXML();</span>
+<span class="pl-s1"></span></pre></div>
+
+<p>The body of the response is converted from xml format into a php object.
+For example, if the response xml is below:</p>
+
+<div class="highlight highlight-text-xml"><pre>    &lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">"</span> UTF-8 <span class="pl-pds">"</span></span> ?&gt;
+    &lt;<span class="pl-ent">order</span>&gt;
+        &lt;<span class="pl-ent">order_id</span>&gt; 25251 &lt;/<span class="pl-ent">order_id</span>&gt;
+        &lt;<span class="pl-ent">order_datetime</span>&gt;2012-07-12 00:00:00&lt;/<span class="pl-ent">order_datetime</span>&gt;
+        &lt;<span class="pl-ent">order_total</span>&gt;201.90&lt;/<span class="pl-ent">order_total</span>&gt;
+        &lt;<span class="pl-ent">order_status</span>&gt;Pending&lt;/<span class="pl-ent">order_status</span>&gt;
+        &lt;<span class="pl-ent">test_transaction</span>&gt;1&lt;/<span class="pl-ent">test_transaction</span>&gt;
+        &lt;<span class="pl-ent">cart</span>&gt;
+            &lt;<span class="pl-ent">item</span>&gt;
+                &lt;<span class="pl-ent">id</span>&gt;1234&lt;/<span class="pl-ent">id</span>&gt;
+                &lt;<span class="pl-ent">code</span>&gt;AIP3202&lt;/<span class="pl-ent">code</span>&gt;
+                &lt;<span class="pl-ent">name</span>&gt;Mobile Phone&lt;/<span class="pl-ent">name</span>&gt;
+                &lt;<span class="pl-ent">description</span>&gt;3G Mobile Phone&lt;/<span class="pl-ent">description</span>&gt;
+                &lt;<span class="pl-ent">qty</span>&gt;1&lt;/<span class="pl-ent">qty</span>&gt;
+                &lt;<span class="pl-ent">digital</span>&gt;0&lt;/<span class="pl-ent">digital</span>&gt;
+                &lt;<span class="pl-ent">discount</span>&gt;0&lt;/<span class="pl-ent">discount</span>&gt;
+                &lt;<span class="pl-ent">predefined</span>&gt;0&lt;/<span class="pl-ent">predefined</span>&gt;
+            &lt;/<span class="pl-ent">item</span>&gt;
+        &lt;/<span class="pl-ent">cart</span>&gt;
+        &lt;<span class="pl-ent">transaction</span>&gt;
+            &lt;<span class="pl-ent">type</span>&gt;auth&lt;/<span class="pl-ent">type</span>&gt;
+            &lt;<span class="pl-ent">response</span>&gt;A&lt;/<span class="pl-ent">response</span>&gt;
+            &lt;<span class="pl-ent">response_code</span>&gt;OP000&lt;/<span class="pl-ent">response_code</span>&gt;
+            &lt;<span class="pl-ent">response_text</span>&gt;ApproveTEST&lt;/<span class="pl-ent">response_text</span>&gt;
+            &lt;<span class="pl-ent">trans_id</span>&gt; 123456 &lt;/<span class="pl-ent">trans_id</span>&gt;
+            &lt;<span class="pl-ent">account_id</span>&gt;123457&lt;/<span class="pl-ent">account_id</span>&gt;
+        &lt;/<span class="pl-ent">transaction</span>&gt;
+    &lt;/<span class="pl-ent">order</span>&gt;
+</pre></div>
+
+<p>By using the <code>$data = $res-&gt;getBody();</code>, It will return an object which is already the top level of the xml. In order to get the value of the order_id, you need to use the keyword Value</p>
+
+<pre><code>$orderId = $data-&gt;order_id;
+</code></pre>
+
+<p>To get the id of first cart item, if there is more than one item, you can retrieve it by using array such as item[0]. It accesses the first item of the cart item list.</p>
+
+<pre><code>$itemid = $data-&gt;cart-&gt;item-&gt;id;
+</code></pre>
+
+
+
+<h2>Order Submit</h2>
+<p>This method allows direct payments via the Web Services API. It supports one-off and Gateway Managed Rebilling. Please refer to the Merchant Managed Rebilling below for Merchant Managed Recurring Payments.</p>
+
+<h3>Credit Card</h3>
+<p>This method passes through the credit card details in the PaymentTypeCreditCard model. Refer to the Web Services API for more information on the fields.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// add a predefined item</span></span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">PredefinedItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$predefItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h3>Credit Card via One Time Token</h3>
+<p>This method uses a One TIme Token generated by the One Time TOken Library in place of credit card information. The One Time token is passed through in the cc_payload field.</p>
+
+<p>Refer to the One Time Token Integration Guide, or Web Services API for more information.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card token to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">CreditCardToken</span>();</span><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setCCPayload(<span class="pl-s"><span class="pl-pds">'</span>XXXXXXXXXXXX<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>John Smith<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>sale<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// add a predefined item</span></span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">PredefinedItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$predefItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h3>Predefined Items</h3>
+Predefined items are configured in the Payment Gateway in advance and are referenced by the Item Code.
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// add a predefined item</span></span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">PredefinedItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$predefItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h3>Dynamic Items</h3>
+<p>Dynamic (or One-Off) Items do not need to be preconfigured in the Payment Gateway in advance, all item information is provided at the time to order is submitted.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">OneOffDynamicItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span><span class="pl-k">-&gt;</span>setUnitPrice(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>, <span class="pl-c1">100.00</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$oneOffDynamicItem</span><span class="pl-k">-&gt;</span>setProductType(<span class="pl-c1">Item\</span><span class="pl-c1">DynamicItem</span><span class="pl-k">::</span><span class="pl-c1">DIGITAL_PRODUCT</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$oneOffDynamicItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h3>Dynamic Items - Managed Rebill Items</h3>
+<p>Dynamic (or One-Off) Items do not need to be preconfigured in the Payment Gateway in advance, all item information is provided at the time to order is submitted. Managed rebill items include a schedule for followup rebilling payments to be performed automatically by the Payment Gateway.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">ManagedRebillDynamicItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setUnitPrice(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>, <span class="pl-c1">100</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setProductType(<span class="pl-c1">Item\</span><span class="pl-c1">DynamicItem</span><span class="pl-k">::</span><span class="pl-c1">DIGITAL_PRODUCT</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setRebillPeriod(<span class="pl-s"><span class="pl-pds">"</span>2<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setInitialPeriod(<span class="pl-s"><span class="pl-pds">"</span>7<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setRebillPrice(<span class="pl-s"><span class="pl-pds">"</span>100.00<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setInitialPrice(<span class="pl-s"><span class="pl-pds">"</span>50.00<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setRebillCount(<span class="pl-s"><span class="pl-pds">"</span>10<span class="pl-pds">"</span></span>);</span>
+
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$RebillItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+
+
+<h3>Dynamic Items - Merchant Managed Rebill Items</h3>
+<p>Dynamic (or One-Off) Items do not need to be preconfigured in the Payment Gateway in advance, all item information is provided at the time to order is submitted. By flagging an Item as a merchant managed Rebill elligible item, the Merchant can then perform followup rebill payments on their own schedule.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Model\PaymentType\</span><span class="pl-c1">CreditCard</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">MerchantManagedRebillDynamicItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setUnitPrice(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>, <span class="pl-c1">100</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$RebillItem</span><span class="pl-k">-&gt;</span>setProductType(<span class="pl-c1">Item\</span><span class="pl-c1">DynamicItem</span><span class="pl-k">::</span><span class="pl-c1">DIGITAL_PRODUCT</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$RebillItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h2>Merchant Managed Rebill</h2>
+<p>Merchant Managed Rebilling allows Merchant to control the Rebill schedule, or to generate adhoc payments referencing an existing Order.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">MerchantManagedRebill</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span><span class="pl-k">-&gt;</span>setItemId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span><span class="pl-k">-&gt;</span>SetAmount(<span class="pl-c1">100.00</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span><span class="pl-k">-&gt;</span>setDescription(<span class="pl-s"><span class="pl-pds">"</span>Purchase Description<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Rebill</span><span class="pl-k">-&gt;</span>setReference(<span class="pl-s"><span class="pl-pds">"</span>Merchants Reference<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the Rebill </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>merchantManagedRebillRequest(<span class="pl-smi">$Rebill</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+
+<h2>Order Settle</h2>
+<p>This method will settle an Order previously performed as an Authorisation. This will generate an email notification to the Customer on success when Customer emails have been configured in your Merchant Configuration. Notifications to the Merchant are enabled by default.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Settle</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSettle</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Settle</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Settle</span><span class="pl-k">-&gt;</span>setShipperId(<span class="pl-s"><span class="pl-pds">"</span>DHL</span><span class="pl-pds">"</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Settle</span><span class="pl-k">-&gt;</span>setTrackId(<span class="pl-s"><span class="pl-pds">"</span>1234567890<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the Settle </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSettleRequest(<span class="pl-smi">$Settle</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+
+
+
+<h2>Order Credit</h2>
+<p>This method will credit the specified Item/Transaction. Multiple items can be credited in the one request. For Auth transactions – you must provide the Transaction ID of the Settlement transaction. If you wish to reverse the Auth you should use the Void method instead.</p>
+
+<h3>Order Credit For Full Transaction Amount</h3>
+<p>Credit for the full amount of the original transaction.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderFullCredit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setTransId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>SetAmount(<span class="pl-c1">100.00</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setReference(<span class="pl-s"><span class="pl-pds">"</span>Merchants Reference<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setReason(<span class="pl-s"><span class="pl-pds">"</span>Reason for the credit.<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the Credit </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderCreditRequest(<span class="pl-smi">$Credit</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+<h3>Order Credit per Item</h3>
+<p>Partial credit that applies to a subset of items on the order.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderPartialCredit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setTransId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Must specify the item ID and amount to apply to the item..</span></span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>addItemCredit(<span class="pl-c1">123456</span>,<span class="pl-c1">100.00</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setReference(<span class="pl-s"><span class="pl-pds">"</span>Merchants Reference<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Credit</span><span class="pl-k">-&gt;</span>setReason(<span class="pl-s"><span class="pl-pds">"</span>Reason for the credit.<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the Credit </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderCreditRequest(<span class="pl-smi">$Credit</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+
+<h2>Order Void</h2>
+<p>This method will void the specified Order. This method is only available if the original transaction was an Authorisation. Notification to the customer is not performed.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Void</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderVoid</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Void</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Void</span><span class="pl-k">-&gt;</span>setReason(<span class="pl-s"><span class="pl-pds">"</span>Reason for the credit.<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the VOID </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderVoidRequest(<span class="pl-smi">$Void</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+
+<h2>Order Rebill Instant Upgrade</h2>
+<p>This method will instantly upgrade an existing Rebill. Upgrade means to explicitly bring forward the Rebilling date immediately, perform a transaction and start the rebilling period from now. The initial trial period for the item will no longer be valid. 
+
+This is only available on items that have an initial trial period. Any password for this item will have its expiry date extended by the current rebilling period. The customer will be sent an email notification, however, no server notifications will be sent to the merchant.
+
+If the original transaction was an Auth and has not yet been settled, it will not be automatically settled.  The Merchant must settle this manually either through the Gateway or using the Settlement Web Service method. If there is no initial period, the request will be rejected. Instant upgrade is only available for credit card transactions.  Alternate payments are not supported.
+
+</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Upgrade</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderRebillInstantUpgrade</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Upgrade</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderRebillInstantUpgradeRequest(<span class="pl-smi">$Upgrade</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h2>Order Cancel Rebilling</h2>
+<p>This method will cancel an existing Rebill. No Customer notification is performed. Reversal of a cancellation is not supported. Usernames and Passwords associated with this Rebill will expire when the current Rebill cycle elapses.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$Cancel</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderCancelRebill</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$Cancel</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-c1">123456</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$Cancel</span><span class="pl-k">-&gt;</span>setReason(<span class="pl-s"><span class="pl-pds">"</span>Reason for the credit.<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create the Request with the Cancellation </span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderCancelRebillRequest(<span class="pl-smi">$Cancel</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+
+<h2>VBV/3D Secure Authentication</h2>
+<p>These methods allow initiation of VBV/3D requests, and retrieval of authentication status.</p>
+
+
+<h3>VBV /3D Secure Authentication Initiation</h3>
+<p>This method retrieves the enrollment status of the card holder, and if enrolled will return the URL to send the customer to in order to complete the authentication process.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\AuthenticateVBV3D</span> <span class="pl-k">as</span> <span class="pl-c1">AuthenticateVBV3D</span>;</span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$model</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">AuthenticateVBV3D</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setReference(<span class="pl-s"><span class="pl-pds">'</span>123<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setCallbackUrl(<span class="pl-s"><span class="pl-pds">'</span>https://example.com/merchantcallback<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setCardNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setExpdate(<span class="pl-s"><span class="pl-pds">'</span>1701<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setAmount(<span class="pl-c1">10</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">\WSSDK\</span><span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">EUR</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setBrowserUserAgent(<span class="pl-s"><span class="pl-pds">'</span>Mozilla/5.0 (Windows NT6.2; WOW64)<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setBrowserAccept(<span class="pl-s"><span class="pl-pds">'</span>application/xml,application/xhtml+xml,text/html<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>authenticateVBV3DRequest(<span class="pl-smi">$model</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$requestid</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">requestid</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$bouncerURL</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">bouncerURL</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$EnrollmentStatus</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">enrollmentstatus</span>;</span></pre></div>
+   
+    
+<h3>VBV 3D Secure Result Retrieval</h3>
+<p>This service allows retrieval of the results for a VBV/3D Secure Authentication request. This allows the merchant to retrieve fields required for submission in the Order Submit API method. The RequestId is returned from the VBV/3D Secure initiation.</p>
+
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$model</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">RetrieveVBV3D</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setRequestId(<span class="pl-smi">$requestid</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$model</span><span class="pl-k">-&gt;</span>setReference(<span class="pl-s"><span class="pl-pds">'</span>123<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>retrieveVBV3DRequest(<span class="pl-smi">$model</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$ECI</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">eci</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$XID</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">xid</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$CAVV</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">cavv</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$CavvAlgorithm</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">cavvAlgorithm</span>;</span>
+<span class="pl-s1"><span class="pl-smi">$Status</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">authenticationstatus</span>;</span></pre></div>
+
+
+    
+<h3>Order Submit with VBV/3D Secure</h3>
+<p>The information returned from the VBV/3D Secure authentication is sent through in the Order Submit request.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\CURRENCY</span> <span class="pl-k">as</span> <span class="pl-c1">CURRENCY</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model</span> <span class="pl-k">as</span> <span class="pl-c1">Model</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\OrderSubmit</span> <span class="pl-k">as</span> <span class="pl-c1">OrderSubmit</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\PaymentType</span> <span class="pl-k">as</span> <span class="pl-c1">PaymentType</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\Item</span> <span class="pl-k">as</span> <span class="pl-c1">Item</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create order model</span></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">OrderSubmit</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderReference(<span class="pl-s"><span class="pl-pds">'</span>ABC0123456789<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setIpAddress(<span class="pl-s"><span class="pl-pds">'</span>CUSTOMERS_IP<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setCurrency(<span class="pl-c1">CURRENCY</span><span class="pl-k">::</span><span class="pl-c1">USD</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// create a credit card to use as a payment type</span></span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">CreditCardVBV3D</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setName(<span class="pl-s"><span class="pl-pds">'</span>My Test<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryMonth(<span class="pl-s"><span class="pl-pds">'</span>01<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setExpiryYear(<span class="pl-s"><span class="pl-pds">'</span>17<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setTransactionType(<span class="pl-s"><span class="pl-pds">'</span>auth<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setEci(<span class="pl-s"><span class="pl-pds">'</span>05<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setXid(<span class="pl-s"><span class="pl-pds">'</span>XXXXXXXXXXXXXXXXXX<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setCavv(<span class="pl-s"><span class="pl-pds">'</span>XXXXXXXXXXXXXXXXXX<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$paymentType</span><span class="pl-k">-&gt;</span>setCavvAlgorithm(<span class="pl-s"><span class="pl-pds">'</span>X<span class="pl-pds">'</span></span>);</span>
+
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// add a predefined item</span></span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Item\</span><span class="pl-c1">PredefinedItem</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setCode(<span class="pl-s"><span class="pl-pds">"</span>TEST123<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$predefItem</span><span class="pl-k">-&gt;</span>setQuantity(<span class="pl-c1">1</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Create OrderRequest with order</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>orderSubmitRequest(<span class="pl-smi">$order</span> <span class="pl-c">/*, pass "True" if test request*/</span>);</span>
+<span class="pl-s1"><span class="pl-c">// Add models</span></span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>setPaymentType(<span class="pl-smi">$paymentType</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>addItem(<span class="pl-smi">$predefItem</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Try send request. This will either throw and exception or return a response instance</span></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Get deserialized data from body of request</span></span>
+<span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span></pre></div>
+
+
+<h2>Blacklist/Whitelist Management</h2>
+<p>Allows addition/removal of card numbers, email addresses and other information to the blacklist or whitelists. </p>
+
+<h3>Add Credit Card to Blacklist</h3>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\BlackListSearch</span> <span class="pl-k">as</span> <span class="pl-c1">BlackListSearch</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\WhiteListSearch</span> <span class="pl-k">as</span> <span class="pl-c1">WhiteListSearch</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-c1">BlackListSearch</span><span class="pl-k">::</span>ByCardNumber(<span class="pl-s"><span class="pl-pds">'</span>4111111111111111<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Blacklist due to fraud.<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>addToBlacklistRequest(<span class="pl-smi">$order</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span></pre></div>
+
+
+    
+    
+<h3>Add Email to Blacklist</h3>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\BlackListSearch</span> <span class="pl-k">as</span> <span class="pl-c1">BlackListSearch</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\WhiteListSearch</span> <span class="pl-k">as</span> <span class="pl-c1">WhiteListSearch</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-c1">BlackListSearch</span><span class="pl-k">::</span>ByEmailAddress(<span class="pl-s"><span class="pl-pds">'</span>test@example.com<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Blacklist due to fraud.<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>addToBlacklistRequest(<span class="pl-smi">$order</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span></pre></div>
+
+
+<h2>Create Customer</h2>
+<p>The Customer Entity allows an easy way to group orders together for a single customer. Once a Customer ID is created - you can pass this information through on creation of new orders.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerCreate</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerCreate</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerUpdate</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerUpdate</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$model</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">CustomerCreate</span>(<span class="pl-s"><span class="pl-pds">'</span>test@example.com<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Test User<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>customerCreateRequest(<span class="pl-smi">$model</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"><span class="pl-smi">$customer_id</span> <span class="pl-k">=</span> <span class="pl-c1">null</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// handle response</span></span>
+<span class="pl-s1"><span class="pl-smi">$errors</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getError();</span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$errors</span> <span class="pl-k">!</span><span class="pl-k">==</span> <span class="pl-c1">null</span>){</span>
+<span class="pl-s1">    <span class="pl-c">// Handle errors</span></span>
+<span class="pl-s1">}</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// get id of new customer</span></span>
+<span class="pl-s1"><span class="pl-smi">$customer_id</span> <span class="pl-k">=</span> (<span class="pl-k">int</span>)<span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody()<span class="pl-k">-&gt;</span><span class="pl-smi">customer_id</span>;</span>
+<span class="pl-s1"></span>
+
+</pre></div>
+
+
+<h2>Modify Customer</h2>
+<p>The Customer Entity allows an easy way to group orders together for a single customer. This function allows you to update an existing customer with a new name or email address.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerCreate</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerCreate</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerUpdate</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerUpdate</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// update new customer's name by id</span></span>
+<span class="pl-s1"><span class="pl-smi">$model</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">CustomerUpdate</span>(<span class="pl-smi">123456</span>, <span class="pl-s"><span class="pl-pds">'</span>test@example.com<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>New Name<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>customerUpdateRequest(<span class="pl-smi">$model</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// handle response</span></span>
+<span class="pl-s1"><span class="pl-smi">$errors</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getError();</span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$errors</span> <span class="pl-k">!</span><span class="pl-k">==</span> <span class="pl-c1">null</span>){</span>
+<span class="pl-s1">    <span class="pl-c">// Handel errors</span></span>
+<span class="pl-s1">}</span>
+<span class="pl-s1"></span></pre></div>
+
+
+<h2>Get Customer Cards</h2>
+<p>This method allows you to retrieve previous card details used by the customer. Only cards which have been flagged by the customer and merchant to remember will be retrieved. Expired cards will not be retrieved. This services does not support non-credit card payment methods.</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// include classes</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerRetrieve</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerRetrieve</span>;</span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">\WSSDK\Model\CustomerGetCards</span> <span class="pl-k">as</span> <span class="pl-c1">CustomerGetCards</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$model</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">CustomerGetCards</span>(<span class="pl-smi">123456</span>, <span class="pl-s"><span class="pl-pds">'</span>test@example.com<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Test User<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>customerGetCardsRequest(<span class="pl-smi">$model</span>, <span class="pl-c1">true</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span></pre></div>
+   
+    
+<h2>
+<a id="user-content-order-retrieval" class="anchor" href="#order-retrieval" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Order Retrieval</h2>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">RetrieveOrder</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-s">123456</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>retrieveOrderRequest(<span class="pl-smi">$order</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// handle response</span></span>
+<span class="pl-s1"><span class="pl-smi">$errors</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getError();</span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$errors</span> <span class="pl-k">===</span> <span class="pl-c1">null</span>){</span>
+<span class="pl-s1">    <span class="pl-c">// get status of response</span></span>
+<span class="pl-s1">    <span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span>
+<span class="pl-s1">    <span class="pl-k">if</span> (<span class="pl-smi"> (int)$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">num_records</span> <span class="pl-k">==</span> <span class="pl-c1">1</span>){</span>
+<span class="pl-s1">        <span class="pl-c1">echo</span> <span class="pl-smi">$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">order</span><span class="pl-k">-&gt;</span><span class="pl-smi">order_id</span>;</span>
+<span class="pl-s1">        <span class="pl-c">// Code ...</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi"> (int)$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">num_records</span> <span class="pl-k">&gt;</span> <span class="pl-c1">1</span>){</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-k">foreach</span>(<span class="pl-smi">$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">order</span> <span class="pl-k">as</span> <span class="pl-smi">$order</span>){</span>
+<span class="pl-s1">            <span class="pl-c1">echo</span> <span class="pl-smi">$order</span><span class="pl-k">-&gt;</span><span class="pl-smi">order_id</span>;</span>
+<span class="pl-s1">            <span class="pl-c">// Code ...</span></span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">} <span class="pl-k">else</span> {</span>
+<span class="pl-s1">    <span class="pl-c">// handle errors</span></span>
+<span class="pl-s1">    <span class="pl-c">// Log $errors</span></span>
+<span class="pl-s1">    <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-c1">Exception</span>(<span class="pl-s"><span class="pl-pds">"</span>Error Processing Request<span class="pl-pds">"</span></span>, <span class="pl-c1">1</span>);</span>
+<span class="pl-s1">}</span></pre></div>
+
+<h2>
+<a id="user-content-transaction-retrieval" class="anchor" href="#transaction-retrieval" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Transaction Retrieval</h2>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Including the WSSDK.php will include all other parts of the library</span></span>
+<span class="pl-s1"><span class="pl-k">require_once</span> <span class="pl-s"><span class="pl-pds">"</span>lib/WSSDK/WSSDK.php<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// Initialize WSSDK</span></span>
+<span class="pl-s1"><span class="pl-smi">$myWSSDK</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">WSSDK</span>(</span>
+<span class="pl-s1">    <span class="pl-c">// The Account ID of the Manager Account.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>CLIENT_ID<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// The API Key provided by your Account Manager.</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>YOUR_API_TOKEN<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">    <span class="pl-c">// eg: "my.example.com"</span></span>
+<span class="pl-s1">    <span class="pl-s"><span class="pl-pds">"</span>WEB_SERVICE_DOMAIN<span class="pl-pds">"</span></span></span>
+<span class="pl-s1">);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$order</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">RetrieveTransaction</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$order</span><span class="pl-k">-&gt;</span>setOrderId(<span class="pl-s">123456</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$req</span> <span class="pl-k">=</span> <span class="pl-smi">$myWSSDK</span><span class="pl-k">-&gt;</span>retrieveTransactionRequest(<span class="pl-smi">$order</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$res</span> <span class="pl-k">=</span> <span class="pl-smi">$req</span><span class="pl-k">-&gt;</span>send();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c">// handle response</span></span>
+<span class="pl-s1"><span class="pl-smi">$errors</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getError();</span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$errors</span> <span class="pl-k">===</span> <span class="pl-c1">null</span>){</span>
+<span class="pl-s1">    <span class="pl-c">// get status of response</span></span>
+<span class="pl-s1">    <span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$res</span><span class="pl-k">-&gt;</span>getBody();</span>
+<span class="pl-s1">    <span class="pl-k">if</span> (<span class="pl-smi">(int)$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">num_records</span> <span class="pl-k">==</span> <span class="pl-c1">1</span>){</span>
+<span class="pl-s1">        <span class="pl-c1">echo</span> <span class="pl-smi">$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">transaction</span><span class="pl-k">-&gt;</span><span class="pl-smi">order_id</span>;</span>
+<span class="pl-s1">        <span class="pl-c">// Code ...</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi">(int)$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">num_records</span> <span class="pl-k">&gt;</span> <span class="pl-c1">1</span>){</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-k">foreach</span>(<span class="pl-smi">$data</span><span class="pl-k">-&gt;</span><span class="pl-smi">transaction</span> <span class="pl-k">as</span> <span class="pl-smi">$transaction</span>){</span>
+<span class="pl-s1">            <span class="pl-c1">echo</span> <span class="pl-smi">$transaction</span><span class="pl-k">-&gt;</span><span class="pl-smi">order_id</span>;</span>
+<span class="pl-s1">            <span class="pl-c">// Code ...</span></span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">} <span class="pl-k">else</span> {</span>
+<span class="pl-s1">    <span class="pl-c">// handle errors</span></span>
+<span class="pl-s1">    <span class="pl-c">// Log $errors</span></span>
+<span class="pl-s1">    <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-c1">Exception</span>(<span class="pl-s"><span class="pl-pds">"</span>Error Processing Request<span class="pl-pds">"</span></span>, <span class="pl-c1">1</span>);</span>
+<span class="pl-s1">}</span></pre></div>
+
+
+    
+    
+    
+</article></body></html>

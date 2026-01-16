@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Lottery update" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/platform/oil" scriptParameters="r lottery:update_draw_data florida-lotto">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="PHP 7.2" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Cache reset" run_configuration_type="PhpLocalRunConfigurationType" />
+    </method>
+  </configuration>
+</component>

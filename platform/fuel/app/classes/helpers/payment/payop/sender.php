@@ -1,0 +1,245 @@
+<?php
+
+use Fuel\Core\Response;
+use Helpers\Wordpress\LanguageHelper;
+
+/**
+ * Sender (handles first party of communication) for PayOp payment method.
+ */
+final class PayopSender extends Helpers_Payment_Sender implements Forms_Wordpress_Payment_Process
+{
+    const PRODUCTION_URL = 'https://checkout.payop.com';
+    const TESTING_URL = PayopSender::PRODUCTION_URL; // no sandbox available
+    private const INVOICE_API_URL = 'https://payop.com/v1/invoices/create';
+
+    private array $fullRequestData;
+    private array $responseHeaders = [];
+
+    public function __construct(
+        ?array $whitelabel = [],
+        ?array $user = [],
+        ?Model_Whitelabel_Transaction $transaction = null,
+        ?Model_Whitelabel_Payment_Method $model_whitelabel_payment_method = null
+    ) {
+        parent::__construct(
+            $whitelabel,
+            $user,
+            $transaction,
+            $model_whitelabel_payment_method,
+            Helpers_Payment_Method::PAYOP_NAME,
+            Helpers_Payment_Method::PAYOP
+        );
+    }
+
+    /**
+     * Create invoice and fetch transaction address for redirection.
+     * https://github.com/Payop/payop-api-doc/blob/master/Invoice/createInvoice.md
+     * @param array $log_data data, which will be attached to log
+     * @return string on success next step address, null on failure
+     * @throws Throwable any error in execution will be automatically caught and logged.
+     */
+    protected function implementation_fetch_transaction_address(array &$log_data): string
+    {
+        $transaction_token = $this->get_prefixed_transaction_token();
+
+        $description = $this->get_transaction_description($transaction_token);
+
+        $currency_code = $this->get_payment_currency($this->transaction->payment_currency_id);
+
+        $nameAndLastNameText = $this->getUserNameAndLastNameText($this->user);
+
+        $orderData = [
+            'id' => $transaction_token,
+            'amount' => $this->transaction['amount_payment'],
+            'currency' => $currency_code,
+        ];
+
+        $signature = $this->generateSignatureFromOrderDataUsingSecretKey($orderData, $this->payment_data['payop_secret_key']);
+
+        // These fields cannot be present for signature generation
+        $orderData['items'] = []; // here we could pass specific basket items, it is required even empty array
+        $orderData['description'] = $description; // optional
+        $currentLanguageShortcode = LanguageHelper::getCurrentLanguageShortcode();
+        $this->fullRequestData =
+            [
+                'publicKey' => $this->payment_data['payop_public_key'],
+                'order' => $orderData,
+                'payer' => [
+                    'email' => $this->user['email'],
+                    'name' => $nameAndLastNameText ?? '', // optional
+                    'phone' => $this->user['phone'] ?? '', // optional
+                ],
+                'language' => $currentLanguageShortcode,
+                'resultUrl' => lotto_platform_home_url(Helper_Route::ORDER_SUCCESS),
+                'failPath' => lotto_platform_home_url(Helper_Route::ORDER_FAILURE),
+                'signature' => $signature,
+                'metadata' => ['amount' => $this->transaction['amount_payment']],
+            ];
+
+        $response = $this->makeJsonRequest(self::INVOICE_API_URL, json_encode($this->fullRequestData));
+
+        if (empty($response)) {
+            $this->log_error("An error occurred during the attempt of " .
+                             "communication with create invoice API of PayOp.", $this->fullRequestData);
+
+            Session::set("message", ["error", _('Security error! Please contact us!')]);
+
+            Response::redirect(lotto_platform_home_url('/order/'));
+        }
+
+        if (empty($response['status']) || $response['status'] !== 1) {
+            $this->log_error("An error occurred in response from " .
+                             "create invoice API of PayOp." .
+                             'Response details: ' . json_encode($response), $this->fullRequestData);
+
+            Session::set("message", ["error", _('Security error! Please contact us!')]);
+
+            Response::redirect(lotto_platform_home_url('/order/'));
+        }
+
+        $invoiceId = $this->getInvoiceIdFromHeader();
+        if (!empty($invoiceId)) {
+            $this->log_info('Invoice was created successfully.', $this->fullRequestData);
+            return $this->payment_url . '/' . $currentLanguageShortcode . '/payment/invoice-preprocessing/' . $invoiceId;
+        }
+
+        // otherwise set general message
+        throw new \Exception('General failure - unable to fetch result, reached last checkpoint');
+    }
+
+    private function getInvoiceIdFromHeader(): string
+    {
+        if (!empty($this->responseHeaders) && !empty($this->responseHeaders['identifier']) && !empty($this->responseHeaders['identifier'][0]))
+        return $this->responseHeaders['identifier'][0];
+    }
+
+    /**
+     * Signature is generated by making sha-256 hash of such string:
+     * "order.amount:order.currency:order.id:secretKey" (values separated by ":", ordering and case matters).
+     * Example: $orderData = ['id' => 'FF01', 'amount' => '100.0000', 'currency' => 'USD'];
+     * Warning! Do not pass any other data such as order description or items, as it will generate wrong signature.
+     * https://github.com/Payop/payop-api-doc/blob/master/Invoice/createInvoice.md#signature
+     * @param string $orderData
+     * @return string encrypted data
+     */
+    private function generateSignatureFromOrderDataUsingSecretKey(array $orderData, string $projectSecretKey): string
+    {
+        ksort($orderData, SORT_STRING);
+        $dataSet = array_values($orderData);
+        $dataSet[] = $projectSecretKey;
+        return hash('sha256', implode(':', $dataSet));
+    }
+
+    /**
+     * Make request to API
+     *
+     * @param string $url API url
+     * @param string $post_data request data encoded in JSON
+     *
+     * @return array
+     */
+    private function makeJsonRequest(string $url, string $post_data)
+    {
+        $headers = [];
+
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_POST, true);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $post_data);
+        curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 30);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        // this function is called by curl for each header received
+        curl_setopt($curl, CURLOPT_HEADERFUNCTION,
+            function($curl, $header) use (&$headers)
+            {
+                $len = strlen($header);
+                $header = explode(':', $header, 2);
+                if (count($header) < 2) // ignore invalid headers
+                    return $len;
+
+                $headers[strtolower(trim($header[0]))][] = trim($header[1]);
+
+                return $len;
+            }
+        );
+
+        $response = curl_exec($curl);
+
+        if ($errno = curl_errno($curl)) {
+            $error_message = curl_strerror($errno);
+            $this->log_error('PayOp cURL error. ' . $errno . ': ' . $error_message);
+        }
+
+        curl_close($curl);
+
+        if ($response === false) {
+            $this->log_error('PayOp cURL error ;' . curl_error($curl));
+        }
+
+        if (isset($response['error'])) {
+            $this->logErrorPayop($response['error'], ['request' => $this->fullRequestData]);
+        }
+
+        $this->responseHeaders = $headers;
+        return json_decode($response, true);
+    }
+
+    /**
+     * Logs Payop API error response
+     *
+     * @param string $message
+     * @param array $data
+     * @return void
+     */
+    private function logErrorPayop(string $message, array $data = []): void
+    {
+        $this->log('Payop error response: ' . $message, Helpers_General::TYPE_ERROR, $data);
+    }
+
+    private function getUserNameAndLastNameText(array $user): string
+    {
+        $fullNameText = [];
+
+        if (!empty($user['name'])) {
+            $fullNameText[] = $user['name'];
+        }
+
+        if (!empty($user['surname'])) {
+            $fullNameText[] = $user['surname'];
+        }
+
+        return implode(' ', $fullNameText);
+    }
+
+    /**
+     *
+     * @return void
+     */
+    public function create_payment(): void
+    {
+        $payment_address = $this->fetch_transaction_address();
+        if ($payment_address === null) { // invalid address
+            Response::redirect(lotto_platform_home_url(Helper_Route::ORDER_FAILURE));
+        }
+        Response::redirect($payment_address); // note: exit is contained here
+    }
+
+    /**
+     *
+     * @param Model_Whitelabel_Transaction $transaction
+     * @param string $out_id
+     * @param array $data
+     * @return void
+     */
+    public function confirm_payment(
+        Model_Whitelabel_Transaction &$transaction = null,
+        string &$out_id = null,
+        array &$data = []
+    ): bool {
+        $ok = false;
+
+        return $ok;
+    }
+}

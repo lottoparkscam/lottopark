@@ -1,0 +1,22 @@
+<div class="main-width content-width">
+	<div class="casino-container content-box">
+		<div class="casino-top-container">
+			<h1>{{ casinoPageTitle }}</h1>
+			<div class="slot-filters platform-form">
+				<input class="slots-input" id="slots-search" placeholder="Search" type="text" name="slot_game_name">
+				<select class="slots-input slots-select" name="type">
+					<option value="">Type</option>
+					{{ gameTypes | raw }}
+				</select>
+				<select class="slots-input slots-select" name="provider">
+					<option value="">Provider</option>
+					{{ gameProviders | raw }}
+				</select>
+			</div>
+		</div>
+		{{ casinoContentWidget|raw }}
+		{{ promoBannerElement|raw }}
+		<div class="slot-games-container"></div>
+		<button class="btn btn-primary" id="show-more">{{translatedShowMore}}</button>
+	</div>
+</div>

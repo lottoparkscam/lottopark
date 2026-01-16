@@ -1,0 +1,30 @@
+// Colors
+$colorful-border-color: #1db4ed;
+$border-color: #dae0e3;
+$default-bg-color: #41934c;
+$dark-text-color: #384656;
+$text-color: #87979c;
+$jackpot-text-color: #87979c;
+$price-color: #1db4ed;
+$button-bg-color: #67bd2e;
+$button-text-color: #fff;
+$normal-ball-bg-color: #1db4ed;
+$normal-ball-text-color: #87979c;
+$bonus-ball-bg-color: #67bd2e;
+$bonus-ball-text-color: #fff;
+$orange: rgb(246, 127, 30);
+$raffle-banner-bg-color: #41934c;
+
+// Fonts
+$font-semi-bold: SourceSansPro-SemiBold;
+$font-bold: SourceSansPro-Bold;
+
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  src: url('../../../base/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url('../../../base/fonts/SourceSansPro-Bold.ttf') format('truetype');
+}

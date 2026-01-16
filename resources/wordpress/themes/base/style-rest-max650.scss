@@ -1,0 +1,176 @@
+@media screen and (max-width: 650px) {
+  /**** ADJUSTMENTS ****/
+  .alignleft {
+    float: none;
+    display: block;
+  }
+  .alignright {
+    float: none;
+    display: block;
+  }
+
+  /**** CONTACT FORM ****/
+  .wpcf7-form input[type='submit'] {
+    display: block;
+    width: 100%;
+  }
+
+  div.wpcf7 .ajax-loader {
+    display: block;
+    vertical-align: 0;
+    margin: 5px auto;
+  }
+  div.wpcf7-response-output:last-of-type {
+    margin-bottom: 15px;
+  }
+  .wpcf7-form-control-wrap > div > div {
+    margin: 0px auto;
+  }
+  div.wpcf7 img.ajax-loader {
+    float: none;
+    display: block;
+    width: 16px;
+
+    margin: 10px auto 0px auto;
+  }
+  .wpcf7-form-control-wrap .g-recaptcha {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wpcf7-form br {
+    display: none;
+  }
+
+  /**** HEADER *****/
+
+  div.user-info {
+    margin-left: 0;
+    width: 70%;
+  }
+
+  div.user-info-noorder {
+    width: 100%;
+  }
+  section.user-area div.user-info div.user-info-area a > span.user-balance {
+    float: right;
+  }
+  .user-area .btn {
+    font-size: 1.4em;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 52px;
+  }
+
+  /**** ARTICLES/POSTS *****/
+  article.page h1,
+  article.post h1 {
+    font-size: 1.5em;
+    margin-top: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  article.page h1.play-lottery,
+  article.page h1.header-order,
+  article.page h1.header-payment {
+    font-size: 1.5em;
+  }
+
+  div.header-notfound img {
+    max-width: 70%;
+  }
+
+  h1.news-title {
+    font-size: 2em;
+  }
+
+  /**** FAQ *****/
+
+  section.faq article.faq-content {
+    margin: 0;
+  }
+
+  /******* LIST *****/
+
+  .widget-list-carousel {
+    height: 291px;
+  }
+  .widget-list-type2 .widget-list-carousel {
+    height: 307px;
+  }
+  .widget-list-display2 .widget-list-carousel,
+  .widget-list-display2.widget-list-type2 .widget-list-carousel {
+    height: auto;
+  }
+  .widget-list-display1.widget-list-type1 .widget-list-carousel {
+    height: 313px;
+  }
+
+  /***** ORDER ******/
+  .order-sum {
+    font-size: 1.6em;
+  }
+
+  /****** PAYMENTS *****/
+
+  /* tables */
+  table.table-payment tfoot tr td.payment-summary-text {
+    font-size: 1em;
+    padding-top: 10px;
+  }
+
+  /**** RESULTS ****/
+  .results-short-jackpot {
+    font-size: 1.8em;
+  }
+
+  /***** NEXT DRAW *****/
+
+  .widget-draw-jackpot {
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  .widget-draw-title {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+
+  /**** MY ACCOUNT ****/
+  .myaccount-balance {
+    font-size: 1.125em;
+  }
+
+  .ticket-prize {
+    font-size: 1.25em;
+  }
+
+  /**** TICKET ****/
+
+  .play-lottery-jackpot-amount {
+    font-size: 1.5em;
+    line-height: 20px;
+  }
+  .widget-ticket-time-remain {
+    font-size: 1.2em;
+  }
+  .widget-ticket-time-remain span {
+    margin-right: 5px;
+  }
+  .widget-ticket-wrapper .widget-ticket-header h1 {
+    font-size: 1.125em;
+    line-height: 22px;
+  }
+  .widget-ticket-image {
+    margin-right: 18px;
+  }
+
+  /***** REFER A FRIEND ****/
+
+  .social-network {
+    width: 100%;
+  }
+
+  .social-network a {
+    width: auto;
+    padding: 0 10px;
+  }
+}

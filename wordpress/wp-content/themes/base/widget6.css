@@ -1,0 +1,139 @@
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  src: url(/wp-content/themes/base/fonts/SourceSansPro-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(/wp-content/themes/base/fonts/SourceSansPro-Bold.ttf) format("truetype");
+}
+
+.widget-6 {
+  width: 420px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+.widget-6 .widget-top-title {
+  width: 120px;
+  border-top: 1px solid #dae0e3;
+  border-left: 1px solid #dae0e3;
+  border-right: 1px solid #dae0e3;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 0 3px 0;
+  height: 16px;
+  display: table;
+}
+
+.widget-6 .widget-top-title img {
+  width: 80%;
+}
+
+.widget-6 .widget-content {
+  border: 1px solid #dae0e3;
+  border-radius: 5px;
+}
+
+.widget-6 .widget-ball {
+  padding: 18px 0 8px;
+  text-align: center;
+}
+
+.widget-6 .widget-ball img {
+  width: 80px;
+}
+
+.widget-6 .widget-lottery-name {
+  color: #384656;
+  font-size: 22px;
+  text-align: left;
+  font-family: SourceSansPro-Bold;
+  margin-top: 22px;
+  margin-left: 5px;
+}
+
+.widget-6 .widget-lottery-time {
+  margin-top: 15px;
+  color: #87979c;
+  font-size: 16px;
+  font-family: SourceSansPro-SemiBold;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.widget-6 .widget-time-left-title {
+  color: #87979c;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 15px;
+  font-family: SourceSansPro-Bold;
+}
+
+.widget-6 .widget-jackpot {
+  color: #b849a9;
+  font-family: SourceSansPro-Bold;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.widget-6 .widget-time-left {
+  color: #87979c;
+  font-family: SourceSansPro-SemiBold;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.widget-6 .widget-play-now {
+  display: table;
+  float: right;
+  background: #67bd2e;
+  width: 115px;
+  padding: 11px 0 13px;
+  text-align: center;
+  color: #FFF;
+  font-family: SourceSansPro-Bold;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 15px 15px;
+}
+
+.widget-6 .widget-left {
+  float: left;
+  width: 28%;
+  text-align: center;
+}
+
+.widget-6 .widget-right {
+  float: right;
+  width: 69%;
+}
+
+.widget-6 .widget-bottom {
+  display: table;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #dae0e3;
+}
+
+.widget-6 .calendar-icon {
+  background: url(/wp-content/themes/base/images/widgets/small-calendar.png);
+  width: 22px;
+  height: 22px;
+  display: inline-table;
+  background-size: 100% 100%;
+  float: left;
+  margin-right: 8px;
+}
+
+.widget-6 .align-right {
+  margin-right: 15px;
+  display: table;
+  float: right;
+}

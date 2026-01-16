@@ -1,0 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css?family=Signika:300,400,600,700&subset=latin-ext');*/
+
+input, select, textarea
+{
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+}
+
+.btn
+{
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+}
+
+.wpcf7-form input[type="submit"]
+{
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+}
+
+body
+{
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+}

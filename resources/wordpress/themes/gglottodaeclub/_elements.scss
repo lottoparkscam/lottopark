@@ -1,0 +1,608 @@
+//
+//    Elements mappings - color definition
+//
+
+$headers: $grey;
+$a: $grey;
+
+$aInfoPurchaseBg: $green;
+$aInfoPurchaseManual: $green;
+$aInfoPurchaseHoverBg: $greenDarker;
+
+$body: $greyLighter4;
+$bodyBg: $pageBg;
+
+$headerBg: $header;
+
+//// Buttons ////
+$btn: $white;
+
+$btnPrimary: $white;
+$btnPrimaryBg: $green;
+$btnPrimaryBgHover: $greenDarker;
+
+$btnSecondary: $white;
+$btnSecondaryBg: $green;
+$btnSecondaryBgHover: $greenDarker;
+
+$btnTertiary: $white;
+$btnTertiaryBg: $red;
+$btnTertiaryBgHover: $redDarker;
+
+$btnDefault: $red;
+$btnDefaultBg: $white;
+$btnDefaultHover: $white;
+$btnDefaultBgHover: none;
+$btnDefaultBorder: $trans;
+$btnDefaultBorderHover: $white;
+
+$btnSignUp: $white;
+$btnSignUpBg: $green;
+$btnSignUpHover: $white;
+$btnSignUpBgHover: $greenDarker;
+
+$btnLoginBg: $red;
+$btnLogin: $white;
+$btnLoginHover: $white;
+$btnLoginBgHover: $redDarker;
+
+//* WOCF7 *//
+$inSub: $white;
+$inSubBg: $green;
+$inSubHover: $white;
+$inSubBgHover: $greenDarker;
+
+$inOther: $grey3;
+$inOtherBg: $greyBg;
+$inOtherBorder: $greyBg;
+
+$inOtherFocus: $grey4;
+$inOtherBgFocus: $white;
+$inOtherBorderFocus: $greyBg;
+
+$inOtherNotValid: $redLight;
+$inOtherBgNotValid: $white;
+$inOtherBorderNotValid: $redLight;
+
+$inOtherNotValidFocus: $redLight;
+$inOtherBgNotValidFocus: $white;
+$inOtherBorderNotValidFocus: $redLight;
+
+//// DIV *//
+$divHomeWidgetBg: $pageBg;
+
+$divHomeWidgetBoxShadow: $grey8;
+$divHomeWidgetHoverBoxShadow: $grey3;
+
+$divUserInfoMenuContentBg: $customDark;
+
+$divUserInfoMenuContentItemBorderRight: $grey7;
+$divUserInfoMenuContentItemBorderBottom: $grey7;
+
+$divUserInfoSpan: $grey;
+
+$divUserInfoSpanFa: $red;
+
+$divUserInfoContainerALogout: $white;
+
+$divUserInfoAreaBg: $red;
+$divUserInfoAreaBorder: $grey8;
+
+$divOrderInfoALinkBoxShadow: $grey8;
+$divOrderInfoALinkHoverBoxShadow: $grey3;
+$divOrderInfoALink: $black;
+$divOrderInfoALinkSpan: $white;
+$divOrderInfoALinkSpanBg: $green;
+$divOrderInfoDescSpan: $green;
+
+$divOrderInfoNotEmptyShadow: $red;
+$divOrderInfoNotEmptyHoverShadow: $redDarker;
+
+$divMenuWrapperA: $grey;
+$divMenuWrapperAHover: $red;
+
+$divContentBoxFAQAnswerBorder: $greyLight2;
+
+$divInfoboxTitleA: $grey;
+
+$divInfoboxLinksA: $grey;
+
+$divInfoboxAmount: $red;
+
+$divInfoboxDetailsBorder: $grey2;
+
+$divAccountTicket: $grey;
+
+$divHeaderTransaction: $grey;
+$divHeaderWithdrawal: $grey;
+
+//// SECTION ////
+$secUserAreaBg: $customDark;
+$secUserAreaA: $black;
+$secUserAreaAUserCircle: $red;
+$secUserAreaAChevronDown: $black;
+$secUserAreaAUserBalance: $red;
+
+$secUserAreaActiveABg: $customDark;
+$secUserAreaActiveABorder: $grey8;
+
+$secUserAreaActiveA: $black;
+$secUserAreaActiveAUserCircle: $red;
+$secUserAreaActiveAChevronDown: $black;
+$secUserAreaActiveAUserBalance: $red;
+
+$secFAQNav: $grey;
+$secFAQNavBg: $greyBg;
+$secFAQNavBorder: $greyLight2;
+
+$secFAQNavA: $grey;
+
+$secFAQNavLiBorder: $greyLight2;
+
+$secDivAnsBorder: $greyLight2;
+
+$secH3Border: $greyLight2;
+
+$secPageContentPagePA: $red;
+$secPageContentPagePAHover: $redDarker;
+
+//// NAV ////
+$navPrimaryNavTopBorder: $grey;
+$navPrimaryNavTopBg: $header;
+$navPrimaryDarkLiA: $white;
+
+$navPrimaryDivLiA: $white;
+$navPrimaryDivLiAHover: $red;
+
+$navPrimaryDivLiHomeABorder: $grey4;
+$navPrimaryDivLiHomeA: $red;
+
+$navPrimaryDivLiHomeAHoverBorder: $grey3;
+
+$navPrimaryDivLiMobileHighA: $red;
+
+$navContentLiActiveABg: $red;
+$navContentLiActiveA: $white;
+$navContentLiActiveAHoverBg: $redDarker;
+
+$navContentLiABg: $white;
+$navContentLiABgHover: $red;
+
+$navPaginationNumbers: $greyLighter;
+$navPaginationNumbersHover: $white;
+$navPaginationNumbersBgHover: $redDarker;
+
+$navPaginationCurrent: $white;
+$navPaginationCurrentBg: $red;
+
+$navPaginationCurrentBgHover: $redDarker;
+
+//// FOOTER ////
+$footerBg: $white;
+$footerDivA: $grey;
+$footerDivASpan: $greyDarker;
+
+$footerNavFooterA: $red;
+
+$footerNavSocialA: $red;
+$footerNavSocialASpanBorderHover: $redDarker;
+$footerNavSocialASpanBorder: $redDarker;
+
+$footerLogoTypesBorder: $grey8;
+
+//// TABLES ////
+$tabTable: $grey3;
+$tabTableTheadTrBg: $greyBg;
+$tabTableTbodyTdBorder: $greyBg;
+
+$tabTableTfootTrBg: $greyBg;
+
+$tabTableHoverTrHoverTdBg: $greyAlmostWhite3;
+
+$tabTableShortTrTh: $grey;
+
+$tabTableShortTrTdLabel: $grey;
+$tabTableShortTrTdSpan: $greyLighter;
+
+$tabTableShortTheadTrBg: $greyBg;
+$tabTableShortTheadTrThBorder: $white;
+
+$tabTableShortTbodyTrBg: $greyBg;
+$tabTableShortTbodyTrTdBorder: $white;
+
+$tabTableDetailedTbodyTd: $grey3;
+
+$tabTableDetailedPrizeAmount: $green;
+
+$tabTableInfoJackpotInfoJackpotAmount: $red;
+
+$tabTableOrderBorder: $grey2;
+
+$tabTableOrderTbodyTdBorder: $grey2;
+
+$tabTablePaymentTfootTrBg: $trans;
+$tabTablePaymentTfootTrTdLOTBg: $trans;
+
+$tabTablePaymentTbodyTrFOTTdBg: $grey2;
+$tabTablePaymentTbodyTrTdBgHover: $trans;
+
+$tabTableSuccessTbodyTrTdBorder: $grey2;
+
+$tabTableResultsDetailedAmount: $green;
+
+//// ARITICLE ////
+$artNewsStrong: $grey;
+
+$artTabTheadTrBg: $grey2;
+$artTabTheadTrTdBorder: $grey2;
+
+$artTabTbodyTrTdBorder: $grey2;
+
+$artTabTfootTrBg: $greyAlmostWhite3;
+$artTabTfootTrTdBorder: $grey2;
+
+//// FORMS ////
+$platformIn: $grey3;
+$platformInBg: $greyBg;
+$platformInBorder: $greyBg;
+
+$platformInFocus: $grey4;
+$platformInBgFocus: $white;
+$platformInBorderFocus: $greyBg;
+
+$platformDivErrorIn: $redLight;
+$platformDivErrorInBg: $white;
+$platformDivErrorInBorder: $redLight;
+
+$platformDivErrorInFocus: $redLight;
+$platformDivErrorInBorderFocus: $redLight;
+
+$platformA: $green;
+$platformAHover: $greenDarker;
+
+//// PAYMENT ////
+$payCcDivErrorIn: $redLight;
+$payCcDivErrorInBg: $white;
+$payCcDivErrorInBorder: $redLight;
+
+$payCcDivErrorInFocus: $redLight;
+$payCcDivErrorInBorderFocus: $redLight;
+
+$payCcInFocus: $grey4;
+$payCcInBgFocus: $white;
+$payCcInBorderFocus: $greyLight;
+
+$payMobileLabel: $grey;
+
+$payNavTilte: $grey;
+
+$payNavUlA: $grey3;
+$payNavUlABg: $grey5;
+$payNavUlABorder: $greyLight2;
+
+$payNavUlASpan: $red;
+
+//// DEPOSIT ////
+$depositBorder: $greyLight3;
+$depositBorderHover: $greyLight3;
+
+$depositValueSpan: $red;
+
+$depositFormBorder: $grey2;
+$depositFormBorderHover: $grey2;
+$depositFormLabel: $greyLighter;
+
+$depositActive: $grey6;
+$depositActiveBorder: $green;
+
+//// DIALOGS ////
+$dialogTitle: $grey;
+$dialogTitleBorder: $grey8;
+
+$dialogContentBtnTertiary: $white;
+$dialogContentBtnTertiaryBg: $red;
+$dialogContentBtnTertiaryBgHover: $redDarker;
+
+$dialogContentA: $red;
+$dialogContentAHover: $redDarker;
+
+$dialogContentABtnPrimary: $white;
+$dialogContentABtnPrimaryBg: $red;
+$dialogContentABtnPrimaryHover: $white;
+$dialogContentABgBtnPrimaryHover: $redDarker;
+
+$dialogCloseBorder: $grey;
+$dialogCloseBgHover: $grey;
+
+//// TABLES TH ////
+$thSorterHeaderBgHover: $header;
+
+//// WIDGET ////
+$widFeaWrapSmallBg: $trans;
+$widFeaWrapSmallContentBg: $red;
+$widFeaWrapSmallContentH2: $white;
+$widFeaWrapSmallAmount: $white;
+$widFeaWrapSmallInfoContainer: $white;
+
+$widFeaContentBg: $redDarker;
+
+$widFeaCountdownTime: $white;
+
+$widLatestNewsTitle: $grey;
+
+$widListContentTitle: $grey;
+$widListContentGridTitle: $grey;
+$widListContentNolottery: $redDarker;
+
+$widListTicketHamount: $red;
+$widListTicketHamountBorder: $grey2;
+
+$widListTicketCount: $grey;
+$widListTicketCountBefore: $greyLighter;
+
+$widPendingText: $grey;
+
+$widType2Text: $greyLighter;
+
+$widTicketIconOk: $green;
+
+$widTicketButtonBg: $green;
+$widTicketButtonHoverBg: $greenDarker;
+
+$widTicketEntity: $grey3;
+
+$widTicketEntityMobileBorder: $greyLight2;
+$widTicketEntityMobileALine: $grey3;
+
+$widTicketEntityCheckedBorder: $red;
+
+$widTicketEntityCheckedNumA: $grey3;
+$widTicketEntityCheckedNumACheckedHover: $white !important;
+$widTicketEntityCheckedNumACheckedBgHover: $greenDarker;
+$widTicketEntityCheckedNumACheckedBorderHover: $greenDarker;
+
+$widTicketEntityCheckedNumAHover: $grey3 !important;
+
+$widTicketEntityCheckedBNumA: $grey3;
+$widTicketEntityCheckedBNumACheckedHover: $white !important;
+$widTicketEntityCheckedBNumACheckedHoverBorder: $redDarker;
+$widTicketEntityCheckedBNumACheckedHoverBg: $redDarker;
+
+$widTicketEntityCheckedBNumAHover: $grey3 !important;
+
+$widTicketEntityCheckedBNumAHoverBg: $redDarker;
+
+$widTicketEntityCheckedHoverNum: $grey3;
+$widTicketEntityCheckedHoverNumAChecked: $white;
+
+$widTicketEntityCheckedHoverBNum: $grey3;
+$widTicketEntityCheckedHoverBNumAChecked: $white;
+
+$widTicketEntityNumCheckedACheHover: $white !important;
+$widTicketEntityNumCheckedACheHoverBorder: $green;
+$widTicketEntityNumCheckedACheHoverBg: $green;
+$widTicketEntityNumCheckedAHover: $grey3 !important;
+$widTicketEntityNumCheckedAHoverBg: $green;
+$widTicketEntityNumA: $white;
+$widTicketEntityNumAChecked: $white;
+
+$widTicketEntityBNumCheckedACheHover: $white !important;
+$widTicketEntityBNumCheckedACheHoverBorder: $red;
+$widTicketEntityBNumCheckedACheHoverBg: $red;
+$widTicketEntityBNumCheckedAHover: $grey3 !important;
+$widTicketEntityBNumCheckedAHoverBg: $red;
+$widTicketEntityBNumAChecked: $white;
+
+$widTicketEntityHoverNum: $grey3;
+$widTicketEntityHoverNumAHover: $white;
+$widTicketEntityHoverNumChe: $grey3;
+$widTicketEntityHoverNumCheAChe: $white;
+
+$widTicketEntityHoverBNum: $grey3;
+$widTicketEntityHoverBNumAHover: $white;
+$widTicketEntityHoverBNumChe: $grey3;
+$widTicketEntityHoverBNumCheAChe: $white;
+
+$widTicketNumAHoverBorder: $green;
+$widTicketNumAHoverBg: $green;
+
+$widTicketNumACheBorder: $green;
+$widTicketNumACheBg: $green;
+$widTicketNumACheHoverBorder: $greenDarker;
+$widTicketNumACheHoverBg: $greenDarker;
+
+$widTicketBNumAHoverBorder: $red;
+$widTicketBNumAHoverBg: $red;
+
+$widTicketBNumACheBorder: $red;
+$widTicketBNumACheBg: $red;
+$widTicketBNumACheHoverBorder: $redDarker;
+$widTicketBNumACheHoverBg: $redDarker;
+
+$widTicketSumContentHeader: $grey3;
+$widTicketSumContentTotalValue: $grey3;
+
+$widTicketSumButtonBg: $green;
+$widTicketSumButtonHoverBg: $greenDarker;
+
+$widSmallDrawBg: $greyBg;
+
+//// RESULTS ////
+$resShortContentABg: $greyBg;
+$resShortContentSelect: $grey3;
+$resShortContentSelectBg: $greyBg;
+
+$resShortJackpot: $grey;
+$resShortJackpotSpan: $red;
+
+$resMobileSort: $grey;
+
+$resPayoutAmount: $red;
+
+//// MY ACCOUNT ////
+$myaccMobileNav: $grey3;
+$myaccMobileNavBg: $grey2;
+
+$myaccFilterSelect: $grey3;
+$myaccFilterSelectBg: $greyBg;
+
+$myaccTicketsMobileSort: $grey;
+
+$myaccContentNavPagBg: $greyAlmostWhite5;
+
+$myaccBalance: $grey;
+
+$myaccBalanceSpan: $red;
+
+$myaccTransLabel: $grey3;
+$myaccTransValue: $grey3;
+
+$myaccPersonalLinkA: inherit !important;
+
+//// FAQ ////
+$faqMobileCats: $grey3;
+$faqMobileCatsBg: $grey2;
+
+//// INFO ////
+$infoMobileSort: $grey;
+
+//// TICKETS ////
+$ticketsDate: $greyLighter;
+
+$ticketsLinesStrong: $grey3;
+
+//// TICKET ////
+$ticketLineNumBg: $green;
+$ticketLineNum: $white;
+
+$ticketLineBNumBg: $red;
+$ticketLineBNum: $white;
+
+$ticketPrice: $grey3;
+
+//// SMALL WIDGETS ////
+$smallWidTitle: $grey;
+$smallWidTitleBorder: $grey2;
+
+$smallWidDrawBg: $greyBg;
+
+$smallWidDrawTitleA: $grey;
+$smallWidDrawAmount: $green;
+
+$smallWidResH2A: $grey;
+$smallWidResLineBorder: $grey5;
+
+$smallWidSliderPageActive: $white;
+$smallWidSliderPageActiveBg: $red;
+$smallWidSliderPageActiveHover: $red;
+$smallWidSliderPageActiveMarked: $red;
+
+$smallWidSliderFillBg: $red;
+
+$smallWidSliderHeader: $grey;
+
+$smallWidWinAmount: $red;
+
+$smallWidWinItemCompactBorder: $grey5;
+
+$smallWidWinItemCompactName: $grey;
+
+$smallWidWinItemCompactCountryBg: $greyLighter2;
+
+$smallWidWinItemCompactAmountSpan: $red;
+
+$smallWidWinItemCompactAmountH2A: $grey;
+
+$smallWidsContentTextBg: $greyLight2;
+
+$smallWidsContentTextH2TitleBg: $greyLight2;
+
+$smallPurchaseBg: $green;
+$smallPurchaseHoverBg: $greenDarker;
+
+$smallPurchaseSecondaryText: $white;
+
+//// REST ELEMENTS - almost always single ////
+
+//// MOBILE ////
+$mobMenuTrigger: $grey;
+
+$mobCloseAreaBg: $greyVeryDark;
+$mobCloseAreaBorder: $greyDark3;
+
+$mobLangAreaSelect: $grey3;
+$mobLangAreaSelectBg: $grey2;
+
+//// SPAN ////
+$spanFaSearch: $green;
+$spanFaSearchHover: $greenDarker;
+
+$spanFaRefresh: $green;
+$spanFaRefreshHover: $greenDarker;
+$spanFaRefreshADisabled: $grey2;
+
+$spanFAQPlus: $red;
+
+$spanFaPlus: $red;
+
+$spanFaMinus: $red;
+
+$spanInfoPurchaseIconBg: $greenDarker;
+$spanInfoPurchaseIconDescSecText: $white;
+
+$selNewsCategories: $grey3;
+$selNewsCategoriesBg: $grey2;
+
+$conContentTabSpanFa: $greenDarker;
+
+$conContentTabA: $red;
+$conContentTabAHover: $redDarker;
+
+$faqItemActiveMark: $greyLight2;
+
+$payTypeMobileBg: $white;
+$payTypeMobileBorder: $grey3;
+
+$cvvInfoTooltipCloud: $greyLighter;
+
+$playLotteryJackpotAmount: $red;
+
+$orderLotteryQuickPickContainer: $grey3;
+
+$trTransShadeTdNOT2: $grey3;
+
+$successContent: $grey2;
+
+$transactionsAmount: $red;
+
+$transactionsStatusWin: $red;
+
+//// TOOLTIP ////
+$tooltipLocalAmount: $red;
+
+//// MEDIA - here screen_max_w_1000 ////
+$navPrimaryDivUlMenuLiA1000: $white;
+
+$navPrimaryDivUlMenuLiMenuHighlightA1000: $redDarker;
+
+$navPrimaryDivUlMenuLiMenuUserASpan1000: $red;
+$navPrimaryDivUlMenuLiMenuUserASpanHover1000: $redDarker;
+
+$navPrimaryDivUlMenuLiDivMobContainerBg1000: $greyVeryDark2;
+$navPrimaryDivUlMenuLiDivMobContainerBorder1000: $greyDark3;
+
+$navPrimaryDivUlMenuLiDivUlLiAHover1000: $red;
+
+$navPrimaryDivUlMenuBg1000: $greyVeryDark;
+
+$navPrimaryDivBg1000: $grey;
+
+$tabTableHoverTbodyTrHoverTdBg1000: $trans;
+
+$tabTableShortTbodyTrFOTTdBorder1000: $grey2;
+
+$tabTableShortTbodyTrBg1000: $trans;
+
+// RAFFLE
+$raffleNumberColor: $white;
+$raffleNumberBg: $green;

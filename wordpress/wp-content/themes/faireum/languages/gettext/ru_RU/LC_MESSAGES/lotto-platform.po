@@ -1,0 +1,1950 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "Билет, использующий такие же номера, был добавлен к Вашему заказу."
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr ""
+"Вы не можете играть такими же номерами, поскольку правила лотереи изменились."
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "Не удалось добавить больше билетов, Вы достигли максимального заказа!"
+
+msgid "This lottery is no longer available."
+msgstr "Эта лотерея больше недоступна."
+
+msgid "Incorrect ticket."
+msgstr "Неверные билеты."
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr "Ваш бесплатный билет с быстрым выбором был использован!"
+
+msgid "Incorrect transaction."
+msgstr "Неверная транзакция."
+
+msgid "Your card has been removed!"
+msgstr "Ваша карта была перенесена!"
+
+msgid "Wrong card!"
+msgstr "Неверная карта!"
+
+msgid "Change e-mail address"
+msgstr "Измените электронный адрес"
+
+msgid "Change password"
+msgstr "Измените пароль"
+
+msgid "Edit profile"
+msgstr "Редктируйте профиль"
+
+msgid "My tickets"
+msgstr "Мои билеты"
+
+msgid "My payment methods"
+msgstr "Мои методы оплаты"
+
+msgid "My transactions"
+msgstr "Мои транзакции"
+
+msgid "Deposit"
+msgstr "Депозит"
+
+msgid "Withdrawal"
+msgstr "Снятие средств"
+
+msgid "My details"
+msgstr "Мои данные"
+
+msgid "E-mail address"
+msgstr "Адрес электронной почты"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Remember me"
+msgstr "Запомни меня"
+
+msgid "You have been successfully logged in!"
+msgstr "Вы удачно вошли в систему!"
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in "
+"the e-mail, <a href=\"%s\">try to resend</a> or contact us for manual "
+"activation."
+msgstr ""
+"Ваш аккаунт неактивен. Пожалуйста, пройдите по ссылке активации, "
+"предоставленной в электронном сообщении, <a href=\"%s\">попробуйте "
+"переслать</a> или свяжитесь с нами для ручной активации."
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr ""
+"Ваш аккаунт неактивен. Пожалуйста, свяжитесь с нами, чтобы активировать Ваш "
+"аккаунт."
+
+msgid "Wrong credentials! Please try again."
+msgstr "Неверное удостоверение личности! Пожалуйста, попробуйте ещё раз."
+
+msgid "Too many login attempts! Please try again later."
+msgstr ""
+"Слишком много проб входа в систему! Пожалуйста, попробуйте ещё раз позже."
+
+msgid "Incorrect captcha! Please try again."
+msgstr "Неверная капча! Попробуйте ещё раз."
+
+msgid "Security error! Please try again."
+msgstr "Ошибка безопастности! Пожалуйста, попробуйте ещё раз."
+
+msgid "The item has been deleted!"
+msgstr "Этот элемент был удалён!"
+
+msgid "Undo"
+msgstr "Отменить"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "Невозможно найти выбранный элемент для переноса!"
+
+msgid "Your order has been deleted!"
+msgstr "Ваш заказ был удалён!"
+
+msgid "Your country has been blocked."
+msgstr "Ваша карта была перенесена!"
+
+msgid "Your item has been restored!"
+msgstr "Ваш элемент был восстановлен!"
+
+msgid "Lines"
+msgstr "Линии"
+
+msgid "Lottery"
+msgstr "Лотерея"
+
+msgid "Unknown error! Please contact us!"
+msgstr "Неизвестная ошибка! Пожалуйста, свяжитесь с нами!"
+
+msgid "You need to choose at least %d lines for every %d-lines ticket!"
+msgstr ""
+
+msgid "Security error! Please contact us!"
+msgstr "Ошибка безопастности! Пожалуйста, свяжитесь с нами!"
+
+msgid "The ticket has been added to your order!"
+msgstr "Билет был добавлен к Вашему заказу!"
+
+msgid "Bad request! Please contact us!"
+msgstr "Неверный запрос! Пожалуйста, свяжитесь с нами!"
+
+msgid "You didn't reach the minimum order for this payment type!"
+msgstr ""
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Incorrect deposit amount value!"
+msgstr "Неверная величина суммы депозита!"
+
+msgid "Return to %s"
+msgstr "Возврат к %s"
+
+msgid "Transaction ID"
+msgstr "Идентификатор транзакции"
+
+msgid "%s ticket"
+msgstr "%s билет"
+
+msgid "Transaction %s"
+msgstr "Транзакция %s"
+
+msgid ""
+"A part of your order was removed as we have disabled some of the lotteries."
+msgstr ""
+"Часть Вашего заказа бла перенесена, так как мы отключили несколько лотерей."
+
+msgid "IPN Error: Bad request! Please contact us!"
+msgstr "Неверный запрос! Пожалуйста, свяжитесь с нами!"
+
+msgid "IPN Error: IPN Mode is not HMAC"
+msgstr ""
+
+msgid "IPN Error: No HMAC signature sent."
+msgstr ""
+
+msgid "IPN Error: Error reading POST data."
+msgstr ""
+
+msgid "IPN Error: No or incorrect Merchant ID passed."
+msgstr ""
+
+msgid "IPN Error: HMAC signature does not match"
+msgstr ""
+
+msgid "IPN Error: Original currency mismatch"
+msgstr ""
+
+msgid "IPN Error: Amount is less than order total!"
+msgstr ""
+
+msgid "You have been successfully logged out!"
+msgstr "Вы успешно вышли из системы!"
+
+msgid "New password"
+msgstr "Новый пароль"
+
+msgid "Repeat new password"
+msgstr "Повторите новый пароль"
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "Ваш пароль был изменён. Вы успешно вошли в систему!"
+
+msgid ""
+"This password reset link has expired. Please start the password reset "
+"process <a href=\"%s\">once again</a>."
+msgstr ""
+"Эта ссылка сброса пароля истекла. Пожалуйста, начните процедуру сброса "
+"пароля <a href=\"%s\">ещё раз</a>."
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual "
+"password change."
+msgstr ""
+"Неверная ссылка утраченного пароля. Пожалуйста, попробуйте ещё раз или "
+"свяжитесь с нами для ручного изменения пароля."
+
+msgid "Forgotten Password"
+msgstr "Забытый пароль"
+
+msgid ""
+"<p>We have received a password reset request for your account. To complete "
+"the process please follow the link: <a href=\"%1$s\">reset password link</a>."
+"</p><p>Please ignore this e-mail if you did not request a password reset.</p>"
+msgstr ""
+"<p>Мы получили запрос на сброс пароля для Вашего аккаунта. Чтобы закончить "
+"процесс, пожалуйста, пройдите по ссылке: <a href=\"%1$s\">ссылка сброса "
+"пароля</a>.</p><p>Пожалуйста, игнорируйте это электронное сообщение, если Вы "
+"не делали запроса на сброс пароля.</p>"
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+"Мы получили запрос на сброс пароля для Вашего аккаунта. Чтобы завершить "
+"процесс, пожалуйста перейдите по ссылке: %1$s\n"
+"\n"
+"Пожалуйста, игнорируйте это электронное сообщение, если Вы не высылали "
+"запроса на сброс пароля."
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link "
+"to complete the process."
+msgstr ""
+"Мы выслли Вам сообщение со ссылкой для сброса пароля. Пожалуйста, пройлдите "
+"по ней, чтобы завершить процесс."
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later "
+"or contact us to reset your password."
+msgstr ""
+"У нас появились проблемы во время пересылки электронного сообщения. "
+"Пожалуйста, попробуйте снова позже или свяжитесь с нами, чтобы сбросить Ваш "
+"пароль."
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+"Вы можете переслать ссылку с утраченным паролем один раз втечение 24 часов. "
+"Пожалуйста, повторите пробу позже или свяжитеь с нами."
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr ""
+"Мы не можем найти Ваш аккаунт. Пожалуйста, попробуйте другое электронное "
+"сообщение или свяжитесь с нами."
+
+msgid ""
+"Your account has been activated before. Please login to access your account."
+msgstr ""
+"Ваш аккаунт был активирован ранее. Пожалуйста, войдите в систему для доступа "
+"к аккаунту."
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+"Ваша ссылка активации истекла! Пожалуйста, <a href=\"%s\">попробуйте "
+"переслать</a>сообщение с активацией или свяжитесь с нами."
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr ""
+"Неверная ссылка с активацией. Пожалуйста, свяжитесь с нами для ручной "
+"активации."
+
+msgid "Account Activation"
+msgstr "Активация аккаунта"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"Спасибо за Вашу регистрацию! Чтобы завершить процесс активации, пожалуйста, "
+"пройдите по ссылке: <a href=\"%1$s\">ссылка активации</a>."
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: %1$s"
+msgstr ""
+"Спасибо за Вашу регистрацию! Чтобы завершить процесс активации, пожалуйста, "
+"пройдите по ссылке: %1$s"
+
+msgid "The activation e-mail has been resend to you."
+msgstr "Электронное сообщение активации было повторно отправлено Вам."
+
+msgid ""
+"We have encountered an error while trying to send the message. Please "
+"contact us to activate your account."
+msgstr ""
+"Мы нашли ошибку во время пробы пересылки сообщения. Пожалуйста, свяжитесь с "
+"нами, чтобы активировать Ваш аккаунт."
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later "
+"or contact us."
+msgstr ""
+"Вы можете переслать ссылку активации один раз втечение 24 часов. Пожалуйста, "
+"попробуйте позже или свяжитесь с нами."
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr ""
+"Неверная ссылка отправки. Пожалуйста, свяжитесь с нами для ручной активации."
+
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s"
+"\" target=\"_blank\">Policy</a>"
+msgstr ""
+"Я принимаю <a href=\"%s\" target=\"_blank\">Условия</a> и <a href=\"%s\" "
+"target=\"_blank\">Политику</a>"
+
+msgid ""
+"Your account is created, however we've encountered problems while sending "
+"the activation e-mail. Please <a href=\"%s\">try to resend</a> the "
+"activation e-mail or contact us for manual activation."
+msgstr ""
+"Ваш аккаует создан, тем не менее, у нас возникли проблемы с отправвкой "
+"сообщения с активацией. Пожалуйста, <a href=\"%s\">попробуйте переслать</a> "
+"сообщение с активацией для ручной активации."
+
+msgid "This e-mail is already registered."
+msgstr "Этот электронный адрес уже зарегистрирован."
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr ""
+"Домен Вашей электронной почты заблокирован. Пожалуйста, попробуйте другой "
+"электронный адрес."
+
+msgid "and %d Powerball number"
+msgstr "и %d Powerball number"
+
+msgid "and %d Mega Ball number"
+msgstr "и %d Mega Ball number"
+
+msgid "and %d Euronumbers"
+msgstr "и %d Euronumbers"
+
+msgid "and %d Lucky Stars numbers"
+msgstr "и %d Lucky Stars numbers"
+
+msgid "and %d Reintegro number"
+msgstr "и %d Reintegro number"
+
+msgid "Reintegro"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "<strong>Локальное время лотереи:</strong>"
+
+msgid "Bank account"
+msgstr "Банковский аккаунт"
+
+msgid "Skrill"
+msgstr "Skrill"
+
+msgid "Neteller"
+msgstr "Neteller"
+
+msgid "BTC"
+msgstr "BTC"
+
+msgid "Redirecting to the payment page..."
+msgstr "Перенаправление на страницу оплаты..."
+
+msgid "Amount (%s)"
+msgstr "Сумма (%s)"
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr "<strong>Мин. сумма:</strong> %s"
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr "<strong>Макс. сумма:</strong> %s"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Choose withdrawal type"
+msgstr "Выберите тип снятия средств"
+
+msgid "Enter withdrawal amount"
+msgstr "Введите сумму снимаемых средств"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Your first name"
+msgstr "Ваше имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Your last name"
+msgstr "Ваша фамилия"
+
+msgid "Account IBAN number"
+msgstr "Номер IBAN аккаунта"
+
+msgid "Your account IBAN number"
+msgstr "Ваш номер аккаунта IBAN"
+
+msgid "SWIFT"
+msgstr "SWIFT"
+
+msgid "Your bank SWIFT number"
+msgstr "Ваш номер банка SWIFT"
+
+msgid "Bank name"
+msgstr "Название банка"
+
+msgid "Your bank name"
+msgstr "Название вашего банка"
+
+msgid "First Name (optional)"
+msgstr "Имя (опционально)"
+
+msgid "Last Name (optional)"
+msgstr "Фамилия (опционально)"
+
+msgid "Your bitcoin wallet address"
+msgstr "Ваш адрес кошелька Биткойн"
+
+msgid "Bitcoin Wallet Address"
+msgstr "Адрес кошелька Биткойн"
+
+msgid "Neteller E-mail"
+msgstr "Электронный адрес Neteller"
+
+msgid "Your Neteller e-mail"
+msgstr "Ваш электронный адрес Neteller"
+
+msgid "Skrill E-mail"
+msgstr "Электронный адрес Skrill"
+
+msgid "Your Skrill e-mail"
+msgstr "Ваш электронный адрес Skrill"
+
+msgid ""
+"We encountered a problem while adding the tickets to your order. Please "
+"contact us."
+msgstr ""
+"У нас появились проблемы во время пересылки электронного сообщения. "
+"Пожалуйста, попробуйте снова позже или свяжитесь с нами, чтобы сбросить Ваш "
+"пароль."
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "Билет с быстрым выбором был добавлен к Вашему заказу."
+
+msgid "FAQ Category"
+msgstr "Категория FAQ"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "This category cannot be deleted."
+msgstr "Эта категория не может быть удалена."
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "Платворма лотто: Вы не можете удалить эту страницу."
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+"Платформа лотто: Визуальный редактор отключён. Пожалуйста, редактируйте "
+"содержание HTML за пределами Wordpress и вклейте его сюда."
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "Платформа лотто: Вы не можете редактировать эту страницу."
+
+msgid "next jackpot"
+msgstr "следующий розыгрыш"
+
+msgid "Play now"
+msgstr "играть"
+
+msgid "Lotto Next Draw"
+msgstr "Следующий розыгрыш лотереи"
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery "
+"Page"
+msgstr ""
+"Отбражает информацию о следующем розыгрыше лотереи &bull; ЛИМИТ: Результаты/"
+"Информация/Игра - Страница лотереи"
+
+msgid "Lotto Featured"
+msgstr "Рекомендуемые лотереи"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "Отображает рекомендуемые лотереи как слайдер &bull; ЛИМИТ: никакой"
+
+msgid "Lotto List"
+msgstr "Список лотерей"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "Отображает список лотерей &bull; ЛИМИТ: никакой"
+
+msgid "Lotto News"
+msgstr "Новости лотерей"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "Отображает последние публикации (новости) &bull;  ЛИМИТ: никакой"
+
+msgid "Lotto Small Next Draw"
+msgstr "Следующий розыгрыш Маленького Лото"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr ""
+"Отображает маленький виджет следующего розыгрыша лотереи  &bull; ЛИМИТ: "
+"никакой"
+
+msgid "Lotto Small Lottery"
+msgstr "Лотерея Маленькое Лото"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "Отображает маленький виджет лотереи &bull; ЛИМИТ: никакой"
+
+msgid "Lotto Small Results"
+msgstr "Маленькие результаты лотерей"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "Отображает маленький виджет результатов. &bull; ЛИМИТ: никакой"
+
+msgid "Lotto Small Slider"
+msgstr "Маленький слайдер лотерей"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "Отображает маленький виджет слайдера. &bull; ЛИМИТ: никакой"
+
+msgid "Small Slider"
+msgstr "Маленький слайдер"
+
+msgid "Lotto Small Text"
+msgstr "Текст Маленького Лото"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "Отображает маленький текст &bull; ЛИМИТ: никакой"
+
+msgid "Lotto Small Winners"
+msgstr "Малые победители лотерей"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "Отображает виджет последних малых победителей. &bull;  ЛИМИТ: никакой"
+
+msgid "Small Winners"
+msgstr "Малые победители"
+
+msgid "Lotto Ticket"
+msgstr "Лотерейный билет"
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/"
+"Info/Play - Lottery Page"
+msgstr ""
+"Отображает лотерейный билет (пользователь может выбрать свои номера) &bull;  "
+"ЛИМИТ: Результаты/Информация/Игра - Страница лотереи"
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-"
+"mail for better website experience. You can resend the activation e-mail <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"Мы отправили Вам электронное сообщение со ссылкой активации. Пожалуйста, "
+"активируйте Вашу электронную почту для лучшей производительности. Вы можете "
+"переслать лектронное сообщение активации <a href=\"%s\">здесь</a>."
+
+msgid "Title"
+msgstr "Заглавие"
+
+msgid "Small"
+msgstr "Маленький"
+
+msgid "Large with background"
+msgstr ""
+
+msgid "Disable for mobile"
+msgstr "Скрыть на мобильном устройстве"
+
+msgid "Line #1 text"
+msgstr ""
+
+msgid "Line #2 text"
+msgstr ""
+
+msgid "Language: "
+msgstr "Язык: "
+
+msgid "[hide]"
+msgstr "[спрятать]"
+
+msgid "[show]"
+msgstr "[показать]"
+
+msgid "Order"
+msgstr "Порядок"
+
+msgid "by highest jackpot"
+msgstr "от наибольшего джекпота"
+
+msgid "by nearest draw"
+msgstr "от самого близкого розыгрыша"
+
+msgid "by custom order"
+msgstr "согласно с пользовательским порядком"
+
+msgid "Slide count"
+msgstr "Учёт слайдеров"
+
+msgid "Custom name"
+msgstr "Пользовательское имя"
+
+msgid "Custom order"
+msgstr "Пользовательский заказ"
+
+msgid "Carousel"
+msgstr "Карусель"
+
+msgid "Grid"
+msgstr "Сетка"
+
+msgid "Count"
+msgstr "Подсчёт"
+
+msgid "Countdown"
+msgstr "Отсчёт"
+
+msgid "Always"
+msgstr "Всегда"
+
+msgid "24 hours before"
+msgstr "24 часа до"
+
+msgid "Display"
+msgstr "Отображение"
+
+msgid "Tall - 5 elements"
+msgstr "Высокий - 5 элементов"
+
+msgid "Short - 3 elements"
+msgstr "Краткий - 3 элемента"
+
+msgid "Columns"
+msgstr "Колонки"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "Number of posts to show:"
+msgstr "Количество публикаций для показа:"
+
+msgid "Width (%):"
+msgstr "Ширина (%):"
+
+msgid "The margins are calculated automatically."
+msgstr "Поля рассчитываются автоматически."
+
+msgid "Content"
+msgstr "Содержание"
+
+msgid "Hide on mobile"
+msgstr "Скрыть на мобильном устройстве"
+
+msgid "Please save before use."
+msgstr "Пожалуйста, сохраните перед использованием."
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr ""
+"Пожалуйста, заполните поля по-английски и перевидите их, используя Строковой "
+"Перевод <a href=\"%s\">здесь</a>."
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Amount<span></span>"
+msgstr "Сумма<span></span>"
+
+msgid "Amount:"
+msgstr "Сумма:"
+
+msgid "by newest"
+msgstr "от самого нового"
+
+msgid "by random"
+msgstr "случайно"
+
+msgid "Normal"
+msgstr "Нормальный тип"
+
+msgid "Compact"
+msgstr "Договор"
+
+msgid "Not found"
+msgstr "Не найдено"
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+"К сожалению, страница, которую вы ищете, не существует. <br> Вернитесь на <a "
+"href=\"%s\">домашнюю страницу</a> или проверьте свою удачу и <a href=\"%s"
+"\">сыграйте в лотерею</a> ."
+
+msgid "404 - Not Found"
+msgstr "404 - Не найдено"
+
+msgid "back to order"
+msgstr "назад к заказу"
+
+msgid "deposit"
+msgstr "депозит"
+
+msgid "buy tickets"
+msgstr "купить билеты"
+
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"popup-signup\">Sign up</a>."
+msgstr ""
+"У Вас нет аккаунта? <a href=\"#\" class=\"popup-signup\">Зарегистрируйтесь</"
+"a>."
+
+msgid "Your e-mail address"
+msgstr "Ваш электронный адрес"
+
+msgid "Your password"
+msgstr "Ваш пароль"
+
+msgid "login"
+msgstr "вход в систему"
+
+msgid "Forgotten password"
+msgstr "Забытый пароль"
+
+msgid ""
+"Remember your password? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr ""
+"Помните свой пароль? <a href=\"#\" class=\"popup-login\">Войдите в систему "
+"здесь</a>."
+
+msgid "Your new password"
+msgstr "Ваш новый пароль"
+
+msgid "Repeat your new password"
+msgstr "Повторите Ваш новый пароль"
+
+msgid "change"
+msgstr "изменить"
+
+msgid "send"
+msgstr "выслать"
+
+msgid "Ticket %s"
+msgstr "Билет %s"
+
+msgid "submit"
+msgstr "отправить"
+
+msgid "Withdrawal List"
+msgstr "Список выплаты"
+
+msgid "Withdrawal ID"
+msgstr "Идентификатор выплаты"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "pending"
+msgstr "ожидание"
+
+msgid "approved"
+msgstr "утверждено"
+
+msgid "declined"
+msgstr "отменено"
+
+msgid "canceled"
+msgstr "отложено"
+
+msgid "next"
+msgstr "следующая"
+
+msgid "previous"
+msgstr "предыдущая"
+
+msgid "Image %1 of %2"
+msgstr "Изображение %1 из %2"
+
+msgid "win"
+msgstr "выигрыш"
+
+msgid "no winnings"
+msgstr "нет выигрышей"
+
+msgid "Date processed"
+msgstr "Дата обработана"
+
+msgid "Draw date"
+msgstr "Дата розыгрыша"
+
+msgid "Free"
+msgstr "Бесплатно"
+
+msgid "Pay out"
+msgstr "Выплата"
+
+msgid "paid out"
+msgstr "выплачено"
+
+msgid "Draw result"
+msgstr "Результат розыгрыша"
+
+msgid "Ticket details"
+msgstr "Данные о билете"
+
+msgid "Lines: %s"
+msgstr "Линии: %s"
+
+msgid "Match"
+msgstr "Сопоставьте"
+
+msgid "none"
+msgstr "ни один"
+
+msgid "Prize"
+msgstr "Приз"
+
+msgid "Jackpot"
+msgstr "Джекпот"
+
+msgid "Quick Pick"
+msgstr "Быстрый выбор"
+
+msgid "Net"
+msgstr "Сеть"
+
+msgid "-"
+msgstr "-"
+
+msgid "return to ticket list"
+msgstr "вернуться к списку билетов"
+
+msgid "Sort by"
+msgstr "Сортировать по"
+
+msgid "Ticket ID"
+msgstr "Идентификатор билета"
+
+msgid "by lowest"
+msgstr "от наименьшего"
+
+msgid "by highest"
+msgstr "от наибольшего"
+
+msgid "Draw Date"
+msgstr "Дата розыгрыша"
+
+msgid "by oldest"
+msgstr "от самого старого"
+
+msgid "Ticket ID and date"
+msgstr "Идентификатор билета и дата"
+
+msgid "Lottery name"
+msgstr "Название лотереи"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Valid to draw"
+msgstr "Действительно до розыгрыша"
+
+msgid "quick pick"
+msgstr "Быстрый выбор"
+
+msgid "Play again"
+msgstr "Играйте ещё раз"
+
+msgid "Details"
+msgstr "Данные"
+
+msgid "No tickets."
+msgstr "Нет билетов."
+
+msgid "failure"
+msgstr "неудача"
+
+msgid "Confirmation date"
+msgstr "Дата подтверждения"
+
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+msgid "Transaction details"
+msgstr "Данные о транзакции"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a> билет"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "Линии: <span>%s</span> &время; %s"
+
+msgid "Total Sum"
+msgstr "Полная сумма"
+
+msgid "return to the transaction list"
+msgstr "вернуться к списку транзакций"
+
+msgid "Account balance"
+msgstr "Баланс аккаунта"
+
+msgid "withdrawal"
+msgstr "снятие средств"
+
+msgid "(confirmed)"
+msgstr "(подтверждено)"
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "No transactions."
+msgstr "Нет транзакций."
+
+msgid "Number"
+msgstr "Номер"
+
+msgid "Expiration date"
+msgstr "Срок годности"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Confirm"
+msgstr "Подтвердите"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "No payment methods saved!"
+msgstr "Нет сохранённых методов оплаты!"
+
+msgid "Birthdate"
+msgstr "Дата рождения"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Choose code"
+msgstr "Выберите код"
+
+msgid "Time Zone"
+msgstr "Часовой пояс"
+
+msgid "Choose time zone"
+msgstr "Выберите часовой пояс"
+
+msgid "Choose your country"
+msgstr "Выберите Вашу страну"
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Choose region"
+msgstr "Выберите регион"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Postal/ZIP Code"
+msgstr "Почтовый код"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Address (optional additional information)"
+msgstr "Адрес (опциональная, дополнительная информация)"
+
+msgid "E-mail"
+msgstr "Электронная почта"
+
+msgid "Click here to cancel the e-mail change"
+msgstr "Нажмите здесь, чтобы отменить изменение адреса электронной почты"
+
+msgid "Change e-mail"
+msgstr "Измените адрес электрнонной почты"
+
+msgid "Repeat e-mail"
+msgstr "Повторите адрес электронной почты"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "Вам будет нужно активировать Ваш новый электронный адрес."
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail "
+"for better user experience."
+msgstr ""
+"Мы перешлём Вам опциональное сообщение с активацией. Пожалуйста, активируйте "
+"Ваш электронный адрес для лучшей работы."
+
+msgid "Click here to cancel the password change"
+msgstr "Нажмите здесь, чтобы отменить изменение пароля"
+
+msgid "Old password"
+msgstr "Старый пароль"
+
+msgid "save changes"
+msgstr "сохранить изменения"
+
+msgid "choose"
+msgstr "выбрать"
+
+msgid "try again"
+msgstr "попробовать ещё раз"
+
+msgid "Pending"
+msgstr "Ожидание"
+
+msgid "bn"
+msgstr "млрд"
+
+msgid "m"
+msgstr "млн"
+
+msgid "%s to win"
+msgstr "%s выиграть"
+
+msgid "Draw event on %s"
+msgstr "Мероприятие розыгрыша в %s"
+
+msgid "Already a member? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr ""
+"Вы уже являетесь участником? <a href=\"#\" class=\"popup-login\">Войдите в "
+"систему здесь</a>."
+
+msgid "Repeat your password"
+msgstr "Повторите Ваш пароль"
+
+msgid "sign up"
+msgstr "войти в систему"
+
+msgid "Play %s"
+msgstr "Играйте %s"
+
+msgid "%s Results"
+msgstr "%s Результаты"
+
+msgid "%s Information"
+msgstr "%s Информация"
+
+msgid "%s News"
+msgstr "%s Новости"
+
+msgid "show all"
+msgstr "показать всё"
+
+msgid "Latest Result"
+msgstr "Последний результат"
+
+msgid "Schedule"
+msgstr "Расписание"
+
+msgid "Guess Range"
+msgstr "Диапазон предположений"
+
+msgid "Tier"
+msgstr "Категория"
+
+msgid "Match %s"
+msgstr "Сопоставить %s"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "Шансы на выигрыш"
+
+msgid "Prize #%d"
+msgstr "Приз #%d"
+
+msgid "Free Quick Pick"
+msgstr "Бесплатный быстрый выбор"
+
+msgid "%s shared"
+msgstr "%s общее"
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr "Предположительно"
+
+msgid "1 in %s"
+msgstr "1 из %s"
+
+msgid "Overall chances of winning any prize"
+msgstr "Общие шансы на выигрыш любого приза"
+
+msgid "Play"
+msgstr "Играйте"
+
+msgid "Results"
+msgstr "Результаты"
+
+msgid "Information"
+msgstr "Информация"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "from A to Z"
+msgstr "от A до Z"
+
+msgid "from Z to A"
+msgstr "от Z до A"
+
+msgid "Draw"
+msgstr "Розыгрыш"
+
+msgid "Winning Odds"
+msgstr "Шансы выигрыша"
+
+msgid "Estimated Jackpot"
+msgstr "Предполагаемый джекпот"
+
+msgid "Next Draw"
+msgstr "Следующий розыгрыш"
+
+msgid "play"
+msgstr "играть"
+
+msgid "Choose payment method"
+msgstr "Выберите метод оплаты"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "Заплатите балансом со счёта <span>(%s)</span>"
+
+msgid "Payment card"
+msgstr "Платёжная карта"
+
+msgid "Bank payment"
+msgstr "Название банка"
+
+msgid "BTC, ETH + 150 altcoins"
+msgstr ""
+
+msgid "QIWI, Yandex.Money, Payeer..."
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment "
+"is processed."
+msgstr ""
+"Заплатите балансом со счёта. Оставшийся баланс будет %s, после обработки "
+"оплаты."
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr "С Вашей кредитной карты будет снято %s."
+
+msgid "Choose saved card"
+msgstr "Выберите сохранённую карту"
+
+msgid "New card"
+msgstr "Новая карта"
+
+msgid "Name on card"
+msgstr "Имя на карте"
+
+msgid "Card number (spaces allowed)"
+msgstr "Номер карты (разрешены пробелы)"
+
+msgid "CVV code"
+msgstr "Код CVV"
+
+msgid ""
+"The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr ""
+"CVV код с 3 или 4 цифрами находится с тыльной стороны Вашей платёжной карты."
+
+msgid "What is this?"
+msgstr "Что это?"
+
+msgid "Save card details for future use"
+msgstr "Запишите данные о карте для будущего использования"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "Минимальный заказ для этого типа оплаты - %s."
+
+msgid "Pay using %s."
+msgstr "Заплатите, используя %s."
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you "
+"don't have an Entropay account, you can always register it <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "Available payment methods: %s."
+msgstr "Мои методы оплаты"
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "Заплатите <span class=\"%s\">%s</span>"
+
+msgid "Estimated jackpot"
+msgstr "Предполагаемый джекпот"
+
+msgid "Winners"
+msgstr "Победители"
+
+msgid "Payout per winner"
+msgstr "Выплата на победителя"
+
+msgid "Total Winners"
+msgstr "Сумма победителей"
+
+msgid "Total Prize"
+msgstr "Общий приз"
+
+msgid "Last Draw"
+msgstr "Последний розыгрыш"
+
+msgid "Payout"
+msgstr "Выплата"
+
+msgid "Rollover"
+msgstr "Рост джекпота"
+
+msgid "Total payout"
+msgstr "Общая выплата"
+
+msgid "change language"
+msgstr "изменить язык"
+
+msgid "Wrong line"
+msgstr "Неверная линия"
+
+msgid "Too few lines"
+msgstr "Слишком много линий"
+
+msgid "Incorrect order"
+msgstr "Неверный заказ"
+
+msgid "Log in"
+msgstr "Войдите в систему"
+
+msgid "Sign up"
+msgstr "Зарегистрируйтесь"
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr ""
+"Хотя бы одна из Ваших линий неверно заполнена. Вы хотите продолжить без "
+"неправильных линий?"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Continue"
+msgstr "Продолжить"
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s "
+"lines! Do you want to quick pick the lines for you?"
+msgstr ""
+"Вы выбрали слишком мало линий. Минимальное количество для этой лотереи - это "
+"%1s линий! Вы хотите использовать быстрый выбор, чтобы заполнить линии за "
+"Вас?"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "OK"
+msgstr "ОК"
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr ""
+"Вы выбрали неверное количество линий. Количество выбранных линий должно быть "
+"кратно %1s. Вы хотите использовать быстрый выбор, чтобы заполнить остальные "
+"линии для Вас?"
+
+msgid "draw in %s"
+msgstr "розыгрыш в %s"
+
+msgid "%d Quick-Pick lines"
+msgstr "%d Линии быстрого выбора"
+
+msgid "only %s"
+msgstr "только %s"
+
+msgid "or pick the numbers manually"
+msgstr "или выберите номера вручную"
+
+msgid "Latest news"
+msgstr "Последние новости"
+
+msgid "Primary"
+msgstr "Основное"
+
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+msgid "Front Page"
+msgstr "Главная страница"
+
+msgid "Front Page widget area."
+msgstr "Место виджета главной страницы."
+
+msgid "Play - List Page - Top"
+msgstr "Играйте - Страница списка - Верх"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Место виджета Играйте в лотерею (со списком лотерей). Виджеты этого места "
+"будут отображаться перед \"больше\" содержанием."
+
+msgid "Play - List Page - Bottom"
+msgstr "Играйте - Страница списка - Низ"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Место виджета страницы Играйте в лотерею (со списком лотерей). Виджеты этого "
+"места будут отображаться после \"больше\" содержания."
+
+msgid "Play - Lottery Page - Top"
+msgstr "Играйте - Страница лотереи - Верх"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display before content."
+msgstr ""
+"Место виджета Страницы Играйте в лотерею (с покупкой билета). Виджеты этого "
+"места будут отображаться перед содержанием."
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "Играйте - Страница лотереи - Низ"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display after content."
+msgstr ""
+"Место виджета Страницы Играйте в лотерею (с покупкой билетов). Виджеты этого "
+"места будут отображаться после \"больше\" содержания."
+
+msgid "Results - List Page - Top"
+msgstr "Результаты - Страница списка - Верх"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"Результаты лотереи - место виджета Страницы списка. Виджеты этого места "
+"будут отображаться перед \"больше\" содержания."
+
+msgid "Results - List Page - Bottom"
+msgstr "Результаты - Страница списка - Низ"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"Результаты лотереи - место виджета Страницы списка. Виджеты этого места "
+"будут отображаться после \"больше\" содержания."
+
+msgid "Results - Lottery Page - Top"
+msgstr "Результаты  - Страница лотереи -Верх"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Результаты лотереи - место виджета страницы определённой лотереи. Виджеты "
+"этого места будут отображаться перед \"больше\" содержанием."
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "Результаты  - Страница лотереи - Низ"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Результаты лотереи - место виджета страницы определённой лотереи. Виджеты "
+"этого места будут отображаться после \"больше\" содержания."
+
+msgid "Results - Lottery Page - Content"
+msgstr "Результаты  - Страница лотереи - Содержание"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"Результаты лотереи - место виджета Страницы определённой лотереи. Виджеты "
+"этого места будут отображаться напротив содержания."
+
+msgid "Info - List Page - Top"
+msgstr "Информация - Страница списка - Верх"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"Информация о лотерее - место виджета Страницы списка. Виджеты этого места "
+"будут отображаться перед \"больше\" содержанием."
+
+msgid "Info - List Page - Bottom"
+msgstr "Информация - Страница списка - Низ"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"Информация о лотерее - место виджета Страницы списка. Виджеты этого места "
+"будут отображаться после \"больше\" содержания."
+
+msgid "Info - Lottery Page - Top"
+msgstr "Информация - Страница лотереи - Верх"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"Информация о лотерее - место виджета страницы определённой лотереи. Виджеты "
+"этого места будут отображаться перед \"больше\" содержанием."
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "Информация - Страница лотереи - Верх"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"Информация о лотерее - место виджета страницы определённой лотереи. Виджеты "
+"этого места будут отображаться после \"больше\" содержания."
+
+msgid "Info - Lottery Page - Content"
+msgstr "Информация - Страница лотереи - Содержание"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"Информация о лотерее - место виджета Страницы определённой лотереи. Виджеты "
+"этого места будут отображаться напротив содержания."
+
+msgid "News - Default Page - Content"
+msgstr "Новости - Страница по умолчанию - Содержание"
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display "
+"next to content."
+msgstr ""
+"Новости лотереи - место виджета Страницы по умолчанию. Виджеты этого места "
+"будут отображаться напротив содержания."
+
+msgid "News - Lottery Page - Content"
+msgstr "Новости - Странийа лотереи - Содержание"
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content related to the lottery."
+msgstr ""
+"Новости лотереи - место виджета Страницы определённой лотереи. Виджеты этого "
+"места будут отображаться напротив содержания, связанного с лотереей."
+
+msgid "Home"
+msgstr "Домой"
+
+msgid "Login"
+msgstr "Войдите в систему"
+
+msgid "Sign Up"
+msgstr "Зарегистрируйтесь"
+
+msgid "My account"
+msgstr "Мой аккаунт"
+
+msgid "Theme Options"
+msgstr "Опции темы"
+
+msgid "Change your theme options."
+msgstr "Измените Ваши опции темы."
+
+msgid "Choose header color scheme"
+msgstr "Выберите цветовую схему заголовка"
+
+msgid "Choose font"
+msgstr "Измените фонтан"
+
+msgid "Choose single page header image"
+msgstr "Используйте изображение заглавия одиночной страницы"
+
+msgid "%s: Lotto Featured #%d"
+msgstr "%s: Рекомендуемая лотерея #%d"
+
+msgid "Change your lotto featured widget style."
+msgstr "Изменить Ваш стиль виджета рекомендуемое лотереи."
+
+msgid "Choose background image"
+msgstr "Выберите фоновое изображение"
+
+msgid "Choose mobile background image"
+msgstr "Измените мобильное фоновое изображение"
+
+msgid "Social Links"
+msgstr "Социальные ссылки"
+
+msgid "Add your social links."
+msgstr "Добавьте Ваши социальные ссылки."
+
+msgid "Facebook URL (%s)"
+msgstr "Facebook URL (%s)"
+
+msgid "Twitter URL (%s)"
+msgstr "Twitter URL (%s)"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Anonymous"
+msgstr "Анонимный"
+
+msgid "log out"
+msgstr "выйти из системы"
+
+msgid "checkout"
+msgstr "проверка"
+
+msgid "Delete"
+msgstr "Удалите"
+
+msgid "Sum"
+msgstr "Сумма"
+
+msgid "USA"
+msgstr "США"
+
+msgid "Europe"
+msgstr "Европа"
+
+msgid "Italy"
+msgstr "Италия"
+
+msgid "UK"
+msgstr "Великобритания"
+
+msgid "Poland"
+msgstr "Польша"
+
+msgid "Powerball"
+msgstr "Powerball"
+
+msgid "Mega Millions"
+msgstr "Mega Millions"
+
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+msgid "SuperEnalotto"
+msgstr "SuperEnalotto"
+
+msgid "UK Lottery"
+msgstr "UK Lottery"
+
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+msgid "Polish Lotto"
+msgstr "Polskie Lotto"
+
+msgid "Debit card"
+msgstr "Дебетовая карта"
+
+msgid "edit profile"
+msgstr "редактировать профиль"
+
+msgid "Show"
+msgstr "Отборазить"
+
+msgid "show win"
+msgstr "показать выигрыш"
+
+msgid "show no winnings"
+msgstr "показать нет выигрышей"
+
+msgid "show pending"
+msgstr "показать ожидающее"
+
+msgid "show approved"
+msgstr "показать подтверждённое"
+
+msgid "show failure"
+msgstr "показать ошибки"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr "Спасибо за выбор нас! Вы вошли в систему."
+
+msgid "Your account is now fully active."
+msgstr "Ваш аккаунт сейчас полностью активен."
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent "
+"you to your e-mail."
+msgstr ""
+"Чтобы польностью активировать Ваш аккаунт и получить доступ ко всем "
+"функциям, пожалуйста, подтвердите свой электронный адрес, пройдя по ссылке, "
+"которую мы прислали Вам на Ваш электронный адрес."
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+"Чтобы активировать Ваш аккаунт, пожалуйста, подтвердите Ваш электронный "
+"адрес, пройдя по ссылке подтверждения, которую мы прислали Вам в Вашем "
+"электронном письме."
+
+msgid "Different amount"
+msgstr "Разная сумма"
+
+msgid "The minimum deposit amount is %s."
+msgstr "Минимальная сумма депозита %s."
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr "Оплата не может быть обработана. Пожалуйста, свяжитесь с нами."
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We "
+"suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Add Quick Pick ticket:"
+msgstr "Добавьте билет Быстрого выбора:"
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "Некоторые билеты были перенесены на следующий розыгрыш!"
+
+msgid ""
+"For orders less than %1s you can pay with account balance only, however your "
+"balance is insufficient."
+msgstr ""
+"В случае заказа меньше, чем %1s Вы можете заплатить только средствами с "
+"баланса счёта, тем не менее, у Вас недостаточно средств на балансе."
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr ""
+"В случае заказов меньше, чем %1s Вы можете заплатить только средствами с "
+"баланса счёта."
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to "
+"your order."
+msgstr ""
+"У Вас нет никаких билетов. <a href=\"%s\">Заплатите сейчас</a> , чтобы "
+"добавить билеты к Вашему заказу."
+
+msgid "add more tickets"
+msgstr "добавить больше билетов"
+
+msgid "pay now"
+msgstr "заплатить сейчас"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "Спасибо Вам! Ваша оплата была удачно обработана."
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+msgstr ""
+"В зависимости от метода оплаты, регистрация оплаты может занять до 60 минут."
+
+msgid "&laquo; back to the news list"
+msgstr "&laquo; вернуться к списку новостей"
+
+msgid "choose category"
+msgstr "выбрать категорию"
+
+msgid "This FAQ category is empty!"
+msgstr "Эта категория FAQ пуста!"
+
+msgid "Next estimated jackpot"
+msgstr "Следующий предположительный джекпот"
+
+msgid "Next draw in"
+msgstr "Следующий розыгрыш в"
+
+msgid "days"
+msgstr "дней"
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "ч"
+
+msgctxt "featured"
+msgid "min"
+msgstr "мин"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "с"
+
+msgid "Buy tickets"
+msgstr "Купить билеты"
+
+msgid "Get a Ticket"
+msgstr "Получить билет"
+
+msgid "No active lotteries."
+msgstr "Нет активных лотерей."
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "ч"
+
+msgctxt "inline"
+msgid "min"
+msgstr "мин"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "с"
+
+msgid "see more"
+msgstr "просмотреть больше"
+
+msgid "No latest news."
+msgstr "Нет свежих новостей."
+
+msgid "This lottery is inactive."
+msgstr "Эта лотерея неактивна."
+
+msgid "Latest results"
+msgstr "Последние результаты"
+
+msgid "No latest results."
+msgstr "Нет последних результатов."
+
+msgid "How to play and win?"
+msgstr "Как играть и выиграть?"
+
+msgid "learn more"
+msgstr "узнать больше"
+
+msgid "No slides."
+msgstr "Нет слайдов."
+
+msgid "Latest winners"
+msgstr "Последние победители"
+
+msgid "%s from %s won"
+msgstr "%s из %s выигранного"
+
+msgid "No winners."
+msgstr "Нет победителей."
+
+msgid "Quick Pick All"
+msgstr "Быстрый выбор всего"
+
+msgid "Clear All"
+msgstr "Вычистить всё"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "Вы не можете добавить больше билетов к Вашему заказу!"
+
+msgid "You can order a multiple of %s lines only."
+msgstr "Вы можете заказать только кратность %s линий."
+
+msgid "Minimum lines for this lottery is %s."
+msgstr "Минимальное количество линий для этой лотереи - это %s."
+
+msgid ""
+"It's too late to buy a ticket for the nearest draw. Your order will be moved "
+"to the next draw!"
+msgstr ""
+"Слишком поздно для покупки билета на ближайший розыгрыш. Ваш билет будет "
+"перенесён на следующий розыгрыш!"
+
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Pick %d numbers and %d bonus"
+msgstr "Выберите %d номеров и %d бонус"
+
+msgid "Pick %d numbers"
+msgstr "Выберите %d номеров"
+
+msgid "Processing..."
+msgstr "Обработка..."
+
+msgid "confirm"
+msgstr "подтвердить"
+
+msgid "+ Add new line"
+msgstr "+ Добавьте новую линию"
+
+msgid "+ Edit line"
+msgstr "+ Редактируйте линию"
+
+msgid "Fewer Lines -"
+msgstr "Меньше линий -"
+
+msgid "More Lines +"
+msgstr "Больше линий +"
+
+msgid "continue"
+msgstr "продолжить"
+
+msgid "required"
+msgstr "Требуется поле :label адрес."
+
+msgid "min_length"
+msgstr "Поле :label должен содержать, как минимум :param:1 символов."
+
+msgid "max_length"
+msgstr "Поле :label не должен содержать больше, чем  :param:1 символов."
+
+msgid "exact_length"
+msgstr "Поле :label должен содержать точно :param:1 символов."
+
+msgid "match_value"
+msgstr "Поле :label должен содержать значение :param:1."
+
+msgid "match_pattern"
+msgstr "Поле :label содержит недействительные символы."
+
+msgid "match_field"
+msgstr "Поле :label должен соответствовать полю :param:1."
+
+msgid "valid_email"
+msgstr "Поле :label должен содержать действующий жлектронный адрес."
+
+msgid "valid_emails"
+msgstr "Поле :label должен содержать список действующих электронных адресов."
+
+msgid "valid_url"
+msgstr "Поле :label должен содержать действующий URL."
+
+msgid "valid_ip"
+msgstr "Поле :label должен содержать действующий адрес IP."
+
+msgid "numeric_min"
+msgstr "Минимальное числовое значение :label должен быть :param:1"
+
+msgid "numeric_max"
+msgstr "Минимальное числовое значение :label должен быть :param:1"
+
+msgid "numeric_between"
+msgstr "Поле :label должен содержать числовое значение между :param:1 и :param:2"
+
+msgid "valid_string"
+msgstr "Поле :label содержит недействительные символы."
+
+msgid "required_with"
+msgstr "Поле :label должен содержать значение, если :param:1 содержит значение."
+
+msgid "valid_date"
+msgstr "Поле :label должен содержать действительную форматированную дату."
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

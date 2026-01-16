@@ -1,0 +1,25 @@
+<?php
+
+interface Forms_Status
+{
+    const RESULT_OK = 0;
+    const RESULT_DB_ERROR = 1;
+    const RESULT_WITH_ERRORS = 2;
+    const RESULT_WRONG_AFF = 3;
+    const RESULT_WRONG_AFF_GROUP = 4;
+    const RESULT_WRONG_PAYMENT_METHOD = 5;
+    const RESULT_WRONG_ID_GIVEN = 6;
+    const RESULT_INCORRECT_TICKET = 7;
+    const RESULT_NULL_COUNTED = 8;
+    const RESULT_NULL_DATA = 9;
+    const RESULT_INCORRECT_USER = 10;
+    const RESULT_USER_EXIST = 11;
+    const RESULT_GO_FURTHER = 12;
+    const RESULT_INCORRECT_WITHDRAWAL = 13;
+    const RESULT_SECURITY_ERROR = 14;
+    const RESULT_INCORRECT_TRANSACTION = 15;
+    const RESULT_WRONG_CAPTCHA = 16;
+    const RESULT_TOO_MANY_ATTEMPTS = 17;
+    const RESULT_WRONG_CREDENTIALS = 18;
+    const RESULT_EMAIL_NOT_SENT = 19;
+}

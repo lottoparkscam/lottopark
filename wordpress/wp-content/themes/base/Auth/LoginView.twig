@@ -1,0 +1,46 @@
+<form class="platform-form platform-form-login" method="post" action="{{url.action}}">
+	<input id="currency_a" name="currency_a" type="hidden" value=""/>
+	<input id="currency_b" name="currency_b" type="text" value=""/>
+	<input id="currency_c" name="currency_c" type="text" value="" tabindex="-1" autocomplete="off"/>
+
+
+	<input type="hidden" name="{{csrf.key}}" value="{{csrf.value}}"/>
+
+	{% if displayErrors %}
+		<div class="platform-alert platform-alert-error">
+			{% for error in errors %}
+				<p>
+					<span class="fa fa-exclamation-circle"></span>
+					{{error | raw}}
+				</p>
+			{% endfor %}
+		</div>
+	{% endif %}
+
+
+	<p class="text-center">
+		{{"Don't have an account? <a href=\"#\" class=\"popup-signup\">Sign up</a>." | trans | replace({'#': url.signUp}) | raw }}
+	</p>
+	{{ socialSection | raw }}
+<div class="form-group {{errorClass}}">
+<input type="{{loginInputType}}" autocomplete="{{loginField}}" required value="{{currentLogin}}" class="form-control" id="inputLogin" name="login[{{loginField}}]" placeholder="{{placeholder}}"></div>
+
+<div class="form-group {{errorClass}}">
+	<input type="password" required autocomplete="current-password" class="form-control" id="inputLoginPassword" name="login[password]" placeholder="{{'Your password' | trans}}"></div>
+<div class="checkbox">
+	<label>
+		<input type="checkbox" name="login.remember" value="1">{{'Remember me' | trans}}
+	</label>
+</div>
+
+
+{{captcha | raw}}
+
+
+<div class="platform-form-btn">
+	<button type="submit" class="btn btn-primary btn-lg btn-mobile-large">{{'Login' | trans}}</button>
+</div>
+<div class="form-help text-center">
+	<a href="{{url.lostPassword}}" class="btn-lost ">{{'Forgotten password' | trans}}</a>
+</div>
+<div class="clearfix"></div></form>

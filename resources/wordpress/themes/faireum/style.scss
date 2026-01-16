@@ -1,0 +1,28 @@
+@import '../../../scss/_mixins';
+/*
+    Theme Name:     Faireum Theme
+    Description:    Faireum whitelabel theme.
+    Author:         WhiteLotto
+    Text Domain:	  faireum-theme
+    Template:		    base
+    Version:        1.0.0
+*/
+
+#text-after-results,
+.fa.fa-check-circle.keno {
+  color: #1db4ed;
+}
+
+.keno.platform-alert.platform-alert-success {
+  background-color: #1db4ed10;
+  border: 1px solid #1db4ed;
+}
+
+.promo-widget__button {
+  @include screen_max_w_1000 {
+    margin-right: 20px;
+  }
+  @include screen_max_w_400 {
+    margin-right: 10px;
+  }
+}

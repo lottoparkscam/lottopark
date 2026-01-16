@@ -1,0 +1,117 @@
+<div class="content-area">
+    <div class="main-width relative">
+        <div class="content-box">
+            <div class="miniGameWindow">
+                <div class="gameHeader">
+                    <div class="gameHeaderBall">
+                        <img src="{{ gameLogo }}" alt="GG World Red Or Blue" />
+                    </div>
+                </div>
+                <div class="gameMain">
+                    <div id="gameOverlay" class="gameOverlay">
+                        <div class="gameOverlayContent"></div>
+                    </div>
+                    <div class="music">
+                        <button type="button" id="playMusic"><i class="fa-solid fa-volume-xmark"></i></button>
+                    </div>
+                    <div class="charRed"></div>
+                    <div id="box" class="box">
+                        <div class="boxRed"></div>
+                        <div class="boxBlue"></div>
+                    </div>
+                    <div class="charBlue"></div>
+                    <a href="" class="gamePlayBtn">{{ 'Click to play!' | trans }}</a>
+                </div>
+                <div class="gameOptions">
+                    <div class="gameOptionsFirstRow">
+                        <div class="gameBoxRow gameMax">
+                            <div class="gameBoxCol gameStake">
+                                <div class="gameTextSmall">{{ 'Choose the bet <span class="gameDesktopOnly">you want to play with:</span>' | trans | raw }}</div>
+                                <div class="gameStakeMenu">
+                                    <div class="gameStakeTrigger">
+                                        <a href="javascript:void(0)">
+                                            <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong>
+                                            <span class="fa fa-chevron-down" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                    <div class="gameStakeWrapper">
+                                        <ul class="stake-options" id="availableBets"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gameBoxCol desktop">
+                                <div class="gameTextSmall">{{ 'Balance:' | trans }}</div>
+                                <strong class="gameBalanceAmount">{{ 'Loading...' | trans }}</strong>
+                                <div class="gameTextSmall bonusBalance">{{ 'Bonus balance:' | trans }}</div>
+                                <strong class="gameBonusBalanceAmount bonusBalance">{{ 'Loading...' | trans }}</strong>
+                                <div class="gameParameters">
+                                    <div class="gameParameter">{{ 'Multiplier:' | trans }} <strong class="gameMultiplier">{{ 'Loading...' | trans }}</strong></div>
+                                    <div class="gameParameter">{{ 'Bet:' | trans }} <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong></div>
+                                    <div class="gameParameter freeSpins">{{ 'Free Spins:' | trans }} <strong class="freeSpinCount">{{ 'Loading...' | trans }}</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gameOptionsSide">
+                            <div class="gameTextSmall center">{{ 'Choose the side you\'re betting on' | trans }}</div>
+                            <div class="gameBoxRow gameBoxSelectCoin">
+                                <div class="gameBoxCol">
+                                    <div class="gameBoxSelectSide sideHeads">
+                                        <img src="{{ redBoxIcon }}" width="56" alt="Red" />
+                                        <strong>Red</strong>
+                                    </div>
+                                </div>
+                                <div class="gameBoxCol">
+                                    <div class="gameBoxSelectSide sideTails">
+                                        <img src="{{ blueBoxIcon }}" width="56" alt="Blue" />
+                                        <strong>Blue</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gameHistory">
+                        <div class="gameDesktopOnly desktopBalanceBox">
+                            <div class="balanceContent">
+                                <div class="gameTextSmall">{{ 'Balance:' | trans }} <strong class="gameBalanceAmount">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameTextSmall bonusBalance">{{ 'Bonus balance:' | trans }} <strong class="gameBonusBalanceAmount">{{ 'Loading...' | trans }}</strong></div>
+                                <div class="gameParameters">
+                                    <div class="gameParameter">{{ 'Multiplier:' | trans }} <strong class="gameMultiplier">{{ 'Loading...' | trans }}</strong></div>
+                                    <div class="gameParameter">{{ 'Bet:' | trans }} <strong class="selectedStakeAmount">{{ 'Loading...' | trans }}</strong></div>
+                                    <div class="gameParameter freeSpins">{{ 'Free Spins:' | trans }} <strong class="freeSpinCount">{{ 'Loading...' | trans }}</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gameTextSmall center gameHistoryTitle">{{ 'Game history:' | trans }}</div>
+                        <div id="gameHistory" class="gameHistoryList">{{ 'Loading...' | trans }}</div>
+                        {% include 'Partials/PromoCodes.twig' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include 'Partials/GamingLabsCertificate.twig' with {
+            'gliCheckImg': gliCheckImg,
+            'gliImg': gliImg,
+            'whitelabelDomain': whitelabelDomain
+        } %}
+    </div>
+    <audio id="backgroundMusic" autoplay loop muted>
+        <source src="{{ backgroundMusicFilePath }}" type="audio/mpeg">
+    </audio>
+    <audio id="clickMusic" muted>
+        <source src="{{ clickMusicFilePath }}" type="audio/mpeg">
+    </audio>
+</div>
+<script>
+    window.redBox = '{{ redBoxIcon }}';
+    window.blueBox = '{{ blueBoxIcon }}';
+    window.miniGameSlug = '{{ miniGameSlug }}';
+    window.clickSoundFilePath = '{{ clickSoundFilePath }}';
+    window.wonSoundFilePath = '{{ wonSoundFilePath }}';
+    window.lossSoundFilePath = '{{ lossSoundFilePath }}';
+    window.happyRedChar = '{{ happyRedChar }}';
+    window.happyBlueChar = '{{ happyBlueChar }}';
+    window.sadRedChar = '{{ sadRedChar }}';
+    window.sadBlueChar = '{{ sadBlueChar }}';
+    window.boxImage = '{{ boxImage }}';
+    window.depositUrl = '{{ depositUrl }}';
+</script>

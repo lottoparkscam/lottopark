@@ -1,0 +1,1 @@
+* * * * * root cd /var/www/BRANCH_SLUG && docker exec BRANCH_SLUG_php sudo -H -u www-data php /var/www/platform/oil r scheduler >> /dev/null 2>&1

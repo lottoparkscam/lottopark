@@ -1,0 +1,5871 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-12-19 16:48+0800\n"
+"PO-Revision-Date: 2018-12-19 16:48+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: classes/controller/admin.php\n"
+"X-Poedit-SearchPath-1: classes/controller/aff.php\n"
+"X-Poedit-SearchPath-2: classes/controller/api.php\n"
+"X-Poedit-SearchPath-3: classes/controller/dev.php\n"
+"X-Poedit-SearchPath-4: classes/controller/index.php\n"
+"X-Poedit-SearchPath-5: classes/controller/task.php\n"
+"X-Poedit-SearchPath-6: classes/controller/whitelabel.php\n"
+"X-Poedit-SearchPath-7: views/admin\n"
+"X-Poedit-SearchPath-8: views/aff\n"
+"X-Poedit-SearchPath-9: views/index\n"
+"X-Poedit-SearchPath-10: views/whitelabel\n"
+"X-Poedit-SearchPath-11: lang/translation.php\n"
+
+#: classes/controller/admin.php:97 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/menu.php:3
+msgid "Lottery List"
+msgstr ""
+
+#: classes/controller/admin.php:98 views/admin/lotteries/delays.php:13
+#: views/admin/lotteries/menu.php:6
+msgid "Postponed Draws"
+msgstr ""
+
+#: classes/controller/admin.php:99 views/admin/lotteries/logs.php:7
+#: views/admin/lotteries/menu.php:9
+msgid "Lottery Logs"
+msgstr ""
+
+#: classes/controller/admin.php:100 views/admin/lotteries/imvalaplogs.php:7
+#: views/admin/lotteries/menu.php:12
+msgid "Imvalap Logs"
+msgstr ""
+
+#: classes/controller/admin.php:101 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/lotteries/menu.php:15
+msgid "Lottorisq Logs"
+msgstr ""
+
+#: classes/controller/admin.php:102 views/admin/payments/menu.php:3
+#: views/admin/payments/paymentlogs.php:7
+msgid "Payment Logs"
+msgstr ""
+
+#: classes/controller/admin.php:103 views/admin/shared/navbar.php:41
+#: views/admin/whitelabels/index.php:10 views/admin/whitelabels/menu.php:3
+msgid "Whitelabels"
+msgstr ""
+
+#: classes/controller/admin.php:104 classes/controller/aff.php:214
+#: classes/controller/aff.php:290 classes/controller/whitelabel.php:143
+#: views/admin/shared/navbar.php:16 views/aff/shared/navbar.php:19
+#: views/whitelabel/shared/navbar.php:15
+msgid "Dashboard"
+msgstr ""
+
+#: classes/controller/admin.php:153 classes/controller/admin.php:196
+#: classes/controller/admin.php:231 classes/controller/admin.php:252
+#: classes/controller/admin.php:386 classes/controller/admin.php:724
+msgid "Wrong whitelabel!"
+msgstr ""
+
+#: classes/controller/admin.php:340 classes/controller/admin.php:668
+#: classes/controller/whitelabel.php:3433
+#: classes/controller/whitelabel.php:3624
+msgid "Payment method has been saved!"
+msgstr ""
+
+#: classes/controller/admin.php:343 classes/controller/whitelabel.php:3627
+msgid "This gateway is already added!"
+msgstr ""
+
+#: classes/controller/admin.php:347 classes/controller/whitelabel.php:3631
+msgid "Wrong gateway!"
+msgstr ""
+
+#: classes/controller/admin.php:448 classes/controller/admin.php:468
+#: classes/controller/whitelabel.php:3215
+#: classes/controller/whitelabel.php:3235
+msgid "Payment method order has been changed!"
+msgstr ""
+
+#: classes/controller/admin.php:671 classes/controller/whitelabel.php:3436
+msgid "This method is already added!"
+msgstr ""
+
+#: classes/controller/admin.php:675 classes/controller/whitelabel.php:326
+#: classes/controller/whitelabel.php:3440
+msgid "Wrong language!"
+msgstr ""
+
+#: classes/controller/admin.php:679 classes/controller/whitelabel.php:3444
+msgid "Wrong method!"
+msgstr ""
+
+#: classes/controller/admin.php:806 classes/controller/whitelabel.php:3988
+msgid "User has been deleted!"
+msgstr ""
+
+#: classes/controller/admin.php:808 classes/controller/admin.php:825
+#: classes/controller/admin.php:846 classes/controller/admin.php:879
+#: classes/controller/admin.php:897 classes/controller/admin.php:924
+#: classes/controller/admin.php:950 classes/controller/admin.php:977
+#: classes/controller/admin.php:1017 classes/controller/admin.php:1051
+#: classes/controller/admin.php:1084 classes/controller/whitelabel.php:1604
+#: classes/controller/whitelabel.php:3990
+#: classes/controller/whitelabel.php:4008
+#: classes/controller/whitelabel.php:4030
+#: classes/controller/whitelabel.php:4063
+#: classes/controller/whitelabel.php:4082
+#: classes/controller/whitelabel.php:4109
+#: classes/controller/whitelabel.php:4136
+#: classes/controller/whitelabel.php:4163
+#: classes/controller/whitelabel.php:4197
+#: classes/controller/whitelabel.php:4232
+#: classes/controller/whitelabel.php:4265
+msgid "Incorrect user."
+msgstr ""
+
+#: classes/controller/admin.php:823 classes/controller/whitelabel.php:4006
+msgid "User has been activated and confirmed!"
+msgstr ""
+
+#: classes/controller/admin.php:843 classes/controller/whitelabel.php:4027
+msgid "User has been restored!"
+msgstr ""
+
+#: classes/controller/admin.php:849 classes/controller/whitelabel.php:4033
+msgid ""
+"User cannot be restored because there exists active user with this e-mail."
+msgstr ""
+
+#: classes/controller/admin.php:852 classes/controller/whitelabel.php:4036
+msgid "There is a problem with database!"
+msgstr ""
+
+#: classes/controller/admin.php:895 classes/controller/whitelabel.php:4080
+msgid "User e-mail address confirmed!"
+msgstr ""
+
+#: classes/controller/admin.php:1137 classes/controller/whitelabel.php:134
+#: classes/controller/whitelabel.php:4327 views/admin/users/index.php:33
+#: views/admin/users/menu.php:4 views/whitelabel/users/index.php:32
+#: views/whitelabel/users/menu.php:3
+msgid "Active users"
+msgstr ""
+
+#: classes/controller/admin.php:1138 classes/controller/whitelabel.php:135
+#: classes/controller/whitelabel.php:4328 views/admin/users/index.php:35
+#: views/admin/users/menu.php:9 views/whitelabel/users/index.php:34
+#: views/whitelabel/users/menu.php:6
+msgid "Inactive users"
+msgstr ""
+
+#: classes/controller/admin.php:1139 classes/controller/whitelabel.php:136
+#: classes/controller/whitelabel.php:4329 views/admin/users/index.php:34
+#: views/admin/users/menu.php:14 views/whitelabel/users/index.php:33
+#: views/whitelabel/users/menu.php:9
+msgid "Deleted users"
+msgstr ""
+
+#: classes/controller/admin.php:1221 classes/controller/whitelabel.php:137
+#: classes/controller/whitelabel.php:3961 views/admin/transactions/index.php:15
+#: views/admin/transactions/menu.php:4
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:4
+msgid "Purchases"
+msgstr ""
+
+#: classes/controller/admin.php:1224 classes/controller/whitelabel.php:138
+#: classes/controller/whitelabel.php:3961 views/admin/transactions/index.php:17
+#: views/admin/transactions/menu.php:9
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:9
+msgid "Deposits"
+msgstr ""
+
+#: classes/controller/admin.php:1390 views/admin/lotteries/index.php:23
+#: views/admin/lotteries/jackpot.php:20
+msgid "Current Jackpot"
+msgstr ""
+
+#: classes/controller/admin.php:1397
+msgid "Current Jackpot has been changed!"
+msgstr ""
+
+#: classes/controller/admin.php:1415 views/admin/lotteries/nextdraw.php:22
+#: views/admin/lotteries/nextdraw.php:24
+msgid "Next Draw Date"
+msgstr ""
+
+#: classes/controller/admin.php:1456
+msgid "Lottery next draw has been changed!"
+msgstr ""
+
+#: classes/controller/admin.php:1459
+msgid "Wrong date format!"
+msgstr ""
+
+#: classes/controller/admin.php:1484 views/admin/lotteries/index.php:21
+#: views/admin/lotteries/index.php:90 views/admin/lotteries/source.php:20
+msgid "Source"
+msgstr ""
+
+#: classes/controller/admin.php:1491
+msgid "The source has been changed!"
+msgstr ""
+
+#: classes/controller/admin.php:1543 classes/controller/whitelabel.php:4598
+#: views/admin/lotteries/draw_add.php:35
+#: views/admin/lotteries/imvalaplogs.php:51 views/admin/lotteries/logs.php:46
+#: views/admin/lotteries/lottorisqlogs.php:52
+#: views/admin/payments/paymentlogs.php:50
+#: views/admin/whitelabels/prepaid.php:21 views/aff/reports/commissions.php:67
+#: views/aff/reports/index.php:199 views/aff/reports/payouts.php:17
+#: views/whitelabel/affs/commissions.php:81
+#: views/whitelabel/affs/payouts.php:35 views/whitelabel/affs/reports.php:187
+#: views/whitelabel/prepaid.php:14 views/whitelabel/tickets/index.php:82
+#: views/whitelabel/tickets/view.php:29
+#: views/whitelabel/transactions/index.php:69
+#: views/whitelabel/transactions/view.php:23
+#: views/whitelabel/transactions/view.php:612
+#: views/whitelabel/transactions/withdrawal.php:23
+#: views/whitelabel/transactions/withdrawals.php:69
+msgid "Date"
+msgstr ""
+
+#: classes/controller/admin.php:1545 views/admin/lotteries/draw_add.php:51
+msgid "Next Jackpot"
+msgstr ""
+
+#: classes/controller/admin.php:1548
+#, php-format
+msgid "Draw Number #%s"
+msgstr ""
+
+#: classes/controller/admin.php:1553 views/admin/lotteries/draw_add.php:105
+msgid "Extra Number"
+msgstr ""
+
+#: classes/controller/admin.php:1553
+#, php-format
+msgid "Bonus Number #%s"
+msgstr ""
+
+#: classes/controller/admin.php:1559 views/admin/lotteries/draw_add.php:184
+#: views/admin/lotteries/draw_add.php:189
+msgid "Winners count"
+msgstr ""
+
+#: classes/controller/admin.php:1562 views/admin/lotteries/draw_add.php:195
+msgid "Prize per winner"
+msgstr ""
+
+#: classes/controller/admin.php:1570 views/admin/lotteries/draw_add.php:141
+msgid "Refund"
+msgstr ""
+
+#: classes/controller/admin.php:1654
+msgid "The draw has been successfully added!"
+msgstr ""
+
+#: classes/controller/admin.php:1657
+msgid "Bonus numbers must differ (from each other and from draw numbers)."
+msgstr ""
+
+#: classes/controller/admin.php:1661
+msgid "Draw numbers must differ."
+msgstr ""
+
+#: classes/controller/admin.php:1742
+msgid "The postponed date has been deleted!"
+msgstr ""
+
+#: classes/controller/admin.php:1745
+msgid ""
+"It's too late to delete this postponed date. Use coding skills to adjust "
+"tickets and draw date within the system!"
+msgstr ""
+
+#: classes/controller/admin.php:1773 views/admin/lotteries/delays.php:26
+#: views/admin/lotteries/delays_edit.php:53
+msgid "Original date"
+msgstr ""
+
+#: classes/controller/admin.php:1775 views/admin/lotteries/delays_edit.php:73
+msgid "Delayed date"
+msgstr ""
+
+#: classes/controller/admin.php:1777 views/admin/lotteries/delays.php:25
+#: views/admin/lotteries/delays_edit.php:28 views/admin/lotteries/logs.php:19
+#: views/admin/lotteries/logs.php:47 views/whitelabel/reports/index.php:17
+#: views/whitelabel/reports/reports.php:87
+#: views/whitelabel/tickets/index.php:13 views/whitelabel/tickets/index.php:74
+#: views/whitelabel/tickets/view.php:27
+msgid "Lottery"
+msgstr ""
+
+#: classes/controller/admin.php:1803
+msgid "The postponed date has been saved!"
+msgstr ""
+
+#: classes/controller/admin.php:1806
+msgid "The postponed date for this draw already exists!"
+msgstr ""
+
+#: classes/controller/admin.php:1810
+msgid "The draw date should be within the future draws!"
+msgstr ""
+
+#: classes/controller/admin.php:1814
+msgid "Wrong lottery!"
+msgstr ""
+
+#: classes/controller/aff.php:205 classes/controller/aff.php:962
+#: views/aff/reports/menu.php:15 views/aff/reports/payouts.php:6
+#: views/whitelabel/affs/menu.php:9 views/whitelabel/affs/payouts.php:7
+msgid "Payouts"
+msgstr ""
+
+#: classes/controller/aff.php:206 classes/controller/whitelabel.php:142
+#: classes/controller/whitelabel.php:2583 views/aff/reports/index.php:6
+#: views/aff/reports/menu.php:16 views/aff/reports/menu.php:24
+#: views/whitelabel/affs/reports.php:7 views/whitelabel/reports/menu.php:3
+#: views/whitelabel/reports/reports.php:7
+msgid "Generate report"
+msgstr ""
+
+#: classes/controller/aff.php:207 views/aff/reports/index.php:65
+#: views/aff/reports/index.php:73 views/aff/reports/leads.php:6
+#: views/aff/reports/menu.php:17 views/aff/reports/menu.php:25
+#: views/aff/reports/subaffiliates.php:82 views/whitelabel/affs/leads.php:7
+#: views/whitelabel/affs/menu.php:11 views/whitelabel/affs/reports.php:44
+#: views/whitelabel/affs/reports.php:52
+msgid "Leads"
+msgstr ""
+
+#: classes/controller/aff.php:208 views/aff/reports/ftps.php:6
+#: views/aff/reports/menu.php:18 views/aff/reports/menu.php:26
+#: views/aff/reports/subaffiliates.php:85 views/whitelabel/affs/ftps.php:7
+#: views/whitelabel/affs/menu.php:12
+msgid "First-Time Purchases"
+msgstr ""
+
+#: classes/controller/aff.php:209 views/aff/reports/commissions.php:6
+#: views/aff/reports/index.php:179 views/aff/reports/menu.php:19
+#: views/aff/reports/menu.php:27 views/aff/reports/payouts.php:20
+#: views/aff/reports/subaffiliates.php:88
+#: views/whitelabel/affs/commissions.php:7 views/whitelabel/affs/groups.php:21
+#: views/whitelabel/affs/menu.php:13 views/whitelabel/affs/payouts.php:38
+#: views/whitelabel/affs/reports.php:169
+msgid "Commissions"
+msgstr ""
+
+#: classes/controller/aff.php:210 views/aff/reports/subaffiliates.php:6
+#: views/aff/shared/navbar.php:31
+msgid "Sub-affiliates"
+msgstr ""
+
+#: classes/controller/aff.php:211 views/aff/settings/menu.php:2
+#: views/aff/settings/profile.php:7
+msgid "Edit profile"
+msgstr ""
+
+#: classes/controller/aff.php:212 views/aff/settings/menu.php:3
+msgid "Payment settings"
+msgstr ""
+
+#: classes/controller/aff.php:213 classes/controller/whitelabel.php:2284
+#: views/aff/settings/menu.php:4 views/whitelabel/settings/menu.php:29
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/controller/aff.php:322 views/admin/users/deposit.php:29
+#: views/aff/settings/payment.php:19 views/whitelabel/affs/payouts.php:64
+#: views/whitelabel/affs/payouts.php:71 views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/affs/payouts.php:81
+#: views/whitelabel/transactions/index.php:13
+#: views/whitelabel/transactions/index.php:67
+#: views/whitelabel/transactions/view.php:30
+#: views/whitelabel/transactions/view.php:812
+#: views/whitelabel/transactions/withdrawal.php:29
+#: views/whitelabel/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:64
+#: views/whitelabel/users/deposit.php:21
+msgid "Method"
+msgstr ""
+
+#: classes/controller/aff.php:336 classes/controller/aff.php:374
+#: classes/controller/aff.php:395 views/aff/settings/payment.php:31
+#: views/aff/settings/payment.php:54 views/aff/settings/payment.php:69
+#: views/whitelabel/transactions/view.php:210
+#: views/whitelabel/transactions/view.php:1132
+msgid "First name"
+msgstr ""
+
+#: classes/controller/aff.php:343 classes/controller/aff.php:381
+#: classes/controller/aff.php:402 views/aff/settings/payment.php:35
+#: views/aff/settings/payment.php:58 views/aff/settings/payment.php:73
+#: views/whitelabel/transactions/view.php:214
+#: views/whitelabel/transactions/view.php:1136
+msgid "Last name"
+msgstr ""
+
+#: classes/controller/aff.php:350 views/aff/settings/payment.php:39
+msgid "Account IBAN number"
+msgstr ""
+
+#: classes/controller/aff.php:357 views/aff/settings/payment.php:43
+msgid "SWIFT"
+msgstr ""
+
+#: classes/controller/aff.php:364 views/aff/settings/payment.php:47
+#: views/whitelabel/transactions/view.php:889
+#: views/whitelabel/transactions/withdrawal.php:75
+msgid "Bank name"
+msgstr ""
+
+#: classes/controller/aff.php:388 views/aff/settings/payment.php:62
+#: views/whitelabel/affs/payouts.php:74
+#: views/whitelabel/transactions/withdrawal.php:59
+msgid "Skrill e-mail"
+msgstr ""
+
+#: classes/controller/aff.php:409 views/aff/settings/payment.php:77
+#: views/whitelabel/affs/payouts.php:79
+#: views/whitelabel/transactions/withdrawal.php:55
+msgid "Neteller e-mail"
+msgstr ""
+
+#: classes/controller/aff.php:416 views/aff/settings/payment.php:83
+msgid "First name (optional)"
+msgstr ""
+
+#: classes/controller/aff.php:422 views/aff/settings/payment.php:87
+msgid "Last name (optional)"
+msgstr ""
+
+#: classes/controller/aff.php:428 views/aff/settings/payment.php:91
+msgid "Bitcoin wallet address"
+msgstr ""
+
+#: classes/controller/aff.php:452
+msgid "Payment settings have been saved!"
+msgstr ""
+
+#: classes/controller/aff.php:497 classes/controller/whitelabel.php:533
+#: classes/controller/whitelabel.php:1410
+#: classes/controller/whitelabel.php:1825 views/admin/signin/index.php:13
+#: views/admin/signin/index.php:14 views/aff/reports/subaffiliates.php:34
+#: views/aff/settings/edit.php:107 views/aff/settings/profile.php:23
+#: views/aff/signin/index.php:13 views/aff/signin/index.php:14
+#: views/whitelabel/affs/edit.php:156 views/whitelabel/affs/index.php:74
+#: views/whitelabel/affs/index.php:121 views/whitelabel/affs/new.php:29
+#: views/whitelabel/affs/view.php:72 views/whitelabel/signin/index.php:13
+#: views/whitelabel/signin/index.php:14
+msgid "Login"
+msgstr ""
+
+#: classes/controller/aff.php:504 classes/controller/whitelabel.php:1417
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:31
+#: views/admin/users/index.php:192 views/admin/users/view.php:33
+#: views/aff/reports/subaffiliates.php:37 views/aff/settings/edit.php:121
+#: views/aff/settings/profile.php:36 views/whitelabel/affs/commissions.php:36
+#: views/whitelabel/affs/edit.php:163 views/whitelabel/affs/ftps.php:36
+#: views/whitelabel/affs/index.php:78 views/whitelabel/affs/leads.php:36
+#: views/whitelabel/affs/view.php:58 views/whitelabel/tickets/view.php:21
+#: views/whitelabel/transactions/view.php:17
+#: views/whitelabel/transactions/view.php:405
+#: views/whitelabel/transactions/view.php:484
+#: views/whitelabel/transactions/withdrawal.php:17
+#: views/whitelabel/transactions/withdrawal.php:50
+#: views/whitelabel/users/edit.php:20 views/whitelabel/users/index.php:168
+#: views/whitelabel/users/view.php:15
+msgid "First Name"
+msgstr ""
+
+#: classes/controller/aff.php:510 classes/controller/whitelabel.php:1429
+#: views/aff/settings/edit.php:114 views/aff/settings/profile.php:30
+#: views/whitelabel/affs/edit.php:149 views/whitelabel/affs/view.php:51
+#: views/whitelabel/transactions/view.php:218
+#: views/whitelabel/transactions/view.php:1140
+msgid "Company"
+msgstr ""
+
+#: classes/controller/aff.php:516 classes/controller/whitelabel.php:1423
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:38
+#: views/admin/users/index.php:201 views/admin/users/view.php:41
+#: views/aff/reports/subaffiliates.php:40 views/aff/settings/edit.php:128
+#: views/aff/settings/profile.php:43 views/whitelabel/affs/commissions.php:39
+#: views/whitelabel/affs/edit.php:170 views/whitelabel/affs/ftps.php:39
+#: views/whitelabel/affs/index.php:82 views/whitelabel/affs/leads.php:39
+#: views/whitelabel/affs/view.php:65 views/whitelabel/tickets/view.php:23
+#: views/whitelabel/transactions/view.php:19
+#: views/whitelabel/transactions/view.php:409
+#: views/whitelabel/transactions/view.php:488
+#: views/whitelabel/transactions/withdrawal.php:19
+#: views/whitelabel/transactions/withdrawal.php:52
+#: views/whitelabel/users/edit.php:24 views/whitelabel/users/index.php:177
+#: views/whitelabel/users/view.php:17
+msgid "Last Name"
+msgstr ""
+
+#: classes/controller/aff.php:522 classes/controller/whitelabel.php:1435
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:58
+#: views/admin/users/view.php:70 views/aff/settings/edit.php:146
+#: views/aff/settings/profile.php:69 views/whitelabel/affs/edit.php:196
+#: views/whitelabel/affs/view.php:98 views/whitelabel/transactions/view.php:230
+#: views/whitelabel/transactions/view.php:433
+#: views/whitelabel/transactions/view.php:508
+#: views/whitelabel/transactions/view.php:1156
+#: views/whitelabel/users/edit.php:37 views/whitelabel/users/view.php:24
+msgid "City"
+msgstr ""
+
+#: classes/controller/aff.php:528 classes/controller/whitelabel.php:1441
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:80
+#: views/admin/users/view.php:102 views/aff/settings/edit.php:169
+#: views/aff/settings/profile.php:97 views/whitelabel/affs/edit.php:220
+#: views/whitelabel/affs/view.php:126 views/whitelabel/users/edit.php:52
+#: views/whitelabel/users/view.php:32
+msgid "Postal/ZIP Code"
+msgstr ""
+
+#: classes/controller/aff.php:533 classes/controller/whitelabel.php:1446
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:65
+#: views/admin/users/view.php:78 views/aff/settings/edit.php:153
+#: views/aff/settings/profile.php:76 views/whitelabel/affs/edit.php:203
+#: views/whitelabel/affs/view.php:105
+#: views/whitelabel/transactions/view.php:437
+#: views/whitelabel/transactions/view.php:512
+#: views/whitelabel/users/edit.php:41 views/whitelabel/users/view.php:26
+msgid "Region"
+msgstr ""
+
+#: classes/controller/aff.php:537 classes/controller/whitelabel.php:1450
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:87
+#: views/admin/users/view.php:86 views/aff/settings/edit.php:176
+#: views/aff/settings/profile.php:83 views/whitelabel/affs/edit.php:227
+#: views/whitelabel/affs/view.php:112
+#: views/whitelabel/transactions/view.php:421
+#: views/whitelabel/transactions/view.php:496
+#: views/whitelabel/transactions/view.php:1148
+#: views/whitelabel/users/edit.php:56 views/whitelabel/users/view.php:28
+msgid "Address #1"
+msgstr ""
+
+#: classes/controller/aff.php:543 classes/controller/whitelabel.php:1456
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:94
+#: views/admin/users/view.php:94 views/aff/settings/edit.php:183
+#: views/aff/settings/profile.php:90 views/whitelabel/affs/edit.php:234
+#: views/whitelabel/affs/view.php:119
+#: views/whitelabel/transactions/view.php:242
+#: views/whitelabel/transactions/view.php:425
+#: views/whitelabel/transactions/view.php:500
+#: views/whitelabel/transactions/view.php:1152
+#: views/whitelabel/users/edit.php:60 views/whitelabel/users/view.php:30
+msgid "Address #2"
+msgstr ""
+
+#: classes/controller/aff.php:549 classes/controller/aff.php:560
+#: classes/controller/whitelabel.php:1462
+#: classes/controller/whitelabel.php:1473
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:136
+#: views/admin/users/index.php:286 views/admin/users/view.php:118
+#: views/aff/reports/subaffiliates.php:58 views/aff/settings/edit.php:225
+#: views/aff/settings/profile.php:111 views/whitelabel/affs/edit.php:276
+#: views/whitelabel/affs/index.php:132 views/whitelabel/affs/view.php:146
+#: views/whitelabel/transactions/view.php:1176
+#: views/whitelabel/users/edit.php:81 views/whitelabel/users/index.php:266
+#: views/whitelabel/users/view.php:36
+msgid "Phone"
+msgstr ""
+
+#: classes/controller/aff.php:555 classes/controller/whitelabel.php:1468
+#: classes/controller/whitelabel.php:1825
+#: classes/controller/whitelabel.php:4419
+#: classes/controller/whitelabel.php:4511 views/admin/users/edit.php:45
+#: views/admin/users/index.php:106 views/admin/users/index.php:289
+#: views/admin/users/view.php:62 views/aff/reports/subaffiliates.php:59
+#: views/aff/settings/edit.php:135 views/aff/settings/profile.php:62
+#: views/whitelabel/affs/commissions.php:23 views/whitelabel/affs/edit.php:177
+#: views/whitelabel/affs/ftps.php:23 views/whitelabel/affs/ftps.php:75
+#: views/whitelabel/affs/index.php:40 views/whitelabel/affs/index.php:135
+#: views/whitelabel/affs/leads.php:23 views/whitelabel/affs/leads.php:82
+#: views/whitelabel/affs/reports.php:70 views/whitelabel/affs/reports.php:128
+#: views/whitelabel/affs/view.php:91 views/whitelabel/reports/reports.php:28
+#: views/whitelabel/settings/blocked/new.php:15
+#: views/whitelabel/transactions/view.php:222
+#: views/whitelabel/transactions/view.php:413
+#: views/whitelabel/transactions/view.php:492
+#: views/whitelabel/transactions/view.php:1091
+#: views/whitelabel/transactions/view.php:1168
+#: views/whitelabel/users/edit.php:28 views/whitelabel/users/index.php:80
+#: views/whitelabel/users/index.php:269 views/whitelabel/users/view.php:22
+msgid "Country"
+msgstr ""
+
+#: classes/controller/aff.php:564 classes/controller/whitelabel.php:292
+#: classes/controller/whitelabel.php:1477
+#: classes/controller/whitelabel.php:1825 views/admin/lotteries/index.php:30
+#: views/admin/users/edit.php:143 views/admin/users/index.php:295
+#: views/admin/users/view.php:126 views/aff/reports/subaffiliates.php:61
+#: views/aff/settings/edit.php:232 views/aff/settings/profile.php:118
+#: views/whitelabel/affs/edit.php:283 views/whitelabel/affs/index.php:141
+#: views/whitelabel/affs/view.php:162 views/whitelabel/settings/account.php:21
+#: views/whitelabel/settings/account_edit.php:40
+#: views/whitelabel/users/edit.php:85 views/whitelabel/users/index.php:275
+#: views/whitelabel/users/view.php:38
+msgid "Time Zone"
+msgstr ""
+
+#: classes/controller/aff.php:568 classes/controller/whitelabel.php:1481
+#: classes/controller/whitelabel.php:1825 views/admin/users/edit.php:101
+#: views/admin/users/view.php:110 views/aff/settings/edit.php:190
+#: views/aff/settings/profile.php:104 views/whitelabel/affs/edit.php:241
+#: views/whitelabel/affs/view.php:133 views/whitelabel/users/edit.php:64
+#: views/whitelabel/users/view.php:34
+msgid "Birthdate"
+msgstr ""
+
+#: classes/controller/aff.php:583 classes/controller/whitelabel.php:495
+#: classes/controller/whitelabel.php:573 classes/controller/whitelabel.php:1513
+#: classes/controller/whitelabel.php:1708
+msgid "There is something wrong with DB!"
+msgstr ""
+
+#: classes/controller/aff.php:639
+msgid "Your details has been saved!"
+msgstr ""
+
+#: classes/controller/aff.php:643 classes/controller/whitelabel.php:322
+#: classes/controller/whitelabel.php:1577
+msgid "Wrong timezone!"
+msgstr ""
+
+#: classes/controller/aff.php:647 classes/controller/whitelabel.php:1581
+msgid "Wrong birthdate!"
+msgstr ""
+
+#: classes/controller/aff.php:651 classes/controller/whitelabel.php:1585
+msgid "Wrong region!"
+msgstr ""
+
+#: classes/controller/aff.php:655 classes/controller/whitelabel.php:1589
+msgid "Wrong country!"
+msgstr ""
+
+#: classes/controller/aff.php:659 classes/controller/whitelabel.php:1593
+msgid "This login is already in use by another affiliate!"
+msgstr ""
+
+#: classes/controller/aff.php:679 classes/controller/whitelabel.php:234
+#: classes/controller/whitelabel.php:453 views/admin/users/password.php:31
+#: views/admin/users/password.php:35 views/aff/settings/password.php:19
+#: views/aff/settings/password.php:21 views/whitelabel/affs/password.php:20
+#: views/whitelabel/affs/password.php:22
+#: views/whitelabel/settings/password.php:20
+#: views/whitelabel/settings/password.php:22
+#: views/whitelabel/users/password.php:20
+#: views/whitelabel/users/password.php:22
+msgid "New password"
+msgstr ""
+
+#: classes/controller/aff.php:693 classes/controller/whitelabel.php:249
+msgid "Your password has been changed!"
+msgstr ""
+
+#: classes/controller/aff.php:846 classes/controller/whitelabel.php:2265
+#: views/aff/settings/analytics.php:19
+#: views/whitelabel/settings/analytics.php:20
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: classes/controller/aff.php:853
+msgid "Google Analytics Tracking ID saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:139 views/admin/transactions/menu.php:14
+#: views/admin/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/menu.php:14
+#: views/whitelabel/transactions/withdrawals.php:7
+msgid "Withdrawals"
+msgstr ""
+
+#: classes/controller/whitelabel.php:140 views/admin/shared/navbar.php:31
+#: views/admin/tickets/index.php:10 views/admin/tickets/menu.php:2
+#: views/whitelabel/shared/navbar.php:24 views/whitelabel/tickets/index.php:7
+#: views/whitelabel/tickets/menu.php:3
+msgid "Tickets"
+msgstr ""
+
+#: classes/controller/whitelabel.php:141 views/whitelabel/reports/index.php:7
+#: views/whitelabel/reports/menu.php:2
+msgid "Winners"
+msgstr ""
+
+#: classes/controller/whitelabel.php:216 views/admin/whitelabels/prepaid.php:10
+#: views/whitelabel/prepaid.php:4
+msgid "Prepaid transactions"
+msgstr ""
+
+#: classes/controller/whitelabel.php:265 views/admin/whitelabels/add.php:104
+#: views/admin/whitelabels/edit.php:80 views/aff/reports/subaffiliates.php:57
+#: views/whitelabel/affs/index.php:121 views/whitelabel/settings/account.php:12
+#: views/whitelabel/settings/account_edit.php:20
+msgid "Username"
+msgstr ""
+
+#: classes/controller/whitelabel.php:272 classes/controller/whitelabel.php:1228
+#: views/admin/lotteries/index.php:19 views/admin/users/index.php:278
+#: views/admin/whitelabels/add.php:28 views/admin/whitelabels/edit.php:29
+#: views/admin/whitelabels/index.php:19 views/admin/whitelabels/payments.php:26
+#: views/admin/whitelabels/payments_edit.php:41
+#: views/whitelabel/affs/groups.php:20 views/whitelabel/affs/groups_edit.php:21
+#: views/whitelabel/affs/payouts.php:65 views/whitelabel/affs/payouts.php:72
+#: views/whitelabel/affs/payouts.php:77 views/whitelabel/affs/payouts.php:83
+#: views/whitelabel/settings/account.php:14
+#: views/whitelabel/settings/account_edit.php:24
+#: views/whitelabel/settings/blocked/countries.php:23
+#: views/whitelabel/settings/lottery.php:17
+#: views/whitelabel/settings/paymentmethods.php:26
+#: views/whitelabel/settings/paymentmethods_edit.php:40
+#: views/whitelabel/transactions/view.php:251
+#: views/whitelabel/transactions/view.php:869
+#: views/whitelabel/users/index.php:255
+msgid "Name"
+msgstr ""
+
+#: classes/controller/whitelabel.php:279 classes/controller/whitelabel.php:486
+#: classes/controller/whitelabel.php:540 classes/controller/whitelabel.php:1825
+#: views/admin/users/email.php:29 views/admin/users/index.php:183
+#: views/admin/users/index.php:279 views/admin/users/view.php:49
+#: views/admin/whitelabels/add.php:52 views/admin/whitelabels/edit.php:46
+#: views/aff/reports/subaffiliates.php:31 views/aff/settings/profile.php:50
+#: views/whitelabel/affs/commissions.php:33 views/whitelabel/affs/email.php:20
+#: views/whitelabel/affs/ftps.php:33 views/whitelabel/affs/index.php:70
+#: views/whitelabel/affs/index.php:123 views/whitelabel/affs/leads.php:33
+#: views/whitelabel/affs/new.php:33 views/whitelabel/affs/view.php:79
+#: views/whitelabel/settings/account.php:16
+#: views/whitelabel/settings/account_edit.php:28
+#: views/whitelabel/tickets/index.php:78 views/whitelabel/tickets/view.php:25
+#: views/whitelabel/transactions/index.php:65
+#: views/whitelabel/transactions/view.php:21
+#: views/whitelabel/transactions/view.php:202
+#: views/whitelabel/transactions/view.php:397
+#: views/whitelabel/transactions/view.php:480
+#: views/whitelabel/transactions/view.php:624
+#: views/whitelabel/transactions/view.php:1144
+#: views/whitelabel/transactions/withdrawal.php:21
+#: views/whitelabel/transactions/withdrawals.php:62
+#: views/whitelabel/users/email.php:20 views/whitelabel/users/index.php:159
+#: views/whitelabel/users/index.php:256 views/whitelabel/users/view.php:19
+msgid "E-mail"
+msgstr ""
+
+#: classes/controller/whitelabel.php:286 classes/controller/whitelabel.php:1825
+#: views/admin/users/index.php:83 views/admin/users/index.php:292
+#: views/admin/users/view.php:146 views/admin/whitelabels/languages.php:20
+#: views/admin/whitelabels/languages_new.php:20
+#: views/admin/whitelabels/payments.php:24
+#: views/admin/whitelabels/payments_edit.php:22
+#: views/aff/reports/subaffiliates.php:60 views/aff/settings/profile.php:135
+#: views/whitelabel/affs/index.php:28 views/whitelabel/affs/index.php:138
+#: views/whitelabel/affs/view.php:180 views/whitelabel/reports/reports.php:20
+#: views/whitelabel/settings/account.php:23
+#: views/whitelabel/settings/account_edit.php:32
+#: views/whitelabel/settings/paymentmethods.php:24
+#: views/whitelabel/settings/paymentmethods_edit.php:21
+#: views/whitelabel/transactions/view.php:462
+#: views/whitelabel/transactions/view.php:520
+#: views/whitelabel/users/index.php:58 views/whitelabel/users/index.php:272
+#: views/whitelabel/users/view.php:43
+msgid "Language"
+msgstr ""
+
+#: classes/controller/whitelabel.php:319 classes/controller/whitelabel.php:2091
+msgid "Settings have been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:344
+#: views/whitelabel/settings/account.php:7
+#: views/whitelabel/settings/menu.php:22
+msgid "Account settings"
+msgstr ""
+
+#: classes/controller/whitelabel.php:421
+msgid "Affiliate has been deleted!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:423 classes/controller/whitelabel.php:440
+#: classes/controller/whitelabel.php:521 classes/controller/whitelabel.php:1643
+#: classes/controller/whitelabel.php:1669
+#: classes/controller/whitelabel.php:1692
+#: classes/controller/whitelabel.php:1724
+msgid "Wrong affiliate."
+msgstr ""
+
+#: classes/controller/whitelabel.php:438
+msgid "Affiliate e-mail address has been confirmed!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:463
+msgid "Affiliate password has been changed!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:473
+msgid "Wrong affiliate!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:507
+msgid "User e-mail address has been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:510
+msgid "This e-mail is already taken!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:545 views/admin/signin/index.php:17
+#: views/admin/signin/index.php:18 views/admin/users/view.php:134
+#: views/admin/whitelabels/add.php:112 views/admin/whitelabels/edit.php:87
+#: views/aff/settings/profile.php:125 views/aff/signin/index.php:17
+#: views/aff/signin/index.php:18 views/whitelabel/affs/new.php:37
+#: views/whitelabel/affs/view.php:169 views/whitelabel/settings/account.php:18
+#: views/whitelabel/signin/index.php:17 views/whitelabel/signin/index.php:18
+#: views/whitelabel/users/view.php:40
+msgid "Password"
+msgstr ""
+
+#: classes/controller/whitelabel.php:550 classes/controller/whitelabel.php:1485
+#: classes/controller/whitelabel.php:1825 views/whitelabel/affs/edit.php:99
+#: views/whitelabel/affs/index.php:52 views/whitelabel/affs/index.php:129
+#: views/whitelabel/affs/new.php:20 views/whitelabel/affs/view.php:44
+msgid "Group"
+msgstr ""
+
+#: classes/controller/whitelabel.php:556 classes/controller/whitelabel.php:1497
+#: views/whitelabel/affs/edit.php:301 views/whitelabel/affs/new.php:49
+msgid "Lead lifetime"
+msgstr ""
+
+#: classes/controller/whitelabel.php:559 classes/controller/whitelabel.php:1500
+#: views/whitelabel/affs/edit.php:314 views/whitelabel/affs/new.php:62
+msgid "Show name and surname of the leads."
+msgstr ""
+
+#: classes/controller/whitelabel.php:615
+msgid "Affiliate has been successfully created!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:618
+msgid "The email address and/or login you have provided are already in use."
+msgstr ""
+
+#: classes/controller/whitelabel.php:638
+msgid "Affiliate group has been deleted!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:641 classes/controller/whitelabel.php:1207
+#: classes/controller/whitelabel.php:1221
+msgid "Wrong affiliate group!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:857
+msgid "Commission has been accepted."
+msgstr ""
+
+#: classes/controller/whitelabel.php:859
+msgid "It is too late to edit this commission!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:862 classes/controller/whitelabel.php:885
+msgid "Incorrect commission!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:880
+msgid "Commission has been deleted!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:882
+msgid "It is too late to delete this commission!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1040
+msgid "The item has been paid out."
+msgstr ""
+
+#: classes/controller/whitelabel.php:1042
+msgid "Incorrect item!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1169
+msgid "Lead has been accepted."
+msgstr ""
+
+#: classes/controller/whitelabel.php:1171
+#: classes/controller/whitelabel.php:1183
+msgid "Incorrect lead!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1181
+msgid ""
+"Lead has been deleted! The user and lead commissions are left untouched. You "
+"will need to remove them manually."
+msgstr ""
+
+#: classes/controller/whitelabel.php:1231
+#: classes/controller/whitelabel.php:1233
+#: classes/controller/whitelabel.php:2031
+#: classes/controller/whitelabel.php:4596
+#: views/admin/lotteries/imvalaplogs.php:31
+#: views/admin/lotteries/imvalaplogs.php:50 views/admin/lotteries/logs.php:28
+#: views/admin/lotteries/logs.php:45 views/admin/lotteries/lottorisqlogs.php:30
+#: views/admin/lotteries/lottorisqlogs.php:51
+#: views/admin/payments/paymentlogs.php:30
+#: views/admin/payments/paymentlogs.php:49 views/admin/whitelabels/index.php:21
+#: views/aff/reports/commissions.php:65 views/aff/reports/index.php:197
+#: views/whitelabel/affs/commissions.php:79
+#: views/whitelabel/affs/groups_edit.php:32
+#: views/whitelabel/affs/groups_edit.php:47
+#: views/whitelabel/affs/reports.php:185
+#: views/whitelabel/settings/lottery_edit.php:63
+#: views/whitelabel/transactions/view.php:452
+#: views/whitelabel/transactions/view.php:1068
+#: views/whitelabel/transactions/view.php:1087
+msgid "Type"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1236 views/aff/dashboard/index.php:27
+#: views/whitelabel/affs/groups.php:37 views/whitelabel/affs/groups.php:59
+#: views/whitelabel/affs/groups_edit.php:56
+msgid "1st-tier First Time Purchase commission value"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1240 views/aff/dashboard/index.php:30
+#: views/whitelabel/affs/groups.php:40 views/whitelabel/affs/groups.php:62
+#: views/whitelabel/affs/groups_edit.php:63
+msgid "2nd-tier First Time Purchase commission value"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1246 views/aff/dashboard/index.php:21
+#: views/whitelabel/affs/groups.php:31 views/whitelabel/affs/groups.php:53
+#: views/whitelabel/affs/groups_edit.php:28
+msgid "1st-tier sale commission value"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1250 views/aff/dashboard/index.php:24
+#: views/whitelabel/affs/groups.php:34 views/whitelabel/affs/groups.php:56
+#: views/whitelabel/affs/groups_edit.php:43
+msgid "2nd-tier sale commission value"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1299
+msgid "Affiliate group has been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1302
+msgid "The affiliate group with this name already exists!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1336
+msgid "Automatically payout commissions"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1340
+msgid "Automatically accept new affiliate leads (registrations)"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1344 views/whitelabel/affs/settings.php:43
+msgid "Ref lifetime"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1362
+msgid "Affiliate settings has been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1491 views/whitelabel/affs/edit.php:120
+#: views/whitelabel/affs/index.php:126 views/whitelabel/affs/view.php:28
+msgid "Parent"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1573
+msgid "Affiliate details has been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1667
+msgid "Affiliate has been activated and confirmed!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1690
+msgid "Affiliate has been accepted!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1719
+msgid "Affiliate has been restored!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1721
+msgid ""
+"Affiliate cannot be restored, because an active affiliate with this e-mail "
+"address exists."
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825
+msgid "Affiliate ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825
+msgid "Parent Affiliate"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825
+#: views/whitelabel/transactions/view.php:361
+#: views/whitelabel/transactions/view.php:466
+#: views/whitelabel/transactions/view.php:674
+#: views/whitelabel/transactions/view.php:800
+#: views/whitelabel/transactions/view.php:1056
+#: views/whitelabel/transactions/view.php:1095
+msgid "Currency"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825
+msgid "Phone Country"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825 views/whitelabel/affs/view.php:188
+msgid "Date created"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1825 views/admin/users/view.php:186
+#: views/whitelabel/affs/view.php:215 views/whitelabel/users/view.php:53
+msgid "Last Active"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1828
+msgid "Default"
+msgstr ""
+
+#: classes/controller/whitelabel.php:1879 views/whitelabel/affs/index.php:15
+#: views/whitelabel/shared/navbar.php:30
+msgid "Affiliates"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2008 views/admin/lotteries/index.php:20
+#: views/whitelabel/settings/lottery.php:18
+#: views/whitelabel/settings/lottery_edit.php:181
+msgid "Enabled"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2012
+#: views/whitelabel/settings/lottery.php:24
+#: views/whitelabel/settings/lottery_edit.php:189
+msgid "Minimum Lines"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2026
+#: views/whitelabel/settings/lottery.php:57
+#: views/whitelabel/settings/lottery_edit.php:32
+#: views/whitelabel/tickets/index.php:114
+msgid "Model"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2036
+#: views/whitelabel/settings/lottery.php:58
+#: views/whitelabel/settings/lottery_edit.php:57
+#: views/whitelabel/settings/lottery_edit.php:151
+msgid "Expected income"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2043
+#: classes/controller/whitelabel.php:2049
+#: views/whitelabel/settings/lottery.php:66
+#: views/whitelabel/settings/lottery_edit.php:78
+msgid "Insured tiers"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2094
+#: classes/controller/whitelabel.php:2098
+msgid "Security error! Please try again."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2114
+msgid "Incorrect lottery!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2125
+#: views/whitelabel/settings/lottery.php:7
+#: views/whitelabel/settings/lottery_edit.php:8
+#: views/whitelabel/settings/menu.php:11
+msgid "Lottery settings"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2141
+msgid "Sorry, we don't have such country in database."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2156
+msgid ""
+"Database error - unable to save country. Make sure you do not enter "
+"duplicate or try again in a while."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2161
+msgid "Country added."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2180
+msgid "Unable to delete country. Please try again using delete button."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2186
+msgid "Country deleted."
+msgstr ""
+
+#: classes/controller/whitelabel.php:2246
+#: views/whitelabel/settings/blocked/countries.php:10
+#: views/whitelabel/settings/menu.php:25
+msgid "Blocked countries"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2274
+msgid "Google Analytics have been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2302
+#: views/whitelabel/settings/fbpixel.php:20
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2306
+#: views/admin/whitelabels/payments_edit.php:72
+#: views/whitelabel/settings/paymentmethods_edit.php:71
+msgid "Show on payment page"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2318
+msgid "Facebook Pixel settings have been saved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2328 views/whitelabel/settings/menu.php:32
+msgid "Facebook Pixel"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2350 views/whitelabel/settings/index.php:7
+#: views/whitelabel/settings/menu.php:8
+msgid "Site settings"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2724
+msgid "Line prize has been paid out to the user account balance!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2727
+#: classes/controller/whitelabel.php:2730
+#: classes/controller/whitelabel.php:2733
+msgid "Incorrect line!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2765
+msgid "The ticket has been marked as paid out!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2767
+msgid ""
+"The ticket has been marked as paid out, however there are still some lines "
+"that will have to be paid automatically!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2770
+#: classes/controller/whitelabel.php:2828
+msgid "Incorrect ticket!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2970
+#: classes/controller/whitelabel.php:2997
+#: classes/controller/whitelabel.php:3000
+#: classes/controller/whitelabel.php:3017
+#: classes/controller/whitelabel.php:3042
+msgid "Incorrect withdrawal!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2995
+msgid "Withdrawal has been approved!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3015
+msgid "Withdrawal has been declined!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3040
+msgid ""
+"Withdrawal has been canceled! The withdrawal amount has been returned to "
+"user account."
+msgstr ""
+
+#: classes/controller/whitelabel.php:3472
+#: views/admin/whitelabels/ccpayments.php:14
+#: views/admin/whitelabels/index.php:41 views/admin/whitelabels/payments.php:10
+#: views/admin/whitelabels/payments.php:14
+#: views/whitelabel/settings/ccsettings.php:13
+#: views/whitelabel/settings/menu.php:18
+#: views/whitelabel/settings/paymentmethods.php:7
+#: views/whitelabel/settings/paymentmethods.php:13
+msgid "Payment methods"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3529
+#: views/admin/whitelabels/ccpayments.php:25
+#: views/admin/whitelabels/ccpayments_edit.php:29
+#: views/whitelabel/settings/ccsettings.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:20
+#: views/whitelabel/transactions/view.php:43
+msgid "Gateway"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3534
+#: views/admin/whitelabels/ccpayments_edit.php:44
+#: views/admin/whitelabels/payments_edit.php:46
+#: views/whitelabel/settings/ccsettings_edit.php:31
+#: views/whitelabel/settings/paymentmethods_edit.php:45
+msgid "Percentage cost"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3540
+#: views/admin/whitelabels/ccpayments_edit.php:57
+#: views/admin/whitelabels/payments_edit.php:55
+#: views/whitelabel/settings/ccsettings_edit.php:39
+#: views/whitelabel/settings/paymentmethods_edit.php:54
+msgid "Fixed cost"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3546
+msgid "Cost currency"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3555
+#: views/admin/whitelabels/ccpayments_edit.php:81
+#: views/whitelabel/settings/ccsettings_edit.php:57
+#: views/whitelabel/transactions/view.php:119
+#: views/whitelabel/transactions/view.php:401
+msgid "Account ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3560
+#: views/admin/whitelabels/ccpayments_edit.php:101
+#: views/whitelabel/settings/ccsettings_edit.php:67
+msgid "Endpoint URL"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3564
+#: views/admin/whitelabels/ccpayments_edit.php:91
+#: views/admin/whitelabels/payments_edit.php:136
+#: views/whitelabel/settings/ccsettings_edit.php:62
+#: views/whitelabel/settings/paymentmethods_edit.php:135
+msgid "API Key"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3569
+#: views/admin/whitelabels/ccpayments_edit.php:111
+#: views/whitelabel/settings/ccsettings_edit.php:72
+msgid "Secret key"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3574
+#: views/admin/whitelabels/ccpayments_edit.php:136
+#: views/whitelabel/settings/ccsettings_edit.php:85
+msgid "Descriptor"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3579
+#: views/admin/whitelabels/ccpayments_edit.php:121
+#: views/whitelabel/settings/ccsettings_edit.php:77
+msgid "Minimum order"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3586
+#: views/admin/whitelabels/ccpayments_edit.php:143
+#: views/admin/whitelabels/payments_edit.php:115
+#: views/admin/whitelabels/payments_edit.php:168
+#: views/admin/whitelabels/payments_edit.php:207
+#: views/admin/whitelabels/payments_edit.php:445
+#: views/whitelabel/settings/ccsettings_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:114
+#: views/whitelabel/settings/paymentmethods_edit.php:167
+#: views/whitelabel/settings/paymentmethods_edit.php:206
+#: views/whitelabel/settings/paymentmethods_edit.php:446
+msgid "Test account"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3657
+#: views/admin/whitelabels/ccpayments.php:10
+#: views/admin/whitelabels/ccpayments.php:15
+#: views/admin/whitelabels/payments.php:15
+#: views/whitelabel/settings/ccsettings.php:7
+#: views/whitelabel/settings/ccsettings.php:14
+#: views/whitelabel/settings/paymentmethods.php:14
+msgid "Credit Card methods"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3790
+msgid "Transaction accepted! The amount has been subtracted from user balance!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3793
+msgid "Transaction accepted! The amount has been added to user balance!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3796
+msgid "Transaction accepted!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:3800
+#: classes/controller/whitelabel.php:3803
+#: classes/controller/whitelabel.php:3848
+msgid "Incorrect transaction!"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4411
+#: classes/controller/whitelabel.php:4505
+#: classes/controller/whitelabel.php:4589
+msgid "Affiliate Name"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4412
+#: classes/controller/whitelabel.php:4506
+#: classes/controller/whitelabel.php:4590
+msgid "Affiliate Login"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4413
+#: classes/controller/whitelabel.php:4507
+#: classes/controller/whitelabel.php:4591
+msgid "Affiliate Email"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4414 views/admin/users/index.php:310
+#: views/aff/reports/index.php:80 views/aff/reports/leads.php:54
+#: views/whitelabel/affs/index.php:157 views/whitelabel/affs/leads.php:74
+#: views/whitelabel/affs/reports.php:62 views/whitelabel/users/index.php:297
+msgid "Active"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4415 views/aff/reports/index.php:86
+#: views/aff/reports/leads.php:60 views/whitelabel/affs/leads.php:77
+#: views/whitelabel/affs/reports.php:65 views/whitelabel/tickets/index.php:167
+#: views/whitelabel/tickets/view.php:53
+msgid "Expired"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4416
+#: classes/controller/whitelabel.php:4508
+#: classes/controller/whitelabel.php:4592
+msgid "User Name"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4417
+#: classes/controller/whitelabel.php:4509
+#: classes/controller/whitelabel.php:4593 views/whitelabel/tickets/index.php:45
+#: views/whitelabel/tickets/view.php:19
+#: views/whitelabel/transactions/index.php:36
+#: views/whitelabel/transactions/view.php:15
+#: views/whitelabel/transactions/withdrawal.php:15
+#: views/whitelabel/transactions/withdrawals.php:33
+msgid "User ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4418
+#: classes/controller/whitelabel.php:4510
+#: classes/controller/whitelabel.php:4594
+msgid "User Email"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4420
+#: classes/controller/whitelabel.php:4512 views/aff/reports/ftps.php:58
+#: views/aff/reports/index.php:93 views/aff/reports/index.php:146
+#: views/aff/reports/leads.php:67 views/whitelabel/affs/ftps.php:76
+#: views/whitelabel/affs/leads.php:83 views/whitelabel/affs/reports.php:71
+#: views/whitelabel/affs/reports.php:129
+msgid "Register country"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4421
+#: classes/controller/whitelabel.php:4513 views/aff/reports/ftps.php:59
+#: views/aff/reports/index.php:94 views/aff/reports/index.php:147
+#: views/aff/reports/leads.php:68 views/whitelabel/affs/ftps.php:77
+#: views/whitelabel/affs/leads.php:84 views/whitelabel/affs/reports.php:72
+#: views/whitelabel/affs/reports.php:130
+msgid "Last country"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4422
+#: classes/controller/whitelabel.php:4514 views/aff/reports/ftps.php:63
+#: views/aff/reports/index.php:98 views/aff/reports/index.php:151
+#: views/aff/reports/leads.php:72 views/whitelabel/affs/ftps.php:78
+#: views/whitelabel/affs/leads.php:85 views/whitelabel/affs/reports.php:73
+#: views/whitelabel/affs/reports.php:131
+msgid "Registered"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4423
+#: classes/controller/whitelabel.php:4515 views/aff/reports/ftps.php:64
+#: views/aff/reports/index.php:99 views/aff/reports/index.php:152
+#: views/aff/reports/leads.php:73 views/whitelabel/affs/ftps.php:79
+#: views/whitelabel/affs/leads.php:86 views/whitelabel/affs/reports.php:74
+#: views/whitelabel/affs/reports.php:132
+msgid "First purchase"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4433
+#: classes/controller/whitelabel.php:4446
+#: classes/controller/whitelabel.php:4525
+#: classes/controller/whitelabel.php:4532
+#: classes/controller/whitelabel.php:4613
+#: classes/controller/whitelabel.php:4620 views/admin/users/aff.php:40
+#: views/admin/users/index.php:345 views/whitelabel/affs/commissions.php:16
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/commissions.php:100 views/whitelabel/affs/edit.php:137
+#: views/whitelabel/affs/ftps.php:16 views/whitelabel/affs/ftps.php:86
+#: views/whitelabel/affs/ftps.php:93 views/whitelabel/affs/index.php:177
+#: views/whitelabel/affs/index.php:200 views/whitelabel/affs/leads.php:16
+#: views/whitelabel/affs/leads.php:94 views/whitelabel/affs/leads.php:106
+#: views/whitelabel/affs/payouts.php:16 views/whitelabel/affs/payouts.php:48
+#: views/whitelabel/affs/reports.php:24 views/whitelabel/affs/reports.php:82
+#: views/whitelabel/affs/reports.php:94 views/whitelabel/affs/reports.php:140
+#: views/whitelabel/affs/reports.php:147 views/whitelabel/affs/reports.php:199
+#: views/whitelabel/affs/reports.php:206 views/whitelabel/affs/view.php:36
+#: views/whitelabel/tickets/index.php:98
+#: views/whitelabel/transactions/index.php:92
+#: views/whitelabel/transactions/withdrawals.php:79
+#: views/whitelabel/users/aff.php:25 views/whitelabel/users/index.php:322
+#: views/whitelabel/users/index.php:371
+msgid "anonymous"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4595
+#: views/admin/payments/paymentlogs.php:53 views/aff/reports/commissions.php:59
+#: views/aff/reports/index.php:191 views/whitelabel/affs/commissions.php:76
+#: views/whitelabel/affs/reports.php:182 views/whitelabel/tickets/index.php:42
+#: views/whitelabel/tickets/index.php:73 views/whitelabel/tickets/view.php:17
+#: views/whitelabel/transactions/view.php:115
+msgid "Transaction ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4597 views/aff/reports/commissions.php:92
+#: views/aff/reports/index.php:225 views/whitelabel/affs/commissions.php:115
+#: views/whitelabel/affs/reports.php:221 views/whitelabel/tickets/index.php:133
+msgid "Tier"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4599 views/admin/users/deposit.php:51
+#: views/admin/whitelabels/prepaid.php:22
+#: views/admin/whitelabels/prepaid_add.php:20
+#: views/aff/reports/commissions.php:68 views/aff/reports/index.php:200
+#: views/aff/reports/payouts.php:19 views/whitelabel/affs/commissions.php:82
+#: views/whitelabel/affs/payouts.php:37 views/whitelabel/affs/reports.php:188
+#: views/whitelabel/prepaid.php:15 views/whitelabel/reports/reports.php:178
+#: views/whitelabel/tickets/index.php:81 views/whitelabel/tickets/view.php:35
+#: views/whitelabel/transactions/index.php:68
+#: views/whitelabel/transactions/view.php:46
+#: views/whitelabel/transactions/view.php:357
+#: views/whitelabel/transactions/view.php:616
+#: views/whitelabel/transactions/view.php:642
+#: views/whitelabel/transactions/view.php:796
+#: views/whitelabel/transactions/view.php:1052
+#: views/whitelabel/transactions/view.php:1099
+#: views/whitelabel/transactions/withdrawal.php:31
+#: views/whitelabel/transactions/withdrawals.php:68
+#: views/whitelabel/users/deposit.php:30
+msgid "Amount"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4600 views/aff/reports/commissions.php:69
+#: views/aff/reports/index.php:201 views/whitelabel/affs/commissions.php:83
+#: views/whitelabel/affs/reports.php:189
+msgid "Ticket cost"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4601 views/aff/reports/commissions.php:69
+#: views/aff/reports/index.php:201 views/whitelabel/affs/commissions.php:83
+#: views/whitelabel/affs/reports.php:189
+#: views/whitelabel/transactions/index.php:191
+#: views/whitelabel/transactions/view.php:50
+msgid "Payment cost"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4602 views/aff/reports/commissions.php:70
+#: views/aff/reports/index.php:202 views/whitelabel/affs/commissions.php:84
+#: views/whitelabel/affs/reports.php:190
+#: views/whitelabel/reports/reports.php:90
+#: views/whitelabel/reports/reports.php:179
+#: views/whitelabel/tickets/index.php:136
+msgid "Income"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4603 views/aff/reports/commissions.php:71
+#: views/aff/reports/index.php:203 views/whitelabel/affs/commissions.php:85
+#: views/whitelabel/affs/reports.php:191
+msgid "Commission"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4629 views/aff/reports/commissions.php:90
+#: views/aff/reports/index.php:223 views/whitelabel/affs/commissions.php:113
+#: views/whitelabel/affs/reports.php:219
+msgid "Sale"
+msgstr ""
+
+#: classes/controller/whitelabel.php:4629 views/aff/reports/commissions.php:90
+#: views/aff/reports/index.php:223 views/whitelabel/affs/commissions.php:113
+#: views/whitelabel/affs/reports.php:219
+msgid "FTP"
+msgstr ""
+
+#: lang/translation.php:3
+msgid "Powerball"
+msgstr ""
+
+#: lang/translation.php:4
+msgid "Mega Millions"
+msgstr ""
+
+#: lang/translation.php:5
+msgid "Eurojackpot"
+msgstr ""
+
+#: lang/translation.php:6
+msgid "SuperEnalotto"
+msgstr ""
+
+#: lang/translation.php:7
+msgid "UK Lottery"
+msgstr ""
+
+#: lang/translation.php:8
+msgid "EuroMillions"
+msgstr ""
+
+#: lang/translation.php:9
+msgid "La Primitiva"
+msgstr ""
+
+#: lang/translation.php:10
+msgid "BonoLoto"
+msgstr ""
+
+#: lang/translation.php:11
+msgid "Lotto 6aus49"
+msgstr ""
+
+#: lang/translation.php:12
+msgid "Mega-Sena"
+msgstr ""
+
+#: lang/translation.php:13
+msgid "El Gordo"
+msgstr ""
+
+#: lang/translation.php:14
+msgid "Loteria de Navidad"
+msgstr ""
+
+#: lang/translation.php:15
+msgid "Loteria del Nino"
+msgstr ""
+
+#: lang/translation.php:16
+msgid "Lotto America"
+msgstr ""
+
+#: lang/translation.php:17
+msgid "GlucksSpirale"
+msgstr ""
+
+#: lang/translation.php:18
+msgid "Thunderball"
+msgstr ""
+
+#: lang/translation.php:19
+msgid "Lotto IE"
+msgstr ""
+
+#: lang/translation.php:20
+msgid "Lotto FR"
+msgstr ""
+
+#: lang/translation.php:21
+msgid "Lotto AT"
+msgstr ""
+
+#: lang/translation.php:22
+msgid "Lotto 6/49"
+msgstr ""
+
+#: lang/translation.php:23
+msgid "Oz Lotto"
+msgstr ""
+
+#: lang/translation.php:24
+msgid "Powerball (AU)"
+msgstr ""
+
+#: lang/translation.php:25
+msgid "Saturday Lotto (AU)"
+msgstr ""
+
+#: lang/translation.php:26
+msgid "Monday/Wednesday Lotto (AU)"
+msgstr ""
+
+#: lang/translation.php:29 views/aff/settings/payment.php:29
+msgid "Bank account"
+msgstr ""
+
+#: lang/translation.php:30 views/aff/settings/payment.php:52
+#: views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/transactions/view.php:305
+msgid "Skrill"
+msgstr ""
+
+#: lang/translation.php:31 views/aff/settings/payment.php:67
+#: views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/transactions/view.php:335
+msgid "Neteller"
+msgstr ""
+
+#: lang/translation.php:32 views/whitelabel/affs/payouts.php:81
+msgid "BTC"
+msgstr ""
+
+#: lang/translation.php:33
+msgid "Debit card"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:9 views/admin/lotteries/draws.php:9
+#: views/admin/lotteries/draws.php:88 views/admin/whitelabels/ccpayments.php:8
+#: views/admin/whitelabels/languages.php:8 views/whitelabel/affs/groups.php:8
+#: views/whitelabel/affs/index.php:10
+#: views/whitelabel/settings/blocked/countries.php:8
+#: views/whitelabel/settings/ccsettings.php:10
+#: views/whitelabel/settings/paymentmethods.php:10
+msgid "Add New"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:16
+msgid ""
+"Here you can add or edit delayed lottery draw dates to automatically process "
+"the changes within the system."
+msgstr ""
+
+#: views/admin/lotteries/delays.php:27
+msgid "Postponed date"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:28 views/admin/lotteries/index.php:35
+#: views/admin/users/index.php:314 views/admin/whitelabels/ccpayments.php:26
+#: views/admin/whitelabels/index.php:23 views/admin/whitelabels/payments.php:29
+#: views/aff/reports/payouts.php:22 views/aff/reports/subaffiliates.php:64
+#: views/whitelabel/affs/commissions.php:86 views/whitelabel/affs/groups.php:22
+#: views/whitelabel/affs/index.php:164 views/whitelabel/affs/leads.php:87
+#: views/whitelabel/affs/payouts.php:41
+#: views/whitelabel/settings/blocked/countries.php:24
+#: views/whitelabel/settings/ccsettings.php:25
+#: views/whitelabel/settings/lottery.php:25
+#: views/whitelabel/settings/paymentmethods.php:29
+#: views/whitelabel/tickets/index.php:88
+#: views/whitelabel/transactions/index.php:75
+#: views/whitelabel/transactions/withdrawals.php:72
+#: views/whitelabel/users/index.php:303
+msgid "Manage"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:48 views/admin/lotteries/index.php:60
+#: views/admin/users/index.php:417 views/admin/whitelabels/ccpayments.php:35
+#: views/admin/whitelabels/index.php:35 views/admin/whitelabels/payments.php:41
+#: views/whitelabel/affs/groups.php:44 views/whitelabel/affs/groups.php:66
+#: views/whitelabel/settings/ccsettings.php:34
+#: views/whitelabel/settings/lottery.php:92
+#: views/whitelabel/settings/paymentmethods.php:41
+#: views/whitelabel/users/index.php:436
+msgid "Edit"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:58 views/admin/tickets/index.php:24
+#: views/admin/users/index.php:374 views/admin/users/index.php:502
+#: views/admin/users/index.php:516 views/whitelabel/affs/commissions.php:145
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:188
+#: views/whitelabel/affs/index.php:309 views/whitelabel/affs/index.php:327
+#: views/whitelabel/affs/leads.php:122 views/whitelabel/affs/leads.php:124
+#: views/whitelabel/affs/payouts.php:118
+#: views/whitelabel/settings/blocked/countries.php:36
+#: views/whitelabel/tickets/index.php:216 views/whitelabel/tickets/view.php:99
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawals.php:108
+#: views/whitelabel/transactions/withdrawals.php:110
+#: views/whitelabel/transactions/withdrawals.php:113
+#: views/whitelabel/users/index.php:355 views/whitelabel/users/index.php:535
+#: views/whitelabel/users/index.php:559
+msgid "Are you sure?"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:59 views/admin/users/index.php:517
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:328
+#: views/whitelabel/affs/leads.php:124
+#: views/whitelabel/settings/blocked/countries.php:37
+#: views/whitelabel/users/index.php:560
+msgid "Delete"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:72
+msgid "There are no delays specified."
+msgstr ""
+
+#: views/admin/lotteries/delays.php:83 views/admin/transactions/index.php:39
+#: views/admin/transactions/withdrawals.php:25 views/admin/users/index.php:375
+#: views/admin/users/index.php:542 views/aff/reports/payouts.php:76
+#: views/whitelabel/affs/commissions.php:167
+#: views/whitelabel/affs/groups.php:83 views/whitelabel/affs/index.php:189
+#: views/whitelabel/affs/index.php:356 views/whitelabel/affs/leads.php:144
+#: views/whitelabel/affs/payouts.php:140
+#: views/whitelabel/settings/blocked/countries.php:60
+#: views/whitelabel/tickets/view.php:156
+#: views/whitelabel/transactions/index.php:299
+#: views/whitelabel/transactions/view.php:1313
+#: views/whitelabel/transactions/withdrawal.php:95
+#: views/whitelabel/transactions/withdrawals.php:134
+#: views/whitelabel/users/index.php:356 views/whitelabel/users/index.php:591
+msgid "Confirm"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:88 views/admin/tickets/index.php:29
+#: views/admin/transactions/index.php:44
+#: views/admin/transactions/withdrawals.php:30 views/admin/users/index.php:547
+#: views/aff/reports/payouts.php:81 views/whitelabel/affs/commissions.php:172
+#: views/whitelabel/affs/groups.php:88 views/whitelabel/affs/index.php:361
+#: views/whitelabel/affs/leads.php:149 views/whitelabel/affs/payouts.php:145
+#: views/whitelabel/settings/blocked/countries.php:65
+#: views/whitelabel/tickets/index.php:221 views/whitelabel/tickets/view.php:161
+#: views/whitelabel/transactions/index.php:304
+#: views/whitelabel/transactions/view.php:1318
+#: views/whitelabel/transactions/withdrawal.php:100
+#: views/whitelabel/transactions/withdrawals.php:139
+#: views/whitelabel/users/index.php:596
+msgid "OK"
+msgstr ""
+
+#: views/admin/lotteries/delays.php:89 views/admin/lotteries/draws.php:89
+#: views/admin/lotteries/index.php:123 views/admin/tickets/index.php:30
+#: views/admin/transactions/index.php:45
+#: views/admin/transactions/withdrawals.php:31 views/admin/users/index.php:548
+#: views/admin/whitelabels/index.php:75 views/aff/reports/payouts.php:82
+#: views/whitelabel/affs/commissions.php:173
+#: views/whitelabel/affs/groups.php:89 views/whitelabel/affs/index.php:362
+#: views/whitelabel/affs/leads.php:150 views/whitelabel/affs/payouts.php:146
+#: views/whitelabel/settings/blocked/countries.php:66
+#: views/whitelabel/tickets/index.php:222 views/whitelabel/tickets/view.php:162
+#: views/whitelabel/transactions/index.php:305
+#: views/whitelabel/transactions/view.php:1319
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawal.php:101
+#: views/whitelabel/transactions/withdrawals.php:113
+#: views/whitelabel/transactions/withdrawals.php:140
+#: views/whitelabel/users/index.php:597
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:8
+msgid "Add new postponed draw"
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:11
+msgid "You can add a postponed lottery draw here."
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:14
+#: views/admin/lotteries/draw_add.php:22 views/admin/lotteries/draws.php:19
+#: views/admin/lotteries/jackpot.php:9 views/admin/lotteries/nextdraw.php:11
+#: views/admin/lotteries/source.php:9 views/admin/users/aff.php:16
+#: views/admin/users/balance.php:14 views/admin/users/deposit.php:14
+#: views/admin/users/edit.php:16 views/admin/users/email.php:15
+#: views/admin/users/password.php:16 views/admin/users/view.php:17
+#: views/admin/whitelabels/add.php:13
+#: views/admin/whitelabels/ccpayments_edit.php:14
+#: views/admin/whitelabels/edit.php:14
+#: views/admin/whitelabels/languages_new.php:9
+#: views/admin/whitelabels/payments_edit.php:9
+#: views/admin/whitelabels/prepaid.php:12
+#: views/admin/whitelabels/prepaid_add.php:9 views/aff/dashboard/index.php:44
+#: views/aff/reports/details.php:13 views/aff/settings/edit.php:13
+#: views/aff/settings/password.php:8 views/whitelabel/affs/edit.php:14
+#: views/whitelabel/affs/email.php:9 views/whitelabel/affs/groups_edit.php:9
+#: views/whitelabel/affs/new.php:9 views/whitelabel/affs/password.php:9
+#: views/whitelabel/affs/view.php:14
+#: views/whitelabel/settings/account_edit.php:9
+#: views/whitelabel/settings/blocked/new.php:9
+#: views/whitelabel/settings/ccsettings_edit.php:9
+#: views/whitelabel/settings/lottery_edit.php:14
+#: views/whitelabel/settings/password.php:9
+#: views/whitelabel/settings/paymentmethods_edit.php:9
+#: views/whitelabel/tickets/view.php:9 views/whitelabel/transactions/view.php:9
+#: views/whitelabel/transactions/withdrawal.php:9
+#: views/whitelabel/users/aff.php:9 views/whitelabel/users/balance.php:9
+#: views/whitelabel/users/deposit.php:9 views/whitelabel/users/edit.php:9
+#: views/whitelabel/users/email.php:9 views/whitelabel/users/password.php:9
+#: views/whitelabel/users/view.php:9
+msgid "Back"
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:66
+#: views/admin/lotteries/delays_edit.php:86
+#: views/admin/lotteries/draw_add.php:45
+msgid "Enter date"
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:68
+#: views/admin/lotteries/delays_edit.php:88
+#: views/admin/lotteries/draw_add.php:47 views/admin/users/edit.php:107
+#: views/aff/settings/edit.php:196 views/whitelabel/affs/edit.php:247
+#: views/whitelabel/users/edit.php:67
+msgid "Format: mm/dd/yyyy"
+msgstr ""
+
+#: views/admin/lotteries/delays_edit.php:92
+#: views/admin/lotteries/draw_add.php:214 views/admin/lotteries/jackpot.php:26
+#: views/admin/lotteries/nextdraw.php:29 views/admin/lotteries/source.php:29
+#: views/admin/users/aff.php:46 views/admin/users/balance.php:44
+#: views/admin/users/deposit.php:65 views/admin/users/edit.php:156
+#: views/admin/users/email.php:34 views/admin/users/password.php:46
+#: views/admin/whitelabels/add.php:139
+#: views/admin/whitelabels/ccpayments_edit.php:150
+#: views/admin/whitelabels/edit.php:105
+#: views/admin/whitelabels/languages_new.php:28
+#: views/admin/whitelabels/payments_edit.php:451
+#: views/admin/whitelabels/prepaid_add.php:27
+#: views/admin/whitelabels/settings.php:85 views/aff/settings/analytics.php:23
+#: views/aff/settings/edit.php:245 views/aff/settings/password.php:28
+#: views/aff/settings/payment.php:95 views/whitelabel/affs/edit.php:319
+#: views/whitelabel/affs/email.php:23 views/whitelabel/affs/groups_edit.php:69
+#: views/whitelabel/affs/new.php:66 views/whitelabel/affs/password.php:29
+#: views/whitelabel/affs/settings.php:63
+#: views/whitelabel/settings/account_edit.php:47
+#: views/whitelabel/settings/analytics.php:24
+#: views/whitelabel/settings/blocked/new.php:22
+#: views/whitelabel/settings/ccsettings_edit.php:93
+#: views/whitelabel/settings/fbpixel.php:27
+#: views/whitelabel/settings/index.php:90
+#: views/whitelabel/settings/lottery_edit.php:171
+#: views/whitelabel/settings/password.php:29
+#: views/whitelabel/settings/paymentmethods_edit.php:452
+#: views/whitelabel/users/aff.php:30 views/whitelabel/users/balance.php:27
+#: views/whitelabel/users/deposit.php:37 views/whitelabel/users/edit.php:93
+#: views/whitelabel/users/email.php:23 views/whitelabel/users/password.php:29
+msgid "Submit"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:7
+msgid "Add Draw"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:13
+msgid ""
+"You can manually add a lottery draw here. You should only do this when "
+"automatic update is not available!<br>All users' tickets will be processed "
+"according to the added draw data! This operation cannot be undone!"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:55
+msgid "Enter next jackpot"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:58
+#, php-format
+msgid ""
+"You should add a draw only if the next jackpot is already known.<br>Unit: "
+"million (e.g. type '29.5' for 29.5 million jackpot). Use dot for decimal "
+"digits. <br>Currency: %s<br>Jackpot for this draw: %s"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:81 views/admin/lotteries/draws.php:31
+msgid "Draw Numbers"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:95 views/admin/lotteries/draw_add.php:121
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:100
+#: views/admin/lotteries/draw_add.php:129
+#: views/admin/lotteries/draw_add.php:153
+#, php-format
+msgid "Range: %s"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:105
+msgid "Bonus Numbers"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:162
+msgid "Draw winners"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:165
+msgid ""
+"Type 0's in case of no winner/prize.<br>You should add a draw only if prize "
+"breakout is already known."
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:171
+#: views/whitelabel/settings/lottery_edit.php:83
+#: views/whitelabel/tickets/view.php:71
+msgid "Match"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:199
+#: views/whitelabel/settings/lottery_edit.php:96
+msgid "Free Quick Pick"
+msgstr ""
+
+#: views/admin/lotteries/draw_add.php:205 views/whitelabel/tickets/index.php:85
+#: views/whitelabel/tickets/view.php:78
+msgid "Prize"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:13
+msgid "Draws"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:16
+msgid "This is a list of lottery draws."
+msgstr ""
+
+#: views/admin/lotteries/draws.php:28 views/whitelabel/reports/index.php:19
+#: views/whitelabel/tickets/index.php:36 views/whitelabel/tickets/index.php:83
+#: views/whitelabel/tickets/view.php:32
+msgid "Draw Date"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:29
+msgid "Download Date"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:30
+#: views/whitelabel/settings/lottery_edit.php:98
+#: views/whitelabel/tickets/index.php:172 views/whitelabel/tickets/view.php:81
+#: views/whitelabel/tickets/view.php:118
+msgid "Jackpot"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:32
+msgid "Draw Bonus Numbers"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:65
+msgid "There are no draws for this lottery yet."
+msgstr ""
+
+#: views/admin/lotteries/draws.php:77
+msgid "Confirm new draw"
+msgstr ""
+
+#: views/admin/lotteries/draws.php:81
+msgid ""
+"Are you sure you want to add new draw?&#10;You should only do this when "
+"automatic update is not available!&#10;All users' tickets will be processed "
+"according to added draw data!"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:7 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/logs.php:7 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/shared/navbar.php:36
+msgid "Lotteries"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:8
+msgid ""
+"Here you can find all logs related to Imvalap provider. Logs are kept for 1 "
+"month."
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:11 views/admin/lotteries/logs.php:11
+#: views/admin/lotteries/lottorisqlogs.php:11
+#: views/admin/payments/paymentlogs.php:11
+msgid "Date Range"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:15 views/admin/lotteries/logs.php:14
+#: views/admin/lotteries/lottorisqlogs.php:14
+#: views/admin/payments/paymentlogs.php:14 views/admin/users/index.php:218
+#: views/aff/reports/index.php:23 views/whitelabel/affs/commissions.php:46
+#: views/whitelabel/affs/ftps.php:46 views/whitelabel/affs/leads.php:46
+#: views/whitelabel/affs/reports.php:14 views/whitelabel/reports/reports.php:14
+#: views/whitelabel/tickets/index.php:55
+#: views/whitelabel/transactions/index.php:46
+#: views/whitelabel/transactions/withdrawals.php:43
+#: views/whitelabel/users/index.php:194
+msgid "to"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:20
+#: views/admin/lotteries/imvalaplogs.php:52
+#: views/admin/lotteries/lottorisqlogs.php:19
+#: views/admin/lotteries/lottorisqlogs.php:53
+#: views/admin/payments/paymentlogs.php:19
+#: views/admin/payments/paymentlogs.php:51 views/admin/users/index.php:60
+#: views/admin/users/index.php:274
+msgid "Whitelabel"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:22
+#: views/admin/lotteries/imvalaplogs.php:33 views/admin/lotteries/logs.php:21
+#: views/admin/lotteries/logs.php:30 views/admin/lotteries/lottorisqlogs.php:21
+#: views/admin/lotteries/lottorisqlogs.php:32
+#: views/admin/payments/paymentlogs.php:21
+#: views/admin/payments/paymentlogs.php:32
+msgid "All"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:41 views/admin/lotteries/logs.php:36
+#: views/admin/lotteries/lottorisqlogs.php:41
+#: views/admin/payments/paymentlogs.php:40 views/admin/users/index.php:52
+#: views/admin/users/index.php:230 views/aff/reports/commissions.php:43
+#: views/aff/reports/ftps.php:43 views/aff/reports/leads.php:43
+#: views/aff/reports/subaffiliates.php:11
+#: views/aff/reports/subaffiliates.php:42
+#: views/whitelabel/affs/commissions.php:10
+#: views/whitelabel/affs/commissions.php:51 views/whitelabel/affs/ftps.php:10
+#: views/whitelabel/affs/ftps.php:51 views/whitelabel/affs/index.php:23
+#: views/whitelabel/affs/index.php:85 views/whitelabel/affs/leads.php:10
+#: views/whitelabel/affs/leads.php:51 views/whitelabel/affs/payouts.php:10
+#: views/whitelabel/affs/payouts.php:21 views/whitelabel/affs/reports.php:18
+#: views/whitelabel/tickets/index.php:10 views/whitelabel/tickets/index.php:60
+#: views/whitelabel/transactions/index.php:10
+#: views/whitelabel/transactions/index.php:51
+#: views/whitelabel/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/withdrawals.php:48
+#: views/whitelabel/users/index.php:51 views/whitelabel/users/index.php:206
+msgid "Filter"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:53
+#: views/admin/lotteries/lottorisqlogs.php:54
+msgid "Ticket ID"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:54
+msgid "Job ID"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:55 views/admin/lotteries/logs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:56
+#: views/admin/payments/paymentlogs.php:54
+msgid "Message"
+msgstr ""
+
+#: views/admin/lotteries/imvalaplogs.php:91 views/admin/lotteries/logs.php:73
+#: views/admin/lotteries/lottorisqlogs.php:100
+#: views/admin/payments/paymentlogs.php:108
+msgid "There are no logs for this criteria."
+msgstr ""
+
+#: views/admin/lotteries/index.php:8
+msgid "Show Logs"
+msgstr ""
+
+#: views/admin/lotteries/index.php:11
+msgid ""
+"This is an overview of the lotteries. Draws and Jackpots are automatically "
+"updated every 20 minutes."
+msgstr ""
+
+#: views/admin/lotteries/index.php:22 views/admin/users/view.php:194
+#: views/whitelabel/users/view.php:55
+msgid "Last Update"
+msgstr ""
+
+#: views/admin/lotteries/index.php:24
+msgid "Draw Days"
+msgstr ""
+
+#: views/admin/lotteries/index.php:25
+msgid "Draw Hour"
+msgstr ""
+
+#: views/admin/lotteries/index.php:27
+msgid "Draw Rules"
+msgstr ""
+
+#: views/admin/lotteries/index.php:28
+msgid ""
+"Amount of numbers (range of numbers) + Amount of bonus numbers (range of "
+"bonus numbers)&#10;*1 Extra number within the base range of draw numbers"
+msgstr ""
+
+#: views/admin/lotteries/index.php:31
+msgid "Last (Next) Draw Date"
+msgstr ""
+
+#: views/admin/lotteries/index.php:32
+msgid "Last Numbers"
+msgstr ""
+
+#: views/admin/lotteries/index.php:33
+msgid "Last Bonus Numbers"
+msgstr ""
+
+#: views/admin/lotteries/index.php:34
+msgid "Last Extra Number"
+msgstr ""
+
+#: views/admin/lotteries/index.php:58
+msgid "pending"
+msgstr ""
+
+#: views/admin/lotteries/index.php:77
+msgid "Next Draw"
+msgstr ""
+
+#: views/admin/lotteries/index.php:89
+msgid "View Draws"
+msgstr ""
+
+#: views/admin/lotteries/index.php:94 views/admin/lotteries/index.php:122
+#: views/admin/whitelabels/index.php:74
+msgid "Disable"
+msgstr ""
+
+#: views/admin/lotteries/index.php:97
+msgid "Enable"
+msgstr ""
+
+#: views/admin/lotteries/index.php:106
+#: views/whitelabel/settings/lottery.php:106
+msgid "There are no lotteries."
+msgstr ""
+
+#: views/admin/lotteries/index.php:116 views/admin/whitelabels/index.php:68
+msgid "Confirm lottery switch off"
+msgstr ""
+
+#: views/admin/lotteries/index.php:119 views/admin/whitelabels/index.php:71
+msgid ""
+"Are you sure you want to disable this lottery?&#10;All bought users' tickets "
+"will stay pending unless you provide the latest draw numbers manually."
+msgstr ""
+
+#: views/admin/lotteries/jackpot.php:7
+msgid "Edit Jackpot"
+msgstr ""
+
+#: views/admin/lotteries/jackpot.php:8
+msgid ""
+"You can edit the current lottery jackpot here. You should only do this when "
+"the automated script does not work."
+msgstr ""
+
+#: views/admin/lotteries/jackpot.php:21
+msgid "Enter current jackpot"
+msgstr ""
+
+#: views/admin/lotteries/jackpot.php:23
+#, php-format
+msgid ""
+"Unit: million (e.g. type '29.5' for 29.5 million jackpot). Use dot for "
+"decimal digits. <br>Currency: %s"
+msgstr ""
+
+#: views/admin/lotteries/logs.php:8
+msgid ""
+"Here you can find all logs related to the lotteries' data download. Logs are "
+"kept for 7 days."
+msgstr ""
+
+#: views/admin/lotteries/lottorisqlogs.php:8
+msgid ""
+"Here you can find all logs related to Lottorisq provider. Logs are kept for "
+"1 month."
+msgstr ""
+
+#: views/admin/lotteries/lottorisqlogs.php:55
+msgid "Slip ID"
+msgstr ""
+
+#: views/admin/lotteries/lottorisqlogs.php:57
+#: views/admin/payments/paymentlogs.php:55
+msgid "Data"
+msgstr ""
+
+#: views/admin/lotteries/lottorisqlogs.php:89
+#: views/admin/payments/paymentlogs.php:97
+msgid "Show data"
+msgstr ""
+
+#: views/admin/lotteries/nextdraw.php:7
+msgid "Change next draw"
+msgstr ""
+
+#: views/admin/lotteries/nextdraw.php:9
+msgid ""
+"You can manually change the lottery draw date here. You should only do this "
+"and you have to do this only when the lottery draw has been moved! It will "
+"automatically move every ticket to the chosen next draw date. The operation "
+"cannot be undone!"
+msgstr ""
+
+#: views/admin/lotteries/nextdraw.php:26
+msgid ""
+"Format: mm/dd/yyyy<br><strong>Date should be in lottery local timezone!</"
+"strong>"
+msgstr ""
+
+#: views/admin/lotteries/source.php:7
+msgid "Change source"
+msgstr ""
+
+#: views/admin/lotteries/source.php:8
+msgid ""
+"Here you can change the source for the lottery. You should do this only when "
+"the original one is not working for a longer period of time!"
+msgstr ""
+
+#: views/admin/payments/paymentlogs.php:7 views/admin/shared/navbar.php:46
+msgid "Payments"
+msgstr ""
+
+#: views/admin/payments/paymentlogs.php:8
+msgid ""
+"Here you can find all logs related to payments. Logs are kept for 1 year."
+msgstr ""
+
+#: views/admin/payments/paymentlogs.php:52
+#: views/whitelabel/transactions/view.php:650
+msgid "Payment Method"
+msgstr ""
+
+#: views/admin/payments/paymentlogs.php:74
+#: views/whitelabel/reports/reports.php:198
+#: views/whitelabel/reports/reports.php:199
+#: views/whitelabel/transactions/withdrawal.php:33
+#: views/whitelabel/transactions/withdrawals.php:66
+msgid "User balance"
+msgstr ""
+
+#: views/admin/payments/paymentlogs.php:77 views/admin/users/deposit.php:33
+#: views/admin/whitelabels/ccpayments_edit.php:8
+#: views/whitelabel/settings/ccsettings_edit.php:7
+#: views/whitelabel/transactions/index.php:17
+#: views/whitelabel/transactions/index.php:147
+#: views/whitelabel/transactions/view.php:35
+#: views/whitelabel/users/deposit.php:23
+msgid "Credit Card"
+msgstr ""
+
+#: views/admin/shared/header.php:7
+msgid "Admin panel"
+msgstr ""
+
+#: views/admin/shared/header.php:7 views/admin/shared/navbar.php:10
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+msgid "Lotto network"
+msgstr ""
+
+#: views/admin/shared/navbar.php:5 views/aff/shared/navbar.php:5
+#: views/whitelabel/shared/navbar.php:5
+msgid "Toggle navigation"
+msgstr ""
+
+#: views/admin/shared/navbar.php:21 views/whitelabel/shared/navbar.php:18
+msgid "Users"
+msgstr ""
+
+#: views/admin/shared/navbar.php:26 views/whitelabel/reports/reports.php:181
+#: views/whitelabel/shared/navbar.php:21
+msgid "Transactions"
+msgstr ""
+
+#: views/admin/shared/navbar.php:51 views/aff/shared/navbar.php:40
+#: views/whitelabel/shared/navbar.php:46
+msgid "Sign out"
+msgstr ""
+
+#: views/admin/signin/index.php:11 views/aff/signin/index.php:11
+#: views/whitelabel/signin/index.php:11
+msgid "Please sign in"
+msgstr ""
+
+#: views/admin/signin/index.php:21 views/aff/signin/index.php:21
+#: views/whitelabel/signin/index.php:21
+msgid "Remember me"
+msgstr ""
+
+#: views/admin/signin/index.php:29 views/aff/signin/index.php:29
+#: views/whitelabel/signin/index.php:29
+msgid "Sign in"
+msgstr ""
+
+#: views/admin/tickets/index.php:13 views/whitelabel/tickets/index.php:8
+msgid "Here you can view and manage users' tickets."
+msgstr ""
+
+#: views/admin/transactions/index.php:24
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' non-deposit transactions."
+msgstr ""
+
+#: views/admin/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' deposit transactions."
+msgstr ""
+
+#: views/admin/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:8
+msgid "Here you can manage your users' withdrawals."
+msgstr ""
+
+#: views/admin/users/aff.php:10 views/whitelabel/users/aff.php:7
+#: views/whitelabel/users/index.php:407
+msgid "Change affiliate"
+msgstr ""
+
+#: views/admin/users/aff.php:13 views/whitelabel/users/aff.php:8
+msgid "You can change your user affiliate here."
+msgstr ""
+
+#: views/admin/users/aff.php:31 views/aff/shared/header.php:7
+#: views/whitelabel/affs/commissions.php:13
+#: views/whitelabel/affs/commissions.php:70 views/whitelabel/affs/ftps.php:13
+#: views/whitelabel/affs/ftps.php:70 views/whitelabel/affs/leads.php:13
+#: views/whitelabel/affs/leads.php:71 views/whitelabel/affs/payouts.php:13
+#: views/whitelabel/affs/payouts.php:32 views/whitelabel/affs/reports.php:21
+#: views/whitelabel/affs/reports.php:59 views/whitelabel/affs/reports.php:123
+#: views/whitelabel/affs/reports.php:176 views/whitelabel/users/aff.php:20
+#: views/whitelabel/users/index.php:259
+msgid "Affiliate"
+msgstr ""
+
+#: views/admin/users/aff.php:35 views/admin/whitelabels/payments_edit.php:33
+#: views/aff/settings/payment.php:21 views/whitelabel/settings/lottery.php:48
+#: views/whitelabel/settings/lottery_edit.php:44
+#: views/whitelabel/settings/paymentmethods_edit.php:32
+#: views/whitelabel/tickets/index.php:128 views/whitelabel/users/aff.php:22
+#: views/whitelabel/users/index.php:398
+msgid "None"
+msgstr ""
+
+#: views/admin/users/balance.php:8 views/whitelabel/users/balance.php:7
+msgid "Edit balance"
+msgstr ""
+
+#: views/admin/users/balance.php:11 views/whitelabel/users/balance.php:8
+msgid "You can edit user balance here."
+msgstr ""
+
+#: views/admin/users/balance.php:29 views/admin/users/index.php:283
+#: views/admin/users/view.php:154 views/whitelabel/transactions/index.php:15
+#: views/whitelabel/transactions/index.php:144
+#: views/whitelabel/transactions/view.php:33
+#: views/whitelabel/users/balance.php:20 views/whitelabel/users/index.php:263
+#: views/whitelabel/users/view.php:45
+msgid "Balance"
+msgstr ""
+
+#: views/admin/users/balance.php:38 views/whitelabel/users/balance.php:23
+msgid "Enter user balance"
+msgstr ""
+
+#: views/admin/users/balance.php:41 views/admin/users/deposit.php:62
+#: views/admin/whitelabels/prepaid_add.php:25
+#: views/whitelabel/users/balance.php:25 views/whitelabel/users/deposit.php:35
+msgid "Use dot for decimal digits. No whitespaces."
+msgstr ""
+
+#: views/admin/users/deposit.php:8 views/whitelabel/users/deposit.php:7
+msgid "Deposit"
+msgstr ""
+
+#: views/admin/users/deposit.php:11 views/whitelabel/users/deposit.php:8
+msgid "Here you can add manual deposit to the user."
+msgstr ""
+
+#: views/admin/users/deposit.php:59 views/admin/whitelabels/prepaid_add.php:23
+#: views/whitelabel/users/deposit.php:33
+msgid "Enter amount"
+msgstr ""
+
+#: views/admin/users/edit.php:10 views/aff/settings/edit.php:7
+#: views/whitelabel/affs/edit.php:8 views/whitelabel/users/edit.php:7
+msgid "Edit details"
+msgstr ""
+
+#: views/admin/users/edit.php:13 views/whitelabel/users/edit.php:8
+msgid "Edit user details here."
+msgstr ""
+
+#: views/admin/users/edit.php:34 views/whitelabel/affs/edit.php:166
+#: views/whitelabel/users/edit.php:21
+msgid "User first name"
+msgstr ""
+
+#: views/admin/users/edit.php:41 views/whitelabel/affs/edit.php:173
+#: views/whitelabel/users/edit.php:25
+msgid "User last name"
+msgstr ""
+
+#: views/admin/users/edit.php:48 views/whitelabel/affs/edit.php:181
+#: views/whitelabel/users/edit.php:30
+msgid "Choose user country"
+msgstr ""
+
+#: views/admin/users/edit.php:61 views/whitelabel/affs/edit.php:199
+#: views/whitelabel/users/edit.php:38
+msgid "User city"
+msgstr ""
+
+#: views/admin/users/edit.php:69 views/admin/users/edit.php:74
+#: views/whitelabel/affs/edit.php:207 views/whitelabel/affs/edit.php:213
+#: views/whitelabel/users/edit.php:43 views/whitelabel/users/edit.php:47
+msgid "Choose user region"
+msgstr ""
+
+#: views/admin/users/edit.php:83 views/whitelabel/affs/edit.php:223
+#: views/whitelabel/users/edit.php:53
+msgid "User Postal/ZIP Code"
+msgstr ""
+
+#: views/admin/users/edit.php:90 views/whitelabel/affs/edit.php:230
+#: views/whitelabel/users/edit.php:57
+msgid "User address #1"
+msgstr ""
+
+#: views/admin/users/edit.php:97 views/whitelabel/affs/edit.php:237
+#: views/whitelabel/users/edit.php:61
+msgid "User address #2"
+msgstr ""
+
+#: views/admin/users/edit.php:104 views/whitelabel/affs/edit.php:244
+#: views/whitelabel/users/edit.php:66
+msgid "User birthdate"
+msgstr ""
+
+#: views/admin/users/edit.php:112 views/aff/settings/edit.php:201
+#: views/whitelabel/affs/edit.php:252 views/whitelabel/users/edit.php:70
+msgid "Phone prefix"
+msgstr ""
+
+#: views/admin/users/edit.php:116 views/aff/settings/edit.php:205
+#: views/whitelabel/affs/edit.php:256 views/whitelabel/users/edit.php:72
+msgid "Choose a phone prefix"
+msgstr ""
+
+#: views/admin/users/edit.php:139 views/whitelabel/affs/edit.php:279
+#: views/whitelabel/users/edit.php:82
+msgid "User phone"
+msgstr ""
+
+#: views/admin/users/edit.php:147 views/whitelabel/affs/edit.php:286
+#: views/whitelabel/users/edit.php:87
+msgid "Choose time zone"
+msgstr ""
+
+#: views/admin/users/email.php:9 views/whitelabel/affs/email.php:7
+#: views/whitelabel/users/email.php:7
+msgid "Edit e-mail"
+msgstr ""
+
+#: views/admin/users/email.php:12 views/whitelabel/users/email.php:8
+msgid "You can edit user e-mail here."
+msgstr ""
+
+#: views/admin/users/email.php:32 views/whitelabel/affs/email.php:21
+#: views/whitelabel/users/email.php:21
+msgid "New e-mail"
+msgstr ""
+
+#: views/admin/users/index.php:38 views/whitelabel/users/index.php:37
+msgid "Here you can view and manage your activated users."
+msgstr ""
+
+#: views/admin/users/index.php:39 views/whitelabel/users/index.php:38
+msgid "Here you can manage your inactive useres."
+msgstr ""
+
+#: views/admin/users/index.php:40 views/whitelabel/users/index.php:39
+msgid "Here you can manage your deleted users."
+msgstr ""
+
+#: views/admin/users/index.php:127 views/whitelabel/users/index.php:103
+msgid "Register IP Country"
+msgstr ""
+
+#: views/admin/users/index.php:150 views/whitelabel/users/index.php:126
+msgid "Last IP Country"
+msgstr ""
+
+#: views/admin/users/index.php:174 views/admin/users/index.php:271
+#: views/admin/users/view.php:25 views/admin/whitelabels/ccpayments.php:24
+#: views/aff/reports/commissions.php:54 views/aff/reports/ftps.php:54
+#: views/aff/reports/index.php:89 views/aff/reports/index.php:142
+#: views/aff/reports/index.php:186 views/aff/reports/leads.php:63
+#: views/aff/reports/subaffiliates.php:28
+#: views/aff/reports/subaffiliates.php:56 views/aff/settings/profile.php:16
+#: views/whitelabel/affs/commissions.php:30 views/whitelabel/affs/ftps.php:30
+#: views/whitelabel/affs/groups.php:19 views/whitelabel/affs/index.php:66
+#: views/whitelabel/affs/index.php:118 views/whitelabel/affs/leads.php:30
+#: views/whitelabel/affs/view.php:21
+#: views/whitelabel/settings/ccsettings.php:23
+#: views/whitelabel/tickets/index.php:39 views/whitelabel/tickets/index.php:72
+#: views/whitelabel/tickets/view.php:15
+#: views/whitelabel/transactions/index.php:33
+#: views/whitelabel/transactions/index.php:62
+#: views/whitelabel/transactions/view.php:13
+#: views/whitelabel/transactions/withdrawal.php:13
+#: views/whitelabel/transactions/withdrawals.php:30
+#: views/whitelabel/transactions/withdrawals.php:59
+#: views/whitelabel/users/index.php:150 views/whitelabel/users/index.php:251
+#: views/whitelabel/users/view.php:13
+msgid "ID"
+msgstr ""
+
+#: views/admin/users/index.php:207 views/aff/reports/index.php:20
+#: views/whitelabel/affs/commissions.php:43 views/whitelabel/affs/ftps.php:43
+#: views/whitelabel/affs/leads.php:43 views/whitelabel/affs/reports.php:11
+#: views/whitelabel/reports/reports.php:11
+#: views/whitelabel/tickets/index.php:52
+#: views/whitelabel/transactions/index.php:43
+#: views/whitelabel/transactions/withdrawals.php:40
+#: views/whitelabel/users/index.php:183
+msgid "Range"
+msgstr ""
+
+#: views/admin/users/index.php:233 views/whitelabel/users/index.php:209
+msgid "Reset"
+msgstr ""
+
+#: views/admin/users/index.php:242 views/whitelabel/affs/index.php:93
+#: views/whitelabel/users/index.php:219
+msgid ""
+"1. Download and save the file.<br>2. Open Excel and create new file.<br>3. "
+"Choose <i>Data->From Text</i> from <i>Get External Data</i> section.<br>4. "
+"Navigate and choose saved file.<br>5. Choose <i>Delimited</i>, file origin "
+"<i>Unicode (UTF-8)</i>, check <i>My data has headers.</i><br>6. On next step "
+"choose only <i>Comma</i> as the delimiter.<br>7. You can adjust some format "
+"settings in the last step (for best results you should set all columns to "
+"<i>Text</i> type instead of <i>General</i>).<br>8. Click <i>Finish</i> and "
+"choose data placement."
+msgstr ""
+
+#: views/admin/users/index.php:256 views/whitelabel/affs/index.php:104
+#: views/whitelabel/users/index.php:236
+msgid "How to open in Excel"
+msgstr ""
+
+#: views/admin/users/index.php:258 views/whitelabel/affs/commissions.php:60
+#: views/whitelabel/affs/ftps.php:60 views/whitelabel/affs/index.php:106
+#: views/whitelabel/affs/leads.php:61 views/whitelabel/users/index.php:238
+msgid "Export View to CSV"
+msgstr ""
+
+#: views/admin/users/index.php:300 views/whitelabel/users/index.php:282
+msgid "Registered<br>IP<br>Country"
+msgstr ""
+
+#: views/admin/users/index.php:305 views/whitelabel/affs/index.php:152
+#: views/whitelabel/users/index.php:289
+msgid "Date Deleted"
+msgstr ""
+
+#: views/admin/users/index.php:356 views/whitelabel/affs/commissions.php:105
+#: views/whitelabel/affs/ftps.php:98 views/whitelabel/affs/leads.php:111
+#: views/whitelabel/affs/reports.php:99 views/whitelabel/affs/reports.php:152
+#: views/whitelabel/affs/reports.php:211 views/whitelabel/reports/index.php:49
+#: views/whitelabel/reports/index.php:65 views/whitelabel/reports/index.php:72
+#: views/whitelabel/reports/index.php:78
+#: views/whitelabel/transactions/index.php:134
+#: views/whitelabel/transactions/view.php:1302
+#: views/whitelabel/users/index.php:334
+msgid "View tickets"
+msgstr ""
+
+#: views/admin/users/index.php:360 views/whitelabel/users/index.php:338
+msgid "View purchases"
+msgstr ""
+
+#: views/admin/users/index.php:364 views/whitelabel/users/index.php:342
+msgid "View deposits"
+msgstr ""
+
+#: views/admin/users/index.php:368 views/whitelabel/users/index.php:346
+msgid "View withdrawals"
+msgstr ""
+
+#: views/admin/users/index.php:422 views/whitelabel/users/index.php:441
+msgid "Manual deposit"
+msgstr ""
+
+#: views/admin/users/index.php:491 views/admin/whitelabels/payments.php:39
+#: views/whitelabel/affs/index.php:287 views/whitelabel/affs/index.php:298
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:32 views/whitelabel/tickets/index.php:188
+#: views/whitelabel/users/index.php:520
+msgid "Yes"
+msgstr ""
+
+#: views/admin/users/index.php:493 views/admin/whitelabels/payments.php:39
+#: views/whitelabel/affs/index.php:289 views/whitelabel/affs/index.php:300
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:31 views/whitelabel/tickets/index.php:189
+#: views/whitelabel/users/index.php:522
+msgid "No"
+msgstr ""
+
+#: views/admin/users/index.php:503 views/whitelabel/affs/index.php:310
+#: views/whitelabel/users/index.php:536
+msgid "Restore"
+msgstr ""
+
+#: views/admin/users/index.php:508 views/whitelabel/affs/index.php:315
+#: views/whitelabel/users/index.php:543
+msgid "Activate"
+msgstr ""
+
+#: views/admin/users/index.php:512 views/aff/reports/subaffiliates.php:75
+#: views/whitelabel/affs/index.php:323 views/whitelabel/tickets/index.php:196
+#: views/whitelabel/transactions/index.php:261
+#: views/whitelabel/transactions/withdrawals.php:106
+#: views/whitelabel/users/index.php:549
+msgid "Details"
+msgstr ""
+
+#: views/admin/users/index.php:529 views/whitelabel/users/index.php:578
+msgid "No users."
+msgstr ""
+
+#: views/admin/users/password.php:10 views/aff/settings/password.php:6
+#: views/whitelabel/affs/password.php:7
+#: views/whitelabel/settings/password.php:7
+#: views/whitelabel/users/password.php:7
+msgid "Change password"
+msgstr ""
+
+#: views/admin/users/password.php:13 views/whitelabel/users/password.php:8
+msgid "You can change user password here."
+msgstr ""
+
+#: views/admin/users/password.php:38 views/admin/whitelabels/add.php:119
+#: views/admin/whitelabels/edit.php:93 views/aff/settings/password.php:23
+#: views/whitelabel/affs/new.php:41 views/whitelabel/affs/password.php:24
+#: views/whitelabel/settings/password.php:24
+#: views/whitelabel/users/password.php:24
+msgid "Random"
+msgstr ""
+
+#: views/admin/users/password.php:43 views/admin/whitelabels/add.php:124
+#: views/admin/whitelabels/edit.php:98 views/aff/settings/password.php:26
+#: views/whitelabel/affs/new.php:44 views/whitelabel/affs/password.php:27
+#: views/whitelabel/settings/password.php:27
+#: views/whitelabel/users/password.php:27
+msgid "Generated password"
+msgstr ""
+
+#: views/admin/users/view.php:11 views/whitelabel/transactions/view.php:867
+#: views/whitelabel/users/view.php:7
+msgid "User details"
+msgstr ""
+
+#: views/admin/users/view.php:14 views/whitelabel/users/view.php:8
+msgid "You can view and edit user details here."
+msgstr ""
+
+#: views/admin/users/view.php:28 views/admin/users/view.php:65
+#: views/admin/users/view.php:73 views/admin/users/view.php:81
+#: views/admin/users/view.php:89 views/admin/users/view.php:97
+#: views/admin/users/view.php:105 views/admin/users/view.php:113
+#: views/admin/users/view.php:121 views/admin/users/view.php:129
+#: views/admin/users/view.php:149 views/admin/users/view.php:205
+#: views/aff/settings/profile.php:19 views/aff/settings/profile.php:32
+#: views/aff/settings/profile.php:65 views/aff/settings/profile.php:72
+#: views/aff/settings/profile.php:79 views/aff/settings/profile.php:86
+#: views/aff/settings/profile.php:93 views/aff/settings/profile.php:100
+#: views/aff/settings/profile.php:107 views/aff/settings/profile.php:114
+#: views/aff/settings/profile.php:121 views/aff/settings/profile.php:138
+#: views/whitelabel/affs/view.php:24 views/whitelabel/affs/view.php:40
+#: views/whitelabel/affs/view.php:54 views/whitelabel/affs/view.php:94
+#: views/whitelabel/affs/view.php:101 views/whitelabel/affs/view.php:108
+#: views/whitelabel/affs/view.php:115 views/whitelabel/affs/view.php:122
+#: views/whitelabel/affs/view.php:129 views/whitelabel/affs/view.php:140
+#: views/whitelabel/affs/view.php:150 views/whitelabel/affs/view.php:165
+#: views/whitelabel/affs/view.php:183 views/whitelabel/affs/view.php:200
+#: views/whitelabel/affs/view.php:219 views/whitelabel/settings/account.php:24
+#: views/whitelabel/tickets/view.php:16 views/whitelabel/tickets/view.php:18
+#: views/whitelabel/tickets/view.php:20
+#: views/whitelabel/transactions/view.php:14
+#: views/whitelabel/transactions/view.php:16
+#: views/whitelabel/transactions/withdrawal.php:14
+#: views/whitelabel/transactions/withdrawal.php:16
+#: views/whitelabel/users/view.php:14 views/whitelabel/users/view.php:23
+#: views/whitelabel/users/view.php:25 views/whitelabel/users/view.php:27
+#: views/whitelabel/users/view.php:29 views/whitelabel/users/view.php:31
+#: views/whitelabel/users/view.php:33 views/whitelabel/users/view.php:35
+#: views/whitelabel/users/view.php:37 views/whitelabel/users/view.php:39
+#: views/whitelabel/users/view.php:44 views/whitelabel/users/view.php:58
+msgid "-"
+msgstr ""
+
+#: views/admin/users/view.php:36 views/admin/users/view.php:44
+#: views/aff/settings/profile.php:39 views/aff/settings/profile.php:46
+#: views/whitelabel/affs/view.php:61 views/whitelabel/affs/view.php:68
+#: views/whitelabel/tickets/view.php:22 views/whitelabel/tickets/view.php:24
+#: views/whitelabel/transactions/view.php:18
+#: views/whitelabel/transactions/view.php:20
+#: views/whitelabel/transactions/withdrawal.php:18
+#: views/whitelabel/transactions/withdrawal.php:20
+#: views/whitelabel/transactions/withdrawal.php:51
+#: views/whitelabel/transactions/withdrawal.php:53
+#: views/whitelabel/users/view.php:16 views/whitelabel/users/view.php:18
+msgid "Anonymous"
+msgstr ""
+
+#: views/admin/users/view.php:57 views/whitelabel/affs/view.php:87
+#: views/whitelabel/users/view.php:21
+msgid "Edit E-mail"
+msgstr ""
+
+#: views/admin/users/view.php:141 views/aff/settings/profile.php:131
+#: views/whitelabel/affs/view.php:175 views/whitelabel/settings/account.php:20
+#: views/whitelabel/users/view.php:42
+msgid "Change Password"
+msgstr ""
+
+#: views/admin/users/view.php:162 views/whitelabel/users/view.php:47
+msgid "Date register"
+msgstr ""
+
+#: views/admin/users/view.php:170 views/whitelabel/users/view.php:49
+msgid "Register IP"
+msgstr ""
+
+#: views/admin/users/view.php:178 views/whitelabel/affs/view.php:196
+#: views/whitelabel/users/view.php:51
+msgid "Last IP"
+msgstr ""
+
+#: views/admin/users/view.php:202 views/whitelabel/users/view.php:57
+msgid "First Purchase"
+msgstr ""
+
+#: views/admin/users/view.php:210 views/aff/settings/profile.php:142
+#: views/whitelabel/affs/view.php:233 views/whitelabel/settings/account.php:25
+#: views/whitelabel/users/view.php:59
+msgid "Edit Details"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:8
+msgid "Add whitelabel"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:11
+msgid "You can add new whitelabel here."
+msgstr ""
+
+#: views/admin/whitelabels/add.php:31 views/admin/whitelabels/edit.php:32
+msgid "Enter site name"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:35
+msgid "Wordpress theme name"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:38
+msgid "Enter site theme name"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:42 views/admin/whitelabels/edit.php:36
+#: views/admin/whitelabels/index.php:20
+#: views/whitelabel/transactions/view.php:127
+msgid "Domain"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:45 views/admin/whitelabels/edit.php:39
+msgid "Enter site domain"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:47 views/admin/whitelabels/edit.php:41
+msgid ""
+"E.g. <strong>https://whitelabel.com</strong>. Only lowercase letters (a-z), "
+"numbers, and hyphens are allowed."
+msgstr ""
+
+#: views/admin/whitelabels/add.php:55 views/admin/whitelabels/edit.php:49
+msgid "Enter client e-mail"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:60 views/admin/whitelabels/edit.php:53
+msgid "Client name"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:63 views/admin/whitelabels/edit.php:56
+msgid "Enter client name"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:68 views/admin/whitelabels/edit.php:60
+msgid "Margin"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:73 views/admin/whitelabels/edit.php:65
+msgid "Enter site margin"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:79
+msgid "Whitelabel Type"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:83
+msgid "Our payments (V1)"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:86
+msgid "Whitelabel payments (V2)"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:93 views/admin/whitelabels/edit.php:70
+#: views/admin/whitelabels/index.php:22 views/admin/whitelabels/index.php:45
+#: views/admin/whitelabels/prepaid_add.php:7
+#: views/whitelabel/shared/navbar.php:39
+msgid "Prepaid"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:98 views/admin/whitelabels/edit.php:75
+msgid "Enter site prepaid"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:107 views/admin/whitelabels/edit.php:83
+msgid "Enter site username"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:116 views/admin/whitelabels/edit.php:90
+#: views/whitelabel/affs/new.php:39
+msgid "Enter password"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:130
+msgid "Prefix"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:133
+msgid "Enter site prefix"
+msgstr ""
+
+#: views/admin/whitelabels/add.php:135
+msgid "Should be 2-letters long, e.g. <strong>WL</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments.php:11
+msgid "Here you can manage Credit Card payment methods of your whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments.php:44
+msgid "There are no credit card payment methods specified for this whitelabel."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:11
+#: views/whitelabel/settings/ccsettings_edit.php:8
+msgid "Here you can add or edit Credit Card payment methods."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:32
+#: views/whitelabel/settings/ccsettings_edit.php:22
+msgid "Choose gateway"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:49
+#: views/admin/whitelabels/ccpayments_edit.php:61
+#: views/admin/whitelabels/payments_edit.php:48
+#: views/admin/whitelabels/payments_edit.php:58
+#: views/whitelabel/settings/ccsettings_edit.php:33
+#: views/whitelabel/settings/ccsettings_edit.php:42
+#: views/whitelabel/settings/paymentmethods_edit.php:47
+#: views/whitelabel/settings/paymentmethods_edit.php:57
+msgid "Enter cost percentage"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:53
+#: views/admin/whitelabels/payments_edit.php:51
+#: views/whitelabel/settings/ccsettings_edit.php:36
+#: views/whitelabel/settings/paymentmethods_edit.php:50
+msgid ""
+"E.g. 4 if this payment method's company charge you 4%. Use dot for decimal "
+"digits. Not required."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:72
+#: views/admin/whitelabels/payments_edit.php:68
+#: views/whitelabel/settings/ccsettings_edit.php:52
+#: views/whitelabel/settings/paymentmethods_edit.php:67
+msgid ""
+"E.g. 4 EUR if this payment method's company charge you €4. Use dot for "
+"decimal digits. Not required."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:77
+#: views/whitelabel/settings/ccsettings_edit.php:55
+msgid "eMerchantPay Gateway Settings"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:84
+#: views/whitelabel/settings/ccsettings_edit.php:58
+msgid "Enter Account ID"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:86
+#: views/whitelabel/settings/ccsettings_edit.php:59
+msgid ""
+"Given by eMerchantPay or visible in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:94
+#: views/admin/whitelabels/payments_edit.php:137
+#: views/whitelabel/settings/ccsettings_edit.php:63
+#: views/whitelabel/settings/paymentmethods_edit.php:136
+msgid "Enter API Key"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:96
+#: views/whitelabel/settings/ccsettings_edit.php:64
+msgid ""
+"Given by eMerchantPay or set up in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:104
+#: views/whitelabel/settings/ccsettings_edit.php:68
+msgid "Enter endpoint URL"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:106
+#: views/whitelabel/settings/ccsettings_edit.php:69
+msgid ""
+"Probably <strong>https://my.emerchantpay.com</strong>. Please consult with "
+"eMerchantPay."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:114
+#: views/whitelabel/settings/ccsettings_edit.php:73
+msgid "Enter secret key"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:116
+#: views/whitelabel/settings/ccsettings_edit.php:74
+#, php-format
+msgid ""
+"Can be read or set up in your eMerchantPay account: <strong>Account &gt; My "
+"Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Also, please ensure the field <strong>Account &gt; My Account &gt; "
+"eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; Merchant "
+"Notification URL</strong> is set to <strong>%s</strong> and the following "
+"server notifications (<strong>Account &gt; My Account &gt; Notifications tab "
+"&gt; Server Notifications panel</strong>) are enabled: <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:128
+#: views/whitelabel/settings/ccsettings_edit.php:80
+msgid "Enter minimum order"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:131
+#: views/whitelabel/settings/ccsettings_edit.php:82
+msgid ""
+"Should be the same as value in your eMerchantPay account: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [choose specific account] "
+"&gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; Minimum "
+"Amount per TX</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:138
+#: views/whitelabel/settings/ccsettings_edit.php:86
+msgid "Enter descriptor"
+msgstr ""
+
+#: views/admin/whitelabels/ccpayments_edit.php:146
+#: views/admin/whitelabels/payments_edit.php:116
+#: views/admin/whitelabels/payments_edit.php:169
+#: views/admin/whitelabels/payments_edit.php:208
+#: views/admin/whitelabels/payments_edit.php:447
+#: views/whitelabel/settings/ccsettings_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:115
+#: views/whitelabel/settings/paymentmethods_edit.php:168
+#: views/whitelabel/settings/paymentmethods_edit.php:207
+#: views/whitelabel/settings/paymentmethods_edit.php:448
+msgid "Check it for test account."
+msgstr ""
+
+#: views/admin/whitelabels/edit.php:8
+msgid "Edit whitelabel"
+msgstr ""
+
+#: views/admin/whitelabels/edit.php:11
+msgid "You can edit whitelabel here."
+msgstr ""
+
+#: views/admin/whitelabels/edit.php:101
+msgid "Leave blank to keep the current password"
+msgstr ""
+
+#: views/admin/whitelabels/index.php:8 views/admin/whitelabels/payments.php:8
+#: views/admin/whitelabels/prepaid.php:8
+msgid "Add new"
+msgstr ""
+
+#: views/admin/whitelabels/index.php:11
+msgid "This is an overview of your whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/index.php:32
+msgid "NA"
+msgstr ""
+
+#: views/admin/whitelabels/index.php:38
+#: views/admin/whitelabels/languages.php:10
+#: views/admin/whitelabels/languages_new.php:7
+msgid "Languages"
+msgstr ""
+
+#: views/admin/whitelabels/index.php:49 views/aff/shared/navbar.php:34
+#: views/whitelabel/affs/menu.php:18 views/whitelabel/shared/navbar.php:33
+msgid "Settings"
+msgstr ""
+
+#: views/admin/whitelabels/index.php:58
+msgid "There are no whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/languages.php:11
+msgid "Here you can manage languages of your whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/languages.php:33
+msgid "There are no languages installed for this whitelabel."
+msgstr ""
+
+#: views/admin/whitelabels/languages_new.php:8
+msgid "Here you can add language for the whitelabel."
+msgstr ""
+
+#: views/admin/whitelabels/languages_new.php:22
+msgid "Choose language"
+msgstr ""
+
+#: views/admin/whitelabels/payments.php:11
+msgid "Here you can manage payment methods of your whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/payments.php:25
+#: views/whitelabel/settings/paymentmethods.php:25
+msgid "Order"
+msgstr ""
+
+#: views/admin/whitelabels/payments.php:27
+#: views/admin/whitelabels/payments_edit.php:31
+#: views/whitelabel/settings/paymentmethods.php:27
+#: views/whitelabel/settings/paymentmethods_edit.php:30
+msgid "Integrated Method"
+msgstr ""
+
+#: views/admin/whitelabels/payments.php:28
+#: views/whitelabel/settings/paymentmethods.php:28
+msgid "Manual"
+msgstr ""
+
+#: views/admin/whitelabels/payments.php:49
+msgid "There are no payment methods specified for this whitelabel."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:7
+#: views/whitelabel/reports/reports.php:176
+#: views/whitelabel/settings/paymentmethods_edit.php:7
+#: views/whitelabel/transactions/view.php:143
+msgid "Payment method"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:8
+#: views/whitelabel/settings/paymentmethods_edit.php:8
+msgid "You can add new or edit payment method here."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:42
+#: views/whitelabel/affs/groups_edit.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:41
+msgid "Enter name"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:73
+#: views/whitelabel/settings/paymentmethods_edit.php:72
+msgid "Do not check this for manual-only payments."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:77
+#: views/whitelabel/settings/paymentmethods_edit.php:76
+msgid "Skrill integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:79
+#: views/whitelabel/settings/paymentmethods_edit.php:78
+msgid "Merchant E-mail (required)"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:80
+#: views/whitelabel/settings/paymentmethods_edit.php:79
+msgid "Enter merchant account e-mail"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:83
+#: views/whitelabel/settings/paymentmethods_edit.php:82
+msgid "Secret Word (required)"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:84
+#: views/whitelabel/settings/paymentmethods_edit.php:83
+msgid "Enter Skrill secret word"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:85
+#: views/whitelabel/settings/paymentmethods_edit.php:84
+msgid ""
+"Can be set in <strong>Settings &gt; Developer Settings</strong> section of "
+"your Skrill Digital Wallet account."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:88
+#: views/whitelabel/settings/paymentmethods_edit.php:87
+msgid "Merchant Logo URL"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:88
+msgid "Enter merchant logo URL"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:89
+msgid "At least 107px &times; 65px."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:93
+#: views/whitelabel/settings/paymentmethods_edit.php:92
+msgid "Merchant Description"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:94
+#: views/whitelabel/settings/paymentmethods_edit.php:93
+msgid "Enter merchant description (logo alt)"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:99
+#: views/whitelabel/settings/paymentmethods_edit.php:98
+msgid "Neteller integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:101
+#: views/whitelabel/settings/paymentmethods_edit.php:100
+msgid "App Client ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:102
+#: views/whitelabel/settings/paymentmethods_edit.php:101
+msgid "Enter App Client ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:105
+#: views/admin/whitelabels/payments_edit.php:106
+#: views/whitelabel/settings/paymentmethods_edit.php:104
+#: views/whitelabel/settings/paymentmethods_edit.php:105
+msgid "Enter App Client Secret"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:107
+#: views/whitelabel/settings/paymentmethods_edit.php:106
+msgid ""
+"Both Client ID &amp; Client Secret should be taken from <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:110
+#: views/whitelabel/settings/paymentmethods_edit.php:109
+msgid "Webhook Secret Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:111
+#: views/whitelabel/settings/paymentmethods_edit.php:110
+msgid "Enter Webhook Secret Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:112
+#, php-format
+msgid ""
+"Can be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; "
+"Webhooks</strong>. You should set the <strong>Webhook URL</strong> to "
+"<strong>%s</strong> and check following hooks: <strong>payment_cancelled</"
+"strong>, <strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:121
+#: views/whitelabel/settings/paymentmethods_edit.php:120
+msgid "tpay.com integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:123
+#: views/admin/whitelabels/payments_edit.php:192
+#: views/admin/whitelabels/payments_edit.php:241
+#: views/admin/whitelabels/payments_edit.php:255
+#: views/whitelabel/settings/paymentmethods_edit.php:122
+#: views/whitelabel/settings/paymentmethods_edit.php:191
+#: views/whitelabel/settings/paymentmethods_edit.php:240
+#: views/whitelabel/settings/paymentmethods_edit.php:254
+#: views/whitelabel/transactions/view.php:327
+msgid "Merchant ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:124
+#: views/whitelabel/settings/paymentmethods_edit.php:123
+msgid "Enter tpay.com ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:127
+#: views/whitelabel/settings/paymentmethods_edit.php:126
+msgid "tpay.com Security Code"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:128
+#: views/whitelabel/settings/paymentmethods_edit.php:127
+msgid "Enter tpay.com Security Code"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:129
+#: views/whitelabel/settings/paymentmethods_edit.php:128
+msgid ""
+"Can be set in <strong>Settings &gt; notifications &gt; Security Code</"
+"strong> section of your tpay.com Merchant Panel.<br>Make sure <strong>Allow "
+"notification URL overwrite</strong> is set to <strong>yes</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:134
+#: views/whitelabel/settings/paymentmethods_edit.php:133
+msgid "Cubits integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:140
+#: views/whitelabel/settings/paymentmethods_edit.php:139
+msgid "Enter API Secret"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:141
+#: views/whitelabel/settings/paymentmethods_edit.php:140
+msgid "API Secret"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:142
+#: views/whitelabel/settings/paymentmethods_edit.php:141
+msgid ""
+"Can be generated in <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:147
+#: views/whitelabel/settings/paymentmethods_edit.php:146
+msgid "Sofort integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:149
+#: views/whitelabel/settings/paymentmethods_edit.php:148
+msgid "Configuration Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:150
+#: views/whitelabel/settings/paymentmethods_edit.php:149
+msgid "Enter Configuration Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:151
+#: views/whitelabel/settings/paymentmethods_edit.php:150
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Projects &gt; My projects "
+"&gt; (choose your project) &gt; General settings &gt; Configuration key for "
+"your shop system</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:156
+#: views/whitelabel/settings/paymentmethods_edit.php:155
+msgid "Entercash integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:158
+#: views/whitelabel/settings/paymentmethods_edit.php:157
+msgid "API ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:159
+#: views/whitelabel/settings/paymentmethods_edit.php:158
+msgid "Enter API ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:160
+#: views/whitelabel/settings/paymentmethods_edit.php:159
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Security &gt; Public key "
+"(PEM-file) &gt; API-ID</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:163
+#: views/whitelabel/settings/paymentmethods_edit.php:162
+msgid "Private Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:164
+#: views/whitelabel/settings/paymentmethods_edit.php:163
+msgid "Enter Private Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:165
+#: views/whitelabel/settings/paymentmethods_edit.php:164
+msgid ""
+"Can be generated using following commands: <br><strong>Private:</strong> "
+"<em>openssl genrsa -out your-private-key.pem 2048</em><br><strong>Public: </"
+"strong> <em>openssl rsa -pubout -in your-private-key.pem -out your-public-"
+"key.pem -outform PEM</em><br>Upload public key file to <strong>Merchant "
+"panel &gt; Security &gt; Public key (PEM-file) &gt; Public key (Pem file)</"
+"strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:174
+#: views/whitelabel/settings/paymentmethods_edit.php:173
+msgid "Piastrix integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:176
+#: views/whitelabel/settings/paymentmethods_edit.php:175
+#: views/whitelabel/transactions/view.php:946
+msgid "Shop ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:177
+#: views/whitelabel/settings/paymentmethods_edit.php:176
+msgid "Enter Shop ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:178
+#: views/whitelabel/settings/paymentmethods_edit.php:177
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; API &gt; Shop &gt; Shops "
+"&gt; ID (next to your shop name)</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:181
+#: views/whitelabel/settings/paymentmethods_edit.php:180
+msgid "Secret Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:182
+#: views/whitelabel/settings/paymentmethods_edit.php:181
+msgid "Enter Secret Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:183
+#: views/whitelabel/settings/paymentmethods_edit.php:182
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; API &gt; Shop &gt; Shops "
+"&gt; Settings icon &gt; Security &gt; Security key (Generate new private "
+"key)</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:185
+#: views/whitelabel/settings/paymentmethods_edit.php:184
+#, php-format
+msgid ""
+"You should configure the shop settings in <strong>Merchant panel &gt; API "
+"&gt; Shop &gt; Shops &gt; Settings icon &gt; Technical</strong> as follows:"
+"<br><strong>Shop URLs:</strong> %s<br><strong>Notification URLs:</strong> "
+"%s<br><strong>Success URLs:</strong> %s<br><strong>Failed URLs:</strong> "
+"%s<br>Also, please <strong>do not</strong> check <strong>Check uniqueness of "
+"payments</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:190
+#: views/whitelabel/settings/paymentmethods_edit.php:189
+msgid "EcoPayz integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:193
+#: views/admin/whitelabels/payments_edit.php:242
+#: views/admin/whitelabels/payments_edit.php:256
+#: views/whitelabel/settings/paymentmethods_edit.php:192
+#: views/whitelabel/settings/paymentmethods_edit.php:241
+#: views/whitelabel/settings/paymentmethods_edit.php:255
+msgid "Enter Merchant ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:194
+#: views/admin/whitelabels/payments_edit.php:199
+#: views/admin/whitelabels/payments_edit.php:204
+#: views/whitelabel/settings/paymentmethods_edit.php:193
+#: views/whitelabel/settings/paymentmethods_edit.php:198
+#: views/whitelabel/settings/paymentmethods_edit.php:203
+msgid "Provided by ecoPayz."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:197
+#: views/whitelabel/settings/paymentmethods_edit.php:196
+msgid "Merchant Account Number"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:198
+#: views/whitelabel/settings/paymentmethods_edit.php:197
+msgid "Enter Merchant Account Number"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:202
+#: views/whitelabel/settings/paymentmethods_edit.php:201
+msgid "Merchant Password"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:203
+#: views/whitelabel/settings/paymentmethods_edit.php:202
+msgid "Enter Merchant Password"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:213
+#: views/whitelabel/settings/paymentmethods_edit.php:212
+msgid "paysafecard integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:215
+#: views/whitelabel/settings/paymentmethods_edit.php:214
+msgid "API KEY"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:216
+#: views/whitelabel/settings/paymentmethods_edit.php:215
+msgid "Enter API KEY"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:217
+#: views/whitelabel/settings/paymentmethods_edit.php:216
+#, php-format
+msgid ""
+"Possible to create in the <strong>Merchant panel &gt; Test Data/Production "
+"Data &gt; Generate new API key</strong>.<br>You will also need to add "
+"server's IP to the whitelist in the <strong>Merchant panel &gt; IP "
+"Whitelisting &gt; Type: <i>%s</i>, Subnet: <i>32</i> &gt; Request "
+"activation</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:220
+#: views/admin/whitelabels/payments_edit.php:233
+#: views/admin/whitelabels/payments_edit.php:267
+#: views/whitelabel/settings/paymentmethods_edit.php:219
+#: views/whitelabel/settings/paymentmethods_edit.php:232
+#: views/whitelabel/settings/paymentmethods_edit.php:266
+msgid "Test environment"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:221
+#: views/admin/whitelabels/payments_edit.php:234
+#: views/whitelabel/settings/paymentmethods_edit.php:220
+#: views/whitelabel/settings/paymentmethods_edit.php:233
+msgid "Check it for test environment."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:226
+#: views/whitelabel/settings/paymentmethods_edit.php:225
+msgid "Entropay integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:228
+#: views/whitelabel/settings/paymentmethods_edit.php:227
+msgid "Referrer ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:229
+#: views/whitelabel/settings/paymentmethods_edit.php:228
+msgid "Enter Referrer ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:230
+#: views/whitelabel/settings/paymentmethods_edit.php:229
+msgid "Given by Entropay."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:239
+#: views/whitelabel/settings/paymentmethods_edit.php:238
+msgid "CoinPayments integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:243
+#: views/whitelabel/settings/paymentmethods_edit.php:242
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Account &gt; Account "
+"Settings &gt; Basic Settings tab &gt; Your Merchant ID</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:246
+#: views/whitelabel/settings/paymentmethods_edit.php:245
+msgid "IPN Secret"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:247
+#: views/whitelabel/settings/paymentmethods_edit.php:246
+msgid "Enter IPN Secret"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:248
+#: views/whitelabel/settings/paymentmethods_edit.php:247
+msgid ""
+"Can be set in the <strong>Merchant panel &gt; Account &gt; Account Settings "
+"&gt; Merchant Settings tab &gt; IPN Secret</strong>."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:253
+#: views/whitelabel/settings/paymentmethods_edit.php:252
+msgid "AsiaPaymentGateway integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:259
+#: views/whitelabel/settings/paymentmethods_edit.php:258
+msgid "SHA256key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:260
+#: views/whitelabel/settings/paymentmethods_edit.php:259
+msgid "Enter SHA256key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:263
+#: views/whitelabel/settings/paymentmethods_edit.php:262
+msgid "API Url"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:264
+#: views/whitelabel/settings/paymentmethods_edit.php:263
+msgid "Enter API Url"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:268
+#: views/whitelabel/settings/paymentmethods_edit.php:267
+msgid "Use the amount of 0.01 if the merchant tests the API connection."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:273
+#: views/whitelabel/settings/paymentmethods_edit.php:272
+msgid "PayPal integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:275
+#: views/whitelabel/settings/paymentmethods_edit.php:274
+msgid "Paypal Email"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:276
+#: views/whitelabel/settings/paymentmethods_edit.php:275
+msgid "Enter PayPal Email"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:279
+#: views/whitelabel/settings/paymentmethods_edit.php:278
+msgid "Logo url (optional)"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:280
+#: views/whitelabel/settings/paymentmethods_edit.php:279
+msgid "Enter Logo url"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:281
+#: views/whitelabel/settings/paymentmethods_edit.php:280
+msgid ""
+"The URL of the 150x50-pixel image displayed as your logo in the upper left "
+"corner of the PayPal checkout pages."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:285
+#: views/whitelabel/settings/paymentmethods_edit.php:284
+msgid "SandBox environment"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:287
+#: views/whitelabel/settings/paymentmethods_edit.php:286
+msgid "If you use SandBox remember to change email to 'SandBox email'"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:291
+#: views/whitelabel/settings/paymentmethods_edit.php:290
+msgid ""
+"Make sure that the <strong>EUR</strong> currency is added to the list of "
+"currencies supported by PayPal to accept payments correctly."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:292
+#: views/whitelabel/settings/paymentmethods_edit.php:291
+msgid ""
+"Log in to your PayPal account, then from the main menu (<strong>Summary</"
+"strong>) select <strong>Currencies</strong>, then on the following page, Add "
+"<strong>EUR</strong> Currency."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:319
+#: views/whitelabel/settings/paymentmethods_edit.php:320
+msgid ""
+"Notifications URL, Return URL and SandBox environment must be set in the "
+"BitBayPay merchant panel."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:324
+#: views/whitelabel/settings/paymentmethods_edit.php:325
+msgid ""
+"<strong>Important!</strong> Log in to your BitBayPay account at https://app."
+"bitbaypay.com/. Next, click on API settings within your merchant menu. After "
+"that you need to enter a proper string within Notification URL field as "
+"shown in the example: https://lottopark.com/order/confirm/bitbaypay. You "
+"also need to enter a proper string within Return URL as shown in the "
+"example: https://lottopark.com/order/result/bitbaypay."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:336
+#: views/whitelabel/settings/paymentmethods_edit.php:337
+msgid "BitBayPay integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:339
+#: views/whitelabel/settings/paymentmethods_edit.php:340
+msgid "BitBayPay ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:346
+#: views/whitelabel/settings/paymentmethods_edit.php:347
+msgid "Enter BitBayPay Id"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:350
+#: views/whitelabel/settings/paymentmethods_edit.php:351
+msgid "BitBayPay API key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:357
+#: views/whitelabel/settings/paymentmethods_edit.php:358
+msgid "Enter BitBayPay API key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:380
+#: views/whitelabel/settings/paymentmethods_edit.php:381
+msgid ""
+"You can find that value by choosing proper <strong>Merchant Account</"
+"strong>, choose <strong>Settings</strong> entrance from main menu and "
+"<strong>General</strong> tab."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:397
+#: views/whitelabel/settings/paymentmethods_edit.php:398
+msgid ""
+"You can find that value by choosing proper <strong>Merchant Account</"
+"strong>, choose <strong>Settings</strong> entrance from main menu and "
+"<strong>Security and Notifications</strong> tab and finally click on "
+"<strong>Click To View Mackey/Salt Key</strong> button."
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:413
+#: views/whitelabel/settings/paymentmethods_edit.php:414
+msgid "DusuPay integration details"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:416
+#: views/whitelabel/settings/paymentmethods_edit.php:417
+msgid "DusuPay Merchant ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:422
+#: views/whitelabel/settings/paymentmethods_edit.php:423
+msgid "Enter DusuPay Merchant ID"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:429
+#: views/whitelabel/settings/paymentmethods_edit.php:430
+msgid "DusuPay Mackey/Salt Key"
+msgstr ""
+
+#: views/admin/whitelabels/payments_edit.php:435
+#: views/whitelabel/settings/paymentmethods_edit.php:436
+msgid "Enter DusuPay Mackey/Salt Key"
+msgstr ""
+
+#: views/admin/whitelabels/prepaid.php:11
+msgid "Here you can manage prepaid transactions of your whitelabels."
+msgstr ""
+
+#: views/admin/whitelabels/prepaid.php:37
+msgid "There are no prepaid transactions for this whitelabel."
+msgstr ""
+
+#: views/admin/whitelabels/prepaid_add.php:8
+msgid "You can add new prepaid transaction here."
+msgstr ""
+
+#: views/admin/whitelabels/prepaid_add.php:25
+msgid "Can be negative."
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:7
+msgid "Whitelabel site settings"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:8
+msgid "You can change whitelabel site settings here."
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:20
+#: views/whitelabel/settings/index.php:20
+msgid "Default site currency"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:22
+#: views/whitelabel/settings/index.php:22
+msgid "Auto-adjusted by user IP country"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:27
+#: views/whitelabel/settings/index.php:27
+msgid ""
+"Default currency for English language for users that do not have country set "
+"up in their profile."
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:31
+#: views/whitelabel/settings/index.php:31
+msgid "Activation Type"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:35
+#: views/whitelabel/settings/index.php:35
+msgid "No activation"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:38
+#: views/whitelabel/settings/index.php:38
+msgid "Activation optional"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:41
+#: views/whitelabel/settings/index.php:41
+msgid "Activation required"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:44
+#: views/whitelabel/settings/index.php:44
+msgid ""
+"Be aware that changing the e-mail activation type from no activation or "
+"optional level to required level will make all your not-confirmed users "
+"inactive! In other way, changing activation type from required level to "
+"optional or no activation level will make all your not-confirmed users "
+"active!"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:47
+#: views/whitelabel/settings/index.php:51
+msgid "Maximum Auto-Payout"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:50
+#: views/whitelabel/settings/index.php:54
+msgid "Enter maximum automatic payout"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:54
+#: views/whitelabel/settings/index.php:58
+msgid "Minimum Payment by Currency"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:57
+#: views/whitelabel/settings/index.php:61
+msgid "Enter minimum payment amount"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:61
+#: views/whitelabel/settings/index.php:65
+msgid "Minimum Deposit by Currency"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:64
+#: views/whitelabel/settings/index.php:68
+msgid "Enter minimum deposit amount"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:68
+#: views/whitelabel/settings/index.php:72
+msgid "Minimum Withdrawal by Currency"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:71
+#: views/whitelabel/settings/index.php:75
+msgid "Enter minimum withdrawal amount"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:75
+#: views/whitelabel/settings/index.php:79
+msgid "Maximum Order Amount by Currency"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:78
+#: views/whitelabel/settings/index.php:82
+msgid "Enter maximum order amount"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:82
+#: views/whitelabel/settings/index.php:86
+msgid "Maximum order items"
+msgstr ""
+
+#: views/admin/whitelabels/settings.php:83
+#: views/whitelabel/settings/index.php:87
+msgid "Enter maximum order items count"
+msgstr ""
+
+#: views/aff/dashboard/index.php:5
+msgid "Your data"
+msgstr ""
+
+#: views/aff/dashboard/index.php:8
+msgid "Ref"
+msgstr ""
+
+#: views/aff/dashboard/index.php:11
+msgid "General link"
+msgstr ""
+
+#: views/aff/dashboard/index.php:13
+#, php-format
+msgid ""
+"You can direct your traffic to any URL you want to use as landing page, for "
+"example %s."
+msgstr ""
+
+#: views/aff/dashboard/index.php:18
+msgid "Your plan"
+msgstr ""
+
+#: views/aff/dashboard/index.php:37
+msgid "Generate your affiliate link"
+msgstr ""
+
+#: views/aff/dashboard/index.php:41
+msgid "Generated link"
+msgstr ""
+
+#: views/aff/dashboard/index.php:48 views/aff/reports/commissions.php:21
+#: views/aff/reports/commissions.php:61 views/aff/reports/ftps.php:21
+#: views/aff/reports/ftps.php:60 views/aff/reports/index.php:29
+#: views/aff/reports/index.php:95 views/aff/reports/index.php:148
+#: views/aff/reports/index.php:193 views/aff/reports/leads.php:21
+#: views/aff/reports/leads.php:69
+msgid "Medium"
+msgstr ""
+
+#: views/aff/dashboard/index.php:49
+msgid "Enter medium"
+msgstr ""
+
+#: views/aff/dashboard/index.php:50
+msgid ""
+"The advertising or marketing medium, for example: cpc, banner, email "
+"newsletter."
+msgstr ""
+
+#: views/aff/dashboard/index.php:53 views/aff/reports/commissions.php:29
+#: views/aff/reports/commissions.php:62 views/aff/reports/ftps.php:29
+#: views/aff/reports/ftps.php:61 views/aff/reports/index.php:37
+#: views/aff/reports/index.php:96 views/aff/reports/index.php:149
+#: views/aff/reports/index.php:194 views/aff/reports/leads.php:29
+#: views/aff/reports/leads.php:70
+msgid "Campaign"
+msgstr ""
+
+#: views/aff/dashboard/index.php:54
+msgid "Enter campaign"
+msgstr ""
+
+#: views/aff/dashboard/index.php:55
+msgid "The individual campaign name, slogan, promo code, etc."
+msgstr ""
+
+#: views/aff/dashboard/index.php:58 views/aff/reports/commissions.php:37
+#: views/aff/reports/commissions.php:63 views/aff/reports/ftps.php:37
+#: views/aff/reports/ftps.php:62 views/aff/reports/index.php:45
+#: views/aff/reports/index.php:97 views/aff/reports/index.php:150
+#: views/aff/reports/index.php:195 views/aff/reports/leads.php:37
+#: views/aff/reports/leads.php:71
+msgid "Content"
+msgstr ""
+
+#: views/aff/dashboard/index.php:59
+msgid "Enter content"
+msgstr ""
+
+#: views/aff/dashboard/index.php:60
+msgid ""
+"Used to differentiate similar content, or links within the same ad. For "
+"example, if you have two call-to-action links within the same email message, "
+"you can use <em>content</em> and set different values for each so you can "
+"tell which version is more effective."
+msgstr ""
+
+#: views/aff/dashboard/index.php:62
+msgid "Generate link"
+msgstr ""
+
+#: views/aff/reports/commissions.php:7
+msgid "Here you can view your latest commissions."
+msgstr ""
+
+#: views/aff/reports/commissions.php:56 views/aff/reports/ftps.php:56
+#: views/aff/reports/index.php:91 views/aff/reports/index.php:144
+#: views/aff/reports/index.php:188 views/aff/reports/leads.php:65
+msgid "Lead name"
+msgstr ""
+
+#: views/aff/reports/commissions.php:57 views/aff/reports/ftps.php:57
+#: views/aff/reports/index.php:92 views/aff/reports/index.php:145
+#: views/aff/reports/index.php:189 views/aff/reports/leads.php:66
+msgid "Lead e-mail"
+msgstr ""
+
+#: views/aff/reports/commissions.php:115
+#: views/whitelabel/affs/commissions.php:156
+msgid "No commissions."
+msgstr ""
+
+#: views/aff/reports/details.php:7 views/whitelabel/affs/view.php:8
+msgid "Affiliate details"
+msgstr ""
+
+#: views/aff/reports/details.php:10
+msgid "You can view sub-affiliate details here."
+msgstr ""
+
+#: views/aff/reports/details.php:26
+msgid "No details."
+msgstr ""
+
+#: views/aff/reports/ftps.php:7
+msgid "Here you can view the latest first-time purchases."
+msgstr ""
+
+#: views/aff/reports/ftps.php:90 views/whitelabel/affs/ftps.php:114
+msgid "No first-time purchases."
+msgstr ""
+
+#: views/aff/reports/index.php:7 views/whitelabel/affs/reports.php:8
+msgid "Here you can generate a report for a given date range."
+msgstr ""
+
+#: views/aff/reports/index.php:51 views/aff/reports/index.php:56
+#: views/whitelabel/affs/reports.php:30 views/whitelabel/affs/reports.php:35
+#: views/whitelabel/reports/reports.php:34
+#: views/whitelabel/reports/reports.php:39
+msgid "Report"
+msgstr ""
+
+#: views/aff/reports/index.php:57 views/whitelabel/affs/reports.php:36
+#: views/whitelabel/reports/reports.php:40
+msgid "Start Date"
+msgstr ""
+
+#: views/aff/reports/index.php:59 views/whitelabel/affs/reports.php:38
+#: views/whitelabel/reports/reports.php:42
+msgid "End Date"
+msgstr ""
+
+#: views/aff/reports/index.php:61 views/whitelabel/affs/reports.php:40
+msgid "Clicks"
+msgstr ""
+
+#: views/aff/reports/index.php:63 views/whitelabel/affs/reports.php:42
+msgid "Unique clicks"
+msgstr ""
+
+#: views/aff/reports/index.php:67 views/aff/reports/index.php:135
+#: views/whitelabel/affs/reports.php:46 views/whitelabel/affs/reports.php:116
+msgid "First-time purchases"
+msgstr ""
+
+#: views/aff/reports/index.php:69 views/whitelabel/affs/reports.php:48
+msgid "Total commissions"
+msgstr ""
+
+#: views/aff/reports/index.php:78 views/aff/reports/index.php:140
+#: views/aff/reports/index.php:184 views/whitelabel/affs/reports.php:57
+#: views/whitelabel/affs/reports.php:121 views/whitelabel/affs/reports.php:174
+msgid "#"
+msgstr ""
+
+#: views/aff/reports/index.php:83 views/aff/reports/leads.php:57
+msgid "Confirmed"
+msgstr ""
+
+#: views/aff/reports/leads.php:7
+msgid "Here you can view your latest leads."
+msgstr ""
+
+#: views/aff/reports/leads.php:108 views/whitelabel/affs/leads.php:133
+msgid "No leads."
+msgstr ""
+
+#: views/aff/reports/menu.php:23
+msgid "List"
+msgstr ""
+
+#: views/aff/reports/payouts.php:7 views/whitelabel/affs/payouts.php:8
+msgid ""
+"Here you can view and manage your payouts. They are calculated automatically "
+"every month."
+msgstr ""
+
+#: views/aff/reports/payouts.php:21 views/whitelabel/affs/payouts.php:40
+#: views/whitelabel/tickets/index.php:30 views/whitelabel/tickets/index.php:86
+#: views/whitelabel/tickets/view.php:57 views/whitelabel/tickets/view.php:61
+#: views/whitelabel/tickets/view.php:102
+msgid "Paid out"
+msgstr ""
+
+#: views/aff/reports/payouts.php:55 views/whitelabel/affs/payouts.php:116
+msgid "View report"
+msgstr ""
+
+#: views/aff/reports/payouts.php:65 views/whitelabel/affs/payouts.php:129
+msgid "No payouts."
+msgstr ""
+
+#: views/aff/reports/subaffiliates.php:7
+msgid "Here you can see your sub-affiliates."
+msgstr ""
+
+#: views/aff/reports/subaffiliates.php:62 views/whitelabel/affs/index.php:145
+#: views/whitelabel/transactions/view.php:918
+#: views/whitelabel/transactions/view.php:1044
+msgid "Created"
+msgstr ""
+
+#: views/aff/reports/subaffiliates.php:63 views/whitelabel/affs/index.php:148
+msgid "Last Active<br>IP<br>Country"
+msgstr ""
+
+#: views/aff/reports/subaffiliates.php:79 views/aff/shared/navbar.php:28
+#: views/whitelabel/affs/menu.php:10 views/whitelabel/shared/navbar.php:27
+msgid "Reports"
+msgstr ""
+
+#: views/aff/reports/subaffiliates.php:99
+msgid "No sub-affiliates."
+msgstr ""
+
+#: views/aff/settings/analytics.php:6 views/whitelabel/settings/analytics.php:7
+msgid "Edit Google Analytics settings"
+msgstr ""
+
+#: views/aff/settings/analytics.php:7 views/whitelabel/settings/analytics.php:8
+msgid "Here you can edit Google Analytics settings."
+msgstr ""
+
+#: views/aff/settings/analytics.php:20
+#: views/whitelabel/settings/analytics.php:21
+msgid "Enter Google Analytics Tracking ID"
+msgstr ""
+
+#: views/aff/settings/analytics.php:21
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will see the data related to "
+"your leads only. You will have to <a href=\"https://support.google.com/"
+"analytics/answer/3123666\" target=\"_blank\">enable User-ID</a> to take the "
+"full advantage of the Google Analytics feature."
+msgstr ""
+
+#: views/aff/settings/edit.php:10
+msgid "Edit your details here."
+msgstr ""
+
+#: views/aff/settings/edit.php:110
+msgid "Your login"
+msgstr ""
+
+#: views/aff/settings/edit.php:117
+msgid "Your company"
+msgstr ""
+
+#: views/aff/settings/edit.php:124
+msgid "Your first name"
+msgstr ""
+
+#: views/aff/settings/edit.php:131
+msgid "Your last name"
+msgstr ""
+
+#: views/aff/settings/edit.php:138
+msgid "Your country"
+msgstr ""
+
+#: views/aff/settings/edit.php:149
+msgid "Your city"
+msgstr ""
+
+#: views/aff/settings/edit.php:158 views/aff/settings/edit.php:163
+msgid "Your region"
+msgstr ""
+
+#: views/aff/settings/edit.php:172
+msgid "Your postal/ZIP code"
+msgstr ""
+
+#: views/aff/settings/edit.php:179
+msgid "Your address #1"
+msgstr ""
+
+#: views/aff/settings/edit.php:186
+msgid "Your address #2"
+msgstr ""
+
+#: views/aff/settings/edit.php:193
+msgid "Your birthdate"
+msgstr ""
+
+#: views/aff/settings/edit.php:228
+msgid "Your phone"
+msgstr ""
+
+#: views/aff/settings/edit.php:236
+msgid "Choose timezone"
+msgstr ""
+
+#: views/aff/settings/password.php:7
+msgid "You can change your password here."
+msgstr ""
+
+#: views/aff/settings/payment.php:6
+msgid "Edit payment settings"
+msgstr ""
+
+#: views/aff/settings/payment.php:7
+msgid "Edit your payment details here."
+msgstr ""
+
+#: views/aff/settings/payment.php:32 views/aff/settings/payment.php:55
+#: views/aff/settings/payment.php:70
+msgid "Enter first name"
+msgstr ""
+
+#: views/aff/settings/payment.php:36 views/aff/settings/payment.php:59
+#: views/aff/settings/payment.php:74
+msgid "Enter last name"
+msgstr ""
+
+#: views/aff/settings/payment.php:40
+msgid "Enter your account IBAN number"
+msgstr ""
+
+#: views/aff/settings/payment.php:44
+msgid "Enter your bank SWIFT code"
+msgstr ""
+
+#: views/aff/settings/payment.php:48
+msgid "Enter your bank name"
+msgstr ""
+
+#: views/aff/settings/payment.php:63
+msgid "Enter Skrill e-mail"
+msgstr ""
+
+#: views/aff/settings/payment.php:78
+msgid "Enter Neteller e-mail"
+msgstr ""
+
+#: views/aff/settings/payment.php:84
+msgid "Enter first name (optional)"
+msgstr ""
+
+#: views/aff/settings/payment.php:88
+msgid "Enter last name (optional)"
+msgstr ""
+
+#: views/aff/settings/payment.php:92
+msgid "Enter bitcoin wallet address"
+msgstr ""
+
+#: views/aff/settings/profile.php:10
+msgid "You can view and edit your details here."
+msgstr ""
+
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+#, php-format
+msgid "%s management panel"
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:8
+msgid "Here you can view the latest commissions of your affiliates."
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:73 views/whitelabel/affs/ftps.php:73
+#: views/whitelabel/affs/leads.php:80 views/whitelabel/affs/reports.php:68
+#: views/whitelabel/affs/reports.php:126 views/whitelabel/affs/reports.php:179
+msgid "User"
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:96 views/whitelabel/affs/ftps.php:89
+#: views/whitelabel/affs/leads.php:97 views/whitelabel/affs/payouts.php:51
+#: views/whitelabel/affs/reports.php:85 views/whitelabel/affs/reports.php:143
+#: views/whitelabel/affs/reports.php:202 views/whitelabel/users/index.php:394
+msgid "View affiliate"
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:104 views/whitelabel/affs/ftps.php:97
+#: views/whitelabel/affs/leads.php:110 views/whitelabel/affs/reports.php:98
+#: views/whitelabel/affs/reports.php:151 views/whitelabel/affs/reports.php:210
+#: views/whitelabel/tickets/index.php:103
+#: views/whitelabel/tickets/index.php:105
+#: views/whitelabel/tickets/index.php:107
+#: views/whitelabel/transactions/index.php:108
+#: views/whitelabel/transactions/index.php:119
+#: views/whitelabel/transactions/index.php:126
+msgid "View user"
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:110
+#: views/whitelabel/affs/reports.php:216 views/whitelabel/tickets/index.php:110
+msgid "View transaction"
+msgstr ""
+
+#: views/whitelabel/affs/commissions.php:145
+#: views/whitelabel/affs/index.php:319 views/whitelabel/affs/leads.php:122
+#: views/whitelabel/transactions/index.php:272
+msgid "Accept"
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:11
+msgid "Edit affiliate details here."
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:103 views/whitelabel/affs/groups.php:28
+#: views/whitelabel/affs/groups_edit.php:7 views/whitelabel/affs/index.php:55
+#: views/whitelabel/affs/index.php:210 views/whitelabel/affs/new.php:22
+#: views/whitelabel/affs/view.php:47
+msgid "Default Group"
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:124
+msgid "Choose parent"
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:152
+msgid "User company"
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:159 views/whitelabel/affs/new.php:30
+msgid "Enter login"
+msgstr ""
+
+#: views/whitelabel/affs/edit.php:308 views/whitelabel/affs/new.php:56
+msgid ""
+"Choose how long the affiliate should receive commissions from his leads."
+msgstr ""
+
+#: views/whitelabel/affs/email.php:8
+msgid "You can edit affiliate e-mail here."
+msgstr ""
+
+#: views/whitelabel/affs/ftps.php:8
+msgid ""
+"Here you can view the latest first-time purchases of your affiliate leads."
+msgstr ""
+
+#: views/whitelabel/affs/groups.php:10 views/whitelabel/affs/menu.php:17
+msgid "Affiliate groups"
+msgstr ""
+
+#: views/whitelabel/affs/groups.php:11
+msgid "You can manage affiliate groups here."
+msgstr ""
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "Edit affiliate group"
+msgstr ""
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "New affiliate group"
+msgstr ""
+
+#: views/whitelabel/affs/groups_edit.php:8
+msgid "You can add or edit affiliate group here."
+msgstr ""
+
+#: views/whitelabel/affs/groups_edit.php:29
+#: views/whitelabel/affs/groups_edit.php:44
+#: views/whitelabel/affs/groups_edit.php:58
+#: views/whitelabel/affs/groups_edit.php:65
+msgid "Enter commission value"
+msgstr ""
+
+#: views/whitelabel/affs/index.php:18
+msgid "You can manage your affiliates here."
+msgstr ""
+
+#: views/whitelabel/affs/index.php:160 views/whitelabel/users/index.php:382
+msgid "Accepted"
+msgstr ""
+
+#: views/whitelabel/affs/index.php:342
+msgid "No affiliates."
+msgstr ""
+
+#: views/whitelabel/affs/leads.php:8
+msgid "Here you can view your affiliates latest leads."
+msgstr ""
+
+#: views/whitelabel/affs/menu.php:2
+msgid "Active & Accepted"
+msgstr ""
+
+#: views/whitelabel/affs/menu.php:5 views/whitelabel/tickets/index.php:101
+#: views/whitelabel/transactions/index.php:101
+#: views/whitelabel/transactions/withdrawals.php:82
+#: views/whitelabel/users/index.php:387
+msgid "Deleted"
+msgstr ""
+
+#: views/whitelabel/affs/new.php:7
+msgid "New affiliate"
+msgstr ""
+
+#: views/whitelabel/affs/new.php:8
+msgid "You can add new affiliate here."
+msgstr ""
+
+#: views/whitelabel/affs/new.php:34
+#: views/whitelabel/settings/account_edit.php:29
+msgid "Enter e-mail"
+msgstr ""
+
+#: views/whitelabel/affs/password.php:8
+msgid "You can change affiliate password here."
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:39
+msgid "Payment"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:64
+msgid "Bank Account"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:66 views/whitelabel/affs/payouts.php:73
+#: views/whitelabel/affs/payouts.php:78 views/whitelabel/affs/payouts.php:86
+msgid "Surname"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:67
+msgid "Account Number"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:68
+msgid "SWIFT Code"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:69
+msgid "Bank Name"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:88
+#: views/whitelabel/transactions/view.php:558
+msgid "Bitcoin Address"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:91
+msgid "Not defined"
+msgstr ""
+
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/view.php:145
+msgid "Mark as paid out"
+msgstr ""
+
+#: views/whitelabel/affs/settings.php:7
+msgid "Affiliate settings"
+msgstr ""
+
+#: views/whitelabel/affs/settings.php:8
+msgid "You can adjust affiliate settings here."
+msgstr ""
+
+#: views/whitelabel/affs/settings.php:30
+msgid "Automatically payout commissions."
+msgstr ""
+
+#: views/whitelabel/affs/settings.php:37
+msgid "Automatically accept new affiliate leads (registrations)."
+msgstr ""
+
+#: views/whitelabel/affs/settings.php:50
+msgid "Choose how long the ref should be kept."
+msgstr ""
+
+#: views/whitelabel/affs/view.php:11
+msgid "You can view and edit affiliate details here."
+msgstr ""
+
+#: views/whitelabel/prepaid.php:5
+msgid "Here you can view your prepaid transactions."
+msgstr ""
+
+#: views/whitelabel/prepaid.php:30
+msgid "There are no prepaid transactions."
+msgstr ""
+
+#: views/whitelabel/reports/index.php:8
+msgid "Here you can view information about draw winners."
+msgstr ""
+
+#: views/whitelabel/reports/index.php:18
+msgid "Date Processed"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:20
+msgid "Total Winners"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:21
+msgid "Total Prizes"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:22
+msgid "Site Winners (Tickets/Lines)"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:23
+msgid "Site Prizes"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:24
+msgid "Paid Out Tickets/Lines"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:25
+msgid "Awaiting Tickets/Lines"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:26
+msgid "Site No-Winners (Tickets/Lines)"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:40 views/whitelabel/reports/index.php:55
+msgid "Jackpots"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:43 views/whitelabel/reports/index.php:58
+msgid "Quick Picks"
+msgstr ""
+
+#: views/whitelabel/reports/index.php:88
+msgid "No winners data."
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:8
+msgid ""
+"Here you can generate a report for a given date range. The country and "
+"language fields are not required."
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:44
+msgid "New Users (Active)"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:48
+msgid ""
+"New <span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> "
+"Users"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:52
+msgid "Sold Tickets"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:56
+msgid "Deposits Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:60
+msgid "Sales Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:64
+msgid "Income Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:68
+msgid "Ticket Costs Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:72
+msgid "Payment Costs Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:76
+msgid "Royalties Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:80
+msgid "Commissions Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:84
+msgid "Full finance report"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:88
+msgid "Sales"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:89
+msgid "Ticket Costs"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:91
+#: views/whitelabel/settings/lottery.php:23
+#: views/whitelabel/tickets/index.php:137
+msgid "Royalties"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:92
+msgid "Uninsured winnings"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:143
+#: views/whitelabel/reports/reports.php:223
+msgid "Total Sum"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:172
+msgid "Payment types report"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:177
+msgid "Payment provider"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:180
+msgid "Ticket Cost"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:202
+msgid "Credit card"
+msgstr ""
+
+#: views/whitelabel/reports/reports.php:206
+msgid "External gateway"
+msgstr ""
+
+#: views/whitelabel/settings/account.php:8
+msgid "You can change your account settings here."
+msgstr ""
+
+#: views/whitelabel/settings/account_edit.php:7
+msgid "Edit account settings"
+msgstr ""
+
+#: views/whitelabel/settings/account_edit.php:8
+msgid "You can edit your account settings here."
+msgstr ""
+
+#: views/whitelabel/settings/account_edit.php:21
+msgid "Enter username"
+msgstr ""
+
+#: views/whitelabel/settings/account_edit.php:25
+msgid "Enter realname"
+msgstr ""
+
+#: views/whitelabel/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will have to <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">enable User-ID</a> to take the full advantage of the Google Analytics "
+"feature."
+msgstr ""
+
+#: views/whitelabel/settings/blocked/countries.php:11
+msgid "You can change blocked countries here."
+msgstr ""
+
+#: views/whitelabel/settings/blocked/countries.php:22
+msgid "ISO code"
+msgstr ""
+
+#: views/whitelabel/settings/blocked/countries.php:47
+msgid "No blocked countries."
+msgstr ""
+
+#: views/whitelabel/settings/blocked/new.php:7
+msgid "New blocked country"
+msgstr ""
+
+#: views/whitelabel/settings/blocked/new.php:8
+msgid "You can add new blocked countries here."
+msgstr ""
+
+#: views/whitelabel/settings/ccsettings.php:8
+msgid "Here you can manage Credit Card payment methods settings."
+msgstr ""
+
+#: views/whitelabel/settings/ccsettings.php:43
+msgid "No Credit Card payment methods."
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:7
+msgid "Edit Facebook Pixel settings"
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:8
+msgid "Here you can edit Facebook Pixel settings."
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:21
+msgid "Enter Facebook Pixel ID"
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:24
+msgid "Activate advanced matching."
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:25
+msgid "Send extended user metadata for better matching."
+msgstr ""
+
+#: views/whitelabel/settings/index.php:8
+msgid "You can change site settings here."
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:8
+#: views/whitelabel/settings/lottery_edit.php:11
+msgid "You can change lottery settings here."
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:21
+msgid "Line Price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:22
+msgid "Final Income"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:36
+msgid "Imvalap"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:37
+msgid "Lottorisq"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:38
+msgid "Insurance/None"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:45
+#: views/whitelabel/settings/lottery_edit.php:37
+#: views/whitelabel/tickets/index.php:119
+msgid "Purchase"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:46
+#: views/whitelabel/settings/lottery_edit.php:38
+msgid "Mixed (Insurance/Purchase)"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:47
+msgid "Purchase + Scan"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:68
+msgid "Current cost"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:71
+msgid "Current price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery.php:101
+msgid "* subject to change depending on current jackpot and volume"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:28
+msgid "Lottery price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:59
+msgid "Enter expected income"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:83
+#, php-format
+msgid "Up to tier #%s"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:100
+msgid "Estimated: "
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:111
+#, php-format
+msgid ""
+"You will have to cover the winnings from uninsured prize tiers. They are "
+"included in the calculations below."
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:117
+msgid "Sample calculation"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:121
+msgid ""
+"Real price may differ depending on the current jackpot and actual volume."
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:125
+msgid "Expected jackpot (in millions)"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:128
+msgid "Enter expected jackpot"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:132
+msgid "Expected volume"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:135
+msgid "Enter expected volume"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:139
+msgid "Price summary"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:140
+msgid "Ticket price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:143
+msgid "Winnings per ticket"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:146
+msgid "Total cost"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:149
+msgid "Ticket fee"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:153
+msgid "Calculated final price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:156
+msgid "Minimum price for users"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:159
+msgid "Final income"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:163
+msgid "Final price"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:175
+msgid "Other settings"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:177
+msgid "Lottery status"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:184
+msgid "All tickets bought before disabling a lottery will be processed."
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:192
+msgid "Enter minimum lines count"
+msgstr ""
+
+#: views/whitelabel/settings/lottery_edit.php:194
+#, php-format
+msgid ""
+"The value has to be a multiple of <span>X</span> due to our ticket "
+"provider's limits."
+msgstr ""
+
+#: views/whitelabel/settings/password.php:8
+msgid "You can edit your password here."
+msgstr ""
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid "Here you can view and manage site payment methods."
+msgstr ""
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid ""
+"The default payments are those from English language. You don't have to "
+"specify every payment method for every language if they are the same."
+msgstr ""
+
+#: views/whitelabel/settings/paymentmethods.php:50
+msgid "No payment methods."
+msgstr ""
+
+#: views/whitelabel/settings/paymentmethods_edit.php:111
+#, php-format
+msgid ""
+"Optional for non-shared accounts - improves payment confirmation speed. Can "
+"be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; Webhooks</"
+"strong>. You should set the <strong>Webhook URL</strong> to <strong>%s</"
+"strong> and check following hooks: <strong>payment_cancelled</strong>, "
+"<strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+
+#: views/whitelabel/shared/navbar.php:43
+msgid "Support"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:21 views/whitelabel/tickets/index.php:84
+#: views/whitelabel/tickets/view.php:43 views/whitelabel/tickets/view.php:94
+#: views/whitelabel/tickets/view.php:107
+#: views/whitelabel/transactions/index.php:25
+#: views/whitelabel/transactions/index.php:71
+#: views/whitelabel/transactions/view.php:54
+#: views/whitelabel/transactions/view.php:381
+#: views/whitelabel/transactions/view.php:554
+#: views/whitelabel/transactions/view.php:658
+#: views/whitelabel/transactions/view.php:764
+#: views/whitelabel/transactions/view.php:958
+#: views/whitelabel/transactions/view.php:981
+#: views/whitelabel/transactions/view.php:1060
+#: views/whitelabel/transactions/view.php:1236
+#: views/whitelabel/transactions/withdrawal.php:37
+#: views/whitelabel/transactions/withdrawals.php:21
+#: views/whitelabel/transactions/withdrawals.php:71
+msgid "Status"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:22 views/whitelabel/tickets/index.php:159
+#: views/whitelabel/tickets/view.php:46 views/whitelabel/tickets/view.php:59
+#: views/whitelabel/tickets/view.php:97
+#: views/whitelabel/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:220
+#: views/whitelabel/transactions/view.php:58
+#: views/whitelabel/transactions/withdrawal.php:40
+#: views/whitelabel/transactions/withdrawals.php:22
+#: views/whitelabel/transactions/withdrawals.php:97
+msgid "Pending"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:23 views/whitelabel/tickets/index.php:161
+#: views/whitelabel/tickets/view.php:48
+msgid "Win"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:24 views/whitelabel/tickets/index.php:163
+#: views/whitelabel/tickets/view.php:50 views/whitelabel/tickets/view.php:109
+msgid "No winnings"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:25 views/whitelabel/tickets/index.php:165
+#: views/whitelabel/tickets/index.php:183 views/whitelabel/tickets/view.php:52
+#: views/whitelabel/tickets/view.php:83 views/whitelabel/tickets/view.php:132
+msgid "Quick Pick"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:48
+#: views/whitelabel/transactions/index.php:39
+#: views/whitelabel/transactions/withdrawals.php:36
+msgid "User E-mail"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:77
+#: views/whitelabel/transactions/index.php:64
+#: views/whitelabel/transactions/withdrawals.php:61
+msgid "User ID &bull; User Name"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:80
+msgid "Pricing"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:87 views/whitelabel/tickets/view.php:64
+msgid "Lines"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:122
+msgid "Mixed"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:125
+msgid "Purchase (Scan)"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:132
+msgid "Insured"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:132
+msgid "Purchased"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:135
+msgid "Cost"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:142 views/whitelabel/tickets/view.php:38
+msgid "Free"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:153
+msgid "Valid to"
+msgstr ""
+
+#: views/whitelabel/tickets/index.php:206
+msgid "No tickets."
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:7
+msgid "Ticket details"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:8
+msgid "Here you can view ticket details."
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:75
+msgid "none"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:87 views/whitelabel/tickets/view.php:124
+#: views/whitelabel/transactions/view.php:1208
+msgid "Net"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:99
+msgid "Pay out to user balance"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:117
+msgid "Total Prize"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:136
+msgid "Slip images"
+msgstr ""
+
+#: views/whitelabel/tickets/view.php:145
+msgid ""
+"Are you sure? The 'mark as paid out' function will not automatically pay out "
+"the lines to the user and will not increase user balance. It will only mark "
+"the tickets and lines as paid out. Also, the Quick Pick lines will not be "
+"marked as paid out as they are paid out automatically after some time. This "
+"function is intended to be used only with bigger prizes which are not "
+"automatically paid out. If you want to pay out the lines to the user balance "
+"please use 'Pay out to user balance' button within specific line."
+msgstr ""
+
+#: views/whitelabel/transactions/index.php:27
+#: views/whitelabel/transactions/index.php:227
+#: views/whitelabel/transactions/view.php:61
+#: views/whitelabel/transactions/withdrawal.php:42
+#: views/whitelabel/transactions/withdrawals.php:23
+#: views/whitelabel/transactions/withdrawals.php:99
+msgid "Approved"
+msgstr ""
+
+#: views/whitelabel/transactions/index.php:28
+#: views/whitelabel/transactions/index.php:234
+#: views/whitelabel/transactions/view.php:64
+#: views/whitelabel/transactions/view.php:632
+msgid "Error"
+msgstr ""
+
+#: views/whitelabel/transactions/index.php:70
+#: views/whitelabel/transactions/view.php:26
+msgid "Date confirmed"
+msgstr ""
+
+#: views/whitelabel/transactions/index.php:73
+msgid "Tickets/Processed"
+msgstr ""
+
+#: views/whitelabel/transactions/index.php:289
+msgid "No transactions."
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:7
+msgid "Transaction details"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:8
+msgid "You can view transaction details here."
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:69
+msgid "Payment ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:77
+msgid "eMerchantPay"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:79
+msgid "Order date"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:83
+msgid "Order total"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:87
+msgid "Order currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:91
+msgid "Order status"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:95
+msgid "Test transaction"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:99
+#: views/whitelabel/transactions/view.php:989
+msgid "Transaction type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:103
+msgid "Response"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:107
+msgid "Response code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:111
+msgid "Response text"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:123
+msgid "Client ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:131
+msgid "Merchant user ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:135
+msgid "Notification type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:139
+msgid "emerchantpaypassthrough"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:147
+msgid "Errors"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:149
+msgid "Error code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:151
+msgid "Error text"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:156
+#: views/whitelabel/transactions/view.php:1080
+msgid "Card details"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:159
+msgid "Auth code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:163
+msgid "Brand"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:167
+msgid "Category"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:171
+msgid "Exp. month"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:175
+msgid "Exp. year"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:179
+msgid "Holder name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:183
+msgid "Issuing bank"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:187
+msgid "Issuing country"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:191
+msgid "Number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:195
+msgid "Subcategory"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:199
+msgid "Customer data"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:206
+#: views/whitelabel/transactions/view.php:323
+#: views/whitelabel/transactions/view.php:393
+#: views/whitelabel/transactions/view.php:1072
+msgid "Customer ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:226
+#: views/whitelabel/transactions/view.php:1160
+msgid "State"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:234
+msgid "Postcode"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:238
+msgid "Address"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:246
+msgid "Items"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:255
+#: views/whitelabel/transactions/view.php:389
+#: views/whitelabel/transactions/view.php:628
+#: views/whitelabel/transactions/view.php:926
+msgid "Description"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:259
+msgid "Item ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:263
+msgid "Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:267
+msgid "Quantity"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:271
+msgid "Digital"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:275
+msgid "Pass-through"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:279
+msgid "Rebill"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:283
+msgid "Discount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:287
+msgid "Predefined"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:292
+msgid "Unit price"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:307
+msgid "Merchant e-mail"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:311
+msgid "User e-mail"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:315
+msgid "Skrill amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:319
+msgid "Failed reason code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:337
+msgid "Order ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:341
+msgid "Event ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:345
+msgid "Event Date"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:349
+msgid "Event Type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:353
+msgid "Attempt Number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:365
+msgid "Create Date"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:369
+msgid "Update Date"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:373
+msgid "Error Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:377
+msgid "Error Message"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:385
+msgid "Transaction Type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:417
+msgid "Date of Birth"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:429
+#: views/whitelabel/transactions/view.php:504
+msgid "Address #3"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:441
+#: views/whitelabel/transactions/view.php:516
+msgid "Post Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:445
+msgid "Gender"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:449
+msgid "Customer Contact Details"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:456
+msgid "Value"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:470
+msgid "Verification Level"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:474
+msgid "Customer Balance"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:478
+msgid "Billing Details"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:525
+msgid "Fees"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:528
+msgid "Fee Name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:532
+msgid "Fee Type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:536
+msgid "Fee Amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:540
+msgid "Fee Currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:552
+msgid "cubits"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:562
+msgid "Create Time"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:566
+msgid "Invoice Currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:570
+msgid "Invoice Amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:574
+msgid "Paid Currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:578
+msgid "Paid Amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:582
+msgid "Pending Currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:586
+msgid "Pending Amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:590
+msgid "Merchant Currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:594
+msgid "Merchant Amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:598
+msgid "Share to keep in BTC"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:606
+msgid "tpay.com"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:608
+msgid "tpay.com ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:620
+msgid "Amount paid"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:640
+msgid "Sofort"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:646
+msgid "Amount Refunded"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:654
+msgid "Consumer Protection"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:662
+#: views/whitelabel/transactions/view.php:768
+msgid "Status Reason"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:666
+#: views/whitelabel/transactions/view.php:686
+msgid "Status Modified Time"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:670
+msgid "Language Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:678
+msgid "Reason"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:682
+msgid "Test"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:690
+msgid "Project ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:694
+msgid "Recipient Holder"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:698
+msgid "Recipient Account Number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:702
+msgid "Recipient Bank Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:706
+msgid "Recipient Country Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:710
+msgid "Recipient Bank Name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:714
+msgid "Recipient BIC"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:718
+msgid "Recipient IBAN"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:722
+msgid "Sender Holder"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:726
+msgid "Sender Account Number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:730
+msgid "Sender Bank Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:734
+msgid "Sender Country Code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:738
+msgid "Sender Bank Name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:742
+msgid "Sender BIC"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:746
+msgid "Sender IBAN"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:750
+msgid "Exchange Rate"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:754
+msgid "Costs (Exchange Rate)"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:758
+msgid "Costs (Fees)"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:761
+msgid "Status History"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:772
+msgid "Time"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:782
+msgid "Entercash"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:784
+msgid "Pre-deposit ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:788
+msgid "Status (Return URL)"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:792
+msgid "Status details (Return URL)"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:804
+#: views/whitelabel/transactions/view.php:859
+msgid "Static ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:808
+msgid "Clearing house"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:816
+msgid "UUID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:820
+msgid "Enduser ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:824
+msgid "Notification ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:828
+msgid "Timestamp"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:832
+#: views/whitelabel/transactions/view.php:1196
+msgid "Fee"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:837
+msgid "Attributes"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:839
+msgid "Credit reason code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:843
+msgid "Credit reason message"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:847
+msgid "Closed reason"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:851
+msgid "Fail reason code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:855
+msgid "Fail reason message"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:863
+msgid "Same bank"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:873
+msgid "Bank ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:877
+msgid "Account number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:881
+msgid "National ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:885
+msgid "Login ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:893
+msgid "Login method"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:897
+msgid "Message on statement"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:901
+msgid "siirto id"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:912
+msgid "Piastrix"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:914
+msgid "Client price"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:922
+msgid "Processed"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:930
+msgid "Payway"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:934
+msgid "Payment currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:938
+msgid "Shop amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:942
+msgid "Shop currency"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:950
+msgid "Shop invoice ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:954
+msgid "Shop refund"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:962
+msgid "Test add on"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:966
+msgid "Addons"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:970
+msgid "Payment data"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:979
+msgid "ecoPayZ"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:985
+msgid "Status description"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:993
+msgid "Customer account"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:997
+msgid "Processing time"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1001
+msgid "Result code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1005
+msgid "Result description"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1009
+msgid "Batch number"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1013
+msgid "Customer firstname"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1017
+msgid "Customer lastname"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1021
+msgid "Customer country"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1025
+msgid "Customer Postal code"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1029
+#: views/whitelabel/transactions/view.php:1076
+msgid "Customer IP"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1038
+msgid "paysafecard"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1040
+msgid "Object"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1048
+msgid "Updated"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1064
+msgid "Status before expiration"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1083
+msgid "Serial"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1110
+msgid "CoinPayments"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1112
+msgid "IPN Version"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1116
+msgid "IPN Type"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1120
+msgid "IPN Mode"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1124
+msgid "IPN ID"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1128
+msgid "Merchant"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1164
+msgid "ZIP"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1172
+msgid "Country name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1180
+msgid "Send TX"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1184
+msgid "Received amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1188
+msgid "Received confirms"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1192
+msgid "Subtotal"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1200
+msgid "Tax"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1204
+msgid "Shipping"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1212
+msgid "Item amount"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1216
+msgid "Item name"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1220
+msgid "Amount #1"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1224
+msgid "Amount #2"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1228
+msgid "Currency #1"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1232
+msgid "Currency #2"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1240
+msgid "Status text"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1250
+msgid "AsianPaymentGateway"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1269
+msgid "PayPal"
+msgstr ""
+
+#: views/whitelabel/transactions/view.php:1290
+msgid "BitBayPay"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:7
+msgid "Withdrawal details"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:8
+msgid "Here you can view the withdrawal details."
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:26
+#: views/whitelabel/transactions/withdrawals.php:70
+msgid "Date approved"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:44
+#: views/whitelabel/transactions/withdrawals.php:24
+#: views/whitelabel/transactions/withdrawals.php:101
+msgid "Declined"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:46
+#: views/whitelabel/transactions/withdrawals.php:25
+#: views/whitelabel/transactions/withdrawals.php:103
+msgid "Canceled"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:49
+msgid "Request details"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:63
+msgid "Bitcoin wallet"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:67
+msgid "Account IBAN"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:71
+msgid "SWIFT number"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawals.php:108
+msgid "Approve"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawals.php:110
+msgid "Decline"
+msgstr ""
+
+#: views/whitelabel/transactions/withdrawals.php:124
+msgid "No withdrawals."
+msgstr ""

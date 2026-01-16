@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  httpd:
+    build:
+      dockerfile: ./Dockerfile-testing
+  nginx:
+    build:
+      dockerfile: ./Dockerfile-testing

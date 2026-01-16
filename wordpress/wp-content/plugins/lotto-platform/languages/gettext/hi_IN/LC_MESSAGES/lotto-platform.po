@@ -1,0 +1,3207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"POT-Creation-Date: 2024-01-24 11:24+0000\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../../../../../../..\n"
+"X-Poedit-SearchPath-0: wordpress/\n"
+"X-Poedit-SearchPath-1: platform/\n"
+
+msgid "First Name"
+msgstr "पहला नाम"
+
+msgid "Last Name"
+msgstr "अंतिम नाम"
+
+msgid "City"
+msgstr "शहर"
+
+msgid "Postal/ZIP Code"
+msgstr "पिनकोड"
+
+msgid "Region"
+msgstr "क्षेत्र"
+
+msgid "Address #1"
+msgstr "पता #1"
+
+msgid "Address #2"
+msgstr "पता #2"
+
+msgid "Phone"
+msgstr "फोन"
+
+msgid "Country"
+msgstr "देश"
+
+msgid "Time Zone"
+msgstr "टाइम ज़ोन"
+
+msgid "Birthdate"
+msgstr "जन्मतिथि"
+
+msgid "Your data has been saved!"
+msgstr "आपका डेटा सहेज दिया गया है!"
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr "गलत टाइम ज़ोन! कृपया इस समस्या को सुलझाने के लिए हमें संपर्क करें!"
+
+msgid "Wrong birth date!"
+msgstr "गलत जन्मतिथि!"
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr "गलत क्षेत्र! कृपया इस समस्या को सुलझाने के लिए हमें संपर्क करें!"
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr "गलत देश! कृपया इस समस्या को सुलझाने के लिए हमें संपर्क करें!"
+
+msgid "Current password"
+msgstr "वर्तमान पासवर्ड"
+
+msgid "New password"
+msgstr "नया पासवर्ड"
+
+msgid "Repeat new password"
+msgstr "नया पासवर्ड दोहरायें"
+
+msgid "Your password has been changed."
+msgstr "आपका पासवर्ड बदल गया है।"
+
+msgid "Wrong current password! Please try again."
+msgstr "गलत वर्तमान पासवर्ड! कृपया दोबारा प्रयास करें।"
+
+msgid "E-mail"
+msgstr "ईमेल"
+
+msgid "Repeat e-mail"
+msgstr "ईमेल दोहरायें"
+
+msgid "Thank you for updating your e-mail! To complete the activation process please follow the link: %1$s"
+msgstr "अपना ईमेल अपडेट करने के लिए धन्यवाद! सक्रियण प्रक्रिया पूरी करने के लिए कृपया इस लिंक पर जाएँ: %1$s"
+
+msgid "Your email address has been changed, however we've encountered problems while sending the activation e-mail. Please contact us to activate your account."
+msgstr "आपका ईमेल पता बदल गया है, लेकिन आपको सक्रियण ईमेल भेजने में हमें समस्या हो रही है। कृपया अपना खाता सक्रिय करने के लिए हमें संपर्क करें।"
+
+msgid "Failed to update your e-mail address! Please try again or contact us to solve this issue."
+msgstr "आपका ईमेल पता अपडेट करने में विफल! कृपया दोबारा प्रयास करें या इस समस्या का समाधान करने के लिए हमें संपर्क करें।"
+
+msgid "This e-mail address is already registered."
+msgstr "यह ईमेल पता पहले से पंजीकृत है।"
+
+msgid "This e-mail address is already used by you."
+msgstr "यह ईमेल पता पहले से आपके द्वारा प्रयोग किया जा रहा है।"
+
+msgid "Your e-mail has been changed."
+msgstr "आपका ईमेल बदल गया है।"
+
+msgid "Security error! Please try again."
+msgstr "सुरक्षा त्रुटी! कृपया दोबारा प्रयास करें।"
+
+msgid "Amount"
+msgstr "रकम"
+
+msgid "Type"
+msgstr "प्रकार"
+
+msgid "Bank name"
+msgstr "बैंक का नाम"
+
+msgid "Skrill E-mail"
+msgstr "स्क्रिल ईमेल"
+
+msgid "Neteller E-mail"
+msgstr "नेटेलर ईमेल"
+
+msgid "First Name (optional)"
+msgstr "पहला नाम (वैकल्पिक)"
+
+msgid "Last Name (optional)"
+msgstr "अंतिम नाम (वैकल्पिक)"
+
+msgid "Bitcoin Wallet Address"
+msgstr "बिटकॉइन वॉलेट पता"
+
+msgid "We have received your withdrawal request. Please allow up to 24h for our acceptance."
+msgstr "हमें आपका निकासी अनुरोध मिल गया है। कृपया हमारे स्वीकरण के लिए २४ घंटे तक का समय दें।"
+
+msgid "Incorrect withdrawal type."
+msgstr "गलत निकासी प्रकार।"
+
+msgid "Security error! Please contact us!"
+msgstr "सुरक्षा त्रुटी! कृपया हमें संपर्क करें!"
+
+msgid "You do not have enough balance to withdraw money from the account (minimum %s)!"
+msgstr "खाते से पैसे निकालने के लिए आपके पास पर्याप्त राशि नहीं है (न्यूनतम %s)!"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "इन्हीं संख्याओं के प्रयोग से एक टिकट आपके ऑर्डर में जोड़ दिया गया है।"
+
+msgid "You cannot play with the same numbers because the lottery rules have changed."
+msgstr "आप समान संख्याओं के साथ नहीं खेल सकते हैं क्योंकि लॉटरी के नियम बदल गए हैं।"
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "अधिक टिकट जोड़ने में विफल हुआ, आप अधिकतम ऑर्डर पर पहुंच गए हैं!"
+
+msgid "This lottery is no longer available."
+msgstr "यह लॉटरी अब उपलब्ध नहीं है।"
+
+msgid "Incorrect ticket."
+msgstr "गलत टिकट।"
+
+msgid "Incorrect transaction."
+msgstr "गलत लेनदेन।"
+
+msgid "Your card has been removed!"
+msgstr "आपका कार्ड हटा दिया गया है!"
+
+msgid "Wrong card!"
+msgstr "गलत कार्ड!"
+
+msgid "Change e-mail address"
+msgstr "ईमेल पता बदलें"
+
+msgid "Change password"
+msgstr "पासवर्ड बदलें"
+
+msgid "Edit profile"
+msgstr "प्रोफाइल संपादित करें"
+
+msgid "My tickets"
+msgstr "मेरी टिकट"
+
+msgid "My payment methods"
+msgstr "मेरी भुगतान विधि"
+
+msgid "My transactions"
+msgstr "मेरे लेनदेन"
+
+msgid "Deposit"
+msgstr "जमा"
+
+msgid "Withdrawal"
+msgstr "निकासी"
+
+msgid "My details"
+msgstr "मेरी जानकारी"
+
+msgid "E-mail address"
+msgstr "ईमेल पता"
+
+msgid "Password"
+msgstr "पासवर्ड"
+
+msgid "Remember me"
+msgstr "मुझे याद रखें"
+
+msgid "You have been successfully logged in!"
+msgstr "आपने सफलतापूर्वक लॉगइन कर लिया है!"
+
+msgid "Wrong credentials! Please try again."
+msgstr "गलत विवरण! कृपया दोबारा प्रयास करें।"
+
+msgid "Too many login attempts! Please try again later."
+msgstr "बहुत सारे लॉगइन प्रयास! कृपया बाद में दोबारा प्रयास करें।"
+
+msgid "Incorrect captcha! Please try again."
+msgstr "गलत कैप्चा! कृपया दोबारा प्रयास करें।"
+
+msgid "The item has been deleted!"
+msgstr "यह सामग्री हटा दी गयी है!"
+
+msgid "Undo"
+msgstr "पूर्ववत करें"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "हटाने के लिए निर्दिष्ट सामग्री नहीं मिली!"
+
+msgid "Your order has been deleted!"
+msgstr "आपका ऑर्डर हटा दिया गया है!"
+
+msgid "Your item has been restored!"
+msgstr "आपकी सामग्री पुनर्स्थापित हो गयी है!"
+
+msgid "Lines"
+msgstr "पंक्तियाँ"
+
+msgid "Lottery"
+msgstr "लॉटरी"
+
+msgid "The ticket has been added to your order!"
+msgstr "आपके ऑर्डर में टिकट जोड़ दिया गया है!"
+
+msgid "Bad request! Please contact us!"
+msgstr "गलत अनुरोध! कृपया हमें संपर्क करें!"
+
+msgid "Unknown error! Please contact us!"
+msgstr "अज्ञात त्रुटी! कृपया हमें संपर्क करें!"
+
+msgid "Incorrect deposit amount value!"
+msgstr "गलत जमा राशि मूल्य!"
+
+msgid "Card number"
+msgstr "कार्ड नंबर"
+
+msgid "Expiration date"
+msgstr "समय समाप्ति तिथि"
+
+msgid "Name on card"
+msgstr "कार्ड पर नाम"
+
+msgid "Save card details for future use"
+msgstr "भविष्य में प्रयोग के लिए कार्ड का विवरण सहेजें"
+
+msgid "Choose saved card"
+msgstr "सहेजा गया कार्ड चुनें"
+
+msgid "CVV code"
+msgstr "CVV कोड"
+
+msgid "%s ticket"
+msgstr "%s टिकट"
+
+msgid "This card looks expired, please check the expiration date."
+msgstr "इस कार्ड की समय-सीमा समाप्त हो गयी है, कृपया समय-समाप्ति तिथि की जांच करें।"
+
+msgid "Return to %s"
+msgstr "%s पर वापस जाएँ"
+
+msgid "Transaction ID"
+msgstr "लेनदेन ID"
+
+msgid "A part of your order was removed as we have disabled some of the lotteries."
+msgstr "आपके ऑर्डर का कुछ भाग हटा दिया गया है क्योंकि हमने कुछ लॉटरी अक्षम कर दिए हैं।"
+
+msgid "You have been successfully logged out!"
+msgstr "आप सफलतापूर्वक लॉगआउट हो गए हैं!"
+
+msgid "We have received a password reset request for your account. To complete the process please follow the link: %1$sPlease ignore this e-mail if you did not request a password reset."
+msgstr "हमें आपके खाते के लिए पासवर्ड रीसेट करने का अनुरोध मिला है। प्रक्रिया को पूरा करने के लिए कृपया इस लिंक पर जाएँ: %1$sयदि आपने पासवर्ड रीसेट करने का अनुरोध नहीं किया तो कृपया इस ईमेल को नज़रअंदाज़ कर दें।"
+
+msgid "We have sent you an e-mail with password reset link. Please follow the link to complete the process."
+msgstr "हमने पासवर्ड रीसेट लिंक के साथ आपको एक ईमेल भेजा है। कृपया प्रक्रिया पूरी करने के लिए लिंक पर जाएँ।"
+
+msgid "We've encountered problems while sending the e-mail. Please try again later or contact us to reset your password."
+msgstr "आपको ईमेल भेजते समय हमें समस्या का सामना करना पड़ रहा है। कृपया दोबारा प्रयास करें या अपना पासवर्ड बदलने के लिए हमें संपर्क करें।"
+
+msgid "You can send lost password link once per 24 hours. Please try again later or contact us."
+msgstr "आप हर २४ घंटे में एक बार खोये पासवर्ड का लिंक भेज सकते हैं। कृपया बाद में दोबारा प्रयास करें या हमें संपर्क करें।"
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr "हमें आपका खाता नहीं मिला। कृपया दूसरा ईमेल इस्तेमाल करें या हमें संपर्क करें।"
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "आपका पासवर्ड बदल गया है। आपने सफलतापूर्वक लॉगइन कर लिया है!"
+
+msgid "This password reset link has expired. Please start the password reset process <a href=\"%s\">once again</a>."
+msgstr "यह पासवर्ड रीसेट लिंक पुराना हो गया है। कृपया <a href=\"%s\">एक बार फिर</a> पासवर्ड रीसेट प्रक्रिया शुरू करें।"
+
+msgid "Incorrect lost password link. Please try again or contact us for manual password change."
+msgstr "खोये पासवर्ड का गलत लिंक। कृपया दोबारा प्रयास करें या मैनुअल पासवर्ड परिवर्तन के लिए हमें संपर्क करें।"
+
+msgid "Your account has been activated before. Please login to access your account."
+msgstr "आपका खाता पहले सक्रिय हो गया है। कृपया अपना खाता एक्सेस करने के लिए लॉगइन करें।"
+
+msgid "Your activation link has expired. Please <a href=\"%s\">try to resend</a> activation e-mail or contact us."
+msgstr "आपका सक्रियण लिंक पुराना हो गया है। कृपया सक्रियण ईमेल <a href=\"%s\">दोबारा भेजने का प्रयास करें</a> या हमें संपर्क करें।"
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr "गलत सक्रियण लिंक। कृपया हस्तचालित सक्रियण के लिए हमें संपर्क करें।"
+
+msgid "Account Activation"
+msgstr "खाता सक्रियण"
+
+msgid "Repeat password"
+msgstr "पासवर्ड दोहरायें"
+
+msgid "I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s\" target=\"_blank\">Policy</a>"
+msgstr "मैं <a href=\"%s\" target=\"_blank\">शर्तें</a> और <a href=\"%s\" target=\"_blank\">नीति</a> स्वीकार करता/करती हूँ"
+
+msgid "Your account is created, however we've encountered problems while sending the activation e-mail. Please <a href=\"%s\">try to resend</a> the activation e-mail or contact us for manual activation."
+msgstr "आपका खाता बन गया है, लेकिन आपको सक्रियण ईमेल भेजने में हमें समस्या का सामना करना पड़ रहा है। कृपया सक्रियण ईमेल <a href=\"%s\">दोबारा भेजने का प्रयास करें</a> या हस्तचालित सक्रियण के लिए हमें संपर्क करें।"
+
+msgid "This e-mail is already registered."
+msgstr "यह ईमेल पहले से पंजीकृत है।"
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr "आपका ईमेल डोमेन अवरोधित हो गया है। कृपया दूसरे ईमेल पते का प्रयोग करें।"
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "<strong>लॉटरी स्थानीय समय:</strong>"
+
+msgid "Bank account"
+msgstr "बैंक खाता"
+
+msgid "Skrill"
+msgstr "स्क्रिल"
+
+msgid "Neteller"
+msgstr "नेटेलर"
+
+msgid "BTC"
+msgstr "BTC"
+
+msgid "Redirecting to the payment page..."
+msgstr "भुगतान पृष्ठ पर पुनर्निर्देशित हो रहा है..."
+
+msgid "Transaction %s"
+msgstr "लेनदेन %s"
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "तत्काल चयन टिकट आपके ऑर्डर में जोड़ दिया गया है।"
+
+msgid "FAQ Category"
+msgstr "FAQ श्रेणी"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "This category cannot be deleted."
+msgstr "इस श्रेणी को नहीं हटाया जा सकता है।"
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "लोट्टो प्लेटफॉर्म: आप यह पृष्ठ नहीं हटा सकते हैं।"
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "लोट्टो प्लेटफॉर्म: आप यह पृष्ठ संपादित नहीं कर सकते हैं।"
+
+msgid "Lotto Featured"
+msgstr "लोट्टो विशेष"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "विशेष लॉटरी को स्लाइडर के रूप में प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto List"
+msgstr "लोट्टो सूची"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "लॉटरी की सूची प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto News"
+msgstr "लोट्टो समाचार"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "हाल के पोस्ट (समाचार) प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto Small Next Draw"
+msgstr "लोट्टो छोटा अगला ड्रा"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "छोटा लॉटरी अगला ड्रा विजेट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto Small Lottery"
+msgstr "लोट्टो छोटी लॉटरी"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "छोटा लॉटरी विजेट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto Small Results"
+msgstr "लोट्टो छोटा परिणाम"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "छोटा परिणाम विजेट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto Small Slider"
+msgstr "लोट्टो छोटा स्लाइडर"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "छोटा स्लाइडर विजेट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Small Slider"
+msgstr "छोटा स्लाइडर"
+
+msgid "Lotto Small Text"
+msgstr "लोट्टो छोटा टेक्स्ट"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "छोटा टेक्स्ट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Lotto Small Winners"
+msgstr "लोट्टो छोटे विजेता"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "पिछले छोटे विजेता विजेट प्रदर्शित करता है &bull; सीमा: कोई नहीं"
+
+msgid "Small Winners"
+msgstr "छोटे विजेता"
+
+msgid "Lotto Ticket"
+msgstr "लोट्टो टिकट"
+
+msgid "Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/Info/Play - Lottery Page"
+msgstr "लॉटरी टिकट प्रदर्शित करता है (प्रयोगकर्ता अपनी संख्याएं चुन सकता है) &bull; सीमा: परिणाम/जानकारी/खेलें - लॉटरी पृष्ठ"
+
+msgid "We have sent you an e-mail with the activation link. Please activate your e-mail for better website experience. You can resend the activation e-mail <a href=\"%s\">here</a>."
+msgstr "हमने सक्रियण लिंक के साथ आपको एक ईमेल भेजा है। कृपया बेहतर वेबसाइट अनुभव पाने के लिए अपना ईमेल सक्रिय करें। आप <a href=\"%s\">यहाँ</a> सक्रियण ईमेल दोबारा भेज सकते हैं।"
+
+msgid "Title"
+msgstr "शीर्षक"
+
+msgid "Small"
+msgstr "छोटा"
+
+msgid "Language: "
+msgstr "भाषा: "
+
+msgid "[hide]"
+msgstr "[छिपाएं]"
+
+msgid "[show]"
+msgstr "[दिखायें]"
+
+msgid "Order"
+msgstr "ऑर्डर"
+
+msgid "by highest jackpot"
+msgstr "उच्चतम जैकपॉट से"
+
+msgid "by nearest draw"
+msgstr "निकटतम ड्रा से"
+
+msgid "by custom order"
+msgstr "कस्टम ऑर्डर से"
+
+msgid "Slide count"
+msgstr "स्लाइड काउंट"
+
+msgid "Custom name"
+msgstr "कस्टम नाम"
+
+msgid "Custom order"
+msgstr "कस्टम ऑर्डर"
+
+msgid "Carousel"
+msgstr "करौसेल"
+
+msgid "Grid"
+msgstr "ग्रिड"
+
+msgid "Count"
+msgstr "काउंट"
+
+msgid "Countdown"
+msgstr "काउंटडाउन"
+
+msgid "Always"
+msgstr "हमेशा"
+
+msgid "24 hours before"
+msgstr "२४ घंटे पहले"
+
+msgid "Display"
+msgstr "डिस्प्ले"
+
+msgid "Tall - 5 elements"
+msgstr "लंबे - ५ तत्व"
+
+msgid "Short - 3 elements"
+msgstr "छोटे - ३ तत्व"
+
+msgid "Columns"
+msgstr "स्तम्भ"
+
+msgid "2"
+msgstr "२"
+
+msgid "3"
+msgstr "३"
+
+msgid "Number of posts to show:"
+msgstr "दिखाने के लिए पोस्ट की संख्या:"
+
+msgid "The margins are calculated automatically."
+msgstr "मार्जिन की स्वचालित रूप से गणना की जाती है।"
+
+msgid "Content"
+msgstr "सामग्री"
+
+msgid "Hide on mobile"
+msgstr "मोबाइल पर छिपाएं"
+
+msgid "Please save before use."
+msgstr "कृपया प्रयोग करने से पहले सहेजें।"
+
+msgid "Please fill the fields in English and translate them using WPML String Translation <a href=\"%s\">here</a>."
+msgstr "कृपया क्षेत्रों को अंग्रेजी में भरें और उन्हें <a href=\"%s\">यहाँ</a> WPML स्ट्रिंग अनुवाद के प्रयोग से अनुवादित करें।"
+
+msgid "Name"
+msgstr "नाम"
+
+msgid "Amount<span></span>"
+msgstr "राशि<span></span>"
+
+msgid "by newest"
+msgstr "सबसे नए से"
+
+msgid "by random"
+msgstr "क्रमहीन रूप से"
+
+msgid "Normal"
+msgstr "सामान्य"
+
+msgid "Compact"
+msgstr "सघन"
+
+msgid "Not found"
+msgstr "नहीं मिला"
+
+msgid "Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr "ओह, आप जो पृष्ठ खोज रहे हैं वो मौजूद नहीं है। <br> <a href=\"%s\">मुख्य पृष्ठ</a> पर वापस जाएँ या अपनी किस्मत आजमायें और <a href=\"%s\">लॉटरी खेलें</a>।"
+
+msgid "404 - Not Found"
+msgstr "404 - नहीं मिला"
+
+msgid "Your e-mail address"
+msgstr "आपका ईमेल पता"
+
+msgid "Your password"
+msgstr "आपका पासवर्ड"
+
+msgid "Your new password"
+msgstr "आपका नया पासवर्ड"
+
+msgid "Repeat your new password"
+msgstr "अपना नया पासवर्ड दोहरायें"
+
+msgid "Ticket %s"
+msgstr "टिकट %s"
+
+msgid "Your first name"
+msgstr "आपका पहला नाम"
+
+msgid "Your last name"
+msgstr "आपका अंतिम नाम"
+
+msgid "Your bank name"
+msgstr "आपके बैंक का नाम"
+
+msgid "Your Skrill e-mail"
+msgstr "आपका स्क्रिल ईमेल"
+
+msgid "Your Neteller e-mail"
+msgstr "आपका नेटेलर ईमेल"
+
+msgid "Your bitcoin wallet address"
+msgstr "आपका बिटकॉइन वॉलेट पता"
+
+msgid "Choose withdrawal type"
+msgstr "निकासी का प्रकार चुनें"
+
+msgid "Amount (%s)"
+msgstr "राशि (%s)"
+
+msgid "Enter withdrawal amount"
+msgstr "निकाली जाने वाली राशि डालें"
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr "<strong>न्यून. राशि:</strong> %s"
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr "<strong>अधि. राशि:</strong> %s"
+
+msgid "Withdrawal List"
+msgstr "निकासी सूची"
+
+msgid "Withdrawal ID"
+msgstr "निकासी ID"
+
+msgid "Date"
+msgstr "तिथि"
+
+msgid "Status"
+msgstr "स्थिति"
+
+msgid "pending"
+msgstr "अपूर्ण"
+
+msgid "approved"
+msgstr "स्वीकृत"
+
+msgid "declined"
+msgstr "अस्वीकृत"
+
+msgid "canceled"
+msgstr "निरस्त"
+
+msgid "next"
+msgstr "आगे"
+
+msgid "previous"
+msgstr "पीछे"
+
+msgid "Image %1 of %2"
+msgstr "%2 की %1 छवि"
+
+msgid "win"
+msgstr "जीत"
+
+msgid "no winnings"
+msgstr "कोई जीत नहीं"
+
+msgid "Date processed"
+msgstr "संसाधित तिथि"
+
+msgid "Draw date"
+msgstr "ड्रा तिथि"
+
+msgid "Free"
+msgstr "मुफ्त"
+
+msgid "Pay out"
+msgstr "अदायगी"
+
+msgid "paid out"
+msgstr "अदा किया गया"
+
+msgid "Draw result"
+msgstr "ड्रा परिणाम"
+
+msgid "Ticket details"
+msgstr "टिकट विवरण"
+
+msgid "Lines: %s"
+msgstr "पंक्तियाँ: %s"
+
+msgid "Match"
+msgstr "मैच"
+
+msgid "none"
+msgstr "कोई नहीं"
+
+msgid "Prize"
+msgstr "इनाम"
+
+msgid "Jackpot"
+msgstr "जैकपॉट"
+
+msgid "Net"
+msgstr "मूल्य"
+
+msgid "-"
+msgstr "-"
+
+msgid "Sort by"
+msgstr "क्रमबद्ध करें"
+
+msgid "Ticket ID"
+msgstr "टिकट ID"
+
+msgid "by lowest"
+msgstr "निम्नतम से"
+
+msgid "by highest"
+msgstr "उच्चतम से"
+
+msgid "Draw Date"
+msgstr "ड्रा तिथि"
+
+msgid "by oldest"
+msgstr "सबसे पुराने से"
+
+msgid "Ticket ID and date"
+msgstr "टिकट ID और तिथि"
+
+msgid "Lottery name"
+msgstr "लॉटरी का नाम"
+
+msgid "Valid to draw"
+msgstr "ड्रा करने के लिए मान्य"
+
+msgid "quick pick"
+msgstr "तत्काल चयन"
+
+msgid "Play again"
+msgstr "दोबारा खेलें"
+
+msgid "Details"
+msgstr "विवरण"
+
+msgid "No tickets."
+msgstr "कोई टिकट नहीं।"
+
+msgid "failure"
+msgstr "विफलता"
+
+msgid "Confirmation date"
+msgstr "पुष्टिकरण तिथि"
+
+msgid "Payment method"
+msgstr "भुगतान विधि"
+
+msgid "Balance"
+msgstr "राशि"
+
+msgid "Credit Card"
+msgstr "क्रेडिट कार्ड"
+
+msgid "Transaction details"
+msgstr "लेनदेन विवरण"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a> टिकट"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "पंक्तियाँ: <span>%s</span> &times; %s"
+
+msgid "Total Sum"
+msgstr "कुल योग"
+
+msgid "Account balance"
+msgstr "खाता राशि"
+
+msgid "(confirmed)"
+msgstr "(पुष्टि की गयी)"
+
+msgid "Method"
+msgstr "विधि"
+
+msgid "No transactions."
+msgstr "कोई लेनदेन नहीं।"
+
+msgid "Number"
+msgstr "नंबर"
+
+msgid "Remove"
+msgstr "हटायें"
+
+msgid "Confirm"
+msgstr "पुष्टि करें"
+
+msgid "Are you sure?"
+msgstr "क्या आप सुनिश्चित हैं?"
+
+msgid "No payment methods saved!"
+msgstr "कोई भुगतान विधि नहीं सहेजी गयी!"
+
+msgid "Choose time zone"
+msgstr "टाइम ज़ोन चुनें"
+
+msgid "Choose your country"
+msgstr "अपना देश चुनें"
+
+msgid "Choose region"
+msgstr "क्षेत्र चुनें"
+
+msgid "Address"
+msgstr "पता"
+
+msgid "Address (optional additional information)"
+msgstr "पता (वैकल्पिक अतिरिक्त जानकारी)"
+
+msgid "Click here to cancel the e-mail change"
+msgstr "ईमेल परिवर्तन रद्द करने के लिए यहाँ क्लिक करें"
+
+msgid "Change e-mail"
+msgstr "ईमेल परिवर्तित करें"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "आपको अपना नया ईमेल पता सक्रिय करने की जरुरत होगी।"
+
+msgid "We will send you an optional activation e-mail. Please activate your e-mail for better user experience."
+msgstr "हम आपको एक वैकल्पिक सक्रियण ईमेल भेजेंगे। कृपया बेहतर प्रयोगकर्ता अनुभव के लिए अपना ईमेल सक्रिय करें।"
+
+msgid "Click here to cancel the password change"
+msgstr "पासवर्ड परिवर्तन रद्द करने के लिए यहाँ क्लिक करें"
+
+msgid "Old password"
+msgstr "पुराना पासवर्ड"
+
+msgid "choose"
+msgstr "चुनें"
+
+msgid "Pending"
+msgstr "अपूर्ण"
+
+msgid "bn"
+msgstr "bn"
+
+msgid "m"
+msgstr "m"
+
+msgid "%s to win"
+msgstr "जीतने के लिए %s"
+
+msgid "Draw event on %s"
+msgstr "%s पर ड्रा कार्यक्रम"
+
+msgid "Repeat your password"
+msgstr "अपना पासवर्ड दोहरायें"
+
+msgid "Play %s"
+msgstr "खेलें %s"
+
+msgid "%s Results"
+msgstr "%s परिणाम"
+
+msgid "%s Information"
+msgstr "%s जानकारी"
+
+msgid "%s News"
+msgstr "%s समाचार"
+
+msgid "show all"
+msgstr "सभी दिखायें"
+
+msgid "Latest Result"
+msgstr "नवीनतम परिणाम"
+
+msgid "Schedule"
+msgstr "समय-सारणी"
+
+msgid "Guess Range"
+msgstr "अनुमान सीमा"
+
+msgid "Tier"
+msgstr "टीयर"
+
+msgid "Match %s"
+msgstr "मैच %s"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "जीतने की संभावना"
+
+msgid "Prize #%d"
+msgstr "इनाम #%d"
+
+msgid "Free Quick Pick"
+msgstr "मुफ्त तत्काल चयन"
+
+msgid "%s shared"
+msgstr "%s साझा"
+
+msgid "or"
+msgstr "या"
+
+msgid "Estimated"
+msgstr "अनुमानित"
+
+msgid "1 in %s"
+msgstr "%s में 1"
+
+msgid "Overall chances of winning any prize"
+msgstr "कोई भी इनाम जीतने की कुल संभावना"
+
+msgid "Play"
+msgstr "खेलें"
+
+msgid "Results"
+msgstr "परिणाम"
+
+msgid "Information"
+msgstr "जानकारी"
+
+msgid "News"
+msgstr "समाचार"
+
+msgid "from A to Z"
+msgstr "A से Z तक"
+
+msgid "from Z to A"
+msgstr "Z से A तक"
+
+msgid "Draw"
+msgstr "ड्रा"
+
+msgid "Winning Odds"
+msgstr "जीतने की संभावना"
+
+msgid "Estimated Jackpot"
+msgstr "अनुमानित जैकपॉट"
+
+msgid "Next Draw"
+msgstr "अगला ड्रा"
+
+msgid "Choose payment method"
+msgstr "भुगतान विधि चुनें"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "<span>(%s)</span> खाता राशि से भुगतान करें"
+
+msgid "Pay with account balance. The remaining balance will be %s after the payment is processed."
+msgstr "खाता राशि से भुगतान करें। भुगतान संसाधित होने के बाद शेष राशि %s होगी।"
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr "कृपया नीचे दिए गए फॉर्म में अपने एन्ट्रोपे कार्ड का विवरण दर्ज करें।"
+
+msgid "Your credit card will be charged by %s."
+msgstr "आपके क्रेडिट कार्ड से %s लिया जायेगा।"
+
+msgid "New card"
+msgstr "नया कार्ड"
+
+msgid "Card number (spaces allowed)"
+msgstr "कार्ड नंबर (स्पेस की अनुमति है)"
+
+msgid "The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr "३ या ४ अंक का CVV कोड आपके भुगतान कार्ड के पीछे लिखा होता है।"
+
+msgid "What is this?"
+msgstr "यह क्या है?"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "इस भुगतान प्रकार के लिए न्यूनतम ऑर्डर %s है।"
+
+msgid "You will be redirected to the standard credit card payment form. If you don't have an Entropay account, you can always register it <a href=\"%s\">here</a>."
+msgstr "आपको मानक क्रेडिट कार्ड भुगतान फ़ॉर्म पर पुनः निर्देशित किया जाएगा। यदि आपके पास एन्ट्रोपे खाता नहीं है, तो आप इसे हमेशा <a href=\"%s\">यहां</a> पंजीकृत कर सकते हैं।"
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "<span class=\"%s\">%s</span> भुगतान करें"
+
+msgid "Estimated jackpot"
+msgstr "अनुमानित जैकपॉट"
+
+msgid "Winners"
+msgstr "विजेता"
+
+msgid "Payout per winner"
+msgstr "भुगतान प्रति विजेता"
+
+msgid "Total Winners"
+msgstr "कुल विजेता"
+
+msgid "Total Prize"
+msgstr "कुल इनाम"
+
+msgid "Last Draw"
+msgstr "पिछला ड्रा"
+
+msgid "Payout"
+msgstr "अदायगी"
+
+msgid "Rollover"
+msgstr "रोलओवर"
+
+msgid "Total payout"
+msgstr "कुल भुगतान"
+
+msgid "change language"
+msgstr "भाषा बदलें"
+
+msgid "Wrong line"
+msgstr "गलत पंक्ति"
+
+msgid "Too few lines"
+msgstr "बहुत कम पंक्तियाँ"
+
+msgid "Incorrect order"
+msgstr "गलत ऑर्डर"
+
+msgid "Sign up"
+msgstr "साइन अप"
+
+msgid "At least one of your lines is not properly filled in. Do you want to proceed without incorrect lines?"
+msgstr "आपकी कम से कम एक पंक्ति ठीक से नहीं भरी गयी है। क्या आप गलत पंक्तियों के बिना जारी रखना चाहते हैं?"
+
+msgid "Back"
+msgstr "पीछे"
+
+msgid "Continue"
+msgstr "जारी रखें"
+
+msgid "You have chosen too few lines. The minimal amount for this lottery is %1s lines! Do you want to quick pick the lines for you?"
+msgstr "आपने बहुत कम पंक्तियाँ चुनी हैं। इस लॉटरी के लिए न्यूनतम राशि %1s पंक्तियाँ हैं! क्या आप अपने लिए पंक्तियों का तत्काल चयन करना चाहते हैं?"
+
+msgid "Cancel"
+msgstr "रद्द करें"
+
+msgid "OK"
+msgstr "ठीक है"
+
+msgid "You have chosen a wrong amount of lines. The chosen lines count should be a multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr "आपने पंक्तियों की गलत मात्रा चुनी है। चुनी गयी पंक्तियाँ %1s की गुणज होनी चाहिए। क्या आप बाकी की पंक्तियों का तत्काल चयन करना चाहते हैं?"
+
+msgid "draw in %s"
+msgstr "%s में ड्रा करें"
+
+msgid "%d Quick-Pick lines"
+msgstr "%d तत्काल चयन पंक्तियाँ"
+
+msgid "only %s"
+msgstr "केवल %s"
+
+msgid "or pick the numbers manually"
+msgstr "या स्वयं संख्याएं चुनें"
+
+msgid "Latest news"
+msgstr "नवीनतम समाचार"
+
+msgid "Primary"
+msgstr "प्राथमिक"
+
+msgid "Footer"
+msgstr "फुटर"
+
+msgid "Front Page"
+msgstr "फ्रंट पेज"
+
+msgid "Front Page widget area."
+msgstr "फ्रंट पेज विजेट क्षेत्र।"
+
+msgid "Play - List Page - Top"
+msgstr "खेलें - सूची पृष्ठ - ऊपर"
+
+msgid "Play Lottery Page (with lottery list) widget area. Widgets from this area will display before \"more\" content."
+msgstr "लॉटरी खेलें पृष्ठ (लॉटरी सूची के साथ) विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Play - List Page - Bottom"
+msgstr "खेलें - सूची पृष्ठ - नीचे"
+
+msgid "Play Lottery Page (with lottery list) widget area. Widgets from this area will display after \"more\" content."
+msgstr "लॉटरी खेलें पृष्ठ (लॉटरी सूची के साथ) विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Play - Lottery Page - Top"
+msgstr "खेलें - लॉटरी पृष्ठ - ऊपर"
+
+msgid "Play Lottery Page (with ticket purchase) widget area. Widgets from this area will display before content."
+msgstr "लॉटरी खेलें पृष्ठ (टिकट खरीदारी के साथ) विजेट क्षेत्र। इस क्षेत्र के विजेट्स सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "खेलें - लॉटरी पृष्ठ - नीचे"
+
+msgid "Play Lottery Page (with ticket purchase) widget area. Widgets from this area will display after content."
+msgstr "लॉटरी खेलें पृष्ठ (टिकट खरीदारी के साथ) विजेट क्षेत्र। इस क्षेत्र के विजेट्स सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Results - List Page - Top"
+msgstr "परिणाम - सूची पृष्ठ - ऊपर"
+
+msgid "Lottery Results - List Page widget area. Widgets from this area will display before \"more\" content."
+msgstr "लॉटरी परिणाम - सूची पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Results - List Page - Bottom"
+msgstr "परिणाम - सूची पृष्ठ - नीचे"
+
+msgid "Lottery Results - List Page widget area. Widgets from this area will display after \"more\" content."
+msgstr "लॉटरी परिणाम - सूची पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Results - Lottery Page - Top"
+msgstr "परिणाम - लॉटरी पृष्ठ - ऊपर"
+
+msgid "Lottery Results - Specific Lottery Page widget area. Widgets from this area will display before \"more\" content."
+msgstr "लॉटरी परिणाम - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "परिणाम - लॉटरी पृष्ठ - नीचे"
+
+msgid "Lottery Results - Specific Lottery Page widget area. Widgets from this area will display after \"more\" content."
+msgstr "लॉटरी परिणाम - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Results - Lottery Page - Content"
+msgstr "परिणाम - लॉटरी पृष्ठ - सामग्री"
+
+msgid "Lottery Results - Specific Lottery Page widget area. Widgets from this area will display next to content."
+msgstr "लॉटरी परिणाम - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स सामग्री के बगल में प्रदर्शित होंगे।"
+
+msgid "Info - List Page - Top"
+msgstr "जानकारी - सूची पृष्ठ - ऊपर"
+
+msgid "Lottery Info - List Page widget area. Widgets from this area will display before \"more\" content."
+msgstr "लॉटरी जानकारी - सूची पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Info - List Page - Bottom"
+msgstr "जानकारी - सूची पृष्ठ - नीचे"
+
+msgid "Lottery Info - List Page widget area. Widgets from this area will display after \"more\" content."
+msgstr "लॉटरी जानकारी - सूची पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Info - Lottery Page - Top"
+msgstr "जानकारी - लॉटरी पृष्ठ - ऊपर"
+
+msgid "Lottery Info - Specific Lottery Page widget area. Widgets from this area will display before \"more\" content."
+msgstr "लॉटरी जानकारी - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री से पहले प्रदर्शित होंगे।"
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "जानकारी - लॉटरी पृष्ठ - नीचे"
+
+msgid "Lottery Info - Specific Lottery Page widget area. Widgets from this area will display after \"more\" content."
+msgstr "लॉटरी जानकारी - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स \"और अधिक\" सामग्री के बाद प्रदर्शित होंगे।"
+
+msgid "Info - Lottery Page - Content"
+msgstr "जानकारी - लॉटरी पृष्ठ - सामग्री"
+
+msgid "Lottery Info - Specific Lottery Page widget area. Widgets from this area will display next to content."
+msgstr "लॉटरी जानकारी - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स सामग्री के बगल में प्रदर्शित होंगे।"
+
+msgid "News - Default Page - Content"
+msgstr "समाचार - डिफ़ॉल्ट पृष्ठ - सामग्री"
+
+msgid "Lottery News - Default Page widget area. Widgets from this area will display next to content."
+msgstr "लॉटरी समाचार - डिफ़ॉल्ट पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स सामग्री के बगल में प्रदर्शित होंगे।"
+
+msgid "News - Lottery Page - Content"
+msgstr "समाचार - लॉटरी पृष्ठ - सामग्री"
+
+msgid "Lottery News - Specific Lottery Page widget area. Widgets from this area will display next to content related to the lottery."
+msgstr "लॉटरी समाचार - विशिष्ट लॉटरी पृष्ठ विजेट क्षेत्र। इस क्षेत्र के विजेट्स लॉटरी से संबंधित सामग्री के बगल में प्रदर्शित होंगे।"
+
+msgid "Home"
+msgstr "मुख्य पृष्ठ"
+
+msgid "Login"
+msgstr "लॉगइन करें"
+
+msgid "Sign Up"
+msgstr "साइन अप"
+
+msgid "My account"
+msgstr "मेरा खाता"
+
+msgid "Choose background image"
+msgstr "पृष्ठभूमि छवि चुनें"
+
+msgid "Menu"
+msgstr "मेन्यू"
+
+msgid "Anonymous"
+msgstr "अनाम"
+
+msgid "checkout"
+msgstr "चेकआउट"
+
+msgid "Delete"
+msgstr "हटायें"
+
+msgid "Sum"
+msgstr "योग"
+
+msgid "USA"
+msgstr "अमेरिका"
+
+msgid "Europe"
+msgstr "यूरोप"
+
+msgid "Italy"
+msgstr "इटली"
+
+msgid "UK"
+msgstr "यूके"
+
+msgid "Poland"
+msgstr "पोलैंड"
+
+msgid "Powerball"
+msgstr "पावरबॉल"
+
+msgid "Mega Millions"
+msgstr "मेगा मिलियंस"
+
+msgid "Eurojackpot"
+msgstr "यूरोजैकपॉट"
+
+msgid "SuperEnalotto"
+msgstr "सुपरएनलोट्टो"
+
+msgid "UK Lottery"
+msgstr "यूके लॉटरी"
+
+msgid "EuroMillions"
+msgstr "यूरोमिलियंस"
+
+msgid "Polish Lotto"
+msgstr "पोलिश लोट्टो"
+
+msgid "Debit card"
+msgstr "डेबिट कार्ड"
+
+msgid "Show"
+msgstr "दिखायें"
+
+msgid "show win"
+msgstr "जीत दिखायें"
+
+msgid "show no winnings"
+msgstr "कोई जीत नहीं"
+
+msgid "show pending"
+msgstr "अपूर्ण दिखायें"
+
+msgid "show approved"
+msgstr "स्वीकृत दिखायें"
+
+msgid "show failure"
+msgstr "विफलता दिखायें"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr "हमें चुनने के लिया धन्यवाद! आपने लॉगइन कर लिया है।"
+
+msgid "Your account is now fully active."
+msgstr "आपका खाता अब पूरी तरह से सक्रिय हो गया है।"
+
+msgid "To fully activate your account and get access to all functionalities, please confirm your e-mail address by following the confirmation link we have sent you to your e-mail."
+msgstr "अपना खाता पूरी तरह सक्रिय करने के लिए और सभी कार्यक्षमताओं का पूरा एक्सेस पाने के लिए, कृपया हमारे द्वारा आपके ईमेल पर भेजे गए पुष्टिकरण लिंक का अनुसरण करके अपने ईमेल पते की पुष्टि करें।"
+
+msgid "To activate your account please confirm your e-mail address by following the confirmation link we have sent you to your e-mail."
+msgstr "अपना खाता सक्रिय करने के लिए कृपया हमारे द्वारा आपके ईमेल पर भेजे गए पुष्टिकरण लिंक का अनुसरण करके अपने ईमेल पते की पुष्टि करें।"
+
+msgid "Different amount"
+msgstr "अलग राशि"
+
+msgid "The minimum deposit amount is %s."
+msgstr "न्यूनतम जमा राशि %s है।"
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr "भुगतान संसाधित नहीं हो पाया। कृपया दोबारा प्रयास करें या हमें संपर्क करें।"
+
+msgid "Your credit card may be blocked because of the unsupported region. We suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr "आपका क्रेडिट कार्ड असमर्थित क्षेत्र के कारण अवरुद्ध हो सकता है। हम आपको <a href=\"%s\">Entropay</a> खाता पंजीकृत करने का सुझाव देते हैं।"
+
+msgid "Category"
+msgstr "श्रेणी"
+
+msgid "Add Quick Pick ticket:"
+msgstr "तत्काल चयन टिकट जोड़ें:"
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "कुछ टिकटों को अगले ड्रा में भेज दिया गया है!"
+
+msgid "For orders less than %1s you can pay with account balance only, however your balance is insufficient."
+msgstr "%1s से कम के ऑर्डर के लिए आप केवल खाता राशि से भुगतान कर सकते हैं, हालाँकि आपकी राशि अपर्याप्त है।"
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr "%1s से कम के ऑर्डर के लिए आप केवल खाता राशि से भुगतान कर सकते हैं।"
+
+msgid "You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to your order."
+msgstr "आपके पास कोई टिकट नहीं है। अपने ऑर्डर में टिकट जोड़ने के लिए <a href=\"%s\">अभी खेलें</a>।"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "धन्यवाद! आपका भुगतान सफलतापूर्वक संसाधित हो गया।"
+
+msgid "Depending on the payment method, the payment's registration may take up to 60 minutes."
+msgstr "भुगतान विधि के आधार पर, भुगतान के पंजीकरण में 60 मिनट तक का समय लग सकता है।"
+
+msgid "&laquo; back to the news list"
+msgstr "&laquo; समाचार सूची पर वापस जाएँ"
+
+msgid "choose category"
+msgstr "श्रेणी चुनें"
+
+msgid "This FAQ category is empty!"
+msgstr "यह FAQ श्रेणी खाली है!"
+
+msgid "days"
+msgstr "दिन"
+
+msgid "hrs"
+msgstr "घंटे"
+
+msgid "min"
+msgstr "मिनट"
+
+msgid "sec"
+msgstr "सेकंड"
+
+msgid "Buy tickets"
+msgstr "टिकट खरीदें"
+
+msgid "Get a Ticket"
+msgstr "टिकट पाएं"
+
+msgid "No active lotteries."
+msgstr "कोई सक्रिय लॉटरी नहीं।"
+
+msgid "No latest news."
+msgstr "कोई नया समाचार नहीं।"
+
+msgid "This lottery is inactive."
+msgstr "यह लॉटरी निष्क्रिय है।"
+
+msgid "Latest results"
+msgstr "नया परिणाम"
+
+msgid "No latest results."
+msgstr "कोई नया परिणाम नहीं।"
+
+msgid "How to play and win?"
+msgstr "कैसे खेलें और जीतें?"
+
+msgid "No slides."
+msgstr "कोई स्लाइड नहीं।"
+
+msgid "Latest winners"
+msgstr "नवीनतम विजेता"
+
+msgid "%s from %s won"
+msgstr "%s में से %s जीते"
+
+msgid "No winners."
+msgstr "कोई विजेता नहीं।"
+
+msgid "Quick Pick All"
+msgstr "सभी तत्काल चुनें"
+
+msgid "Clear All"
+msgstr "सभी हटायें"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "आप अपने ऑर्डर में और अधिक टिकट नहीं जोड़ सकते हैं!"
+
+msgid "You can order a multiple of %s lines only."
+msgstr "आप केवल %s पंक्तियों का गुणज ऑर्डर कर सकते हैं।"
+
+msgid "Minimum lines for this lottery is %s."
+msgstr "इस लॉटरी के लिए न्यूनतम पंक्तियाँ हैं %s।"
+
+msgid "It's too late to buy a ticket for the nearest draw. Your order will be moved to the next draw!"
+msgstr "आपने निकटतम ड्रा के लिए टिकट खरीदने में देरी कर दी। आपका ऑर्डर अगले ड्रा पर चला जायेगा!"
+
+msgid "Clear"
+msgstr "हटायें"
+
+msgid "Pick %d numbers"
+msgstr "%d संख्याएं चुनें"
+
+msgid "Processing..."
+msgstr "संसाधित हो रहा है..."
+
+msgid "+ Add new line"
+msgstr "+ नयी पंक्ति जोड़ें"
+
+msgid "+ Edit line"
+msgstr "+ पंक्ति संपादित करें"
+
+msgid "Fewer Lines -"
+msgstr "कम पंक्तियाँ -"
+
+msgid "More Lines +"
+msgstr "ज्यादा पंक्तियाँ +"
+
+msgid "required"
+msgstr ":label क्षेत्र आवश्यक है।"
+
+msgid "min_length"
+msgstr ":label क्षेत्र में कम से कम :param:1 अक्षर होना चाहिए।"
+
+msgid "max_length"
+msgstr ":label क्षेत्र में :param:1 से ज्यादा अक्षर नहीं हो सकते हैं।"
+
+msgid "exact_length"
+msgstr ":label क्षेत्र में :param:1 अक्षर होना चाहिए।"
+
+msgid "match_value"
+msgstr ":label क्षेत्र में :param:1 मूल्य होना चाहिए।"
+
+msgid "match_pattern"
+msgstr ":label क्षेत्र में अमान्य अक्षर है।"
+
+msgid "match_field"
+msgstr ":label क्षेत्र :param:1 क्षेत्र से मिलना चाहिए।"
+
+msgid "valid_email"
+msgstr ":label क्षेत्र में मान्य ईमेल पता होना चाहिए।"
+
+msgid "valid_emails"
+msgstr ":label क्षेत्र में मान्य ईमेल पतों की सूची होनी चाहिए।"
+
+msgid "valid_url"
+msgstr ":label क्षेत्र में मान्य यूआरएल होना चाहिए।"
+
+msgid "valid_ip"
+msgstr ":label क्षेत्र में मान्य आईपी पता होना चाहिए।"
+
+msgid "numeric_min"
+msgstr ":label का न्यूनतम संख्यात्मक मूल्य :param:1 होना चाहिए।"
+
+msgid "numeric_max"
+msgstr ":label का अधिकतम संख्यात्मक मूल्य :param:1 होना चाहिए।"
+
+msgid "numeric_between"
+msgstr ":label क्षेत्र में :param:1 और :param:2 के बीच का संख्यात्मक मूल्य होना चाहिए।"
+
+msgid "valid_string"
+msgstr ":label क्षेत्र में अमान्य अक्षर है।"
+
+msgid "required_with"
+msgstr "यदि :param:1 में कोई मूल्य है तो :label क्षेत्र में भी मूल्य होना चाहिए।"
+
+msgid "valid_date"
+msgstr ":label क्षेत्र में मान्य फॉर्मेट में तिथि होनी चाहिए।"
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Numbers per line"
+msgstr "संख्या प्रति लाइन"
+
+msgid "Multiplier"
+msgstr "मल्टीप्लायर"
+
+msgid "and a Plus number"
+msgstr "और एक प्लस नंबर"
+
+msgid "Playing %s numbers per line."
+msgstr "प्रति लाइन %s नंबर प्ले कर रहे हैं।"
+
+msgid "Draws take place every 4 minutes between 00:00 &ndash; 23:59 GMT+2"
+msgstr "00:00 &ndash;23:59 GMT + 2 के बीच हर 4 मिनट में ड्रॉ किया जाता है"
+
+msgid "There are no results available for this lottery yet."
+msgstr "इस लॉटरी के लिए अभी तक कोई परिणाम उपलब्ध नहीं हैं।"
+
+msgid "Typed numbers"
+msgstr "टाइप किए गए नंबर"
+
+msgid "Correctly picked numbers"
+msgstr "सही ढंग से चुने गए नंबर"
+
+msgid "How many numbers would you like to play?"
+msgstr "आप कितने नंबर खेलना चाहेंगे?"
+
+msgid "Choose the type of ticket"
+msgstr "टिकट का प्रकार चुनें"
+
+msgid "You can pick 1 - 10 numbers within 1 - 70 range"
+msgstr "आप १ - ७० रेंज के भीतर १ - १० नंबर चुन सकते हैं"
+
+msgid "Choose a stake"
+msgstr "स्टेक चुनें"
+
+msgid "The higher the stake, the bigger the win. You can win up to %s while picking 10 numbers with x10 stake"
+msgstr "जितनी बड़ा स्टेक, उतनी बड़ी जीत। X10 स्टेक के साथ 10 नंबर चुनते हुए आप %s तक जीत सकते हैं"
+
+msgid "Pick numbers within %s - %s range"
+msgstr "%s - %s श्रेणी के भीतर नंबर चुनें"
+
+msgid "Pick %s numbers"
+msgstr "%s नंबर चुनें"
+
+msgid "Quick Pick"
+msgstr "तुरंत चुनें"
+
+msgid "Add another line for <strong>%s</strong>"
+msgstr "<strong>%s</strong> के लिए एक और लाइन जोड़ें"
+
+msgid "minutes"
+msgstr "मिनट"
+
+msgid "seconds"
+msgstr "सेकंड"
+
+msgid "Single"
+msgstr "एक"
+
+msgid "Single ticket"
+msgstr "एक टिकट"
+
+msgid "Multi-draws"
+msgstr "एक से अधिक बार ड्रॉ"
+
+msgid "Numbers"
+msgstr "नंबर"
+
+msgid "Width (%)"
+msgstr "चौड़ाई (%)"
+
+msgid "Title Container"
+msgstr "शीर्षक कंटेनर"
+
+msgid "H2"
+msgstr "H2"
+
+msgid "H1"
+msgstr "H1"
+
+msgid "DIV"
+msgstr "DIV"
+
+msgid "Target"
+msgstr "लक्ष्य"
+
+msgid "Image"
+msgstr "छवि"
+
+msgid "URL (optional)"
+msgstr "URL (वैकल्पिक)"
+
+msgid "Image height (px)"
+msgstr "छवि ऊंचाई (px)"
+
+msgid "Size"
+msgstr "आकार"
+
+msgid "Large with background"
+msgstr "पृष्ठभूमि सहित बड़ा"
+
+msgid "Disable for mobile"
+msgstr "मोबाइल के लिए अक्षम करें"
+
+msgid "Line #1 text"
+msgstr "पंक्ति #१ पाठ"
+
+msgid "Line #2 text"
+msgstr "पंक्ति #२ पाठ"
+
+msgid "The lottery is temporarily disabled!"
+msgstr "लॉटरी अस्थायी रूप से अक्षम कर दी गई है!"
+
+msgid "The lottery is not playable!"
+msgstr "लॉटरी नहीं खेली जा सकती!"
+
+msgid "We encountered a problem while adding the tickets to your order. Please contact us."
+msgstr "आपके ऑर्डर में टिकट जोड़ते समय हमें एक समस्या का सामना करना पड़ा। कृपया हमसे संपर्क करें।"
+
+msgid "Bonus balance"
+msgstr "बोनस शेष"
+
+msgid "next jackpot"
+msgstr "अगला जैकपॉट"
+
+msgid "Lottery doesn't exist"
+msgstr "लॉटरी मौजूद नहीं है"
+
+msgid "Lotto Sidebar"
+msgstr "लोट्टो साइडबार"
+
+msgid "Display lottery playable widget in sidebar"
+msgstr "साइडबार में लॉटरी खेलने योग्य विजेट प्रदर्शित करें"
+
+msgid "Lotto Raffle"
+msgstr "लोट्टो रैफ़ल"
+
+msgid "Displays featured raffles."
+msgstr "विशेष रैफल्स प्रदर्शित करता है।"
+
+msgid "Raffle Promo Widget"
+msgstr "रैफ़ल प्रोमो विजेट"
+
+msgid "Change your widget options."
+msgstr "अपने विजेट विकल्प बदलें।"
+
+msgid "Raffle play url"
+msgstr "रैफ़ल प्ले url"
+
+msgid "Lotto Banner"
+msgstr "लोट्टो बैनर"
+
+msgid "Got a promo code?"
+msgstr "प्रोमो कोड है?"
+
+msgid "Enter promo code"
+msgstr "प्रोमो कोड एंटर करें"
+
+msgid "Apply"
+msgstr "आवेदन करें"
+
+msgid "Thank you and good luck!"
+msgstr "धन्यवाद और शुभकामनाएँ!"
+
+msgid "Draw number"
+msgstr "ड्रा नंबर"
+
+msgid "Selected numbers"
+msgstr "चयनित नंबर"
+
+msgid "No lotteries."
+msgstr "कोई लॉटरी नहीं।"
+
+msgid "R"
+msgstr "R"
+
+msgid "S"
+msgstr "S"
+
+msgid "Only one discount applies when buying a multidraw ticket.<br>Additional discount codes do not apply."
+msgstr "मल्टीड्रा टिकट खरीदते समय केवल एक छूट लागू होती है।<br>अतिरिक्त छूट कोड लागू नहीं होते।"
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "बोनस बैलेंस <span>(%s)</span> से भुगतान करें"
+
+msgid "Notice"
+msgstr "सूचना"
+
+msgid "Please click 'Apply' before proceeding to redeem your code and receive your bonus!"
+msgstr "अपना कोड रिडीम करने और अपना बोनस प्राप्त करने के लिए आगे बढ़ने से पहले कृपया 'लागू करें' पर क्लिक करें!"
+
+msgid "Your order amount is insufficient to make a payment. Please add more tickets to your order."
+msgstr "आपके ऑर्डर की राशि भुगतान करने के लिए अपर्याप्त है। कृपया अपने ऑर्डर में ओर टिकट जोड़ें।"
+
+msgid "Lottery is temporary not playable due prizes calculation."
+msgstr "लॉटरी अस्थायी है और पुरस्कार गणना के कारण खेली नहीं जा सकती।"
+
+msgid "You must be logged in to purchase your tickets."
+msgstr "टिकट खरीदने के लिए आपको लॉग इन होना होगा।"
+
+msgid "Main prize"
+msgstr "मुख्य पुरस्कार"
+
+msgid "All"
+msgstr "सभी"
+
+msgid "Even"
+msgstr "सम"
+
+msgid "Odd"
+msgstr "विषम"
+
+msgid "I'm feeling lucky"
+msgstr "मैं ख़ुद को भाग्यशाली महसूस कर रहा हूँ"
+
+msgid "Show only available ticket numbers"
+msgstr "केवल उपलब्ध टिकट संख्या दिखाएं"
+
+msgid "tickets"
+msgstr "टिकट"
+
+msgid "Available tickets"
+msgstr "उपलब्ध टिकट"
+
+msgid "Single ticket price"
+msgstr "सिंगल टिकट की कीमत"
+
+msgid "Your tickets"
+msgstr "आपके टिकट"
+
+msgid "Summary"
+msgstr "सारांश"
+
+msgid "NOTE:"
+msgstr "नोट:"
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "टिकटों का भुगतान आपके बोनस बैलेंस से किया जाएगा।"
+
+msgid "Payments for raffle tickets are possible only using your account balance."
+msgstr "रैफ़ल टिकटों का भुगतान केवल आपके खाते की शेष राशि का उपयोग करके ही संभव है।"
+
+msgid "Minimum bets"
+msgstr "न्यूनतम दांव"
+
+msgid "You need to choose at least %1d lines for every %2d-lines ticket!"
+msgstr "आपको प्रत्येक %2d-लाइन टिकट के लिए कम से कम %1d लाइनें चुननी होंगी!"
+
+msgid "Delete account"
+msgstr "अकाउंट हटाएं"
+
+msgid "Claim your bonus ticket here"
+msgstr "अपने बोनस टिकट का दावा यहां करें"
+
+msgid "Draw in "
+msgstr "ड्रॉ करें "
+
+msgid "hours"
+msgstr "घंटे"
+
+msgid "draws"
+msgstr "ड्रॉ"
+
+msgid "discount"
+msgstr "छूट"
+
+msgid "Choose the type of game you wish to play"
+msgstr "आप जिस प्रकार का गेम खेलना चाहते हैं उसे चुनें"
+
+msgid "%s jackpot"
+msgstr "%s जैकपॉट"
+
+msgid "numbers"
+msgstr "संख्याएँ"
+
+msgid "x"
+msgstr "x"
+
+msgid "Draw certified by Gaming Laboratories International"
+msgstr "गेमिंग लैबोरेटरीज इंटरनेशनल द्वारा प्रमाणित ड्रॉ"
+
+msgid "Our True Random Number Generator has been certified by Gaming Laboratories International to ensure the highest security and guarantee 100% fairness of the drawing process."
+msgstr "हमारे ट्रू रैंडम नंबर जेनरेटर को गेमिंग लेबोरेटरीज इंटरनेशनल द्वारा उच्चतम सुरक्षा सुनिश्चित करने और ड्राइंग प्रक्रिया की १००% निष्पक्षता की गारंटी देने के लिए प्रमाणित किया गया है।"
+
+msgid "Total prize pool"
+msgstr "कुल पुरस्कार पूल"
+
+msgid "First prize: brand new %s. Nearly every 6th ticket wins."
+msgstr "प्रथम पुरस्कार: बिलकुल नया %s. लगभग हर ६ठा टिकट जीतता है।"
+
+msgid "Total prize pool $100"
+msgstr "कुल पुरस्कार पूल $100"
+
+msgid "Guaranteed winner. Chance of winning 1:100!"
+msgstr "गारंटीड विजेता। जीतने का मौका १:१००!"
+
+msgid "100% Raffle Winning Rate!"
+msgstr "१००% रैफ़ल जीतने की दर!"
+
+msgid "Up to 100x chance higher of becoming a MILLIONAIRE!"
+msgstr "करोड़पति बनने की संभावना १०० गुना तक अधिक!"
+
+msgid "Nearly every 3nd ticket wins. Jackpot odds 1:1000!"
+msgstr "लगभग प्रत्येक तीसरा टिकट जीतता है। जैकपॉट संभावनाएँ १:१०००!"
+
+msgid "Tickets Remaining"
+msgstr "शेष टिकट"
+
+msgid "1 to"
+msgstr "१ से"
+
+msgid "Total: "
+msgstr "कुल: "
+
+msgid "Your session has expired, please re-submit form."
+msgstr "आपका सत्र समाप्त हो गया है, कृपया फॉर्म दोबारा जमा करें।"
+
+msgid "Sorry, but some of your numbers have already been purchased. Please select a new ones and try again."
+msgstr "क्षमा करें, लेकिन आपके कुछ नंबर पहले ही खरीदे जा चुके हैं। कृपया नया चुनें और पुनः प्रयास करें।"
+
+msgid "Unknown error. Please contact us!"
+msgstr "अज्ञात त्रुटि। कृपया हमसे संपर्क करें!"
+
+msgid "Share with"
+msgstr "के साथ शेयर करें"
+
+msgid "Spain"
+msgstr "स्पेन"
+
+msgid "Australia"
+msgstr "ऑस्ट्रेलिया"
+
+msgid "France"
+msgstr "फ्रांस"
+
+msgid "World"
+msgstr "दुनिया"
+
+msgid "La Primitiva"
+msgstr "ला प्रिमिटिवा"
+
+msgid "BonoLoto"
+msgstr "बोनोलोटो"
+
+msgid "Lotto 6aus49"
+msgstr "Lotto 6aus49"
+
+msgid "Mega-Sena"
+msgstr "मेगा-सेना"
+
+msgid "El Gordo"
+msgstr "एल गोर्डो"
+
+msgid "Loteria de Navidad"
+msgstr "लोटेरिया डे नविदाद"
+
+msgid "Loteria del Nino"
+msgstr "लोटेरिया डेल नीनो"
+
+msgid "Lotto America"
+msgstr "लोट्टो अमेरिका"
+
+msgid "GlucksSpirale"
+msgstr "ग्लक्सस्पाइरेल"
+
+msgid "Thunderball"
+msgstr "थंडरबॉल"
+
+msgid "Lotto IE"
+msgstr "लोट्टो IE"
+
+msgid "French Lotto"
+msgstr "फ्रेंच लोट्टो"
+
+msgid "Lotto AT"
+msgstr "लोट्टो AT"
+
+msgid "Lotto 6/49"
+msgstr "लोट्टो 6/49"
+
+msgid "Oz Lotto"
+msgstr "ओज़ लोट्टो"
+
+msgid "Powerball AU"
+msgstr "पॉवरबॉल AU"
+
+msgid "Saturday Lotto"
+msgstr "शनिवार लोट्टो"
+
+msgid "Mon & Wed Lotto"
+msgstr "सोम और बुध लोट्टो"
+
+msgid "Use this link to invite your friends. Your friends will be connected to your affiliate account (see more at %s)"
+msgstr "अपने दोस्तों को आमंत्रित करने के लिए इस लिंक का उपयोग करें। आपके दोस्त आपके सहबद्ध खाते से जुड़ जाएंगे (अधिक जानकारी के लिए %s पर देखें)"
+
+msgid "Copy to clipboard"
+msgstr "क्लिपबोर्ड पर कॉपी करें"
+
+msgid "Results - Raffle Page - Content"
+msgstr "परिणाम - रैफ़ल पेज - सामग्री"
+
+msgid "Raffle Results - Specific Raffle Page widget area. Widgets from this area will display next to content."
+msgstr "रफ़ल परिणाम - विशिष्ट रैफ़ल पेज विजेट क्षेत्र। इस क्षेत्र के विजेट सामग्री के आगे प्रदर्शित होंगे।"
+
+msgid "Info - Raffle Page - Content"
+msgstr "जानकारी - रैफ़ल पेज - सामग्री"
+
+msgid "Raffle Info - Specific Raffle Page widget area. Widgets from this area will display next to content."
+msgstr "रैफ़ल जानकारी - विशिष्ट रैफ़ल पेज विजेट क्षेत्र। इस क्षेत्र के विजेट सामग्री के बगल में प्रदर्शित होंगे।"
+
+msgid "<a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a>"
+
+msgid "my tickets"
+msgstr "मेरे टिकट"
+
+msgid "Free ticket (see in %s)"
+msgstr "मुफ़्त टिकट (%s में देखें)"
+
+msgid "free!"
+msgstr "मुफ़्त!"
+
+msgid "First draw event on %s"
+msgstr "%s पर पहला ड्रॉ इवेंट"
+
+msgid "Lines: <span>%s</span> &times; %s &times; %s draws"
+msgstr "लाइनें: <span>%s</span> &times; %s &times; %s ड्रॉ"
+
+msgid "<span>%s</span> multi-draw discount"
+msgstr "<span>%s</span> मल्टी-ड्रॉ छूट"
+
+msgid "Lines: <span>%s</span> &times; %s &times; %s (Multiplier)"
+msgstr "लाइनें: <span>%s</span> &times; %s &times; %s (गुणक)"
+
+msgid "Paid with bonus balance."
+msgstr "बोनस बैलेंस के साथ भुगतान किया गया।"
+
+msgid "Your login"
+msgstr "आपका लॉगिन"
+
+msgid "Upcoming Draws"
+msgstr "पिछले टिकट"
+
+msgid "Past Tickets"
+msgstr "पिछले टिकट"
+
+msgid "Refer a friend"
+msgstr "एक दोस्त को रेफर करें"
+
+msgid "Choose country"
+msgstr "देश चुनें"
+
+msgid "Gender"
+msgstr "लिंग"
+
+msgid "National id"
+msgstr "राष्ट्रीय ID"
+
+msgid "Prize payout group"
+msgstr "पुरस्कार भुगतान समूह"
+
+msgid "Choose group"
+msgstr "समूह चुनें"
+
+msgid "Download personal data"
+msgstr "व्यक्तिगत डेटा डाउनलोड करें"
+
+msgid "Remember your password?"
+msgstr "अपना पासवर्ड याद रखें?"
+
+msgid "Login here"
+msgstr "यहां लॉगिन करें"
+
+msgid "This payment method is available in the deposit section, because the confirmation may take longer."
+msgstr "यह भुगतान विधि जमा अनुभाग में उपलब्ध है, क्योंकि पुष्टि में अधिक समय लग सकता है।"
+
+msgid "This payment method is not supported in your country."
+msgstr "यह भुगतान विधि आपके देश में समर्थित नहीं है."
+
+msgid "National ID"
+msgstr "राष्ट्रीय ID"
+
+msgid "Brazil: CPF/CNPJ, Argentina: DNI, Uruguay: CI, Mexico: CURP/RFC/IFE, Peru: DNI, Chile: RUT, Colombia: CC"
+msgstr "ब्राज़ील: CPF/CNPJ, अर्जेंटीना: DNI, उरुग्वे: CI, मेक्सिको: CURP/RFC/IFE, पेरू: DNI, चिली: RUT, कोलंबिया: CC"
+
+msgid "Bank"
+msgstr "बैंक"
+
+msgid "Surname"
+msgstr "उपनाम"
+
+msgid "I accept the"
+msgstr "मैं स्वीकार करता हूँ"
+
+msgid "Terms and Conditions"
+msgstr "नियम और शर्तें"
+
+msgid "This charge will appear on your statement as"
+msgstr "यह शुल्क आपके स्टेटमेंट पर इस प्रकार दिखाई देगा"
+
+msgid "Please be aware that wire transfers may take up to 2 working days to be processed."
+msgstr "कृपया ध्यान रखें कि वायर ट्रांसफ़र को संसाधित होने में २ कार्य दिवस तक लग सकते हैं।"
+
+msgid "This can result in delay of processing the ticket."
+msgstr "इससे टिकट की प्रोसेसिंग में देरी हो सकती है।"
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "बोनस बैलेंस से भुगतान करें। भुगतान संसाधित होने के बाद शेष बोनस %s होगा।"
+
+msgid "Purchase number"
+msgstr "खरीद संख्या"
+
+msgid "Card Number"
+msgstr "कार्ड नंबर"
+
+msgid "Brand"
+msgstr "ब्रांड"
+
+msgid "Date of the order"
+msgstr "ऑर्डर की तिथि"
+
+msgid "Refusal reason"
+msgstr "इनकार करने के कारण"
+
+msgid "Ticket %s%s"
+msgstr "टिकट %s%s"
+
+msgid "Prize in kinds"
+msgstr "विविध प्रकार के पुरस्कार"
+
+msgid "Already a member?"
+msgstr "पहले से ही सदस्य हैं?"
+
+msgid "Choose account currency"
+msgstr "खाता मुद्रा चुनें"
+
+msgid "purchased"
+msgstr "खरीद"
+
+msgid "cancelled"
+msgstr "रद्द"
+
+msgid "Ticket type"
+msgstr "टिकट प्रकार"
+
+msgid "Multi draw"
+msgstr "मल्टी ड्रॉ"
+
+msgid "Single draw"
+msgstr "सिंगल ड्रॉ"
+
+msgid "Share this link with your friend. If someone registers and makes an order, You will receive a free ticket."
+msgstr "इस लिंक को अपने दोस्त के साथ शेयर करें। यदि कोई रजिस्टर करता है और ऑर्डर करता है, तो आपको एक फ्री टिकट प्राप्त होगा।"
+
+msgid "Share it:"
+msgstr "इसे साझा करें:"
+
+msgid "What is your experience with %s?"
+msgstr "%s के साथ आपका अनुभव क्या है?"
+
+msgid "Great lottery for You"
+msgstr "आपके लिए शानदार लॉटरी"
+
+msgid "Clicks:"
+msgstr "क्लिक्स:"
+
+msgid "Unique clicks:"
+msgstr "यूनीक क्लिक:"
+
+msgid "Registrations:"
+msgstr "रजिस्ट्रेशन:"
+
+msgid "Free ticket receive:"
+msgstr "फ्री टिकट प्राप्त:"
+
+msgid "Are you sure you want to delete your account? This operation cannot be undone."
+msgstr "क्या आप वाकई अपना खाता हटाना चाहते हैं? इस कार्रवाई को पूर्ववत नहीं किया जा सकता।"
+
+msgid "Confirmation Password"
+msgstr "पुष्टिकरण पासवर्ड"
+
+msgid "<a href=\"%s\">%s</a> "
+msgstr "<a href=\"%s\">%s</a> "
+
+msgid "Choosen lines (%s):"
+msgstr "चुनी गई लाइन (%s):"
+
+msgid "Draw number: <strong>1</strong> (10.12.2019, 14:00)"
+msgstr "ड्रॉ संख्या: <strong>1</strong> (10.12.2019, 14:00)"
+
+msgid "Results "
+msgstr "परिणाम "
+
+msgid "Winning tickets (main prize)"
+msgstr "विजेता टिकट (मुख्य पुरस्कार)"
+
+msgid "No results found."
+msgstr "कोई परिणाम नहीं मिला।"
+
+msgid "Winners ticket"
+msgstr "विजेता टिकट"
+
+msgid "Show tickets"
+msgstr "टिकट दिखाएँ"
+
+msgid "and %d Powerball number"
+msgstr "और %d पॉवरबॉल नंबर"
+
+msgid "and %d Mega Ball number"
+msgstr "और %d मेगा बॉल नंबर"
+
+msgid "and %d Euronumbers"
+msgstr "और %d यूरोनंबर"
+
+msgid "and %d Lucky Stars numbers"
+msgstr "और %d लकी स्टार्स नंबर"
+
+msgid "and %d Reintegro number"
+msgstr "और %d रीइन्टेग्रो नंबर"
+
+msgid "and %d GG numbers"
+msgstr "और %d GG नंबर"
+
+msgid "and %d Life Ball number"
+msgstr "और %d लाइफ बॉल नंबर"
+
+msgid "and %d Thunderball number"
+msgstr "और %d थंडरबॉल नंबर"
+
+msgid "and %d Star Ball number"
+msgstr "और %d स्टार बॉल नंबर"
+
+msgid "and %d DJ numbers"
+msgstr "और %d DJ नंबर"
+
+msgid "You didn't reach the minimum order for this payment type!"
+msgstr "आप इस भुगतान प्रकार के लिए न्यूनतम ऑर्डर तक नहीं पहुँच पाए हैं!"
+
+msgid "Bonus balance cannot be used in this transaction!"
+msgstr "इस लेनदेन में बोनस बैलेंस का उपयोग नहीं किया जा सकता है!"
+
+msgid "An error has occurred while processing your order. Please contact us."
+msgstr "आपके ऑर्डर को संसाधित करते समय एक त्रुटि हुई है। कृपया हमसे संपर्क करें।"
+
+msgid "Internal error. Please contact support."
+msgstr "आंतरिक त्रुटि। कृपया सहायता से संपर्क करें।"
+
+msgid "There is something wrong with your order. Please contact us in order to resolve the issue!"
+msgstr "आपके ऑर्डर में कुछ गड़बड़ है। समस्या को हल करने के लिए कृपया हमसे संपर्क करें!"
+
+msgid "You need to choose at least %d lines for every %d-lines ticket!"
+msgstr "आपको हर %d-लाइन टिकट के लिए कम से कम %d लाइन चुनने की आवश्यकता है!"
+
+msgid "User ID"
+msgstr "उपयोगकर्ता ID"
+
+msgid "Phone Country"
+msgstr "फ़ोन देश"
+
+msgid "Date register"
+msgstr "पंजीकरण तिथि"
+
+msgid "Register IP"
+msgstr "पंजीकरण IP"
+
+msgid "Last IP"
+msgstr "अंतिम IP"
+
+msgid "Register Country"
+msgstr "पंजीकरण देश"
+
+msgid "Last Country"
+msgstr "अंतिम देश"
+
+msgid "Last Active"
+msgstr "अंतिम सक्रिय"
+
+msgid "Last Update"
+msgstr "अंतिम अपडेट"
+
+msgid "First Purchase"
+msgstr "पहली खरीदारी"
+
+msgid "Payment Type"
+msgstr "भुगतान प्रकार"
+
+msgid "Date Confirmed"
+msgstr "तारीख की पुष्टि"
+
+msgid "Approved"
+msgstr "स्वीकृत"
+
+msgid "Error"
+msgstr "त्रुटि"
+
+msgid "Date Processed"
+msgstr "तारीख संसाधित"
+
+msgid "Paid"
+msgstr "भुगतान किया गया"
+
+msgid "Prize Net"
+msgstr "पुरस्कार नेट"
+
+msgid "Prize Jackpot"
+msgstr "पुरस्कार जैकपॉट"
+
+msgid "Prize Quickpick"
+msgstr "पुरस्कार क्विकपिक"
+
+msgid "Win"
+msgstr "जीत"
+
+msgid "No winnings"
+msgstr "कोई जीत नहीं"
+
+msgid "Cancelled"
+msgstr "रद्द"
+
+msgid "Yes"
+msgstr "हाँ"
+
+msgid "No"
+msgstr "नहीं"
+
+msgid "Bonus Numbers"
+msgstr "बोनस संख्या"
+
+msgid "Withdrawal Type"
+msgstr "निकासी प्रकार"
+
+msgid "Data"
+msgstr "डेटा"
+
+msgid "Declined"
+msgstr "अस्वीकृत"
+
+msgid "Canceled"
+msgstr "रद्द"
+
+msgid "Exp Month"
+msgstr "समाप्ति महीना"
+
+msgid "Exp Year"
+msgstr "समाप्ति वर्ष"
+
+msgid "Deleted"
+msgstr "हटाया गया"
+
+msgid "Last used"
+msgstr "अंतिम उपयोग"
+
+msgid "PersonalData"
+msgstr "व्यक्तिगत डेटा"
+
+msgid "You have received a bonus!"
+msgstr "आपको बोनस मिला है!"
+
+msgid "You have received a free ticket, because you have registered using your friend's link!"
+msgstr "आपको एक निःशुल्क टिकट मिला है, क्योंकि आपने अपने मित्र के लिंक का उपयोग करके पंजीकरण किया है!"
+
+msgid "Somebody used your link to register and you have received a free ticket!"
+msgstr "किसी ने पंजीकरण के लिए आपके लिंक का उपयोग किया और आपको एक निःशुल्क टिकट मिला है!"
+
+msgid "You have received a free ticket with your first order!"
+msgstr "आपको अपने पहले ऑर्डर के साथ एक निःशुल्क टिकट मिला है!"
+
+msgid "IBAN / Account number"
+msgstr "IBAN / खाता संख्या"
+
+msgid "Routing number / SWIFT / BIC"
+msgstr "रूटिंग नंबर / SWIFT / BIC"
+
+msgid "Bank Address"
+msgstr "बैंक पता"
+
+msgid "PayPal E-mail"
+msgstr "PayPal ईमेल"
+
+msgid "Fairox Account ID"
+msgstr "Fairox खाता ID"
+
+msgid "USDT Wallet Type"
+msgstr "USDT वॉलेट प्रकार"
+
+msgid "USDT Wallet Address"
+msgstr "USDT वॉलेट पता"
+
+msgid "Email Address"
+msgstr "ईमेल पता"
+
+msgid "Please select another payment method."
+msgstr "कृपया कोई अन्य भुगतान विधि चुनें।"
+
+msgid "IPN Error: Bad request! Please contact us!"
+msgstr "IPN त्रुटि: गलत अनुरोध! कृपया हमसे संपर्क करें!"
+
+msgid "IPN Error: IPN Mode is not HMAC"
+msgstr "IPN त्रुटि: IPN मोड HMAC नहीं है"
+
+msgid "IPN Error: No HMAC signature sent."
+msgstr "IPN त्रुटि: कोई HMAC हस्ताक्षर नहीं भेजा गया।"
+
+msgid "IPN Error: Error reading POST data."
+msgstr "IPN त्रुटि: POST डेटा पढ़ने में त्रुटि।"
+
+msgid "IPN Error: No or incorrect Merchant ID passed."
+msgstr "IPN त्रुटि: कोई या गलत मर्चेंट ID पास नहीं हुई।"
+
+msgid "IPN Error: HMAC signature does not match"
+msgstr "IPN त्रुटि: HMAC हस्ताक्षर मेल नहीं खाता"
+
+msgid "IPN Error: Original currency mismatch"
+msgstr "IPN त्रुटि: मूल मुद्रा मेल नहीं हुई"
+
+msgid "IPN Error: Amount is less than order total!"
+msgstr "IPN त्रुटि: राशि ऑर्डर कुल से कम है!"
+
+msgid "Step"
+msgstr "चरण"
+
+msgid "New withdrawal request has been made by user."
+msgstr "उपयोगकर्ता द्वारा नया निकासी अनुरोध किया गया है।"
+
+msgid "User currency"
+msgstr "उपयोगकर्ता मुद्रा"
+
+msgid "New withdrawal request has been made by user"
+msgstr "उपयोगकर्ता द्वारा नया निकासी अनुरोध किया गया है"
+
+msgid "Withdrawal amount"
+msgstr "निकासी राशि"
+
+msgid "Withdrawal method"
+msgstr "निकासी विधि"
+
+msgid "Wrong format!"
+msgstr "गलत प्रारूप!"
+
+msgid "Amount in Gateway"
+msgstr "गेटवे में राशि"
+
+msgid "Currency in Gateway"
+msgstr "गेटवे में मुद्रा"
+
+msgid "The maximum deposit is  %s."
+msgstr "अधिकतम जमा राशि %s है।"
+
+msgid "There are no supported withdrawal methods available."
+msgstr "कोई समर्थित निकासी विधियाँ उपलब्ध नहीं हैं।"
+
+msgid "You have requested a withdrawal! Please allow up to 24h for our acceptance."
+msgstr "आपने निकासी का अनुरोध किया है! कृपया हमारी स्वीकृति के लिए २४ घंटे तक प्रतीक्षा करें।"
+
+msgid "India"
+msgstr "भारत"
+
+msgid "Pay using "
+msgstr "का उपयोग करके भुगतान करें "
+
+msgid "Multi-draw"
+msgstr "मल्टी-ड्रॉ"
+
+msgid "Lines: <span>%s</span> &times; %s &times; %s draws (%s)<br/><span>%s%%</span> multi-draw discount (%s)"
+msgstr "पंक्तियाँ: <span>%s</span> &times; %s &times; %s ड्रॉ (%s)<br/><span>%s%%</span> मल्टी-ड्रॉ छूट (%s)"
+
+msgid "Payment amount"
+msgstr "भुगतान राशि"
+
+msgid "Lines: <span>%s</span> &times; %s &times; %s Draws"
+msgstr "पंक्तियाँ: <span>%s</span> &times; %s &times; %s ड्रॉ"
+
+msgid "Wrong Confirmation Password! Please try again."
+msgstr "गलत पुष्टिकरण पासवर्ड! कृपया पुनः प्रयास करें।"
+
+msgid "Your account have been successfully deleted and you have been successfully logged out!"
+msgstr "आपका खाता सफलतापूर्वक हटा दिया गया है और आप सफलतापूर्वक लॉग आउट हो गए हैं!"
+
+msgid "Group"
+msgstr "समूह"
+
+msgid "Wrong group! Please contact us to solve the issue!"
+msgstr "गलत समूह! समस्या को हल करने के लिए कृपया हमसे संपर्क करें!"
+
+msgid "E-mail and Repeat e-mail are not equal!"
+msgstr "ईमेल और दोहराए गए ईमेल समान नहीं हैं!"
+
+msgid "You cannot edit your account."
+msgstr "आप अपना खाता संपादित नहीं कर सकते।"
+
+msgid "This lottery is not playable."
+msgstr "यह लॉटरी खेलने योग्य नहीं है।"
+
+msgid "Incorrect ticket. Ticket not found."
+msgstr "गलत टिकट। टिकट नहीं मिला।"
+
+msgid "Incorrect ticket. Lines incorrect."
+msgstr "गलत टिकट। लाइनें गलत हैं।"
+
+msgid "Currency(a)"
+msgstr "मुद्रा (a)"
+
+msgid "Currency(b)"
+msgstr "मुद्रा (b)"
+
+msgid "Currency(c)"
+msgstr "मुद्रा (c)"
+
+msgid "We have encountered an error while trying to save data. Please try again or contact us."
+msgstr "डेटा सहेजने का प्रयास करते समय हमें एक त्रुटि मिली है। कृपया पुनः प्रयास करें या हमसे संपर्क करें।"
+
+msgid "We couldn't find your account. Please try another login or contact us."
+msgstr "हमें आपका खाता नहीं मिला। कृपया दूसरा लॉगिन आज़माएँ या हमसे संपर्क करें।"
+
+msgid "Currency"
+msgstr "मुद्रा"
+
+msgid "Promo code"
+msgstr "प्रोमो कोड"
+
+msgid "I accept the <a href=\"%s\" target=\"_blank\">Terms</a>and the <a href=\"%s\" target=\"_blank\">Policy</a>"
+msgstr "मैं <a href=\"%s\" target=\"_blank\">शर्तें</a> और <a href=\"%s\" target=\"_blank\">नीति</a> स्वीकार करता हूँ"
+
+msgid "The registration is allowed through referral link only."
+msgstr "पंजीकरण की अनुमति केवल रेफरल लिंक के माध्यम से दी जाती है।"
+
+msgid "Please choose currency for your account."
+msgstr "कृपया अपने खाते के लिए मुद्रा चुनें।"
+
+msgid "Wrong group!"
+msgstr "गलत समूह!"
+
+msgid "You have received a discount to use with your first order!"
+msgstr "आपको अपने पहले ऑर्डर के साथ उपयोग करने के लिए छूट मिली है!"
+
+msgid "You will receive a free ticket with your first order!"
+msgstr "आपको अपने पहले ऑर्डर के साथ एक मुफ़्त टिकट मिलेगा!"
+
+msgid "You have received bonus money!"
+msgstr "आपको बोनस राशि मिल गई है!"
+
+msgid "You're only one step from playing for millions in lotteries from around the world. Top up your account now to buy tickets!"
+msgstr "आप दुनिया भर की लॉटरी में लाखों जीतने से बस एक कदम दूर हैं। टिकट खरीदने के लिए अभी अपना अकाउंट टॉप अप करें!"
+
+msgid "Your state has been blocked. Please purchase your ticket from different state."
+msgstr "आपके राज्य को ब्लॉक कर दिया गया है। कृपया अपना टिकट किसी दूसरे राज्य से खरीदें।"
+
+msgid "Your country has been blocked."
+msgstr "आपके देश को ब्लॉक कर दिया गया है।"
+
+msgid "You cannot purchase tickets or make a deposit using this account. Please logout and login to your personal account to buy tickets."
+msgstr "आप इस खाते का उपयोग करके टिकट नहीं खरीद सकते या जमा नहीं कर सकते। कृपया लॉगआउट करें और टिकट खरीदने के लिए अपने व्यक्तिगत खाते में लॉग इन करें।"
+
+msgid "You cannot delete your account."
+msgstr "आप अपना खाता नहीं हटा सकते।"
+
+msgid "You cannot request a withdrawal using this account."
+msgstr "आप इस खाते का उपयोग करके निकासी का अनुरोध नहीं कर सकते।"
+
+msgid "Welcome to %s, the best place to play lotteries from all around the world. Pick your lucky numbers and win big!"
+msgstr "दुनिया भर से लॉटरी खेलने के लिए सबसे अच्छी जगह %s में आपका स्वागत है। अपने भाग्यशाली नंबर चुनें और बड़ी जीत हासिल करें!"
+
+msgid "Play now"
+msgstr "अभी खेलें"
+
+msgid "Add more tickets"
+msgstr "और अधिक टिकट जोड़ें"
+
+msgid "Pay now"
+msgstr "अभी भुगतान करें"
+
+msgid "Read more about the prize"
+msgstr "पुरस्कार के बारे में अधिक पढ़ें"
+
+msgid "Learn more"
+msgstr "अधिक जानें"
+
+msgid "See more"
+msgstr "और अधिक देखें"
+
+msgid "Log out"
+msgstr "लॉगआउट करें"
+
+msgid "Checkout"
+msgstr "चेकआउट"
+
+msgid "Return to the transaction list"
+msgstr "लेनदेन सूची पर वापस जाएँ"
+
+msgid "Back to order"
+msgstr "ऑर्डर पर वापस जाएँ"
+
+msgid "Save changes"
+msgstr "परिवर्तन सहेजें"
+
+msgid "Try again"
+msgstr "दोबारा प्रयास करें"
+
+msgid "Change"
+msgstr "बदलें"
+
+msgid "Send"
+msgstr "भेजें"
+
+msgid "Return to ticket list"
+msgstr "टिकट सूची पर वापस जाएँ"
+
+msgid "Every 100th ticket wins!"
+msgstr "हर १००वां टिकट जीतता है!"
+
+msgid "Guaranteed win of %s. <br class=\"promo-widget__prize-item-br\">  The highest odds!"
+msgstr "%s की गारंटीकृत जीत. <br class=\"promo-widget__prize-item-br\"> उच्चतम ऑड्स!"
+
+msgid "Charity | Company | Legal Entity"
+msgstr "चैरिटी | कंपनी | कानूनी इकाई"
+
+msgid "No server specified"
+msgstr "कोई सर्वर निर्दिष्ट नहीं"
+
+msgid "Error "
+msgstr "त्रुटि "
+
+msgid "no login ID submitted"
+msgstr "कोई लॉगिन ID सबमिट नहीं की गई"
+
+msgid "connection not established"
+msgstr "कनेक्शन स्थापित नहीं हुआ"
+
+msgid "No password submitted"
+msgstr "कोई पासवर्ड सबमिट नहीं किया गया"
+
+msgid "Authentication failed"
+msgstr "प्रमाणीकरण विफल"
+
+msgid "No connection to server"
+msgstr "सर्वर से कोई कनेक्शन नहीं"
+
+msgid "No login ID submitted"
+msgstr "कोई लॉगिन ID सबमिट नहीं की गई"
+
+msgid "No server banner"
+msgstr "कोई सर्वर बैनर नहीं"
+
+msgid "abort"
+msgstr "निरस्त"
+
+msgid "apop authentication failed"
+msgstr "apop प्रमाणीकरण विफल"
+
+msgid "Premature end of list"
+msgstr "सूची का समय से पहले समाप्त होना"
+
+msgid "Empty command string"
+msgstr "खाली कमांड स्ट्रिंग"
+
+msgid "connection does not exist"
+msgstr "कनेक्शन मौजूद नहीं है"
+
+msgid "No msg number submitted"
+msgstr "कोई संदेश संख्या सबमिट नहीं की गई"
+
+msgid "Command failed "
+msgstr "कमांड विफल "
+
+msgid "Not implemented yet."
+msgstr "अभी तक लागू नहीं किया गया।"
+
+msgid "Ending quote %1$s was expected."
+msgstr "समाप्ति उद्धरण %1$s अपेक्षित था।"
+
+msgid "This option conflicts with \"%1$s\"."
+msgstr "यह विकल्प \"%1$s\" से विरोधाभास करता है।"
+
+msgid "%1$d values were expected, but found %2$d."
+msgstr "%1$d मान अपेक्षित थे, लेकिन %2$d पाए गए।"
+
+msgid "Games count to display"
+msgstr "प्रदर्शित करने के लिए खेलों की संख्या"
+
+msgid "The number of games should be divisible by 8 [the count of games per slide]."
+msgstr "खेलों की संख्या ८ [प्रति स्लाइड खेलों की संख्या] से विभाज्य होनी चाहिए।"
+
+msgid "NOTE: This widget will not be displayed if the site for internal slot init does not exist"
+msgstr "नोट: यदि आंतरिक स्लॉट इनिट के लिए साइट मौजूद नहीं है, तो यह विजेट प्रदर्शित नहीं किया जाएगा"
+
+msgid "Use custom colors"
+msgstr "कस्टम रंगों का उपयोग करें"
+
+msgid "Button text color"
+msgstr "बटन टेक्स्ट रंग"
+
+msgid "Button text on button hover"
+msgstr "बटन होवर पर बटन टेक्स्ट"
+
+msgid "Button background color"
+msgstr "बटन पृष्ठभूमि रंग"
+
+msgid "Button background color on hover"
+msgstr "होवर पर बटन पृष्ठभूमि रंग"
+
+msgid "Background color"
+msgstr "पृष्ठभूमि रंग"
+
+msgid "The Best Online Casino - %s - Play Now"
+msgstr "सर्वश्रेष्ठ ऑनलाइन कैसीनो - %s - अभी खेलें"
+
+msgid "Welcome to %s, the best place to play casino games online. Choose your favorite game, try your luck and win big!"
+msgstr "%s में आपका स्वागत है, ऑनलाइन कैसीनो गेम खेलने के लिए सबसे अच्छी जगह। अपना पसंदीदा गेम चुनें, अपनी किस्मत आजमाएं और बड़ी जीत हासिल करें!"
+
+msgid "Lotto Casino Slider"
+msgstr "लोट्टो कैसीनो स्लाइडर"
+
+msgid "Display slider widget &bull; LIMIT: none"
+msgstr "डिस्प्ले स्लाइडर विजेट &bull; सीमा: कोई नहीं"
+
+msgid "Site under maintenance"
+msgstr "साइट रखरखाव के अधीन है"
+
+msgid "Site is under unscheduled maintenance"
+msgstr "साइट अनिर्धारित रखरखाव के अधीन है"
+
+msgid "Next draw in: "
+msgstr "अगला ड्रॉ है "
+
+msgid "Multi-Draw"
+msgstr "मल्टी-ड्रॉ"
+
+msgid "Invite a Friend"
+msgstr "किसी मित्र को आमंत्रित करें"
+
+msgid "Casino Primary"
+msgstr "कैसीनो प्राथमिक"
+
+msgid "Casino Footer"
+msgstr "कैसीनो फ़ुटर"
+
+msgid "The draw will take place soon! "
+msgstr "ड्रॉ जल्द ही होगा! "
+
+msgid "Please wait on this page, do not refresh or close it. "
+msgstr "कृपया इस पृष्ठ पर प्रतीक्षा करें, इसे रीफ़्रेश या बंद न करें। "
+
+msgid "The draw results will be displayed automatically."
+msgstr "ड्रॉ के परिणाम स्वचालित रूप से प्रदर्शित किए जाएँगे।"
+
+msgid "Deposits"
+msgstr "डिपॉजिट्स"
+
+msgid "Transactions"
+msgstr "ट्रांजेक्शन्स"
+
+msgid "Game Id"
+msgstr "गेम ID"
+
+msgid "Game Name (Provider)"
+msgstr "गेम का नाम (प्रदाता)"
+
+msgid "Draw in: "
+msgstr "ड्रॉ इन: "
+
+msgid "Your address"
+msgstr "आपका पता"
+
+msgid "Your IBAN / Account number"
+msgstr "आपका IBAN / खाता संख्या"
+
+msgid "Your bank address"
+msgstr "आपका बैंक पता"
+
+msgid "Your name"
+msgstr "आपका नाम"
+
+msgid "Your surname"
+msgstr "आपका उपनाम"
+
+msgid "Paypal E-mail"
+msgstr "Paypal ईमेल"
+
+msgid "Your PayPal e-mail"
+msgstr "आपका Paypal ईमेल"
+
+msgid "Fairox Account ID (user name or email)"
+msgstr "Fairox खाता ID (उपयोगकर्ता नाम या ईमेल)"
+
+msgid "Your USDT wallet type"
+msgstr "आपका USDT वॉलेट प्रकार"
+
+msgid "Your USDT wallet address"
+msgstr "आपका USDT वॉलेट पता"
+
+msgid "Email address"
+msgstr "ईमेल पता"
+
+msgid "Your email"
+msgstr "आपका ईमेल"
+
+msgid "Please click on the button below to complete your payment."
+msgstr "कृपया अपना भुगतान पूरा करने के लिए नीचे दिए गए बटन पर क्लिक करें।"
+
+msgid "Transaction "
+msgstr "लेन-देन "
+
+msgid "Your order summary"
+msgstr "आपका ऑर्डर सारांश"
+
+msgid "Item number"
+msgstr "आइटम नंबर"
+
+msgid "Item description"
+msgstr "आइटम विवरण"
+
+msgid "Total"
+msgstr "कुल"
+
+msgid "Message"
+msgstr "संदेश"
+
+msgid "anonymous"
+msgstr "अनाम"
+
+msgid "Required"
+msgstr "आवश्यक"
+
+msgid "Email"
+msgstr "ईमेल"
+
+msgid "Purchase"
+msgstr "खरीद"
+
+msgid "Given numbers <%s> has been purchased by someone else. Please select new numbers."
+msgstr "दिए गए नंबर <%s> को किसी और ने खरीद लिया है। कृपया नए नंबर चुनें।"
+
+msgid "Contact admin to assign any permissions."
+msgstr "किसी भी अनुमति को असाइन करने के लिए एडमिन से संपर्क करें।"
+
+msgid "404 Not Found"
+msgstr "404 नहीं मिला"
+
+msgid "The requested URL couldn't be found."
+msgstr "अनुरोधित URL नहीं मिला।"
+
+msgid "one day"
+msgstr "एक दिन"
+
+msgid "three days"
+msgstr "तीन दिन"
+
+msgid "one week"
+msgstr "एक सप्ताह"
+
+msgid "two weeks"
+msgstr "दो सप्ताह"
+
+msgid "one month"
+msgstr "एक महीना"
+
+msgid "three months"
+msgstr "तीन महीने"
+
+msgid "six months"
+msgstr "छह महीने"
+
+msgid "one year"
+msgstr "एक साल"
+
+msgid "two years"
+msgstr "दो साल"
+
+msgid "three years"
+msgstr "तीन साल"
+
+msgid "Wrong captcha."
+msgstr "गलत कैप्चा।"
+
+msgid "There is something wrong with credentials. Please contact administrator."
+msgstr "क्रेडेंशियल में कुछ गड़बड़ है। कृपया एडमिन से संपर्क करें।"
+
+msgid "Choose your gender"
+msgstr "अपना लिंग चुनें"
+
+msgid "male"
+msgstr "पुरुष"
+
+msgid "female"
+msgstr "महिला"
+
+msgid "No activation"
+msgstr "कोई सक्रियण नहीं"
+
+msgid "Activation optional"
+msgstr "सक्रियण वैकल्पिक"
+
+msgid "Activation required"
+msgstr "सक्रियण आवश्यक"
+
+msgid "You have to specify the user's country prefix"
+msgstr "आपको उपयोगकर्ता का देश उपसर्ग निर्दिष्ट करना होगा"
+
+msgid "You have to specify proper user's country prefix"
+msgstr "आपको उचित उपयोगकर्ता का देश उपसर्ग निर्दिष्ट करना होगा"
+
+msgid "Wrong phone number! Please try to specify it in other format!"
+msgstr "गलत फ़ोन नंबर! कृपया इसे अन्य प्रारूप में निर्दिष्ट करने का प्रयास करें!"
+
+msgid "You have to specify the user's country before adding a phone number!"
+msgstr "फ़ोन नंबर जोड़ने से पहले आपको उपयोगकर्ता का देश निर्दिष्ट करना होगा!"
+
+msgid "Widget doesn't exist"
+msgstr "विजेट मौजूद नहीं है"
+
+msgid "Lotto FR"
+msgstr "लोट्टो FR"
+
+msgid "Powerball (AU)"
+msgstr "पॉवरबॉल (AU)"
+
+msgid "Saturday Lotto (AU)"
+msgstr "शनिवार लोट्टो (AU)"
+
+msgid "Monday/Wednesday Lotto (AU)"
+msgstr "सोमवार/बुधवार लोट्टो (AU)"
+
+msgid "Faireum Games"
+msgstr "Faireum Games"
+
+msgid "Welcome to faireum, the best place to play Faireum Games online. Choose your favorite game, try your luck and win big!"
+msgstr "Faireum में आपका स्वागत है, ऑनलाइन Faireum Games खेलने के लिए सबसे अच्छी जगह। अपना पसंदीदा गेम चुनें, अपनी किस्मत आजमाएँ और बड़ी जीत हासिल करें!"
+
+msgid "Lotto Austria"
+msgstr "लोट्टो ऑस्ट्रिया"
+
+msgid "Deposit & Withdrawal"
+msgstr "जमा और निकासी"
+
+msgid "No luck this time? Try again!"
+msgstr "इस बार किस्मत नहीं मिली? फिर से कोशिश करें!"
+
+msgid "Congratulations! Play again to win even more!"
+msgstr "बधाई हो! और भी ज़्यादा जीतने के लिए फिर से खेलें!"
+
+msgid "Exchange"
+msgstr "एक्सचेंज"
+
+msgid "Your email on the exchange"
+msgstr "एक्सचेंज पर आपका ईमेल"
+
+msgid "The field :label can contain only of numbers, + and spaces."
+msgstr "फ़ील्ड :लेबल में सिर्फ़ नंबर, + और स्पेस हो सकते हैं।"
+
+msgid "Subject"
+msgstr "विषय"
+
+msgid "You're only one step from playing for millions. Top up your account now to play our games!"
+msgstr "आप लाखों के लिए खेलने से बस एक कदम दूर हैं। हमारे गेम खेलने के लिए अभी अपना अकाउंट टॉप अप करें!"
+
+msgid "You have %1$d remaining to buy."
+msgstr "आपके पास खरीदने के लिए %1$d शेष है।"
+
+msgid "Purchase of tickets for %1$s lottery is exceeding allowed bonus balance purchase of %2$s."
+msgstr "%1$s लॉटरी के लिए टिकट की खरीद %2$s की अनुमत बोनस बैलेंस खरीद से अधिक है।"
+
+msgid "Your balance is too low to proceed. Please make <a href=\"/deposit/\">a deposit</a>"
+msgstr "आपका बैलेंस आगे बढ़ने के लिए बहुत कम है। कृपया <a href=\"/deposit/\">जमा करें</a>"
+
+msgid "Your message"
+msgstr "आपका संदेश"
+
+msgid "Get 50% bonus"
+msgstr "५०% बोनस पाएँ"
+
+msgid "Get 50% bonus on your deposit when paying with GG Token."
+msgstr "GG टोकन से भुगतान करने पर अपनी जमा राशि पर ५०% बोनस पाएँ।"
+
+msgid "Learn How"
+msgstr "जानें कैसे"
+
+msgid "Guaranteed 65000 USD Prize!"
+msgstr "६५००० USD का गारंटीशुदा पुरस्कार!"
+
+msgid "Casino Front Page Bottom"
+msgstr "कैसीनो फ्रंट पेज बॉटम"
+
+msgid "Front Page casino bottom widget area."
+msgstr "फ्रंट पेज कैसीनो बॉटम विजेट एरिया।"
+
+msgid "Casino Front Page Top"
+msgstr "कैसीनो फ्रंट पेज टॉप"
+
+msgid "Front Page casino top widget area."
+msgstr "फ्रंट पेज कैसीनो टॉप विजेट एरिया।"
+
+msgid "Casino Front Page Content"
+msgstr "कैसीनो फ्रंट पेज कंटेंट"
+
+msgid "Front Page casino content widget area."
+msgstr "फ्रंट पेज कैसीनो कंटेंट विजेट एरिया।"
+
+msgid "unpaid"
+msgstr "अवैतनिक"
+
+msgid "Hungary"
+msgstr "हंगरी"
+
+msgid "Austria"
+msgstr "ऑस्ट्रिया"
+
+msgid "Germany"
+msgstr "जर्मनी"
+
+msgid "Brazil"
+msgstr "ब्राजील"
+
+msgid "You have received a free ticket!"
+msgstr "आपको एक निःशुल्क टिकट मिला है!"
+
+msgid "Your account has been activated successfully."
+msgstr "आपका अकाउंट ठीक से चालू हो चूका है।"
+
+msgid "Displays image on whole available width. Visibility for guests or logged in users can be adjusted."
+msgstr "छवि को पूरी उपलब्ध चौड़ाई पर प्रदर्शित करता है। मेहमानों या लॉग इन उपयोगकर्ताओं के लिए दृश्यता को समायोजित किया जा सकता है।"
+
+msgid "Dra"
+msgstr "ड्रॉ"
+
+msgid "Winning Odd"
+msgstr "जीतने का विषम"
+
+msgid "The more draws you include in your entry, the higher your discount will be! Play 5, 10, 25 or 52 consecutive draws with your lucky numbers to save up to 25%!"
+msgstr "आप अपनी प्रविष्टि में जितने अधिक ड्रॉ शामिल करेंगे, आपकी छूट उतनी ही अधिक होगी! २५% तक की बचत करने के लिए अपने भाग्यशाली नंबरों के साथ ५, १०, २५ या ५२ लगातार ड्रॉ खेलें!"
+
+msgid "Postal/ZIP code"
+msgstr "पोस्टल/ज़िप कोड"
+
+msgid "Social account activation"
+msgstr "सोशल अकाउंट एक्टिवेशन"
+
+msgid "Wrong phone number! Please try to specify in international format!"
+msgstr "गलत फ़ोन नंबर! कृपया अंतर्राष्ट्रीय प्रारूप में निर्दिष्ट करने का प्रयास करें!"
+
+msgid "Connect with"
+msgstr "कनेक्ट करें"
+
+msgid "Social security error! Please try again."
+msgstr "सोशल सुरक्षा त्रुटि! कृपया फिर से प्रयास करें।"
+
+msgid "Authentication error. Please try again."
+msgstr "प्रमाणीकरण त्रुटि। कृपया फिर से प्रयास करें।"
+
+msgid "Your social media login is confirmed. You can log in faster now."
+msgstr "आपका सोशल मीडिया लॉगिन कन्फ़र्म हो गया है। अब आप तेज़ी से लॉग इन कर सकते हैं।"
+
+msgid "Your account has been connected with another social email. Try removing the email in the social application to login."
+msgstr "आपका खाता किसी अन्य सोशल ईमेल से कनेक्ट हो गया है। लॉग इन करने के लिए सोशल एप्लिकेशन में ईमेल हटाने का प्रयास करें।"
+
+msgid "Your account has been activated before."
+msgstr "आपका खाता पहले भी सक्रिय हो चुका है।"
+
+msgid "Social activation security error! Please try again."
+msgstr "सोशल एक्टिवेशन सुरक्षा त्रुटि! कृपया फिर से प्रयास करें।"
+
+msgid "Incorrect social activation link. Please contact us for manual activation."
+msgstr "गलत सोशल एक्टिवेशन लिंक। कृपया मैन्युअल एक्टिवेशन के लिए हमसे संपर्क करें।"
+
+msgid "Please confirm your email to login with social media."
+msgstr "सोशल मीडिया से लॉग इन करने के लिए कृपया अपने ईमेल की पुष्टि करें।"
+
+msgid "Check your email and confirm the connection of our app with your social media.         You can resend the social media activation link once every 24 hours.          Please try again later or contact us."
+msgstr "कृपया अपना ईमेल जांचें और हमारे ऐप की आपके सोशल मीडिया से कनेक्शन की पुष्टि करें। आप हर 24 घंटे में एक बार सोशल मीडिया सक्रियण लिंक को फिर से भेज सकते हैं। कृपया बाद में पुनः प्रयास करें या हमसे संपर्क करें।"
+
+msgid "Choose..."
+msgstr "चुनें..."
+
+msgid "Draw time"
+msgstr "ड्रॉ का समय"
+
+msgid "Select currency:"
+msgstr "मुद्रा चुनें:"
+
+msgid "Invite a friend to play! If someone registers and makes an order, you will receive a free ticket."
+msgstr "किसी मित्र को खेलने के लिए आमंत्रित करें! अगर कोई रजिस्टर करता है और ऑर्डर करता है, तो आपको एक मुफ़्त टिकट मिलेगा।"
+
+msgid "Wrong amount."
+msgstr "गलत राशि।"
+
+msgid "Unknown error! Please try again later or contact us!"
+msgstr "अज्ञात त्रुटि! कृपया बाद में फिर से प्रयास करें या हमसे संपर्क करें!"
+
+msgid "User selected currency"
+msgstr "उपयोगकर्ता द्वारा चुनी गई मुद्रा"
+
+msgid "Phone number (including country code)"
+msgstr "फ़ोन नंबर (देश कोड सहित)"
+
+msgid "Please fill in all required fields!"
+msgstr "कृपया सभी आवश्यक फ़ील्ड भरें!"
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "आपका बोनस बैलेंस आगे बढ़ने के लिए बहुत कम है।"
+
+msgid "Greek Keno"
+msgstr "ग्रीक केनो"
+
+msgid "Italian Keno"
+msgstr "इतालवी केनो"
+
+msgid "Slovak Keno"
+msgstr "स्लोवाक केनो"
+
+msgid "Czech Keno"
+msgstr "चेक केनो"
+
+msgid "Latvian Keno"
+msgstr "लातवियाई केनो"
+
+msgid "German Keno"
+msgstr "जर्मन केनो"
+
+msgid "French Keno"
+msgstr "फ्रेंच केनो"
+
+msgid "Finnish Keno"
+msgstr "फिनिश केनो"
+
+msgid "Polish Keno"
+msgstr "पोलिश केनो"
+
+msgid "Belgian Keno"
+msgstr "बेल्जियम केनो"
+
+msgid "Pick %d numbers and %d bonus"
+msgstr "%d नंबर और %d बोनस चुनें"
+
+msgid "Set For Life (UK)"
+msgstr "सेट फॉर लाइफ (यूके)"
+
+msgid "Quina"
+msgstr "क्विना"
+
+msgid "GG World Lottery"
+msgstr "GG वर्ल्ड लॉटरी"
+
+msgid "GG World Million"
+msgstr "GG वर्ल्ड मिलियन"
+
+msgid "GG World X"
+msgstr "GG वर्ल्ड एक्स"
+
+msgid "GG World Keno"
+msgstr "GG वर्ल्ड केनो"
+
+msgid "(local)"
+msgstr "(स्थानीय)"
+
+msgid "Your phone"
+msgstr "आपका फोन"
+
+msgid "Alt text (optional)"
+msgstr "ऑल्ट टेक्स्ट (वैकल्पिक)"
+
+msgid "Draws take place every day at 15:00, 20:58 and 23:00 GMT+3"
+msgstr "ड्रॉ हर दिन १५:००, २०:५८ और २३:०० GMT+३ पर होते हैं"
+
+msgid "Lotto Promo"
+msgstr "लोट्टो प्रोमो"
+
+msgid "Widget explaining how to play lotteries online"
+msgstr "ऑनलाइन लॉटरी खेलने का तरीका बताने वाला विजेट"
+
+msgid "YouTube thumbnail"
+msgstr "यूट्यूब थंबनेल"
+
+msgid "What are the reasons to pay with %sGG Token%s?"
+msgstr "%sGG टोकन%s से भुगतान करने के क्या कारण हैं?"
+
+msgid "Enjoy the benefits of GG Token at %s. Simply using GG Token as the payment method at %s grants you a %s 50%s bonus money on each deposit! %s That's not all, more will be revealed soon through our Newsletter!"
+msgstr "%s पर GG टोकन के लाभों का आनंद लें। %s पर भुगतान विधि के रूप में बस GG टोकन का उपयोग करने से आपको प्रत्येक जमा पर %s 50%s बोनस राशि मिलती है! %s इतना ही नहीं, हमारे न्यूज़लेटर के माध्यम से जल्द ही और भी जानकारी दी जाएगी!"
+
+msgid "How to buy and use GG Token?"
+msgstr "GG टोकन कैसे खरीदें और उसका उपयोग कैसे करें?"
+
+msgid "Visit %shttps://wallet.ggtkn.com%s and download the application for Android or iOS."
+msgstr "%shttps://wallet.ggtkn.com%s पर जाएँ और Android या iOS के लिए एप्लिकेशन डाउनलोड करें।"
+
+msgid "Use the widget on the website to buy GGTKN using a card. That's it! Take note that you also receive a certain amount of BNB for free so you don't have to worry about transaction fees."
+msgstr "कार्ड का उपयोग करके GGTKN खरीदने के लिए वेबसाइट पर विजेट का उपयोग करें। बस इतना ही! ध्यान दें कि आपको एक निश्चित मात्रा में BNB भी मुफ्त में मिलता है, इसलिए आपको लेनदेन शुल्क के बारे में चिंता करने की ज़रूरत नहीं है।"
+
+msgid "Go back to %s, select GGTKN as the payment method, and use the \"GGTKN\" promo code."
+msgstr "%s पर वापस जाएँ, भुगतान विधि के रूप में GGTKN चुनें, और \"GGTKN\" प्रोमो कोड का उपयोग करें।"
+
+msgid "Supported wallets"
+msgstr "समर्थित वॉलेट"
+
+msgid "GGTKN is Metamask and TrustWallet verified. You can also use those wallets for GGTKN transactions."
+msgstr "GGTKN मेटामास्क और ट्रस्टवॉलेट द्वारा सत्यापित है। आप GGTKN लेनदेन के लिए उन वॉलेट का भी उपयोग कर सकते हैं।"
+
+msgid "Login to"
+msgstr "लॉग इन करें"
+
+msgid "How to play?"
+msgstr "कैसे खेलें?"
+
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+msgid "Choose"
+msgstr "चुनें"
+
+msgid "Pay"
+msgstr "भुगतान करें"
+
+msgid "Buy"
+msgstr "खरीदें"
+
+msgid "You need to open a free user account on our website."
+msgstr "आपको हमारी वेबसाइट पर एक निःशुल्क उपयोगकर्ता खाता खोलना होगा।"
+
+msgid "Choose from 30+ official lotteries you want to play!"
+msgstr "३०+ आधिकारिक लॉटरी में से चुनें जिन्हें आप खेलना चाहते हैं!"
+
+msgid "Select your preferred payment method, and make the payment."
+msgstr "अपनी पसंदीदा भुगतान विधि चुनें, और भुगतान करें।"
+
+msgid "Payment Methods"
+msgstr "भुगतान विधियाँ"
+
+msgid "We buy an official lottery ticket on your behalf."
+msgstr "हम आपकी ओर से एक आधिकारिक लॉटरी टिकट खरीदते हैं।"
+
+msgid "My Tickets"
+msgstr "मेरे टिकट"
+
+msgid "Your winnings will be transered directly to your account."
+msgstr "आपकी जीत सीधे आपके खाते में स्थानांतरित कर दी जाएगी।"
+
+msgid "How it works?"
+msgstr "यह कैसे काम करता है?"
+
+msgid "Raffle Results"
+msgstr "रैफ़ल परिणाम"
+
+msgid "Winning numbers"
+msgstr "विजेता संख्याएँ"
+
+msgid "Promote and earn"
+msgstr "प्रचार करें और कमाएँ"
+
+msgid "Previous"
+msgstr "पिछला"
+
+msgid "Next"
+msgstr "अगला"
+
+msgid "REGISTER and get a FREE GG World Welcome Raffle ticket"
+msgstr "रजिस्टर करें और मुफ़्त GG वर्ल्ड वेलकम रैफ़ल टिकट पाएँ"
+
+msgid "Lottery Commissions"
+msgstr "लॉटरी कमीशन"
+
+msgid "Casino Commissions"
+msgstr "कैसीनो कमीशन"
+
+msgid "Account - Promote and earn"
+msgstr "अकाउंट - प्रमोट करें और कमाएँ"
+
+msgid "Promote %s's services and earn! Simply share your reflink on social media, blog, or any other place and receive a comission for each referred player."
+msgstr "लोट्टोपार्क की सेवाओं को प्रमोट करें और कमाएँ! बस अपना रिफ़रल लिंक सोशल मीडिया, ब्लॉग या किसी और जगह जगह पर शेयर करें और हर संदर्भित खिलाड़ी के लिए कमीशन प्राप्त करें।"
+
+msgid "Your general reflink"
+msgstr "आपका सामान्य रिफ़रल लिंक"
+
+msgid "Your casino reflink"
+msgstr "आपका कैसीनो रिफ़रल लिंक"
+
+msgid "General QR Code"
+msgstr "सामान्य क्यूआर कोड"
+
+msgid "Download QR Code"
+msgstr "क्यूआर कोड डाउनलोड करें"
+
+msgid "total income"
+msgstr "कुल आय"
+
+msgid "Revenue this month"
+msgstr "इस महीने का रेवेनुए"
+
+msgid "registrations"
+msgstr "रजिस्ट्रेशन"
+
+msgid "clicks"
+msgstr "क्लिक"
+
+msgid "Statistics"
+msgstr "आंकड़े"
+
+msgid "30 days"
+msgstr "३० दिन"
+
+msgid "60 days"
+msgstr "६० दिन"
+
+msgid "Income"
+msgstr "आय"
+
+msgid "Clicks"
+msgstr "क्लिक्स"
+
+msgid "Registration"
+msgstr "रजिस्ट्रेशन"
+
+msgid "Active players"
+msgstr "एक्टिव खिलाड़ी"
+
+msgid "Earnings over the last 30 days"
+msgstr "पिछले ३० दिनों की कमाई"
+
+msgid "Your plans"
+msgstr "तुम्हारी योजनायें"
+
+msgid "Lottery 1st tier sale commission value:"
+msgstr "लॉटरी प्रथम स्तरीय सेल कमीशन मूल्य:"
+
+msgid "Lottery 2nd tier sale commission value:"
+msgstr "लॉटरी द्वितीय स्तरीय सेल कमीशन मूल्य:"
+
+msgid "Casino 1st tier commission value:"
+msgstr "कैसीनो प्रथम स्तरीय कमीशन मूल्य:"
+
+msgid "Casino 2nd tier commission value:"
+msgstr "कैसीनो द्वितीय स्तरीय कमीशन मूल्य:"
+
+msgid "Hungarian Keno"
+msgstr "हंगेरियन केनो"
+
+msgid "Slovak Keno 10"
+msgstr "स्लोवाक केनो १०"
+
+msgid "Ukrainian Keno"
+msgstr "यूक्रेनी केनो"
+
+msgid "Keno New York"
+msgstr "न्यूयॉर्क केनो"
+
+msgid "Brazilian Keno"
+msgstr "ब्राज़ीलियाई केनो"
+
+msgid "Swedish Keno"
+msgstr "स्वीडिश केनो"
+
+msgid "Australian Keno"
+msgstr "ऑस्ट्रेलियाई केनो"
+
+msgid "Danish Keno"
+msgstr "डेनिश केनो"
+
+msgid "Norwegian Keno"
+msgstr "नॉर्वेजियन केनो"
+
+msgid "Lithuanian Keno"
+msgstr "लिथुआनियाई केनो"
+
+msgid "Croatian Keno"
+msgstr "क्रोएशियाई केनो"
+
+msgid "Belarusian Keno"
+msgstr "बेलारूसी केनो"
+
+msgid "Estonian Keno"
+msgstr "एस्टोनियाई केनो"
+
+msgid "Canadian Keno"
+msgstr "कनाडाई केनो"

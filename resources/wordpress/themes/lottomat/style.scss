@@ -1,0 +1,50 @@
+/*
+Theme Name:     LottoMat Theme
+Description:    LottoMat whitelabel theme.
+Author:         WhiteLotto
+Text Domain:	lottomat-theme
+Template:		base
+Version:        2.0.0
+*/
+@import 'colors_base';
+@import 'elements';
+@import '../../../scss/_mixins';
+
+.btn-default,
+.btn-default:disabled:hover,
+.btn-default.disabled:hover {
+  background-color: $white;
+  color: $lightBlue;
+  border-color: transparent;
+}
+.btn-default:hover,
+.btn-default-hover {
+  background: none;
+  color: $white;
+  border-color: $white;
+}
+header.header-dark div.main-width {
+  background-image: url('../images/header_bg.png');
+}
+.promo-widget {
+  background-color: $lightBlue;
+}
+
+#text-after-results,
+.fa.fa-check-circle.keno {
+  color: #1db4ed;
+}
+
+.keno.platform-alert.platform-alert-success {
+  background-color: #1db4ed10;
+  border: 1px solid #1db4ed;
+}
+
+.promo-widget__button {
+  @include screen_max_w_1000 {
+    margin-right: 20px;
+  }
+  @include screen_max_w_400 {
+    margin-right: 10px;
+  }
+}

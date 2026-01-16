@@ -1,0 +1,235 @@
+@import '../../../scss/_mixins.scss';
+
+.ticket-details-row td {
+  float: none !important;
+}
+
+@include screen_max_w_675 {
+  .ticket-details-info .keno-article {
+    margin-top: -6px;
+    margin-bottom: -15px;
+  }
+}
+
+.ticket-details-header {
+  float: none !important;
+  width: 100%;
+  border: none !important;
+  padding: 0 !important;
+}
+
+@include screen_max_w_600 {
+  .ticket-details-row .ticket-details {
+    margin-left: -17px;
+    width: 112% !important;
+  }
+}
+
+@include screen_max_w_700 {
+  .ticket-details-row .ticket-details {
+    margin-top: 20px;
+  }
+}
+
+@include screen_max_w_390 {
+  .ticket-details-row .ticket-details {
+    margin-left: -49px;
+    margin-top: -30px;
+    transform: scale(0.8);
+    width: 130% !important;
+  }
+}
+@include screen_max_w_360 {
+  .ticket-details-row .ticket-details {
+    margin-left: -44px;
+  }
+}
+
+.keno-article .header-result {
+  font-size: 1.5em;
+  line-height: 37px;
+  margin: 25px 0 10px;
+}
+
+.keno-article .text-result {
+  margin: 20px 0 25px 0;
+  font-size: 1em;
+}
+
+@include screen_max_w_1000 {
+  #play-again {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+
+#play-again .keno.platform-alert.platform-alert-success.hide {
+  display: none;
+}
+
+.ticket-details-row {
+  td {
+    float: none !important;
+  }
+}
+.ticket-success {
+  border: 1px solid #e5ebef;
+}
+.balls-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-right: -15px;
+  margin-bottom: 20px;
+  margin-left: -15px;
+}
+.thank-you-page-ball {
+  font-size: 1.6em;
+  font-weight: 700;
+  @include screen_max_w_600 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.3em;
+    margin: 2px 2px 20px 2px;
+  }
+  @include screen_max_w_400 {
+    font-size: 1.3em !important;
+  }
+  @include screen_max_w_390 {
+    font-size: 1.4em !important;
+    margin: 15px 5px 5px 2px;
+  }
+}
+.thank-you-page-bonus-ball {
+  font-size: 1.3em !important;
+  font-weight: 700;
+  @include screen_max_w_600 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.3em;
+    margin: 2px;
+  }
+  @include screen_max_w_500 {
+    margin: 15px 2px 5px 2px;
+  }
+  @include screen_max_w_400 {
+    font-size: 1.3em !important;
+  }
+  @include screen_max_w_390 {
+    font-size: 1.4em !important;
+  }
+}
+.keno-article {
+  font-size: 1.6em;
+  text-align: center;
+  .header-result {
+    font-size: 1.5em;
+    line-height: 37px;
+    margin: 25px 0 10px;
+  }
+  .text-result {
+    margin: 20px 0 25px 0;
+    font-size: 1em;
+  }
+}
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.balls-draw {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 1.3em;
+}
+.ticket-details-info {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  .keno-article {
+    @include screen_max_w_675 {
+      margin-top: -6px;
+      margin-bottom: -15px;
+    }
+  }
+}
+
+.keno-clock {
+  transform: scale(1.1);
+  margin-bottom: 20px;
+  @include screen_max_w_970 {
+    transform: scale(0.9);
+    margin-bottom: 10px;
+    margin-top: -9px;
+  }
+  @include screen_max_w_575 {
+    transform: scale(0.8);
+    margin-top: -15px;
+  }
+}
+.col-amount-reset {
+  border: none !important;
+  padding-bottom: 20px !important;
+}
+.ticket-details {
+  width: 100%;
+  padding: 0 !important;
+  border-bottom: none !important;
+  text-align: center !important;
+  margin-bottom: 15px !important;
+}
+.ticket-details-header {
+  float: none !important;
+  width: 100%;
+  border: none !important;
+  padding: 0 !important;
+}
+.ticket-line-number.thank-you-page-results {
+  opacity: 0.5;
+}
+.header-result.keno {
+  margin-top: -10px;
+}
+.info-section {
+  border: none !important;
+  padding: 0 !important;
+}
+.play-again {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.play-again-section {
+  display: none;
+}
+#play-again-paragraph-results {
+  text-align: center;
+}
+.keno.platform-alert.platform-alert-success {
+  padding: 20px;
+}
+#play-again {
+  @include screen_max_w_1000 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .keno.platform-alert.platform-alert-success.hide {
+    display: none;
+  }
+}
+
+#text-after-results,
+.fa.fa-check-circle.keno {
+  color: #4caf50;
+}
+
+.keno.platform-alert.platform-alert-success {
+  background-color: #4caf5010;
+  border: 1px solid #4caf50;
+}

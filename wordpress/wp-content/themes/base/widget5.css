@@ -1,0 +1,165 @@
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  src: url(/wp-content/themes/base/fonts/SourceSansPro-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(/wp-content/themes/base/fonts/SourceSansPro-Bold.ttf) format("truetype");
+}
+
+.widget-5 {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.widget-5 .widget-top-title {
+  width: 120px;
+  border-top: 1px solid #dae0e3;
+  border-left: 1px solid #dae0e3;
+  border-right: 1px solid #dae0e3;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 0 3px 0;
+  height: 16px;
+  display: table;
+}
+
+.widget-5 .widget-top-title img {
+  max-width: 80%;
+}
+
+.widget-5 .widget-content {
+  border: 1px solid #dae0e3;
+  border-radius: 5px;
+  display: table;
+  width: 940px;
+}
+
+.widget-5 .widget-lottery {
+  border-left: 1px solid #dae0e3;
+  width: calc(33.33% - 1px);
+  float: left;
+}
+
+.widget-5 .widget-content .widget-lottery:first-child {
+  border-left: none;
+}
+
+.widget-5 .widget-ball {
+  padding: 15px 0 8px;
+  text-align: center;
+}
+
+.widget-5 .widget-ball img {
+  width: 50px;
+}
+
+.widget-5 .widget-lottery-name {
+  color: #384656;
+  font-size: 20px;
+  text-align: left;
+  font-family: SourceSansPro-Bold;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.widget-5 .widget-lottery-time {
+  margin-top: 0px;
+  color: #87979c;
+  font-size: 15px;
+  font-family: SourceSansPro-SemiBold;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.widget-5 .draw-results {
+  margin-top: 35px;
+  text-align: left;
+  display: table;
+  margin: 3px 12px 16px;
+  border-spacing: 4px 0;
+}
+
+.widget-5 .ball {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font-family: SourceSansPro-Bold;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.widget-5 .green-ball {
+  background: url(/wp-content/themes/base/images/widgets/ball-green.png);
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.widget-5 .white-ball {
+  background: url(/wp-content/themes/base/images/widgets/ball-white.png);
+  background-size: 100% 100%;
+  color: #384656;
+}
+
+.widget-5 .widget-nearest-jackpot {
+  color: #87979c;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 12px;
+  margin-left: 15px;
+  font-family: SourceSansPro-Bold;
+}
+
+.widget-5 .widget-jackpot {
+  color: #b849a9;
+  font-family: SourceSansPro-Bold;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.widget-5 .widget-play-now {
+  display: table;
+  float: right;
+  background: #67bd2e;
+  width: 110px;
+  padding: 8px 0 10px;
+  text-align: center;
+  color: #FFF;
+  font-family: SourceSansPro-Bold;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+
+.widget-5 .widget-left {
+  float: left;
+  width: 28%;
+  text-align: center;
+}
+
+.widget-5 .widget-right {
+  float: right;
+  width: 72%;
+}
+
+.widget-5 .widget-bottom {
+  display: table;
+  width: 100%;
+  padding: 0 0 10px;
+}
+
+.widget-5 .calendar-icon {
+  background: url(/wp-content/themes/base/images/widgets/small-calendar.png);
+  width: 22px;
+  height: 22px;
+  display: inline-table;
+  background-size: 100% 100%;
+  float: left;
+  margin-right: 8px;
+}

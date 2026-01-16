@@ -1,0 +1,205 @@
+// PAGE - How to buy GGTKN
+
+#page-howtobuyggtkn {
+  $primary: #01afcf;
+
+  width: 100%;
+  padding-top: 30px;
+
+  // RESET
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  @media (min-width: 950px) {
+    h1 {
+      font-size: 39px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+  }
+  a {
+    color: $primary;
+
+    &:hover {
+      color: darken($primary, 15%);
+    }
+  }
+
+  // GENERIC
+  .fw-bold {
+    font-weight: 700;
+  }
+
+  .img-ggtkn-logo {
+    width: 100%;
+    max-width: 210px;
+    display: block;
+    margin-bottom: 30px;
+    @include screen_max_w_950 {
+      max-width: 160px;
+    }
+  }
+
+  > p {
+    max-width: calc(100% - 400px);
+
+    @include screen_max_w_950 {
+      max-width: none;
+    }
+  }
+
+  // GGTKN-SECTION
+  .ggtkn-section-howtobuy {
+    display: flex;
+
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 3px solid $primary;
+
+    @include screen_max_w_950 {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    .col-left {
+      flex: 2;
+      padding-right: 15px;
+    }
+
+    .col-right {
+      width: 400px;
+      position: relative;
+
+      @include screen_max_w_950 {
+        display: none;
+      }
+    }
+
+    .ggtkn-list {
+      counter-reset: ggtkn-counter;
+      padding-left: 0;
+    }
+
+    .ggtkn-list-item {
+      counter-increment: ggtkn-counter;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &::before {
+        $diameter: 60px;
+        content: counter(ggtkn-counter);
+        width: $diameter;
+        min-width: $diameter;
+        height: $diameter;
+        min-height: $diameter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        font-size: 20px;
+        border: 3px solid $primary;
+        border-radius: 50%;
+
+        @include screen_max_w_950 {
+          $diameter-mobile: 40px;
+          width: $diameter-mobile;
+          min-width: $diameter-mobile;
+          height: $diameter-mobile;
+          min-height: $diameter-mobile;
+        }
+      }
+
+      @include screen_max_w_950 {
+        &:nth-child(2) {
+          margin-bottom: 5px;
+        }
+      }
+
+      span {
+        flex: 2;
+      }
+    }
+
+    .img-ggtkn-icon {
+      width: 100%;
+      max-width: 200px;
+      height: 100%;
+      max-height: 200px;
+      position: absolute;
+      top: -160px;
+      right: 0;
+      display: block;
+
+      @include screen_max_w_950 {
+        display: none;
+      }
+    }
+
+    .img-ggtkn-wallet-pc {
+      width: 100%;
+      max-width: 393px;
+      position: absolute;
+      bottom: -100px;
+      display: block;
+
+      @include screen_max_w_950 {
+        display: none;
+      }
+    }
+
+    .ggtkn-img-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-ggtkn-wallet-mobile {
+      max-width: 100%;
+      display: none;
+      margin-top: 10px;
+
+      @include screen_max_w_950 {
+        display: block;
+      }
+    }
+  }
+
+  .ggtkn-grid-logo {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        max-width: 140px;
+        display: block;
+      }
+    }
+  }
+}

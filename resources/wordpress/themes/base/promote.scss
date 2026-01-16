@@ -1,0 +1,401 @@
+.promotePanel {
+  .promotePanelHeader {
+    display: flex;
+    transition: 0.2s;
+
+    @media (max-width: 790px) {
+      flex-direction: column;
+    }
+
+    .promoteLeftBox {
+      width: 60%;
+      transition: 0.2s;
+      box-sizing: border-box;
+      padding-right: 20px;
+
+      @media (max-width: 1091px) {
+        padding-right: 30px;
+      }
+
+      @media (max-width: 790px) {
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+      }
+
+      .promoteCompanyInfo {
+        margin: 45px 0 40px 0;
+        transition: 0.2s;
+
+        @media (max-width: 1091px) {
+          margin: 20px 0;
+        }
+
+        @media (max-width: 900px) {
+          margin: 0 0 14px;
+        }
+      }
+
+      .promoteLinkGroup {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        transition: 0.2s;
+
+        @media (max-width: 980px) {
+          flex-direction: column;
+          text-align: left;
+          align-items: start;
+        }
+
+        .promoteLinkName {
+          min-width: 25%;
+          color: #424242;
+          transition: 0.2s;
+
+          @media (max-width: 900px) {
+            padding-bottom: 5px;
+          }
+        }
+
+        .promoteLink {
+          width: 100%;
+          display: flex;
+
+          input {
+            flex: 2;
+            background: #fff;
+            border: 2px solid #f1f1f2;
+            color: #747474;
+            padding: 13px 20px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            font-size: 16px;
+            box-sizing: border-box;
+            outline: none;
+            cursor: text;
+
+            &:focus {
+              border-color: #67bd2e;
+            }
+          }
+
+          .btn {
+            min-width: 40px;
+            height: 50px;
+            background-color: #f1f1f2;
+            color: #747474;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+          }
+        }
+      }
+    }
+
+    .promoteQrBox {
+      margin-left: auto;
+      transition: 0.2s;
+
+      @media (max-width: 790px) {
+        margin-left: 0;
+      }
+
+      .promoteQrPanel {
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+        padding: 30px;
+        max-width: 360px;
+        text-align: center;
+        transition: 0.2s;
+        display: flex;
+        justify-content: space-between;
+
+        .promoteQrCodeLottery {
+          margin-right: 10px;
+        }
+
+        @media (max-width: 790px) {
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+
+          .promoteQrCodeLottery {
+            margin-right: 20px;
+          }
+        }
+
+        @media (max-width: 550px) {
+          .promoteQrCodeLottery {
+            margin-bottom: 30px;
+            margin-right: 0;
+          }
+        }
+
+        .promoteQrCodeTitle {
+          text-align: center;
+          color: #424242;
+          font-weight: bold;
+          font-size: 15px;
+          padding-bottom: 5px;
+        }
+
+        @media (max-width: 790px) {
+          max-width: 100%;
+        }
+
+        img {
+          transition: 0.2s;
+          max-width: 160px;
+          width: 100%;
+          image-rendering: pixelated;
+        }
+
+        @media (max-width: 600px) {
+          .btn {
+            font-size: 0.9em;
+            line-height: 44px;
+            height: 44px;
+            padding: 0 10px;
+          }
+        }
+
+        @media (max-width: 790px) {
+          a {
+            display: block;
+            max-width: 146px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  .promotePanelDetails {
+    padding-top: 30px;
+
+    @media (max-width: 1010px) {
+      padding-top: 10px;
+    }
+
+    .promoteDetailsRow {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .promoteDetailCol {
+        flex: 1;
+        margin-right: 20px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        padding: 25px 30px;
+        box-sizing: border-box;
+
+        @media (max-width: 1010px) {
+          flex: 0 0 calc(50% - 5px);
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+
+        @media (max-width: 790px) {
+          width: 100%;
+          flex: none;
+        }
+
+        p {
+          color: #b5b5c3;
+          font-size: 16px;
+          margin: 0;
+          font-weight: bold;
+        }
+
+        &:nth-child(1),
+        &:nth-child(2) {
+          .promoteDetailNumber {
+            position: relative;
+            left: -5px;
+          }
+        }
+      }
+
+      .promoteDetailCol:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .promoteDetailNumber {
+    color: #424242;
+    font-size: 36px;
+    font-weight: bold;
+    transition: 0.2s;
+    height: 30px;
+
+    @media (max-width: 1091px) {
+      font-size: 32px;
+    }
+
+    .sup {
+      color: #b5b5c3;
+      font-size: 20px;
+      position: relative;
+      top: -8px;
+      left: 5px;
+    }
+
+    .progressBagde {
+      color: #50cd89;
+      background: #e8fff3;
+      font-size: 12px;
+      padding: 3px;
+      border-radius: 3px;
+      position: relative;
+      top: -6px;
+    }
+  }
+
+  .promotePanelStatistics {
+    display: flex;
+    transition: 0.2s;
+    justify-content: space-between;
+    padding-top: 30px;
+
+    @media (max-width: 1100px) {
+      flex-direction: column;
+    }
+
+    @media (max-width: 1010px) {
+      padding-top: 0;
+    }
+
+    .promoteStatisticTables {
+      flex: 40%;
+      transition: 0.2s;
+
+      @media (max-width: 1091px) {
+        flex: 100%;
+      }
+
+      .promoteStatisticBox:nth-child(1) {
+        margin-bottom: 30px;
+
+        @media (max-width: 1010px) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .promoteStatisticChart {
+      flex: 60%;
+      margin-left: 30px;
+      transition: 0.2s;
+
+      @media (max-width: 1091px) {
+        flex: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+
+      @media (max-width: 1010px) {
+        margin-top: 10px;
+      }
+    }
+
+    .promoteStatisticBox {
+      padding: 25px 30px 10px 30px;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+
+      .promoteStatisticHeader {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+
+        &.withBorderBottom {
+          border-bottom: 1px solid #f1f1f2;
+        }
+
+        .promoteStatisticTitle {
+          color: #424242;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .promoteStatisticNavigation {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          margin-left: auto;
+          transition: 0.2s;
+
+          li {
+            margin: 0 3px;
+          }
+
+          a {
+            color: #747474;
+            padding: 8px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.2s;
+
+            @media (max-width: 440px) {
+              padding: 9px 5px;
+              font-size: 13px;
+            }
+
+            &.active,
+            &:hover {
+              background: #e5ebef;
+              color: #747474;
+            }
+          }
+        }
+      }
+
+      .promoteStatisticBody {
+        .promoteStatisticMonth {
+          padding-top: 5px;
+        }
+
+        .promoteStatisticTable {
+          .promoteStatisticTableRow {
+            display: flex;
+            font-size: 14px;
+            border-top: 1px dashed #f1f1f2;
+            padding: 13px 0;
+
+            .promoteStatisticTableParam {
+              color: #424242;
+            }
+
+            .promoteStatisticTableValue {
+              margin-left: auto;
+              color: #424242;
+              font-weight: bold;
+            }
+          }
+
+          &.promotePlans {
+            .promoteStatisticTableRow {
+              border: none;
+
+              &:nth-child(1) {
+                padding-top: 20px;
+              }
+
+              .promoteStatisticTableParam {
+                color: #b5b5c3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

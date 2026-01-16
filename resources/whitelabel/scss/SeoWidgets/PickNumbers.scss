@@ -1,0 +1,304 @@
+// Colors
+$colorful-border-color: #1db4ed;
+$border-color: #dae0e3;
+$dark-text-color: #384656;
+$text-color: #87979c;
+$jackpot-text-color: #87979c;
+$price-color: #1db4ed;
+$button-bg-color: #67bd2e;
+$button-text-color: #fff;
+$normal-ball-bg-color: #1db4ed;
+$normal-ball-text-color: #87979c;
+$bonus-ball-bg-color: #67bd2e;
+$bonus-ball-text-color: #fff;
+
+// Fonts
+$font-semi-bold: SourceSansPro-SemiBold;
+$font-bold: SourceSansPro-Bold;
+
+// Styles
+a.withoutPointer {
+  pointer-events: none;
+}
+
+a.withoutPointer:hover {
+  cursor: default;
+}
+
+.widget-1 {
+  border: none;
+
+  .widget-nearest-jackpot {
+    border-top: none;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 240px;
+  display: table;
+  border-radius: 5px;
+  min-width: 340px;
+  max-width: 550px;
+
+  .logo {
+    width: 120px;
+    border-top: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 9px 0 6px;
+    height: 16px;
+    display: table;
+
+    img {
+      max-width: 90%;
+    }
+  }
+
+  .widget-content {
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    display: flex;
+  }
+
+  .lottery-logo {
+    padding: 0 15px 8px;
+    text-align: left;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .lottery-name {
+    color: $dark-text-color;
+    font-size: 12px;
+    text-align: left;
+    font-family: $font-bold;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .widget-lottery-time {
+    color: #87979c;
+    font-size: 16px;
+    font-family: $font-semi-bold;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .draw-results {
+    text-align: left;
+    display: flex;
+    margin: 10px 0 12px;
+    border-spacing: 3px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .ball {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: $font-bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 15px;
+
+    &.white-ball {
+      background: $normal-ball-bg-color;
+      color: $normal-ball-text-color;
+    }
+
+    &.bonus-ball {
+      background: $bonus-ball-bg-color;
+      color: $bonus-ball-text-color;
+    }
+
+    .white-ball-shadow {
+      padding-top: 4px;
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+
+    .color-ball-shadow {
+      padding-top: 4px;
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+  }
+
+  .widget-nearest-jackpot,
+  .widget-next-draw {
+    color: $jackpot-text-color;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: $font-bold;
+  }
+
+  .widget-jackpot {
+    color: $price-color;
+    font-family: $font-bold;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .widget-play-now {
+    display: inline-block;
+    background: $button-bg-color;
+    width: 115px;
+    padding: 11px 0;
+    text-align: center;
+    color: $button-text-color;
+    font-family: $font-bold;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 15px;
+  }
+
+  .widget-left {
+    display: inline-flex;
+    min-width: 40%;
+    text-align: center;
+  }
+
+  .widget-right {
+    display: inline-flex;
+    width: 59%;
+    border-left: 1px solid $border-color;
+  }
+
+  .widget-bottom {
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid $border-color;
+  }
+
+  .calendar-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-top: 1px;
+    float: left;
+    margin-right: 8px;
+  }
+
+  .align-right {
+    padding: 10px;
+    display: table;
+    float: right;
+    text-align: center;
+  }
+}
+
+.widget-ticket-entity {
+  border: none;
+  padding: 15px 0 0 0;
+
+  &:hover {
+    padding: 15px 0 0 0;
+  }
+}
+
+.widget-ticket-entity-help {
+  color: $text-color;
+  font-weight: 600;
+}
+
+.widget-ticket-numbers > a:hover,
+.widget-ticket-numbers > a.checked:hover,
+.widget-ticket-numbers > a.checked {
+  background-color: $button-bg-color;
+  border-color: $button-bg-color;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    .widget-content {
+      .lottery-name {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .widget-ticket-entity {
+    position: relative;
+  }
+
+  .container {
+    .widget-content {
+      display: block;
+
+      div {
+        text-align: center;
+      }
+
+      .lottery-name {
+        margin-left: 0;
+        font-size: 17px;
+      }
+
+      .lottery-logo {
+        max-width: 100px;
+        margin: auto;
+        padding: 0;
+      }
+
+      .widget-nearest-jackpot {
+        margin-left: 0;
+      }
+
+      .widget-jackpot {
+        margin-left: 0;
+      }
+    }
+
+    .widget-left {
+      min-width: 100%;
+      justify-content: center;
+    }
+
+    .widget-right {
+      display: block;
+      width: 100%;
+      border-left: none;
+      border-top: 1px solid $border-color;
+    }
+
+    .widget-lottery-time {
+      text-align: left;
+      display: inline-block;
+      margin-left: 0;
+    }
+
+    .widget-ticket-entity-help {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

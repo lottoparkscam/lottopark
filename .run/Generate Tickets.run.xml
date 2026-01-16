@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Generate Tickets" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/platform/oil" scriptParameters="r dev:generate_tickets  gg-world-keno-test 100 7 1 test@user.loc 1 1  ">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="PHP 7.2" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,105 @@
+@media screen and (max-width: 1280px) {
+  /***** SEPARATOR ****/
+  hr.separator {
+    margin: 25px 0 25px 0;
+  }
+
+  /* HEADER */
+  div.user-info div.menu-wrapper {
+    left: -35px;
+  }
+
+  /* NAV */
+  nav#primary-nav div > ul.menu > li > a {
+    padding: 0px 9px;
+  }
+
+  /* TABLES */
+  table.table {
+    margin-top: 0;
+  }
+  table.table-payment,
+  table.table-order,
+  table.table-transactions {
+    margin-top: 20px;
+  }
+
+  table.table-results-detailed {
+    margin-top: 15px;
+  }
+
+  /*** LIST ****/
+
+  .widget-list-carousel-prev,
+  .widget-list-carousel-next {
+    display: none;
+  }
+
+  /**** LOTTERY SHORT INFO ****/
+  .info-short-content {
+    margin: 25px 0;
+  }
+
+  /**** MY ACCOUNT ****/
+  section.myaccount-section {
+    margin-bottom: 25px;
+  }
+
+  /***** TICKET ****/
+  .widget-ticket-entity .widget-ticket-buttons {
+    display: block;
+  }
+  .widget-ticket-entity {
+    margin-bottom: 20px;
+    padding-top: 27px;
+  }
+  .widget-ticket-entity-horizontal {
+    padding-top: 19px;
+
+    &:nth-child(n) {
+      border-radius: 4px;
+      margin-left: 0;
+    }
+  }
+  .widget-ticket-entity:hover {
+    top: 0;
+  }
+  .widget-ticket-entity .widget-ticket-icon-ok,
+  .widget-ticket-entity.checked .widget-ticket-icon-ok {
+    display: none;
+  }
+  .widget-ticket-entity-help {
+    display: inline;
+  }
+
+  .ticket-prize {
+    margin: 25px 0;
+  }
+
+  .widget-raffle-ticket-summary {
+    min-width: auto;
+    width: 27%;
+  }
+
+  /***** PAYMENTS ****/
+  .payment-form .btn {
+    margin-bottom: 5px;
+  }
+
+  /***** TICKETS ****/
+  .tickets-lines {
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+
+  .widget-ticket-additional-form {
+    text-align: left;
+  }
+
+  /***** OTHER *****/
+  .info-short-content,
+  .info-detailed-content,
+  .widget-ticket-content {
+    margin: 45px 0;
+  }
+}

@@ -1,0 +1,4444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-10-02 09:17+0200\n"
+"PO-Revision-Date: 2017-10-02 09:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lv_LV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: classes/controller/admin.php\n"
+"X-Poedit-SearchPath-1: classes/controller/aff.php\n"
+"X-Poedit-SearchPath-2: classes/controller/api.php\n"
+"X-Poedit-SearchPath-3: classes/controller/dev.php\n"
+"X-Poedit-SearchPath-4: classes/controller/index.php\n"
+"X-Poedit-SearchPath-5: classes/controller/task.php\n"
+"X-Poedit-SearchPath-6: classes/controller/whitelabel.php\n"
+"X-Poedit-SearchPath-7: views/admin\n"
+"X-Poedit-SearchPath-8: views/aff\n"
+"X-Poedit-SearchPath-9: views/index\n"
+"X-Poedit-SearchPath-10: views/whitelabel\n"
+"X-Poedit-SearchPath-11: lang/translation.php\n"
+
+#: classes/controller/admin.php:70 classes/controller/aff.php:135
+#: classes/controller/aff.php:437 classes/controller/whitelabel.php:100
+#: classes/controller/whitelabel.php:525 classes/controller/whitelabel.php:1525
+#: classes/controller/whitelabel.php:1949 views/admin/signin/index.php:13
+#: views/admin/signin/index.php:14 views/aff/settings/edit.php:20
+#: views/aff/settings/profile.php:14 views/aff/signin/index.php:13
+#: views/aff/signin/index.php:14 views/whitelabel/affs/edit.php:44
+#: views/whitelabel/affs/index.php:48 views/whitelabel/affs/index.php:72
+#: views/whitelabel/affs/new.php:29 views/whitelabel/affs/view.php:30
+#: views/whitelabel/signin/index.php:13 views/whitelabel/signin/index.php:14
+msgid "Login"
+msgstr "Ienākt"
+
+#: classes/controller/admin.php:72 classes/controller/admin.php:184
+#: classes/controller/admin.php:252 classes/controller/aff.php:137
+#: classes/controller/whitelabel.php:102 classes/controller/whitelabel.php:529
+#: views/admin/signin/index.php:17 views/admin/signin/index.php:18
+#: views/admin/whitelabels/add.php:34 views/admin/whitelabels/edit.php:34
+#: views/aff/settings/profile.php:45 views/aff/signin/index.php:17
+#: views/aff/signin/index.php:18 views/whitelabel/affs/new.php:37
+#: views/whitelabel/affs/view.php:53 views/whitelabel/settings/account.php:18
+#: views/whitelabel/signin/index.php:17 views/whitelabel/signin/index.php:18
+#: views/whitelabel/users/view.php:40
+msgid "Password"
+msgstr "Parole"
+
+#: classes/controller/admin.php:74 classes/controller/aff.php:139
+#: classes/controller/whitelabel.php:104 views/admin/signin/index.php:21
+#: views/aff/signin/index.php:21 views/whitelabel/signin/index.php:21
+msgid "Remember me"
+msgstr "Atcerēties mani"
+
+#: classes/controller/admin.php:90 classes/controller/admin.php:94
+#: classes/controller/aff.php:156 classes/controller/aff.php:160
+#: classes/controller/whitelabel.php:120 classes/controller/whitelabel.php:124
+msgid "Wrong credentials! Please try again."
+msgstr "Kļūdaini piekļuves dati! Lūdzu, mēģiniet vēlreiz."
+
+#: classes/controller/admin.php:99 classes/controller/aff.php:165
+#: classes/controller/whitelabel.php:129
+msgid "Too many login attempts! Please try again later."
+msgstr ""
+"Pārāk daudz pieteikšanās mēģinājumu! Lūdzu, mēģiniet vēlreiz pēc brīža."
+
+#: classes/controller/admin.php:104 classes/controller/aff.php:170
+#: classes/controller/whitelabel.php:134
+msgid "Wrong captcha."
+msgstr "Nepareizs captcha kods."
+
+#: classes/controller/admin.php:108 classes/controller/aff.php:174
+#: classes/controller/whitelabel.php:138 classes/controller/whitelabel.php:2142
+#: classes/controller/whitelabel.php:4594
+msgid "Security error! Please try again."
+msgstr "Drošības kļūda! Lūdzu, mēģiniet vēlreiz."
+
+#: classes/controller/admin.php:124 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/menu.php:2
+msgid "Lottery List"
+msgstr "Loteriju saraksts"
+
+#: classes/controller/admin.php:125 views/admin/lotteries/delays.php:10
+#: views/admin/lotteries/menu.php:3
+msgid "Postponed Draws"
+msgstr "Atliktās izlozēs"
+
+#: classes/controller/admin.php:126 views/admin/lotteries/logs.php:7
+#: views/admin/lotteries/menu.php:4
+msgid "Lottery Logs"
+msgstr "Loteriju žurnāli"
+
+#: classes/controller/admin.php:127 views/admin/lotteries/imvalaplogs.php:7
+#: views/admin/lotteries/menu.php:5
+msgid "Imvalap Logs"
+msgstr "Imvalap žurnāli"
+
+#: classes/controller/admin.php:128 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/lotteries/menu.php:6
+msgid "Lottorisq Logs"
+msgstr "Lottorisq žurnāli"
+
+#: classes/controller/admin.php:129 views/admin/payments/menu.php:2
+#: views/admin/payments/paymentlogs.php:7
+msgid "Payment Logs"
+msgstr "Maksājumu žurnāli"
+
+#: classes/controller/admin.php:130 views/admin/shared/navbar.php:16
+#: views/admin/whitelabels/index.php:10 views/admin/whitelabels/menu.php:2
+msgid "Whitelabels"
+msgstr "Nemarķētie produkti"
+
+#: classes/controller/admin.php:131 classes/controller/aff.php:193
+#: classes/controller/aff.php:294 classes/controller/whitelabel.php:163
+#: views/admin/shared/navbar.php:14 views/aff/shared/navbar.php:14
+#: views/whitelabel/shared/navbar.php:14
+msgid "Dashboard"
+msgstr "Infopanelis"
+
+#: classes/controller/admin.php:177 classes/controller/admin.php:245
+#: classes/controller/admin.php:488 classes/controller/whitelabel.php:242
+#: classes/controller/whitelabel.php:1316
+#: classes/controller/whitelabel.php:3220 views/admin/lotteries/index.php:19
+#: views/admin/whitelabels/add.php:21 views/admin/whitelabels/edit.php:21
+#: views/admin/whitelabels/index.php:19 views/admin/whitelabels/payments.php:21
+#: views/admin/whitelabels/payments_edit.php:37
+#: views/whitelabel/affs/groups.php:20 views/whitelabel/affs/groups_edit.php:21
+#: views/whitelabel/affs/payouts.php:65 views/whitelabel/affs/payouts.php:72
+#: views/whitelabel/affs/payouts.php:77 views/whitelabel/affs/payouts.php:83
+#: views/whitelabel/settings/account.php:14
+#: views/whitelabel/settings/account_edit.php:24
+#: views/whitelabel/settings/lottery.php:17
+#: views/whitelabel/settings/paymentmethods.php:26
+#: views/whitelabel/settings/paymentmethods_edit.php:37
+#: views/whitelabel/transactions/view.php:238
+#: views/whitelabel/users/index.php:67
+msgid "Name"
+msgstr "Nosaukums"
+
+#: classes/controller/admin.php:180 classes/controller/admin.php:248
+#: views/admin/whitelabels/add.php:25 views/admin/whitelabels/edit.php:25
+#: views/admin/whitelabels/index.php:20
+#: views/whitelabel/transactions/view.php:114
+msgid "Domain"
+msgstr "Domēns"
+
+#: classes/controller/admin.php:182 classes/controller/admin.php:250
+#: classes/controller/whitelabel.php:240 views/admin/whitelabels/add.php:30
+#: views/admin/whitelabels/edit.php:30 views/whitelabel/affs/index.php:72
+#: views/whitelabel/settings/account.php:12
+#: views/whitelabel/settings/account_edit.php:20
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: classes/controller/admin.php:213
+msgid "Whitelabel has been saved!"
+msgstr "Nemarķētais produkts saglabāts!"
+
+#: classes/controller/admin.php:233 classes/controller/admin.php:649
+msgid "Wrong whitelabel!"
+msgstr "Nepareizs nemarķētais produkts!"
+
+#: classes/controller/admin.php:254 views/admin/whitelabels/add.php:44
+msgid "Prefix"
+msgstr "Prefikss"
+
+#: classes/controller/admin.php:349
+msgid "Whitelabel has been added!"
+msgstr "Nemarķētais produkts pievienots!"
+
+#: classes/controller/admin.php:429 classes/controller/admin.php:454
+#: classes/controller/whitelabel.php:3162
+#: classes/controller/whitelabel.php:3187
+msgid "Payment method order has been changed!"
+msgstr "Maksājumu metode izmainīta!"
+
+#: classes/controller/admin.php:484 classes/controller/whitelabel.php:246
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:3216
+#: classes/controller/whitelabel.php:4699
+#: views/admin/whitelabels/payments.php:19
+#: views/admin/whitelabels/payments_edit.php:20
+#: views/aff/settings/profile.php:48 views/whitelabel/affs/index.php:18
+#: views/whitelabel/affs/index.php:79 views/whitelabel/affs/view.php:56
+#: views/whitelabel/reports/reports.php:20
+#: views/whitelabel/settings/account.php:23
+#: views/whitelabel/settings/account_edit.php:32
+#: views/whitelabel/settings/paymentmethods.php:24
+#: views/whitelabel/settings/paymentmethods_edit.php:20
+#: views/whitelabel/transactions/view.php:439
+#: views/whitelabel/transactions/view.php:497
+#: views/whitelabel/users/index.php:25 views/whitelabel/users/index.php:76
+#: views/whitelabel/users/view.php:43
+msgid "Language"
+msgstr "Valoda"
+
+#: classes/controller/admin.php:486 classes/controller/whitelabel.php:3218
+#: views/admin/whitelabels/payments.php:22
+#: views/admin/whitelabels/payments_edit.php:28
+#: views/whitelabel/settings/paymentmethods.php:27
+#: views/whitelabel/settings/paymentmethods_edit.php:28
+msgid "Integrated Method"
+msgstr "Integrēta metode"
+
+#: classes/controller/admin.php:490 classes/controller/whitelabel.php:3222
+#: views/admin/whitelabels/payments_edit.php:41
+#: views/whitelabel/settings/paymentmethods_edit.php:41
+msgid "Show on payment page"
+msgstr "Rādīt maksājumu lapā"
+
+#: classes/controller/admin.php:498 classes/controller/whitelabel.php:3230
+#: views/admin/whitelabels/payments_edit.php:47
+#: views/whitelabel/settings/paymentmethods_edit.php:47
+msgid "Merchant E-mail (required)"
+msgstr "Tirgotāja e-pasts (jānorāda obligāti)"
+
+#: classes/controller/admin.php:500 classes/controller/whitelabel.php:3232
+#: views/admin/whitelabels/payments_edit.php:56
+#: views/whitelabel/settings/paymentmethods_edit.php:56
+msgid "Merchant Logo URL"
+msgstr "Tirgotāja logo URL"
+
+#: classes/controller/admin.php:502 classes/controller/whitelabel.php:3234
+#: views/admin/whitelabels/payments_edit.php:61
+#: views/whitelabel/settings/paymentmethods_edit.php:61
+msgid "Merchant Description"
+msgstr "Tirgotāja apraksts"
+
+#: classes/controller/admin.php:504 classes/controller/whitelabel.php:3236
+#: views/admin/whitelabels/payments_edit.php:51
+#: views/whitelabel/settings/paymentmethods_edit.php:51
+msgid "Secret Word (required)"
+msgstr "Slepenais vārds (jānorāda obligāti)"
+
+#: classes/controller/admin.php:510 classes/controller/whitelabel.php:3242
+#: views/admin/whitelabels/payments_edit.php:68
+#: views/whitelabel/settings/paymentmethods_edit.php:68
+msgid "App Client ID"
+msgstr "Lietotnes klienta ID"
+
+#: classes/controller/admin.php:511 classes/controller/whitelabel.php:3243
+msgid "App Client Secret"
+msgstr "Lietotnes klienta slepenā atslēga"
+
+#: classes/controller/admin.php:512 classes/controller/whitelabel.php:3244
+#: views/admin/whitelabels/payments_edit.php:77
+#: views/whitelabel/settings/paymentmethods_edit.php:77
+msgid "Webhook Secret Key"
+msgstr "Webhook slepenā atslēga"
+
+#: classes/controller/admin.php:513 classes/controller/whitelabel.php:3245
+#: classes/controller/whitelabel.php:3452
+#: views/admin/whitelabels/payments_edit.php:82
+#: views/whitelabel/settings/ccsettings_edit.php:65
+#: views/whitelabel/settings/paymentmethods_edit.php:82
+msgid "Test account"
+msgstr "Testa konts"
+
+#: classes/controller/admin.php:518 classes/controller/whitelabel.php:3250
+#: classes/controller/whitelabel.php:3446
+#: views/admin/whitelabels/payments_edit.php:101
+#: views/whitelabel/settings/ccsettings_edit.php:38
+#: views/whitelabel/settings/paymentmethods_edit.php:101
+msgid "API Key"
+msgstr "API atslēga"
+
+#: classes/controller/admin.php:519 classes/controller/whitelabel.php:3251
+#: views/admin/whitelabels/payments_edit.php:106
+#: views/whitelabel/settings/paymentmethods_edit.php:106
+msgid "API Secret"
+msgstr "API slepenā atslēga"
+
+#: classes/controller/admin.php:524 classes/controller/whitelabel.php:3256
+#: views/whitelabel/transactions/view.php:577
+msgid "tpay.com ID"
+msgstr "tpay.com ID"
+
+#: classes/controller/admin.php:525 classes/controller/whitelabel.php:3257
+#: views/admin/whitelabels/payments_edit.php:93
+#: views/whitelabel/settings/paymentmethods_edit.php:93
+msgid "tpay.com Security Code"
+msgstr "tpay.com drošības kods"
+
+#: classes/controller/admin.php:530 classes/controller/whitelabel.php:3262
+#: views/admin/whitelabels/payments_edit.php:113
+#: views/whitelabel/settings/paymentmethods_edit.php:113
+msgid "Configuration Key"
+msgstr "Konfigurācijas atslēga"
+
+#: classes/controller/admin.php:601 classes/controller/whitelabel.php:3337
+#: classes/controller/whitelabel.php:3493
+msgid "Payment method has been saved!"
+msgstr "Maksājuma metode saglabāta!"
+
+#: classes/controller/admin.php:606 classes/controller/whitelabel.php:3342
+msgid "This method is already added!"
+msgstr "Šāda metode jau ir pievienota!"
+
+#: classes/controller/admin.php:612 classes/controller/whitelabel.php:289
+#: classes/controller/whitelabel.php:3348
+msgid "Wrong language!"
+msgstr "Nepareiza valoda!"
+
+#: classes/controller/admin.php:618 classes/controller/whitelabel.php:3354
+msgid "Wrong method!"
+msgstr "Nepareiza metode!"
+
+#: classes/controller/admin.php:680 views/admin/lotteries/index.php:23
+#: views/admin/lotteries/jackpot.php:20
+msgid "Current Jackpot"
+msgstr "Pašreizējais džekpots"
+
+#: classes/controller/admin.php:688
+msgid "Current Jackpot has been changed!"
+msgstr "Pašreizējais džekpots izmainīts!"
+
+#: classes/controller/admin.php:714 views/admin/lotteries/nextdraw.php:20
+#: views/admin/lotteries/nextdraw.php:22
+msgid "Next Draw Date"
+msgstr "Nākamās izlozes datums"
+
+#: classes/controller/admin.php:761
+msgid "Lottery next draw has been changed!"
+msgstr "Nākamā loterijas izloze izmainīta!"
+
+#: classes/controller/admin.php:766
+msgid "Wrong date format!"
+msgstr ""
+"Nepareizs datuma formāts\n"
+"!"
+
+#: classes/controller/admin.php:801 views/admin/lotteries/index.php:21
+#: views/admin/lotteries/index.php:60 views/admin/lotteries/source.php:20
+msgid "Source"
+msgstr "Avots"
+
+#: classes/controller/admin.php:810
+msgid "The source has been changed!"
+msgstr "Avots izmainīts!"
+
+#: classes/controller/admin.php:867 views/admin/lotteries/draw_add.php:20
+#: views/admin/lotteries/imvalaplogs.php:46 views/admin/lotteries/logs.php:46
+#: views/admin/lotteries/lottorisqlogs.php:46
+#: views/admin/payments/paymentlogs.php:46 views/aff/reports/commissions.php:57
+#: views/aff/reports/index.php:175 views/aff/reports/payouts.php:18
+#: views/whitelabel/affs/commissions.php:63
+#: views/whitelabel/affs/payouts.php:35 views/whitelabel/affs/reports.php:181
+#: views/whitelabel/tickets/index.php:68 views/whitelabel/tickets/view.php:29
+#: views/whitelabel/transactions/index.php:58
+#: views/whitelabel/transactions/view.php:23
+#: views/whitelabel/transactions/view.php:581
+#: views/whitelabel/transactions/withdrawal.php:23
+#: views/whitelabel/transactions/withdrawals.php:58
+msgid "Date"
+msgstr "Datums"
+
+#: classes/controller/admin.php:869 views/admin/lotteries/draw_add.php:27
+msgid "Next Jackpot"
+msgstr "Nākamais džekpots"
+
+#: classes/controller/admin.php:873
+#, php-format
+msgid "Draw Number #%s"
+msgstr "Izlozes skaitlis Nr. %s"
+
+#: classes/controller/admin.php:880 views/admin/lotteries/draw_add.php:48
+msgid "Extra Number"
+msgstr "Papildskaitlis"
+
+#: classes/controller/admin.php:880
+#, php-format
+msgid "Bonus Number #%s"
+msgstr "Bonusskaitlis Nr. %s"
+
+#: classes/controller/admin.php:887 views/admin/lotteries/draw_add.php:70
+#: views/admin/lotteries/draw_add.php:71
+msgid "Winners count"
+msgstr "Laimētāju skaits"
+
+#: classes/controller/admin.php:891 views/admin/lotteries/draw_add.php:76
+msgid "Prize per winner"
+msgstr "Laimests katram laimētājam"
+
+#: classes/controller/admin.php:929
+msgid "The draw has been successfully added!"
+msgstr "Izloze veiksmīgi pievienota!"
+
+#: classes/controller/admin.php:934
+msgid "Bonus numbers must differ (from each other and from draw numbers)."
+msgstr ""
+"Bonusskaitļiem jābūt atšķirīgiem (savā starpā un no izlozes skaitļiem)."
+
+#: classes/controller/admin.php:940
+msgid "Draw numbers must differ."
+msgstr "Izlozes skaitļiem jābūt atšķirīgiem."
+
+#: classes/controller/admin.php:1029
+msgid "The postponed date has been deleted!"
+msgstr "Atliktais datums izdzēsts!"
+
+#: classes/controller/admin.php:1034
+msgid ""
+"It's too late to delete this postponed date. Use coding skills to adjust "
+"tickets and draw date within the system!"
+msgstr ""
+"Par vēlu dzēst šo atlikto datumu. Biļetes un izlozes datumu sistēmā varat "
+"izmainīt kodēšanas ceļā!"
+
+#: classes/controller/admin.php:1070 views/admin/lotteries/delays.php:20
+#: views/admin/lotteries/delays_edit.php:28
+msgid "Original date"
+msgstr "Sākotnējais datums"
+
+#: classes/controller/admin.php:1072 views/admin/lotteries/delays_edit.php:35
+msgid "Delayed date"
+msgstr "Atliktais datums"
+
+#: classes/controller/admin.php:1074 views/admin/lotteries/delays.php:19
+#: views/admin/lotteries/delays_edit.php:20 views/admin/lotteries/logs.php:19
+#: views/admin/lotteries/logs.php:47 views/whitelabel/reports/index.php:17
+#: views/whitelabel/tickets/index.php:13 views/whitelabel/tickets/index.php:66
+#: views/whitelabel/tickets/view.php:27
+msgid "Lottery"
+msgstr "Loterija"
+
+#: classes/controller/admin.php:1105
+msgid "The postponed date has been saved!"
+msgstr "Atliktais datums saglabāts!"
+
+#: classes/controller/admin.php:1110
+msgid "The postponed date for this draw already exists!"
+msgstr "Atliktais datums šai izlozei jau pastāv!"
+
+#: classes/controller/admin.php:1116
+msgid "The draw date should be within the future draws!"
+msgstr "Izlozes datumam jābūt nākotnē!"
+
+#: classes/controller/admin.php:1122
+msgid "Wrong lottery!"
+msgstr "Nepareiza loterija!"
+
+#: classes/controller/aff.php:185 classes/controller/aff.php:937
+#: views/aff/reports/menu.php:2 views/aff/reports/payouts.php:7
+#: views/whitelabel/affs/menu.php:9 views/whitelabel/affs/payouts.php:7
+msgid "Payouts"
+msgstr "Izmaksas"
+
+#: classes/controller/aff.php:186 classes/controller/whitelabel.php:161
+#: classes/controller/whitelabel.php:2484 views/aff/reports/index.php:7
+#: views/aff/reports/menu.php:3 views/whitelabel/affs/reports.php:7
+#: views/whitelabel/reports/menu.php:3 views/whitelabel/reports/reports.php:7
+msgid "Generate report"
+msgstr "Ģenerēt pārskatu"
+
+#: classes/controller/aff.php:187 views/aff/reports/index.php:56
+#: views/aff/reports/index.php:64 views/aff/reports/leads.php:7
+#: views/aff/reports/menu.php:4 views/whitelabel/affs/leads.php:7
+#: views/whitelabel/affs/menu.php:11 views/whitelabel/affs/reports.php:44
+#: views/whitelabel/affs/reports.php:52
+msgid "Leads"
+msgstr "Piesaistītie klienti"
+
+#: classes/controller/aff.php:188 views/aff/reports/ftps.php:7
+#: views/aff/reports/menu.php:5 views/whitelabel/affs/ftps.php:7
+#: views/whitelabel/affs/menu.php:12
+msgid "First-Time Purchases"
+msgstr "Pirmreizējie pirkumi"
+
+#: classes/controller/aff.php:189 views/aff/reports/commissions.php:7
+#: views/aff/reports/index.php:156 views/aff/reports/menu.php:6
+#: views/aff/reports/payouts.php:21 views/whitelabel/affs/commissions.php:7
+#: views/whitelabel/affs/groups.php:21 views/whitelabel/affs/menu.php:13
+#: views/whitelabel/affs/payouts.php:38 views/whitelabel/affs/reports.php:163
+msgid "Commissions"
+msgstr "Komisijas"
+
+#: classes/controller/aff.php:190 views/aff/settings/menu.php:2
+#: views/aff/settings/profile.php:7
+msgid "Edit profile"
+msgstr "Rediģēt profilu"
+
+#: classes/controller/aff.php:191 views/aff/settings/menu.php:3
+msgid "Payment settings"
+msgstr "Maksājumu iestatījumi"
+
+#: classes/controller/aff.php:192 classes/controller/whitelabel.php:2212
+#: views/aff/settings/menu.php:4 views/whitelabel/settings/menu.php:3
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: classes/controller/aff.php:263 views/aff/dashboard/index.php:48
+#: views/aff/reports/commissions.php:12 views/aff/reports/commissions.php:51
+#: views/aff/reports/ftps.php:12 views/aff/reports/ftps.php:49
+#: views/aff/reports/index.php:20 views/aff/reports/index.php:81
+#: views/aff/reports/index.php:127 views/aff/reports/index.php:169
+#: views/aff/reports/leads.php:12 views/aff/reports/leads.php:55
+msgid "Medium"
+msgstr "Vide"
+
+#: classes/controller/aff.php:265 views/aff/dashboard/index.php:53
+#: views/aff/reports/commissions.php:20 views/aff/reports/commissions.php:52
+#: views/aff/reports/ftps.php:20 views/aff/reports/ftps.php:50
+#: views/aff/reports/index.php:28 views/aff/reports/index.php:82
+#: views/aff/reports/index.php:128 views/aff/reports/index.php:170
+#: views/aff/reports/leads.php:20 views/aff/reports/leads.php:56
+msgid "Campaign"
+msgstr "Kampaņa"
+
+#: classes/controller/aff.php:267 views/aff/dashboard/index.php:58
+#: views/aff/reports/commissions.php:28 views/aff/reports/commissions.php:53
+#: views/aff/reports/ftps.php:28 views/aff/reports/ftps.php:51
+#: views/aff/reports/index.php:36 views/aff/reports/index.php:83
+#: views/aff/reports/index.php:129 views/aff/reports/index.php:171
+#: views/aff/reports/leads.php:28 views/aff/reports/leads.php:57
+msgid "Content"
+msgstr "Saturs"
+
+#: classes/controller/aff.php:324 views/aff/settings/payment.php:20
+#: views/whitelabel/affs/payouts.php:64 views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/affs/payouts.php:76 views/whitelabel/affs/payouts.php:81
+#: views/whitelabel/transactions/index.php:13
+#: views/whitelabel/transactions/index.php:56
+#: views/whitelabel/transactions/view.php:30
+#: views/whitelabel/transactions/withdrawal.php:29
+#: views/whitelabel/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:53
+#: views/whitelabel/users/deposit.php:21
+msgid "Method"
+msgstr "Metode"
+
+#: classes/controller/aff.php:337 classes/controller/aff.php:350
+#: classes/controller/aff.php:359 views/aff/settings/payment.php:32
+#: views/aff/settings/payment.php:55 views/aff/settings/payment.php:70
+#: views/whitelabel/transactions/view.php:197
+msgid "First name"
+msgstr "Vārds"
+
+#: classes/controller/aff.php:339 classes/controller/aff.php:352
+#: classes/controller/aff.php:361 views/aff/settings/payment.php:36
+#: views/aff/settings/payment.php:59 views/aff/settings/payment.php:74
+#: views/whitelabel/transactions/view.php:201
+msgid "Last name"
+msgstr "Uzvārds"
+
+#: classes/controller/aff.php:341 views/aff/settings/payment.php:40
+msgid "Account IBAN number"
+msgstr "Konta IBAN numurs"
+
+#: classes/controller/aff.php:343 views/aff/settings/payment.php:44
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#: classes/controller/aff.php:345 views/aff/settings/payment.php:48
+#: views/whitelabel/transactions/withdrawal.php:75
+msgid "Bank name"
+msgstr "Bankas nosaukums"
+
+#: classes/controller/aff.php:354 views/aff/settings/payment.php:63
+#: views/whitelabel/affs/payouts.php:74
+#: views/whitelabel/transactions/withdrawal.php:59
+msgid "Skrill e-mail"
+msgstr "Skrill e-pasts"
+
+#: classes/controller/aff.php:363 views/aff/settings/payment.php:78
+#: views/whitelabel/affs/payouts.php:79
+#: views/whitelabel/transactions/withdrawal.php:55
+msgid "Neteller e-mail"
+msgstr "Neteller e-pasts"
+
+#: classes/controller/aff.php:368 views/aff/settings/payment.php:84
+msgid "First name (optional)"
+msgstr "Vārds (nav obligāti)"
+
+#: classes/controller/aff.php:370 views/aff/settings/payment.php:88
+msgid "Last name (optional)"
+msgstr "Uzvārds (nav obligāti)"
+
+#: classes/controller/aff.php:372 views/aff/settings/payment.php:92
+msgid "Bitcoin wallet address"
+msgstr "Bitcoin maciņa adrese"
+
+#: classes/controller/aff.php:389
+msgid "Payment settings have been saved!"
+msgstr "Maksājumu iestatījumi saglabāti!"
+
+#: classes/controller/aff.php:439 classes/controller/whitelabel.php:1527
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4112
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:28
+#: views/aff/settings/profile.php:18 views/whitelabel/affs/commissions.php:36
+#: views/whitelabel/affs/edit.php:48 views/whitelabel/affs/ftps.php:36
+#: views/whitelabel/affs/index.php:51 views/whitelabel/affs/leads.php:36
+#: views/whitelabel/affs/view.php:26 views/whitelabel/tickets/view.php:21
+#: views/whitelabel/transactions/view.php:17
+#: views/whitelabel/transactions/view.php:382
+#: views/whitelabel/transactions/view.php:461
+#: views/whitelabel/transactions/withdrawal.php:17
+#: views/whitelabel/transactions/withdrawal.php:50
+#: views/whitelabel/users/edit.php:20 views/whitelabel/users/index.php:46
+#: views/whitelabel/users/view.php:15
+msgid "First Name"
+msgstr "Vārds"
+
+#: classes/controller/aff.php:441 classes/controller/whitelabel.php:1531
+#: views/aff/settings/edit.php:24 views/aff/settings/profile.php:16
+#: views/whitelabel/affs/edit.php:40 views/whitelabel/affs/view.php:24
+#: views/whitelabel/transactions/view.php:205
+msgid "Company"
+msgstr "Uzņēmums"
+
+#: classes/controller/aff.php:443 classes/controller/whitelabel.php:1529
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4114
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:32
+#: views/aff/settings/profile.php:20 views/whitelabel/affs/commissions.php:39
+#: views/whitelabel/affs/edit.php:52 views/whitelabel/affs/ftps.php:39
+#: views/whitelabel/affs/index.php:54 views/whitelabel/affs/leads.php:39
+#: views/whitelabel/affs/view.php:28 views/whitelabel/tickets/view.php:23
+#: views/whitelabel/transactions/view.php:19
+#: views/whitelabel/transactions/view.php:386
+#: views/whitelabel/transactions/view.php:465
+#: views/whitelabel/transactions/withdrawal.php:19
+#: views/whitelabel/transactions/withdrawal.php:52
+#: views/whitelabel/users/edit.php:24 views/whitelabel/users/index.php:49
+#: views/whitelabel/users/view.php:17
+msgid "Last Name"
+msgstr "Uzvārds"
+
+#: classes/controller/aff.php:445 classes/controller/whitelabel.php:1533
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4116
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:45
+#: views/aff/settings/profile.php:29 views/whitelabel/affs/edit.php:65
+#: views/whitelabel/affs/view.php:37 views/whitelabel/transactions/view.php:217
+#: views/whitelabel/transactions/view.php:410
+#: views/whitelabel/transactions/view.php:485
+#: views/whitelabel/users/edit.php:37 views/whitelabel/users/view.php:24
+msgid "City"
+msgstr "Pilsēta"
+
+#: classes/controller/aff.php:447 classes/controller/whitelabel.php:1535
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4118
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:60
+#: views/aff/settings/profile.php:37 views/whitelabel/affs/edit.php:80
+#: views/whitelabel/affs/view.php:45 views/whitelabel/users/edit.php:52
+#: views/whitelabel/users/view.php:32
+msgid "Postal/ZIP Code"
+msgstr "Pasta indekss"
+
+#: classes/controller/aff.php:449 classes/controller/whitelabel.php:1537
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4120
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:49
+#: views/aff/settings/profile.php:31 views/whitelabel/affs/edit.php:69
+#: views/whitelabel/affs/view.php:39 views/whitelabel/transactions/view.php:414
+#: views/whitelabel/transactions/view.php:489
+#: views/whitelabel/users/edit.php:41 views/whitelabel/users/view.php:26
+msgid "Region"
+msgstr "Rajons"
+
+#: classes/controller/aff.php:451 classes/controller/whitelabel.php:1539
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4122
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:64
+#: views/aff/settings/profile.php:33 views/whitelabel/affs/edit.php:84
+#: views/whitelabel/affs/view.php:41 views/whitelabel/transactions/view.php:398
+#: views/whitelabel/transactions/view.php:473
+#: views/whitelabel/users/edit.php:56 views/whitelabel/users/view.php:28
+msgid "Address #1"
+msgstr "Adrese (1)"
+
+#: classes/controller/aff.php:453 classes/controller/whitelabel.php:1541
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4124
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:68
+#: views/aff/settings/profile.php:35 views/whitelabel/affs/edit.php:88
+#: views/whitelabel/affs/view.php:43 views/whitelabel/transactions/view.php:229
+#: views/whitelabel/transactions/view.php:402
+#: views/whitelabel/transactions/view.php:477
+#: views/whitelabel/users/edit.php:60 views/whitelabel/users/view.php:30
+msgid "Address #2"
+msgstr "Adrese (2)"
+
+#: classes/controller/aff.php:455 classes/controller/aff.php:459
+#: classes/controller/whitelabel.php:1543
+#: classes/controller/whitelabel.php:1547
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4126
+#: classes/controller/whitelabel.php:4130
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:89
+#: views/aff/settings/profile.php:41 views/whitelabel/affs/edit.php:109
+#: views/whitelabel/affs/index.php:77 views/whitelabel/affs/view.php:49
+#: views/whitelabel/users/edit.php:81 views/whitelabel/users/index.php:74
+#: views/whitelabel/users/view.php:36
+msgid "Phone"
+msgstr "Tālrunis"
+
+#: classes/controller/aff.php:457 classes/controller/whitelabel.php:1545
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4128
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:36
+#: views/aff/settings/profile.php:27 views/whitelabel/affs/commissions.php:23
+#: views/whitelabel/affs/edit.php:56 views/whitelabel/affs/ftps.php:23
+#: views/whitelabel/affs/ftps.php:57 views/whitelabel/affs/index.php:26
+#: views/whitelabel/affs/index.php:78 views/whitelabel/affs/leads.php:23
+#: views/whitelabel/affs/leads.php:60 views/whitelabel/affs/reports.php:67
+#: views/whitelabel/affs/reports.php:122 views/whitelabel/affs/view.php:35
+#: views/whitelabel/reports/reports.php:28
+#: views/whitelabel/transactions/view.php:209
+#: views/whitelabel/transactions/view.php:390
+#: views/whitelabel/transactions/view.php:469
+#: views/whitelabel/users/edit.php:28 views/whitelabel/users/index.php:33
+#: views/whitelabel/users/index.php:75 views/whitelabel/users/view.php:22
+msgid "Country"
+msgstr "Valsts"
+
+#: classes/controller/aff.php:461 classes/controller/whitelabel.php:248
+#: classes/controller/whitelabel.php:1549
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4132
+#: classes/controller/whitelabel.php:4699 views/admin/lotteries/index.php:27
+#: views/aff/settings/edit.php:93 views/aff/settings/profile.php:43
+#: views/whitelabel/affs/edit.php:113 views/whitelabel/affs/index.php:80
+#: views/whitelabel/affs/view.php:51 views/whitelabel/settings/account.php:21
+#: views/whitelabel/settings/account_edit.php:40
+#: views/whitelabel/users/edit.php:85 views/whitelabel/users/index.php:77
+#: views/whitelabel/users/view.php:38
+msgid "Time Zone"
+msgstr "Laika josla"
+
+#: classes/controller/aff.php:463 classes/controller/whitelabel.php:1551
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4134
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:72
+#: views/aff/settings/profile.php:39 views/whitelabel/affs/edit.php:92
+#: views/whitelabel/affs/view.php:47 views/whitelabel/users/edit.php:64
+#: views/whitelabel/users/view.php:34
+msgid "Birthdate"
+msgstr "Dzimšanas datums"
+
+#: classes/controller/aff.php:526 classes/controller/aff.php:532
+#: classes/controller/whitelabel.php:1616
+#: classes/controller/whitelabel.php:1622
+#: classes/controller/whitelabel.php:4187
+#: classes/controller/whitelabel.php:4193
+msgid "Wrong phone number! Please try to specify it in other format!"
+msgstr "Nederīgs tālruņa numurs! Lūdzu, pamēģiniet norādīt to citā formātā!"
+
+#: classes/controller/aff.php:538 classes/controller/whitelabel.php:1628
+#: classes/controller/whitelabel.php:4199
+msgid "You have to specify the user's country before adding a phone number!"
+msgstr ""
+"Lai pievienotu tālruņa numuru, jums vispirms jānorāda lietotāja valsts!"
+
+#: classes/controller/aff.php:563
+msgid "Your details has been saved!"
+msgstr "Jūsu informācija saglabāta!"
+
+#: classes/controller/aff.php:569 classes/controller/whitelabel.php:283
+#: classes/controller/whitelabel.php:1661
+#: classes/controller/whitelabel.php:4272
+msgid "Wrong timezone!"
+msgstr "Nepareiza laika josla!"
+
+#: classes/controller/aff.php:575 classes/controller/whitelabel.php:1667
+#: classes/controller/whitelabel.php:4278
+msgid "Wrong birthdate!"
+msgstr "Nepareizs dzimšanas datums!"
+
+#: classes/controller/aff.php:581 classes/controller/whitelabel.php:1673
+#: classes/controller/whitelabel.php:4284
+msgid "Wrong region!"
+msgstr "Kļūdains rajons!"
+
+#: classes/controller/aff.php:587 classes/controller/whitelabel.php:1679
+#: classes/controller/whitelabel.php:4290
+msgid "Wrong country!"
+msgstr "Nepareiza valsts!"
+
+#: classes/controller/aff.php:593 classes/controller/whitelabel.php:1685
+msgid "This login is already in use by another affiliate!"
+msgstr "Šādu lietotājvārdu jau izmanto cits partneris!"
+
+#: classes/controller/aff.php:618 classes/controller/whitelabel.php:202
+#: classes/controller/whitelabel.php:432 classes/controller/whitelabel.php:4322
+#: views/aff/settings/password.php:20 views/aff/settings/password.php:22
+#: views/whitelabel/affs/password.php:20 views/whitelabel/affs/password.php:22
+#: views/whitelabel/settings/password.php:20
+#: views/whitelabel/settings/password.php:22
+#: views/whitelabel/users/password.php:20
+#: views/whitelabel/users/password.php:22
+msgid "New password"
+msgstr "Jauna parole"
+
+#: classes/controller/aff.php:630 classes/controller/whitelabel.php:219
+msgid "Your password has been changed!"
+msgstr "Jūsu parole nomainīta!"
+
+#: classes/controller/aff.php:778 classes/controller/whitelabel.php:2189
+#: views/aff/settings/analytics.php:20
+#: views/whitelabel/settings/analytics.php:20
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics izsekošanas ID"
+
+#: classes/controller/aff.php:786
+msgid "Google Analytics Tracking ID saved!"
+msgstr "Google Analytics izsekošanas ID saglabāts!"
+
+#: classes/controller/whitelabel.php:153 classes/controller/whitelabel.php:3868
+#: views/whitelabel/users/index.php:9 views/whitelabel/users/menu.php:2
+msgid "Active users"
+msgstr "Aktīvi lietotāji"
+
+#: classes/controller/whitelabel.php:154 classes/controller/whitelabel.php:3869
+#: views/whitelabel/users/index.php:11 views/whitelabel/users/menu.php:3
+msgid "Inactive users"
+msgstr "Neaktīvi lietotāji"
+
+#: classes/controller/whitelabel.php:155 classes/controller/whitelabel.php:3870
+#: views/whitelabel/users/index.php:10 views/whitelabel/users/menu.php:4
+msgid "Deleted users"
+msgstr "Dzēsti lietotāji"
+
+#: classes/controller/whitelabel.php:156 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:2
+msgid "Purchases"
+msgstr "Pirkumi"
+
+#: classes/controller/whitelabel.php:157 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:3
+msgid "Deposits"
+msgstr "Iemaksas"
+
+#: classes/controller/whitelabel.php:158
+#: views/whitelabel/transactions/menu.php:4
+#: views/whitelabel/transactions/withdrawals.php:7
+msgid "Withdrawals"
+msgstr "Izmaksas"
+
+#: classes/controller/whitelabel.php:159 views/whitelabel/shared/navbar.php:17
+#: views/whitelabel/tickets/index.php:7 views/whitelabel/tickets/menu.php:2
+msgid "Tickets"
+msgstr "Biļetes"
+
+#: classes/controller/whitelabel.php:160 views/whitelabel/reports/index.php:7
+#: views/whitelabel/reports/menu.php:2
+msgid "Winners"
+msgstr "Laimētāji"
+
+#: classes/controller/whitelabel.php:244 classes/controller/whitelabel.php:474
+#: classes/controller/whitelabel.php:527 classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4365
+#: classes/controller/whitelabel.php:4699 views/aff/settings/profile.php:22
+#: views/whitelabel/affs/commissions.php:33 views/whitelabel/affs/email.php:20
+#: views/whitelabel/affs/ftps.php:33 views/whitelabel/affs/index.php:45
+#: views/whitelabel/affs/index.php:73 views/whitelabel/affs/leads.php:33
+#: views/whitelabel/affs/new.php:33 views/whitelabel/affs/view.php:32
+#: views/whitelabel/settings/account.php:16
+#: views/whitelabel/settings/account_edit.php:28
+#: views/whitelabel/tickets/index.php:64 views/whitelabel/tickets/view.php:25
+#: views/whitelabel/transactions/index.php:54
+#: views/whitelabel/transactions/view.php:21
+#: views/whitelabel/transactions/view.php:189
+#: views/whitelabel/transactions/view.php:374
+#: views/whitelabel/transactions/view.php:457
+#: views/whitelabel/transactions/view.php:593
+#: views/whitelabel/transactions/withdrawal.php:21
+#: views/whitelabel/transactions/withdrawals.php:51
+#: views/whitelabel/users/email.php:20 views/whitelabel/users/index.php:43
+#: views/whitelabel/users/index.php:68 views/whitelabel/users/view.php:19
+msgid "E-mail"
+msgstr "E-pasts"
+
+#: classes/controller/whitelabel.php:277 classes/controller/whitelabel.php:2137
+#: classes/controller/whitelabel.php:2282
+msgid "Settings have been saved!"
+msgstr "Iestatījumi saglabāti!"
+
+#: classes/controller/whitelabel.php:311
+#: views/whitelabel/settings/account.php:7 views/whitelabel/settings/menu.php:8
+msgid "Account settings"
+msgstr "Konta iestatījumi"
+
+#: classes/controller/whitelabel.php:389
+msgid "Affiliate has been deleted!"
+msgstr "Partneris izdzēsts!"
+
+#: classes/controller/whitelabel.php:393 classes/controller/whitelabel.php:415
+#: classes/controller/whitelabel.php:510 classes/controller/whitelabel.php:1741
+#: classes/controller/whitelabel.php:1769
+#: classes/controller/whitelabel.php:1790
+#: classes/controller/whitelabel.php:1824
+msgid "Wrong affiliate."
+msgstr "Nepareizs partneris."
+
+#: classes/controller/whitelabel.php:411
+msgid "Affiliate e-mail address has been confirmed!"
+msgstr "Partnera e-pasta adrese apstiprināta!"
+
+#: classes/controller/whitelabel.php:443
+msgid "Affiliate password has been changed!"
+msgstr "Partnera parole nomainīta!"
+
+#: classes/controller/whitelabel.php:457 classes/controller/whitelabel.php:4046
+msgid "Wrong affiliate!"
+msgstr "Nepareizs partneris!"
+
+#: classes/controller/whitelabel.php:490 classes/controller/whitelabel.php:4429
+msgid "User e-mail address has been saved!"
+msgstr "Lietotāja e-pasta adrese saglabāta!"
+
+#: classes/controller/whitelabel.php:495 classes/controller/whitelabel.php:4440
+msgid "This e-mail is already taken!"
+msgstr "Šāds e-pasts jau tiek lietots!"
+
+#: classes/controller/whitelabel.php:531 classes/controller/whitelabel.php:1553
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/edit.php:20
+#: views/whitelabel/affs/index.php:34 views/whitelabel/affs/index.php:76
+#: views/whitelabel/affs/new.php:20 views/whitelabel/affs/view.php:22
+msgid "Group"
+msgstr "Grupa"
+
+#: classes/controller/whitelabel.php:576
+msgid "Affiliate has been successfully created!"
+msgstr "Partneris veiksmīgi izveidots!"
+
+#: classes/controller/whitelabel.php:581
+msgid "The email address and/or login you have provided are already in use."
+msgstr ""
+"Jūsu norādītā e-pasta adrese un/vai lietotājvārds jau tiek lietots(-i)."
+
+#: classes/controller/whitelabel.php:606
+msgid "Affiliate group has been deleted!"
+msgstr "Partneru grupa izdzēsta!"
+
+#: classes/controller/whitelabel.php:611 classes/controller/whitelabel.php:1289
+#: classes/controller/whitelabel.php:1307
+msgid "Wrong affiliate group!"
+msgstr "Nepareiza partneru grupa!"
+
+#: classes/controller/whitelabel.php:849
+msgid "Commission has been accepted."
+msgstr "Komisija pieņemta."
+
+#: classes/controller/whitelabel.php:853
+msgid "It is too late to edit this commission!"
+msgstr "Par vēlu rediģēt šo komisiju!"
+
+#: classes/controller/whitelabel.php:858 classes/controller/whitelabel.php:890
+msgid "Incorrect commission!"
+msgstr "Kļūdaina komisija!"
+
+#: classes/controller/whitelabel.php:881
+msgid "Commission has been deleted!"
+msgstr "Komisija izdzēsta!"
+
+#: classes/controller/whitelabel.php:885
+msgid "It is too late to delete this commission!"
+msgstr "Par vēlu dzēst šo komisiju!"
+
+#: classes/controller/whitelabel.php:1104
+msgid "The item has been paid out."
+msgstr "Šī vienība ir izmaksāta."
+
+#: classes/controller/whitelabel.php:1108
+msgid "Incorrect item!"
+msgstr "Kļūdaina vienība!"
+
+#: classes/controller/whitelabel.php:1237
+msgid "Lead has been accepted."
+msgstr "Piesaistītais klients pieņemts."
+
+#: classes/controller/whitelabel.php:1241
+#: classes/controller/whitelabel.php:1258
+msgid "Incorrect lead!"
+msgstr "Kļūdains piesaistītais klients!"
+
+#: classes/controller/whitelabel.php:1254
+msgid ""
+"Lead has been deleted! The user and lead commissions are left untouched. You "
+"will need to remove them manually."
+msgstr ""
+"Piesaistītais klients izdzēsts! Lietotājs un ar attiecīgo klientu saistītās "
+"komisijas nav ietekmētas; tās būs nepieciešams dzēst manuāli."
+
+#: classes/controller/whitelabel.php:1319
+#: classes/controller/whitelabel.php:1321
+#: classes/controller/whitelabel.php:2239
+#: views/admin/lotteries/imvalaplogs.php:28
+#: views/admin/lotteries/imvalaplogs.php:45 views/admin/lotteries/logs.php:28
+#: views/admin/lotteries/logs.php:45 views/admin/lotteries/lottorisqlogs.php:28
+#: views/admin/lotteries/lottorisqlogs.php:45
+#: views/admin/payments/paymentlogs.php:28
+#: views/admin/payments/paymentlogs.php:45 views/admin/whitelabels/index.php:21
+#: views/aff/reports/commissions.php:55 views/aff/reports/index.php:173
+#: views/whitelabel/affs/commissions.php:61
+#: views/whitelabel/affs/groups_edit.php:32
+#: views/whitelabel/affs/groups_edit.php:47
+#: views/whitelabel/affs/reports.php:179
+#: views/whitelabel/transactions/view.php:429
+msgid "Type"
+msgstr "Tips"
+
+#: classes/controller/whitelabel.php:1325 views/aff/dashboard/index.php:27
+#: views/whitelabel/affs/groups.php:37 views/whitelabel/affs/groups.php:59
+#: views/whitelabel/affs/groups_edit.php:56
+msgid "1st-tier First Time Purchase commission value"
+msgstr "1. līmeņa pirmā pirkuma komisijas vērtība"
+
+#: classes/controller/whitelabel.php:1330 views/aff/dashboard/index.php:30
+#: views/whitelabel/affs/groups.php:40 views/whitelabel/affs/groups.php:62
+#: views/whitelabel/affs/groups_edit.php:63
+msgid "2nd-tier First Time Purchase commission value"
+msgstr "2. līmeņa pirmā pirkuma komisijas vērtība"
+
+#: classes/controller/whitelabel.php:1338 views/aff/dashboard/index.php:21
+#: views/whitelabel/affs/groups.php:31 views/whitelabel/affs/groups.php:53
+#: views/whitelabel/affs/groups_edit.php:28
+msgid "1st-tier sale commission value"
+msgstr "1. līmeņa pārdošanas komisijas vērtība"
+
+#: classes/controller/whitelabel.php:1343 views/aff/dashboard/index.php:24
+#: views/whitelabel/affs/groups.php:34 views/whitelabel/affs/groups.php:56
+#: views/whitelabel/affs/groups_edit.php:43
+msgid "2nd-tier sale commission value"
+msgstr "2. līmeņa pārdošanas komisijas vērtība"
+
+#: classes/controller/whitelabel.php:1403
+msgid "Affiliate group has been saved!"
+msgstr "Partneru grupa saglabāta!"
+
+#: classes/controller/whitelabel.php:1408
+msgid "The affiliate group with this name already exists!"
+msgstr "Partneru grupa ar šādu nosaukumu jau pastāv!"
+
+#: classes/controller/whitelabel.php:1451 views/whitelabel/affs/settings.php:28
+msgid "Automatically payout commissions"
+msgstr "Automātiski izmaksāt komisijas"
+
+#: classes/controller/whitelabel.php:1453 views/whitelabel/affs/settings.php:31
+msgid "Automatically accept new affiliate leads (registrations)"
+msgstr ""
+"Automātiski pieņemt jaunus partneru piesaistītos klientus (reģistrācijas)"
+
+#: classes/controller/whitelabel.php:1470
+msgid "Affiliate settings has been saved!"
+msgstr "Partnera iestatījumi saglabāti!"
+
+#: classes/controller/whitelabel.php:1555 views/whitelabel/affs/edit.php:29
+#: views/whitelabel/affs/index.php:75 views/whitelabel/affs/view.php:15
+msgid "Parent"
+msgstr "Vecāks"
+
+#: classes/controller/whitelabel.php:1655
+msgid "Affiliate details has been saved!"
+msgstr "Partnera informācija saglabāta!"
+
+#: classes/controller/whitelabel.php:1700
+#: classes/controller/whitelabel.php:3906
+#: classes/controller/whitelabel.php:3929
+#: classes/controller/whitelabel.php:3964
+#: classes/controller/whitelabel.php:4062
+#: classes/controller/whitelabel.php:4084
+#: classes/controller/whitelabel.php:4305
+#: classes/controller/whitelabel.php:4348
+#: classes/controller/whitelabel.php:4455
+#: classes/controller/whitelabel.php:4484
+#: classes/controller/whitelabel.php:4525
+#: classes/controller/whitelabel.php:4602
+msgid "Incorrect user."
+msgstr "Kļūdains lietotājs."
+
+#: classes/controller/whitelabel.php:1765
+msgid "Affiliate has been activated and confirmed!"
+msgstr "Partneris aktivizēts un apstiprināts!"
+
+#: classes/controller/whitelabel.php:1786
+msgid "Affiliate has been accepted!"
+msgstr "Partneris pieņemts!"
+
+#: classes/controller/whitelabel.php:1815
+msgid "Affiliate has been restored!"
+msgstr "Partneris atjaunots!"
+
+#: classes/controller/whitelabel.php:1819
+msgid ""
+"Affiliate cannot be restored, because an active affiliate with this e-mail "
+"address exists."
+msgstr ""
+"Partneri nav iespējams atjaunot, jo ar šo e-pasta adresi jau pastāv aktīvs "
+"partneris."
+
+#: classes/controller/whitelabel.php:1949
+msgid "Affiliate ID"
+msgstr "Partnera ID"
+
+#: classes/controller/whitelabel.php:1949
+msgid "Parent Affiliate"
+msgstr "Vecākais partneris"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/view.php:338
+#: views/whitelabel/transactions/view.php:443
+#: views/whitelabel/transactions/view.php:639
+msgid "Currency"
+msgstr "Valūta"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+msgid "Phone Country"
+msgstr "Tālruņa numura valsts"
+
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/view.php:58
+msgid "Date created"
+msgstr "Izveidošanas datums"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699 views/whitelabel/affs/view.php:62
+#: views/whitelabel/users/view.php:53
+msgid "Last Active"
+msgstr "Pēdējā aktivitāte"
+
+#: classes/controller/whitelabel.php:1954
+msgid "Default"
+msgstr "Noklusējums"
+
+#: classes/controller/whitelabel.php:2010 views/whitelabel/affs/index.php:12
+#: views/whitelabel/shared/navbar.php:19
+msgid "Affiliates"
+msgstr "Partneri"
+
+#: classes/controller/whitelabel.php:2090 views/admin/lotteries/index.php:20
+#: views/whitelabel/settings/lottery.php:18
+#: views/whitelabel/settings/lottery_edit.php:21
+msgid "Enabled"
+msgstr "Iespējots"
+
+#: classes/controller/whitelabel.php:2092
+#: views/whitelabel/settings/lottery.php:22
+#: views/whitelabel/settings/lottery_edit.php:46
+msgid "Minimum Lines"
+msgstr "Minimālais variantu skaits"
+
+#: classes/controller/whitelabel.php:2094
+#: views/whitelabel/settings/lottery_edit.php:50
+msgid "Line Price by Currency"
+msgstr "Varianta cena pēc valūtas"
+
+#: classes/controller/whitelabel.php:2162
+msgid "Incorrect lottery!"
+msgstr "Kļūdaina loterija!"
+
+#: classes/controller/whitelabel.php:2174
+#: views/whitelabel/settings/lottery.php:7
+#: views/whitelabel/settings/lottery_edit.php:7
+#: views/whitelabel/settings/menu.php:4
+msgid "Lottery settings"
+msgstr "Loterijas iestatījumi"
+
+#: classes/controller/whitelabel.php:2200
+msgid "Google Analytics have been saved!"
+msgstr "Google Analytics saglabāts!"
+
+#: classes/controller/whitelabel.php:2241
+#: views/whitelabel/settings/index.php:39
+msgid "Maximum Auto-Payout"
+msgstr "Maksimālā autoizmaksa"
+
+#: classes/controller/whitelabel.php:2243
+#: views/whitelabel/settings/index.php:45
+msgid "Minimum Payment by Currency"
+msgstr "Minimālais maksājums pēc valūtas"
+
+#: classes/controller/whitelabel.php:2245
+#: views/whitelabel/settings/index.php:52
+msgid "Minimum Deposit by Currency"
+msgstr "Minimālā iemaksa pēc valūtas"
+
+#: classes/controller/whitelabel.php:2248
+#: views/whitelabel/settings/index.php:59
+msgid "Minimum Withdrawal by Currency"
+msgstr "Minimālā izmaksa pēc valūtas"
+
+#: classes/controller/whitelabel.php:2250
+#: views/whitelabel/settings/index.php:66
+msgid "Maximum Order Amount by Currency"
+msgstr "Maksimālā pasūtījuma summa pēc valūtas"
+
+#: classes/controller/whitelabel.php:2252
+#: views/whitelabel/settings/index.php:74
+msgid "Maximum order items"
+msgstr "Maksimālais vienību skaits pasūtījumā"
+
+#: classes/controller/whitelabel.php:2255
+#: views/whitelabel/settings/index.php:20
+msgid "Default site currency"
+msgstr "Noklusētā vietnes valūta"
+
+#: classes/controller/whitelabel.php:2287
+msgid "Incorrect currency."
+msgstr "Kļūdaina valūta."
+
+#: classes/controller/whitelabel.php:2299 views/whitelabel/settings/index.php:7
+#: views/whitelabel/settings/menu.php:2
+msgid "Site settings"
+msgstr "Vietnes iestatījumi"
+
+#: classes/controller/whitelabel.php:2623
+msgid "Line prize has been paid out to the user account balance!"
+msgstr "Varianta laimests izmaksāts uz lietotāja konta atlikumu!"
+
+#: classes/controller/whitelabel.php:2628
+#: classes/controller/whitelabel.php:2633
+#: classes/controller/whitelabel.php:2638
+msgid "Incorrect line!"
+msgstr "Kļūdains variants!"
+
+#: classes/controller/whitelabel.php:2671
+msgid "The ticket has been marked as paid out!"
+msgstr "Biļete atzīmēta kā izmaksāta!"
+
+#: classes/controller/whitelabel.php:2675
+msgid ""
+"The ticket has been marked as paid out, however there are still some lines "
+"that will have to be paid automatically!"
+msgstr ""
+"Biļete ir atzīmēta kā izmaksāta, tomēr atsevišķus variantus tik un tā būs "
+"nepieciešams izmaksāt automātiski!"
+
+#: classes/controller/whitelabel.php:2680
+#: classes/controller/whitelabel.php:2746
+msgid "Incorrect ticket!"
+msgstr "Kļūdaina biļete!"
+
+#: classes/controller/whitelabel.php:2892
+#: classes/controller/whitelabel.php:2925
+#: classes/controller/whitelabel.php:2930
+#: classes/controller/whitelabel.php:2952
+#: classes/controller/whitelabel.php:2982
+msgid "Incorrect withdrawal!"
+msgstr "Kļūdaina izmaksa!"
+
+#: classes/controller/whitelabel.php:2921
+msgid "Withdrawal has been approved!"
+msgstr "Izmaksa apstiprināta!"
+
+#: classes/controller/whitelabel.php:2948
+msgid "Withdrawal has been declined!"
+msgstr "Izmaksa atteikta!"
+
+#: classes/controller/whitelabel.php:2978
+msgid ""
+"Withdrawal has been canceled! The withdrawal amount has been returned to "
+"user account."
+msgstr "Izmaksa atcelta! Izmaksas summa atgriezta lietotāja kontā."
+
+#: classes/controller/whitelabel.php:3389 views/admin/whitelabels/index.php:33
+#: views/admin/whitelabels/payments.php:10
+#: views/whitelabel/settings/ccsettings.php:13
+#: views/whitelabel/settings/menu.php:6
+#: views/whitelabel/settings/paymentmethods.php:7
+#: views/whitelabel/settings/paymentmethods.php:13
+msgid "Payment methods"
+msgstr "Maksājumu metodes"
+
+#: classes/controller/whitelabel.php:3435
+#: views/whitelabel/settings/ccsettings.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:20
+#: views/whitelabel/transactions/view.php:42
+msgid "Gateway"
+msgstr "Vārteja"
+
+#: classes/controller/whitelabel.php:3443
+#: views/whitelabel/settings/ccsettings_edit.php:33
+#: views/whitelabel/transactions/view.php:106
+#: views/whitelabel/transactions/view.php:378
+msgid "Account ID"
+msgstr "Konta ID"
+
+#: classes/controller/whitelabel.php:3445
+#: views/whitelabel/settings/ccsettings_edit.php:43
+msgid "Endpoint URL"
+msgstr "Galapunkta URL"
+
+#: classes/controller/whitelabel.php:3447
+#: views/whitelabel/settings/ccsettings_edit.php:48
+msgid "Secret key"
+msgstr "Slepenā atslēga"
+
+#: classes/controller/whitelabel.php:3448
+#: views/whitelabel/settings/ccsettings_edit.php:61
+msgid "Descriptor"
+msgstr "Deskriptors"
+
+#: classes/controller/whitelabel.php:3450
+#: views/whitelabel/settings/ccsettings_edit.php:53
+msgid "Minimum order"
+msgstr "Minimālais pasūtījums"
+
+#: classes/controller/whitelabel.php:3498
+msgid "This gateway is already added!"
+msgstr "Šāda vārteja jau ir pievienota!"
+
+#: classes/controller/whitelabel.php:3504
+msgid "Wrong gateway!"
+msgstr "Nepareiza vārteja!"
+
+#: classes/controller/whitelabel.php:3536
+#: views/whitelabel/settings/ccsettings.php:7
+#: views/whitelabel/settings/ccsettings.php:14
+#: views/whitelabel/settings/paymentmethods.php:14
+msgid "Credit Card methods"
+msgstr "Kredītkaršu metodes"
+
+#: classes/controller/whitelabel.php:3672
+msgid "Transaction accepted! The amount has been subtracted from user balance!"
+msgstr "Transakcija pieņemta! Summa noņemta no lietotāja atlikuma!"
+
+#: classes/controller/whitelabel.php:3675
+msgid "Transaction accepted! The amount has been added to user balance!"
+msgstr "Transakcija pieņemta! Summa pievienota lietotāja atlikumam!"
+
+#: classes/controller/whitelabel.php:3678
+msgid "Transaction accepted!"
+msgstr "Transakcija pieņemta!"
+
+#: classes/controller/whitelabel.php:3684
+#: classes/controller/whitelabel.php:3689
+#: classes/controller/whitelabel.php:3726
+msgid "Incorrect transaction!"
+msgstr "Kļūdaina transakcija!"
+
+#: classes/controller/whitelabel.php:3902
+msgid "User has been deleted!"
+msgstr "Lietotājs izdzēsts!"
+
+#: classes/controller/whitelabel.php:3925
+msgid "User has been activated and confirmed!"
+msgstr "Lietotājs aktivizēts un apstiprināts!"
+
+#: classes/controller/whitelabel.php:3955
+msgid "User has been restored!"
+msgstr "Lietotājs atjaunots!"
+
+#: classes/controller/whitelabel.php:3959
+msgid ""
+"User cannot be restored because there exists active user with this e-mail."
+msgstr ""
+"Lietotāju nav iespējams atjaunot, jo ar šo e-pasta adresi jau pastāv aktīvs "
+"lietotājs."
+
+#: classes/controller/whitelabel.php:4010 views/aff/shared/header.php:7
+#: views/whitelabel/affs/commissions.php:13
+#: views/whitelabel/affs/commissions.php:52 views/whitelabel/affs/ftps.php:13
+#: views/whitelabel/affs/ftps.php:52 views/whitelabel/affs/leads.php:13
+#: views/whitelabel/affs/leads.php:52 views/whitelabel/affs/payouts.php:13
+#: views/whitelabel/affs/payouts.php:32 views/whitelabel/affs/reports.php:21
+#: views/whitelabel/affs/reports.php:59 views/whitelabel/affs/reports.php:117
+#: views/whitelabel/affs/reports.php:170 views/whitelabel/users/aff.php:20
+#: views/whitelabel/users/index.php:71
+msgid "Affiliate"
+msgstr "Partneris"
+
+#: classes/controller/whitelabel.php:4020
+#: classes/controller/whitelabel.php:4041
+msgid "User affiliate has been changed."
+msgstr "Lietotāja partneris izmainīts."
+
+#: classes/controller/whitelabel.php:4080
+msgid "User e-mail address confirmed!"
+msgstr "Lietotāja e-pasta adrese apstiprināta!"
+
+#: classes/controller/whitelabel.php:4266
+msgid "User details has been saved!"
+msgstr "Lietotāja informācija saglabāta!"
+
+#: classes/controller/whitelabel.php:4334
+msgid "User password has been changed!"
+msgstr "Lietotāja parole izmainīta!"
+
+#: classes/controller/whitelabel.php:4434
+msgid "Cannot update e-mail in eMerchantPay system. Please contact us!"
+msgstr ""
+"Neizdevās izmainīt e-pastu eMerchantPay sistēmā. Lūdzu, sazinieties ar mums!"
+
+#: classes/controller/whitelabel.php:4501
+#: views/admin/payments/paymentlogs.php:68
+#: views/whitelabel/transactions/withdrawal.php:33
+#: views/whitelabel/transactions/withdrawals.php:55
+msgid "User balance"
+msgstr "Lietotāja atlikums"
+
+#: classes/controller/whitelabel.php:4510
+msgid "User balance saved!"
+msgstr "Lietotāja atlikums saglabāts!"
+
+#: classes/controller/whitelabel.php:4549 views/aff/reports/commissions.php:58
+#: views/aff/reports/index.php:176 views/aff/reports/payouts.php:20
+#: views/whitelabel/affs/commissions.php:64
+#: views/whitelabel/affs/payouts.php:37 views/whitelabel/affs/reports.php:182
+#: views/whitelabel/tickets/index.php:67 views/whitelabel/tickets/view.php:35
+#: views/whitelabel/transactions/index.php:57
+#: views/whitelabel/transactions/view.php:45
+#: views/whitelabel/transactions/view.php:334
+#: views/whitelabel/transactions/view.php:585
+#: views/whitelabel/transactions/view.php:607
+#: views/whitelabel/transactions/withdrawal.php:31
+#: views/whitelabel/transactions/withdrawals.php:57
+#: views/whitelabel/users/deposit.php:30
+msgid "Amount"
+msgstr "Summa"
+
+#: classes/controller/whitelabel.php:4583
+msgid "Deposit has been added!"
+msgstr "Iemaksa pievienota!"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/tickets/index.php:45
+#: views/whitelabel/tickets/view.php:19
+#: views/whitelabel/transactions/index.php:36
+#: views/whitelabel/transactions/view.php:15
+#: views/whitelabel/transactions/withdrawal.php:15
+#: views/whitelabel/transactions/withdrawals.php:33
+msgid "User ID"
+msgstr "Lietotāja ID"
+
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/index.php:15
+#: views/whitelabel/transactions/index.php:88
+#: views/whitelabel/transactions/view.php:33
+#: views/whitelabel/users/balance.php:20 views/whitelabel/users/index.php:73
+#: views/whitelabel/users/view.php:45
+msgid "Balance"
+msgstr "Atlikums"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/users/view.php:47
+msgid "Date register"
+msgstr "Reģistrācijas datums"
+
+#: lang/translation.php:3
+msgid "Powerball"
+msgstr "Powerball"
+
+#: lang/translation.php:4
+msgid "Mega Millions"
+msgstr "Mega Millions"
+
+#: lang/translation.php:5
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+#: lang/translation.php:6
+msgid "SuperEnalotto"
+msgstr "SuperEnalotto"
+
+#: lang/translation.php:7
+msgid "UK Lottery"
+msgstr "Lielbritānijas loterija"
+
+#: lang/translation.php:8
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+#: lang/translation.php:9
+msgid "Polish Lotto"
+msgstr "Polijas Lotto"
+
+#: lang/translation.php:12 views/aff/settings/payment.php:30
+msgid "Bank account"
+msgstr "Bankas konts"
+
+#: lang/translation.php:13 views/aff/settings/payment.php:53
+#: views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/transactions/view.php:286
+msgid "Skrill"
+msgstr "Skrill"
+
+#: lang/translation.php:14 views/aff/settings/payment.php:68
+#: views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/transactions/view.php:312
+msgid "Neteller"
+msgstr "Neteller"
+
+#: lang/translation.php:15 views/whitelabel/affs/payouts.php:81
+msgid "BTC"
+msgstr "BTC"
+
+#: lang/translation.php:16
+msgid "Debit card"
+msgstr "Debetkarte"
+
+#: views/admin/lotteries/delays.php:8 views/admin/lotteries/draws.php:8
+#: views/admin/lotteries/draws.php:58 views/whitelabel/affs/groups.php:8
+#: views/whitelabel/affs/index.php:9
+#: views/whitelabel/settings/ccsettings.php:10
+#: views/whitelabel/settings/paymentmethods.php:10
+msgid "Add New"
+msgstr "Pievienot jaunu"
+
+#: views/admin/lotteries/delays.php:11
+msgid ""
+"Here you can add or edit delayed lottery draw dates to automatically process "
+"the changes within the system."
+msgstr ""
+"Šeit varat pievienot vai rediģēt atliktos loteriju izložu datumus, lai "
+"izmaiņas sistēmā apstrādātu automātiski."
+
+#: views/admin/lotteries/delays.php:21
+msgid "Postponed date"
+msgstr "Atliktais datums"
+
+#: views/admin/lotteries/delays.php:22 views/admin/lotteries/index.php:32
+#: views/admin/whitelabels/index.php:22 views/admin/whitelabels/payments.php:24
+#: views/aff/reports/payouts.php:23 views/whitelabel/affs/commissions.php:66
+#: views/whitelabel/affs/groups.php:22 views/whitelabel/affs/index.php:91
+#: views/whitelabel/affs/leads.php:65 views/whitelabel/affs/payouts.php:41
+#: views/whitelabel/settings/ccsettings.php:25
+#: views/whitelabel/settings/lottery.php:23
+#: views/whitelabel/settings/paymentmethods.php:29
+#: views/whitelabel/tickets/index.php:74
+#: views/whitelabel/transactions/index.php:64
+#: views/whitelabel/transactions/withdrawals.php:61
+#: views/whitelabel/users/index.php:86
+msgid "Manage"
+msgstr "Pārvaldīt"
+
+#: views/admin/lotteries/delays.php:32 views/admin/lotteries/index.php:46
+#: views/admin/whitelabels/index.php:32 views/admin/whitelabels/payments.php:36
+#: views/whitelabel/affs/groups.php:44 views/whitelabel/affs/groups.php:66
+#: views/whitelabel/settings/ccsettings.php:34
+#: views/whitelabel/settings/lottery.php:44
+#: views/whitelabel/settings/paymentmethods.php:41
+#: views/whitelabel/users/index.php:122
+msgid "Edit"
+msgstr "Rediģēt"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:140 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:97 views/whitelabel/affs/leads.php:99
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/index.php:177
+#: views/whitelabel/tickets/view.php:99
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawals.php:97
+#: views/whitelabel/transactions/withdrawals.php:99
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:143
+#: views/whitelabel/users/index.php:150
+msgid "Are you sure?"
+msgstr "Vai tiešām?"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:99 views/whitelabel/users/index.php:150
+msgid "Delete"
+msgstr "Dzēst"
+
+#: views/admin/lotteries/delays.php:49
+msgid "There are no delays specified."
+msgstr "Nav norādīts neviens atliktais datums."
+
+#: views/admin/lotteries/delays.php:59 views/aff/reports/payouts.php:78
+#: views/whitelabel/affs/commissions.php:141
+#: views/whitelabel/affs/groups.php:83 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:169 views/whitelabel/affs/leads.php:119
+#: views/whitelabel/affs/payouts.php:140 views/whitelabel/tickets/view.php:156
+#: views/whitelabel/transactions/index.php:140
+#: views/whitelabel/transactions/view.php:754
+#: views/whitelabel/transactions/withdrawal.php:95
+#: views/whitelabel/transactions/withdrawals.php:123
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:170
+msgid "Confirm"
+msgstr "Apstiprināt"
+
+#: views/admin/lotteries/delays.php:64 views/aff/reports/payouts.php:83
+#: views/whitelabel/affs/commissions.php:146
+#: views/whitelabel/affs/groups.php:88 views/whitelabel/affs/index.php:174
+#: views/whitelabel/affs/leads.php:124 views/whitelabel/affs/payouts.php:145
+#: views/whitelabel/tickets/index.php:182 views/whitelabel/tickets/view.php:161
+#: views/whitelabel/transactions/index.php:145
+#: views/whitelabel/transactions/view.php:759
+#: views/whitelabel/transactions/withdrawal.php:100
+#: views/whitelabel/transactions/withdrawals.php:128
+#: views/whitelabel/users/index.php:175
+msgid "OK"
+msgstr "OK"
+
+#: views/admin/lotteries/delays.php:65 views/admin/lotteries/draws.php:59
+#: views/admin/lotteries/index.php:91 views/admin/whitelabels/index.php:59
+#: views/admin/whitelabels/payments.php:61 views/aff/reports/payouts.php:84
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:89 views/whitelabel/affs/index.php:175
+#: views/whitelabel/affs/leads.php:125 views/whitelabel/affs/payouts.php:146
+#: views/whitelabel/tickets/index.php:183 views/whitelabel/tickets/view.php:162
+#: views/whitelabel/transactions/index.php:146
+#: views/whitelabel/transactions/view.php:760
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawal.php:101
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/transactions/withdrawals.php:129
+#: views/whitelabel/users/index.php:176
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: views/admin/lotteries/delays_edit.php:7
+msgid "Add new postponed draw"
+msgstr "Pievienot jaunu atlikto izlozi"
+
+#: views/admin/lotteries/delays_edit.php:8
+msgid "You can add a postponed lottery draw here."
+msgstr "Šeit varat pievienot atliktu loterijas izlozi."
+
+#: views/admin/lotteries/delays_edit.php:9 views/admin/lotteries/draw_add.php:9
+#: views/admin/lotteries/draws.php:12 views/admin/lotteries/jackpot.php:9
+#: views/admin/lotteries/nextdraw.php:9 views/admin/lotteries/source.php:9
+#: views/admin/whitelabels/add.php:9 views/admin/whitelabels/edit.php:9
+#: views/admin/whitelabels/payments_edit.php:9 views/aff/dashboard/index.php:44
+#: views/aff/settings/edit.php:9 views/aff/settings/password.php:9
+#: views/whitelabel/affs/edit.php:9 views/whitelabel/affs/email.php:9
+#: views/whitelabel/affs/groups_edit.php:9 views/whitelabel/affs/new.php:9
+#: views/whitelabel/affs/password.php:9 views/whitelabel/affs/view.php:9
+#: views/whitelabel/settings/account_edit.php:9
+#: views/whitelabel/settings/ccsettings_edit.php:9
+#: views/whitelabel/settings/lottery_edit.php:9
+#: views/whitelabel/settings/password.php:9
+#: views/whitelabel/settings/paymentmethods_edit.php:9
+#: views/whitelabel/tickets/view.php:9 views/whitelabel/transactions/view.php:9
+#: views/whitelabel/transactions/withdrawal.php:9
+#: views/whitelabel/users/aff.php:9 views/whitelabel/users/balance.php:9
+#: views/whitelabel/users/deposit.php:9 views/whitelabel/users/edit.php:9
+#: views/whitelabel/users/email.php:9 views/whitelabel/users/password.php:9
+#: views/whitelabel/users/view.php:9
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: views/admin/lotteries/delays_edit.php:29
+#: views/admin/lotteries/delays_edit.php:36
+#: views/admin/lotteries/draw_add.php:21
+msgid "Enter date"
+msgstr "Ievadiet datumu"
+
+#: views/admin/lotteries/delays_edit.php:31
+#: views/admin/lotteries/delays_edit.php:38
+#: views/admin/lotteries/draw_add.php:23 views/aff/settings/edit.php:75
+#: views/whitelabel/affs/edit.php:95 views/whitelabel/users/edit.php:67
+msgid "Format: mm/dd/yyyy"
+msgstr "Formāts: mm/dd/gggg"
+
+#: views/admin/lotteries/delays_edit.php:41
+#: views/admin/lotteries/draw_add.php:86 views/admin/lotteries/jackpot.php:26
+#: views/admin/lotteries/nextdraw.php:27 views/admin/lotteries/source.php:27
+#: views/admin/whitelabels/add.php:48 views/admin/whitelabels/edit.php:44
+#: views/admin/whitelabels/payments_edit.php:118
+#: views/aff/settings/analytics.php:24 views/aff/settings/edit.php:101
+#: views/aff/settings/password.php:29 views/aff/settings/payment.php:96
+#: views/whitelabel/affs/edit.php:121 views/whitelabel/affs/email.php:23
+#: views/whitelabel/affs/groups_edit.php:69 views/whitelabel/affs/new.php:46
+#: views/whitelabel/affs/password.php:29 views/whitelabel/affs/settings.php:43
+#: views/whitelabel/settings/account_edit.php:47
+#: views/whitelabel/settings/analytics.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:69
+#: views/whitelabel/settings/index.php:77
+#: views/whitelabel/settings/lottery_edit.php:57
+#: views/whitelabel/settings/password.php:29
+#: views/whitelabel/settings/paymentmethods_edit.php:118
+#: views/whitelabel/users/aff.php:30 views/whitelabel/users/balance.php:27
+#: views/whitelabel/users/deposit.php:37 views/whitelabel/users/edit.php:93
+#: views/whitelabel/users/email.php:23 views/whitelabel/users/password.php:29
+msgid "Submit"
+msgstr "Iesniegt"
+
+#: views/admin/lotteries/draw_add.php:7
+msgid "Add Draw"
+msgstr "Pievienot izlozi"
+
+#: views/admin/lotteries/draw_add.php:8
+msgid ""
+"You can manually add a lottery draw here. You should only do this when "
+"automatic update is not available!<br>All users' tickets will be processed "
+"according to the added draw data! This operation cannot be undone!"
+msgstr ""
+"Šeit varat manuāli pievienot loterijas izlozi. To ieteicams darīt tikai "
+"gadījumos, kad nav pieejams automātiskais atjauninājums!<br>Visas lietotāju "
+"biļetes tiks apstrādātas atbilstoši pievienotajiem izlozes datiem! Šo "
+"darbību nav iespējams atsaukt!"
+
+#: views/admin/lotteries/draw_add.php:28
+msgid "Enter next jackpot"
+msgstr "Ievadiet nākamo džekpotu"
+
+#: views/admin/lotteries/draw_add.php:30
+#, php-format
+msgid ""
+"You should add a draw only if the next jackpot is already known.<br>Unit: "
+"million (e.g. type '29.5' for 29.5 million jackpot). Use dot for decimal "
+"digits. <br>Currency: %s<br>Jackpot for this draw: %s"
+msgstr ""
+"Izlozi ieteicams pievienot tikai gadījumā, ja nākamais džekpots jau ir "
+"zināms.<br>Vienība: miljoni (piem., 29.5 miljonu džekpota gadījumā ievadiet "
+"'29.5'). Kā decimātdalītāju lietojiet punktu. <br>Valūta: %s<br>Džekpots šai "
+"izlozei: %s"
+
+#: views/admin/lotteries/draw_add.php:34 views/admin/lotteries/draws.php:23
+msgid "Draw Numbers"
+msgstr "Izlozes skaitļi"
+
+#: views/admin/lotteries/draw_add.php:39 views/admin/lotteries/draw_add.php:53
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: views/admin/lotteries/draw_add.php:44 views/admin/lotteries/draw_add.php:58
+#, php-format
+msgid "Range: %s"
+msgstr "Periods: %s"
+
+#: views/admin/lotteries/draw_add.php:48
+msgid "Bonus Numbers"
+msgstr "Bonusskaitļi"
+
+#: views/admin/lotteries/draw_add.php:61
+msgid "Draw winners"
+msgstr "Izlozes laimētāji"
+
+#: views/admin/lotteries/draw_add.php:63
+msgid ""
+"Type 0's in case of no winner/prize.<br>You should add a draw only if prize "
+"breakout is already known."
+msgstr ""
+"Ja nav laimētāja/laimesta, ievadiet 0.<br>Izlozi ieteicams pievienot tikai "
+"tad, ja jau ir zināms laimestu sadalījums."
+
+#: views/admin/lotteries/draw_add.php:66 views/whitelabel/tickets/view.php:71
+msgid "Match"
+msgstr "Savienojamība"
+
+#: views/admin/lotteries/draw_add.php:78
+msgid "Free Quick Pick"
+msgstr "Bezmaksas ātrā izvēle"
+
+#: views/admin/lotteries/draw_add.php:80 views/whitelabel/tickets/index.php:71
+#: views/whitelabel/tickets/view.php:78
+msgid "Prize"
+msgstr "Laimests"
+
+#: views/admin/lotteries/draws.php:10
+msgid "Draws"
+msgstr "Izlozes"
+
+#: views/admin/lotteries/draws.php:11
+msgid "This is a list of lottery draws."
+msgstr "Šeit apskatāms loteriju izložu saraksts."
+
+#: views/admin/lotteries/draws.php:20 views/whitelabel/reports/index.php:19
+#: views/whitelabel/tickets/index.php:36 views/whitelabel/tickets/index.php:69
+#: views/whitelabel/tickets/view.php:32
+msgid "Draw Date"
+msgstr "Izlozes datums"
+
+#: views/admin/lotteries/draws.php:21
+msgid "Download Date"
+msgstr "Lejupielādes datums"
+
+#: views/admin/lotteries/draws.php:22 views/whitelabel/tickets/index.php:133
+#: views/whitelabel/tickets/view.php:81 views/whitelabel/tickets/view.php:118
+msgid "Jackpot"
+msgstr "Džekpots"
+
+#: views/admin/lotteries/draws.php:24
+msgid "Draw Bonus Numbers"
+msgstr "Izlozēt bonusskaitļus"
+
+#: views/admin/lotteries/draws.php:42
+msgid "There are no draws for this lottery yet."
+msgstr "Šai loterijai vēl nav izložu."
+
+#: views/admin/lotteries/draws.php:52
+msgid "Confirm new draw"
+msgstr "Apstiprināt jaunu izlozi"
+
+#: views/admin/lotteries/draws.php:55
+msgid ""
+"Are you sure you want to add new draw?&#10;You should only do this when "
+"automatic update is not available!&#10;All users' tickets will be processed "
+"according to added draw data!"
+msgstr ""
+"Vai tiešām vēlaties pievienot jaunu izlozi?&#10;To ieteicams darīt tikai "
+"gadījumos, kad nav pieejams automātiskais atjauninājums!&#10;Visas lietotāju "
+"biļetes tiks apstrādātas atbilstoši pievienotajiem izlozes datiem!"
+
+#: views/admin/lotteries/imvalaplogs.php:7 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/logs.php:7 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/shared/navbar.php:15
+msgid "Lotteries"
+msgstr "Loterijas"
+
+#: views/admin/lotteries/imvalaplogs.php:8
+msgid ""
+"Here you can find all logs related to Imvalap provider. Logs are kept for 1 "
+"month."
+msgstr ""
+"Šeit atrodami visi ar pakalpojumu sniedzēju Imvalap saistītie žurnāli. Tie "
+"tiek saglabāti 1 gadu."
+
+#: views/admin/lotteries/imvalaplogs.php:11 views/admin/lotteries/logs.php:11
+#: views/admin/lotteries/lottorisqlogs.php:11
+#: views/admin/payments/paymentlogs.php:11
+msgid "Date Range"
+msgstr "Laika periods"
+
+#: views/admin/lotteries/imvalaplogs.php:14 views/admin/lotteries/logs.php:14
+#: views/admin/lotteries/lottorisqlogs.php:14
+#: views/admin/payments/paymentlogs.php:14 views/aff/reports/index.php:14
+#: views/whitelabel/affs/reports.php:14 views/whitelabel/reports/reports.php:14
+msgid "to"
+msgstr "līdz"
+
+#: views/admin/lotteries/imvalaplogs.php:19
+#: views/admin/lotteries/imvalaplogs.php:47
+#: views/admin/lotteries/lottorisqlogs.php:19
+#: views/admin/lotteries/lottorisqlogs.php:47
+#: views/admin/payments/paymentlogs.php:19
+#: views/admin/payments/paymentlogs.php:47
+msgid "Whitelabel"
+msgstr "Nemarķētais produkts"
+
+#: views/admin/lotteries/imvalaplogs.php:21
+#: views/admin/lotteries/imvalaplogs.php:30 views/admin/lotteries/logs.php:21
+#: views/admin/lotteries/logs.php:30 views/admin/lotteries/lottorisqlogs.php:21
+#: views/admin/lotteries/lottorisqlogs.php:30
+#: views/admin/payments/paymentlogs.php:21
+#: views/admin/payments/paymentlogs.php:30
+msgid "All"
+msgstr "Visi"
+
+#: views/admin/lotteries/imvalaplogs.php:36 views/admin/lotteries/logs.php:36
+#: views/admin/lotteries/lottorisqlogs.php:36
+#: views/admin/payments/paymentlogs.php:36 views/aff/reports/commissions.php:34
+#: views/aff/reports/ftps.php:34 views/aff/reports/leads.php:34
+#: views/whitelabel/affs/commissions.php:10
+#: views/whitelabel/affs/commissions.php:41 views/whitelabel/affs/ftps.php:10
+#: views/whitelabel/affs/ftps.php:41 views/whitelabel/affs/index.php:15
+#: views/whitelabel/affs/index.php:56 views/whitelabel/affs/leads.php:10
+#: views/whitelabel/affs/leads.php:41 views/whitelabel/affs/payouts.php:10
+#: views/whitelabel/affs/payouts.php:21 views/whitelabel/affs/reports.php:18
+#: views/whitelabel/tickets/index.php:10 views/whitelabel/tickets/index.php:50
+#: views/whitelabel/transactions/index.php:10
+#: views/whitelabel/transactions/index.php:41
+#: views/whitelabel/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/withdrawals.php:38
+#: views/whitelabel/users/index.php:22 views/whitelabel/users/index.php:51
+msgid "Filter"
+msgstr "Filtrēt"
+
+#: views/admin/lotteries/imvalaplogs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:48
+msgid "Ticket ID"
+msgstr "Biļetes ID"
+
+#: views/admin/lotteries/imvalaplogs.php:49
+msgid "Job ID"
+msgstr "Uzdevuma ID"
+
+#: views/admin/lotteries/imvalaplogs.php:50 views/admin/lotteries/logs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:50
+#: views/admin/payments/paymentlogs.php:50
+msgid "Message"
+msgstr "Ziņojums"
+
+#: views/admin/lotteries/imvalaplogs.php:86 views/admin/lotteries/logs.php:73
+#: views/admin/lotteries/lottorisqlogs.php:86
+#: views/admin/payments/paymentlogs.php:99
+msgid "There are no logs for this criteria."
+msgstr "Šim kritērijam nav žurnālu."
+
+#: views/admin/lotteries/index.php:8
+msgid "Show Logs"
+msgstr "Rādīt žurnālus"
+
+#: views/admin/lotteries/index.php:11
+msgid ""
+"This is an overview of the lotteries. Draws and Jackpots are automatically "
+"updated every 20 minutes."
+msgstr ""
+"Šis ir pārskats par loterijām. Izlozes un džekpoti ik 20 minūtes tiek "
+"atjaunināti automātiski."
+
+#: views/admin/lotteries/index.php:22 views/whitelabel/users/view.php:55
+msgid "Last Update"
+msgstr "Pēdējoreiz atjaunināts"
+
+#: views/admin/lotteries/index.php:24
+msgid "Draw Days"
+msgstr "Izlozes dienas"
+
+#: views/admin/lotteries/index.php:25
+msgid "Draw Hour"
+msgstr "Izlozes laiks"
+
+#: views/admin/lotteries/index.php:26
+msgid "Draw Rules"
+msgstr "Izlozes noteikumi"
+
+#: views/admin/lotteries/index.php:26
+msgid ""
+"Amount of numbers (range of numbers) + Amount of bonus numbers (range of "
+"bonus numbers)&#10;*1 Extra number within the base range of draw numbers"
+msgstr ""
+"Skaitļu skaits (skaitļu intervāls) + bonusskaitļu skaits (bonusskaitļu "
+"intervāls)&#10;*1 papildskaitlis izlozes skaitļu pamatintervāla robežās"
+
+#: views/admin/lotteries/index.php:28
+msgid "Last (Next) Draw Date"
+msgstr "Pēdējās (nākamās) izlozes datums"
+
+#: views/admin/lotteries/index.php:29
+msgid "Last Numbers"
+msgstr "Pēdējie skaitļi"
+
+#: views/admin/lotteries/index.php:30
+msgid "Last Bonus Numbers"
+msgstr "Pēdējais bonusskaitlis"
+
+#: views/admin/lotteries/index.php:31
+msgid "Last Extra Number"
+msgstr "Pēdējais papildskaitlis"
+
+#: views/admin/lotteries/index.php:45
+msgid "pending"
+msgstr "neizlemtās"
+
+#: views/admin/lotteries/index.php:53
+msgid "Next Draw"
+msgstr "Nākamā izloze"
+
+#: views/admin/lotteries/index.php:59
+msgid "View Draws"
+msgstr "Skatīt izlozes"
+
+#: views/admin/lotteries/index.php:63 views/admin/lotteries/index.php:90
+#: views/admin/whitelabels/index.php:58 views/admin/whitelabels/payments.php:60
+msgid "Disable"
+msgstr "Atspējot"
+
+#: views/admin/lotteries/index.php:65
+msgid "Enable"
+msgstr "Iespējot"
+
+#: views/admin/lotteries/index.php:74 views/whitelabel/settings/lottery.php:53
+msgid "There are no lotteries."
+msgstr "Nav loteriju."
+
+#: views/admin/lotteries/index.php:84 views/admin/whitelabels/index.php:52
+#: views/admin/whitelabels/payments.php:54
+msgid "Confirm lottery switch off"
+msgstr "Apstipriniet loterijas izslēgšanu"
+
+#: views/admin/lotteries/index.php:87 views/admin/whitelabels/index.php:55
+#: views/admin/whitelabels/payments.php:57
+msgid ""
+"Are you sure you want to disable this lottery?&#10;All bought users' tickets "
+"will stay pending unless you provide the latest draw numbers manually."
+msgstr ""
+"Vai tiešām vēlaties atspējot šo loteriju?&#10;Ja vien jaunākie loterijas "
+"izlozes skaitļi netiks norādīti manuāli, visu lietotāju iegādāto biļešu "
+"statuss tiks saglabāts kā \"neizlemts\"."
+
+#: views/admin/lotteries/jackpot.php:7
+msgid "Edit Jackpot"
+msgstr "Rediģēt džekpotu"
+
+#: views/admin/lotteries/jackpot.php:8
+msgid ""
+"You can edit the current lottery jackpot here. You should only do this when "
+"the automated script does not work."
+msgstr ""
+"Šeit varat rediģēt pašreizējo loterijas džekpotu. Ieteicams to darīt tikai "
+"tad, ja nedarbojas automātiskais skripts."
+
+#: views/admin/lotteries/jackpot.php:21
+msgid "Enter current jackpot"
+msgstr "Ievadiet pašreizējo džekpotu"
+
+#: views/admin/lotteries/jackpot.php:23
+#, php-format
+msgid ""
+"Unit: million (e.g. type '29.5' for 29.5 million jackpot). Use dot for "
+"decimal digits. <br>Currency: %s"
+msgstr ""
+"Vienība: miljoni (piem., 29.5 miljonu džekpota gadījumā ievadiet '29.5'). Kā "
+"decimātdalītāju lietojiet punktu. <br>Valūta: %s"
+
+#: views/admin/lotteries/logs.php:8
+msgid ""
+"Here you can find all logs related to the lotteries' data download. Logs are "
+"kept for 7 days."
+msgstr ""
+"Šeit atrodami visi ar loteriju datu lejupielādi saistītie žurnāli. Tie tiek "
+"saglabāti 7 dienas."
+
+#: views/admin/lotteries/lottorisqlogs.php:8
+msgid ""
+"Here you can find all logs related to Lottorisq provider. Logs are kept for "
+"1 month."
+msgstr ""
+"Šeit atrodami visi ar pakalpojumu sniedzēju Lottorisq saistītie žurnāli. Tie "
+"tiek saglabāti 1 gadu."
+
+#: views/admin/lotteries/lottorisqlogs.php:49
+msgid "Slip ID"
+msgstr "Kartītes ID"
+
+#: views/admin/lotteries/nextdraw.php:7
+msgid "Change next draw"
+msgstr "Mainīt nākamo izlozi"
+
+#: views/admin/lotteries/nextdraw.php:8
+msgid ""
+"You can manually change the lottery draw date here. You should only do this "
+"and you have to do this only when the lottery draw has been moved! It will "
+"automatically move every ticket to the chosen next draw date. The operation "
+"cannot be undone!"
+msgstr ""
+"Šeit varat manuāli mainīt loterijas izlozes datumu. Stingri iesakām to darīt "
+"tikai tad, ja loterijas izloze ir tikusi pārcelta! Rezultātā uz izvēlēto "
+"nākamo izlozes datumu automātiski tiks pārceltas visas biļetes. Šo darbību "
+"nav iespējams atsaukt!"
+
+#: views/admin/lotteries/nextdraw.php:24
+msgid ""
+"Format: mm/dd/yyyy<br><strong>Date should be in lottery local timezone!</"
+"strong>"
+msgstr ""
+"Formāts: mm/dd/gggg<br><strong>Datumam jābūt loterijas vietējā laika joslā!</"
+"strong>"
+
+#: views/admin/lotteries/source.php:7
+msgid "Change source"
+msgstr "Mainīt avotu"
+
+#: views/admin/lotteries/source.php:8
+msgid ""
+"Here you can change the source for the lottery. You should do this only when "
+"the original one is not working for a longer period of time!"
+msgstr ""
+"Šeit varat izmainīt loterijas avotu. Ieteicams darīt to tikai tādā gadījumā, "
+"ja sākotnējais avots nedarbojas vai nav pieejams jau ilgāku laiku!"
+
+#: views/admin/payments/paymentlogs.php:7 views/admin/shared/navbar.php:17
+msgid "Payments"
+msgstr "Maksājumi"
+
+#: views/admin/payments/paymentlogs.php:8
+msgid ""
+"Here you can find all logs related to payments. Logs are kept for 1 year."
+msgstr ""
+"Šeit atrodami visi ar maksājumiem saistītie žurnāli. Tie tiek saglabāti 1 "
+"gadu."
+
+#: views/admin/payments/paymentlogs.php:48
+#: views/whitelabel/transactions/view.php:615
+msgid "Payment Method"
+msgstr "Maksājuma metode"
+
+#: views/admin/payments/paymentlogs.php:49 views/aff/reports/commissions.php:49
+#: views/aff/reports/index.php:167 views/whitelabel/affs/commissions.php:58
+#: views/whitelabel/affs/reports.php:176 views/whitelabel/tickets/index.php:42
+#: views/whitelabel/tickets/index.php:61 views/whitelabel/tickets/view.php:17
+#: views/whitelabel/transactions/view.php:102
+msgid "Transaction ID"
+msgstr "Transakcijas ID"
+
+#: views/admin/payments/paymentlogs.php:51
+msgid "Data"
+msgstr "Dati"
+
+#: views/admin/payments/paymentlogs.php:70
+#: views/whitelabel/settings/ccsettings_edit.php:7
+#: views/whitelabel/transactions/index.php:17
+#: views/whitelabel/transactions/index.php:90
+#: views/whitelabel/transactions/view.php:35
+#: views/whitelabel/users/deposit.php:23
+msgid "Credit Card"
+msgstr "Kredītkarte"
+
+#: views/admin/payments/paymentlogs.php:88
+msgid "Show data"
+msgstr "Rādīt datus"
+
+#: views/admin/shared/header.php:7
+msgid "Admin panel"
+msgstr "Vadības panelis"
+
+#: views/admin/shared/header.php:7 views/admin/shared/navbar.php:10
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+msgid "Lotto network"
+msgstr "Lotto tīkls"
+
+#: views/admin/shared/navbar.php:5 views/aff/shared/navbar.php:5
+#: views/whitelabel/shared/navbar.php:5
+msgid "Toggle navigation"
+msgstr "Pārslēgt navigāciju"
+
+#: views/admin/shared/navbar.php:20 views/aff/shared/navbar.php:20
+#: views/whitelabel/shared/navbar.php:25
+msgid "Sign out"
+msgstr "Iziet"
+
+#: views/admin/signin/index.php:11 views/aff/signin/index.php:11
+#: views/whitelabel/signin/index.php:11
+msgid "Please sign in"
+msgstr "Lūdzu, ienāciet"
+
+#: views/admin/signin/index.php:27 views/aff/signin/index.php:27
+#: views/whitelabel/signin/index.php:27
+msgid "Sign in"
+msgstr "Ienākt"
+
+#: views/admin/whitelabels/add.php:7
+msgid "Add whitelabel"
+msgstr "Pievienot nemarķēto produktu"
+
+#: views/admin/whitelabels/add.php:8
+msgid "You can add new whitelabel here."
+msgstr "Šeit varat pievienot jaunu nemarķēto produktu."
+
+#: views/admin/whitelabels/add.php:22 views/admin/whitelabels/edit.php:22
+msgid "Enter site name"
+msgstr "Ievadiet vietnes nosaukumu"
+
+#: views/admin/whitelabels/add.php:26 views/admin/whitelabels/edit.php:26
+msgid "Enter site domain"
+msgstr "Ievadiet vietnes domēnu"
+
+#: views/admin/whitelabels/add.php:27 views/admin/whitelabels/edit.php:27
+msgid ""
+"E.g. <strong>https://whitelabel.com</strong>. Only lowercase letters (a-z), "
+"numbers, and hyphens are allowed."
+msgstr ""
+"Piem., <strong>https://whitelabel.com</strong>. Lietojiet tikai mazos burtus "
+"(a-z), ciparus un defises."
+
+#: views/admin/whitelabels/add.php:31 views/admin/whitelabels/edit.php:31
+msgid "Enter site username"
+msgstr "Ievadiet vietnes lietotājvārdu"
+
+#: views/admin/whitelabels/add.php:36 views/admin/whitelabels/edit.php:36
+#: views/whitelabel/affs/new.php:39
+msgid "Enter password"
+msgstr "Ievadiet paroli"
+
+#: views/admin/whitelabels/add.php:38 views/admin/whitelabels/edit.php:38
+#: views/aff/settings/password.php:24 views/whitelabel/affs/new.php:41
+#: views/whitelabel/affs/password.php:24
+#: views/whitelabel/settings/password.php:24
+#: views/whitelabel/users/password.php:24
+msgid "Random"
+msgstr "Izlases veidā"
+
+#: views/admin/whitelabels/add.php:41 views/admin/whitelabels/edit.php:41
+#: views/aff/settings/password.php:27 views/whitelabel/affs/new.php:44
+#: views/whitelabel/affs/password.php:27
+#: views/whitelabel/settings/password.php:27
+#: views/whitelabel/users/password.php:27
+msgid "Generated password"
+msgstr "Ģenerētā parole"
+
+#: views/admin/whitelabels/add.php:45
+msgid "Enter site prefix"
+msgstr "Ievadiet vietnes prefiksu"
+
+#: views/admin/whitelabels/add.php:46
+msgid "Should be 2-letters long, e.g. <strong>WL</strong>."
+msgstr "Jāsatur 2 rakstzīmes, piem., <strong>WL</strong>."
+
+#: views/admin/whitelabels/edit.php:7
+msgid "Edit whitelabel"
+msgstr "Rediģēt nemarķēto produktu"
+
+#: views/admin/whitelabels/edit.php:8
+msgid "You can edit whitelabel here."
+msgstr "Šeit varat rediģēt nemarķēto produktu."
+
+#: views/admin/whitelabels/edit.php:42
+msgid "Leave blank to keep the current password"
+msgstr "Atstājiet tukšu, lai paturētu līdzšinējo paroli"
+
+#: views/admin/whitelabels/index.php:8 views/admin/whitelabels/payments.php:8
+msgid "Add new"
+msgstr "Pievienot jaunu"
+
+#: views/admin/whitelabels/index.php:11
+msgid "This is an overview of your whitelabels."
+msgstr "Šis par pārskats par jūsu nemarķētajiem produktiem."
+
+#: views/admin/whitelabels/index.php:42
+msgid "There are no whitelabels."
+msgstr "Nav nemarķēto produktu."
+
+#: views/admin/whitelabels/payments.php:11
+msgid "Here you can manage payment methods of your whitelabels."
+msgstr ""
+"Šeit varat pārvaldīt maksājumu metodes saviem nemarķētajiem produktiem."
+
+#: views/admin/whitelabels/payments.php:20
+#: views/whitelabel/settings/paymentmethods.php:25
+msgid "Order"
+msgstr "Kārtot"
+
+#: views/admin/whitelabels/payments.php:23
+#: views/whitelabel/settings/paymentmethods.php:28
+msgid "Manual"
+msgstr "Manuāli"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:31 views/whitelabel/tickets/index.php:150
+#: views/whitelabel/users/index.php:139
+msgid "No"
+msgstr "Nē"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:32 views/whitelabel/tickets/index.php:149
+#: views/whitelabel/users/index.php:139
+msgid "Yes"
+msgstr "Jā"
+
+#: views/admin/whitelabels/payments.php:44
+msgid "There are no payment methods specified for this whitelabel."
+msgstr "Šim nemarķētajam produktam nav norādīta neviena maksājuma metode."
+
+#: views/admin/whitelabels/payments_edit.php:7
+#: views/whitelabel/settings/paymentmethods_edit.php:7
+#: views/whitelabel/transactions/view.php:130
+msgid "Payment method"
+msgstr "Maksājuma metode"
+
+#: views/admin/whitelabels/payments_edit.php:8
+#: views/whitelabel/settings/paymentmethods_edit.php:8
+msgid "You can add new or edit payment method here."
+msgstr "Šeit varat pievienot vai rediģēt maksājumu metodes."
+
+#: views/admin/whitelabels/payments_edit.php:30
+#: views/aff/settings/payment.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:30
+#: views/whitelabel/users/aff.php:22 views/whitelabel/users/index.php:115
+msgid "None"
+msgstr "Nav"
+
+#: views/admin/whitelabels/payments_edit.php:38
+#: views/whitelabel/affs/groups_edit.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:38
+msgid "Enter name"
+msgstr "Ievadiet vārdu/nosaukumu"
+
+#: views/admin/whitelabels/payments_edit.php:42
+#: views/whitelabel/settings/paymentmethods_edit.php:42
+msgid "Do not check this for manual-only payments."
+msgstr "Ja nepieciešami tikai manuāli maksājumi, neatzīmējiet šo."
+
+#: views/admin/whitelabels/payments_edit.php:45
+#: views/whitelabel/settings/paymentmethods_edit.php:45
+msgid "Skrill integration details"
+msgstr "Skrill integrācijas detaļas"
+
+#: views/admin/whitelabels/payments_edit.php:48
+#: views/whitelabel/settings/paymentmethods_edit.php:48
+msgid "Enter merchant account e-mail"
+msgstr "Ievadiet tirgotāja konta e-pastu"
+
+#: views/admin/whitelabels/payments_edit.php:52
+#: views/whitelabel/settings/paymentmethods_edit.php:52
+msgid "Enter Skrill secret word"
+msgstr "Ievadiet Skrill slepeno vārdu"
+
+#: views/admin/whitelabels/payments_edit.php:53
+#: views/whitelabel/settings/paymentmethods_edit.php:53
+msgid ""
+"Can be set in <strong>Settings &gt; Developer Settings</strong> section of "
+"your Skrill Digital Wallet account."
+msgstr ""
+"Iespējams iestatīt jūsu Skrill Digital Wallet konta sadaļā <strong>Settings "
+"&gt; Developer Settings</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:57
+#: views/whitelabel/settings/paymentmethods_edit.php:57
+msgid "Enter merchant logo URL"
+msgstr "Ievadiet tirgotāja logo URL"
+
+#: views/admin/whitelabels/payments_edit.php:58
+#: views/whitelabel/settings/paymentmethods_edit.php:58
+msgid "At least 107px &times; 65px."
+msgstr "Vismaz 107px &times; 65px."
+
+#: views/admin/whitelabels/payments_edit.php:62
+#: views/whitelabel/settings/paymentmethods_edit.php:62
+msgid "Enter merchant description (logo alt)"
+msgstr "Ievadiet tirgotāja aprakstu (logo alt)"
+
+#: views/admin/whitelabels/payments_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:66
+msgid "Neteller integration details"
+msgstr "Neteller integrācijas detaļas"
+
+#: views/admin/whitelabels/payments_edit.php:69
+#: views/whitelabel/settings/paymentmethods_edit.php:69
+msgid "Enter App Client ID"
+msgstr "Ievadiet lietotnes klienta ID"
+
+#: views/admin/whitelabels/payments_edit.php:72
+#: views/admin/whitelabels/payments_edit.php:73
+#: views/whitelabel/settings/paymentmethods_edit.php:72
+#: views/whitelabel/settings/paymentmethods_edit.php:73
+msgid "Enter App Client Secret"
+msgstr "Ievadiet lietotnes klienta slepeno atslēgu"
+
+#: views/admin/whitelabels/payments_edit.php:74
+#: views/whitelabel/settings/paymentmethods_edit.php:74
+msgid ""
+"Both Client ID &amp; Client Secret should be taken from <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+msgstr ""
+"Gan klienta ID, gan klienta slepeno atslēgu var iegūt sadaļā "
+"<strong>Neteller Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:78
+#: views/whitelabel/settings/paymentmethods_edit.php:78
+msgid "Enter Webhook Secret Key"
+msgstr "Ievadiet webhook slepeno atslēgu"
+
+#: views/admin/whitelabels/payments_edit.php:79
+#, php-format
+msgid ""
+"Can be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; "
+"Webhooks</strong>. You should set the <strong>Webhook URL</strong> to "
+"<strong>%s</strong> and check following hooks: <strong>payment_cancelled</"
+"strong>, <strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Iespējams iestatīt sadaļā <strong>Neteller Merchant Dashboard &gt; Developer "
+"&gt; Webhooks</strong>. Kā <strong>Webhook URL</strong> vērtību ieteicams "
+"norādīt <strong>%s</strong> un atzīmēt šādus \"āķus\": "
+"<strong>payment_cancelled</strong>, <strong>payment_declined</strong>, "
+"<strong>payment_failed</strong>, <strong>payment_succeeded</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:83
+#: views/whitelabel/settings/ccsettings_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:83
+msgid "Check it for test account."
+msgstr "Atzīmējiet testa konta gadījumā."
+
+#: views/admin/whitelabels/payments_edit.php:87
+#: views/whitelabel/settings/paymentmethods_edit.php:87
+msgid "tpay.com integration details"
+msgstr "tpay.com integrācijas detaļas"
+
+#: views/admin/whitelabels/payments_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:89
+#: views/whitelabel/transactions/view.php:308
+msgid "Merchant ID"
+msgstr "Tirgotāja ID"
+
+#: views/admin/whitelabels/payments_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:90
+msgid "Enter tpay.com ID"
+msgstr "Ievadiet tpay.com ID"
+
+#: views/admin/whitelabels/payments_edit.php:94
+#: views/whitelabel/settings/paymentmethods_edit.php:94
+msgid "Enter tpay.com Security Code"
+msgstr "Ievadiet tpay.com drošības kodu"
+
+#: views/admin/whitelabels/payments_edit.php:95
+#: views/whitelabel/settings/paymentmethods_edit.php:95
+msgid ""
+"Can be set in <strong>Settings &gt; notifications &gt; Security Code</"
+"strong> section of your tpay.com Merchant Panel.<br>Make sure <strong>Allow "
+"notification URL overwrite</strong> is set to <strong>yes</strong>."
+msgstr ""
+"Iespējams iestatīt jūsu tpay.com \"Merchant Panel\" sadaļā <strong>Settings "
+"&gt; notifications &gt; Security Code</strong>.<br>Pārliecinieties, ka "
+"opcija <strong>Allow notification URL overwrite</strong> ir iestatīta kā "
+"<strong>yes</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:99
+#: views/whitelabel/settings/paymentmethods_edit.php:99
+msgid "Cubits integration details"
+msgstr "Cubits integrācijas detaļas"
+
+#: views/admin/whitelabels/payments_edit.php:102
+#: views/whitelabel/settings/ccsettings_edit.php:39
+#: views/whitelabel/settings/paymentmethods_edit.php:102
+msgid "Enter API Key"
+msgstr "Ievadiet API atslēgu"
+
+#: views/admin/whitelabels/payments_edit.php:105
+#: views/whitelabel/settings/paymentmethods_edit.php:105
+msgid "Enter API Secret"
+msgstr "Ievadiet API slepeno atslēgu"
+
+#: views/admin/whitelabels/payments_edit.php:107
+#: views/whitelabel/settings/paymentmethods_edit.php:107
+msgid ""
+"Can be generated in <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+msgstr ""
+"Iespējams ģenerēt sadaļā <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:111
+#: views/whitelabel/settings/paymentmethods_edit.php:111
+msgid "Sofort integration details"
+msgstr "Sofort integrācijas detaļas"
+
+#: views/admin/whitelabels/payments_edit.php:114
+#: views/whitelabel/settings/paymentmethods_edit.php:114
+msgid "Enter Configuration Key"
+msgstr "Ievadiet konfigurācijas atslēgu"
+
+#: views/admin/whitelabels/payments_edit.php:115
+#: views/whitelabel/settings/paymentmethods_edit.php:115
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Projects &gt; My projects "
+"&gt; (choose your project) &gt; General settings &gt; Configuration key for "
+"your shop system</strong>."
+msgstr ""
+"Iespējams atrast sadaļā <strong>Merchant panel &gt; Projects &gt; My "
+"projects &gt; [izvēlieties savu projektu] &gt; General settings &gt; "
+"Configuration key for your shop system</strong>."
+
+#: views/aff/dashboard/index.php:6
+msgid "Your data"
+msgstr "Jūsu informācjia"
+
+#: views/aff/dashboard/index.php:9
+msgid "Ref"
+msgstr "Ref"
+
+#: views/aff/dashboard/index.php:12
+msgid "General link"
+msgstr "Vispārīgā saite"
+
+#: views/aff/dashboard/index.php:18
+msgid "Your plan"
+msgstr "Jūsu plāns"
+
+#: views/aff/dashboard/index.php:37
+msgid "Generate your affiliate link"
+msgstr "Ģenerējiet savu partnersaiti"
+
+#: views/aff/dashboard/index.php:41
+msgid "Generated link"
+msgstr "Ģenerētā saite"
+
+#: views/aff/dashboard/index.php:49
+msgid "Enter medium"
+msgstr "Ievadiet vidi"
+
+#: views/aff/dashboard/index.php:50
+msgid ""
+"The advertising or marketing medium, for example: cpc, banner, email "
+"newsletter."
+msgstr ""
+"Reklāmas vai mārketinga vide, piemēram: cpc, reklāmkarogs, abonentiem "
+"izsūtāmie e-pasta ziņojumi."
+
+#: views/aff/dashboard/index.php:54
+msgid "Enter campaign"
+msgstr "Ievadiet kampaņu"
+
+#: views/aff/dashboard/index.php:55
+msgid "The individual campaign name, slogan, promo code, etc."
+msgstr "Kampaņas individuālais nosaukums, sauklis, promo kods utt."
+
+#: views/aff/dashboard/index.php:59
+msgid "Enter content"
+msgstr "Ievadiet saturu"
+
+#: views/aff/dashboard/index.php:60
+msgid ""
+"Used to differentiate similar content, or links within the same ad. For "
+"example, if you have two call-to-action links within the same email message, "
+"you can use <em>content</em> and set different values for each so you can "
+"tell which version is more effective."
+msgstr ""
+"Lieto līdzīga satura vai saišu atšķiršanai vienā un tajā pašā reklāmā. "
+"Piemēram, ja viens un tas pats e-pasta ziņojums satur divas saites, varat "
+"izmantot <em>content</em> un katrai no tām iestatīt dažādas vērtības, lai "
+"varētu noteikt, kurš variants ir efektīvāks."
+
+#: views/aff/dashboard/index.php:62
+msgid "Generate link"
+msgstr "Ģenerēt saiti"
+
+#: views/aff/reports/commissions.php:8
+msgid "Here you can view your latest commissions."
+msgstr "Šeit varat apskatīt savas pēdējās komisijas."
+
+#: views/aff/reports/commissions.php:45 views/aff/reports/ftps.php:45
+#: views/aff/reports/index.php:77 views/aff/reports/index.php:123
+#: views/aff/reports/index.php:163 views/aff/reports/leads.php:51
+#: views/aff/settings/profile.php:12 views/whitelabel/affs/commissions.php:30
+#: views/whitelabel/affs/ftps.php:30 views/whitelabel/affs/groups.php:19
+#: views/whitelabel/affs/index.php:42 views/whitelabel/affs/index.php:70
+#: views/whitelabel/affs/leads.php:30 views/whitelabel/affs/view.php:13
+#: views/whitelabel/settings/ccsettings.php:23
+#: views/whitelabel/tickets/index.php:39 views/whitelabel/tickets/index.php:60
+#: views/whitelabel/tickets/view.php:15
+#: views/whitelabel/transactions/index.php:33
+#: views/whitelabel/transactions/index.php:51
+#: views/whitelabel/transactions/view.php:13
+#: views/whitelabel/transactions/withdrawal.php:13
+#: views/whitelabel/transactions/withdrawals.php:30
+#: views/whitelabel/transactions/withdrawals.php:48
+#: views/whitelabel/users/index.php:40 views/whitelabel/users/index.php:65
+#: views/whitelabel/users/view.php:13
+msgid "ID"
+msgstr "ID"
+
+#: views/aff/reports/commissions.php:59 views/aff/reports/index.php:177
+#: views/whitelabel/affs/commissions.php:65
+#: views/whitelabel/affs/reports.php:183
+msgid "Commission"
+msgstr "Komisija"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "Sale"
+msgstr "Pārdevums"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "FTP"
+msgstr "FTP"
+
+#: views/aff/reports/commissions.php:78 views/aff/reports/index.php:197
+#: views/whitelabel/affs/commissions.php:95
+#: views/whitelabel/affs/reports.php:213
+msgid "Tier"
+msgstr "Līmenis"
+
+#: views/aff/reports/commissions.php:94
+#: views/whitelabel/affs/commissions.php:130
+msgid "No commissions."
+msgstr "Nav komisiju."
+
+#: views/aff/reports/ftps.php:8
+msgid "Here you can view the latest first-time purchases."
+msgstr "Šeit varat apskatīt pēdējos pirmreizējos pirkumus."
+
+#: views/aff/reports/ftps.php:47 views/aff/reports/index.php:79
+#: views/aff/reports/index.php:125 views/aff/reports/leads.php:53
+#: views/whitelabel/affs/ftps.php:58 views/whitelabel/affs/leads.php:61
+#: views/whitelabel/affs/reports.php:68 views/whitelabel/affs/reports.php:123
+msgid "Register country"
+msgstr "Reģistrācijas valsts"
+
+#: views/aff/reports/ftps.php:48 views/aff/reports/index.php:80
+#: views/aff/reports/index.php:126 views/aff/reports/leads.php:54
+#: views/whitelabel/affs/ftps.php:59 views/whitelabel/affs/leads.php:62
+#: views/whitelabel/affs/reports.php:69 views/whitelabel/affs/reports.php:124
+msgid "Last country"
+msgstr "Pēdējā valsts"
+
+#: views/aff/reports/ftps.php:52 views/aff/reports/index.php:84
+#: views/aff/reports/index.php:130 views/aff/reports/leads.php:58
+#: views/whitelabel/affs/ftps.php:60 views/whitelabel/affs/leads.php:63
+#: views/whitelabel/affs/reports.php:70 views/whitelabel/affs/reports.php:125
+msgid "Registered"
+msgstr "Reģistrējies"
+
+#: views/aff/reports/ftps.php:53 views/aff/reports/index.php:85
+#: views/aff/reports/index.php:131 views/aff/reports/leads.php:59
+#: views/whitelabel/affs/ftps.php:61 views/whitelabel/affs/leads.php:64
+#: views/whitelabel/affs/reports.php:71 views/whitelabel/affs/reports.php:126
+msgid "First purchase"
+msgstr "Pirmais pirkums"
+
+#: views/aff/reports/ftps.php:77 views/whitelabel/affs/ftps.php:96
+msgid "No first-time purchases."
+msgstr "Nav pirmreizēju pirkumu."
+
+#: views/aff/reports/index.php:8 views/whitelabel/affs/reports.php:8
+#: views/whitelabel/reports/reports.php:8
+msgid "Here you can generate a report for a given date range."
+msgstr "Šeit varat ģenerēt pārskatu par noteiktu laika periodu."
+
+#: views/aff/reports/index.php:11 views/whitelabel/affs/reports.php:11
+#: views/whitelabel/reports/reports.php:11
+msgid "Range"
+msgstr "Periods"
+
+#: views/aff/reports/index.php:42 views/aff/reports/index.php:47
+#: views/whitelabel/affs/reports.php:30 views/whitelabel/affs/reports.php:35
+#: views/whitelabel/reports/reports.php:34
+#: views/whitelabel/reports/reports.php:39
+msgid "Report"
+msgstr "Pārskats"
+
+#: views/aff/reports/index.php:48 views/whitelabel/affs/reports.php:36
+#: views/whitelabel/reports/reports.php:40
+msgid "Start Date"
+msgstr "Sākuma datums"
+
+#: views/aff/reports/index.php:50 views/whitelabel/affs/reports.php:38
+#: views/whitelabel/reports/reports.php:42
+msgid "End Date"
+msgstr "Beigu datums"
+
+#: views/aff/reports/index.php:52 views/whitelabel/affs/reports.php:40
+msgid "Clicks"
+msgstr "Klikšķi"
+
+#: views/aff/reports/index.php:54 views/whitelabel/affs/reports.php:42
+msgid "Unique clicks"
+msgstr "Unikālie klikšķi"
+
+#: views/aff/reports/index.php:58 views/aff/reports/index.php:116
+#: views/whitelabel/affs/reports.php:46 views/whitelabel/affs/reports.php:110
+msgid "First-time purchases"
+msgstr "Pirmreizējie pirkumi"
+
+#: views/aff/reports/index.php:60 views/whitelabel/affs/reports.php:48
+msgid "Total commission"
+msgstr "Komisija kopā"
+
+#: views/aff/reports/index.php:69 views/aff/reports/index.php:121
+#: views/aff/reports/index.php:161 views/whitelabel/affs/reports.php:57
+#: views/whitelabel/affs/reports.php:115 views/whitelabel/affs/reports.php:168
+msgid "#"
+msgstr "Nr. "
+
+#: views/aff/reports/index.php:71 views/aff/reports/leads.php:45
+#: views/whitelabel/affs/index.php:88 views/whitelabel/affs/leads.php:55
+#: views/whitelabel/affs/reports.php:62 views/whitelabel/users/index.php:84
+msgid "Active"
+msgstr "Aktīvs"
+
+#: views/aff/reports/index.php:74 views/aff/reports/leads.php:48
+msgid "Confirmed"
+msgstr "Apstiprināts"
+
+#: views/aff/reports/leads.php:8
+msgid "Here you can view your latest leads."
+msgstr "Šeit varat apskatīt savus jaunākos piesaistītos klientus."
+
+#: views/aff/reports/leads.php:89 views/whitelabel/affs/leads.php:108
+msgid "No leads."
+msgstr "Nav piesaistīto klientu."
+
+#: views/aff/reports/payouts.php:8 views/whitelabel/affs/payouts.php:8
+msgid ""
+"Here you can view and manage your payouts. They are calculated automatically "
+"every month."
+msgstr ""
+"Šeit varat skatīt un pārvaldīt izmaksas. Tās katru mēnesi tiek aprēķinātas "
+"automātiski."
+
+#: views/aff/reports/payouts.php:22 views/whitelabel/affs/payouts.php:40
+#: views/whitelabel/tickets/index.php:30 views/whitelabel/tickets/index.php:72
+#: views/whitelabel/tickets/view.php:57 views/whitelabel/tickets/view.php:61
+#: views/whitelabel/tickets/view.php:102
+msgid "Paid out"
+msgstr "Izmaksāts"
+
+#: views/aff/reports/payouts.php:57 views/whitelabel/affs/payouts.php:116
+msgid "View report"
+msgstr "Skatīt pārskatu"
+
+#: views/aff/reports/payouts.php:67 views/whitelabel/affs/payouts.php:129
+msgid "No payouts."
+msgstr "Nav izmaksu."
+
+#: views/aff/settings/analytics.php:7 views/whitelabel/settings/analytics.php:7
+msgid "Edit Google Analytics settings"
+msgstr "Rediģēt Google Analytics iestatījumus"
+
+#: views/aff/settings/analytics.php:8 views/whitelabel/settings/analytics.php:8
+msgid "Here you can edit Google Analytics settings."
+msgstr "Šeit varat rediģēt Google Analytics iestatījumus."
+
+#: views/aff/settings/analytics.php:21
+#: views/whitelabel/settings/analytics.php:21
+msgid "Enter Google Analytics Tracking ID"
+msgstr "Ievadiet Google Analytics izsekošanas ID"
+
+#: views/aff/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will see the data related to "
+"your leads only. You will have to <a href=\"https://support.google.com/"
+"analytics/answer/3123666\" target=\"_blank\">enable User-ID</a> to take the "
+"full advantage of the Google Analytics feature."
+msgstr ""
+"Formāta paraugs: <strong>UA-XXXXX-Y</strong>. Jūs redzēsiet tikai tos datus, "
+"kas saistīti ar jūsu potenciālajiem klientiem. Lai izmantotu visas Google "
+"Analytics funkcijas priekšrocības, jums būs nepieciešams <a href=\"https://"
+"support.google.com/analytics/answer/3123666\" target=\"_blank\">iespējot "
+"User-ID</a>."
+
+#: views/aff/settings/edit.php:7 views/whitelabel/affs/edit.php:7
+#: views/whitelabel/users/edit.php:7
+msgid "Edit details"
+msgstr "Rediģēt informāciju"
+
+#: views/aff/settings/edit.php:8
+msgid "Edit your details here."
+msgstr "Rediģējiet savu informāciju šeit."
+
+#: views/aff/settings/edit.php:21
+msgid "Your login"
+msgstr "Jūsu lietotājvārds"
+
+#: views/aff/settings/edit.php:25
+msgid "Your company"
+msgstr "Jūsu uzņēmums"
+
+#: views/aff/settings/edit.php:29
+msgid "Your first name"
+msgstr "Jūsu vārds"
+
+#: views/aff/settings/edit.php:33
+msgid "Your last name"
+msgstr "Jūsu uzvārds"
+
+#: views/aff/settings/edit.php:38
+msgid "Your country"
+msgstr "Jūsu valsts"
+
+#: views/aff/settings/edit.php:46
+msgid "Your city"
+msgstr "Jūsu pilsēta"
+
+#: views/aff/settings/edit.php:51 views/aff/settings/edit.php:55
+msgid "Your region"
+msgstr "Jūsu rajons"
+
+#: views/aff/settings/edit.php:61
+msgid "Your postal/ZIP code"
+msgstr "Jūsu pasta indekss"
+
+#: views/aff/settings/edit.php:65
+msgid "Your address #1"
+msgstr "Jūsu adrese (1)"
+
+#: views/aff/settings/edit.php:69
+msgid "Your address #2"
+msgstr "Jūsu adrese (2)"
+
+#: views/aff/settings/edit.php:74
+msgid "Your birthdate"
+msgstr "Jūsu dzimšanas datums"
+
+#: views/aff/settings/edit.php:78 views/whitelabel/affs/edit.php:98
+#: views/whitelabel/users/edit.php:70
+msgid "Phone prefix"
+msgstr "Tālruņa prefikss"
+
+#: views/aff/settings/edit.php:80 views/whitelabel/affs/edit.php:100
+#: views/whitelabel/users/edit.php:72
+msgid "Choose a phone prefix"
+msgstr "Izvēlieties tālruņa prefiksu"
+
+#: views/aff/settings/edit.php:90
+msgid "Your phone"
+msgstr "Jūsu tālrunis"
+
+#: views/aff/settings/edit.php:95
+msgid "Choose timezone"
+msgstr "Izvēlieties laika joslu"
+
+#: views/aff/settings/password.php:7 views/whitelabel/affs/password.php:7
+#: views/whitelabel/settings/password.php:7
+#: views/whitelabel/users/password.php:7
+msgid "Change password"
+msgstr "Mainīt paroli"
+
+#: views/aff/settings/password.php:8
+msgid "You can change your password here."
+msgstr "Šeit varat nomainīt savu paroli."
+
+#: views/aff/settings/payment.php:7
+msgid "Edit payment settings"
+msgstr "Rediģēt maksājumu iestatījumus"
+
+#: views/aff/settings/payment.php:8
+msgid "Edit your payment details here."
+msgstr "Šeit varat rediģēt savu maksājumu informāciju."
+
+#: views/aff/settings/payment.php:33 views/aff/settings/payment.php:56
+#: views/aff/settings/payment.php:71
+msgid "Enter first name"
+msgstr "Ievadiet vārdu"
+
+#: views/aff/settings/payment.php:37 views/aff/settings/payment.php:60
+#: views/aff/settings/payment.php:75
+msgid "Enter last name"
+msgstr "Ievadiet uzvārdu"
+
+#: views/aff/settings/payment.php:41
+msgid "Enter your account IBAN number"
+msgstr "Ievadiet sava konta IBAN numuru"
+
+#: views/aff/settings/payment.php:45
+msgid "Enter your bank SWIFT code"
+msgstr "Ievadiet savas bankas SWIFT kodu"
+
+#: views/aff/settings/payment.php:49
+msgid "Enter your bank name"
+msgstr "Ievadiet savas bankas nosaukumu"
+
+#: views/aff/settings/payment.php:64
+msgid "Enter Skrill e-mail"
+msgstr "Ievadiet Skrill e-pastu"
+
+#: views/aff/settings/payment.php:79
+msgid "Enter Neteller e-mail"
+msgstr "Ievadiet Neteller e-pastu"
+
+#: views/aff/settings/payment.php:85
+msgid "Enter first name (optional)"
+msgstr "Ievadiet vārdu (nav obligāti)"
+
+#: views/aff/settings/payment.php:89
+msgid "Enter last name (optional)"
+msgstr "Ievadiet uzvārdu (nav obligāti)"
+
+#: views/aff/settings/payment.php:93
+msgid "Enter bitcoin wallet address"
+msgstr "Ievadiet bitcoin maciņa adresi"
+
+#: views/aff/settings/profile.php:8
+msgid "You can view and edit your details here."
+msgstr "Šeit varat skatīt un rediģēt savu informāciju."
+
+#: views/aff/settings/profile.php:13 views/aff/settings/profile.php:17
+#: views/aff/settings/profile.php:28 views/aff/settings/profile.php:30
+#: views/aff/settings/profile.php:32 views/aff/settings/profile.php:34
+#: views/aff/settings/profile.php:36 views/aff/settings/profile.php:38
+#: views/aff/settings/profile.php:40 views/aff/settings/profile.php:42
+#: views/aff/settings/profile.php:44 views/aff/settings/profile.php:49
+#: views/whitelabel/affs/view.php:14 views/whitelabel/affs/view.php:19
+#: views/whitelabel/affs/view.php:25 views/whitelabel/affs/view.php:36
+#: views/whitelabel/affs/view.php:38 views/whitelabel/affs/view.php:40
+#: views/whitelabel/affs/view.php:42 views/whitelabel/affs/view.php:44
+#: views/whitelabel/affs/view.php:46 views/whitelabel/affs/view.php:48
+#: views/whitelabel/affs/view.php:50 views/whitelabel/affs/view.php:52
+#: views/whitelabel/affs/view.php:57 views/whitelabel/settings/account.php:24
+#: views/whitelabel/tickets/view.php:16 views/whitelabel/tickets/view.php:18
+#: views/whitelabel/tickets/view.php:20
+#: views/whitelabel/transactions/view.php:14
+#: views/whitelabel/transactions/view.php:16
+#: views/whitelabel/transactions/withdrawal.php:14
+#: views/whitelabel/transactions/withdrawal.php:16
+#: views/whitelabel/users/view.php:14 views/whitelabel/users/view.php:23
+#: views/whitelabel/users/view.php:25 views/whitelabel/users/view.php:27
+#: views/whitelabel/users/view.php:29 views/whitelabel/users/view.php:31
+#: views/whitelabel/users/view.php:33 views/whitelabel/users/view.php:35
+#: views/whitelabel/users/view.php:37 views/whitelabel/users/view.php:39
+#: views/whitelabel/users/view.php:44 views/whitelabel/users/view.php:58
+msgid "-"
+msgstr "-"
+
+#: views/aff/settings/profile.php:19 views/aff/settings/profile.php:21
+#: views/whitelabel/affs/view.php:27 views/whitelabel/affs/view.php:29
+#: views/whitelabel/tickets/view.php:22 views/whitelabel/tickets/view.php:24
+#: views/whitelabel/transactions/view.php:18
+#: views/whitelabel/transactions/view.php:20
+#: views/whitelabel/transactions/withdrawal.php:18
+#: views/whitelabel/transactions/withdrawal.php:20
+#: views/whitelabel/transactions/withdrawal.php:51
+#: views/whitelabel/transactions/withdrawal.php:53
+#: views/whitelabel/users/view.php:16 views/whitelabel/users/view.php:18
+msgid "Anonymous"
+msgstr "Anonīms"
+
+#: views/aff/settings/profile.php:47 views/whitelabel/affs/view.php:55
+#: views/whitelabel/settings/account.php:20 views/whitelabel/users/view.php:42
+msgid "Change Password"
+msgstr "Mainīt paroli"
+
+#: views/aff/settings/profile.php:50 views/whitelabel/affs/view.php:64
+#: views/whitelabel/settings/account.php:25 views/whitelabel/users/view.php:59
+msgid "Edit Details"
+msgstr "Rediģēt informāciju"
+
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+#, php-format
+msgid "%s management panel"
+msgstr "%s vadības panelis"
+
+#: views/aff/shared/navbar.php:15 views/whitelabel/affs/menu.php:10
+#: views/whitelabel/shared/navbar.php:18
+msgid "Reports"
+msgstr "Pārskati"
+
+#: views/aff/shared/navbar.php:16 views/whitelabel/affs/menu.php:18
+#: views/whitelabel/shared/navbar.php:20
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: views/whitelabel/affs/commissions.php:8
+msgid "Here you can view the latest commissions of your affiliates."
+msgstr "Šeit varat apskatīt savu partneru pēdējās komisijas."
+
+#: views/whitelabel/affs/commissions.php:16
+#: views/whitelabel/affs/commissions.php:73
+#: views/whitelabel/affs/commissions.php:80 views/whitelabel/affs/edit.php:34
+#: views/whitelabel/affs/ftps.php:16 views/whitelabel/affs/ftps.php:68
+#: views/whitelabel/affs/ftps.php:75 views/whitelabel/affs/index.php:98
+#: views/whitelabel/affs/index.php:109 views/whitelabel/affs/leads.php:16
+#: views/whitelabel/affs/leads.php:72 views/whitelabel/affs/leads.php:81
+#: views/whitelabel/affs/payouts.php:16 views/whitelabel/affs/payouts.php:48
+#: views/whitelabel/affs/reports.php:24 views/whitelabel/affs/reports.php:79
+#: views/whitelabel/affs/reports.php:88 views/whitelabel/affs/reports.php:134
+#: views/whitelabel/affs/reports.php:141 views/whitelabel/affs/reports.php:191
+#: views/whitelabel/affs/reports.php:198 views/whitelabel/affs/view.php:17
+#: views/whitelabel/tickets/index.php:83
+#: views/whitelabel/transactions/index.php:71
+#: views/whitelabel/transactions/withdrawals.php:68
+#: views/whitelabel/users/aff.php:25 views/whitelabel/users/index.php:93
+#: views/whitelabel/users/index.php:108
+msgid "anonymous"
+msgstr "anonīms"
+
+#: views/whitelabel/affs/commissions.php:55 views/whitelabel/affs/ftps.php:55
+#: views/whitelabel/affs/leads.php:58 views/whitelabel/affs/reports.php:65
+#: views/whitelabel/affs/reports.php:120 views/whitelabel/affs/reports.php:173
+msgid "User"
+msgstr "Lietotājs"
+
+#: views/whitelabel/affs/commissions.php:76 views/whitelabel/affs/ftps.php:71
+#: views/whitelabel/affs/leads.php:75 views/whitelabel/affs/payouts.php:51
+#: views/whitelabel/affs/reports.php:82 views/whitelabel/affs/reports.php:137
+#: views/whitelabel/affs/reports.php:194 views/whitelabel/users/index.php:113
+msgid "View affiliate"
+msgstr "Skatīt partneri"
+
+#: views/whitelabel/affs/commissions.php:84 views/whitelabel/affs/ftps.php:79
+#: views/whitelabel/affs/leads.php:85 views/whitelabel/affs/reports.php:92
+#: views/whitelabel/affs/reports.php:145 views/whitelabel/affs/reports.php:202
+#: views/whitelabel/tickets/index.php:88 views/whitelabel/tickets/index.php:90
+#: views/whitelabel/tickets/index.php:92
+#: views/whitelabel/transactions/index.php:76
+#: views/whitelabel/transactions/index.php:78
+#: views/whitelabel/transactions/index.php:80
+msgid "View user"
+msgstr "Skatīt lietotāju"
+
+#: views/whitelabel/affs/commissions.php:85 views/whitelabel/affs/ftps.php:80
+#: views/whitelabel/affs/leads.php:86 views/whitelabel/affs/reports.php:93
+#: views/whitelabel/affs/reports.php:146 views/whitelabel/affs/reports.php:203
+#: views/whitelabel/reports/index.php:49 views/whitelabel/reports/index.php:65
+#: views/whitelabel/reports/index.php:72 views/whitelabel/reports/index.php:78
+#: views/whitelabel/transactions/index.php:83
+#: views/whitelabel/transactions/view.php:743
+#: views/whitelabel/users/index.php:97
+msgid "View tickets"
+msgstr "Skatīt biļetes"
+
+#: views/whitelabel/affs/commissions.php:90
+#: views/whitelabel/affs/reports.php:208 views/whitelabel/tickets/index.php:95
+msgid "View transaction"
+msgstr "Skatīt transakciju"
+
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/index.php:145 views/whitelabel/affs/leads.php:97
+#: views/whitelabel/transactions/index.php:116
+msgid "Accept"
+msgstr "Pieņemt"
+
+#: views/whitelabel/affs/edit.php:8
+msgid "Edit affiliate details here."
+msgstr "Šeit varat rediģēt partneru informāciju."
+
+#: views/whitelabel/affs/edit.php:22 views/whitelabel/affs/groups.php:28
+#: views/whitelabel/affs/groups_edit.php:7 views/whitelabel/affs/index.php:35
+#: views/whitelabel/affs/index.php:116 views/whitelabel/affs/new.php:22
+#: views/whitelabel/affs/view.php:23
+msgid "Default Group"
+msgstr "Noklusētā grupa"
+
+#: views/whitelabel/affs/edit.php:31
+msgid "Choose parent"
+msgstr "Izvēlēties vecāku"
+
+#: views/whitelabel/affs/edit.php:41
+msgid "User company"
+msgstr "Lietotāja uzņēmums"
+
+#: views/whitelabel/affs/edit.php:45 views/whitelabel/affs/new.php:30
+msgid "Enter login"
+msgstr "Ievadiet lietotājvārdu"
+
+#: views/whitelabel/affs/edit.php:49 views/whitelabel/users/edit.php:21
+msgid "User first name"
+msgstr "Lietotāja vārds"
+
+#: views/whitelabel/affs/edit.php:53 views/whitelabel/users/edit.php:25
+msgid "User last name"
+msgstr "Lietotāja uzvārds"
+
+#: views/whitelabel/affs/edit.php:58 views/whitelabel/users/edit.php:30
+msgid "Choose user country"
+msgstr "Izvēlieties lietotāja valsti"
+
+#: views/whitelabel/affs/edit.php:66 views/whitelabel/users/edit.php:38
+msgid "User city"
+msgstr "Lietotāja pilsēta"
+
+#: views/whitelabel/affs/edit.php:71 views/whitelabel/affs/edit.php:75
+#: views/whitelabel/users/edit.php:43 views/whitelabel/users/edit.php:47
+msgid "Choose user region"
+msgstr "Izvēlēties lietotāja rajonu"
+
+#: views/whitelabel/affs/edit.php:81 views/whitelabel/users/edit.php:53
+msgid "User Postal/ZIP Code"
+msgstr "Lietotāja pasta indekss"
+
+#: views/whitelabel/affs/edit.php:85 views/whitelabel/users/edit.php:57
+msgid "User address #1"
+msgstr "Lietotāja adrese (1)"
+
+#: views/whitelabel/affs/edit.php:89 views/whitelabel/users/edit.php:61
+msgid "User address #2"
+msgstr "Lietotāja adrese (2)"
+
+#: views/whitelabel/affs/edit.php:94 views/whitelabel/users/edit.php:66
+msgid "User birthdate"
+msgstr "Lietotāja dzimšanas datums"
+
+#: views/whitelabel/affs/edit.php:110 views/whitelabel/users/edit.php:82
+msgid "User phone"
+msgstr "Lietotāja tālrunis"
+
+#: views/whitelabel/affs/edit.php:115 views/whitelabel/users/edit.php:87
+msgid "Choose time zone"
+msgstr "Izvēlieties laika joslu"
+
+#: views/whitelabel/affs/email.php:7 views/whitelabel/users/email.php:7
+msgid "Edit e-mail"
+msgstr "Rediģēt e-pastu"
+
+#: views/whitelabel/affs/email.php:8
+msgid "You can edit affiliate e-mail here."
+msgstr "Šeit varat rediģēt partnera e-pastu."
+
+#: views/whitelabel/affs/email.php:21 views/whitelabel/users/email.php:21
+msgid "New e-mail"
+msgstr "Jauns e-pasts"
+
+#: views/whitelabel/affs/ftps.php:8
+msgid ""
+"Here you can view the latest first-time purchases of your affiliate leads."
+msgstr ""
+"Šeit varat skatīt pēdējos savu partneru piesaistīto klientu pirmos pirkumus."
+
+#: views/whitelabel/affs/groups.php:10 views/whitelabel/affs/menu.php:17
+msgid "Affiliate groups"
+msgstr "Partneru grupas"
+
+#: views/whitelabel/affs/groups.php:11
+msgid "You can manage affiliate groups here."
+msgstr "Šeit varat pārvaldīt partneru grupas."
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "Edit affiliate group"
+msgstr "Rediģēt partneru grupu"
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "New affiliate group"
+msgstr "Jauna partneru grupa"
+
+#: views/whitelabel/affs/groups_edit.php:8
+msgid "You can add or edit affiliate group here."
+msgstr "Šeit varat pievienot vai rediģēt partneru grupu."
+
+#: views/whitelabel/affs/groups_edit.php:29
+#: views/whitelabel/affs/groups_edit.php:44
+#: views/whitelabel/affs/groups_edit.php:58
+#: views/whitelabel/affs/groups_edit.php:65
+msgid "Enter commission value"
+msgstr "Ievadiet komisijas vērtību"
+
+#: views/whitelabel/affs/index.php:13
+msgid "You can manage your affiliates here."
+msgstr "Šeit varat pārvaldīt partnerus."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "How to open in Excel"
+msgstr "Kā atvērt programmā Excel"
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid ""
+"1. Download and save the file.<br>2. Open Excel and create new file.<br>3. "
+"Choose <i>Data->From Text</i> from <i>Get External Data</i> section.<br>4. "
+"Navigate and choose saved file.<br>5. Choose <i>Delimited</i>, file origin "
+"<i>Unicode (UTF-8)</i>, check <i>My data has headers.</i><br>6. On next step "
+"choose only <i>Comma</i> as the delimiter.<br>7. You can adjust some format "
+"settings in the last step (for best results you should set all columns to "
+"<i>Text</i> type instead of <i>General</i>).<br>8. Click <i>Finish</i> and "
+"choose data placement."
+msgstr ""
+"1. Lejupielādējiet un saglabājiet failu.<br>2. Palaidiet Excel un "
+"izveidojiet jaunu failu.<br>3. Sadaļā <i>Get External Data </i> izvēlieties "
+"<i>Data->From Text</i>.<br>4. Atrodiet un izvēlieties saglabāto failu.<br>5. "
+"Izvēlieties <i>Delimited</i>, opciju <i>Unicode (UTF-8)</i>, atzīmējiet "
+"<i>My data has headers.</i><br>6. Nākamajā solī kā atdalītājsimbolu "
+"izvēlieties komatu <i>(Comma)</i>.<br>7. Pēdējā solī varat pielāgot "
+"atsevišķus formatēšanas iestatījumus (vislabākajiem rezultātiem visām slejām "
+"iestatiet tipu <i>Text</i> nevis <i>General</i>).<br>8. Noklikšķiniet "
+"<i>Finish</i> un norādiet datu izvietojumu."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "Export View to CSV"
+msgstr "Eksportēt skatu uz CSV"
+
+#: views/whitelabel/affs/index.php:82
+msgid "Created"
+msgstr "Izveidots"
+
+#: views/whitelabel/affs/index.php:83
+msgid "Last Active<br>IP<br>Country"
+msgstr "Pēdējā aktivitāte<br>IP<br>Valsts"
+
+#: views/whitelabel/affs/index.php:85 views/whitelabel/users/index.php:81
+msgid "Date Deleted"
+msgstr "Dzēšanas datums"
+
+#: views/whitelabel/affs/index.php:89 views/whitelabel/users/index.php:111
+msgid "Accepted"
+msgstr "Pieņemts"
+
+#: views/whitelabel/affs/index.php:140 views/whitelabel/users/index.php:143
+msgid "Restore"
+msgstr "Atjaunot"
+
+#: views/whitelabel/affs/index.php:143 views/whitelabel/users/index.php:146
+msgid "Activate"
+msgstr "Aktivizēt"
+
+#: views/whitelabel/affs/index.php:147 views/whitelabel/tickets/index.php:157
+#: views/whitelabel/transactions/index.php:113
+#: views/whitelabel/transactions/withdrawals.php:95
+#: views/whitelabel/users/index.php:148
+msgid "Details"
+msgstr "Informācija"
+
+#: views/whitelabel/affs/index.php:159
+msgid "No affiliates."
+msgstr "Nav partneru."
+
+#: views/whitelabel/affs/leads.php:8
+msgid "Here you can view your affiliates latest leads."
+msgstr "Šeit varat apskatīt savu partneru jaunākos piesaistītos klientus."
+
+#: views/whitelabel/affs/menu.php:2
+msgid "Active & Accepted"
+msgstr "Aktīvs un pieņemts"
+
+#: views/whitelabel/affs/menu.php:5 views/whitelabel/tickets/index.php:86
+#: views/whitelabel/transactions/index.php:74
+#: views/whitelabel/transactions/withdrawals.php:71
+#: views/whitelabel/users/index.php:112
+msgid "Deleted"
+msgstr "Dzēsts"
+
+#: views/whitelabel/affs/new.php:7
+msgid "New affiliate"
+msgstr "Jauns partneris"
+
+#: views/whitelabel/affs/new.php:8
+msgid "You can add new affiliate here."
+msgstr "Šeit varat pievienot jaunu partneri."
+
+#: views/whitelabel/affs/new.php:34
+#: views/whitelabel/settings/account_edit.php:29
+msgid "Enter e-mail"
+msgstr "Ievadiet e-pastu"
+
+#: views/whitelabel/affs/password.php:8
+msgid "You can change affiliate password here."
+msgstr "Šeit varat izmainīt partnera paroli."
+
+#: views/whitelabel/affs/payouts.php:39
+msgid "Payment"
+msgstr "Maksājums"
+
+#: views/whitelabel/affs/payouts.php:64
+msgid "Bank Account"
+msgstr "Bankas konts"
+
+#: views/whitelabel/affs/payouts.php:66 views/whitelabel/affs/payouts.php:73
+#: views/whitelabel/affs/payouts.php:78 views/whitelabel/affs/payouts.php:86
+msgid "Surname"
+msgstr "Uzvārds"
+
+#: views/whitelabel/affs/payouts.php:67
+msgid "Account Number"
+msgstr "Konta numurs"
+
+#: views/whitelabel/affs/payouts.php:68
+msgid "SWIFT Code"
+msgstr "SWIFT kods"
+
+#: views/whitelabel/affs/payouts.php:69
+msgid "Bank Name"
+msgstr "Bankas nosaukums"
+
+#: views/whitelabel/affs/payouts.php:88
+#: views/whitelabel/transactions/view.php:531
+msgid "Bitcoin Address"
+msgstr "Bitcoin adrese"
+
+#: views/whitelabel/affs/payouts.php:91
+msgid "Not defined"
+msgstr "Nav definēts"
+
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/view.php:145
+msgid "Mark as paid out"
+msgstr "Atzīmēt kā izmaksātu"
+
+#: views/whitelabel/affs/settings.php:7
+msgid "Affiliate settings"
+msgstr "Partnera iestatījumi"
+
+#: views/whitelabel/affs/settings.php:8
+msgid "You can adjust affiliate settings here."
+msgstr "Šeit varat pielāgot partneru iestatījumus."
+
+#: views/whitelabel/affs/view.php:7
+msgid "Affiliate details"
+msgstr "Partnera informācija"
+
+#: views/whitelabel/affs/view.php:8
+msgid "You can view and edit affiliate details here."
+msgstr "Šeit varat skatīt un rediģēt partnera informāciju."
+
+#: views/whitelabel/affs/view.php:34 views/whitelabel/users/view.php:21
+msgid "Edit E-mail"
+msgstr "Rediģēt e-pastu"
+
+#: views/whitelabel/affs/view.php:60 views/whitelabel/users/view.php:51
+msgid "Last IP"
+msgstr "Pēdējā IP"
+
+#: views/whitelabel/reports/index.php:8
+msgid "Here you can view information about draw winners."
+msgstr "Šeit varat apskatīt informāciju par izložu laimētājiem."
+
+#: views/whitelabel/reports/index.php:18
+msgid "Date Processed"
+msgstr "Apstrādes datums"
+
+#: views/whitelabel/reports/index.php:20
+msgid "Total Winners"
+msgstr "Laimētāji kopā"
+
+#: views/whitelabel/reports/index.php:21
+msgid "Total Prizes"
+msgstr "Laimesti kopā"
+
+#: views/whitelabel/reports/index.php:22
+msgid "Site Winners (Tickets/Lines)"
+msgstr "Vietnes laimētāji (biļetes/varianti)"
+
+#: views/whitelabel/reports/index.php:23
+msgid "Site Prizes"
+msgstr "Vietnes laimesti"
+
+#: views/whitelabel/reports/index.php:24
+msgid "Paid Out Tickets/Lines"
+msgstr "Izmaksātās biļetes/varianti"
+
+#: views/whitelabel/reports/index.php:25
+msgid "Awaiting Tickets/Lines"
+msgstr "Gaida biļetes/variantus"
+
+#: views/whitelabel/reports/index.php:26
+msgid "Site No-Winners (Tickets/Lines)"
+msgstr "Vietnes nelaimējušie lietotāji (biļetes/varianti)"
+
+#: views/whitelabel/reports/index.php:40 views/whitelabel/reports/index.php:55
+msgid "Jackpots"
+msgstr "Džekpoti"
+
+#: views/whitelabel/reports/index.php:43 views/whitelabel/reports/index.php:58
+msgid "Quick Picks"
+msgstr "Ātrās izvēles"
+
+#: views/whitelabel/reports/index.php:88
+msgid "No winners data."
+msgstr "Nav datu par laimētājiem."
+
+#: views/whitelabel/reports/reports.php:44
+msgid "New Users (Active)"
+msgstr "Jauni lietotāji (aktīvi)"
+
+#: views/whitelabel/reports/reports.php:48
+msgid ""
+"New <span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> "
+"Users"
+msgstr ""
+"Jauni <span data-toggle=\"tooltip\" title=\"pirmreizējo pirkumu\">PP</span> "
+"lietotāji"
+
+#: views/whitelabel/reports/reports.php:52
+msgid "Sold Tickets"
+msgstr "Pārdotās biļetes"
+
+#: views/whitelabel/reports/reports.php:56
+msgid "Deposits Sum"
+msgstr "Iemaksu summa"
+
+#: views/whitelabel/reports/reports.php:60
+msgid "Sales Sum"
+msgstr "Pārdevumu summa"
+
+#: views/whitelabel/reports/reports.php:64
+msgid "Deposits sum by currency"
+msgstr "Iemaksu summa pēc valūtas"
+
+#: views/whitelabel/reports/reports.php:71
+msgid "Sales sum by currency"
+msgstr "Pārdevumu summa pēc valūtas"
+
+#: views/whitelabel/settings/account.php:8
+msgid "You can change your account settings here."
+msgstr "Šeit varat izmainīt sava konta iestatījumus."
+
+#: views/whitelabel/settings/account_edit.php:7
+msgid "Edit account settings"
+msgstr "Rediģēt konta iestatījumus"
+
+#: views/whitelabel/settings/account_edit.php:8
+msgid "You can edit your account settings here."
+msgstr "Šeit varat rediģēt sava konta iestatījumus."
+
+#: views/whitelabel/settings/account_edit.php:21
+msgid "Enter username"
+msgstr "Ievadiet lietotājvārdu"
+
+#: views/whitelabel/settings/account_edit.php:25
+msgid "Enter realname"
+msgstr "Ievadiet pilnu vārdu"
+
+#: views/whitelabel/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will have to <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">enable User-ID</a> to take the full advantage of the Google Analytics "
+"feature."
+msgstr ""
+"Formāta paraugs: <strong>UA-XXXXX-Y</strong>. Lai izmantotu visas Google "
+"Analytics funkcijas priekšrocības, jums būs nepieciešams <a href=\"https://"
+"support.google.com/analytics/answer/3123666\" target=\"_blank\">iespējot "
+"User-ID</a>."
+
+#: views/whitelabel/settings/ccsettings.php:8
+msgid "Here you can manage Credit Card payment methods settings."
+msgstr "Šeit varat pārvaldīt kredītkaršu maksājumu metožu iestatījumus."
+
+#: views/whitelabel/settings/ccsettings.php:43
+msgid "No Credit Card payment methods."
+msgstr "Nav kredītkaršu maksājumu metožu."
+
+#: views/whitelabel/settings/ccsettings_edit.php:8
+msgid "Here you can add or edit Credit Card payment methods."
+msgstr "Šeit varat pievienot vai rediģēt kredītkaršu maksājumu metodes."
+
+#: views/whitelabel/settings/ccsettings_edit.php:22
+msgid "Choose gateway"
+msgstr "Izvēlieties vārteju"
+
+#: views/whitelabel/settings/ccsettings_edit.php:31
+msgid "eMerchantPay Gateway Settings"
+msgstr "eMerchantPay vārtejas iestatījumi"
+
+#: views/whitelabel/settings/ccsettings_edit.php:34
+msgid "Enter Account ID"
+msgstr "Ievadiet konta ID"
+
+#: views/whitelabel/settings/ccsettings_edit.php:35
+msgid ""
+"Given by eMerchantPay or visible in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+msgstr ""
+"Pieprasiet to eMerchantPay vai apskatiet savu eMerchantPay kontu: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:40
+msgid ""
+"Given by eMerchantPay or set up in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+msgstr ""
+"Pieprasiet to eMerchantPay vai iestatiet savā eMerchantPay kontā: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:44
+msgid "Enter endpoint URL"
+msgstr "Ievadiet galapunkta URL"
+
+#: views/whitelabel/settings/ccsettings_edit.php:45
+msgid ""
+"Probably <strong>https://my.emerchantpay.com</strong>. Please consult with "
+"eMerchantPay."
+msgstr ""
+"Visticamāk, <strong>https://my.emerchantpay.com</strong>. Lūdzu, "
+"konsultējieties ar eMerchantPay."
+
+#: views/whitelabel/settings/ccsettings_edit.php:49
+msgid "Enter secret key"
+msgstr "Ievadiet slepeno atslēgu"
+
+#: views/whitelabel/settings/ccsettings_edit.php:50
+#, php-format
+msgid ""
+"Can be read or set up in your eMerchantPay account: <strong>Account &gt; My "
+"Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Also, please ensure the field <strong>Account &gt; My Account &gt; "
+"eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; Merchant "
+"Notification URL</strong> is set to <strong>%s</strong> and the following "
+"server notifications (<strong>Account &gt; My Account &gt; Notifications tab "
+"&gt; Server Notifications panel</strong>) are enabled: <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+msgstr ""
+"Iespējams iegūt vai iestatīt jūsu eMerchantPay kontā: <strong>Account &gt; "
+"My Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Tāpat pārliecinieties, ka lauka <strong>Account &gt; My Account "
+"&gt; eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; "
+"Merchant Notification URL</strong> vērtība ir <strong>%s</strong> un ka ir "
+"iespējoti šādu servera paziņojumi (<strong>Account &gt; My Account &gt; "
+"Notifications tab &gt; Server Notifications panel</strong>): <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:56
+msgid "Enter minimum order"
+msgstr "Ievadiet minimālo pasūtījumu"
+
+#: views/whitelabel/settings/ccsettings_edit.php:58
+msgid ""
+"Should be the same as value in your eMerchantPay account: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [choose specific account] "
+"&gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; Minimum "
+"Amount per TX</strong>."
+msgstr ""
+"Jāsakrīt ar vērtību, kāda norādīta jūsu eMerchantPay kontā: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [izvēlieties attiecīgo "
+"kontu] &gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; "
+"Minimum Amount per TX</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:62
+msgid "Enter descriptor"
+msgstr "Ievadiet deskriptoru"
+
+#: views/whitelabel/settings/index.php:8
+msgid "You can change site settings here."
+msgstr "Šeit varat izmainīt tīmekļa vietnes iestatījumus."
+
+#: views/whitelabel/settings/index.php:22
+msgid "Auto-adjusted by user IP country"
+msgstr "Automātiska pielāgošana lietotāja IP valstij"
+
+#: views/whitelabel/settings/index.php:27
+msgid ""
+"Default currency for English language for users that do not have country set "
+"up in their profile."
+msgstr ""
+"Latviešu valodas noklusējuma valūta lietotājiem, kuriem profilā nav norādīta "
+"valsts."
+
+#: views/whitelabel/settings/index.php:30
+msgid "Activation Type"
+msgstr "Aktivēšanas veids"
+
+#: views/whitelabel/settings/index.php:32
+msgid "No activation"
+msgstr "Bez aktivēšana"
+
+#: views/whitelabel/settings/index.php:33
+msgid "Activation optional"
+msgstr "Neobligāta aktivizācija"
+
+#: views/whitelabel/settings/index.php:34
+msgid "Activation required"
+msgstr "Aktivēšana obligāta"
+
+#: views/whitelabel/settings/index.php:36
+msgid ""
+"Be aware that changing the e-mail activation type from no activation or "
+"optional level to required level will make all your not-confirmed users "
+"inactive! In other way, changing activation type from required level to "
+"optional or no activation level will make all your not-confirmed users "
+"active!"
+msgstr ""
+"Ņemiet vērā, ka, izmainot e-pasta aktivizācijas iestatījumu no nepieprasīta "
+"vai neobligāta uz obligātu, visi neapstiprinātie lietotāji kļūs neaktīvi! Un "
+"otrādi: mainot aktivizācijas veidu no obligāta uz neobligātu vai "
+"nepieprasītu, visi neapstiprinātie lietotāji kļūs aktīvi!"
+
+#: views/whitelabel/settings/index.php:42
+msgid "Enter maximum automatic payout"
+msgstr "Ievadiet maksimālo automātisko izmaksu"
+
+#: views/whitelabel/settings/index.php:49
+msgid "Enter minimum payment amount"
+msgstr "Ievadiet minimālo maksājuma summu"
+
+#: views/whitelabel/settings/index.php:56
+msgid "Enter minimum deposit amount"
+msgstr "Ievadiet minimālo iemaksas summu"
+
+#: views/whitelabel/settings/index.php:63
+msgid "Enter minimum withdrawal amount"
+msgstr "Ievadiet minimālo izmaksas summu"
+
+#: views/whitelabel/settings/index.php:70
+msgid "Enter maximum order amount"
+msgstr "Ievadiet maksimālo pasūtījuma summu"
+
+#: views/whitelabel/settings/index.php:75
+msgid "Enter maximum order items count"
+msgstr "Ievadiet maksimālo vienību skaitu pasūtījumā"
+
+#: views/whitelabel/settings/lottery.php:8
+#: views/whitelabel/settings/lottery_edit.php:8
+msgid "You can change lottery settings here."
+msgstr "Šeit varat izmainīt loterijas iestatījumus."
+
+#: views/whitelabel/settings/lottery.php:21
+msgid "Line Price"
+msgstr "Varianta cena"
+
+#: views/whitelabel/settings/lottery.php:34
+msgid "Imvalap"
+msgstr "Imvalap"
+
+#: views/whitelabel/settings/lottery.php:35
+msgid "Lottorisq"
+msgstr "Lottorisq"
+
+#: views/whitelabel/settings/lottery.php:36
+msgid "Insurance/None"
+msgstr "Apdrošināšana/Nav"
+
+#: views/whitelabel/settings/lottery_edit.php:22
+msgid "All tickets bought before disabling a lottery will be processed."
+msgstr "Tiks apstrādātas visas pirms loterijas atspējošanas iegādātās biļetes."
+
+#: views/whitelabel/settings/lottery_edit.php:47
+msgid "Enter minimum lines count"
+msgstr "Ievadiet minimālo variantu skaitu"
+
+#: views/whitelabel/settings/lottery_edit.php:48
+#, php-format
+msgid ""
+"The value has to be a multiple of <span>X</span> due to our ticket "
+"provider's limits."
+msgstr ""
+"Mūsu biļešu pakalpojumu sniedzēja limitu dēļ vērtībai jābūt reizinātai ar "
+"<span>X</span>."
+
+#: views/whitelabel/settings/lottery_edit.php:54
+msgid "Enter line price"
+msgstr "Ievadiet varianta cenu"
+
+#: views/whitelabel/settings/password.php:8
+msgid "You can edit your password here."
+msgstr "Šeit varat rediģēt savu paroli."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid "Here you can view and manage site payment methods."
+msgstr "Šeit varat skatīt un pārvaldīt vietnes maksājumu metodes."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid ""
+"The default payments are those from English language. You don't have to "
+"specify every payment method for every language if they are the same."
+msgstr ""
+"Noklusētie maksājumi tiek ņemti no angļu valodas. Ja tās neatšķiras, norādīt "
+"maksājuma metodi katrai valodai atsevišķi nav nepieciešams."
+
+#: views/whitelabel/settings/paymentmethods.php:50
+msgid "No payment methods."
+msgstr "Nav maksājumu metožu."
+
+#: views/whitelabel/settings/paymentmethods_edit.php:79
+#, php-format
+msgid ""
+"Optional for non-shared accounts - improves payment confirmation speed. Can "
+"be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; Webhooks</"
+"strong>. You should set the <strong>Webhook URL</strong> to <strong>%s</"
+"strong> and check following hooks: <strong>payment_cancelled</strong>, "
+"<strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Kontiem, kas netiek koplietoti, šis iestatījums nav obligāts - tas paātrina "
+"maksājumu apstiprināšanu. Iespējams iestatīt sadaļā <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Webhooks</strong>. Kā <strong>Webhook "
+"URL</strong> vērtību norādiet <strong>%s</strong> un pārbaudiet šādus \"āķus"
+"\": <strong>payment_cancelled</strong>, <strong>payment_declined</strong>, "
+"<strong>payment_failed</strong>, <strong>payment_succeeded</strong>."
+
+#: views/whitelabel/shared/navbar.php:15
+msgid "Users"
+msgstr "Lietotāji"
+
+#: views/whitelabel/shared/navbar.php:16
+msgid "Transactions"
+msgstr "Transakcijas"
+
+#: views/whitelabel/shared/navbar.php:24
+msgid "Support"
+msgstr "Atbalsts"
+
+#: views/whitelabel/tickets/index.php:8
+msgid "Here you can view and manage users' tickets."
+msgstr "Šeit varat skatīt un pārvaldīt lietotāju biļetes."
+
+#: views/whitelabel/tickets/index.php:21 views/whitelabel/tickets/index.php:70
+#: views/whitelabel/tickets/view.php:43 views/whitelabel/tickets/view.php:94
+#: views/whitelabel/tickets/view.php:107
+#: views/whitelabel/transactions/index.php:25
+#: views/whitelabel/transactions/index.php:60
+#: views/whitelabel/transactions/view.php:49
+#: views/whitelabel/transactions/view.php:358
+#: views/whitelabel/transactions/view.php:527
+#: views/whitelabel/transactions/view.php:623
+#: views/whitelabel/transactions/view.php:729
+#: views/whitelabel/transactions/withdrawal.php:37
+#: views/whitelabel/transactions/withdrawals.php:21
+#: views/whitelabel/transactions/withdrawals.php:60
+msgid "Status"
+msgstr "Statuss"
+
+#: views/whitelabel/tickets/index.php:22 views/whitelabel/tickets/index.php:120
+#: views/whitelabel/tickets/view.php:46 views/whitelabel/tickets/view.php:59
+#: views/whitelabel/tickets/view.php:97
+#: views/whitelabel/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:101
+#: views/whitelabel/transactions/view.php:52
+#: views/whitelabel/transactions/withdrawal.php:40
+#: views/whitelabel/transactions/withdrawals.php:22
+#: views/whitelabel/transactions/withdrawals.php:86
+msgid "Pending"
+msgstr "Neizlemts"
+
+#: views/whitelabel/tickets/index.php:23 views/whitelabel/tickets/index.php:122
+#: views/whitelabel/tickets/view.php:48
+msgid "Win"
+msgstr "Laimēts"
+
+#: views/whitelabel/tickets/index.php:24 views/whitelabel/tickets/index.php:124
+#: views/whitelabel/tickets/view.php:50 views/whitelabel/tickets/view.php:109
+msgid "No winnings"
+msgstr "Bez laimesta"
+
+#: views/whitelabel/tickets/index.php:25 views/whitelabel/tickets/index.php:126
+#: views/whitelabel/tickets/index.php:144 views/whitelabel/tickets/view.php:52
+#: views/whitelabel/tickets/view.php:83 views/whitelabel/tickets/view.php:132
+msgid "Quick Pick"
+msgstr "Ātrā izvēle"
+
+#: views/whitelabel/tickets/index.php:48
+#: views/whitelabel/transactions/index.php:39
+#: views/whitelabel/transactions/withdrawals.php:36
+msgid "User E-mail"
+msgstr "Lietotāja e-pasts"
+
+#: views/whitelabel/tickets/index.php:63
+#: views/whitelabel/transactions/index.php:53
+#: views/whitelabel/transactions/withdrawals.php:50
+msgid "User ID &bull; User Name"
+msgstr "Lietotāja ID &bull; Lietotāja vārds"
+
+#: views/whitelabel/tickets/index.php:73 views/whitelabel/tickets/view.php:64
+msgid "Lines"
+msgstr "Varianti"
+
+#: views/whitelabel/tickets/index.php:103 views/whitelabel/tickets/view.php:38
+msgid "Free"
+msgstr "Bez maksas"
+
+#: views/whitelabel/tickets/index.php:114
+msgid "Valid to"
+msgstr "Derīga līdz"
+
+#: views/whitelabel/tickets/index.php:128 views/whitelabel/tickets/view.php:53
+msgid "Expired"
+msgstr "Derīguma termiņš beidzies"
+
+#: views/whitelabel/tickets/index.php:167
+msgid "No tickets."
+msgstr "Nav biļešu."
+
+#: views/whitelabel/tickets/view.php:7
+msgid "Ticket details"
+msgstr "Biļetes informācija"
+
+#: views/whitelabel/tickets/view.php:8
+msgid "Here you can view ticket details."
+msgstr "Šeit varat apskatīt biļetes informāciju."
+
+#: views/whitelabel/tickets/view.php:75
+msgid "none"
+msgstr "nav"
+
+#: views/whitelabel/tickets/view.php:87 views/whitelabel/tickets/view.php:124
+msgid "Net"
+msgstr "Neto"
+
+#: views/whitelabel/tickets/view.php:99
+msgid "Pay out to user balance"
+msgstr "Izmaksāt uz lietotāja atlikumu"
+
+#: views/whitelabel/tickets/view.php:117
+msgid "Total Prize"
+msgstr "Laimests kopā"
+
+#: views/whitelabel/tickets/view.php:136
+msgid "Slip images"
+msgstr "Kartīšu attēli"
+
+#: views/whitelabel/tickets/view.php:145
+msgid ""
+"Are you sure? The 'mark as paid out' function will not automatically pay out "
+"the lines to the user and will not increase user balance. It will only mark "
+"the tickets and lines as paid out. Also, the Quick Pick lines will not be "
+"marked as paid out as they are paid out automatically after some time. This "
+"function is intended to be used only with bigger prizes which are not "
+"automatically paid out. If you want to pay out the lines to the user balance "
+"please use 'Pay out to user balance' button within specific line."
+msgstr ""
+"Vai tiešām vēlaties turpināt? Funkcija \"Atzīmēt kā izmaksātu\" atcels "
+"biļešu variantu automātisko izmaksu lietotājam, t.i., lietotāja konta "
+"atilkums nepalielināsies. Tā tikai atzīmēs biļetes un variantus kā "
+"izmaksātus. Turklāt ātrās izvēles varianti netiks atzīmēti kā izmaksāti, jo "
+"to izmaksa pēc noteikta laika tiek veikta automātiski. Šī funkcija ir "
+"paredzēta lietošanai tikai lielāku laimestu gadījumā, kuri netiek izmaksāti "
+"automātiski. Ja vēlaties izmaksāt variantus uz lietotāja konta atlikumu, "
+"attiecīgajam variantam pielietojiet pogu \"Izmaksāt uz lietotāja atlikumu\"."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' non-deposit transactions."
+msgstr ""
+"Šeit varat skatīt un pārvaldīt lietotāju ar iemaksām nesaistītās "
+"transakcijas."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' deposit transactions."
+msgstr "Šeit varat skatīt un pārvaldīt lietotāju iemaksu transakcijas."
+
+#: views/whitelabel/transactions/index.php:27
+#: views/whitelabel/transactions/index.php:103
+#: views/whitelabel/transactions/view.php:54
+#: views/whitelabel/transactions/withdrawal.php:42
+#: views/whitelabel/transactions/withdrawals.php:23
+#: views/whitelabel/transactions/withdrawals.php:88
+msgid "Approved"
+msgstr "Apstiprināts"
+
+#: views/whitelabel/transactions/index.php:28
+#: views/whitelabel/transactions/index.php:105
+#: views/whitelabel/transactions/view.php:56
+#: views/whitelabel/transactions/view.php:601
+msgid "Error"
+msgstr "Kļūda"
+
+#: views/whitelabel/transactions/index.php:59
+#: views/whitelabel/transactions/view.php:26
+msgid "Date confirmed"
+msgstr "Apstiprināšanas datums"
+
+#: views/whitelabel/transactions/index.php:62
+msgid "Tickets/Processed"
+msgstr "Biļetes/apstrādātas"
+
+#: views/whitelabel/transactions/index.php:130
+msgid "No transactions."
+msgstr "Nav transakciju."
+
+#: views/whitelabel/transactions/view.php:7
+msgid "Transaction details"
+msgstr "Transakcijas informācija"
+
+#: views/whitelabel/transactions/view.php:8
+msgid "You can view transaction details here."
+msgstr "Šeit varat apskatīt transakcijas informāciju."
+
+#: views/whitelabel/transactions/view.php:60
+msgid "Payment ID"
+msgstr "Maksājuma ID"
+
+#: views/whitelabel/transactions/view.php:64
+msgid "eMerchantPay"
+msgstr "eMerchantPay"
+
+#: views/whitelabel/transactions/view.php:66
+msgid "Order date"
+msgstr "Pasūtījuma datums"
+
+#: views/whitelabel/transactions/view.php:70
+msgid "Order total"
+msgstr "Pasūtījums kopā"
+
+#: views/whitelabel/transactions/view.php:74
+msgid "Order currency"
+msgstr "Pasūtījuma valūta"
+
+#: views/whitelabel/transactions/view.php:78
+msgid "Order status"
+msgstr "Pasūtījuma statuss"
+
+#: views/whitelabel/transactions/view.php:82
+msgid "Test transaction"
+msgstr "Testa transakcija"
+
+#: views/whitelabel/transactions/view.php:86
+msgid "Transaction type"
+msgstr "Transakcijas veids"
+
+#: views/whitelabel/transactions/view.php:90
+msgid "Response"
+msgstr "Atbilde"
+
+#: views/whitelabel/transactions/view.php:94
+msgid "Response code"
+msgstr "Atbildes kods"
+
+#: views/whitelabel/transactions/view.php:98
+msgid "Response text"
+msgstr "Atbildes teksts"
+
+#: views/whitelabel/transactions/view.php:110
+msgid "Client ID"
+msgstr "Klienta ID"
+
+#: views/whitelabel/transactions/view.php:118
+msgid "Merchant user ID"
+msgstr "Tirgotāja lietotāja ID"
+
+#: views/whitelabel/transactions/view.php:122
+msgid "Notification type"
+msgstr "Paziņojuma veids"
+
+#: views/whitelabel/transactions/view.php:126
+msgid "emerchantpaypassthrough"
+msgstr "emerchantpaypassthrough"
+
+#: views/whitelabel/transactions/view.php:134
+msgid "Errors"
+msgstr "Kļūdas"
+
+#: views/whitelabel/transactions/view.php:136
+msgid "Error code"
+msgstr "Kļūdas kods"
+
+#: views/whitelabel/transactions/view.php:138
+msgid "Error text"
+msgstr "Kļūdas teksts"
+
+#: views/whitelabel/transactions/view.php:143
+msgid "Card details"
+msgstr "Kartes informācija"
+
+#: views/whitelabel/transactions/view.php:146
+msgid "Auth code"
+msgstr "Autentifikācijas kods"
+
+#: views/whitelabel/transactions/view.php:150
+msgid "Brand"
+msgstr "Zīmols"
+
+#: views/whitelabel/transactions/view.php:154
+msgid "Category"
+msgstr "Kategorija"
+
+#: views/whitelabel/transactions/view.php:158
+msgid "Exp. month"
+msgstr "Derīguma mēnesis"
+
+#: views/whitelabel/transactions/view.php:162
+msgid "Exp. year"
+msgstr "Derīguma gads"
+
+#: views/whitelabel/transactions/view.php:166
+msgid "Holder name"
+msgstr "Turētāja vārds"
+
+#: views/whitelabel/transactions/view.php:170
+msgid "Issuing bank"
+msgstr "Izdevējbanka"
+
+#: views/whitelabel/transactions/view.php:174
+msgid "Issuing country"
+msgstr "Izdevējvalsts"
+
+#: views/whitelabel/transactions/view.php:178
+msgid "Number"
+msgstr "Skaitlis"
+
+#: views/whitelabel/transactions/view.php:182
+msgid "Subcategory"
+msgstr "Apakškategorija"
+
+#: views/whitelabel/transactions/view.php:186
+msgid "Customer data"
+msgstr "Klienta dati"
+
+#: views/whitelabel/transactions/view.php:193
+#: views/whitelabel/transactions/view.php:304
+#: views/whitelabel/transactions/view.php:370
+msgid "Customer ID"
+msgstr "Klienta ID"
+
+#: views/whitelabel/transactions/view.php:213
+msgid "State"
+msgstr "Stāvoklis"
+
+#: views/whitelabel/transactions/view.php:221
+msgid "Postcode"
+msgstr "Pasta indekss"
+
+#: views/whitelabel/transactions/view.php:225
+msgid "Address"
+msgstr "Adrese"
+
+#: views/whitelabel/transactions/view.php:233
+msgid "Items"
+msgstr "Vienības"
+
+#: views/whitelabel/transactions/view.php:242
+#: views/whitelabel/transactions/view.php:366
+#: views/whitelabel/transactions/view.php:597
+msgid "Description"
+msgstr "Apraksts"
+
+#: views/whitelabel/transactions/view.php:246
+msgid "Item ID"
+msgstr "Vienības ID"
+
+#: views/whitelabel/transactions/view.php:250
+msgid "Code"
+msgstr "Kods"
+
+#: views/whitelabel/transactions/view.php:254
+msgid "Quantity"
+msgstr "Daudzums"
+
+#: views/whitelabel/transactions/view.php:258
+msgid "Digital"
+msgstr "Digitāli"
+
+#: views/whitelabel/transactions/view.php:262
+msgid "Pass-through"
+msgstr "Caurejošs"
+
+#: views/whitelabel/transactions/view.php:266
+msgid "Rebill"
+msgstr "Atkārtots"
+
+#: views/whitelabel/transactions/view.php:270
+msgid "Discount"
+msgstr "Atlaide"
+
+#: views/whitelabel/transactions/view.php:274
+msgid "Predefined"
+msgstr "Iepriekšdefinēts(-a)"
+
+#: views/whitelabel/transactions/view.php:279
+msgid "Unit price"
+msgstr "Vienības cena"
+
+#: views/whitelabel/transactions/view.php:288
+msgid "Merchant e-mail"
+msgstr "Tirgotāja e-pasts"
+
+#: views/whitelabel/transactions/view.php:292
+msgid "User e-mail"
+msgstr "Lietotāja e-pasts"
+
+#: views/whitelabel/transactions/view.php:296
+msgid "Skrill amount"
+msgstr "Skrill summa"
+
+#: views/whitelabel/transactions/view.php:300
+msgid "Failed reason code"
+msgstr "Neizdošanās iemesla kods"
+
+#: views/whitelabel/transactions/view.php:314
+msgid "Order ID"
+msgstr "Pasūtījuma ID"
+
+#: views/whitelabel/transactions/view.php:318
+msgid "Event ID"
+msgstr "Notikuma ID"
+
+#: views/whitelabel/transactions/view.php:322
+msgid "Event Date"
+msgstr "Notikuma datums"
+
+#: views/whitelabel/transactions/view.php:326
+msgid "Event Type"
+msgstr "Notikuma veids"
+
+#: views/whitelabel/transactions/view.php:330
+msgid "Attempt Number"
+msgstr "Mēģinājuma numurs"
+
+#: views/whitelabel/transactions/view.php:342
+msgid "Create Date"
+msgstr "Izveidot datumu"
+
+#: views/whitelabel/transactions/view.php:346
+msgid "Update Date"
+msgstr "Izmaiņu datums"
+
+#: views/whitelabel/transactions/view.php:350
+msgid "Error Code"
+msgstr "Kļūdas kods"
+
+#: views/whitelabel/transactions/view.php:354
+msgid "Error Message"
+msgstr "Kļūdas ziņojums"
+
+#: views/whitelabel/transactions/view.php:362
+msgid "Transaction Type"
+msgstr "Transakcijas veids"
+
+#: views/whitelabel/transactions/view.php:394
+msgid "Date of Birth"
+msgstr "Dzimšanas datums"
+
+#: views/whitelabel/transactions/view.php:406
+#: views/whitelabel/transactions/view.php:481
+msgid "Address #3"
+msgstr "Adrese (3)"
+
+#: views/whitelabel/transactions/view.php:418
+#: views/whitelabel/transactions/view.php:493
+msgid "Post Code"
+msgstr "Pasta indekss"
+
+#: views/whitelabel/transactions/view.php:422
+msgid "Gender"
+msgstr "Dzimums"
+
+#: views/whitelabel/transactions/view.php:426
+msgid "Customer Contact Details"
+msgstr "Klienta kontaktinformācija"
+
+#: views/whitelabel/transactions/view.php:433
+msgid "Value"
+msgstr "Vērtība"
+
+#: views/whitelabel/transactions/view.php:447
+msgid "Verification Level"
+msgstr "Verifikācijas līmenis"
+
+#: views/whitelabel/transactions/view.php:451
+msgid "Customer Balance"
+msgstr "Klienta atlikums"
+
+#: views/whitelabel/transactions/view.php:455
+msgid "Billing Details"
+msgstr "Norēķinu informācija"
+
+#: views/whitelabel/transactions/view.php:502
+msgid "Fees"
+msgstr "Nodevas"
+
+#: views/whitelabel/transactions/view.php:505
+msgid "Fee Name"
+msgstr "Nodevas nosaukums"
+
+#: views/whitelabel/transactions/view.php:509
+msgid "Fee Type"
+msgstr "Nodevas veids"
+
+#: views/whitelabel/transactions/view.php:513
+msgid "Fee Amount"
+msgstr "Nodevas summa"
+
+#: views/whitelabel/transactions/view.php:517
+msgid "Fee Currency"
+msgstr "Nodevas valūta"
+
+#: views/whitelabel/transactions/view.php:525
+msgid "cubits"
+msgstr "cubits"
+
+#: views/whitelabel/transactions/view.php:535
+msgid "Create Time"
+msgstr "Izveidošanas datums"
+
+#: views/whitelabel/transactions/view.php:539
+msgid "Invoice Currency"
+msgstr "Rēķina valūta"
+
+#: views/whitelabel/transactions/view.php:543
+msgid "Invoice Amount"
+msgstr "Rēķina summa"
+
+#: views/whitelabel/transactions/view.php:547
+msgid "Paid Currency"
+msgstr "Samaksas valūta"
+
+#: views/whitelabel/transactions/view.php:551
+msgid "Paid Amount"
+msgstr "Samaksātā summa"
+
+#: views/whitelabel/transactions/view.php:555
+msgid "Pending Currency"
+msgstr "Neizlemtā valūta"
+
+#: views/whitelabel/transactions/view.php:559
+msgid "Pending Amount"
+msgstr "Neizlemtā summa"
+
+#: views/whitelabel/transactions/view.php:563
+msgid "Merchant Currency"
+msgstr "Tirgotāja valūta"
+
+#: views/whitelabel/transactions/view.php:567
+msgid "Merchant Amount"
+msgstr "Tirgotāja summa"
+
+#: views/whitelabel/transactions/view.php:571
+msgid "Share to keep in BTC"
+msgstr "BTC paturamā daļa"
+
+#: views/whitelabel/transactions/view.php:575
+msgid "tpay.com"
+msgstr "tpay.com"
+
+#: views/whitelabel/transactions/view.php:589
+msgid "Amount paid"
+msgstr "Samaksātā summa"
+
+#: views/whitelabel/transactions/view.php:605
+msgid "Sofort"
+msgstr "Sofort"
+
+#: views/whitelabel/transactions/view.php:611
+msgid "Amount Refunded"
+msgstr "Atgrieztā summa"
+
+#: views/whitelabel/transactions/view.php:619
+msgid "Consumer Protection"
+msgstr "Patērētāju aizsardzība"
+
+#: views/whitelabel/transactions/view.php:627
+#: views/whitelabel/transactions/view.php:733
+msgid "Status Reason"
+msgstr "Statusa iemesls"
+
+#: views/whitelabel/transactions/view.php:631
+#: views/whitelabel/transactions/view.php:651
+msgid "Status Modified Time"
+msgstr "Statusa izmainīšanas laiks"
+
+#: views/whitelabel/transactions/view.php:635
+msgid "Language Code"
+msgstr "Valodas kods"
+
+#: views/whitelabel/transactions/view.php:643
+msgid "Reason"
+msgstr "Iemesls"
+
+#: views/whitelabel/transactions/view.php:647
+msgid "Test"
+msgstr "Tests"
+
+#: views/whitelabel/transactions/view.php:655
+msgid "Project ID"
+msgstr "Projekta ID"
+
+#: views/whitelabel/transactions/view.php:659
+msgid "Recipient Holder"
+msgstr "Saņēmēja turētājs"
+
+#: views/whitelabel/transactions/view.php:663
+msgid "Recipient Account Number"
+msgstr "Saņēmēja konta numurs"
+
+#: views/whitelabel/transactions/view.php:667
+msgid "Recipient Bank Code"
+msgstr "Saņēmēja bankas kods"
+
+#: views/whitelabel/transactions/view.php:671
+msgid "Recipient Country Code"
+msgstr "Saņēmēja valsts kods"
+
+#: views/whitelabel/transactions/view.php:675
+msgid "Recipient Bank Name"
+msgstr "Saņēmēja bankas nosaukums"
+
+#: views/whitelabel/transactions/view.php:679
+msgid "Recipient BIC"
+msgstr "Saņēmēja BIC"
+
+#: views/whitelabel/transactions/view.php:683
+msgid "Recipient IBAN"
+msgstr "Saņēmēja IBAN"
+
+#: views/whitelabel/transactions/view.php:687
+msgid "Sender Holder"
+msgstr "Sūtītāja turētājs"
+
+#: views/whitelabel/transactions/view.php:691
+msgid "Sender Account Number"
+msgstr "Sūtītāja konta numurs"
+
+#: views/whitelabel/transactions/view.php:695
+msgid "Sender Bank Code"
+msgstr "Sūtītāja bankas kods"
+
+#: views/whitelabel/transactions/view.php:699
+msgid "Sender Country Code"
+msgstr "Sūtītāja valsts kods"
+
+#: views/whitelabel/transactions/view.php:703
+msgid "Sender Bank Name"
+msgstr "Sūtītāja bankas nosaukums"
+
+#: views/whitelabel/transactions/view.php:707
+msgid "Sender BIC"
+msgstr "Sūtītāja BIC"
+
+#: views/whitelabel/transactions/view.php:711
+msgid "Sender IBAN"
+msgstr "Sūtītāja IBAN"
+
+#: views/whitelabel/transactions/view.php:715
+msgid "Exchange Rate"
+msgstr "Valūtas kurss"
+
+#: views/whitelabel/transactions/view.php:719
+msgid "Costs (Exchange Rate)"
+msgstr "Izmaksas (valūtas kurss)"
+
+#: views/whitelabel/transactions/view.php:723
+msgid "Costs (Fees)"
+msgstr "Izmaksas (nodevas)"
+
+#: views/whitelabel/transactions/view.php:726
+msgid "Status History"
+msgstr "Statusa vēsture"
+
+#: views/whitelabel/transactions/view.php:737
+msgid "Time"
+msgstr "Laiks"
+
+#: views/whitelabel/transactions/withdrawal.php:7
+msgid "Withdrawal details"
+msgstr "Izmaksas informācjia"
+
+#: views/whitelabel/transactions/withdrawal.php:8
+msgid "Here you can view the withdrawal details."
+msgstr "Šeit varat apskatīt izmaksas informāciju."
+
+#: views/whitelabel/transactions/withdrawal.php:26
+#: views/whitelabel/transactions/withdrawals.php:59
+msgid "Date approved"
+msgstr "Apstiprināšanas datums"
+
+#: views/whitelabel/transactions/withdrawal.php:44
+#: views/whitelabel/transactions/withdrawals.php:24
+#: views/whitelabel/transactions/withdrawals.php:90
+msgid "Declined"
+msgstr "Atteikts"
+
+#: views/whitelabel/transactions/withdrawal.php:46
+#: views/whitelabel/transactions/withdrawals.php:25
+#: views/whitelabel/transactions/withdrawals.php:92
+msgid "Canceled"
+msgstr "Atcelts"
+
+#: views/whitelabel/transactions/withdrawal.php:49
+msgid "Request details"
+msgstr "Pieprasījuma informācija"
+
+#: views/whitelabel/transactions/withdrawal.php:63
+msgid "Bitcoin wallet"
+msgstr "Bitcoin maciņš"
+
+#: views/whitelabel/transactions/withdrawal.php:67
+msgid "Account IBAN"
+msgstr "Konta IBAN"
+
+#: views/whitelabel/transactions/withdrawal.php:71
+msgid "SWIFT number"
+msgstr "SWIFT numurs"
+
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawals.php:97
+msgid "Approve"
+msgstr "Apstiprināt"
+
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawals.php:99
+msgid "Decline"
+msgstr "Atteikt"
+
+#: views/whitelabel/transactions/withdrawals.php:8
+msgid "Here you can manage your users' withdrawals."
+msgstr "Šeit varat pārvaldīt lietotāju izmaksas."
+
+#: views/whitelabel/transactions/withdrawals.php:113
+msgid "No withdrawals."
+msgstr "Nav izmaksu."
+
+#: views/whitelabel/users/aff.php:7 views/whitelabel/users/index.php:117
+msgid "Change affiliate"
+msgstr "Mainīt partneri"
+
+#: views/whitelabel/users/aff.php:8
+msgid "You can change your user affiliate here."
+msgstr "Šeit varat izmainīt sava lietotāja partneri."
+
+#: views/whitelabel/users/balance.php:7
+msgid "Edit balance"
+msgstr "Rediģēt atlikumu"
+
+#: views/whitelabel/users/balance.php:8
+msgid "You can edit user balance here."
+msgstr "Šeit varat rediģēt lietotāja atlikumu."
+
+#: views/whitelabel/users/balance.php:23
+msgid "Enter user balance"
+msgstr "Ievadiet lietotāja atlikumu"
+
+#: views/whitelabel/users/balance.php:25 views/whitelabel/users/deposit.php:35
+msgid "Use dot for decimal digits. No whitespaces."
+msgstr "Kā decimālatdalītāju lietojiet punktu. Bez atstarpēm."
+
+#: views/whitelabel/users/deposit.php:7
+msgid "Deposit"
+msgstr "Iemaksa"
+
+#: views/whitelabel/users/deposit.php:8
+msgid "Here you can add manual deposit to the user."
+msgstr "Šeit varat lietotājam pievienot manuālo iemaksu."
+
+#: views/whitelabel/users/deposit.php:33
+msgid "Enter amount"
+msgstr "Ievadiet summu"
+
+#: views/whitelabel/users/edit.php:8
+msgid "Edit user details here."
+msgstr "Ievadiet lietotāja informāciju šeit."
+
+#: views/whitelabel/users/email.php:8
+msgid "You can edit user e-mail here."
+msgstr "Šeit varat rediģēt lietotāja e-pastu."
+
+#: views/whitelabel/users/index.php:14
+msgid "Here you can view and manage your activated users."
+msgstr "Šeit varat skatīt un pārvaldīt savus aktivizētos lietotājus."
+
+#: views/whitelabel/users/index.php:15
+msgid "Here you can manage your inactive useres."
+msgstr "Šeit varat pārvaldīt neaktīvos lietotājus."
+
+#: views/whitelabel/users/index.php:16
+msgid "Here you can manage your deleted users."
+msgstr "Šeit varat pārvaldīt dzēstos lietotājus."
+
+#: views/whitelabel/users/index.php:79
+msgid "Registered<br>IP<br>Country"
+msgstr "Reģistrējies<br>IP<br>Valsts"
+
+#: views/whitelabel/users/index.php:98
+msgid "View purchases"
+msgstr "Skatīt pirkumus"
+
+#: views/whitelabel/users/index.php:99
+msgid "View deposits"
+msgstr "Skatīt iemaksas"
+
+#: views/whitelabel/users/index.php:100
+msgid "View withdrawals"
+msgstr "Skatīt izmaksas"
+
+#: views/whitelabel/users/index.php:123
+msgid "Manual deposit"
+msgstr "Manuāla iemaksa"
+
+#: views/whitelabel/users/index.php:160
+msgid "No users."
+msgstr "Nav lietotāju."
+
+#: views/whitelabel/users/password.php:8
+msgid "You can change user password here."
+msgstr "Šeit varat nomainīt lietotāja paroli."
+
+#: views/whitelabel/users/view.php:7
+msgid "User details"
+msgstr "Lietotāja informācija"
+
+#: views/whitelabel/users/view.php:8
+msgid "You can view and edit user details here."
+msgstr "Šeit varat apskatīt un rediģēt lietotāja informāciju."
+
+#: views/whitelabel/users/view.php:49
+msgid "Register IP"
+msgstr "Reģistrētā IP"
+
+#: views/whitelabel/users/view.php:57
+msgid "First Purchase"
+msgstr "Pirmais pirkums"
+
+#~ msgid "Provider"
+#~ msgstr "Pakalpojumu sniedzējs"
+
+#~ msgid "Minimum lines count should be multiple of %s!"
+#~ msgstr "Minimālajam variantu skaitam jābūt %s!"

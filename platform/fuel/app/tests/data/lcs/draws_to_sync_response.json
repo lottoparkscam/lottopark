@@ -1,0 +1,323 @@
+[
+    {
+        "draw_no": 3,
+        "date": "2020-06-19 22:28:39",
+        "exact_start": "2020-06-19 22:25:30",
+        "exact_end": "2020-06-19 22:28:39",
+        "token": null,
+        "numbers": [
+            [
+                485,
+                238,
+                126,
+                700,
+                412,
+                918,
+                116,
+                272,
+                10,
+                996,
+                973,
+                888,
+                696,
+                785,
+                948,
+                974,
+                557,
+                662,
+                530,
+                687,
+                559,
+                269,
+                906,
+                634,
+                4
+            ]
+        ],
+        "is_calculated": 1,
+        "report_sent": 0,
+        "sale_sum": "10000.00",
+        "sale_sum_predicted": "10000.00",
+        "jackpot": "5000.00",
+        "prize_total": "7400.00",
+        "currency_code": "USD",
+        "lines_won_count": 25,
+        "tickets_count": 149,
+        "lines_count": 1000,
+        "transaction_hash": null,
+        "callback_transaction_hash": null,
+        "contract_address": null,
+        "hash": null,
+        "hash_algorithm": null,
+        "salt": null,
+        "lottery_prizes": [
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 1,
+                "total": "5000.00",
+                "loss": "0.00",
+                "cumulation": "0.18",
+                "per_user": "5000.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 22:28:59",
+                "updated_at": "2020-06-19 22:28:59",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:1",
+                    "matches": [
+                        1
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "67.57",
+                    "odds": "139838160.00",
+                    "prize": "5000.00",
+                    "cumulation": "0.36",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 1
+                }
+            },
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 24,
+                "total": "2400.00",
+                "loss": "0.18",
+                "cumulation": "0.00",
+                "per_user": "100.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 22:29:00",
+                "updated_at": "2020-06-19 22:29:00",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:2_25",
+                    "matches": [
+                        [
+                            2,
+                            25
+                        ]
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "32.43",
+                    "odds": "6991908.00",
+                    "prize": "100.00",
+                    "cumulation": "0.00",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 0
+                }
+            }
+        ]
+    },
+    {
+        "draw_no": 2,
+        "date": "2020-06-19 22:28:39",
+        "exact_start": "2020-06-19 22:25:30",
+        "exact_end": "2020-06-19 22:28:39",
+        "token": null,
+        "numbers": [
+            [
+                485,
+                238,
+                126,
+                700,
+                412,
+                918,
+                116,
+                272,
+                10,
+                996,
+                973,
+                888,
+                696,
+                785,
+                948,
+                974,
+                557,
+                662,
+                530,
+                687,
+                559,
+                269,
+                906,
+                634,
+                4
+            ]
+        ],
+        "is_calculated": 1,
+        "report_sent": 0,
+        "sale_sum": "10000.00",
+        "sale_sum_predicted": "10000.00",
+        "jackpot": "5000.00",
+        "prize_total": "7400.00",
+        "currency_code": "USD",
+        "lines_won_count": 25,
+        "tickets_count": 149,
+        "lines_count": 1000,
+        "transaction_hash": null,
+        "callback_transaction_hash": null,
+        "contract_address": null,
+        "hash": null,
+        "hash_algorithm": null,
+        "salt": null,
+        "lottery_prizes": [
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 1,
+                "total": "5000.00",
+                "loss": "0.00",
+                "cumulation": "0.18",
+                "per_user": "5000.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 22:28:59",
+                "updated_at": "2020-06-19 22:28:59",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:1",
+                    "matches": [
+                        1
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "67.57",
+                    "odds": "139838160.00",
+                    "prize": "5000.00",
+                    "cumulation": "0.36",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 1
+                }
+            },
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 24,
+                "total": "2400.00",
+                "loss": "0.18",
+                "cumulation": "0.00",
+                "per_user": "100.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 22:29:00",
+                "updated_at": "2020-06-19 22:29:00",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:2_25",
+                    "matches": [
+                        [
+                            2,
+                            25
+                        ]
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "32.43",
+                    "odds": "6991908.00",
+                    "prize": "100.00",
+                    "cumulation": "0.00",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 0
+                }
+            }
+        ]
+    },
+    {
+        "draw_no": 1,
+        "date": "2020-06-19 10:55:44",
+        "exact_start": "2020-06-19 10:16:39",
+        "exact_end": "2020-06-19 10:55:44",
+        "token": "288fc4dd3d67e0dcabafe8497967bc92d3758f775a63730bdf",
+        "numbers": [
+            [
+                663,
+                621,
+                781,
+                955,
+                822,
+                353,
+                406,
+                933,
+                817,
+                542,
+                108,
+                811,
+                620,
+                702,
+                826,
+                803,
+                358,
+                949,
+                654,
+                156,
+                982,
+                55,
+                759,
+                399,
+                359
+            ]
+        ],
+        "is_calculated": 1,
+        "report_sent": 0,
+        "sale_sum": "10000.00",
+        "sale_sum_predicted": "10000.00",
+        "jackpot": "5000.00",
+        "prize_total": "7400.00",
+        "currency_code": "USD",
+        "lines_won_count": 25,
+        "tickets_count": 158,
+        "lines_count": 1000,
+        "transaction_hash": null,
+        "callback_transaction_hash": null,
+        "contract_address": null,
+        "hash": "461ed37ab8c84d0c362afa9775060a9ec0504ec44e58e95f612bf6a1e859074c0129bc2cf460bebffe02541b3763a5e0b51c126c7b5c3ea4cf1ad0c2bdfe4704",
+        "hash_algorithm": "SHA512",
+        "salt": "387b2530d4bb25a02ce1493c330a9f40a3a40d36e01d68f8889c0286903fd3fe0fe32d84724c01bf89f89d313c4ae6fc0cb75edcc8f3f04975a1798864fab220",
+        "lottery_prizes": [
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 1,
+                "total": "5000.00",
+                "loss": "0.00",
+                "cumulation": "0.00",
+                "per_user": "5000.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 11:01:28",
+                "updated_at": "2020-06-19 11:01:28",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:1",
+                    "matches": [
+                        1
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "67.57",
+                    "odds": "139838160.00",
+                    "prize": "5000.00",
+                    "cumulation": "0.36",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 1
+                }
+            },
+            {
+                "lottery_rule_tier_multiplier_id": null,
+                "lines_won_count": 24,
+                "total": "2400.00",
+                "loss": "0.18",
+                "cumulation": "0.00",
+                "per_user": "100.00",
+                "currency_code": "USD",
+                "created_at": "2020-06-19 11:01:29",
+                "updated_at": "2020-06-19 11:01:29",
+                "lottery_rule_tier": {
+                    "slug": "raffle-closed:2_25",
+                    "matches": [
+                        [
+                            2,
+                            25
+                        ]
+                    ],
+                    "prize_type": 0,
+                    "prize_fund_percent": "32.43",
+                    "odds": "6991908.00",
+                    "prize": "100.00",
+                    "cumulation": "0.00",
+                    "prize_guaranteed": null,
+                    "currency_code": "USD",
+                    "is_jackpot": 0
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+<div class="main-width content-width">
+	<div class="casino-container content-box">
+		{% if gameUrl %}
+			<div class="casinoPlayNavigationContainer">
+				<div class="currentMode">
+					{% if isLobby %}
+						<p>Select your lobby</p>
+					{% else %}
+						<p>You are playing with
+							<b>{{currentMode}}</b>
+							money</p>
+					{% endif %}
+				</div>
+				<div class="casinoButtonsContainer">
+					<a class="btn btn-primary" href="{{casinoPageUrl}}">Go back to list of games</a>
+					<button id="fullScreenButton" class="btn btn-primary">Open
+						{{type}}
+						in full-screen</button>
+					{% if not isLobby %}
+						<a class="btn btn-primary" href="{{oppositeModeUrl}}">Switch to
+							{{oppositeMode}}
+							money</a>
+					{% endif %}
+				</div>
+			</div>
+			<div class="iframe-container">
+				<iframe class="playGameIframe" id="playGameIframe" src="{{gameUrl}}" style="width:100%; height: 600px" allowfullscreen="true" frameborder="0" loading="lazy">
+					<p class="casino-error">Your browser does not support casino games.</p>
+				</iframe>
+			</div>
+		{% elseif isLimitReached %}
+			<p class="casino-error">Limit is reached.</p>
+		{% else %}
+			<p class="casino-error">Game is temporary unavailable.</p>
+			<a class="btn btn-primary go-to-casino" href="{{casinoPageUrl}}">Go back to list of games</a>
+		{% endif %}
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Uncheduled draw update" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/platform/oil" scriptParameters="r update_lotteries_for_unscheduled_draw:run">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="PHP 7.2" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2" />
+  </configuration>
+</component>

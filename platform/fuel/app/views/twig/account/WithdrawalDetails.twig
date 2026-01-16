@@ -1,0 +1,20 @@
+<div class="myaccount-withdrawal">
+    <h2>Withdrawal {{ prefix|e }}W{{ token|e }}</h2>
+    <table class="table">
+        {% for property, value in data %}
+            <tr>
+                <td class="label">
+                    {{ property|e|snakeToPascalWithSpace }}:
+                </td>
+                <td class="value">
+                    {{ value|e }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    <div>
+        <a href="{{ backUrl|e }}" class="btn btn-primary btn-md back">
+            Back To Withdrawals List
+        </a>
+    </div>
+</div>

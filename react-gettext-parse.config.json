@@ -1,0 +1,55 @@
+{
+  "js": {
+    "parsers": [
+      {
+        "expression": "gettext",
+        "arguments": {
+          "text": 0
+        }
+      },
+      {
+        "expression": "ngettext",
+        "arguments": {
+          "text": 0,
+          "textPlural": 1
+        }
+      },
+      {
+        "expression": "pgettext",
+        "arguments": {
+          "context": 0,
+          "text": 1
+        }
+      }
+    ],
+    "glob": {
+      "pattern": "./platform/public/assets/js/crm/src/**/*.js"
+    }
+  },
+  "html": {
+    "parsers": [
+      {
+        "element": "[translate]",
+        "attributes": {
+          "textPlural": "translate-plural",
+          "context": "translate-context"
+        }
+      },
+      {
+        "attribute": "translate-text",
+        "attributes": {
+          "textPlural": "translate-plural",
+          "context": "translate-context"
+        }
+      }
+    ],
+    "glob": {
+      "pattern": "src/**/*.html"
+    }
+  },
+  
+  "headers": {
+    "Language": ""
+  },
+  "output": "./platform/public/assets/js/crm/translations/_.pot"
+}

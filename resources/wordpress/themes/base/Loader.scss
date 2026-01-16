@@ -1,0 +1,19 @@
+.loading {
+  background-image: url("data:image/svg+xml,%3Csvg id='a' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3Epath%7Banimation:faspin 2s infinite linear;transform-box:fill-box;transform-origin:50%25 50%25%7D%40keyframes faspin%7B0%25%7Btransform%3Arotate%280deg%29%7D100%25%7Btransform%3Arotate%28360deg%29%7D%7D%3C/style%3E%3Cpath fill='%2367bd2e' d='M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z'/%3E%3C/svg%3E");
+  min-height: 15px;
+  min-width: 15px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+
+  &-container {
+    text-align: center;
+    margin: 1em !important;
+    padding: 1em;
+  }
+
+  &-big {
+    min-height: 20px;
+    min-width: 20px;
+  }
+}

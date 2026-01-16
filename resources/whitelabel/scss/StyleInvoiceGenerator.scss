@@ -1,0 +1,179 @@
+.invoice {
+  margin: 2em;
+  .invoice-nav {
+    display: flex;
+    justify-content: space-between;
+
+    .wl-logo {
+      margin-bottom: 10px;
+    }
+  }
+  .nav-main-section-invoice {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    .blue-column-invoice {
+      font-size: 1.5em;
+      padding: 0.25em;
+      background-color: #0ba8ef;
+      text-align: center;
+      width: 30%;
+      border-right: 3px solid white;
+    }
+    .blue-column-invoice-print {
+      font-size: 1.5em;
+      padding: 0.25em;
+      text-align: center;
+      width: 30%;
+      border: 1px solid #0ba8ef;
+    }
+  }
+  .row-invoice {
+    display: flex;
+    justify-content: center;
+    .grey-column-invoice {
+      padding: 0.25em;
+      background-color: darkgrey;
+      text-align: center;
+      width: 30%;
+      font-size: 1.15em;
+      border-right: 3px solid white;
+      margin-top: 1em;
+    }
+    .grey-column-invoice-print {
+      padding: 0.25em;
+      text-align: center;
+      width: 30%;
+      font-size: 1.15em;
+      margin-top: 1em;
+      border: 1px solid black;
+    }
+  }
+  #new-row {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form-control {
+      margin-right: 0.5em;
+    }
+    #invoice-input-services {
+      margin-left: 0.25em;
+    }
+  }
+
+  #print-button {
+    margin: 1em;
+    width: 10em;
+    font-size: 1.5em;
+  }
+
+  .print {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+  }
+
+  #invoice-delete-button {
+    margin-top: 1.5em;
+    color: #f44336;
+  }
+
+  .alert {
+    display: flex;
+    align-items: center;
+    width: 30em;
+    padding: 10px;
+    border: 1px solid #f44336;
+    color: #f44336;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    .closebtn {
+      font-size: 2em;
+      margin-top: -0.25em;
+    }
+  }
+
+  .closebtn {
+    margin-top: 0.5em;
+    color: #f44336;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .closebtn:hover {
+    color: black;
+  }
+
+  .subtotal {
+    margin-top: 3em;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .subtotal-sum {
+    text-align: center;
+    margin-left: 0.5em;
+    padding: 0 0.25em 0 0.5em;
+    border-bottom: 2px solid #337ab7;
+  }
+  .delete-row.closebtn {
+    display: none;
+  }
+
+  input.grey-column-invoice {
+    border: none;
+  }
+
+  // delete arrows from input type number
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  // delete arrows from input type number
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  input.grey-column-invoice:focus {
+    outline-width: 0;
+  }
+
+  .invoice-edit {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .V2-extra-label {
+    font-size: 0.75em;
+    color: grey;
+  }
+
+  h2.invoice-title {
+    margin-bottom: 2em;
+  }
+
+  .statement-close {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .whitelabel-domain-top {
+    margin-bottom: 5em;
+  }
+
+  .whitelabel-domain-bottom {
+    margin-top: 5em;
+  }
+}
+
+#generate-invoice {
+  margin-top: 15px;
+}

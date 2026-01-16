@@ -1,0 +1,57 @@
+parameters:
+	ignoreErrors:
+		- '#Call to an undefined static method [a-zA-Z0-9\\_]+::(post|method|all|get|Uri|xml|json)\(\)#'                # Ignored not found errors from Fuel\Core\Input
+		- '#Call to an undefined static method [a-zA-Z0-9\\_]+::(register|trigger)\(\)#'                                # Ignored not found errors from Fuel\Core\Event
+		- '#Access to an undefined static property static\([a-zA-Z\\_]+\)::\$_table_name#'                              # Ignored not found errors from Orm
+		- '#Access to constant P_NORMAL on an unknown class Email.#'                                                    # todo phpstan: Autoloader issue
+		# Call to an undefined static method Model_Whitelabel_User_Ticket_Slip::find_by_id(). find_by_column_name
+		# https://fuelphp.com/docs/classes/model_crud/methods.html#/method_find_by_magic
+		# Fuel specific issues
+		- '#Call to an undefined method Fuel\\Core\\Database_Query_Builder::(values|as_array)\(\)#'
+		#Others
+		- '#Variable \$result in isset\(\) always exists and is not nullable#'		
+		- '#Access to an undefined property Fuel\\Core\\Pagination::\$(per_page|offset)#'
+		# DB > execute (unknown return value)
+		-
+		  message: '#Cannot call method (as_array|current)\(\) on int#'
+		  paths:
+		      - platform/fuel/app/classes/task/admin/checklanguage.php
+		      - platform/fuel/app/classes/services/lottery/draw/UnscheduledDrawService.php
+		      - platform/fuel/app/classes/model/whitelabel/user/promo/code.php
+		      - platform/fuel/app/classes/model/whitelabel/user/popup/queue.php
+		      - platform/fuel/app/classes/repositories/PaymentRequestLockRepository.php
+		      - platform/fuel/app/classes/model/whitelabel/user/group.php
+		      - platform/fuel/app/classes/model/whitelabel/user.php
+		      - platform/fuel/app/classes/model/whitelabel/transaction.php
+		      - platform/fuel/app/classes/model/whitelabel/setting.php
+		      - platform/fuel/app/classes/model/whitelabel/raffle/ticket/line.php
+		      - platform/fuel/app/classes/model/whitelabel/promo/code.php
+		      - platform/fuel/app/classes/model/whitelabel/plugin.php
+		      - platform/fuel/app/classes/model/whitelabel/payment/method.php
+		      - platform/fuel/app/classes/model/whitelabel/notifications/draw.php
+		      - platform/fuel/app/classes/model/whitelabel/mails/template.php
+		      - platform/fuel/app/classes/model/whitelabel/language.php
+		      - platform/fuel/app/classes/model/whitelabel/default/currency.php
+		      - platform/fuel/app/classes/model/whitelabel/country/currency.php
+		      - platform/fuel/app/classes/model/whitelabel/cc/method.php
+		      - platform/fuel/app/classes/model/whitelabel/campaign.php
+		      - platform/fuel/app/classes/model/whitelabel/aff/withdrawal.php
+		      - platform/fuel/app/classes/model/whitelabel/aff/group.php
+		      - platform/fuel/app/classes/model/whitelabel/aff.php
+		      - platform/fuel/app/classes/model/whitelabel.php
+		      - platform/fuel/app/classes/model/setting.php
+		      - platform/fuel/app/classes/model/role.php
+		      - platform/fuel/app/classes/model/payment/method.php
+		      - platform/fuel/app/classes/model/payment/log.php
+		      - platform/fuel/app/classes/model/multidraw.php
+		      - platform/fuel/app/classes/model/lottery/type/data.php
+		      - platform/fuel/app/classes/model/lottery/type.php
+		      - platform/fuel/app/classes/model/lottery/source.php
+		      - platform/fuel/app/classes/model/lottery/prize/data.php
+		      - platform/fuel/app/classes/model/lottery/group.php
+		      - platform/fuel/app/classes/model/lottery.php
+		      - platform/fuel/app/classes/model/whitelabel/user/ticket.php
+		-
+		  message: '#Call to function unset\(\) contains undefined variable#'
+		  paths:
+		      - platform/fuel/app/classes/task/lotterycentralserver/database/update/tickets/prize.php

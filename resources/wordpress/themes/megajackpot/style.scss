@@ -1,0 +1,1742 @@
+/*
+    Theme Name:     Megajackpot Theme
+    Description:    Megajackpot whitelabel theme.
+    Author:         WhiteLotto
+    Text Domain:	megajackpot-theme
+    Template:		base
+    Version:        1.0.0
+*/
+@import 'colors_base';
+@import 'elements';
+@import 'mixins';
+
+//// DEFAULTS ////
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div.header-logo,
+div.widget-div-title {
+  color: $headers;
+}
+
+a {
+  color: $a;
+  outline: none;
+  &.infobox {
+    &-purchase {
+      background-color: $aInfoPurchaseBg;
+      &-manual {
+        color: $aInfoPurchaseManual;
+      }
+      &:hover {
+        background-color: $aInfoPurchaseHoverBg;
+      }
+    }
+  }
+}
+
+a * {
+  outline: none;
+}
+
+//// END DEFULTS ////
+
+//// ADJUSTMENTS ////
+.mobile {
+  &-menu {
+    &-trigger {
+      color: $mobMenuTrigger;
+    }
+  }
+  &-close {
+    &-area {
+      background-color: $mobCloseAreaBg;
+      border-bottom-color: $mobCloseAreaBorder;
+    }
+  }
+  &-language {
+    &-area {
+      select {
+        color: $mobLangAreaSelect;
+        background-color: $mobLangAreaSelectBg;
+        //background-image: url('images/arrow-down.png');//
+      }
+    }
+  }
+}
+
+span {
+  &.fa-search {
+    color: $spanFaSearch;
+    &:hover {
+      color: $spanFaSearchHover;
+    }
+  }
+  &.fa-refresh {
+    color: $spanFaRefresh;
+    &:hover {
+      color: $spanFaRefreshHover;
+    }
+    a.disabled & {
+      color: $spanFaRefreshADisabled;
+    }
+  }
+  &.faq-toggle-plus {
+    border-color: $spanFAQPlus;
+  }
+  &.fa-plus {
+    color: $spanFaPlus;
+  }
+  &.fa-minus {
+    color: $spanFaMinus;
+  }
+  &.infobox {
+    &-purchase {
+      &-icon {
+        background-color: $spanInfoPurchaseIconBg;
+      }
+      &-description-secondary-text {
+        color: $spanInfoPurchaseIconDescSecText;
+      }
+    }
+  }
+}
+
+////// END OF ADJUSTMENTS //////
+
+//// BUTTONS ////
+.btn {
+  color: $btn;
+
+  &-primary,
+  &-primary:disabled:hover,
+  &-primary.disabled:hover {
+    color: $btnPrimary;
+    background-color: $btnPrimaryBg;
+  }
+
+  &-primary:hover,
+  &-primary-hover {
+    color: $btnPrimary;
+    background-color: $btnPrimaryBgHover;
+  }
+  &-secondary,
+  &-secondary:disabled:hover,
+  &-secondary.disabled:hover {
+    color: $btnSecondary;
+    background-color: $btnSecondaryBg;
+  }
+
+  &-secondary:hover,
+  &-secondary-hover {
+    color: $btnSecondary;
+    background-color: $btnSecondaryBgHover;
+  }
+
+  &-tertiary,
+  &-tertiary:disabled:hover,
+  &-tertiary.disabled:hover {
+    color: $btnTertiary;
+    background-color: $btnTertiaryBg;
+  }
+
+  &-tertiary:hover,
+  &-tertiary-hover {
+    color: $btnTertiary;
+    background-color: $btnTertiaryBgHover;
+  }
+
+  &-default,
+  &-default:disabled:hover,
+  &-default.disabled:hover {
+    background-color: $btnDefaultBg;
+    color: $btnDefault !important;
+    border-color: $btnDefaultBorder;
+  }
+
+  &-default:hover,
+  &-default-hover {
+    background: $btnDefaultBgHover;
+    color: $btnDefaultHover !important;
+    border-color: $btnDefaultBorderHover;
+  }
+
+  &-xl {
+    @include screen_max_w_1000 {
+      font-size: 1.6em !important;
+      padding: 0 20px !important;
+      line-height: 42px !important;
+      margin-top: 15px !important;
+      height: 44px !important;
+      margin-right: 30px !important;
+    }
+    @include screen_max_w_600 {
+      font-size: 1.4em !important;
+      padding: 0 10px !important;
+      line-height: 28px !important;
+      margin-top: 20px !important;
+      height: 30px !important;
+      margin-right: 20px !important;
+    }
+    @include screen_max_w_400 {
+      margin-right: 10px !important;
+    }
+  }
+
+  // lottopark - additional //
+  &-signup {
+    background-color: $btnSignUpBg;
+    color: $btnSignUp;
+    &:hover {
+      color: $btnSignUpHover;
+      background-color: $btnSignUpBgHover;
+    }
+  }
+}
+
+//// Specials
+.login-signup-buttons-main-div-mobile {
+  background-color: $divHomeWidgetBg;
+}
+
+.main-div-platform-alert {
+  background-color: $divHomeWidgetBg;
+}
+//// END OF BUTTONS ////
+
+//// WPCF7 - contact form ////
+.wpcf7-form {
+  input[type='submit'] {
+    color: $inSub;
+    background-color: $inSubBg;
+  }
+
+  input[type='submit']:hover {
+    color: $inSubHover;
+    background-color: $inSubBgHover;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='tel'],
+  textarea {
+    color: $inOther;
+    border-color: $inOtherBorder;
+    background-color: $inOtherBg;
+  }
+
+  input[type='text'].wpcf7-not-valid,
+  input[type='email'].wpcf7-not-valid,
+  input[type='password'].wpcf7-not-valid,
+  input[type='tel'].wpcf7-not-valid,
+  textarea.wpcf7-not-valid {
+    color: $inOtherNotValid;
+    background-color: $inOtherBgNotValid;
+    border-color: $inOtherBorderNotValid;
+  }
+
+  input[type='text']:focus,
+  input[type='email']:focus,
+  input[type='password']:focus,
+  input[type='tel']:focus,
+  textarea:focus {
+    color: $inOtherFocus;
+    background-color: $inOtherBgFocus;
+    border-color: $inOtherBorderFocus;
+  }
+
+  input[type='text'].wpcf7-not-valid:focus,
+  input[type='email'].wpcf7-not-valid:focus,
+  input[type='password'].wpcf7-not-valid:focus,
+  input[type='tel'].wpcf7-not-valid:focus,
+  textarea.wpcf7-not-valid:focus {
+    color: $inOtherNotValidFocus;
+    background-color: $inOtherBgNotValidFocus;
+    border-color: $inOtherBorderNotValidFocus;
+  }
+}
+//// END OF WPCF7 - contact form ////
+
+////////////// MAIN BODY ////////////////
+body {
+  background-color: $bodyBg;
+  color: $body;
+}
+////////// END MAIN BODY ////////////////
+
+header {
+  background-color: $headerBg;
+  div {
+    &.main-width {
+      background-image: none;
+    }
+  }
+}
+
+////// MAIN AREAS ////
+div {
+  &.home-widget-area,
+  &.content-area {
+    background-color: $divHomeWidgetBg;
+  }
+  //// HEADER - USER AREA ////
+  &.user-info {
+    &-area {
+      box-shadow: 0 0 0 1px $divHomeWidgetBoxShadow;
+      &:hover {
+        box-shadow: 0 0 0 1px $divHomeWidgetHoverBoxShadow;
+      }
+    }
+    div.menu-wrapper {
+      div.user-menu-content {
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+        background-color: $divUserInfoMenuContentBg;
+        div.user-menu-item {
+          border-right: 1px solid $divUserInfoMenuContentItemBorderRight;
+          border-bottom: 1px solid $divUserInfoMenuContentItemBorderBottom;
+          span {
+            &.user-menu-item-link {
+              color: $divUserInfoSpan;
+            }
+            &.fa {
+              color: $divUserInfoSpanFa;
+            }
+          }
+          &-container {
+            a {
+              &.logout {
+                color: $divUserInfoContainerALogout;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.user-info-area-active {
+    background-color: $divUserInfoAreaBg;
+    box-shadow: none;
+    border-color: $divUserInfoAreaBorder;
+    header.header-dark & {
+      @extend .user-info-area-active;
+    }
+    &:hover {
+      @extend .user-info-area-active;
+      header.header-dark & {
+        @extend .user-info-area-active;
+      }
+    }
+  }
+  &.order-info {
+    box-shadow: 0 0 0 1px $divOrderInfoALinkBoxShadow;
+    @include screen_max_w_1000 {
+      box-shadow: none;
+    }
+    &:hover {
+      box-shadow: 0 0 0 1px $divOrderInfoALinkHoverBoxShadow;
+      @include screen_max_w_1000 {
+        box-shadow: none;
+      }
+    }
+    > a {
+      &.user-info-link {
+        color: $divOrderInfoALink;
+        > span.order-count {
+          color: $divOrderInfoALinkSpan;
+          background-color: $divOrderInfoALinkSpanBg;
+        }
+      }
+    }
+    div.order-info-desc {
+      span.order-info-link {
+        color: $divOrderInfoDescSpan;
+      }
+    }
+    &-notempty {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+      &:hover {
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+        @include screen_max_w_1000 {
+          box-shadow: none;
+        }
+      }
+      @include screen_max_w_1000 {
+        box-shadow: none;
+      }
+    }
+  }
+  &.menu-wrapper {
+    > ul {
+      > li {
+        > a {
+          color: $divMenuWrapperA;
+          &:hover {
+            color: $divMenuWrapperAHover;
+          }
+        }
+      }
+    }
+  }
+  &.content-box {
+    section {
+      &.faq {
+        .faq-answer {
+          border-bottom-color: $divContentBoxFAQAnswerBorder;
+        }
+      }
+    }
+  }
+
+  //// INFOBOX ////
+  &.infobox-title {
+    a {
+      color: $divInfoboxTitleA;
+    }
+  }
+  &.infobox-links {
+    a {
+      color: $divInfoboxLinksA;
+    }
+  }
+  &.infobox-amount {
+    color: $divInfoboxAmount;
+  }
+  &.infobox-details {
+    border-color: $divInfoboxDetailsBorder;
+  }
+
+  //// MY ACCOUNT ////
+  &.account {
+    &-tickets {
+      color: $divAccountTicket;
+    }
+  }
+  &.header {
+    &-transaction {
+      color: $divHeaderTransaction;
+    }
+    &-withdrawal {
+      color: $divHeaderWithdrawal;
+    }
+  }
+}
+
+section {
+  &.user-area {
+    div.user-info {
+      div.user-info-area {
+        background-color: $secUserAreaBg;
+        a {
+          color: $secUserAreaA;
+          > span {
+            &.fa-user-circle-o {
+              color: $secUserAreaAUserCircle;
+            }
+            &.fa-chevron-down {
+              color: $secUserAreaAChevronDown;
+            }
+            &.user-balance {
+              color: $secUserAreaAUserBalance;
+            }
+          }
+        }
+      }
+      .user-info-area-active {
+        background-color: $secUserAreaActiveABg;
+        border-color: $secUserAreaActiveABorder;
+        a {
+          color: $secUserAreaActiveA;
+          > span {
+            &.fa-user-circle-o {
+              color: $secUserAreaActiveAUserCircle;
+            }
+            &.fa-chevron-down {
+              color: $secUserAreaActiveAChevronDown;
+            }
+            &.user-balance {
+              color: $secUserAreaActiveAUserBalance;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //// FAQ ////
+  &.faq {
+    nav {
+      &.faq-nav {
+        background-color: $secFAQNavBg;
+        color: $secFAQNav;
+        border-color: $secFAQNavBorder;
+        a {
+          color: $secFAQNavA;
+        }
+        ol {
+          li {
+            border-color: $secFAQNavLiBorder;
+          }
+        }
+      }
+    }
+    div {
+      &.faq-content-answers {
+        border-color: $secDivAnsBorder;
+      }
+    }
+    h3 {
+      border-color: $secH3Border;
+    }
+  }
+
+  &.page-content {
+    .page {
+      p {
+        a {
+          color: $secPageContentPagePA;
+          &:hover {
+            color: $secPageContentPagePAHover;
+          }
+        }
+      }
+    }
+  }
+}
+
+//// PRIMARY NAVIGATION ////
+nav {
+  &#primary-nav {
+    border-top: 1px solid $navPrimaryNavTopBorder;
+    background-color: $navPrimaryNavTopBg;
+    &.nav-dark {
+      div {
+        > ul.menu {
+          > li {
+            > a {
+              color: $navPrimaryDarkLiA;
+            }
+          }
+        }
+      }
+    }
+    div {
+      > ul.menu {
+        > li {
+          > a {
+            color: $navPrimaryDivLiA;
+            &:hover {
+              color: $navPrimaryDivLiAHover;
+            }
+            @include screen_max_w_1000 {
+              color: $navPrimaryDivUlMenuLiA1000;
+            }
+          }
+          &.menu-item-home {
+            > a {
+              border: 1px solid $navPrimaryDivLiHomeABorder;
+              color: $navPrimaryDivLiHomeA;
+              &:hover {
+                border: 1px solid $navPrimaryDivLiHomeAHoverBorder;
+              }
+            }
+          }
+
+          &.menu-item-mobile {
+            &-highlight {
+              > a {
+                color: $navPrimaryDivLiMobileHighA;
+                &:hover {
+                  @include screen_max_w_1000 {
+                    color: $navPrimaryDivUlMenuLiMenuHighlightA1000;
+                  }
+                }
+              }
+            }
+            &-user {
+              > a {
+                > span {
+                  &.mobile-user-menu-balance {
+                    @include screen_max_w_1000 {
+                      color: $navPrimaryDivUlMenuLiMenuUserASpan1000;
+                    }
+                    &:hover {
+                      @include screen_max_w_1000 {
+                        color: $navPrimaryDivUlMenuLiMenuUserASpanHover1000;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          > div {
+            &.mobile-user-menu-container {
+              @include screen_max_w_1000 {
+                background-color: $navPrimaryDivUlMenuLiDivMobContainerBg1000;
+                border-top-color: $navPrimaryDivUlMenuLiDivMobContainerBorder1000;
+                border-bottom-color: $navPrimaryDivUlMenuLiDivMobContainerBorder1000;
+              }
+            }
+            > ul {
+              > li {
+                > a {
+                  &:hover {
+                    @include screen_max_w_1000 {
+                      color: $navPrimaryDivUlMenuLiDivUlLiAHover1000;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @include screen_max_w_1000 {
+          background-color: $navPrimaryDivUlMenuBg1000;
+        }
+      }
+    }
+
+    > div {
+      @include screen_max_w_1000 {
+        background-color: $navPrimaryDivBg1000;
+      }
+    }
+  }
+  //// CONTENT NAVIGATION ////
+  &.content-nav {
+    ul {
+      li {
+        &.content-nav-active {
+          a {
+            background-color: $navContentLiActiveABg;
+            color: $navContentLiActiveA;
+            &:hover {
+              background-color: $navContentLiActiveAHoverBg;
+            }
+          }
+        }
+        a {
+          &:hover {
+            color: $navContentLiABg;
+            background-color: $navContentLiABgHover;
+          }
+        }
+      }
+    }
+  }
+  //// PAGINATION ////
+  &.pagination {
+    .page-numbers {
+      color: $navPaginationNumbers;
+      &:hover {
+        background-color: $navPaginationNumbersBgHover;
+        color: $navPaginationNumbersHover;
+      }
+    }
+    .current {
+      background-color: $navPaginationCurrentBg;
+      color: $navPaginationCurrent;
+      &:hover {
+        background-color: $navPaginationCurrentBgHover;
+      }
+    }
+  }
+}
+
+//// FOOTER ////
+footer {
+  div {
+    &.lang-select {
+      a {
+        color: $footerDivA;
+        > span {
+          color: $footerDivASpan;
+          font-size: 10px;
+        }
+      }
+    }
+    &.footer-logotypes {
+      border-bottom: 1px solid $footerLogoTypesBorder;
+    }
+  }
+  nav {
+    &#footer-nav {
+      div {
+        a {
+          color: $footerNavFooterA;
+        }
+      }
+    }
+    &#social-nav {
+      div {
+        a {
+          color: $footerNavSocialA;
+          &:hover {
+            span {
+              border-bottom-color: $footerNavSocialASpanBorderHover;
+            }
+          }
+          span {
+            border-color: $footerNavSocialASpanBorder !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+////// TABLES //////
+table {
+  &.table {
+    color: $tabTable;
+    thead {
+      tr {
+        background-color: $tabTableTheadTrBg;
+      }
+    }
+    tbody {
+      tr {
+        td {
+          border-color: $tabTableTbodyTdBorder;
+        }
+      }
+    }
+    tfoot {
+      tr {
+        background-color: $tabTableTfootTrBg;
+      }
+    }
+  }
+
+  &.table-hover {
+    tbody {
+      tr {
+        &:hover {
+          td {
+            background-color: $tabTableHoverTrHoverTdBg;
+            @include screen_max_w_1000 {
+              background-color: $tabTableHoverTbodyTrHoverTdBg1000;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //// LOTTERY INFORMATION ////
+  &.table-short {
+    tr {
+      th {
+        color: $tabTableShortTrTh;
+      }
+      td {
+        .table-short-label {
+          color: $tabTableShortTrTdLabel;
+        }
+        span.fa {
+          color: $tabTableShortTrTdSpan;
+        }
+      }
+    }
+    thead {
+      tr {
+        background-color: $tabTableShortTheadTrBg;
+        th {
+          border-left-color: $tabTableShortTheadTrThBorder;
+          border-right-color: $tabTableShortTheadTrThBorder;
+        }
+      }
+    }
+    tbody {
+      tr {
+        background-color: $tabTableShortTbodyTrBg;
+        td {
+          border-left-color: $tabTableShortTbodyTrTdBorder;
+          border-right-color: $tabTableShortTbodyTrTdBorder;
+        }
+        &:first-of-type {
+          td {
+            @include screen_max_w_1000 {
+              border-color: $tabTableShortTbodyTrFOTTdBorder1000;
+            }
+          }
+        }
+        @include screen_max_w_1000 {
+          background: $tabTableShortTbodyTrBg1000;
+        }
+      }
+    }
+  }
+
+  &.table-info {
+    &-detailed {
+      tbody {
+        td {
+          color: $tabTableDetailedTbodyTd;
+        }
+      }
+      .table-info-detailed {
+        &-prize {
+          &-amount {
+            color: $tabTableDetailedPrizeAmount;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          &.info-jackpot {
+            .info-jackpot-amount {
+              color: $tabTableInfoJackpotInfoJackpotAmount;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //// ORDER ////
+  &.table-order {
+    border-bottom-color: $tabTableOrderBorder;
+    tbody {
+      tr:nth-of-type(2n + 1) {
+        td {
+          border-top-color: $tabTableOrderTbodyTdBorder;
+        }
+      }
+    }
+  }
+
+  //// TRANSACTION/TICKET DETAILS ////
+  &.table-payment {
+    tfoot {
+      tr {
+        background-color: $tabTablePaymentTfootTrBg;
+        td:last-of-type {
+          background-color: $tabTablePaymentTfootTrTdLOTBg;
+        }
+      }
+    }
+    tbody {
+      tr:first-of-type {
+        td {
+          border-top-color: $tabTablePaymentTbodyTrFOTTdBg;
+        }
+      }
+      tr:hover {
+        td {
+          background-color: $tabTablePaymentTbodyTrTdBgHover;
+        }
+      }
+    }
+  }
+
+  //// SUCCESS (THANK YOU PAGE) ////
+  &.table-success {
+    tbody {
+      tr {
+        td {
+          border-color: $tabTableSuccessTbodyTrTdBorder;
+        }
+      }
+    }
+  }
+
+  &.table-results {
+    &-detailed {
+      .table-results-detailed {
+        &-amount {
+          color: $tabTableResultsDetailedAmount;
+        }
+      }
+    }
+  }
+}
+
+//// LATEST NEWS ////
+article {
+  &.news {
+    strong {
+      color: $artNewsStrong;
+    }
+  }
+  table {
+    thead {
+      tr {
+        background-color: $artTabTheadTrBg;
+        td {
+          border-color: $artTabTheadTrTdBorder;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          border-color: $artTabTbodyTrTdBorder;
+        }
+      }
+    }
+    tfoot {
+      tr {
+        background-color: $artTabTfootTrBg;
+        td {
+          border-color: $artTabTfootTrTdBorder;
+        }
+      }
+    }
+  }
+}
+
+select.news-categories {
+  color: $selNewsCategories;
+  background-color: $selNewsCategoriesBg;
+  //background-image: url('images/arrow-down.png');//
+}
+
+//////////// CONTACT ////////////
+.contact-content {
+  table {
+    span {
+      &.fa {
+        color: $conContentTabSpanFa;
+      }
+    }
+    a {
+      color: $conContentTabA;
+      &:hover {
+        color: $conContentTabAHover;
+      }
+    }
+  }
+}
+
+//// ACTIVE MARK ////
+.faq-item-active-mark {
+  border-color: $faqItemActiveMark;
+}
+
+//// FORMS ////
+.platform-form {
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='tel'],
+  input[type='number'] {
+    border-color: $platformInBorder;
+    color: $platformIn;
+    background-color: $platformInBg;
+    transition: border 0.5s;
+    &:focus {
+      color: $platformInFocus;
+      background-color: $platformInBgFocus;
+      border-color: $platformInBorderFocus;
+    }
+  }
+  select {
+    border-color: $platformInBorder;
+    color: $platformIn;
+    background-color: $platformInBg;
+    //background-image: url('images/arrow-down.png');//
+    &:focus {
+      color: $platformInFocus;
+      background-color: $platformInBgFocus;
+      border-color: $platformInBorderFocus;
+    }
+  }
+  div {
+    &.has-error {
+      input[type='text'],
+      input[type='email'],
+      input[type='password'],
+      input[type='tel'],
+      input[type='number'],
+      select {
+        color: $platformDivErrorIn;
+        background-color: $platformDivErrorInBg;
+        border-color: $platformDivErrorInBorder;
+        &:focus {
+          color: $platformDivErrorInFocus;
+          border-color: $platformDivErrorInBorderFocus;
+        }
+      }
+    }
+  }
+  a {
+    color: $platformA;
+    &:hover {
+      color: $platformAHover;
+    }
+  }
+  &-profile {
+    .btn {
+      @include screen_max_w_1000 {
+        width: inherit;
+      }
+    }
+  }
+}
+
+.payment {
+  &-cc {
+    &-content {
+      div {
+        &.has-error {
+          input[type='text'],
+          select {
+            color: $payCcDivErrorIn;
+            background-color: $payCcDivErrorInBg;
+            border-color: $payCcDivErrorInBorder;
+            &:focus {
+              color: $payCcDivErrorInFocus;
+              border-color: $payCcDivErrorInBorderFocus;
+            }
+          }
+        }
+      }
+      input[type='text'],
+      select {
+        &:focus {
+          color: $payCcInFocus;
+          background-color: $payCcInBgFocus;
+          border-color: $payCcInBorderFocus;
+        }
+      }
+    }
+  }
+
+  &-mobile {
+    &-label {
+      color: $payMobileLabel;
+    }
+  }
+
+  &-nav {
+    &-title {
+      color: $payNavTilte;
+    }
+    ul {
+      li {
+        a {
+          color: $payNavUlA;
+          background-color: $payNavUlABg;
+          border-color: $payNavUlABorder;
+          span {
+            color: $payNavUlASpan;
+          }
+        }
+      }
+    }
+  }
+}
+
+// PAYMENTS / DEPO //
+.deposit-amount {
+  border-color: $depositBorder;
+
+  &:hover {
+    border-color: $depositBorderHover;
+  }
+
+  &-gateway-currency {
+    color: $depositValueSpan;
+  }
+
+  &.platform-form {
+    border-color: $depositFormBorder;
+    &:hover {
+      border-color: $depositFormBorderHover;
+    }
+    label {
+      color: $depositFormLabel;
+    }
+  }
+
+  &-active {
+    color: $depositActive;
+    border-color: $depositActiveBorder;
+    &:hover {
+      @extend .deposit-amount-active;
+    }
+    &.platform-form {
+      @extend .deposit-amount-active;
+      &:hover {
+        @extend .deposit-amount-active;
+      }
+    }
+  }
+}
+
+#paymentTypeMobile {
+  background-color: $payTypeMobileBg;
+  border-color: $payTypeMobileBorder;
+}
+
+.cvv-info {
+  .tooltip-cloud {
+    color: $cvvInfoTooltipCloud;
+  }
+}
+
+//// DIALOGS ////
+#dialog {
+  .dialog {
+    &-title {
+      border-bottom-color: $dialogTitleBorder;
+      color: $dialogTitle;
+    }
+    &-content {
+      .btn-tertiary {
+        background-color: $dialogContentBtnTertiaryBg;
+        color: $dialogContentBtnTertiary;
+        &:hover {
+          background-color: $dialogContentBtnTertiaryBgHover;
+        }
+      }
+      a {
+        color: $dialogContentA;
+        &:hover {
+          color: $dialogContentAHover;
+        }
+        &.btn-primary {
+          color: $dialogContentABtnPrimary;
+          background-color: $dialogContentABtnPrimaryBg;
+          &:hover {
+            color: $dialogContentABtnPrimaryHover;
+            background-color: $dialogContentABgBtnPrimaryHover;
+          }
+        }
+      }
+    }
+  }
+  &-wrapper {
+    //background: rgba(41, 41, 41, 0.6);
+  }
+}
+
+.dialog-close,
+.widget-ticket-mobile-close .dialog-close {
+  border-color: $dialogCloseBorder;
+  &:hover {
+    background-color: $dialogCloseBgHover;
+  }
+}
+
+//////////// TABLES ////////////
+th {
+  &.tablesorter {
+    &-headerUnSorted {
+      //background-image: url('images/arrow_none.png');//
+    }
+    &-header {
+      &:hover {
+        background-color: $thSorterHeaderBgHover;
+      }
+    }
+    &-headerAsc {
+      //background-image: url('images/arrow_up.png');//
+    }
+    &-headerDesc {
+      //background-image: url('images/arrow_down.png');//
+    }
+  }
+}
+
+//// FEATURED ////
+.widget {
+  &-featured {
+    &-wrapper {
+      &-small {
+        background-color: $widFeaWrapSmallBg;
+        .widget-featured {
+          &-content {
+            background-color: $widFeaWrapSmallContentBg;
+            h2 {
+              color: $widFeaWrapSmallContentH2;
+            }
+          }
+          &-amount {
+            color: $widFeaWrapSmallAmount;
+            @include screen_max_w_400 {
+              margin-left: 10px !important;
+            }
+          }
+          &-info-container {
+            color: $widFeaWrapSmallInfoContainer;
+          }
+        }
+      }
+    }
+    &-content {
+      background-color: $widFeaContentBg;
+    }
+    &-countdown {
+      time {
+        color: $widFeaCountdownTime;
+      }
+    }
+  }
+
+  //// LATEST NEWS ////
+  &-latest {
+    &-news {
+      &-title {
+        color: $widLatestNewsTitle;
+      }
+    }
+  }
+
+  //// LIST ////
+  &-list {
+    &-content {
+      .widget-list-title {
+        color: $widListContentTitle;
+      }
+      &-grid {
+        .widget-list-title {
+          color: $widListContentGridTitle;
+        }
+      }
+      .widget-list-nolottery {
+        color: $widListContentNolottery;
+      }
+    }
+    &-ticket {
+      .widget-list-hamount {
+        color: $widListTicketHamount;
+        border-bottom-color: $widListTicketHamountBorder;
+      }
+      &-countdown {
+        color: $widListTicketCount;
+        &-before {
+          color: $widListTicketCountBefore;
+        }
+      }
+    }
+    &-pending-text {
+      color: $widPendingText;
+    }
+
+    // type 2 //
+    &-type2 {
+      .widget-list-pending-text {
+        color: $widType2Text;
+      }
+    }
+  }
+
+  //// PLAY (TICKET) ////
+  &-ticket {
+    &-icon {
+      &-ok {
+        color: $widTicketIconOk;
+      }
+    }
+    &-entity {
+      color: $widTicketEntity;
+      &-mobile {
+        border-color: $widTicketEntityMobileBorder;
+        a.widget-ticket-entity-newline,
+        a.widget-ticket-entity-editline {
+          color: $widTicketEntityMobileALine;
+        }
+      }
+
+      &.checked {
+        border: 1px solid $widTicketEntityCheckedBorder;
+        .widget-ticket-numbers {
+          > a {
+            color: $widTicketEntityCheckedNumA;
+            &.checked {
+              &:hover {
+                color: $widTicketEntityCheckedNumACheckedHover;
+                border-color: $widTicketEntityCheckedNumACheckedBorderHover;
+                background-color: $widTicketEntityCheckedNumACheckedBgHover;
+              }
+            }
+            &:hover {
+              color: $widTicketEntityCheckedNumAHover;
+            }
+          }
+        }
+        .widget-ticket-bnumbers {
+          > a {
+            color: $widTicketEntityCheckedBNumA;
+            &.checked {
+              &:hover {
+                color: $widTicketEntityCheckedBNumACheckedHover;
+                border-color: $widTicketEntityCheckedBNumACheckedHoverBorder;
+                background-color: $widTicketEntityCheckedBNumACheckedHoverBg;
+              }
+            }
+            &:hover {
+              color: $widTicketEntityCheckedBNumAHover;
+            }
+          }
+        }
+        &:hover {
+          .widget-ticket-numbers {
+            color: $widTicketEntityCheckedHoverNum;
+            > a {
+              &.checked {
+                color: $widTicketEntityCheckedHoverNumAChecked;
+              }
+            }
+          }
+          .widget-ticket-bnumbers {
+            color: $widTicketEntityCheckedHoverBNum;
+            > a {
+              &.checked {
+                color: $widTicketEntityCheckedHoverBNumAChecked;
+              }
+            }
+          }
+        }
+      }
+
+      .widget-ticket-numbers {
+        &.checked {
+          > a {
+            &.checked {
+              &:hover {
+                color: $widTicketEntityNumCheckedACheHover;
+                border-color: $widTicketEntityNumCheckedACheHoverBorder;
+                background-color: $widTicketEntityNumCheckedACheHoverBg;
+              }
+            }
+            &:hover {
+              color: $widTicketEntityNumCheckedAHover;
+            }
+          }
+        }
+        > a {
+          &.checked {
+            color: $widTicketEntityNumAChecked;
+          }
+        }
+      }
+
+      .widget-ticket-bnumbers {
+        &.checked {
+          > a {
+            &.checked {
+              &:hover {
+                color: $widTicketEntityBNumCheckedACheHover;
+                border-color: $widTicketEntityBNumCheckedACheHoverBorder;
+                background-color: $widTicketEntityBNumCheckedACheHoverBg;
+              }
+            }
+            &:hover {
+              color: $widTicketEntityBNumCheckedAHover;
+            }
+          }
+        }
+        > a {
+          &.checked {
+            color: $widTicketEntityBNumAChecked;
+          }
+        }
+      }
+
+      &:hover {
+        .widget-ticket-numbers {
+          color: $widTicketEntityHoverNum;
+          > a {
+            &:hover {
+              color: $widTicketEntityHoverNumAHover;
+            }
+          }
+          &.checked {
+            color: $widTicketEntityHoverNumChe;
+            > a {
+              &.checked {
+                color: $widTicketEntityHoverNumCheAChe;
+              }
+            }
+          }
+        }
+        .widget-ticket-bnumbers {
+          color: $widTicketEntityHoverBNum;
+          > a {
+            &:hover {
+              color: $widTicketEntityHoverBNumAHover;
+            }
+          }
+          &.checked {
+            color: $widTicketEntityHoverBNumChe;
+            > a {
+              &.checked {
+                color: $widTicketEntityHoverBNumCheAChe;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &-numbers {
+      > a {
+        &:hover {
+          border-color: $widTicketNumAHoverBorder;
+          background-color: $widTicketNumAHoverBg;
+        }
+        &.checked {
+          border-color: $widTicketNumACheBorder;
+          background-color: $widTicketNumACheBg;
+          &:hover {
+            border-color: $widTicketNumACheHoverBorder;
+            background-color: $widTicketNumACheHoverBg;
+          }
+        }
+      }
+    }
+
+    &-bnumbers {
+      > a {
+        &:hover {
+          border-color: $widTicketBNumAHoverBorder;
+          background-color: $widTicketBNumAHoverBg;
+        }
+        &.checked {
+          border-color: $widTicketBNumACheBorder;
+          background-color: $widTicketBNumACheBg;
+          &:hover {
+            border-color: $widTicketBNumACheHoverBorder;
+            background-color: $widTicketBNumACheHoverBg;
+          }
+        }
+      }
+    }
+
+    &-summary {
+      &-content {
+        &-header {
+          color: $widTicketSumContentHeader;
+        }
+        &-total {
+          &-value {
+            color: $widTicketSumContentTotalValue;
+          }
+        }
+      }
+      &-button {
+        background-color: $widTicketSumButtonBg;
+        &:hover {
+          background-color: $widTicketSumButtonHoverBg;
+        }
+      }
+    }
+  }
+
+  .small {
+    &-widget {
+      &-draw {
+        background-color: $widSmallDrawBg;
+      }
+    }
+  }
+}
+
+.play-lottery-jackpot-amount {
+  color: $playLotteryJackpotAmount;
+}
+
+//// RESULTS ////
+
+.results {
+  &-short {
+    &-content {
+      a {
+        background-color: $resShortContentABg;
+      }
+      select {
+        color: $resShortContentSelect;
+        background-color: $resShortContentSelectBg;
+        //background-image: url('images/arrow-down.png');//
+      }
+    }
+    &-jackpot {
+      color: $resShortJackpot;
+      span {
+        color: $resShortJackpotSpan;
+      }
+    }
+  }
+  &-mobile {
+    &-sort {
+      color: $resMobileSort;
+      //background-image: ('images/arrow-down.png');//
+    }
+  }
+  &-payout {
+    &-amount {
+      color: $resPayoutAmount;
+    }
+  }
+  &-detailed-multiplier-wrapper,
+  &-short-winnings-table-wrapper {
+    select {
+      color: $resShortContentSelect;
+      background-color: $resShortContentSelectBg;
+    }
+  }
+}
+
+//// NAVIGATION/FILTERS ////
+//// MY ACCOUNT ////
+.myaccount {
+  &-mobile {
+    &-nav {
+      color: $myaccMobileNav;
+      background-color: $myaccMobileNavBg;
+      //background-image: url('images/arrow-down.png');//
+    }
+  }
+  &-filter {
+    &-select {
+      color: $myaccFilterSelect;
+      background-color: $myaccFilterSelectBg;
+      //background-image: url('images/arrow-down.png');//
+    }
+  }
+  &-tickets {
+    &-mobile {
+      &-sort {
+        color: $myaccTicketsMobileSort;
+        //background-image: ('images/arrow-down.png');//
+      }
+    }
+  }
+  &-content {
+    nav {
+      &.pagination {
+        background-color: $myaccContentNavPagBg;
+      }
+    }
+  }
+  &-balance {
+    color: $myaccBalance;
+    span {
+      color: $myaccBalanceSpan;
+    }
+  }
+  &-transactions {
+    &-label {
+      color: $myaccTransLabel;
+    }
+    &-value {
+      color: $myaccTransValue;
+    }
+  }
+  &-personal {
+    &-group {
+      text-align: right;
+      @include screen_max_w_1000 {
+        text-align: center;
+      }
+    }
+    &-link {
+      padding-left: 30px;
+      display: inline-block;
+      > a {
+        color: $myaccPersonalLinkA;
+      }
+      @include screen_max_w_1000 {
+        padding-left: 0px;
+        padding-top: 5px;
+        display: block;
+      }
+    }
+  }
+}
+
+#faq {
+  &-mobile {
+    &-cats {
+      color: $faqMobileCats;
+      background-color: $faqMobileCatsBg;
+      //background-image: url('images/arrow-down.png');//
+    }
+  }
+}
+
+.info {
+  &-mobile {
+    &-sort {
+      color: $infoMobileSort;
+      //background-image: ('images/arrow-down.png');//
+    }
+  }
+}
+
+//// ORDER ////
+.order-lottery-quick-pick-container {
+  color: $orderLotteryQuickPickContainer;
+}
+
+//// TRANSACTION/TICKET DETAILS ////
+tr.transaction-shade td:nth-of-type(2) {
+  color: $trTransShadeTdNOT2;
+}
+
+//// SUCCESS (THANK YOU PAGE) ////
+.success-content {
+  border-color: $successContent;
+}
+
+////////// TICKETS ////////////
+.tickets {
+  &-date {
+    color: $ticketsDate;
+  }
+  &-lines {
+    strong {
+      color: $ticketsLinesStrong;
+    }
+  }
+}
+
+.ticket {
+  &-line {
+    &-number {
+      background-color: $ticketLineNumBg;
+      color: $ticketLineNum;
+    }
+    &-bnumber {
+      background-color: $ticketLineBNumBg;
+      color: $ticketLineBNum;
+    }
+  }
+  &-prize {
+    color: $ticketPrice;
+  }
+}
+
+//// SMALL WIDGETS ////
+.small {
+  &-widget {
+    &-title {
+      color: $smallWidTitle;
+      border-bottom-color: $smallWidTitleBorder;
+    }
+    &-draw {
+      &-title {
+        a {
+          color: $smallWidDrawTitleA;
+        }
+      }
+      .small-widget-draw-amount {
+        color: $smallWidDrawAmount;
+      }
+    }
+    &-results {
+      h2 {
+        a {
+          color: $smallWidResH2A;
+        }
+      }
+      .widget-div-title {
+        a {
+          color: $smallWidResH2A;
+        }
+      }
+      .ticket-line {
+        padding: 2.7px 0 20px 0;
+        border-bottom-color: $smallWidResLineBorder;
+      }
+    }
+    &-slider {
+      &-page {
+        &-active {
+          background-color: $smallWidSliderPageActiveBg;
+          color: $smallWidSliderPageActive;
+        }
+        &:hover {
+          background-color: $smallWidSliderPageActiveHover;
+        }
+        &-marked {
+          background-color: $smallWidSliderPageActiveMarked;
+        }
+      }
+      &-pager-line-fill {
+        background-color: $smallWidSliderFillBg;
+      }
+      .small-widget-slider-header {
+        color: $smallWidSliderHeader;
+      }
+    }
+    &-winners {
+      &-amount {
+        color: $smallWidWinAmount;
+      }
+      &-item {
+        &-compact {
+          border-bottom-color: $smallWidWinItemCompactBorder;
+          &-name {
+            color: $smallWidWinItemCompactName;
+          }
+          &-country {
+            background-color: $smallWidWinItemCompactCountryBg;
+          }
+          &-amount {
+            span {
+              color: $smallWidWinItemCompactAmountSpan;
+            }
+            h2 {
+              a {
+                color: $smallWidWinItemCompactAmountH2A;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-widgets {
+    &-content {
+      .small-widget-text {
+        border-color: $smallWidsContentTextBg;
+        h2 {
+          &.small-widget-title {
+            border-color: $smallWidsContentTextH2TitleBg;
+          }
+        }
+        h1 {
+          &.small-widget-title {
+            border-color: $smallWidsContentTextH2TitleBg;
+          }
+        }
+      }
+    }
+  }
+  &-purchase {
+    background-color: $smallPurchaseBg !important;
+    &:hover {
+      background-color: $smallPurchaseHoverBg !important;
+    }
+  }
+}
+
+.transactions {
+  &-amount {
+    color: $transactionsAmount;
+  }
+  &-status-1 {
+    color: $transactionsStatusWin;
+  }
+}
+
+#text-after-results,
+.fa.fa-check-circle.keno {
+  color: #5bb560;
+}
+
+.keno.platform-alert.platform-alert-success {
+  background-color: #5bb56010;
+  border: 1px solid #5bb560;
+}

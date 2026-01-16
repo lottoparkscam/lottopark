@@ -1,0 +1,953 @@
+.content-area {
+  background: url('../../images/MiniGames/gg-world-tic-tac-boo/bg.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.content-box {
+  border-radius: 10px !important;
+  padding: 50px 20px 0 20px !important;
+  @media (max-width: 600px) {
+    padding: 50px 20px !important;
+  }
+  background: #010e2b !important;
+}
+
+.miniGameWindow {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+
+  .gameMain {
+    width: 100%;
+    transition: .2s;
+    position: relative;
+    max-height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 800px) {
+      max-height: unset;
+    }
+
+    .gameOverlay {
+      position: absolute;
+      z-index: 99;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#010b20, .75);
+      border-radius: 10px;
+      display: none;
+      opacity: 0;
+      transition: .3s ease-in-out;
+
+      &.visible {
+        display: block;
+        opacity: 1;
+      }
+
+      .gameOverlayContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        .gameBoxMessage {
+          max-width: 423px;
+          width: 100%;
+          background-color: #2e5984;
+          border-radius: 10px;
+          padding: 0 30px 20px;
+          transition: .2s ease-in-out;
+          position: relative;
+          @media (max-width: 600px) {
+            padding: 0;
+            margin: 0 20px;
+          }
+          display: flex;
+          align-items: center;
+
+          img {
+            animation: ghostFloating 5s infinite ease-in-out;
+            margin-top: -12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media (max-width: 600px) {
+              margin-top: -42px;
+              margin-bottom: -32px;
+              transform: scale(.6);
+              animation: ghostFloatingScaled 5s infinite ease-in-out;
+            }
+          }
+
+          @keyframes ghostFloating {
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+
+          @keyframes ghostFloatingScaled {
+            50% {
+              transform: translateY(-10px) scale(.6);
+            }
+          }
+
+          .gameBoxMessageContent {
+            width: 100%;
+            text-align: center;
+            padding-left: 45px;
+            padding-top: 15px;
+
+            @media (max-width: 600px) {
+              margin-right: 19px;
+              padding: 20px 0;
+            }
+          }
+
+          .gameBoxMessageTitle {
+            font-size: 26px;
+            color: #fff;
+            padding-bottom: 20px;
+            transition: .2s ease-in-out;
+
+            &.pt {
+              padding-top: 20px;
+            }
+
+            @media (max-width: 600px) {
+              font-size: 16px;
+
+              &.bigText {
+                font-size: 22px;
+              }
+            }
+          }
+        }
+
+        .gameButtonPlay {
+          background-color: #fc720c;
+          color: #fff;
+          padding: 23px 34px;
+          display: flex;
+          width: fit-content;
+          margin: 0 auto;
+          font-size: 16px;
+          border-radius: 10px;
+          justify-content: center;
+          text-decoration: none;
+          transition: .2s ease-in-out;
+
+          @media (max-width: 600px) {
+            padding: 17px 20px;
+          }
+
+          &:hover {
+            background-color: #eb6301;
+          }
+        }
+      }
+    }
+
+    .revealAllButton {
+      position: absolute;
+      z-index: 99;
+      top: 20px;
+      left: 20px;
+      height: 47px;
+      background: #fc720c;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      justify-content: center;
+      transition: .2s ease-in-out;
+
+      img {
+        transition: .2s;
+        display: none;
+        width: 24px;
+      }
+
+      @media (max-width: 430px) {
+        img {
+          display: block;
+        }
+        span {
+          transition: .2s;
+          display: none;
+        }
+      }
+
+      &:hover {
+        filter: brightness(120%);
+      }
+    }
+
+    .music {
+      position: absolute;
+      z-index: 99;
+      top: 20px;
+      right: 20px;
+      width: 47px;
+      height: 47px;
+      background: #010e2b;
+      border-radius: 10px;
+
+      button {
+        width: 47px;
+        height: 47px;
+        border: none;
+        outline: none;
+        background: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        transition: .2s ease-in-out;
+
+        &:hover {
+          filter: brightness(120%);
+        }
+      }
+    }
+
+    .gameMainIcon {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      top: -79px;
+      transition: .2s ease-in-out;
+      transform: translateX(-50%) scale(.75);
+
+      @media (min-width: 600px) {
+        transform: translateX(-50%);
+        top: -55px;
+      }
+    }
+
+    .gameMessage {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      background: #3A3D44;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 250px;
+      width: 100%;
+      bottom: 94px;
+      transition: .35s;
+      text-align: center;
+
+      i {
+        margin-right: 5px;
+      }
+
+      &.active {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    @media (min-width: 600px) {
+      height: 371px;
+      padding-top: 155px;
+      padding-bottom: 30px;
+    }
+
+    background: url('../../images/MiniGames/gg-world-tic-tac-boo/bg.jpg') 50% -95px no-repeat;
+    background-size: 200%;
+    @media (min-width: 600px) {
+      background: url('../../images/MiniGames/gg-world-tic-tac-boo/bg.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    border-radius: 10px;
+    padding-top: 20px;
+
+    .gameBoard {
+      width: 381px;
+      height: 381px;
+      background: url('../../images/MiniGames/gg-world-tic-tac-boo/game-board.png') no-repeat;
+      position: relative;
+      transition: .2s ease-in-out;
+      transform: scale(.75);
+      margin: 60px auto 0;
+      transform-origin: center center;
+      z-index: 98;
+
+      @media (min-width: 600px) {
+        left: 0;
+        transform: none;
+        margin-bottom: 25px;
+        margin: 0 auto;
+      }
+
+      .lineLayer {
+        position: absolute;
+        width: 100%;
+        height: 381px;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .line {
+          position: absolute;
+          width: 35px;
+          height: 100%;
+          filter: blur(15px);
+          z-index: 1;
+          transition: .3s ease-in-out;
+          opacity: 0;
+          animation: drawLine 1s ease-out forwards;
+
+          &.orange {
+            background: radial-gradient(circle at center, #fe790f, #fe790f, #fe790f);
+          }
+
+          &.white {
+            background: radial-gradient(circle at center, #fff, #fff, #fff);
+          }
+
+          &.horizontal-1 { left: 170px; top: -128px; transform: rotate(90deg); }
+          &.horizontal-2 { left: 170px; top: 0; transform: rotate(90deg); }
+          &.horizontal-3 { left: 170px; bottom: -128px; transform: rotate(90deg); }
+
+          &.vertical-1 { left: 44px; }
+          &.vertical-2 { left: 173px; }
+          &.vertical-3 { right: 44px; }
+
+          &.diagonal-1 { top: -66px; left: 173px; height: 134%; transform: rotate(-45deg); }
+          &.diagonal-2 { top: -66px; left: 173px; height: 134%; transform: rotate(45deg); }
+        }
+
+        @keyframes drawLine {
+          0% {
+            opacity: .3;
+            filter: blur(30px);
+          }
+          50% {
+            opacity: .8;
+            filter: blur(20px);
+          }
+          100% {
+            opacity: 1;
+            filter: blur(15px);
+          }
+        }
+      }
+
+      .gameGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 27px;
+        padding: 10px 10px 10px 11px;
+        z-index: 98;
+
+        .gameGridItem {
+          width: 101px;
+          height: 101px;
+          background: url('../../images/MiniGames/gg-world-tic-tac-boo/grid-visible.png') no-repeat;
+          display: flex;
+          align-items: center;
+          z-index: 99;
+          justify-content: center;
+          position: relative;
+
+          img {
+            pointer-events: none;
+            user-select: none;
+          }
+
+          &.winLine img {
+            animation: pulseBig 2s infinite ease-in-out !important;
+          }
+
+          .itemInvisible {
+            width: 101px;
+            height: 101px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+            top: 0;
+            cursor: pointer;
+            background: url('../../images/MiniGames/gg-world-tic-tac-boo/grid-invisible.png') no-repeat;
+            transition: transform .7s ease-in-out, opacity .7s ease-in-out, filter .2s ease-in-out;
+
+            &:hover {
+              filter: brightness(125%);
+            }
+          }
+
+          &.revealed .itemInvisible {
+            animation: revealTile .8s forwards;
+          }
+
+          &.revealed img {
+            animation: fadeIn 1.1s .45s forwards;
+          }
+
+          &.revealed::after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+
+  .gameOptions {
+    background: #222d46;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .2s;
+    margin-top: 20px;
+
+    @media (min-width: 800px) {
+      background: transparent;
+      display: flex;
+      padding: 20px 0;
+      margin-top: 0;
+    }
+
+    .gameOptionsFirstRow {
+      @media (min-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .gameBoxRow {
+          order: 2;
+          max-width: 300px;
+          margin: 0 auto;
+        }
+
+        .gameOptionsSide {
+          border: none;
+          background: #222d46;
+          border-bottom: 1px solid #4b5877;
+          border-radius: 10px;
+          max-width: 100%;
+          width: 100%;
+          padding: 20px;
+          box-sizing: border-box;
+          margin: 0;
+        }
+      }
+    }
+
+    .gameMax {
+      max-width: 415px;
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 1px solid #010e2b;
+
+      &.pb-m {
+        padding-bottom: 20px;
+      }
+
+      @media (min-width: 800px) {
+        border: none;
+        background: #222d46;
+        border-bottom: 1px solid #4b5877;
+        border-radius: 10px;
+        max-width: 100% !important;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 20px !important;
+
+        .gameStake {
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      .gameRules {
+        text-align: center;
+        width: 100% !important;
+        margin: 0 auto;
+        padding: 20px;
+
+        @media (min-width: 800px) {
+          width: 70%;
+          padding: 0;
+        }
+      }
+    }
+
+    .gameStakeTrigger {
+      border-radius: 10px;
+      background: #010e2b;
+      max-width: 167px;
+      width: 100%;
+      padding: 26px 20px;
+      margin-top: 25px;
+      box-sizing: border-box;
+
+      .fa-chevron-down {
+        transition: transform .3s ease;
+        color: #fff;
+      }
+
+      &.active .fa-chevron-down {
+        transform: rotate(180deg);
+      }
+
+      @media (min-width: 800px) {
+        max-width: 100%;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+
+        span {
+          margin-left: auto;
+        }
+      }
+    }
+
+    .gameOptionsSide {
+      max-width: 415px;
+      margin: 20px auto;
+
+      @media (min-width: 800px) {
+        padding-top: 20px;
+      }
+
+      .gameBoxRow {
+        padding: 20px 0 0;
+        align-items: center;
+
+        &.gameBoxSelectSymbol {
+          max-width: 310px;
+          margin: 0 auto;
+
+          @media (max-width: 600px) {
+            padding-bottom: 20px;
+          }
+
+          .gameBoxCol {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              height: 72px;
+            }
+          }
+        }
+      }
+
+      .gameBoxSelectSide {
+        padding: 20px;
+        background: #010e2b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 134px;
+        @media (max-width: 600px) {
+          max-width: 120px;
+        }
+        width: 100%;
+        border-radius: 10px;
+        box-sizing: border-box;
+        transition: .2s ease;
+        color: #fff;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        img {
+          animation: pulse 2s infinite ease-in-out;
+        }
+
+        strong {
+          font-size: 24px;
+          padding-top: 18px;
+        }
+
+        &.gameBoxSelected {
+          border: 2px solid #FC720C;
+        }
+      }
+    }
+
+    .gameHistory {
+      padding-top: 20px;
+      transition: .2s;
+      border-top: 1px solid #010e2b;
+
+      @media (min-width: 800px) {
+        width: 50%;
+        background: #222d46;
+        border-bottom: 1px solid #4b5877;
+        border-top: none;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-left: 20px;
+      }
+
+      .desktopBalanceBox {
+        background: #fff;
+        @media (min-width: 800px) {
+          text-align: center;
+          color: #fff;
+
+          .gameBalanceAmount,
+          .gameTextSmall {
+            font-size: 25px;
+          }
+
+          .gameParameters {
+            margin-top: 5px;
+          }
+        }
+      }
+
+      @media (min-width: 800px) {
+        .gameHistoryTitle {
+          padding-top: 20px;
+        }
+      }
+
+      .gameHistoryList {
+        color: #fff;
+        margin-top: 20px;
+        padding-right: 20px;
+        max-height: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transition: .2s;
+
+        @media (min-width: 800px) {
+          max-height: 207px;
+        }
+
+        &::-webkit-scrollbar {
+          width: 12px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #97a4c0;
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: #010e2b;
+          border-radius: 10px;
+        }
+
+        .gameHistoryItem {
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          background-color: #010e2b;
+          border: 1px solid #2e3955;
+          padding: 8px 20px;
+          margin-top: -1px;
+
+          img {
+            width: 30px;
+            height: auto;
+          }
+
+          &.opacity {
+            opacity: .6;
+          }
+
+          strong {
+            font-size: 14px;
+            padding-left: 16px;
+          }
+
+          span {
+            margin-left: auto;
+
+            @media (max-width: 440px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .gameBoxRow {
+      .gameBoxCol:nth-child(2) {
+        text-align: right;
+        color: #434b65;
+
+        @media (min-width: 800px) {
+          &.desktop {
+            display: none;
+          }
+        }
+
+        .gameTextSmall {
+          padding-bottom: 3px;
+        }
+      }
+    }
+  }
+
+  .gameTextSmall {
+    color: #fff;
+    font-size: 16px;
+
+    &.center {
+      text-align: center;
+    }
+  }
+}
+
+.gameBalanceAmount {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+}
+
+.gameParameters {
+  margin-top: 33px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.gameBoxRow {
+  display: flex;
+  width: 100%;
+
+  .gameBoxCol {
+    width: 50%;
+  }
+}
+
+.gameDesktopOnly {
+  display: none;
+  transition: .2s;
+
+  .balanceContent {
+    background: #010e2b;
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom: 1px solid #4b5877;
+  }
+
+  @media (min-width: 800px) {
+    display: inline;
+  }
+}
+
+.gameStakeMenu {
+  position: relative;
+}
+
+.gameStakeWrapper {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: max-height 0.5s ease;
+  position: absolute;
+  background: #010e2b;
+  border: 1px solid #3E4F76;
+  border-radius: 10px;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 5px;
+  padding-bottom: 17px;
+}
+
+.stake-options {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.stake-options li {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 10px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #3E4F76;
+  }
+}
+
+.stake-options li:hover {
+  background-color: #222d46;
+}
+
+.gameStakeWrapper.active  {
+  max-height: 420px;
+  width: 165px;
+  visibility: visible;
+  @media (min-width: 800px) {
+    width: 100%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes pulseBig {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes revealTile {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+    filter: blur(0);
+  }
+  50% {
+    transform: scale(1.15) rotate(0deg);
+    opacity: 1;
+    filter: blur(0);
+  }
+  70% {
+    transform: scale(0.6) rotate(0deg);
+    opacity: 1;
+    filter: blur(3px);
+  }
+  100% {
+    transform: scale(0) rotate(360deg);
+    opacity: 0;
+    filter: blur(5px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-animation {
+  animation: fadeIn .7s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  div.content-area {
+    padding: 5px 0;
+    margin-top: 10px !important;
+  }
+}
+
+.gli-container {
+  border-radius: 10px;
+  padding: 15px 30px;
+  background: #010e2b;
+}
+
+.promoCode {
+  border-top: 1px solid #d0d5df;
+  margin-top: 25px;
+
+  .promoCodeInputGroup {
+    position: relative;
+
+    .promoCodeInput {
+      border: 1px solid #d0d5df;
+      border-radius: 10px;
+      background: #fff;
+      width: 100%;
+      padding: 20px 105px 20px 20px;
+      margin-top: 25px;
+      box-sizing: border-box;
+      transition: .2s ease-in-out;
+      font-family: "Rubik", sans-serif !important;
+
+      &:focus-visible {
+        border: 1px solid #aaabb1;
+        outline: none;
+      }
+    }
+
+    button {
+      position: absolute;
+      background: #9599a7;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 10px 20px;
+      top: 36px;
+      right: 10px;
+      transition: .2s ease-in-out;
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+
+      &:hover {
+        filter: brightness(120%);
+      }
+    }
+  }
+}
+
+.freeSpins {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.bonusBalance {
+  color: #667AA5 !important;
+}
+
+.fromBonusBalance {
+  background: #667AA5 !important;
+}

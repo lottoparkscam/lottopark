@@ -1,0 +1,22 @@
+@media screen and (max-width: 820px) {
+  /**** LOTTERY NEXT DRAW *****/
+  .widget-draw-content .pull-right,
+  .widget-draw-content .pull-left {
+    float: none;
+  }
+  .widget-draw-content .pull-right {
+    margin-top: 25px;
+  }
+  .widget-draw-button {
+    float: none;
+  }
+  .widget-draw-content .mobile-clearfix {
+    display: block;
+  }
+  .widget-draw-image {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    line-height: 24px;
+  }
+}

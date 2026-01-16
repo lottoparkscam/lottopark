@@ -1,0 +1,5 @@
+location /404.html {
+	root /var/www;
+	internal;
+}
+error_page 500 502 503 504 404 /404.html;

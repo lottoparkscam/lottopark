@@ -1,0 +1,1221 @@
+/*
+Theme Name:     LottoPark Theme
+Description:    LottoPark whitelabel theme.
+Author:         WhiteLotto
+Text Domain:	lottopark-theme
+Template:		base
+Version:        1.0.0
+*/
+
+/***
+Headers - color: #424242
+Links, details primary color: #41934c
+
+Body background: #ffffff;
+Body text: #8e918c;
+
+Main area background, borders, hrs: #eaeaea;
+
+Content boxes: #ffffff;
+
+Numbers: #41934c;
+Bonus numbers: #fe7104;
+
+Input color: #747474;
+Background color: #eaeaea;
+
+Input focus color: #606060;
+Input focus background color: #ffffff;
+Input focus border color: #bbbbbb;
+
+Input error color: #f44336;
+Input error background color: #ffffff;
+Input error border color: #f44336;
+
+Input error focus color: #f44336;
+Input error focus background color: #ffffff;
+Input error focus border color: #f44336;
+
+Select arrows (user menu, language menu): #494949;
+Secondary arrows (results, filters): #7a7f85;
+
+Header details (mobile menu trigger, text) - color: #424242
+
+Details (checkout, notification count): #67bd2e;
+Quick-pick background #1: #67bd2e;
+Quick pick icon background: #356715;
+
+Quick-pick background hover: #5bb326;
+Quick-pick icon background hover: #356715;
+
+Button primary/secondary/tertiary text color: #ffffff
+Button default text color: #41934c;
+
+Button primary background: #67bd2e;
+Button secondary background: #41934c;
+Button tertiary background: #fe7104;
+Button default background: #ffffff;
+
+Button primary hover background: #398844;
+Button secondary hover background: #5bb326;
+Button tertiary hover background: #fe6803;
+Button default hover background: none;
+
+Text/Alert background OK: #4caf50;
+Text/Alert background WARNING: #f46921;
+Text/Alert background ERROR: #f44336;
+Alert background INFO: #50c1eb;
+
+
+Tooltip cloud background: rgba(34,34,34,0.85);
+Tooltip cloud text: #ffffff;
+
+Floating user-menu border: #cccccc;
+
+Main navigation border, footer border, dialog border: #e5e5e5;
+
+Lang select border: #cccccc;
+Lang select hover border: #cccccc;
+
+Categories select border: #9a9fa5;
+Categories select color: #747474;
+Categories select background: #eaeaea;
+
+Table text color: #747474;
+Table footer background: #f9f9f9;
+Table hover background: #f9f9f9;
+Table sortable header hover: #e0e0e0;
+
+Table "short lottery information" background/small widgets: #f4f4f4;
+
+FAQ/payment navigation background: #f4f4f4;
+FAQ/payment navigation border/small widget text border: #d3d3d3;
+FAQ navigation color: #424242;
+Payment navigation color: #747474;
+
+Deposit amount border: #cad0d4;
+Deposit amount hover border: #cad0d4;
+Deposit amount manual border: #eaeaea;
+Deposit amount manual hover border: #cad0d4;
+
+Deposit amount active color: #595e63;
+Deposit amount active border: #67bd2e;
+
+Deposit amount manual error (border/cloud): #f44336;
+
+Carousel arrows: #000000;
+
+Pagination background: #f4f4f4;
+
+Small slider page default: #cecece;
+Small slider page-line: #e3e3e3;
+Small winners country background: #f2f2f2;
+Small lottery info backgrounds:
+- Powerball: #ca2828;
+- Mega Millions: #224189;
+- Eurojackpot: #8e6844;
+- SuperEnalotto: #259956;
+- UK Lottery: #4599ff;
+- Euro Millions: #164888;
+- PL Lotto: #1c9eda;
+
+Icons:
+View: #41934c;
+Remove hover: #e23a0d;
+View hover: #398844;
+Refresh (replay) hover: #5bb326;
+
+Play lottery:
+Ticket entity border: #d3d0d0;
+Ticket numbers color: #41934c;
+Ticket numbers border: #cf32d4;
+
+//Dark header (not used):
+//Floating user-menu border: #545760;
+//Main navigation border: #3f424c;
+//Main background: #292d38;
+
+Mobile:
+Menu background color: #424242;
+Menu user-balance: #6cbf35;
+Menu/submenu border: #555555;
+Menu text color: #ffffff;
+Submenu background color: #484848;
+
+
+Mobile payment label: #424242;
+Mobile payment select border: #747474;
+
+***/
+
+
+/*** DEFAULTS ***/
+h1, h2, h3, h4, h5, h6, div.header-logo, div.widget-div-title
+{
+	color: #424242;
+}
+
+a
+{
+	color: #41934c;
+}
+
+/*** ADJUSTMENTS ***/
+.mobile-menu-trigger
+{
+	color: #424242;
+}
+
+span.fa-search
+{
+	color: #41934c;
+}
+
+span.fa-refresh
+{
+	color: #67bd2e;	
+}
+
+span.fa-search:hover
+{
+	color: #398844; 
+}
+
+span.fa-refresh:hover
+{
+	color: #5bb326; 
+}
+
+a.disabled span.fa-refresh
+{
+	color: #eaeaea;	
+}
+
+/*** BUTTONS ***/
+.btn
+{
+	color: #ffffff;
+}
+.btn-primary, .btn-primary:disabled:hover, .btn-primary.disabled:hover, .wpcf7-form input[type="submit"]
+{
+	background-color: #67bd2e;
+	color: #ffffff;
+}
+.btn-primary:hover, .btn-primary-hover, .wpcf7-form input[type="submit"]:hover
+{
+	color: #ffffff;
+	background-color: #5bb326;
+}
+.btn-secondary, .btn-secondary:disabled:hover, .btn-secondary.disabled:hover
+{
+	background-color: #41934c;
+	color: #ffffff;
+}
+.btn-secondary:hover, .btn-secondary-hover
+{
+	background-color: #398844;
+}
+.btn-tertiary, .btn-tertiary:disabled:hover, .btn-tertiary.disabled:hover
+{
+	background-color: #fe7104;
+	color: #ffffff;
+}
+.btn-tertiary:hover, .btn-tertiary-hover
+{
+	background-color: #fe6803;
+}
+.btn-default, .btn-default:disabled:hover, .btn-default.disabled:hover
+{
+	background-color: #ffffff;
+	color: #41934c;
+	border-color: transparent;
+}
+.btn-default:hover, .btn-default-hover
+{
+	background: none;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.login-signup-buttons-main-div-mobile 
+{
+    background-color: #eaeaea; 
+}
+
+.deposit-button-main-div-mobile {
+    background-color: #eaeaea; 
+}
+
+.platform-alert-main-div {
+    background-color: #eaeaea; 
+}
+
+/*** WPCF7 - contact form ***/
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="password"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form textarea
+{
+	color: #747474;
+	border-color: #eaeaea;
+	background-color: #eaeaea;
+}
+.wpcf7-form input[type="text"].wpcf7-not-valid,
+.wpcf7-form input[type="email"].wpcf7-not-valid,
+.wpcf7-form input[type="password"].wpcf7-not-valid,
+.wpcf7-form input[type="tel"].wpcf7-not-valid,
+.wpcf7-form textarea.wpcf7-not-valid
+{
+	color: #f44336;
+	background-color: #ffffff;
+	border-color: #f44336;
+}
+
+.wpcf7-form input[type="text"]:focus,
+.wpcf7-form input[type="email"]:focus,
+.wpcf7-form input[type="password"]:focus,
+.wpcf7-form input[type="tel"]:focus,
+.wpcf7-form textarea:focus
+{
+	color: #606060;
+	background-color: #ffffff;
+	border-color: #bbbbbb;
+}
+.wpcf7-form input[type="text"].wpcf7-not-valid:focus,
+.wpcf7-form input[type="email"].wpcf7-not-valid:focus,
+.wpcf7-form input[type="password"].wpcf7-not-valid:focus,
+.wpcf7-form input[type="tel"].wpcf7-not-valid:focus,
+.wpcf7-form textarea.wpcf7-not-valid:focus
+{
+	color: #f44336;
+	background-color: #ffffff;
+	border-color: #f44336;
+}
+
+/************* REST ********************/
+/************* MAIN BODY ***************/
+body
+{
+	background-color: #ffffff;
+	color: #8e918c;
+}
+
+/***** MAIN AREAS ***/
+div.home-widget-area
+{
+	background-color: #eaeaea;
+}
+div.content-area
+{
+	background-color: #eaeaea;
+}
+
+
+/*** HEADER - USER AREA ***/
+div.user-info div.menu-wrapper div.user-menu-content div.user-menu-item span.user-menu-item-link
+{
+	color: #424242;
+}
+
+section.user-area div.user-info div.user-info-area a > span.fa-user-circle-o
+{
+	color: #41934c;
+}
+
+section.user-area div.user-info div.user-info-area-active a > span.fa-user-circle-o
+{
+	color: #ffffff;
+}
+
+section.user-area div.user-info div.user-info-area a > span.fa-chevron-down
+{
+	color: #494949;
+}
+
+section.user-area div.user-info div.user-info-area a
+{
+	color: #424242;
+}
+
+section.user-area div.user-info div.user-info-area a > span.user-balance
+{
+	color: #41934c;
+}
+
+section.user-area div.user-info div.user-info-area-active a > span.user-balance
+{
+	color: #ffffff;
+}
+
+section.user-area div.user-info div.user-info-area-active a > span.fa-chevron-down
+{
+	color: #ffffff;
+}
+
+/*** HEADER - ORDER AREA ***/
+div.order-info > a.user-info-link
+{
+	color: #424242;
+}
+
+div.order-info div.order-info-desc span.order-info-link
+{
+	color: #67bd2e;
+}
+
+div.order-info > a.user-info-link > span.order-count
+{
+	color: #ffffff;
+	background-color: #67bd2e;
+}
+
+/* common */
+div.menu-wrapper > ul > li > a:hover
+{
+	color: #41934c;
+}
+
+section.user-area div.user-info div.user-info-area a,
+div.order-info > a.user-info-link,
+div.menu-wrapper > ul > li > a
+{
+	color: #424242;
+}
+
+div.user-info-area-active,
+header.header-dark div.user-info-area-active,
+div.user-info-area-active:hover,
+header.header-dark div.user-info-area-active:hover
+{
+	background-color: #41934c;
+	box-shadow: none;
+	border-color: #41934c;
+}
+
+/*** PRIMARY NAVIGATION ***/
+nav#primary-nav div > ul.menu > li > a
+{
+	color: #424242;
+}
+
+nav#primary-nav.nav-dark div > ul.menu > li > a
+{
+	color: #ffffff;
+}
+nav#primary-nav div > ul.menu > li > a:hover
+{
+	color: #41934c;
+}
+nav#primary-nav div > ul.menu > li.menu-item-home > a
+{
+	color: #41934c;
+}
+
+nav#primary-nav div > ul.menu > li.menu-item-mobile-highlight > a
+{
+	color: #41934c;
+}
+/*** ADJUSTMENTS ***/
+.mobile-close-area
+{
+	background-color: #424242;
+	border-bottom-color: #555555;
+}
+
+/*** FOOTER ***/
+footer div.lang-select a
+{
+	color: #424242;
+}
+
+footer div.lang-select a > span
+{
+	color: #494949;
+	font-size: 10px;
+}
+
+footer nav#footer-nav div a,
+footer nav#social-nav div a
+{
+	color: #41934c;
+}
+footer nav#social-nav div a:hover span
+{
+	border-bottom-color: #41934c;
+}
+
+/*** INFOBOX ***/
+
+div.infobox-title a
+{
+	color: #424242;
+}
+
+div.infobox-amount
+{
+	color: #67bd2e;
+}
+
+div.infobox-links a
+{
+	color: #424242;
+}
+
+div.infobox-details
+{
+	border-color: #eaeaea;
+}
+
+/*** LATEST NEWS ***/
+article.news strong
+{
+	color: #424242;
+}
+
+/*** CONTENT NAVIGATION ***/
+nav.content-nav ul li.content-nav-active a,
+nav.content-nav ul li a:hover
+{
+	background-color: #41934c;
+}
+
+select.news-categories
+{
+	color: #747474;
+	background-color: #eaeaea;
+	/*background-image: url('images/arrow-down.png');*/
+}
+
+/*** PAGINATION ***/
+nav.pagination .page-numbers
+{
+	color: #8e918c;
+}
+
+nav.pagination .page-numbers:hover
+{
+	background-color: #41934c;
+	color: #ffffff;
+}
+nav.pagination .current
+{
+	background-color: #41934c;
+	color: #ffffff;
+}
+
+/************ TABLES ***********/
+table.table
+{
+	color: #747474;
+}
+
+table.table tbody tr td
+{
+	border-color: #eaeaea;
+
+}
+article table thead tr td, article table tbody tr td, article table tfoot tr td
+{
+	border-color: #eaeaea;
+}
+table.table thead tr, article table thead tr
+{
+	background-color: #eaeaea;
+}
+
+table.table tfoot tr,
+article table tfoot tr
+{
+	background-color: #f9f9f9;
+}
+table.table-hover tbody tr:hover td
+{
+	background-color: #f9f9f9;
+}
+
+/********* TICKETS ************/
+.ticket-line-number
+{
+	background-color: #41934c;
+}
+.ticket-line-bnumber
+{
+	background-color: #fe7104;
+}
+
+/*********** CONTACT ************/
+.contact-content table span.fa
+{
+	color: #41934c;
+}
+
+/*** FAQ ***/
+span.faq-toggle-plus
+{
+	border-color: #41934c;
+}
+section.faq nav.faq-nav
+{
+	background-color: #f4f4f4;
+	color: #424242;
+	border-color: #d3d3d3;
+}
+
+section.faq nav.faq-nav a
+{
+	color: #424242;
+}
+
+section.faq nav.faq-nav ol li
+{
+	border-color: #d3d3d3;
+}
+
+section.faq div.faq-content-answers
+{
+	border-color: #d3d3d3;
+}
+
+section.faq h3
+{
+	border-color: #d3d3d3;
+}
+div.content-box section.faq .faq-answer
+{
+	border-bottom-color: #d3d3d3;
+}
+
+/**** ACTIVE MARK ***/
+.faq-item-active-mark
+{
+	border-color: #d3d3d3;
+}
+
+/*** FORMS ***/
+.platform-form input[type="text"],
+.platform-form input[type="email"],
+.platform-form input[type="password"],
+.platform-form input[type="tel"],
+.platform-form input[type="number"]
+{
+	border-color: #eaeaea;
+	color: #747474;
+	background-color: #eaeaea;
+	transition: border 0.5s;
+}
+.platform-form select
+{
+	border-color: #eaeaea;
+	color: #747474;
+	background-color: #eaeaea;
+	/*background-image: url('images/arrow-down.png');*/
+}
+
+.platform-form div.has-error input[type="text"],
+.platform-form div.has-error input[type="email"],
+.platform-form div.has-error input[type="password"],
+.platform-form div.has-error input[type="tel"],
+.platform-form div.has-error input[type="number"],
+.platform-form div.has-error select,
+.payment-cc-content div.has-error input[type="text"],
+.payment-cc-content div.has-error select
+{
+	color: #f44336;
+	background-color: #ffffff;
+	border-color: #f44336;
+}
+
+.platform-form input[type="text"]:focus,
+.platform-form input[type="email"]:focus,
+.platform-form input[type="password"]:focus,
+.platform-form input[type="tel"]:focus,
+.platform-form input[type="number"]:focus,
+.payment-cc-content input[type="text"]:focus,
+.platform-form select:focus,
+.payment-cc-content select:focus
+{
+	color: #606060;
+	background-color: #ffffff;
+	border-color: #bbbbbb;
+}
+
+
+.platform-form div.has-error input[type="text"]:focus,
+.platform-form div.has-error input[type="email"]:focus,
+.platform-form div.has-error input[type="password"]:focus,
+.platform-form div.has-error input[type="tel"]:focus,
+.platform-form div.has-error input[type="number"]:focus,
+.platform-form div.has-error select:focus,
+.payment-cc-content div.has-error input[type="text"]:focus
+{
+	color: #f44336;
+	border-color: #f44336;
+}
+
+/* PAYMENTS / DEPO */
+.deposit-amount.platform-form
+{
+	border-color: #eaeaea;
+}
+
+.deposit-amount.platform-form label
+{
+	color: #8e918c;
+}
+.deposit-amount.platform-form:hover
+{
+	border-color: #eaeaea;
+}
+.deposit-amount-active, .deposit-amount-active:hover,
+.deposit-amount-active.platform-form, .deposit-amount-active.platform-form:hover
+{
+	color: #595e63;
+	border-color: #67bd2e;
+}
+.payment-mobile-label
+{
+	color: #424242;
+}
+
+#paymentTypeMobile
+{
+	background-color: #ffffff;
+	border-color: #747474;
+}
+
+.payment-nav-title
+{
+	color: #424242;
+}
+
+.cvv-info .tooltip-cloud
+{
+	color: #8e918c;
+}
+.payment-nav ul li a
+{
+	color: #747474;
+	background-color: #f4f4f4;
+	border-color: #d3d3d3;
+}
+.payment-nav ul li a span
+{
+	color: #41934c;
+}
+
+/*** DIALOGS ***/
+#dialog .dialog-title
+{
+	border-bottom-color: #e5e5e5;
+	color: #424242;
+}
+.dialog-close, .widget-ticket-mobile-close .dialog-close
+{
+	border-color: #424242;
+}
+.dialog-close span, .widget-ticket-mobile-close .dialog-close span
+{
+	background-image: url('images/dialog_close.png');
+}
+.dialog-close:hover, .widget-ticket-mobile-close .dialog-close:hover
+{
+	background-color: #424242;
+}
+
+/************ TABLES ***********/
+th.tablesorter-headerUnSorted
+{
+	/*background-image: url('images/arrow_none.png');*/
+}
+
+th.tablesorter-header:hover
+{
+	background-color: #e0e0e0;
+}
+th.tablesorter-headerAsc
+{
+	/*background-image: url('images/arrow_up.png');*/
+}
+th.tablesorter-headerDesc
+{
+	/*background-image: url('images/arrow_down.png');*/
+}
+
+/**** FEATURED ****/
+.widget-featured-wrapper-small .widget-featured-content
+{
+	background-color: #41934c;
+}
+
+/*** LATEST NEWS ****/
+.widget-latest-news-title
+{
+	color: #424242;
+}
+
+/*** LIST ***/
+.widget-list-content .widget-list-title,
+.widget-list-content-grid .widget-list-title
+{
+	color: #424242;
+}
+.widget-list-ticket .widget-list-hamount
+{
+	color: #67bd2e;
+	border-bottom-color: #eaeaea;
+}
+.widget-list-pending-text
+{
+	color: #424242;
+}
+.widget-list-ticket-countdown
+{
+	color: #424242;
+}
+.widget-list-ticket-countdown-before
+{
+	color: #8e918c;
+}
+
+/* type 2 */
+.widget-list-type2 .widget-list-pending-text
+{
+	color: #8e918c;
+}
+
+/* common */
+.widget-list-content .widget-list-nolottery,
+.widget-news-nonews
+{
+	color: #41934c;
+}
+
+/*** PLAY (TICKET) ***/
+
+.widget-ticket-entity
+{
+	color: #747474;
+}
+
+.widget-ticket-entity-mobile
+{
+	border-color: #d3d3d3;
+}
+
+.widget-ticket-entity-mobile a.widget-ticket-entity-newline,
+.widget-ticket-entity-mobile a.widget-ticket-entity-editline
+{
+	color: #747474;
+}
+
+.widget-ticket-numbers > a:hover,
+.widget-ticket-numbers > a.checked,
+.widget-ticket-numbers > a.checked:hover,
+.widget-ticket-entity.checked .widget-ticket-numbers > a.checked:hover,
+.widget-ticket-entity .widget-ticket-numbers.checked > a.checked:hover
+{
+	border-color: #41934c;
+	background-color: #41934c;
+}
+
+.widget-ticket-entity:hover .widget-ticket-numbers,
+.widget-ticket-entity:hover .widget-ticket-bnumbers,
+.widget-ticket-entity.checked .widget-ticket-numbers > a,
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a
+{
+	color: #747474;
+}
+
+.widget-ticket-bnumbers > a:hover,
+.widget-ticket-bnumbers > a.checked,
+.widget-ticket-bnumbers > a.checked:hover,
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a.checked:hover,
+.widget-ticket-entity .widget-ticket-bnumbers.checked > a.checked:hover
+{
+	border-color: #fe7104;
+	background-color: #fe7104;
+}
+
+.widget-ticket-entity:hover .widget-ticket-numbers > a:hover,
+.widget-ticket-entity .widget-ticket-numbers > a.checked,
+.widget-ticket-entity.checked:hover .widget-ticket-numbers > a.checked,
+.widget-ticket-entity:hover .widget-ticket-numbers.checked > a.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers > a:hover,
+.widget-ticket-entity .widget-ticket-bnumbers > a.checked,
+.widget-ticket-entity.checked:hover .widget-ticket-bnumbers > a.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers.checked > a.checked
+{
+	color: #ffffff;
+}
+
+.widget-ticket-entity.checked:hover .widget-ticket-numbers,
+.widget-ticket-entity.checked:hover .widget-ticket-bnumbers,
+.widget-ticket-entity:hover .widget-ticket-numbers.checked,
+.widget-ticket-entity:hover .widget-ticket-bnumbers.checked
+{
+	color: #747474;
+}
+
+.widget-ticket-entity.checked .widget-ticket-numbers > a:hover,
+.widget-ticket-entity .widget-ticket-numbers.checked > a:hover
+{
+	color: inherit;
+}
+
+.widget-ticket-entity.checked .widget-ticket-bnumbers > a:hover,
+.widget-ticket-entity .widget-ticket-bnumbers.checked > a:hover
+{
+	color: inherit;
+}
+
+
+.widget-ticket-summary-content-header
+{
+	color: #747474;
+}
+
+.widget-ticket-summary-content-total-value
+{
+	color: #747474;
+}
+
+
+.play-lottery-jackpot-amount
+{
+	color: #67bd2e;
+}
+
+/*** RESULTS ***/
+
+
+.results-short-content a
+{
+	background-color: #eaeaea;
+}
+
+.results-short-jackpot
+{
+	color: #424242;
+}
+.results-short-jackpot span
+{
+	color: #67bd2e;
+}
+
+/*** NAVIGATION/FILTERS ***/
+.results-short-content select,
+.myaccount-mobile-nav,
+.myaccount-filter-select,
+.mobile-language-area select,
+#faq-mobile-cats,
+.results-detailed-multiplier-wrapper select,
+.results-short-winnings-table-wrapper select
+{
+	color: #747474;
+	background-color: #eaeaea;
+	/*background-image: url('images/arrow-down.png');*/
+}
+
+.myaccount-tickets-mobile-sort,
+.results-mobile-sort,
+.info-mobile-sort
+{
+	color: #424242;
+	/*background-image: ('images/arrow-down.png');*/
+}
+
+/*** LOTTERY INFORMATION ***/
+
+table.table-short tr th
+{
+	color: #424242;
+}
+
+table.table-short tr td .table-short-label
+{
+	color: #424242;
+}
+
+table.table-short tbody tr td,
+table.table-short thead tr th
+{
+	border-left-color: #ffffff;
+	border-right-color: #ffffff;
+}
+
+table.table-short thead tr 
+{
+	background-color: #f4f4f4;
+}
+table.table-short tbody tr
+{
+	background-color: #f4f4f4;
+}
+table.table-short tr td span.fa
+{
+	color: #8e918c;
+}
+
+table.table-info-detailed tbody td
+{
+	color: #747474;
+}
+
+/*** MY ACCOUNT ***/
+
+div.account-tickets, div.header-transaction, div.header-withdrawal
+{
+	color: #424242;
+}
+.myaccount-content nav.pagination
+{
+	background-color: #efefef;
+}
+.myaccount-balance
+{
+	color: #424242;
+}
+
+/*** ORDER ***/
+
+.order-lottery-quick-pick-container
+{
+	color: #747474;
+}
+table.table-order tbody tr:nth-of-type(2n+1) td
+{
+	border-top-color: #eaeaea;
+}
+table.table-order
+{
+	border-bottom-color: #eaeaea;
+}
+
+/*** TRANSACTION/TICKET DETAILS ***/
+tr.transaction-shade td:nth-of-type(2)
+{
+	color: #747474;
+}
+
+table.table-payment tfoot tr td:last-of-type
+{
+	background-color: transparent;
+}
+table.table-payment tfoot tr
+{
+	background-color: transparent;
+}
+table.table-payment tbody tr:first-of-type td
+{
+	border-top-color: #eaeaea;
+}
+table.table-payment tbody tr:hover td
+{
+	background-color: transparent;
+}
+
+/*** SUCCESS (THANK YOU PAGE) ***/
+.success-content
+{
+	border-color: #eaeaea;
+}
+table.table-success tbody tr td
+{
+	border-color: #eaeaea;
+}
+.tickets-date
+{
+	color: #8e918c;
+}
+
+/*** MY ACCOUNT ***/
+.myaccount-transactions-label
+{
+	color: #747474;
+}
+.myaccount-transactions-value
+{
+	color: #747474;
+}
+
+.tickets-lines strong
+{
+	color: #747474;
+}
+
+.ticket-prize
+{
+	color: #747474;
+}
+
+
+/**** SMALL WIDGETS ****/
+.small-widget-title
+{
+	color: #424242;
+	border-bottom-color: #eaeaea;
+}
+
+.widget .small-widget-draw
+{
+	background-color: #f4f4f4;
+}
+
+.small-widget-draw-title a
+{
+	color: #424242;
+}
+.small-widget-draw .small-widget-draw-amount
+{
+	color: #67bd2e;
+}
+
+.small-widget-results h2 a, .small-widget-results .widget-div-title a
+{
+	color: #424242;
+}
+
+.small-widget-results .ticket-line
+{
+	border-bottom-color: #f4f4f4;
+}
+
+.small-widget-slider-page-active,
+.small-widget-slider-page:hover,
+.small-widget-slider-page-marked
+{
+	background-color: #41934c;
+}
+
+.small-widget-slider-pager-line-fill
+{
+	background-color: #41934c;
+}
+
+.small-widget-slider .small-widget-slider-header
+{
+	color: #424242;
+}
+
+.small-widget-winners-amount
+{
+	color: #41934c;
+}
+.small-widget-winners-item-compact-name
+{
+	color: #424242;
+}
+.small-widget-winners-item-compact-country
+{
+	background-color: #f2f2f2;
+}
+
+.small-widget-winners-item-compact-amount span
+{
+	color: #67bd2e;
+}
+
+.small-widget-winners-item-compact-amount h2 a
+{
+	color: #424242;
+}
+
+.small-widget-winners-item-compact
+{
+	border-bottom-color: #f4f4f4;
+}
+
+.small-widgets-content .small-widget-text
+{
+	border-color: #d3d3d3;
+}
+
+
+.small-widgets-content .small-widget-text h2.small-widget-title,
+.small-widgets-content .small-widget-text h1.small-widget-title
+{
+	border-color: #d3d3d3;
+}
+
+@media screen and (max-width: 1000px)
+{
+	/*** PRIMARY NAVIGATION ***/
+
+	nav#primary-nav > div
+	{
+		background-color: #424242;
+	}
+	nav#primary-nav div > ul.menu
+	{
+		background-color: #424242;
+	}
+	nav#primary-nav div > ul.menu > li > div.mobile-user-menu-container
+	{
+		background-color: #484848;
+		border-top-color: #555555;
+		border-bottom-color: #555555;
+	}
+	nav#primary-nav div > ul.menu > li > div > ul > li > a:hover
+	{
+		color: #41934c;
+	}
+
+	nav#primary-nav div > ul.menu > li > a
+	{
+		color: #ffffff;
+	}
+	nav#primary-nav div > ul.menu > li.menu-item-mobile-highlight > a:hover
+	{
+		color: #ffffff;
+	}
+	/* LOTTERY INFORMATION */
+	table.table-short tbody tr:first-of-type td
+	{
+		border-color: #eaeaea;
+	}
+
+	table.table-short tbody tr
+	{
+		background: transparent;
+	}
+	/*** PAYMENTS ***/
+	.deposit-amount.platform-form:nth-last-of-type(2)
+	{
+		border-width: 0;
+	}
+
+	/* remove hover from tables */
+	table.table-hover tbody tr:hover td
+	{
+		background-color: transparent;
+	}
+}
+
+/* lottopark - additional */
+
+.btn-signup
+{
+	background-color: #67bd2e;
+	color: #ffffff;
+}
+
+.btn-signup:hover
+{
+	color: #ffffff;
+	background-color: #5bb326;
+}
+
+section.user-area div.user-info div.user-info-area-active a
+{
+	color: #ffffff;
+}
+
+.small-widget-results .ticket-line
+{
+    padding: 2.7px 0 20px 0;
+}
+
+#onesignal-bell-container.onesignal-reset .onesignal-bell-launcher.onesignal-bell-launcher-theme-default .onesignal-bell-launcher-button svg .background {
+    fill: #67BD2E !important;
+}

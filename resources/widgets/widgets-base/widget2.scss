@@ -1,0 +1,171 @@
+.widget-2 {
+  width: 100%;
+  height: 240px;
+  display: table;
+  border-radius: 5px;
+  min-width: 340px;
+  max-width: 550px;
+
+  .widget-top-title {
+    width: 120px;
+    border-top: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+    height: 16px;
+    display: table;
+
+    img {
+      max-width: 80%;
+    }
+  }
+
+  .widget-content {
+    border: 1px solid $border-color;
+    border-radius: 5px;
+  }
+
+  .widget-ball {
+    padding: 21px 15px 8px;
+    text-align: left;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .widget-lottery-name {
+    color: $dark-text-color;
+    font-size: 22px;
+    text-align: left;
+    font-family: $font-bold;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .widget-lottery-time {
+    margin-top: 10px;
+    color: #87979c;
+    font-size: 16px;
+    font-family: $font-semi-bold;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .draw-results {
+    text-align: left;
+    display: flex;
+    margin: 10px 0 12px;
+    border-spacing: 3px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .ball {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: $font-bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 15px;
+
+    &.white-ball {
+      background: $normal-ball-bg-color;
+      color: $normal-ball-text-color;
+    }
+
+    &.bonus-ball {
+      background: $bonus-ball-bg-color;
+      color: $bonus-ball-text-color;
+    }
+
+    .white-ball-shadow {
+      padding-top: 4px;
+      background: url('../../../base/images/widgets/ball-shadow-white.png');
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+
+    .color-ball-shadow {
+      padding-top: 4px;
+      background: url('../../../base/images/widgets/ball-shadow-color.png');
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+  }
+
+  .widget-nearest-jackpot {
+    color: $jackpot-text-color;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: $font-bold;
+  }
+
+  .widget-jackpot {
+    color: $price-color;
+    font-family: $font-bold;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 15px;
+  }
+
+  .widget-play-now {
+    display: table;
+    float: right;
+    background: $button-bg-color;
+    width: 115px;
+    padding: 11px 0;
+    text-align: center;
+    color: $button-text-color;
+    font-family: $font-bold;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 15px;
+  }
+
+  .widget-left {
+    float: left;
+    width: 28%;
+    text-align: center;
+  }
+
+  .widget-right {
+    float: right;
+    width: 69%;
+  }
+
+  .widget-bottom {
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid $border-color;
+  }
+
+  .calendar-icon {
+    background: url('../../../base/images/widgets/small-calendar.png');
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-top: 1px;
+    float: left;
+    margin-right: 8px;
+  }
+
+  .align-right {
+    margin-right: 10px;
+    display: table;
+    float: right;
+  }
+}

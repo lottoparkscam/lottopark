@@ -1,0 +1,68 @@
+// Banner
+
+#wl-banner {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+
+  .wl-banner-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wl-banner-col {
+    width: auto;
+    position: relative;
+  }
+
+  a {
+    pointer-events: auto;
+  }
+
+  .wl-banner-img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .close {
+    position: absolute;
+    top: 0.125rem;
+    right: 0.125rem;
+    width: 20px;
+    height: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    outline: 0;
+    pointer-events: auto;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.75);
+    }
+  }
+
+  // MOBILE
+  @media (max-width: 767.98px) {
+    & {
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  // PC
+  @media (min-width: 768px) {
+    & {
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+}

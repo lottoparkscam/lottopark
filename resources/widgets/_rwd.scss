@@ -1,0 +1,31 @@
+@mixin screen-md() {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin screen-sm() {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin screen-xs() {
+  @media screen and (max-width: 400px) {
+    @content;
+  }
+}
+
+.mobile-only {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    visibility: visible;
+    display: inherit;
+  }
+}
+
+.large-only {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    visibility: hidden;
+    display: none;
+  }
+}

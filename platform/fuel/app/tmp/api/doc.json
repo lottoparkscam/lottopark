@@ -1,0 +1,421 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Whitelotto API",
+        "description": "Use all endpoints with suffix .json or .xml at the end of url.",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://api.lottopark.com/api",
+            "description": "Where lottopark.com is your domain with 'api' prefix."
+        }
+    ],
+    "paths": {
+        "/auth/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "operationId": "f514a92aeaa32823147d520dde36c0e5",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "required": [
+                                    "login",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "login": {
+                                        "description": "Use login only if your users identify by login. In other case use email but put it in login property in form body.",
+                                        "type": "string"
+                                    },
+                                    "password": {
+                                        "type": "string"
+                                    },
+                                    "remember_me": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "data": {
+                                            "type": "string",
+                                            "example": {
+                                                "autologin_url": "https://some.url"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/register": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "operationId": "30d657a01f34b6855b95ba7701f03515",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password",
+                                    "currency"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "string"
+                                    },
+                                    "password": {
+                                        "type": "string"
+                                    },
+                                    "currency": {
+                                        "description": "Three letters ISO currency code.",
+                                        "type": "string",
+                                        "example": "EUR"
+                                    },
+                                    "language": {
+                                        "description": "Two letters ISO language code and two letters ISO country code after dash",
+                                        "type": "string",
+                                        "example": "pl_PL"
+                                    },
+                                    "group": {
+                                        "description": "ID of group to assing in",
+                                        "type": "integer"
+                                    },
+                                    "promo_code": {
+                                        "description": "Experimental - do not use without consultation with team",
+                                        "type": "string"
+                                    },
+                                    "phone": {
+                                        "type": "string"
+                                    },
+                                    "prefix": {
+                                        "description": "Coutry code(ISO 3166) with phone code after underscore.",
+                                        "type": "string",
+                                        "example": "PL_48."
+                                    },
+                                    "company": {
+                                        "description": "Charity, Company, Legal entity",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "data": {
+                                            "type": "string",
+                                            "example": "Your account is now fully active."
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/lotteries": {
+            "get": {
+                "tags": [
+                    "Lotteries"
+                ],
+                "operationId": "7b513cf058ae7f5090d5b560dbe380fc",
+                "parameters": [
+                    {
+                        "name": "order",
+                        "in": "query",
+                        "description": "ASC or DESC"
+                    },
+                    {
+                        "name": "order_by",
+                        "in": "query",
+                        "description": "Field to order by",
+                        "example": "id"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Max amount of returned lotteries"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get current lotteries"
+                    }
+                }
+            }
+        },
+        "/lottery": {
+            "get": {
+                "tags": [
+                    "Lotteries"
+                ],
+                "operationId": "2d899b249a3d6f106f2e9983869a41e1",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "Lottery name"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get specific lottery"
+                    }
+                }
+            }
+        },
+        "/lotteries_mautic": {
+            "get": {
+                "tags": [
+                    "Lotteries"
+                ],
+                "summary": "Prepare twig template to use in mautic",
+                "operationId": "2e7624f6156789b8232b13c43f2410d9",
+                "responses": {
+                    "200": {
+                        "description": "Get 3 lotteries with highest jackpot to use in mautic"
+                    }
+                }
+            }
+        },
+        "/mediacle/registrations": {
+            "get": {
+                "tags": [
+                    "Registrations"
+                ],
+                "operationId": "be7767b3e272c795307cfba6f5e5d197",
+                "parameters": [
+                    {
+                        "name": "date",
+                        "in": "query",
+                        "description": "Date in YYYY-mm-dd format",
+                        "example": "2020-01-01"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Transactions list"
+                    }
+                }
+            }
+        },
+        "/mediacle/sales": {
+            "get": {
+                "tags": [
+                    "Sales"
+                ],
+                "operationId": "92483a7fa8595d0390e08a18c4edd17a",
+                "parameters": [
+                    {
+                        "name": "date",
+                        "in": "query",
+                        "description": "Date in YYYY-mm-dd format",
+                        "example": "2020-01-01"
+                    },
+                    {
+                        "name": "is_casino",
+                        "in": "query",
+                        "description": "Defines if is casino or lottery transaction. Default false (lottery)",
+                        "example": "bool value = true or false"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sales, transactions list"
+                    },
+                    "404": {
+                        "description": "Error when trying to get current day. Report has not been prepared yet."
+                    }
+                }
+            }
+        },
+        "/users/balance/charge": {
+            "patch": {
+                "tags": [
+                    "Users"
+                ],
+                "operationId": "e5fea634099ad80053c3a71ffd4d81e6",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "required": [
+                                    "user_email",
+                                    "user_login",
+                                    "currency_code",
+                                    "amount"
+                                ],
+                                "properties": {
+                                    "user_email": {
+                                        "description": "When your users identify by email use user_email in other case use user_login.",
+                                        "type": "string"
+                                    },
+                                    "user_login": {
+                                        "type": "string"
+                                    },
+                                    "currency_code": {
+                                        "description": "Three letters ISO currency code.",
+                                        "type": "string",
+                                        "example": "EUR"
+                                    },
+                                    "amount": {
+                                        "description": "Value that will be added to the user's balance",
+                                        "type": "number",
+                                        "format": "float"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "data": {
+                                            "type": "string",
+                                            "example": "Balance has been changed"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/users/balance/debit": {
+            "patch": {
+                "tags": [
+                    "Users"
+                ],
+                "operationId": "915b0027599d9af6e91ad5c061322c6d",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "required": [
+                                    "user_email",
+                                    "user_login",
+                                    "currency_code",
+                                    "amount"
+                                ],
+                                "properties": {
+                                    "user_email": {
+                                        "description": "When your users identify by email use user_email in other case use user_login.",
+                                        "type": "string"
+                                    },
+                                    "user_login": {
+                                        "type": "string"
+                                    },
+                                    "currency_code": {
+                                        "description": "Three letters ISO currency code.",
+                                        "type": "string",
+                                        "example": "EUR"
+                                    },
+                                    "amount": {
+                                        "description": "Value that will be removed from user's balance",
+                                        "type": "number",
+                                        "format": "float"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "data": {
+                                            "type": "string",
+                                            "example": "Balance has been changed"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "Key": {
+                "type": "apiKey",
+                "description": "The key that you received",
+                "name": "x-whitelotto-key",
+                "in": "header"
+            },
+            "Nonce": {
+                "type": "apiKey",
+                "description": "Unique number has not been used before. For example: 1610968047567 (microtime * 1000)",
+                "name": "x-whitelotto-nonce",
+                "in": "header"
+            },
+            "Signature": {
+                "type": "apiKey",
+                "description": "Created like example:\n                    hash_hmac(\n                        'sha512',\n                        $uri . $nonce . hash(\n                            'sha256',\n                            json_encode($getUrlParams)\n                        ),\n                        $apiSecret\n                    ); where\n                    $uri=/api/balance/add,\n                    $nonce=1610968047567,\n                    $getUrlParams=['param1' => 'a', 'param2' => 'b'],\n                    $secret=Received from us",
+                "name": "x-whitelotto-signature",
+                "in": "header"
+            }
+        }
+    }
+}

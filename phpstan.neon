@@ -1,0 +1,63 @@
+includes:
+    - phpstan-ignored.neon
+parameters:
+    parallel:
+        processTimeout: 300.0
+    tmpDir: phpstan/tmp
+    bootstrapFiles: # https://phpstan.org/user-guide/discovering-symbols
+        - phpstan/bootstrap.php
+        - phpstan/constants.php
+    scanDirectories:
+         # Phpstan will be aware of this classes but won't "check" them, we need to do this manualy because fuel's autoloader is not working as expected
+         # Some locations are also not included by loader like WP
+         - wordpress/wp-includes
+         - wordpress/wp-content/plugins/lotto-platform
+         - platform/fuel/packages
+         - platform/fuel/core
+         - platform/fuel/vendor
+    level: 2
+    paths: # analyse
+        - platform/fuel/app
+        - platform/fuel/app/tests/feature/fixtures
+        - platform/fuel/app/tests/unit/fixtures
+        - platform/fuel/app/tests/fixtures
+    excludePaths:
+        # Level 1
+        # Modules
+        - platform/fuel/app/classes/modules/Payments/*/Form/*                                                           # We never wants to check Forms
+        - platform/fuel/app/classes/modules/Payments/*/resources/*                                                      # Because it need to be removed completely
+        - platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php
+        # Cache, migrations, heavy files etc
+        - platform/fuel/app/cache
+        - platform/fuel/app/lang
+        - platform/fuel/app/views
+        - platform/fuel/app/vendor
+        # Corrupted files, with none sense to fix
+        - platform/fuel/app/classes/task/task.php
+        - platform/fuel/app/classes/controller/dev.php
+        - platform/fuel/app/classes/helper/migration.php
+        - platform/fuel/app/classes/banners
+        - platform/fuel/app/classes/controller
+        - platform/fuel/app/classes/lotto
+        - platform/fuel/app/classes/forms
+        - platform/fuel/app/classes/helpers
+        - platform/fuel/app/classes/presenter
+        - platform/fuel/app/classes/validators
+        - platform/fuel/app/classes/validator                                                                           # one usage
+        - platform/fuel/app/tasks                                                                                       # todo: this is worth to be fixed
+        # Tests                                                                                                         # It need some rebuild anyway
+        - platform/fuel/app/tests/e2e
+        - platform/fuel/app/tests/browser
+        - platform/fuel/app/tests/feature_OLD
+        - platform/fuel/app/classes/test                                                                                # Have to be moved out of this location
+        # Unused
+        # Old Raffle
+        - platform/fuel/app/classes/model/whitelabel/raffle/ticket.php
+        # Traits
+        - platform/fuel/app/classes/Orm/Traits/castable.php
+        - platform/fuel/app/classes/model/traits/set/jackpot.php
+        # Level 2
+        - platform/fuel/app/tests                                                                                       # todo: this is worth to be fixed
+        # Logs
+        - platform/fuel/app/logs
+        - platform/fuel/app/classes/task/lotterycentralserver/chain/config/ticket/batch/methods.php

@@ -1,0 +1,67 @@
+@import '../../../scss/_mixins';
+
+.facebook {
+  background-color: #4267b2;
+}
+
+.google {
+  background-color: #f04435;
+}
+
+.separator-container {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  background-color: #abb8c3;
+  height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login-separator {
+    border: 1px solid #abb8c3;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 100%;
+    background-color: white;
+  }
+}
+
+.first-row {
+  grid-row: 2;
+}
+
+.social-button-container {
+  margin-top: 2em;
+}
+
+.social-buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 15px;
+}
+
+.social-buttons-container,
+.social-button-container {
+  text-align: center;
+  @include screen_max_w_600() {
+    font-size: 0.8em;
+  }
+  .social-button {
+    border-radius: 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 0.25em;
+    font-weight: normal;
+    color: white;
+    @include screen_max_w_600() {
+      flex-direction: column;
+    }
+    i {
+      color: white;
+      padding-right: 0.75em;
+      @include screen_max_w_600() {
+        padding-right: 0;
+      }
+    }
+  }
+}

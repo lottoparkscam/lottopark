@@ -1,0 +1,27 @@
+/*
+Theme Name:     LottoMat Theme
+Description:    LottoMat whitelabel theme.
+Author:         WhiteLotto
+Text Domain:	lottomat-theme
+Template:		base
+Version:        2.0.0
+*/
+.btn-default, .btn-default:disabled:hover, .btn-default.disabled:hover {
+  background-color: #ffffff;
+  color: #1db4ed;
+  border-color: transparent;
+}
+
+.btn-default:hover, .btn-default-hover {
+  background: none;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+header.header-dark div.main-width {
+  background-image: url("images/header_bg.png");
+}
+
+.promo-widget {
+  background-color: #1db4ed;
+}

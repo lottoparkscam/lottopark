@@ -1,0 +1,447 @@
+@media screen and (max-width: 500px) {
+  /**** HEADER ****/
+  header {
+    h1 {
+      max-width: 55%;
+    }
+
+    div {
+      &.main {
+        &-width {
+          padding-top: 9px;
+          padding-bottom: 9px;
+        }
+      }
+
+      &.header {
+        &-logo {
+          max-width: 55%;
+        }
+      }
+    }
+  }
+
+  /***** NAVIGATION ****/
+
+  nav.content-nav {
+    padding: 5px 0;
+  }
+
+  select {
+    &.content {
+      &-nav {
+        margin-bottom: 5px;
+
+        &-wrapper {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+
+  .mobile-close-area {
+    padding: 14px 14px;
+  }
+
+  .login {
+    &-signup {
+      &-buttons {
+        &-front {
+          &-page {
+            margin-top: 0px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    &-button {
+      &-main {
+        &-div {
+          padding: 0px 5px 0px 10px;
+        }
+      }
+    }
+  }
+
+  .signup {
+    &-button {
+      &-main {
+        &-div {
+          padding: 0px 10px 0px 5px;
+        }
+      }
+    }
+  }
+
+  .deposit {
+    &-button {
+      &-main {
+        &-div {
+          &-mobile {
+            text-align: center;
+            height: inherit;
+            display: block;
+          }
+        }
+      }
+
+      &-middle {
+        &-div {
+          &-mobile {
+            width: 100%;
+            display: inline-block;
+          }
+        }
+      }
+
+      &-div {
+        &-mobile {
+          margin: 10px 10px auto;
+        }
+      }
+
+      &-front {
+        &-page {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  /***** MAIN PADDINGS ****/
+  .home {
+    &-widget {
+      &-area {
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .btn {
+    &-login {
+      display: none;
+
+      &-mobile {
+        height: 30px !important;
+        width: 100%;
+        margin: 10px 0px auto;
+        padding: 0px !important;
+        display: inline-block;
+        line-height: 28px !important;
+      }
+    }
+
+    &-signup {
+      display: none;
+
+      &-mobile {
+        height: 30px !important;
+        width: 100%;
+        margin: 10px 0px auto;
+        padding: 0px !important;
+        display: inline-block;
+        line-height: 28px !important;
+      }
+    }
+
+    &-deposit {
+      display: none;
+
+      &-second {
+        &-mobile {
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+
+  div {
+    &.content {
+      &-area {
+        padding: 5px 0;
+      }
+
+      &-box {
+        margin: 5px 0;
+
+        &-top {
+          margin-bottom: 1px;
+        }
+
+        &-bottom {
+          margin-top: 0;
+        }
+
+        &-nmt {
+          margin-top: 0;
+        }
+
+        &-nmb {
+          margin-bottom: 0;
+        }
+
+        &-smt {
+          margin-top: 0;
+        }
+
+        &-smb {
+          margin-bottom: 0;
+        }
+
+        &.play {
+          &-box {
+            margin-top: 10px;
+
+            &-nolottery {
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    &.main {
+      &-width {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .widget-lotto-banner {
+    padding: 5px 0;
+  }
+  .widget-list-carousel {
+    padding: 5px 0;
+  }
+  .widget-area-nmt {
+    padding-top: 0;
+  }
+  .widget-area-nmb {
+    padding-bottom: 0;
+  }
+
+  /*** LIST ***/
+
+  .widget-list-display2 .widget-list-carousel .widget-list-ticket {
+    margin-bottom: 10px;
+  }
+  .widget-list-carousel .widget-list-ticket {
+    margin-bottom: 10px;
+  }
+  .widget-list-display2 .widget-list-grid .widget-list-ticket-last,
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(3n),
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin: 5px 0;
+  }
+
+  /* grid */
+  .widget-list-grid .widget-list-ticket {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* view 1 */
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(5n),
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(5n + 1),
+  .widget-list-display1 .widget-list-grid .widget-list-ticket-last {
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* view 2 */
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .widget-list-display2 .widget-list-grid .widget-list-ticket-last,
+  .widget-list-display2 .widget-list-grid .widget-list-ticket:nth-of-type(3n),
+  .widget-list-display2
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin-bottom: 5px;
+  }
+
+  /*** SMALL WIDGETS ***/
+  .small-widgets-content .widget {
+    padding: 5px 0;
+  }
+
+  /** LATEST NEWS **/
+  section.latest-news .news-container {
+    padding: 5px 0;
+  }
+
+  /*** ORDER ***/
+  .order-content {
+    padding: 5px 0;
+  }
+  .order-sum {
+    line-height: normal;
+  }
+
+  /*** PAGINATION ****/
+  nav.pagination {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  /**** PAYMENT *****/
+  .payment-form .btn {
+    font-size: 0.875em;
+  }
+
+  /**** FORMS *****/
+  .platform-form-login,
+  .platform-form-register,
+  .platform-form-lostpassword,
+  .platform-form-withdrawal {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .platform-form .checkbox label {
+    margin-bottom: 10px;
+  }
+  .platform-form-login .pull-left,
+  .platform-form-register .pull-left,
+  .platform-form-lostpassword .pull-left {
+    float: none;
+    width: 100%;
+  }
+  .platform-form-login .pull-right,
+  .platform-form-register .pull-right,
+  .platform-form-lostpassword .pull-right {
+    float: none;
+    width: 100%;
+  }
+  .platform-form .form-help {
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  .platform-form-login .btn,
+  .platform-form-register .btn,
+  .platform-form-lostpassword .btn,
+  .platform-form-withdrawal .btn {
+    width: 100%;
+  }
+  .platform-form-profile-subgroup3,
+  .platform-form-profile-subgroup4,
+  .platform-form-profile-subgroup,
+  .platform-form-profile-subgroup2,
+  .platform-form-profile-subgroup5 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .platform-form-profile-group.nmt .platform-form-profile-subgroup4 label {
+    padding-top: 15px;
+  }
+
+  /* tables */
+  table.table-results,
+  table.table-info {
+    margin: 15px 0;
+  }
+
+  /***** MY ACCOUNT *****/
+  .myaccount-filter {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .mobile-only-tickets.pull-right {
+    float: left;
+  }
+
+  /**** OTHERS ****/
+  .results-content,
+  .info-content {
+    margin: 20px 0 25px;
+  }
+
+  /**** MOBILE ****/
+  .myaccount-tickets-mobile-sort,
+  .results-mobile-sort,
+  .info-mobile-sort {
+    margin-left: 0;
+    max-width: 200px;
+  }
+
+  .mobile-language-area {
+    float: none;
+  }
+
+  /**** FOOTER ****/
+
+  footer nav#footer-nav {
+    float: none;
+  }
+  footer p {
+    line-height: 15px;
+  }
+
+  /* LICENSE */
+  #ceg-seal-container {
+    width: 32px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  #ceg-seal-container > div {
+    max-width: 32px !important;
+    max-height: 32px;
+  }
+
+  /* TICKET */
+  .widget-ticket-additional-form {
+    padding: 5px 10px 10px 10px;
+
+    label {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    select {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+
+  .widget-ticket {
+    &-buttons-bottom-wrapper {
+      flex-direction: column;
+
+      .widget-ticket-summary {
+        flex-direction: column;
+      }
+    }
+  }
+
+  /* RESULTS INFO TABS */
+  .content-group-lottery {
+    a {
+      padding: 0 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  /** PROMO CODES **/
+  .platform-form-register .form-promo-code {
+    display: block;
+  }
+
+  .platform-form-register .form-promo-code input[type='text'] {
+    width: 100%;
+    display: block;
+  }
+}

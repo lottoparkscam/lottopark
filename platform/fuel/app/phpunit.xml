@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit colors="true" testdox="true" stopOnFailure="true" stopOnError="true" backupGlobals="true" bootstrap="../core/bootstrap_phpunit.php">
+	<php>
+		<server name="doc_root" value="../../"/>
+		<server name="app_path" value="fuel/app"/>
+		<server name="core_path" value="fuel/core"/>
+		<server name="package_path" value="fuel/packages"/>
+		<server name="vendor_path" value="fuel/vendor"/>
+		<server name="FUEL_ENV" value="test"/>
+		<ini name="memory_limit" value="1024M"/>
+	</php>
+	<coverage processUncoveredFiles="true">
+		<include>
+			<directory suffix=".php">../app/classes</directory>
+			<directory suffix=".php">../app/classes/cache</directory>
+		</include>
+		<exclude>
+			<directory suffix=".php">../app/classes/database</directory>
+			<directory suffix=".php">../app/classes/config</directory>
+			<directory suffix=".php">../app/classes/core</directory>
+			<directory suffix=".php">../app/classes/lang</directory>
+			<directory suffix=".php">../app/classes/logs</directory>
+			<directory suffix=".php">../app/classes/migrations</directory>
+			<directory suffix=".php">../app/modules</directory>
+			<directory suffix=".php">../app/classes/tasks/seeders</directory>
+			<directory suffix=".php">../app/classes/tasks/factory</directory>
+			<directory suffix=".php">../app/classes/tests</directory>
+			<directory suffix=".php">../app/classes/vendor</directory>
+			<directory suffix=".php">../app/classes/views</directory>
+			<directory suffix=".php">../app/wrappers</directory>
+			<directory suffix=".php">../app/classes/modules/Payments/resources</directory>
+			<directory suffix=".php">../app/classes/modules/Payments/*/resources</directory>
+			<directory suffix=".php">../app/classes/modules/Payments/*/Form</directory>
+			<file>../app/classes/controller/dev.php</file>
+		</exclude>
+	</coverage>
+	<testsuites>
+		<testsuite name="core">
+			<directory suffix=".php">../core/tests</directory>
+		</testsuite>
+		<testsuite name="packages">
+			<directory suffix=".php">../packages/*/tests</directory>
+		</testsuite>
+		<testsuite name="app">
+			<directory suffix=".php">../app/tests</directory>
+		</testsuite>
+		<testsuite name="unit">
+			<directory suffix=".php">../app/tests/unit</directory>
+		</testsuite>
+		<testsuite name="feature">
+			<directory suffix=".php">../app/tests/feature</directory>
+		</testsuite>
+		<testsuite name="e2e">
+			<directory suffix=".php">../app/tests/e2e</directory>
+		</testsuite>
+		<testsuite name="failing">
+			<directory suffix=".php">../app/tests</directory>
+		</testsuite>
+		<testsuite name="selenium">
+			<directory suffix=".php">../app/tests/browser</directory>
+		</testsuite>
+	</testsuites>
+	<groups>
+		<exclude>
+			<group>random</group>
+			<group>skipped</group>
+		</exclude>
+	</groups>
+</phpunit>

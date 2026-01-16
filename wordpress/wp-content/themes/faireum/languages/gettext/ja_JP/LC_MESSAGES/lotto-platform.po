@@ -1,0 +1,1961 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "First Name"
+msgstr "名前"
+
+msgid "Last Name"
+msgstr "姓"
+
+msgid "City"
+msgstr "街"
+
+msgid "Postal/ZIP Code"
+msgstr "郵便番号"
+
+msgid "Region"
+msgstr "地域"
+
+msgid "Address #1"
+msgstr "住所 #1"
+
+msgid "Address #2"
+msgstr "住所 #2"
+
+msgid "Phone"
+msgstr "電話番号"
+
+msgid "Country"
+msgstr "国"
+
+msgid "Time Zone"
+msgstr "時間帯"
+
+msgid "Birthdate"
+msgstr "生年月日"
+
+msgid ""
+"Wrong phone number! Please try to specify it in other format or contact us!"
+msgstr ""
+"電話番号が間違っています！他のフォーマットに特定するか弊社まで連絡ください！"
+
+msgid "You have to specify phone country!"
+msgstr "国番号を特定してください！"
+
+msgid "Your data has been saved!"
+msgstr "データは保存されました！"
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr "時間帯が間違っています！問題を解決するため、弊社まで連絡ください！"
+
+msgid "Wrong birth date!"
+msgstr "生年月日が間違っています！"
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr "地域が間違っています！問題を解決するため、弊社まで連絡ください！"
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr "国が間違っています！問題を解決するため、弊社まで連絡ください。"
+
+msgid "Current password"
+msgstr "現在のパスワード"
+
+msgid "New password"
+msgstr "新しいパスワード"
+
+msgid "Repeat new password"
+msgstr "新しいパスワードを再び入力"
+
+msgid "Your password has been changed."
+msgstr "パスワードが変更されました。"
+
+msgid "Wrong current password! Please try again."
+msgstr "現在のパスワードが間違っています！もう一度お試しください。"
+
+msgid "E-mail"
+msgstr "電子メールアドレス"
+
+msgid "Repeat e-mail"
+msgstr "電子メールアドレスを再び入力"
+
+msgid "E-mail Activation"
+msgstr "電子メールアドレス認証"
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"電子メールアドレスを更新していただき、ありがとうございます！アクティベーショ"
+"ンプロセスを完了するため、下記のリンクを使ってください：<a href=\"%1$s\">アク"
+"ティベーションリンク</a>。"
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process "
+"please follow the link: %1$s"
+msgstr ""
+"電子メールアドレスを更新していただき、ありがとうございます！アクティベーショ"
+"ンプロセスを完了するため、下記のリンクを使ってください：%1$s"
+
+msgid ""
+"Your email address has been changed, however we've encountered problems "
+"while sending the activation e-mail. Please contact us to activate your "
+"account."
+msgstr ""
+"あなたの電子メールアドレスが変更されましたが、電子メールアドレスを有効にする"
+"ためメールを送信する際、問題が発生しました。アカウントを有効にするため、弊社"
+"まで連絡ださい。"
+
+msgid ""
+"Failed to update your e-mail address! Please try again or contact us to "
+"solve this issue."
+msgstr ""
+"電子メールアドレスのアップデートに失敗しました！もう一度お試しになるか、問題"
+"を解決するため、弊社まで連絡ください。"
+
+msgid "This e-mail address is already registered."
+msgstr "この電子メールアドレスはすでに登録されています。"
+
+msgid "This e-mail address is already used by you."
+msgstr "この電子メールアドレスはあなたがすでに使用しています。"
+
+msgid "Your e-mail has been changed."
+msgstr "あなたの電子メールアドレスが変更されました。"
+
+msgid "Security error! Please try again."
+msgstr "セキュリティエラー！もう一度お試しください。"
+
+msgid "Amount"
+msgstr "金額"
+
+msgid "Type"
+msgstr "種類"
+
+msgid "Account IBAN number"
+msgstr "アカウントIBANコード"
+
+msgid "SWIFT"
+msgstr "SWIFT"
+
+msgid "Bank name"
+msgstr "銀行名"
+
+msgid "Skrill E-mail"
+msgstr "スクリル電子メールアドレス"
+
+msgid "Neteller E-mail"
+msgstr "ネットラー電子メールアドレス"
+
+msgid "First Name (optional)"
+msgstr "名前（任意）"
+
+msgid "Last Name (optional)"
+msgstr "姓（任意）"
+
+msgid "Bitcoin Wallet Address"
+msgstr "ビットコインウォレットアドレス"
+
+msgid ""
+"We have received your withdrawal request. Please allow up to 24h for our "
+"acceptance."
+msgstr ""
+"出金依頼を受信しました。弊社がそれを承認するため、24時間までかかることがあり"
+"ます。"
+
+msgid "Incorrect withdrawal amount."
+msgstr "間違っている出金金額。"
+
+msgid "Incorrect withdrawal type."
+msgstr "間違っている出金種類。"
+
+msgid "Security error! Please contact us!"
+msgstr "セキュリティエラー！弊社まで連絡ください！"
+
+msgid ""
+"You do not have enough balance to withdraw money from the account (minimum "
+"%s)!"
+msgstr "アカウントから引き出す残高が足りません（最低%s）！"
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr "同じ番号のチケットは注文に足されました。"
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr "ロト規則が変更したため、同じ番号でプレイすることはできません。"
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr "チケットを足すことができません、最大の注文に達しています！"
+
+msgid "This lottery is no longer available."
+msgstr "このロトはもう利用できません。"
+
+msgid "Incorrect ticket."
+msgstr "チケットが間違っています。"
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr "あなたの無料クイックピックチケットは使用されました！"
+
+msgid "Incorrect transaction."
+msgstr "取引が間違っています。"
+
+msgid "Your card has been removed!"
+msgstr "あなたのカードは外されました！"
+
+msgid "Wrong card!"
+msgstr "カードが間違っています！"
+
+msgid "Change e-mail address"
+msgstr "電子メールアドレスを変更する"
+
+msgid "Change password"
+msgstr "パスワードを変更する"
+
+msgid "Edit profile"
+msgstr "プロフィールを編集する"
+
+msgid "My tickets"
+msgstr "私のチケット"
+
+msgid "My payment methods"
+msgstr "私の支払い方法"
+
+msgid "My transactions"
+msgstr "私の取引"
+
+msgid "Deposit"
+msgstr "入金"
+
+msgid "Withdrawal"
+msgstr "出金"
+
+msgid "My details"
+msgstr "私の詳細"
+
+msgid "E-mail address"
+msgstr "電子メールアドレス"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Remember me"
+msgstr "ログイン状況を保つ"
+
+msgid "You have been successfully logged in!"
+msgstr "ログインに成功しました！"
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in "
+"the e-mail, <a href=\"%s\">try to resend</a> or contact us for manual "
+"activation."
+msgstr ""
+"アカウントはアクティブではありません。メールにあるアクティベーションリンクを"
+"使用して<a href=\"%s\">再送を試し</a>又は手動的によるアクティベーションについ"
+"て弊社まで連絡ください。"
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr ""
+"アカウントはアクティブではありません。アカウントをアクティブにするため、弊社"
+"まで連絡ください。"
+
+msgid "Wrong credentials! Please try again."
+msgstr "ユーザー名又はパスワードが間違っています。もう一度お試しください。"
+
+msgid "Too many login attempts! Please try again later."
+msgstr "ログイン試行が多過ぎます！後ほどお試しください。"
+
+msgid "Incorrect captcha! Please try again."
+msgstr "キャプチャーが間違っています。もう一度お試しください。"
+
+msgid "The item has been deleted!"
+msgstr "このアイテムは削除されました！"
+
+msgid "Undo"
+msgstr "元に戻す"
+
+msgid "Couldn't find the specified item to remove!"
+msgstr "外したい特定のアイテムが見つかりません！"
+
+msgid "Your order has been deleted!"
+msgstr "あなたのご注文は削除されました！"
+
+msgid "Your item has been restored!"
+msgstr "あなたのアイテムが復元されました！"
+
+msgid "Lines"
+msgstr "ライン"
+
+msgid "Lottery"
+msgstr "ロト"
+
+msgid "The ticket has been added to your order!"
+msgstr "チケットは注文に足されました！"
+
+msgid "Bad request! Please contact us!"
+msgstr "リクエストが間違っています！弊社まで連絡ください！"
+
+msgid "Unknown error! Please contact us!"
+msgstr "不明なエラー！弊社まで連絡ください！"
+
+msgid "Incorrect deposit amount value!"
+msgstr "入金金額が間違っています！"
+
+msgid "Card number"
+msgstr "カード番号"
+
+msgid "Expiration date"
+msgstr "有効期限"
+
+msgid "Name on card"
+msgstr "カードの名前"
+
+msgid "Save card details for future use"
+msgstr "カード詳細を保存する"
+
+msgid "Choose saved card"
+msgstr "保存されたカードを選択する"
+
+msgid "CVV code"
+msgstr "セキュリティコード"
+
+msgid "%s ticket"
+msgstr "%sチケット"
+
+msgid "This card looks expired, please check the expiration date."
+msgstr "このカードの有効期限が過ぎているようです、有効期限を確認してください。"
+
+msgid "Return to %s"
+msgstr "%sに戻る"
+
+msgid "Transaction ID"
+msgstr "取引ID"
+
+msgid ""
+"A part of your order was removed as we have disabled some of the lotteries."
+msgstr ""
+"幾つかのロトを無効にしているため、ご注文の一部を移動させていただきました。"
+
+msgid "You have been successfully logged out!"
+msgstr "無事にログアウトできました！"
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr "パスワードが変更されました。ログインに成功しました！"
+
+msgid ""
+"This password reset link has expired. Please start the password reset "
+"process <a href=\"%s\">once again</a>."
+msgstr ""
+"このパスワードリセットリンクは期限切れです。パスワードリセットプロセス<a "
+"href=\"%s\">をもう一度</a>始めてください。"
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual "
+"password change."
+msgstr ""
+"失われたパスワードリンクが間違っています。もう一度お試しになり又は手動でパス"
+"ワードを変更する場合、弊社まで連絡ください。"
+
+msgid "Forgotten Password"
+msgstr "パスワードを忘れた"
+
+msgid ""
+"<p>We have received a password reset request for your account. To complete "
+"the process please follow the link: <a href=\"%1$s\">reset password link</a>."
+"</p><p>Please ignore this e-mail if you did not request a password reset.</p>"
+msgstr ""
+"<p>アカウントのパスワードをリセットする依頼を受け付けました。プロセスを完了す"
+"るには下記のリンクを使ってください：<a href=\"%1$s\">パスワードリセットリンク"
+"</a>。</p><p>パスワードのリセットを依頼していない場合、このメールを無視してく"
+"ださい。</p>"
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+"アカウントのパスワードリセット依頼を受信しました。プロセスを完了するため、下"
+"記のリンクを使ってください：%1$s。\n"
+"パスワードリセットを依頼していない場合、このメールを無視してください。"
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link "
+"to complete the process."
+msgstr ""
+"パスワードリセットリンクの電子メールを送信しました。リンクを使ってプロセスを"
+"完了してください。"
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later "
+"or contact us to reset your password."
+msgstr ""
+"電子メールを送信する際、問題が発生しました。後ほどもう一度お試しになり又はパ"
+"スワードをリセットするため、弊社まで連絡ください。"
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+"失われたパスワードリンクは24時間毎に一回送信することができます。後ほどもう一"
+"度お試しになり又は弊社まで連絡ください。"
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr ""
+"アカウントが見つかりません。他の電子メールアドレスでお試しになり又は弊社に連"
+"絡ください。"
+
+msgid ""
+"Your account has been activated before. Please login to access your account."
+msgstr ""
+"あなたのアカウントは前にもアクティベートされています。アカウントをアクセスす"
+"るため、ログインしてください。"
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+"あなたのアクティベーションリンクは期限切れです。アクティベーション電子メール"
+"の<a href=\"%s\">再送を試し</a>又は弊社まで連絡ください。"
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr ""
+"認証リンクが間違っています。手動アクティベーションのため、弊社まで連絡くださ"
+"い。"
+
+msgid "Account Activation"
+msgstr "アカウントアクティベーション"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+"ご登録ありがとうございます！アクティベーションプロセスを完了するため、下記の"
+"リンクを使ってください：<a href=\"%1$s\">activation link</a>。"
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow "
+"the link: %1$s"
+msgstr ""
+"ご登録ありがとうございます！アクティベーションプロセスを完了するため、下記の"
+"リンクを使ってください： %1$s"
+
+msgid "The activation e-mail has been resend to you."
+msgstr "アクティベーション電子メールは再送されました。"
+
+msgid ""
+"We have encountered an error while trying to send the message. Please "
+"contact us to activate your account."
+msgstr ""
+"メッセージを送信する際、エラーが発生しました。アカウントをアクティベートする"
+"ため、弊社まで連絡ください。"
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later "
+"or contact us."
+msgstr ""
+"アクティベーションリンクは24時間毎に一回再送できます。もう一度お試しになり又"
+"は弊社まで連絡ください。"
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr ""
+"再送リンクが間違っています。手動アクティベーションのため、弊社まで連絡くださ"
+"い。"
+
+msgid "Repeat password"
+msgstr "パスワードを再び入力"
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s"
+"\" target=\"_blank\">Policy</a>"
+msgstr ""
+"私は<a href=\"%s\" target=\"_blank\">規定</a>と <a href=\"%s\" target="
+"\"_blank\">ポリシー</a>に同意します"
+
+msgid ""
+"Your account is created, however we've encountered problems while sending "
+"the activation e-mail. Please <a href=\"%s\">try to resend</a> the "
+"activation e-mail or contact us for manual activation."
+msgstr ""
+"アカウントは作成されましたが、アクティベーション電子メールを送信する際、エ"
+"ラーが発生しました。アクティベーション電子メールの<a href=\"%s\">再送を試し</"
+"a>又は手動アクティベーションのため、弊社まで連絡ください。"
+
+msgid "This e-mail is already registered."
+msgstr "この電子メールアドレスはすでに登録されています。"
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr ""
+"電子メールドメインがブロックされています。他の電子メールアドレスをお使いくだ"
+"さい。"
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr "ロト現地時間"
+
+msgid "Bank account"
+msgstr "銀行口座"
+
+msgid "Skrill"
+msgstr "スクリル"
+
+msgid "Neteller"
+msgstr "ネットラー"
+
+msgid "BTC"
+msgstr "ビットコイン"
+
+msgid "Redirecting to the payment page..."
+msgstr "支払いページに移動しま..."
+
+msgid "Transaction %s"
+msgstr "取引%s"
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr "クイックピックチケットはご注文に足されました。"
+
+msgid "FAQ Category"
+msgstr "よくある質問カテゴリー"
+
+msgid "FAQ"
+msgstr "よくある質問"
+
+msgid "This category cannot be deleted."
+msgstr "このカテゴリーを削除できません。"
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr "ロトプラットフォーム：このページを削除できません。"
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+"ロトプラットフォーム：ビジュアルエディターが無効になっています。Wordpressの外"
+"でHTMLコンテンツを編集してここに貼り付けてください。"
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr "ロトプラットフォーム；このページを編集できません。"
+
+msgid "Lotto Next Draw"
+msgstr "次のロト抽選会"
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery "
+"Page"
+msgstr "次に抽選会情報を表示する&bull;リミット: 結果/情報/プレイ - ロトページ"
+
+msgid "Lotto Featured"
+msgstr "特定されたロト"
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "特定されたロトをスライダーとして表示&bull;リミット: なし"
+
+msgid "Lotto List"
+msgstr "ロトリスト"
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "ロトリストを表示&bull;リミット: なし"
+
+msgid "Lotto News"
+msgstr "ロトニュース"
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr "最新の投稿（ニュース）を表示&bull;リミット: なし"
+
+msgid "Lotto Small Next Draw"
+msgstr "ロトスモール次期抽選会"
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "スモールロト次期抽選会ウィジェットを表示&bull;リミット: なし"
+
+msgid "Lotto Small Lottery"
+msgstr "ロトスモール抽選"
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "スモールロトウィジェットを表示&bull;リミット: なし"
+
+msgid "Lotto Small Results"
+msgstr "ロトスモール結果"
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "スモール結果ウィジェットを表示 &bull; リミット: なし"
+
+msgid "Lotto Small Slider"
+msgstr "ロトスモールスライダー"
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "スモールスライダーウィジェットを表示&bull; リミット: なし"
+
+msgid "Small Slider"
+msgstr "スモールスライダー"
+
+msgid "Lotto Small Text"
+msgstr "ロトスモールテキスト"
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr "スモールテキストを表示&bull; リミット: なし"
+
+msgid "Lotto Small Winners"
+msgstr "ロトスモール勝者"
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "スモール最終勝者ウィジェットを表示&bull; リミット: なし"
+
+msgid "Small Winners"
+msgstr "小さな勝者"
+
+msgid "Lotto Ticket"
+msgstr "ロトチケット"
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/"
+"Info/Play - Lottery Page"
+msgstr ""
+"抽選チケット（ユーザーは番号を選択することが可能）を表示&bull; リミット: 結"
+"果/情報/プレイ - ロトページ"
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-"
+"mail for better website experience. You can resend the activation e-mail <a "
+"href=\"%s\">here</a>."
+msgstr ""
+"アクティベーションリンクを搭載したメールを送信しました。より良いウェブサイト"
+"エクスペリエンスのため、電子メールアドレスをアクティベートしてください。アク"
+"ティベーション電子メールは <a href=\"%s\">ここ</a>から再送できます。"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Small"
+msgstr "小さい"
+
+msgid "Language: "
+msgstr "言語："
+
+msgid "[hide]"
+msgstr "[隠す]"
+
+msgid "[show]"
+msgstr "[見せる]"
+
+msgid "Order"
+msgstr "注文"
+
+msgid "by highest jackpot"
+msgstr "最も大きいジャックポット順"
+
+msgid "by nearest draw"
+msgstr "最も近い抽選会順"
+
+msgid "by custom order"
+msgstr "カスタム注文順"
+
+msgid "Slide count"
+msgstr "スライドカウント"
+
+msgid "Custom name"
+msgstr "カスタム名"
+
+msgid "Custom order"
+msgstr "カスタム注文"
+
+msgid "Carousel"
+msgstr "カルーセル"
+
+msgid "Grid"
+msgstr "グリッド"
+
+msgid "Count"
+msgstr "カウント"
+
+msgid "Countdown"
+msgstr "カウントダウン"
+
+msgid "Always"
+msgstr "常に"
+
+msgid "24 hours before"
+msgstr "24時間前"
+
+msgid "Display"
+msgstr "表示"
+
+msgid "Tall - 5 elements"
+msgstr "トール - 5つのエレメント"
+
+msgid "Short - 3 elements"
+msgstr "ショート - 3つのエレメント"
+
+msgid "Columns"
+msgstr "コラム"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "Number of posts to show:"
+msgstr "見せる投稿の数："
+
+msgid "Width (%):"
+msgstr "幅(%):"
+
+msgid "The margins are calculated automatically."
+msgstr "マージンは自動的に計算されます。"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Hide on mobile"
+msgstr "モバイルで隠す"
+
+msgid "Please save before use."
+msgstr "使う前に保存してください。"
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr ""
+"項目を英語で入力して<a href=\"%s\">ここ</a>にあるWPMLストリング翻訳で翻訳して"
+"ください。"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Amount<span></span>"
+msgstr "金額"
+
+msgid "Amount:"
+msgstr "金額："
+
+msgid "by newest"
+msgstr "新しい順"
+
+msgid "by random"
+msgstr "ランダム順"
+
+msgid "Normal"
+msgstr "普通"
+
+msgid "Compact"
+msgstr "コンパクト"
+
+msgid "Not found"
+msgstr "見つかりません"
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+"お探しのページが見つかりません。<br><a href=\"%s\">ホームページ</a>に戻るか運"
+"を試し<a href=\"%s\">ロトを遊んでください</a>。 "
+
+msgid "404 - Not Found"
+msgstr "404 - 見つかりません"
+
+msgid "back to order"
+msgstr "注文に戻る"
+
+msgid "deposit"
+msgstr "入金"
+
+msgid "buy tickets"
+msgstr "チケットを買う"
+
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"popup-signup\">Sign up</a>."
+msgstr ""
+"アカウントがない？<a href=\"#\" class=\"popup-signup\">登録してください</a>。"
+
+msgid "Your e-mail address"
+msgstr "あなたの電子メールアドレス"
+
+msgid "Your password"
+msgstr "あなたのパスワード"
+
+msgid "login"
+msgstr "ログイン"
+
+msgid "Forgotten password"
+msgstr "パスワードを忘れた"
+
+msgid ""
+"Remember your password? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr ""
+"パスワードを覚えていますか？<a href=\"#\" class=\"popup-login\">ここからログ"
+"インしてください</a>。"
+
+msgid "Your new password"
+msgstr "あなたの新しいパスワード"
+
+msgid "Repeat your new password"
+msgstr "新しいパスワードを再び入力してください"
+
+msgid "change"
+msgstr "変更する"
+
+msgid "send"
+msgstr "送信する"
+
+msgid "Ticket %s"
+msgstr "チケット%s"
+
+msgid "Your first name"
+msgstr "あなたの名前"
+
+msgid "Your last name"
+msgstr "あなたの姓"
+
+msgid "Your account IBAN number"
+msgstr "あなたのアカウントのIBANコード"
+
+msgid "Your bank SWIFT number"
+msgstr "あなたの銀行のSWIFT番号"
+
+msgid "Your bank name"
+msgstr "あなたの銀行名"
+
+msgid "Your Skrill e-mail"
+msgstr "あなたのスクリル電子メール"
+
+msgid "Your Neteller e-mail"
+msgstr "あなたのネッテラー電子メール"
+
+msgid "Your bitcoin wallet address"
+msgstr "あなたのビットコインウィレットアドレス"
+
+msgid "Choose withdrawal type"
+msgstr "出金種類を選択する"
+
+msgid "Amount (%s)"
+msgstr "金額(%s)"
+
+msgid "Enter withdrawal amount"
+msgstr "出金金額を入力する"
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr "最低金額：%s"
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr "<strong>最大金額：</strong>%s"
+
+msgid "submit"
+msgstr "送信"
+
+msgid "Withdrawal List"
+msgstr "出金リスト"
+
+msgid "Withdrawal ID"
+msgstr "出金ID"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "pending"
+msgstr "保留中"
+
+msgid "approved"
+msgstr "承認済み"
+
+msgid "declined"
+msgstr "却下済み"
+
+msgid "canceled"
+msgstr "キャンセル済み"
+
+msgid "next"
+msgstr "次"
+
+msgid "previous"
+msgstr "前の"
+
+msgid "Image %1 of %2"
+msgstr "%2画像のうちの%1"
+
+msgid "win"
+msgstr "勝つ"
+
+msgid "no winnings"
+msgstr "賞金なし"
+
+msgid "Date processed"
+msgstr "処理日付"
+
+msgid "Draw date"
+msgstr "抽選日"
+
+msgid "Free"
+msgstr "無料"
+
+msgid "Pay out"
+msgstr "お支払い"
+
+msgid "paid out"
+msgstr "支払済"
+
+msgid "Draw result"
+msgstr "抽選結果"
+
+msgid "Ticket details"
+msgstr "チケット詳細"
+
+msgid "Lines: %s"
+msgstr "ライン：%s"
+
+msgid "Match"
+msgstr "マッチ"
+
+msgid "none"
+msgstr "なし"
+
+msgid "Prize"
+msgstr "賞金"
+
+msgid "Jackpot"
+msgstr "ジャックポット"
+
+msgid "Quick Pick"
+msgstr "クイックピック"
+
+msgid "Net"
+msgstr "合計"
+
+msgid "-"
+msgstr "-"
+
+msgid "return to ticket list"
+msgstr "チケットリストに戻る"
+
+msgid "Sort by"
+msgstr "ソートをかける"
+
+msgid "Ticket ID"
+msgstr "チケットID"
+
+msgid "by lowest"
+msgstr "低い順"
+
+msgid "by highest"
+msgstr "高い順"
+
+msgid "Draw Date"
+msgstr "抽選日"
+
+msgid "by oldest"
+msgstr "古い順"
+
+msgid "Ticket ID and date"
+msgstr "チケットIDと日付"
+
+msgid "Lottery name"
+msgstr "抽選名"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Valid to draw"
+msgstr "抽選可能"
+
+msgid "quick pick"
+msgstr "クイックピック"
+
+msgid "Play again"
+msgstr "またプレイする"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "No tickets."
+msgstr "チケットがありません。"
+
+msgid "failure"
+msgstr "失敗"
+
+msgid "Confirmation date"
+msgstr "確認日付"
+
+msgid "Payment method"
+msgstr "支払い方法"
+
+msgid "Balance"
+msgstr "残高"
+
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+msgid "Transaction details"
+msgstr "取引詳細"
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr "<a href=\"%s\">%s</a>チケット"
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr "ライン：%sかける%s"
+
+msgid "Total Sum"
+msgstr "合計金額"
+
+msgid "return to the transaction list"
+msgstr "取引リストに戻る"
+
+msgid "Account balance"
+msgstr "アカウント残高"
+
+msgid "withdrawal"
+msgstr "出金"
+
+msgid "(confirmed)"
+msgstr "（確認済み）"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "No transactions."
+msgstr "取引がありません。"
+
+msgid "Number"
+msgstr "番号"
+
+msgid "Remove"
+msgstr "取り除く"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Are you sure?"
+msgstr "本当によろしいですか？"
+
+msgid "No payment methods saved!"
+msgstr "支払い方法は保存されていません！"
+
+msgid "Choose code"
+msgstr "コードを選択する"
+
+msgid "Choose time zone"
+msgstr "時間帯を選択する"
+
+msgid "Choose your country"
+msgstr "国を選択する"
+
+msgid "Choose region"
+msgstr "地域を選択する"
+
+msgid "Address"
+msgstr "住所"
+
+msgid "Address (optional additional information)"
+msgstr "住所（任意にさらなる情報を）"
+
+msgid "Click here to cancel the e-mail change"
+msgstr "電子メールアドレス変更をキャンセルするにはここをクリックしてください"
+
+msgid "Change e-mail"
+msgstr "電子メールアドレスを変更する"
+
+msgid "You will need to activate your new e-mail address."
+msgstr "新しい電子メールアドレスをアクティベートする必要があります。"
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail "
+"for better user experience."
+msgstr ""
+"任意のアクティベーション電子メールを送信します。ユーザー経験を向上させるた"
+"め、電子メールアドレスをアクティベートしてください。"
+
+msgid "Click here to cancel the password change"
+msgstr "パスワード変更をキャンセルするにはここをクリックしてください"
+
+msgid "Old password"
+msgstr "古いパスワード"
+
+msgid "save changes"
+msgstr "変更を保存"
+
+msgid "choose"
+msgstr "選択"
+
+msgid "try again"
+msgstr "再び試す"
+
+msgid "Pending"
+msgstr "保留中"
+
+msgid "bn"
+msgstr "bn"
+
+msgid "m"
+msgstr "m"
+
+msgid "%s to win"
+msgstr "勝つまで%s"
+
+msgid "Draw event on %s"
+msgstr "抽選会は%s"
+
+msgid "Already a member? <a href=\"#\" class=\"popup-login\">Login here</a>."
+msgstr ""
+"登録済みですか？<a href=\"#\" class=\"popup-login\">ここからログインしてくだ"
+"さい</a>。"
+
+msgid "Repeat your password"
+msgstr "パスワードを再び入力する"
+
+msgid "sign up"
+msgstr "登録する"
+
+msgid "Play %s"
+msgstr "%sを遊ぶ"
+
+msgid "%s Results"
+msgstr "%s結果"
+
+msgid "%s Information"
+msgstr "%s情報"
+
+msgid "%s News"
+msgstr "%sニュース"
+
+msgid "show all"
+msgstr "全てを見せる"
+
+msgid "Latest Result"
+msgstr "最新の結果"
+
+msgid "Schedule"
+msgstr "スケジュール"
+
+msgid "Guess Range"
+msgstr "予想範囲"
+
+msgid "Tier"
+msgstr ""
+
+msgid "Match %s"
+msgstr "%sをマッチする"
+
+msgid "X"
+msgstr "X"
+
+msgid "Chance to win"
+msgstr "勝つ確率"
+
+msgid "Prize #%d"
+msgstr "賞金#%d"
+
+msgid "Free Quick Pick"
+msgstr "無料のクイックピック"
+
+msgid "%s shared"
+msgstr "共有された%s"
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr "見積"
+
+msgid "1 in %s"
+msgstr "%s中の1"
+
+msgid "Overall chances of winning any prize"
+msgstr "賞金を勝ち取る全体的な確率"
+
+msgid "Play"
+msgstr "プレイ"
+
+msgid "Results"
+msgstr "結果"
+
+msgid "Information"
+msgstr "情報"
+
+msgid "News"
+msgstr "ニュース"
+
+msgid "from A to Z"
+msgstr "AからZまで"
+
+msgid "from Z to A"
+msgstr "ZからAまで"
+
+msgid "Draw"
+msgstr "抽選する"
+
+msgid "Winning Odds"
+msgstr "勝つ確率"
+
+msgid "Estimated Jackpot"
+msgstr "ジャックポットの予想"
+
+msgid "Next Draw"
+msgstr "次の抽選会"
+
+msgid "play"
+msgstr "プレイ"
+
+msgid "Choose payment method"
+msgstr "支払い方法を選択する"
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr "アカウント残高から支払う(%s)"
+
+msgid "Payment card"
+msgstr "支払いカード"
+
+msgid "Bank payment"
+msgstr "銀行名"
+
+msgid "BTC, ETH + 150 altcoins"
+msgstr ""
+
+msgid "QIWI, Yandex.Money, Payeer..."
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment "
+"is processed."
+msgstr "アカウント残高から支払う。支払い後、残高は%sになります。"
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr "クレジットカードには%sの引き落としがかかります。"
+
+msgid "New card"
+msgstr "新しいカード"
+
+msgid "Card number (spaces allowed)"
+msgstr "カード番号（スペースを入れてください）"
+
+msgid ""
+"The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr "3又は4桁のセキュリティコードは支払いカードの後ろにあります。"
+
+msgid "What is this?"
+msgstr "これは何？"
+
+msgid "The minimum order for this payment type is %s."
+msgstr "この支払い種類の最低注文額は%sです。"
+
+msgid "Pay using %s."
+msgstr "%sを使って支払う"
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you "
+"don't have an Entropay account, you can always register it <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "Available payment methods: %s."
+msgstr "私の支払い方法"
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr "<span class=\"%s\">%s</span>を支払う"
+
+msgid "Estimated jackpot"
+msgstr "ジャックポット予想"
+
+msgid "Winners"
+msgstr "優勝者"
+
+msgid "Payout per winner"
+msgstr "優勝者一人当たりの支払額"
+
+msgid "Total Winners"
+msgstr "優勝者合計"
+
+msgid "Total Prize"
+msgstr "賞金合計"
+
+msgid "Last Draw"
+msgstr "最後の抽選会"
+
+msgid "Payout"
+msgstr "支払額"
+
+msgid "Rollover"
+msgstr "ロールオーバー"
+
+msgid "Total payout"
+msgstr "支払額合計"
+
+msgid "change language"
+msgstr "言語を変更する"
+
+msgid "Wrong line"
+msgstr "ラインが間違っています"
+
+msgid "Too few lines"
+msgstr "ラインが少ないです"
+
+msgid "Incorrect order"
+msgstr "間違った注文"
+
+msgid "Log in"
+msgstr "ログイン"
+
+msgid "Sign up"
+msgstr "登録する"
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr ""
+"最低でも1つのラインが正しく入力されていません。正しくないラインのみで続けます"
+"か？"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Continue"
+msgstr "続ける"
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s "
+"lines! Do you want to quick pick the lines for you?"
+msgstr ""
+"選択されたラインの数が足りません。このロトの最低額は%1sラインです！ラインをク"
+"イックピックさせますか？"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "OK"
+msgstr "OK"
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr ""
+"間違った数のラインを選択されています。選択されたラインは%1sの倍数である必要が"
+"あります。クイックピックで残りのラインを選択させますか？"
+
+msgid "draw in %s"
+msgstr "抽選会まで%s"
+
+msgid "%d Quick-Pick lines"
+msgstr "%dクイックピックライン"
+
+msgid "only %s"
+msgstr "%sだけ"
+
+msgid "or pick the numbers manually"
+msgstr "又は手動で番号を選択してください"
+
+msgid "Latest news"
+msgstr "最新情報"
+
+msgid "Primary"
+msgstr "主な"
+
+msgid "Footer"
+msgstr "フッター"
+
+msgid "Front Page"
+msgstr "フロントページ"
+
+msgid "Front Page widget area."
+msgstr "フロントページウィジェットエリア"
+
+msgid "Play - List Page - Top"
+msgstr "プレイ - リストページ - トップ"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"（ロトリスト付き）プレイロトページウィジェットエリア。このエリアのウィジェッ"
+"トは「さらなる」コンテンツより前に表示されます。"
+
+msgid "Play - List Page - Bottom"
+msgstr "プレイ - リストページ - 下"
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"（ロトリスト付き）プレイロトページウィジェットエリア。このエリアのウィジェッ"
+"トは「さらなる」コンテンツの後に表示されます。"
+
+msgid "Play - Lottery Page - Top"
+msgstr "プレイ - ロトページ - トップ"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display before content."
+msgstr ""
+"（チケット購入で）プレイロトページウィジェットエリア。このエリアのウィジェッ"
+"トはコンテンツより前に表示されます。"
+
+msgid "Play - Lottery Page - Bottom"
+msgstr "プレイ - ロトページ - 下"
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area "
+"will display after content."
+msgstr ""
+"（チケット購入で）プレイロトページウィジェットエリア。このエリアのウィジェッ"
+"トはコンテンツの後に表示されます。"
+
+msgid "Results - List Page - Top"
+msgstr "結果 - リストページ - トップ"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"ロト結果 - リストページウィジェットエリア。このエリアのウィジェットは「さらな"
+"る」コンテンツより前に表示されます。"
+
+msgid "Results - List Page - Bottom"
+msgstr "結果 - リストページ - 下"
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"ロト結果 - リストページウィジェットエリア。このエリアのウィジェットは「さらな"
+"る」コンテンツの後に表示されます。"
+
+msgid "Results - Lottery Page - Top"
+msgstr "結果 - ロトページ - トップ"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"ロト結果 - 特定ロトページウィジェットエリア。このエリアのウィジェットは「さら"
+"なる」コンテンツより前に表示されます。"
+
+msgid "Results - Lottery Page - Bottom"
+msgstr "結果 - ロトページ - 下"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"ロト結果 - 特定ロトページウィジェットエリア。このエリアのウィジェットは「さら"
+"なる」コンテンツの後に表示されます。"
+
+msgid "Results - Lottery Page - Content"
+msgstr "結果 - ロトページ - コンテンツ"
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"ロト結果 - 特定ロトページウィジェットエリア。このエリアのウィジェットはコンテ"
+"ンツの横に表示されます。"
+
+msgid "Info - List Page - Top"
+msgstr "情報 - リストページ - トップ"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+"ロト情報 - リストページウィジェットエリア。このエリアのウィジェットは「さらな"
+"る」コンテンツより前に表示されます。"
+
+msgid "Info - List Page - Bottom"
+msgstr "情報 - リストページ - 下"
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+"ロト情報 - リストページウィジェットエリア。このエリアのウィジェットは「さらな"
+"る」コンテンツの後に表示されます。"
+
+msgid "Info - Lottery Page - Top"
+msgstr "情報 - ロトページ - トップ"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display before \"more\" content."
+msgstr ""
+"ロト情報 - 特定ロトページウィジェットエリア。このエリアのウィジェットは「さら"
+"なる」コンテンツより前に表示されます。"
+
+msgid "Info - Lottery Page - Bottom"
+msgstr "情報 - ロトページ - 下"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display after \"more\" content."
+msgstr ""
+"ロト情報 - 特定ロトページウィジェットエリア。このエリアのウィジェットは「さら"
+"なる」コンテンツの後に表示されます。"
+
+msgid "Info - Lottery Page - Content"
+msgstr "情報 - ロトページ - コンテンツ"
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content."
+msgstr ""
+"ロト情報 - 特定ロトページエリア。このエリアのウィジェットはコンテンツの横に表"
+"示されます。"
+
+msgid "News - Default Page - Content"
+msgstr "ニュース - デフォルトページ - コンテンツ"
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display "
+"next to content."
+msgstr ""
+"ロトニュース - デフォルトページウィジェットエリア。このエリアのウィジェットは"
+"コンテンツの横に表示されます。"
+
+msgid "News - Lottery Page - Content"
+msgstr "ニュース - ロトページ - コンテンツ"
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area "
+"will display next to content related to the lottery."
+msgstr ""
+"ロトニュース - 特定ロトページウィジェットエリア。このエリアのウィジェットはロ"
+"トーニ関するコンテンツの横に表示されます。"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Sign Up"
+msgstr "登録する"
+
+msgid "My account"
+msgstr "マイアカウント"
+
+msgid "Theme Options"
+msgstr "テーマオプション"
+
+msgid "Change your theme options."
+msgstr "テーマオプションを変更する。"
+
+msgid "Choose header color scheme"
+msgstr "ヘッダー色彩を選択する"
+
+msgid "Choose font"
+msgstr "フォントを選択する"
+
+msgid "Choose single page header image"
+msgstr "シングルページヘッダー画像を選択する"
+
+msgid "%s: Lotto Featured #%d"
+msgstr "%s: 特定されたロト#%d"
+
+msgid "Change your lotto featured widget style."
+msgstr "あなたのロト特定ウィジェットスタイルを変更する。"
+
+msgid "Choose background image"
+msgstr "バックグラウンド画像を選択する"
+
+msgid "Choose mobile background image"
+msgstr "モバイルバックグラウンド画像を選択する"
+
+msgid "Social Links"
+msgstr "ソーシャルリンク"
+
+msgid "Add your social links."
+msgstr "あなたのソーシャルリンクを足す"
+
+msgid "Facebook URL (%s)"
+msgstr "フェースブックURL(%s)"
+
+msgid "Twitter URL (%s)"
+msgstr "ツイッターURL(%s)"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "Anonymous"
+msgstr "匿名"
+
+msgid "log out"
+msgstr "ログアウト"
+
+msgid "checkout"
+msgstr "チェックアウト"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Sum"
+msgstr "合計"
+
+msgid "USA"
+msgstr "米国"
+
+msgid "Europe"
+msgstr "ヨーロッパ"
+
+msgid "Italy"
+msgstr "イタリア"
+
+msgid "UK"
+msgstr "英国"
+
+msgid "Poland"
+msgstr "ポーランド"
+
+msgid "Powerball"
+msgstr "パワーボール"
+
+msgid "Mega Millions"
+msgstr "メガーミリオン"
+
+msgid "Eurojackpot"
+msgstr "ユーロジャックポット"
+
+msgid "SuperEnalotto"
+msgstr "スーパーエナロット"
+
+msgid "UK Lottery"
+msgstr "英国ロト"
+
+msgid "EuroMillions"
+msgstr "ユーロミリオンズ"
+
+msgid "Polish Lotto"
+msgstr "ポーラントロト"
+
+msgid "Debit card"
+msgstr "デビットカード"
+
+msgid "edit profile"
+msgstr "プロフィールを編集する"
+
+msgid "Show"
+msgstr "見せる"
+
+msgid "show win"
+msgstr "賞金を見せる"
+
+msgid "show no winnings"
+msgstr "賞金なしを見せる"
+
+msgid "show pending"
+msgstr "保留中を見せる"
+
+msgid "show approved"
+msgstr "承認されたものを見せる"
+
+msgid "show failure"
+msgstr "失敗したものを見せる"
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr ""
+"弊社を選択していただき、誠にありがとうございます！ログインが完了しました。"
+
+msgid "Your account is now fully active."
+msgstr "あなたのアカウントは完全に有効です。"
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent "
+"you to your e-mail."
+msgstr ""
+"アカウントをアクティベートして、全ての機能性をアクセスするには、電子メールア"
+"ドレスに送信したアクティベーションリンクを使って電子メールアドレスを確認して"
+"ください。"
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+"アカウントをアクティベートするには、電子メールアドレスに送信したアクティベー"
+"ションリンクを使って電子メールアドレスを確信してください。"
+
+msgid "Different amount"
+msgstr "金額相違"
+
+msgid "The minimum deposit amount is %s."
+msgstr "最低入金額は%sです。"
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr "お支払いが処理できません。もう一度試すか弊社まで連絡ください。"
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We "
+"suggest you to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Add Quick Pick ticket:"
+msgstr "クイックピックチケットを足す："
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr "チケット数個が次の抽選会に移動されました！"
+
+msgid ""
+"For orders less than %1s you can pay with account balance only, however your "
+"balance is insufficient."
+msgstr ""
+"%1s以下の注文の場合、アカウント残高より支払いは可能ですが、あなたの残高は足り"
+"ません。"
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr "%1s以下の注文の場合、アカウント残高のみの支払いが可能です。"
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to "
+"your order."
+msgstr ""
+"チケットがありません。<a href=\"%s\">今すぐプレイ</a>してチケット注文にを足し"
+"てください。 "
+
+msgid "add more tickets"
+msgstr "チケットをさらに足す"
+
+msgid "pay now"
+msgstr "今すぐ支払う"
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr "ありがとうございます！お支払いは無事処理されました。"
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to "
+"60 minutes."
+msgstr ""
+"お支払い方法により、支払い登録には60分までの時間がかかる場合もあります。"
+
+msgid "&laquo; back to the news list"
+msgstr "ニュースリストに戻る"
+
+msgid "choose category"
+msgstr "カテゴリーを選択する"
+
+msgid "This FAQ category is empty!"
+msgstr "よくある質問のカテゴリーは空です！"
+
+msgid "Next estimated jackpot"
+msgstr "次のジャックポット予想"
+
+msgid "Next draw in"
+msgstr "次の抽選会は"
+
+msgid "days"
+msgstr "日"
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "時"
+
+msgctxt "featured"
+msgid "min"
+msgstr "分"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "秒"
+
+msgid "Buy tickets"
+msgstr "チケットを買う"
+
+msgid "Get a Ticket"
+msgstr "チケットをゲットする"
+
+msgid "Play now"
+msgstr "今すぐプレイする"
+
+msgid "No active lotteries."
+msgstr "アクティブなロトはありません。"
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "時"
+
+msgctxt "inline"
+msgid "min"
+msgstr "分"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "秒"
+
+msgid "see more"
+msgstr "さらにみる"
+
+msgid "No latest news."
+msgstr "最新ニュースはありません。"
+
+msgid "This lottery is inactive."
+msgstr "このロトは無効です。"
+
+msgid "Latest results"
+msgstr "最新の結果"
+
+msgid "No latest results."
+msgstr "最新の結果がありません。"
+
+msgid "How to play and win?"
+msgstr "プレイして勝つ方法とは？"
+
+msgid "learn more"
+msgstr "さらに知る"
+
+msgid "No slides."
+msgstr "スライドがありません。"
+
+msgid "Latest winners"
+msgstr "最新の勝者"
+
+msgid "%s from %s won"
+msgstr "%sから%sを勝ちました"
+
+msgid "No winners."
+msgstr "勝者はいません"
+
+msgid "Quick Pick All"
+msgstr "全てをクイックピックする"
+
+msgid "Clear All"
+msgstr "全てをクリアにする"
+
+msgid "You cannot add more tickets to your order!"
+msgstr "注文にチケットを足すことはできません！"
+
+msgid "You can order a multiple of %s lines only."
+msgstr "%sラインの倍数のみを注文できます。"
+
+msgid "Minimum lines for this lottery is %s."
+msgstr "このロトーの最低ライン数は%sです。"
+
+msgid ""
+"It's too late to buy a ticket for the nearest draw. Your order will be moved "
+"to the next draw!"
+msgstr ""
+"直近の抽選のチケット購入の期限が過ぎました。あなたの注文は次の抽選会に回され"
+"ます！"
+
+msgid "Clear"
+msgstr "クリア"
+
+msgid "Pick %d numbers and %d bonus"
+msgstr "%dの番号と%dのボーナスを選択してください"
+
+msgid "Pick %d numbers"
+msgstr "%dの番号を選択してください"
+
+msgid "Processing..."
+msgstr "処理中..."
+
+msgid "confirm"
+msgstr "確認する"
+
+msgid "+ Add new line"
+msgstr "+ 新しいラインを足す"
+
+msgid "+ Edit line"
+msgstr "+ ラインを編集する"
+
+msgid "Fewer Lines -"
+msgstr "ラインを減らす -"
+
+msgid "More Lines +"
+msgstr "ラインを増やす +"
+
+msgid "continue"
+msgstr "続ける"
+
+msgid "required"
+msgstr "項目 :label は必要です。"
+
+msgid "min_length"
+msgstr "項目 :label には最低 :param:1 文字が必要です。"
+
+msgid "max_length"
+msgstr "項目 :label には最高 :param:1 文字以内であることが必要です。"
+
+msgid "exact_length"
+msgstr "項目 :label には正確に :param:1 文字が含まれていることが必要です。"
+
+msgid "match_value"
+msgstr "項目 :label の値には :param:1 が含まれていることが必要です。"
+
+msgid "match_pattern"
+msgstr "項目 :label には無効な文字が含まれています。"
+
+msgid "match_field"
+msgstr "項目 :label の項目は :param:1 と一致することが必要です。"
+
+msgid "valid_email"
+msgstr "項目 :label には有効な電子メールアドレスが含まれていることが必要です。"
+
+msgid "valid_emails"
+msgstr "項目 :label には有効な電子メールアドレスのリストが含まれていることが必要です。"
+
+msgid "valid_url"
+msgstr "項目 :label には有効な URL が含まれていることが必要です。"
+
+msgid "valid_ip"
+msgstr "項目 :label には有効な IP アドレスが含まれていることが必要です。"
+
+msgid "numeric_min"
+msgstr ":label の :最小の数値は :param:1 である必要です。"
+
+msgid "numeric_max"
+msgstr ":label の :最大の数値は :param:1 である必要です。"
+
+msgid "numeric_between"
+msgstr "項目 :label の値は :param:1 と :param:2 の間の数字であることが必要です。"
+
+msgid "valid_string"
+msgstr "項目 :label には無効な文字が含まれています。"
+
+msgid "required_with"
+msgstr "項目 :label には :param:1 に値がある場合、値が必要です。"
+
+msgid "valid_date"
+msgstr "項目 :label には有効にフォーマットされた日付が必要です。"
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

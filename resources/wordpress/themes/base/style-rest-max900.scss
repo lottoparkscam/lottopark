@@ -1,0 +1,93 @@
+@media screen and (max-width: 900px) {
+  /***** SMALL WIDGETS *****/
+  /* winner */
+  .small-widget-winners-item {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding-top: 0;
+  }
+  .small-widget-winners-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /**** TICKET *****/
+  .group_play_title {
+    width: 100%;
+  }
+
+  .widget-ticket-entity:nth-of-type(4n + 1) {
+    margin-left: -1px;
+  }
+  .widget-ticket-entity:nth-of-type(3n + 1) {
+    margin-left: 2px;
+  }
+  .widget-raffle-ticket-summary {
+    width: 100%;
+  }
+
+  .widget-ticket-content-horizontal {
+    margin-top: 0;
+
+    .widget-ticket-entity-horizontal {
+      width: 100%;
+
+      &:nth-child(n) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .widget-ticket-options {
+    flex-wrap: wrap;
+
+    .widget-ticket-additional-form {
+      display: block;
+      width: 100%;
+      margin: 0 0 20px;
+      border-radius: 4px;
+
+      &:first-child {
+        border: 1px solid #d3d0d0;
+      }
+    }
+  }
+
+  /***** FORMS *****/
+  .platform-form-profile-side-left,
+  .platform-form-profile-side-right {
+    width: 100%;
+    padding: 0;
+  }
+  .platform-form-profile .nmt:nth-of-type(2) {
+    margin-top: 14px;
+  }
+  .platform-form-profile .btn {
+    width: 200px;
+    text-align: center;
+  }
+
+  /**** TICKETS ****/
+  .tickets-lottery {
+    font-weight: inherit;
+  }
+
+  .widget-ticket-additional-form-box {
+    &.w-50 {
+      width: 100%;
+    }
+  }
+
+  .widget-ticket-additional-form-header {
+    margin-left: 0;
+  }
+
+  .widget-ticket-additional-form {
+    min-height: 0;
+  }
+
+  .widget-ticket-additional-form-first {
+    border-right: 1px solid #d3d0d0;
+    margin-bottom: 20px;
+  }
+}

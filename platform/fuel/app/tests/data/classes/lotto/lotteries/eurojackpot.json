@@ -1,0 +1,281 @@
+{
+    "objType": "zahlenUndQuoten",
+    "error": null,
+    "head": {
+      "version": "1.0",
+      "spielart": "EJ",
+      "spielformel": "5 aus 50 und 2 aus 10",
+      "datum": "2021-11-12",
+      "fehlenDaten": false,
+      "folgeZiehung": {
+        "datum": "2021-11-19",
+        "annahmeschluss": "2021-11-19T19:00:00+01:00"
+      },
+      "standErwarteteGewinne": {
+        "hauptlotterieAusgewertet": true,
+        "spiel77Ausgewertet": false,
+        "super6Ausgewertet": false
+      },
+      "spielrunde": null
+    },
+    "zahlen": {
+      "hauptlotterie": {
+        "ziehungen": [
+          {
+            "bezeichnung": "5 aus 50",
+            "zahlenSortiert": [
+              "4",
+              "30",
+              "43",
+              "44",
+              "46"
+            ],
+            "zahlen": [
+              "4",
+              "44",
+              "46",
+              "30",
+              "43"
+            ],
+            "zusatzzahl": "",
+            "superzahl": "",
+            "gewinnklasse": null
+          },
+          {
+            "bezeichnung": "2 aus 10",
+            "zahlenSortiert": [
+              "1",
+              "3"
+            ],
+            "zahlen": [
+              "3",
+              "1"
+            ],
+            "zusatzzahl": "",
+            "superzahl": "",
+            "gewinnklasse": null
+          }
+        ]
+      },
+      "kandidatenspiel": {
+        "spiele": []
+      },
+      "jokerzahl": "",
+      "spiel77": "",
+      "super6": "",
+      "plus5": "",
+      "gsPraemienziehung": {
+        "ziehungen": []
+      },
+      "hauptlotterieAsNr": 506,
+      "hauptlotterieName": null
+    },
+    "auswertung": {
+      "spieleinsatz": {
+        "waehrung": "EUR",
+        "hauptlotterie": 41734444.00,
+        "spiel77": null,
+        "super6": null,
+        "plus5": null,
+        "einsatznrw": {
+          "hauptlotterie": 4535642.00,
+          "spiel77": null,
+          "super6": null,
+          "plus5": null,
+          "gsPraemienziehung": null
+        },
+        "gsPraemienziehung": null
+      },
+      "quoten": {
+        "hauptlotterie": {
+          "ziehungen": [
+            {
+              "bezeichnung": "",
+              "typ": "",
+              "waehrung": "EUR",
+              "gewinnklassen": [
+                {
+                  "klasse": 1,
+                  "beschreibung": "5 Richtige + 2 Eurozahlen",
+                  "kurzbeschreibung": "5 + 2",
+                  "anzahl": 0,
+                  "nkAnzahl": 0,
+                  "quote": 0.00,
+                  "quoteText": "",
+                  "jackpot": 10069344.32,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 2,
+                  "beschreibung": "5 Richtige + 1 Eurozahl",
+                  "kurzbeschreibung": "5 + 1",
+                  "anzahl": 3,
+                  "nkAnzahl": 0,
+                  "quote": 591237.90,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 3,
+                  "beschreibung": "5 Richtige + 0 Eurozahlen",
+                  "kurzbeschreibung": "5 + 0",
+                  "anzahl": 2,
+                  "nkAnzahl": 0,
+                  "quote": 313008.30,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 4,
+                  "beschreibung": "4 Richtige + 2 Eurozahlen",
+                  "kurzbeschreibung": "4 + 2",
+                  "anzahl": 36,
+                  "nkAnzahl": 0,
+                  "quote": 5796.40,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 5,
+                  "beschreibung": "4 Richtige + 1 Eurozahl",
+                  "kurzbeschreibung": "4 + 1",
+                  "anzahl": 573,
+                  "nkAnzahl": 0,
+                  "quote": 327.70,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 6,
+                  "beschreibung": "4 Richtige + 0 Eurozahlen",
+                  "kurzbeschreibung": "4 + 0",
+                  "anzahl": 1089,
+                  "nkAnzahl": 0,
+                  "quote": 134.10,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 7,
+                  "beschreibung": "3 Richtige + 2 Eurozahlen",
+                  "kurzbeschreibung": "3 + 2",
+                  "anzahl": 1486,
+                  "nkAnzahl": 0,
+                  "quote": 84.20,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 8,
+                  "beschreibung": "2 Richtige + 2 Eurozahlen",
+                  "kurzbeschreibung": "2 + 2",
+                  "anzahl": 23798,
+                  "nkAnzahl": 0,
+                  "quote": 27.10,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 9,
+                  "beschreibung": "3 Richtige + 1 Eurozahl",
+                  "kurzbeschreibung": "3 + 1",
+                  "anzahl": 27662,
+                  "nkAnzahl": 0,
+                  "quote": 22.60,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 10,
+                  "beschreibung": "3 Richtige + 0 Eurozahlen",
+                  "kurzbeschreibung": "3 + 0",
+                  "anzahl": 47870,
+                  "nkAnzahl": 0,
+                  "quote": 18.70,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 11,
+                  "beschreibung": "1 Richtige + 2 Eurozahlen",
+                  "kurzbeschreibung": "1 + 2",
+                  "anzahl": 137822,
+                  "nkAnzahl": 0,
+                  "quote": 11.80,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                },
+                {
+                  "klasse": 12,
+                  "beschreibung": "2 Richtige + 1 Eurozahl",
+                  "kurzbeschreibung": "2 + 1",
+                  "anzahl": 436594,
+                  "nkAnzahl": 0,
+                  "quote": 9.10,
+                  "quoteText": "",
+                  "jackpot": null,
+                  "anmerkungsNummer": null,
+                  "aufteilung": null
+                }
+              ],
+              "erwarteteGewinnsummen": {
+                "bezeichnung": "",
+                "folgeziehung": "2021-11-19",
+                "gewinnklassen": [
+                  {
+                    "klasse": 1,
+                    "waehrung": "EUR",
+                    "jackpot": 20000000.00,
+                    "jackpotVorlaeufig": null
+                  },
+                  {
+                    "klasse": 2,
+                    "waehrung": "EUR",
+                    "jackpot": 1000000.00,
+                    "jackpotVorlaeufig": null
+                  }
+                ],
+                "annahmeschluss": "2021-11-19T19:00:00+01:00"
+              },
+              "anmerkungen": []
+            }
+          ],
+          "anmerkungen": []
+        },
+        "spiel77": null,
+        "super6": null,
+        "plus5": null,
+        "gsPraemienziehung": null
+      },
+      "hauptlotterieAsNr": 506,
+      "hauptlotterieName": null,
+      "hinweiseAufteilung": []
+    },
+    "history": {
+      "jahre": [],
+      "wochen": [],
+      "tage": [],
+      "wettrunden": null
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "code": 200,
+  "enabledSlotGames": [
+    {
+      "is_deleted": "0",
+      "has_demo": "1",
+      "order": "0",
+      "id": "2343",
+      "slot_provider_id": "1",
+      "uuid": "2412a37e79968dd67d34c0dc349dd64fba380cd1",
+      "name": "Casinowar Mobile",
+      "image": "\/wp-content\/slots\/games\/2470a37e79912ff67d34c0dc349dd63fta380cd0.png",
+      "type": "card",
+      "provider": "SuperSpadeGames",
+      "technology": "HTML5",
+      "has_lobby": "1",
+      "has_freespins": "0",
+      "is_mobile": "1",
+      "freespin_valid_until_full_day": "0"
+    },
+    {
+      "is_deleted": "0",
+      "has_demo": "1",
+      "order": "0",
+      "id": "1084",
+      "slot_provider_id": "1",
+      "uuid": "31346d451fe046dd302e76409cbf6e5bc331a173",
+      "name": "Lucky Blue Mobile",
+      "image": "\/wp-content\/slots\/games\/0034dd451fe046d2302e76409cbf6e5sd86a173.png",
+      "type": "slots",
+      "provider": "BGaming",
+      "technology": "HTML5",
+      "has_lobby": "0",
+      "has_freespins": "1",
+      "is_mobile": "1",
+      "freespin_valid_until_full_day": "0"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+upstream backend_whitelotto {
+    server httpd:8443;
+}
+
+map $upstream_http_page_cache $no_cache_map {
+    default     1;
+    true   0;
+}
+
+proxy_cache_path /var/cache/nginx/MAINDOMAIN/ levels=1:2 keys_zone=cache_MAINDOMAIN:10m max_size=2g inactive=60m use_temp_path=off;
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name MAINDOMAIN www.MAINDOMAIN admin.MAINDOMAIN empire.MAINDOMAIN;
+
+	location ~ /\.ht {
+		deny all;
+	}
+	return 301 https://$server_name$request_uri;
+
+	error_log /var/log/nginx/MAINDOMAIN-error.log warn;
+	access_log /var/log/nginx/MAINDOMAIN-access.log combined;	
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/whitelotto.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/whitelotto.work/privkey.pem;
+
+	server_name MAINDOMAIN www.MAINDOMAIN;
+	
+	add_header X-Cache $upstream_cache_status;
+	include conf.d/headers-security;
+	include conf.d/headers-security-MAINDOMAIN;
+	include conf.d/headers-proxy;
+	proxy_cache_bypass $http_upgrade;
+
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+	if ($upstream_http_page_cache = true) {
+		set $no_cache_map 0;
+	}
+
+	location / {
+		proxy_no_cache $no_cache_map;
+		proxy_cache cache_MAINDOMAIN;
+		include conf.d/proxy-cache;
+		proxy_pass https://backend_whitelotto;
+	}
+
+
+	error_log /var/log/nginx/MAINDOMAIN-error.log warn;
+	access_log /var/log/nginx/MAINDOMAIN-access.log combined;
+}
+

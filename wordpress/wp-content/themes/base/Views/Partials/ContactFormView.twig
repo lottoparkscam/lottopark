@@ -1,0 +1,21 @@
+<section class="contact-form-content">
+	<div id="validationErrors"></div>
+	<form class="wpcf7-form contactForm" action="{{action}}" method="post">
+		<label for="{{inputsNames.name}}">{{'Your name' | trans}} ({{'Required' | trans}}):</label>
+		<input type="text" name="{{inputsNames.name}}" value="{{values[inputsNames.name]}}" required>
+		<br>
+		<label for="{{inputsNames.email}}">{{'Your email' | trans}} ({{'Required' | trans}}):</label>
+		<input type="email" name="{{inputsNames.email}}" value="{{values[inputsNames.email]}}" required>
+		<br>
+		<label for="{{inputsNames.phone}}">{{'Your phone' | trans}}:</label>
+		<input type="tel" name="{{inputsNames.phone}}" value="{{values[inputsNames.phone]}}">
+		<br>
+		<label for="{{inputsNames.subject}}">{{'Subject' | trans}} ({{'Required' | trans}}):</label>
+		<input type="text" name="{{inputsNames.subject}}" value="{{values[inputsNames.subject]}}" required>
+		<br>
+		<label for="{{inputsNames.message}}">{{'Your message' | trans}} ({{'Required' | trans}}):</label>
+		<textarea name="{{inputsNames.message}}" required>{{values[inputsNames.message]}}</textarea>
+		{{captcha | raw}}
+		<input type="submit" value="{{'Send' | trans}}" class="btn btn-primary btn-lg btn-mobile-large submitButton">
+	</form>
+</section>

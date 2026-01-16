@@ -1,0 +1,26 @@
+FROM docker-repo.gginternational.work/gg-httpd AS gg-httpd
+
+ARG PHP_VERSION
+ARG DEBIAN_FRONTEND=noninteractive
+
+COPY ./config/ssl/localhost.crt ./config/ssl/localhost.key /etc/ssl/whitelotto/
+    
+COPY ./config/sites-available/ /etc/apache2/sites-available/
+
+RUN a2disconf php* || true && \
+    a2enconf php${PHP_VERSION}-fpm && \
+    a2ensite 001-whitelotto.loc.conf 002-lottopark.loc.conf
+
+RUN ln -sf /dev/stdout /var/log/apache2/whitelotto.loc-access.log \
+	&& ln -sf /dev/stderr /var/log/apache2/whitelotto.loc-error.log \
+	&& ln -sf /dev/stderr /var/log/apache2/lottopark.loc-access.log \
+	&& ln -sf /dev/stderr /var/log/apache2/lottopark.loc-error.log
+
+STOPSIGNAL SIGWINCH
+
+COPY startup-gg.sh /usr/local/bin/
+
+ENTRYPOINT ["startup-gg.sh"]
+
+EXPOSE 8443
+CMD ["apache2ctl", "-DFOREGROUND"]

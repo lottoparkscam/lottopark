@@ -1,0 +1,38 @@
+body
+{
+	color: #87979c;
+}
+h1, h2, h3, h4, h5, h6
+{
+	color: #384656;
+}
+a
+{
+	color: #1db4ed;
+}
+
+table
+{
+	color: #767b82;
+}
+
+table thead tr td, table tbody tr td, table tfoot tr td
+{
+	border-top: 1px solid #e5ebef;
+	border-bottom: 1px solid #e5ebef;
+}
+
+table thead tr
+{
+	background: #e5ebef;
+}
+
+table tfoot tr
+{
+	background: #f8fafb;
+}
+
+table span.fa
+{
+	color: #1db4ed;
+}

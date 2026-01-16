@@ -1,0 +1,255 @@
+@media screen and (max-width: 720px) {
+  /****** ARTICLES/POSTS ******/
+  article.page h1.play-lottery {
+    margin-bottom: 15px;
+    margin-top: 17px;
+  }
+
+  /***** TABLES *****/
+  table.table-payments,
+  table.table-payments thead,
+  table.table-payments tbody,
+  table.table-payments tfoot,
+  table.table-payments th,
+  table.table-payments td,
+  table.table-payments tr {
+    display: block;
+  }
+  table.table-payments thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  table.table-payments tr {
+    position: relative;
+  }
+  table.table-payments tbody tr td {
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-bottom: 0px;
+  }
+  table.table-payments tbody tr td:first-of-type {
+    padding-top: 15px;
+    padding-left: 0;
+  }
+  table.table-payments tbody tr td:nth-last-of-type(2) {
+    padding-bottom: 15px;
+  }
+  table.table-payments tbody tr td:last-of-type {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding-right: 0;
+  }
+
+  table.table-info-detailed,
+  table.table-info-detailed thead,
+  table.table-info-detailed tbody,
+  table.table-info-detailed tfoot,
+  table.table-info-detailed th,
+  table.table-info-detailed td,
+  table.table-info-detailed tr,
+  table.table-withdrawals,
+  table.table-withdrawals thead,
+  table.table-withdrawals tbody,
+  table.table-withdrawals th,
+  table.table-withdrawals td,
+  table.table-withdrawals tr {
+    display: block;
+  }
+  table.table-info-detailed thead tr,
+  table.table-withdrawals thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  table.table-withdrawals tbody tr td {
+    text-align: left;
+    height: auto;
+    padding: 0;
+  }
+  table.table-withdrawals tbody tr td:first-of-type {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 0;
+  }
+  table.table-withdrawals tbody tr td:last-of-type {
+    padding-bottom: 13px;
+  }
+
+  table.table-info-detailed thead tr th:first-of-type,
+  table.table-info-detailed tbody tr td:first-of-type {
+    padding-top: 13px;
+  }
+  table.table-info-detailed thead tr th:last-of-type,
+  table.table-info-detailed tbody tr td:last-of-type {
+    padding-bottom: 13px;
+  }
+  table.table-info-detailed thead tr th,
+  table.table-info-detailed tbody tr td,
+  table.table-info-detailed tfoot tr td {
+    padding: 0;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  table.table-info-detailed .ticket-line-number,
+  table.table-info-detailed .ticket-line-bnumber {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 18px;
+    font-size: 0.75em;
+    margin: 0;
+  }
+  table.table-info-detailed tbody tr td:first-of-type {
+    padding-left: 0;
+  }
+
+  table.table-info-detailed tbody tr td:nth-child(1) {
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: left;
+  }
+  table.table-info-detailed tbody tr:first-of-type td:nth-child(1) {
+    padding-top: 0;
+  }
+
+  table.table-info-detailed .mobile-unbold,
+  table.table-info-detailed
+    td.table-info-detailed-prize
+    span.table-info-detailed-prize-bold {
+    font-weight: normal;
+    font-size: inherit;
+  }
+  table.table-info-detailed tfoot tr td:first-of-type {
+    padding-left: 0;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+  table.table-info-detailed tfoot tr td:last-of-type {
+    padding-bottom: 10px;
+  }
+
+  table.table-info-detailed .mobile-hide {
+    display: none;
+  }
+  table.table-short tbody tr td:nth-of-type(1) {
+    width: 100%;
+  }
+  table.table-short tbody tr td:nth-of-type(2) {
+    width: 100%;
+  }
+  table.table-short tbody tr td:nth-of-type(3) {
+    width: 100%;
+  }
+  table.table-short tbody tr td:nth-of-type(4) {
+    width: 100%;
+  }
+
+  table.table-info-detailed
+    td.table-info-detailed-prize
+    span.table-info-detailed-prize-bold {
+    font-weight: normal;
+  }
+  table.table-info-detailed .table-info-detailed-prize-amount {
+    font-weight: bold;
+  }
+
+  /***** TICKET ****/
+  .widget-ticket {
+    &-summary {
+      .pull-left,
+      .pull-right {
+        float: none;
+      }
+      &-image {
+        width: 100%;
+        margin-top: 0;
+      }
+      &-content {
+        text-align: center;
+        margin: 15px 0;
+        &-total {
+          text-align: center;
+          margin: 15px;
+        }
+      }
+    }
+  }
+
+  .widget-ticket-alert:first-of-type {
+    margin-top: 15px;
+  }
+  .widget-ticket-alert:last-of-type {
+    margin-bottom: 15px;
+  }
+
+  /**** MOBILE ****/
+  table.table-payments .mobile-only-label {
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  table.table-withdrawals .mobile-unbold {
+    font-weight: 300;
+  }
+  table.table-info-detailed .mobile-only-label {
+    display: inline-block;
+  }
+
+  table.table-withdrawals .mobile-only-label {
+    display: inline-block;
+    font-weight: normal;
+  }
+  table.table-withdrawals tr td:first-of-type .mobile-only-label {
+    font-weight: inherit;
+  }
+
+  .mobile-show-filter {
+    display: block;
+  }
+
+  .myaccount-tickets-mobile-sort {
+    margin-bottom: 15px;
+  }
+
+  /**** MY ACCOUNT *****/
+  .myaccount-data {
+    margin-top: 25px;
+  }
+  .mobile-hide-filter {
+    display: none;
+  }
+  article.page h1.account {
+    margin-bottom: 5px;
+  }
+
+  //raffle info
+  table.table-short.table-raffle-info tbody tr td:nth-of-type(1) {
+    width: auto;
+  }
+  table.table-short.table-raffle-info tbody tr td:nth-of-type(2) {
+    width: auto;
+  }
+  table.table-short.table-raffle-info tbody tr td:nth-of-type(3) {
+    width: auto;
+  }
+  table.table-short.table-raffle-info tbody tr td:nth-of-type(4) {
+    width: auto;
+  }
+
+  /**** CASINO PROMO BANNER ****/
+  #casinoPromoBanner {
+    div {
+      &.textContainer {
+        h2 {
+          font-size: 6vw;
+        }
+      }
+    }
+  }
+}

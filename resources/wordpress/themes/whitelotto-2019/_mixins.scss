@@ -1,0 +1,67 @@
+// breakpoints
+
+@mixin w1600 {
+  @media (max-width: 1599px) {
+    @content;
+  }
+}
+
+@mixin w1250 {
+  @media (max-width: 1249px) {
+    @content;
+  }
+}
+
+@mixin w1050 {
+  @media (max-width: 1049px) {
+    @content;
+  }
+}
+
+@mixin w768 {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin w576 {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin w500 {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin w460 {
+  @media (max-width: 460px) {
+    @content;
+  }
+}
+
+@mixin w430 {
+  @media (max-width: 430px) {
+    @content;
+  }
+}
+
+@mixin w400 {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+
+@mixin w360 {
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+
+@mixin w340 {
+  @media (max-width: 340px) {
+    @content;
+  }
+}

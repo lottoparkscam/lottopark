@@ -1,0 +1,36 @@
+<?php
+
+if(!function_exists("is_user_logged_in")) {
+	function is_user_logged_in() {
+		$loggedin = false;
+		foreach ( (array) $_COOKIE as $cookie => $value)
+		{
+			if(stristr($cookie, 'wordpress_logged_in_'))
+			$loggedin = true;
+		}
+		return $loggedin;
+	}
+}
+if(file_exists(realpath(__DIR__.'/../platform/fuel/app/').'/.maintenance'))
+{
+	// full maintenance
+	// Also blocks IPN notifications, so order/confirm request urls etc.
+
+	// we disable maintenance mode only when executing commands in cli
+	// because it previously blocked execution of commands
+	$isNotCommandFromCli = !defined('WORDPRESS_INSIDE_FUEL');
+	if ($isNotCommandFromCli) {
+		$upgrading = time();
+	}
+}
+elseif(is_user_logged_in() || strpos($_SERVER['REQUEST_URI'], '/wp-admin') !== false || strpos($_SERVER['REQUEST_URI'], '/wp-login.php') !== false)
+{
+	// give access if not full maintenance
+}
+else
+{
+	// block access to the rest
+	$upgrading = time();
+}
+
+?>

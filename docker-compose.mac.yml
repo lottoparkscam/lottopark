@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  httpd:
+    volumes:
+      - ${WWW_DATA_VOLUME_NAME}:${PROJECT_FOLDER}:nocopy
+  php:
+    volumes:
+      - ${WWW_DATA_VOLUME_NAME}:${PROJECT_FOLDER}:nocopy
+
+volumes:
+  db_data: {}
+  www_data: {}
+  db_log: {}
+  httpd_log: {}
+  nginx_log: {}
+  php_log: {}
+  whitelotto_log: {}
+  wp_content: {}
+  phpsocket:
+  mysqldsocket:
+  mysqld_scripts:
+  redis_log: {}
+  redis_lib: {}
+  page_cache:
+  whitelotto-sync:
+    external: true

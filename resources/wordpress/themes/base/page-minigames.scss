@@ -1,0 +1,107 @@
+// page-minigames
+
+@use "sass:math";
+
+.minigames-container {
+    --gutter: 1rem;
+    padding-top: 1.5rem;
+    padding-right: calc(0.5 * var(--gutter));
+    padding-left: calc(0.5 * var(--gutter));
+
+    @media (min-width: 768px) {
+        --gutter: 2rem;
+    }
+
+    *,
+    *::before,
+    *::after { box-sizing: border-box; }
+}
+
+.minigames-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: calc(-0.5 * var(--gutter));
+    margin-left: calc(-0.5 * var(--gutter));
+}
+
+.minigames-col {
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--gutter) * 0.5);
+    padding-left: calc(var(--gutter) * 0.5);
+}
+
+.minigames-item {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: var(--gutter);
+    padding-right: calc(0.5 * var(--gutter));
+    padding-left: calc(0.5 * var(--gutter));
+
+    @media (min-width: 576px) {
+        width: #{math.percentage(math.div(1,2))};
+    }
+
+    @media (min-width: 768px) {
+        width: #{math.percentage(math.div(1,2))};
+    }
+
+    @media (min-width: 992px) {
+        width: #{math.percentage(math.div(1,3))};
+    }
+
+    .minigames-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .minigames-card-body {
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .minigames-card-footer {
+        padding: 1.5rem;
+        border-top: 1px solid #eaeaea;
+
+        .btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .minigames-img {
+        width: 90px;
+        min-width: 90px;
+        height: 95px;
+        display: block;
+        margin-right: 1.5rem;
+    }
+
+    .minigames-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .minigames-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #424242;
+        font-size: 24px;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .minigames-title-name {
+            color: #67bd2e;
+            font-size: 20px;
+        }
+    }
+}

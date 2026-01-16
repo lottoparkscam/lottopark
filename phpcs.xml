@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<ruleset>
+    <!-- Modules -->
+    <file>platform/fuel/app/classes/modules</file>
+    <file>platform/fuel/app/classes/repositories/orm</file>
+    <file>platform/fuel/app/classes/Abstracts</file>
+    <file>platform/fuel/app/classes/bus</file>
+    <file>platform/fuel/app/classes/controller</file>
+    <file>platform/fuel/app/classes/database</file>
+    <file>platform/fuel/app/classes/enums</file>
+    <file>platform/fuel/app/classes/events</file>
+
+    <!-- Tests -->
+    <file>platform/fuel/app/tests/unit</file>
+    <file>platform/fuel/app/tests/feature</file>
+    <file>platform/fuel/app/tests/fixtures</file>
+
+    <!-- Include full PSR12 Coding Standard -->
+    <rule ref="PSR12"/>
+
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="256"/>
+            <property name="absoluteLineLimit" value="256"/>
+        </properties>
+    </rule>
+
+    <rule ref="Generic.Files.LineLength.MaxExceeded">
+        <properties>
+            <property name="lineLimit" value="256"/>
+            <property name="absoluteLineLimit" value="256"/>
+        </properties>
+
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/classes/controller/task.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/dev.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
+        <exclude-pattern>platform/fuel/app/tests/*</exclude-pattern>
+
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Jeton/Form/JetonPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Trustpayments/Form/TrustPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Tamspay/Form/TamspayPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Astro/Form/AstroPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Astro/Form/AstroCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Trustpayments/Form/TrustPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Tamspay/Form/TamspayPaymentForm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/Astro/Form/AstroCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/modules/Payments/AbstractPaymentCustomOptionsValidation.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/crm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/wordpress.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/oauth.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/debit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/charge.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/register.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/login.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Slots/Slotegrator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/error.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/mediacle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/FlashMessage.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Slots.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/CasinoSlider.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Popup.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Order.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Draw.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Tracking.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Account.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Raffle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/LotteryResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/RaffleResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/SeoWidgets.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/zen.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/checkouts.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/doc.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/temp.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/task.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/aff.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/index.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Aff/password.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/data.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/validator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/authentication.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/whitelabel.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/dev.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/admin.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/migration/graceful.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/service/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/transaction/accept.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/withdrawal/approve.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/event.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Crm/Modules/Settings/Casino/GamesOrder.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/MiniGames.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PEAR.Functions.ValidDefaultValue.NotAtEnd">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+    </rule>
+
+    <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/tests/unit/classes/services/MemoizeTest.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/tests/feature/helpers/raffle/RaffleMailerTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/wordpress/wp_content/plugins/lotto_platform/includes/Lotto/Platform/ConfigureCasinoSeoFiltersTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/wordpress/wp_content/plugins/lotto_platform/includes/Lotto/Platform/ConfigureCasinoSeoFiltersTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/wordpress/wp_content/plugins/lotto_platform/includes/Lotto/Platform/ConfigureCasinoSeoFiltersTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/wordpress/wp_content/plugins/lotto_platform/includes/Lotto/Platform/ConfigureCasinoSeoFiltersTest.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+        <!-- @tech debt @see https://trello.com/c/vsCKuAfa/1465-phpcs-d%C5%82ug-techniczny-w-testach -->
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/Services/Slots/LimitTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/Services/Slots/SecurityTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/Repositories/AbstractRepositoryTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/helpers/CacheTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/classes/lotto/lotteries/helper/draw/QuinaTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/helpers/CasesTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/Repositories/AbstractRepositoryTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/Repositories/AbstractRepositoryTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/login.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/update.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/register.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Crm/Modules/Settings/Casino/GamesOrder.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/MiniGames.php</exclude-pattern>
+        <!-- // tech debt -->
+
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/classes/controller/crm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/wordpress.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/crm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/wordpress.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/oauth.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/debit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/charge.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/register.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/login.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Slots/Slotegrator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/error.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/mediacle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/FlashMessage.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Slots.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/CasinoSlider.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Popup.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Order.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Draw.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Tracking.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Account.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Raffle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/LotteryResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/RaffleResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/SeoWidgets.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/zen.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/checkouts.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/doc.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/temp.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/task.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/aff.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/index.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Aff/password.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/data.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/validator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/authentication.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/whitelabel.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/dev.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/admin.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/migration.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/service/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/pdo/custom.php</exclude-pattern><exclude-pattern>platform/fuel/app/classes/database/migration/graceful.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/item/view.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/ticket/payout.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/transaction/accept.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/withdrawal/approve.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/withdrawal/cancel.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/event.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/account/confirm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/edit/profile.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/edit/email.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit/failure.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit/success.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase/failure.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase/success.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/cart/add.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/cart/checkout.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+    </rule>
+
+    <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/tests/unit/classes/models/ModelAbstractTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/feature/classes/models/ModelAbstractTest.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/tests/unit/classes/model/orm/ModelCastPropertyTest.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/tests/unit/helpers/lottery/get_real_next_draw_test.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/crm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/wordpress.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/crm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/wordpress.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/oauth.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/debit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/users/balance/charge.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/register.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/auth/login.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Slots/Slotegrator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/error.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/mediacle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/FlashMessage.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Slots.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/CasinoSlider.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Popup.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Order.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Draw.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Tracking.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Account.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Raffle.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/Currency.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/LotteryResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/RaffleResult.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/SeoWidgets.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/zen.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/checkouts.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/doc.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/temp.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/task.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/aff.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/index.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Aff/password.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/data.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/trait/payment/validator.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/authentication.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/whitelabel.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/dev.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/admin.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/migration.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/pdo/custom.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/service/lottery.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/database/migration/graceful.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/item/view.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/ticket/payout.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/transaction/accept.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/withdrawal/approve.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/whitelabel/withdrawal/cancel.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/event.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/login.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/update.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/register.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/account/confirm.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/edit/profile.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/edit/email.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit/failure.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit/success.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/deposit.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase/failure.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/transaction/purchase/success.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/cart/add.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/events/user/cart/checkout.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/Crm/Modules/Settings/Casino/GamesOrder.php</exclude-pattern>
+        <exclude-pattern>platform/fuel/app/classes/controller/api/Internal/MiniGames.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Squiz.Scope.MethodScope.Missing">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+        <exclude-pattern>platform/fuel/app/tests/unit/classes/services/MemoizeTest.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine">
+        <exclude-pattern>platform/fuel/app/tests/unit/helpers/ValidationMessageHelperTest.php</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR12.Properties.ConstantVisibility.NotFound">
+        <!-- AUTO-GENERATED, PLEASE REVIEW -->
+    </rule>
+
+    <!-- Add rules from slevomat https://cylab.be/blog/169/detect-unnecessary-use-statements-with-php-codesniffer -->
+    <config name="installed_paths" value="../../slevomat/coding-standard"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+        <properties>
+            <property name="searchAnnotations" type="boolean" value="true" />
+        </properties>
+    </rule>
+</ruleset>

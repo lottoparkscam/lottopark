@@ -1,0 +1,259 @@
+upstream backend_WHITELABEL {
+    server httpd:8443;
+}
+
+map $http_origin $allow_origin {
+    ~^https?://(.*\.)?lottopark.work(:\d+)?$ $http_origin;
+    default "";
+}
+
+map $upstream_http_page_cache $no_cache_map {
+    default     1;
+    true   0;
+}
+
+proxy_cache_path /var/cache/nginx/WHITELABEL/ levels=1:2 keys_zone=cache_WHITELABEL:10m max_size=2g inactive=60m use_temp_path=off;
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name WHITELABEL www.WHITELABEL aff.WHITELABEL www.aff.WHITELABEL api.WHITELABEL www.api.WHITELABEL manager.WHITELABEL www.manager.WHITELABEL content.WHITELABEL www.content.WHITELABEL casino.WHITELABEL www.casino.WHITELABEL;
+
+	location ~ /\.ht {
+		deny all;
+	}
+	return 301 https://$server_name$request_uri;
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;	
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/lottopark.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/lottopark.work/privkey.pem;
+
+	server_name WHITELABEL www.WHITELABEL;
+
+	include conf.d/headers-security;
+	include conf.d/headers-security-WHITELABEL;
+	add_header X-Cache $upstream_cache_status;
+	proxy_cache_bypass $http_upgrade;
+	include conf.d/headers-proxy;
+
+	include "sites-available/custom_page_404";
+
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+	
+	#Don't cache if there is a cookie called wordpress_logged_in_[hash]
+	if ($http_cookie ~* "wordpress_logged_in_") {
+		set $no_cache_map 1;
+	}
+	if ($upstream_http_page_cache = true) {
+		set $no_cache_map 0;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+		proxy_no_cache $no_cache_map;
+		proxy_cache cache_WHITELABEL;
+		include conf.d/proxy-cache;
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	location ~ "^/([a-z]{0,3}?/?auth/.*)|(wp-admin).*|(wp-login).*$" {
+		proxy_no_cache 1;
+		proxy_cache_bypass 1;
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	location ^~ (/order|/index.php|/testing.php) {
+		proxy_pass https://backend_WHITELABEL;
+	}
+	
+	#fastcgi_param REMOTE_ADDR $http_x_forwarded_for;
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/lottopark.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/lottopark.work/privkey.pem;
+
+	server_name aff.WHITELABEL www.aff.WHITELABEL manager.WHITELABEL www.manager.WHITELABEL;
+
+	include conf.d/headers-security;
+	include conf.d/headers-security-WHITELABEL;
+	include conf.d/headers-proxy;
+
+    	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+
+	location / {
+		proxy_pass_header set-cookie;
+		proxy_no_cache 1;
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;
+
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/lottopark.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/lottopark.work/privkey.pem;
+
+	server_name api.WHITELABEL www.api.WHITELABEL;
+
+	include conf.d/headers-proxy;
+
+    	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		include conf.d/headers-security;
+		include conf.d/headers-security-WHITELABEL;
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		include conf.d/headers-security;
+		include conf.d/headers-security-WHITELABEL;
+		allow all;
+		default_type "text/plain";
+	}
+
+	location ^~ /api/internal/seoWidgets {
+		add_header X-Content-Type-Options "nosniff";
+		add_header Strict-Transport-Security "max-age=15768000; includeSubDomains; preload";
+		add_header X-XSS-Protection "1; mode=block";
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	location ^~ /slots {
+		include conf.d/headers-security;
+		include conf.d/headers-security-WHITELABEL;
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	location / {
+		include conf.d/headers-security;
+		include conf.d/headers-security-WHITELABEL;
+		proxy_pass_header set-cookie;
+		proxy_no_cache 1;
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;
+
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/lottopark.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/lottopark.work/privkey.pem;
+
+	server_name content.WHITELABEL www.content.WHITELABEL;
+
+	include conf.d/headers-security;
+	include conf.d/headers-security-WHITELABEL;
+	include conf.d/headers-proxy;
+
+	proxy_cache cache_WHITELABEL;
+	include conf.d/proxy-cache;
+	proxy_cache_bypass $http_upgrade;
+
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+	
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+		proxy_pass https://backend_WHITELABEL;
+	}
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;
+}
+
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	ssl_certificate         /etc/ssl/whitelotto/live/lottopark.work/fullchain.pem;
+	ssl_certificate_key     /etc/ssl/whitelotto/live/lottopark.work/privkey.pem;
+
+	server_name casino.WHITELABEL www.casino.WHITELABEL;
+
+	add_header X-Cache $upstream_cache_status;
+
+	include conf.d/headers-security;
+	include conf.d/headers-security-WHITELABEL;
+	include conf.d/headers-proxy;
+
+	proxy_cache_bypass $http_upgrade;
+
+ 	set $cache_auth_key '';
+	if ($http_authorization != '') {
+		set $cache_auth_key 'auth';
+	}
+	set $cache_key $cache_auth_key$scheme$host$uri;
+
+	include "sites-available/custom_page_404";
+
+	location ~ /\.ht {
+		deny all;
+	}
+	location ^~ /.well-known/ {
+		allow all;
+		default_type "text/plain";
+	}
+	location / {
+	    	proxy_pass_header set-cookie;
+		proxy_pass https://backend_WHITELABEL;
+		proxy_ignore_headers Set-Cookie;
+	}
+
+	error_log /var/log/nginx/WHITELABEL-error.log warn;
+	access_log /var/log/nginx/WHITELABEL-access.log combined;
+}
+

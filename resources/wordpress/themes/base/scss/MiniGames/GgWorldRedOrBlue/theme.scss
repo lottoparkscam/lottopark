@@ -1,0 +1,1048 @@
+.content-area {
+  background: url('../../images/MiniGames/gg-world-red-or-blue/bg.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.content-box {
+  border-radius: 10px !important;
+  padding: 20px !important;
+  background: #080D26 !important;
+}
+
+nav {
+  z-index: 9999 !important;
+}
+
+.miniGameWindow {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+
+  .gameHeader {
+    border-radius: 10px;
+    position: relative;
+    min-height: 145px;
+    text-align: center;
+    background: #111f51;
+
+    .gameHeaderBall {
+      position: relative;
+      width: 100px;
+      top: -11px;
+      margin: 0 auto;
+
+      img {
+        width: 130px;
+      }
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0;
+      position: relative;
+      top: -9px;
+    }
+  }
+
+  .gameMain {
+    width: 100%;
+    height: 234px;
+    transition: .2s;
+    position: relative;
+    overflow: hidden;
+
+    .gameOverlay {
+      position: absolute;
+      z-index: 99999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#000, .65);
+      border-radius: 10px;
+      display: none;
+      opacity: 0;
+      transition: .3s ease-in-out;
+
+      &.visible {
+        display: block;
+        opacity: 1;
+      }
+
+      .gameOverlayContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        .gameBoxMessage {
+          max-width: 350px;
+          width: 100%;
+          background-color: #2b3e82;
+          border-radius: 10px;
+          padding: 1px 34px 0;
+          transition: .2s ease-in-out;
+          @media (max-width: 600px) {
+            padding: 20px;
+            margin: 0 20px;
+            max-width: 300px;
+          }
+          display: flex;
+          align-items: center;
+
+          img {
+            animation: santaFloating 5s infinite ease-in-out;
+            margin-top: -12px;
+            display: block;
+            margin-left: -96px;
+
+            @media (max-width: 600px) {
+              width: 130px;
+              margin-top: -33px;
+              margin-left: -42px;
+            }
+          }
+
+          @keyframes santaFloating {
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+
+          @keyframes santaFloatingScaled {
+            50% {
+              transform: translateY(-10px) scale(.6);
+            }
+          }
+
+          .gameBoxMessageContent {
+            width: 100%;
+            text-align: center;
+            padding-left: 25px;
+
+            @media (max-width: 600px) {
+              margin-top: -17px;
+              padding-left: 0;
+            }
+
+            .buttonGame {
+              @media (max-width: 800px) {
+                margin-top: 15px;
+              }
+            }
+          }
+
+          .gameBoxMessageTitle {
+            font-size: 26px;
+            color: #fff;
+            font-weight: bold;
+            padding-top: 1px;
+            transition: .2s ease-in-out;
+
+            @media (max-width: 600px) {
+              font-size: 16px;
+
+              &.bigText {
+                font-size: 19px;
+              }
+            }
+          }
+
+          &.start {
+            background: transparent;
+
+            .gameBoxMessageTitle {
+              font-size: 16px;
+              padding-top: 40px;
+            }
+
+            .gameBoxSelect {
+              display: flex;
+              align-content: center;
+              justify-content: center;
+              padding-bottom: 20px;
+            }
+
+            .gameBoxSelectSide {
+              padding: 20px;
+              background: #0c3738;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              max-width: 134px;
+              @media (max-width: 600px) {
+                max-width: 120px;
+              }
+              width: 100%;
+              border-radius: 10px;
+              box-sizing: border-box;
+              transition: .2s ease;
+              color: #fff;
+              border: 4px solid transparent;
+              cursor: pointer;
+
+              &:nth-child(1) {
+                margin-right: 20px;
+
+                img {
+                  position: relative;
+                  left: -6px;
+                  @media (max-width: 600px) {
+                    left: -11px;
+                  }
+                  top: 4px;
+                }
+              }
+
+              &:nth-child(2) img {
+                position: relative;
+                left: 2px;
+                top: 6px;
+              }
+
+              img {
+                animation: pulse 2s infinite ease-in-out,
+              }
+
+              &.gameBoxSelected {
+                border: 4px solid #e94625;
+              }
+            }
+          }
+
+          &.sadChar {
+            max-width: 355px;
+            width: 60%;
+            position: relative;
+
+            @media (max-width: 600px) {
+              justify-content: center;
+              flex-direction: column;
+              margin-top: 55px;
+            }
+
+            img {
+              margin-left: -58px;
+              height: 226px;
+              @media (max-width: 600px) {
+                padding: 20px 0;
+                width: 80px;
+                margin: 0 auto;
+                margin-top: -88px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .music {
+      position: absolute;
+      z-index: 999;
+      top: 20px;
+      right: 20px;
+      width: 47px;
+      height: 47px;
+      background: #5262a4;
+      border-radius: 10px;
+
+      button {
+        width: 47px;
+        height: 47px;
+        border: none;
+        outline: none;
+        background: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        transition: .2s ease-in-out;
+
+        &:hover {
+          filter: brightness(120%);
+        }
+      }
+    }
+
+    .charRed {
+      position: absolute;
+      width: 306px;
+      height: 285px;
+      background: url('../../images/MiniGames/gg-world-red-or-blue/char-red.png');
+      left: 93px;
+      top: 31px;
+
+      @media (max-width: 1091px) {
+        left: 25px;
+      }
+
+      @media (max-width: 922px) {
+        left: 2px;
+      }
+      
+      @media (max-width: 800px) {
+        transform: scale(0.5);
+        top: -45px;
+        left: -29px;
+      }
+
+      @media (max-width: 600px) {
+        transform: scale(0.4);
+        top: -17px;
+        left: -17%;
+      }
+
+      @media (max-width: 450px) {
+        left: -32%;
+      }
+    }
+
+    .charBlue {
+      position: absolute;
+      width: 236px;
+      height: 299px;
+      background: url('../../images/MiniGames/gg-world-red-or-blue/char-blue-sad.png');
+      right: 157px;
+      top: 27px;
+
+      @media (max-width: 1091px) {
+        right: 84px;
+      }
+
+      @media (max-width: 922px) {
+        right: 46px;
+      }
+
+      @media (max-width: 800px) {
+        transform: scale(0.5);
+        top: -45px;
+        right: 3%;
+      }
+
+      @media (max-width: 600px) {
+        transform: scale(0.4);
+        top: -21px;
+        right: -5%;
+      }
+
+      @media (max-width: 450px) {
+        transform: scale(0.4);
+        top: -21px;
+        right: -18%;
+      }
+    }
+
+    .gameMessage {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      background: #3A3D44;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 250px;
+      width: 100%;
+      bottom: 94px;
+      transition: .35s;
+      text-align: center;
+
+      i {
+        margin-right: 5px;
+      }
+
+      &.active {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    @media (min-width: 800px) {
+      height: 300px;
+    }
+
+    @media (max-width: 600px) {
+      height: 247px;
+    }
+
+    background: url('../../images/MiniGames/gg-world-red-or-blue/bg-small.jpg') center center no-repeat;
+    @media (min-width: 800px) {
+      background: url('../../images/MiniGames/gg-world-red-or-blue/bg-small.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-size: cover;
+
+    .box {
+      position: relative;
+      margin: 0 auto;
+      width: 172px;
+      height: 194px;
+      transform: rotateY(0deg);
+      cursor: pointer;
+      background: url('../../images/MiniGames/gg-world-red-or-blue/box.png') center center no-repeat;
+      @media (max-width: 800px) {
+        transform: scale(0.7);
+        top: -20px;
+      }
+
+      @media (max-width: 600px) {
+        transform: scale(0.5);
+        top: 5px;
+        position: relative;
+        z-index: 99;
+      }
+    }
+
+    .gamePlayBtn,
+    .gameButton {
+      max-width: 180px;
+      width: 100%;
+      background: #fbed20;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      padding: 23px 0;
+      @media (max-width: 800px) {
+        padding: 10px 0;
+      }
+      font-size: 16px;
+      text-decoration: none;
+      color: #080d26;
+      margin: -20px auto 0;
+      transition: .2s;
+      transform: perspective(1px) translateZ(0);
+
+      @media (min-width: 800px) {
+        margin: 20px auto 0;
+      }
+      &:hover {
+        animation-name: hvr-buzz-out;
+        animation-duration: 0.75s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+      }
+    }
+
+    .gamePlayBtn {
+      @media (max-width: 600px) {
+        margin-top: -18px;
+      }
+    }
+
+    .gameButton {
+      @media (max-width: 800px) {
+        margin-top: 15px;
+      }
+      @media (max-width: 600px) {
+        margin-top: 9px;
+      }
+    }
+  }
+
+  .gameOptions {
+    background: #192558;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .2s;
+    margin-top: 20px;
+
+    @media (min-width: 800px) {
+      background: transparent;
+      display: flex;
+      padding: 20px 0;
+      margin-top: 0;
+    }
+
+    .gameOptionsFirstRow {
+      @media (min-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .gameBoxRow {
+          order: 2;
+          max-width: 300px;
+          margin: 0 auto;
+        }
+
+        .gameOptionsSide {
+          border: none;
+          background: #192558;
+          border-radius: 10px;
+          max-width: 100%;
+          width: 100%;
+          padding: 20px;
+          box-sizing: border-box;
+          margin: 0;
+        }
+      }
+    }
+
+    .gameMax {
+      max-width: 415px;
+      width: 100%;
+      margin: 0 auto;
+
+      @media (min-width: 800px) {
+        border: none;
+        background: #192558;
+        border-radius: 10px;
+        max-width: 100% !important;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 20px !important;
+
+        .gameStake {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    .gameStakeTrigger {
+      border-radius: 10px;
+      background: #080D26;
+      max-width: 167px;
+      width: 100%;
+      padding: 26px 20px;
+      margin-top: 25px;
+      box-sizing: border-box;
+      color: #fff;
+
+      .fa-chevron-down {
+        transition: transform .3s ease;
+      }
+
+      &.active .fa-chevron-down {
+        transform: rotate(180deg);
+      }
+
+      @media (min-width: 800px) {
+        max-width: 100%;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+
+        span {
+          margin-left: auto;
+        }
+      }
+    }
+
+    .gameOptionsSide {
+      border-top: 1px solid #080D26;
+      padding-top: 20px;
+      max-width: 415px;
+      margin: 20px auto 0;
+
+      .gameBoxRow {
+        padding: 20px 0;
+        align-items: center;
+
+        &.gameBoxSelectCoin {
+          max-width: 310px;
+          margin: 0 auto;
+
+          .gameBoxCol {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+
+      .gameBoxSelectSide {
+        padding: 20px;
+        background: #080D26;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 134px;
+        @media (max-width: 600px) {
+          max-width: 120px;
+        }
+        width: 100%;
+        border-radius: 10px;
+        box-sizing: border-box;
+        transition: .2s ease;
+        color: #fff;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        &.sideHeads,
+        &.sideTails {
+          img {
+            animation: pulse 2s infinite ease-in-out;
+          }
+        }
+
+
+        strong {
+          font-size: 24px;
+          padding-top: 18px;
+        }
+
+        &.gameBoxSelectedRed {
+          border: 2px solid #ef1336;
+        }
+
+        &.gameBoxSelectedBlue {
+          border: 2px solid #0eabde;
+        }
+      }
+    }
+
+    .gameHistory {
+      padding-top: 20px;
+      transition: .2s;
+      border-top: 1px solid #010e2b;
+
+      @media (min-width: 800px) {
+        width: 50%;
+        background: #192558;
+        border-bottom: 1px solid #4b5877;
+        border-top: none;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-left: 20px;
+      }
+
+      .desktopBalanceBox {
+        background: #fff;
+        @media (min-width: 800px) {
+          text-align: center;
+          color: #fff;
+
+          .gameBalanceAmount,
+          .gameTextSmall {
+            font-size: 25px;
+          }
+
+          .gameParameters {
+            margin-top: 5px;
+          }
+        }
+      }
+
+      @media (min-width: 800px) {
+        .gameHistoryTitle {
+          padding-top: 20px;
+        }
+      }
+
+      .gameHistoryList {
+        color: #fff;
+        margin-top: 20px;
+        max-height: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transition: .2s;
+
+        @media (min-width: 800px) {
+          max-height: 230px;
+        }
+
+        &::-webkit-scrollbar {
+          width: 12px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #5b658d;
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: #080d26;
+          border-radius: 10px;
+        }
+
+        .gameHistoryItem {
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          background-color: #080d26;
+          border: 1px solid #5b658d;
+          padding: 8px 20px;
+          margin-top: -1px;
+
+          img {
+            width: 30px;
+            height: auto;
+          }
+
+          &.opacity {
+            opacity: .6;
+          }
+
+          strong {
+            font-size: 14px;
+            padding-left: 16px;
+          }
+
+          span {
+            margin-left: auto;
+
+            @media (max-width: 440px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .gameBoxRow {
+      .gameBoxCol:nth-child(2) {
+        text-align: right;
+        color: #fff;
+
+        @media (min-width: 800px) {
+          &.desktop {
+            display: none;
+          }
+        }
+
+        .gameTextSmall {
+          padding-bottom: 3px;
+        }
+      }
+    }
+  }
+
+  .gameTextSmall {
+    color: #fff;
+    font-size: 16px;
+
+    &.center {
+      text-align: center;
+    }
+  }
+}
+
+.gameBalanceAmount {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+}
+
+.gameParameters {
+  margin-top: 33px;
+}
+
+.gameBoxRow {
+  display: flex;
+  width: 100%;
+
+  .gameBoxCol {
+    width: 50%;
+  }
+}
+
+.gameDesktopOnly {
+  display: none;
+  transition: .2s;
+
+  @media (min-width: 800px) {
+    display: inline;
+  }
+
+  .balanceContent {
+    background: #080d26;
+    border-bottom: 1px solid #5a607c;
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+
+.gameStakeMenu {
+  position: relative;
+}
+
+.gameStakeWrapper {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: max-height 0.5s ease;
+  position: absolute;
+  background: #080d26;
+  border-radius: 10px;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 5px;
+}
+
+.stake-options {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.stake-options li {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #5a607c
+  }
+}
+
+.stake-options li:hover {
+  background-color: #151843;
+}
+
+.gameStakeWrapper.active  {
+  max-height: 420px;
+  width: 165px;
+  visibility: visible;
+  @media (min-width: 800px) {
+    width: 100%;
+  }
+}
+
+.promoCode {
+  margin-top: 45px;
+
+  .promoCodeInputGroup {
+    position: relative;
+
+    .promoCodeInput {
+      border-radius: 10px;
+      background: #080D26;
+      border: none;
+      width: 100%;
+      padding: 20px 105px 20px 20px;
+      margin-top: -10px;
+      box-sizing: border-box;
+      transition: .2s ease-in-out;
+      font-family: "Rubik", sans-serif !important;
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+
+      &:focus-visible {
+        border: none;
+        outline: none;
+      }
+    }
+
+    button {
+      position: absolute;
+      background: #5b658d;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 10px 20px;
+      top: 1px;
+      right: 10px;
+      transition: .2s ease-in-out;
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+
+      &:hover {
+        filter: brightness(120%);
+      }
+    }
+  }
+}
+
+.freeSpins {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+@keyframes hvr-buzz-out {
+  0%, 25% {
+    transform: translateX(0) rotate(0);
+  }
+
+  10% {
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  20% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  30% {
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  40% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  50% {
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  60% {
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  70% {
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  80% {
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  90% {
+    transform: translateX(1px) rotate(0);
+  }
+
+  100% {
+    transform: translateX(-1px) rotate(0);
+  }
+
+  25%, 100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+@keyframes shake-desktop {
+  0% { transform: translateX(0) scale(1); }
+  20% { transform: translateX(-10px) scale(1); }
+  40% { transform: translateX(10px) scale(1); }
+  60% { transform: translateX(-10px) scale(1); }
+  80% { transform: translateX(10px) scale(1); }
+  100% { transform: translateX(0) scale(1); }
+}
+
+@keyframes shake-mobile {
+  0% { transform: translateX(0) scale(0.5); }
+  20% { transform: translateX(-10px) scale(0.5); }
+  40% { transform: translateX(10px) scale(0.5); }
+  60% { transform: translateX(-10px) scale(0.5); }
+  80% { transform: translateX(10px) scale(0.5); }
+  100% { transform: translateX(0) scale(0.5); }
+}
+
+.shake {
+  animation: shake-desktop 0.6s ease-in-out 3;
+}
+
+@media (max-width: 600px) {
+  .shake {
+    animation: shake-mobile 0.6s ease-in-out 3;
+  }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+.fade-in {
+  animation: fadeOut 0.5s reverse forwards;
+}
+
+
+@media (max-width: 500px) {
+  div.content-area {
+    padding: 5px 0;
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 799px) {
+  .selectedStakeAmount {
+    font-size: 14px;
+  }
+}
+
+.gli-container {
+  border-radius: 10px;
+  padding: 15px 30px;
+  background: #080d26;
+
+  .gli-certificate-text-wrapper {
+    small {
+      color: #fff;
+    }
+  }
+}
+
+.bonusBalance {
+  color: #788BD7 !important;
+}
+
+.fromBonusBalance {
+  background: #788BD7 !important;
+}
+
+.fade-in-animation {
+  animation: fadeIn .7s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.winBox {
+  position: relative;
+  top: 61px;
+  left: 23px;
+  color: #0facdf;
+  filter: drop-shadow(2px 4px 7px #000) drop-shadow(2px 4px 5px #000);
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-in {
+  animation: popIn 0.5s ease-out;
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}

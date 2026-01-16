@@ -1,0 +1,9 @@
+@media (max-width: 767.98px) {
+  body {
+    &[data-wl-banner='1'] {
+      #tidio-chat-iframe {
+        bottom: 150px !important;
+      }
+    }
+  }
+}

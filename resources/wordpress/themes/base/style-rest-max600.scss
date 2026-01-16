@@ -1,0 +1,1028 @@
+@media screen and (max-width: 600px) {
+  .ticket-number-selector-ball {
+    font-size: 1.4em;
+  }
+  .deposit {
+    &-button {
+      &-main {
+        &-div {
+          &-mobile {
+            text-align: center;
+            height: inherit;
+            display: block;
+          }
+        }
+      }
+
+      &-middle {
+        &-div {
+          &-mobile {
+            width: 100%;
+            display: inline-block;
+          }
+        }
+      }
+
+      &-div {
+        &-mobile {
+          margin: 0px 20px auto;
+        }
+      }
+    }
+  }
+
+  /**** BUTTONS ****/
+  .btn {
+    font-size: 1.4em;
+    line-height: 28px;
+    height: 30px;
+    padding: 0 10px;
+
+    &-xs {
+      font-size: 1.2em;
+      line-height: 24px;
+      height: 26px;
+      padding: 0 10px;
+    }
+
+    &-mobile {
+      &-large {
+        font-size: 1.6em;
+        line-height: 50px;
+        height: 52px;
+        padding: 0 20px;
+      }
+    }
+
+    &-deposit {
+      display: none;
+
+      &-second {
+        &-mobile {
+          height: 52px !important;
+          width: 100%;
+          margin: 20px 0px 0px;
+          padding: 0px !important;
+          display: inline-block;
+          line-height: 50px !important;
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+
+  .myaccount-inside article.page .btn {
+    float: none;
+    margin-top: 15px;
+  }
+  article.page h1.account {
+    display: block;
+  }
+
+  /*** NAVIGATION ***/
+  nav#primary-nav div > ul.menu > li > div.mobile-user-menu-container .btn,
+  nav#primary-nav div > ul.menu > li > div.menu-item-mobile-button .btn {
+    font-size: 1.6em;
+    height: 44px;
+    line-height: 42px;
+    padding: 0 20px;
+  }
+
+  /**** LIST ****/
+  .widget-list-ticket-countdown-before .fa {
+    margin-right: 5px;
+  }
+  .widget-list-countdown-item {
+    font-size: 2em;
+  }
+  .widget-list-countdown-group {
+    width: 35px;
+  }
+
+  .widget-list-ticket,
+  .widget-list-grid .widget-list-ticket,
+  .widget-list-grid .widget-list-ticket:nth-of-type(5n),
+  .widget-list-grid .widget-list-ticket:nth-of-type(5n + 1) {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* carousel */
+  .widget-list-carousel {
+    height: 287px;
+    overflow: visible;
+    white-space: normal;
+    height: auto;
+  }
+
+  .widget-list-carousel ul {
+    position: static;
+    text-align: center;
+  }
+
+  .widget-list-carousel .mobile-only {
+    display: block;
+  }
+
+  .widget-list-carousel .widget-list-ticket,
+  .widget-list-carousel .widget-list-ticket:first-of-type,
+  .widget-list-carousel .widget-list-ticket:last-of-type {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* type 1 */
+  .widget-list-type1 .widget-list-pending-text {
+    font-size: 2em;
+    padding-bottom: 0;
+  }
+
+  /* type 2 */
+  .widget-list-type2 .widget-list-carousel {
+    height: auto;
+  }
+  .widget-list-display1.widget-list-type1 .widget-list-carousel {
+    height: auto;
+  }
+
+  .widget-list-display2 .widget-list-pending-text {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  .widget-list-type2.widget-list-display2 .widget-list-pending-text {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .widget-list-type1.widget-list-display2 .widget-list-pending-text {
+    padding-top: 0;
+  }
+
+  .widget-list-display2 .widget-list-button-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+  }
+  .widget-list-display2 .widget-list-countdown-group {
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+  .widget-list-type2.widget-list-display2 .widget-list-ticket-countdown-before {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+  .widget-list-display2 .widget-list-pending-text {
+    padding-left: 20px;
+  }
+
+  .widget-list-type1.widget-list-display2 .widget-list-ticket-countdown {
+    padding-top: 3px;
+    padding-left: 15px;
+  }
+
+  .widget-list-type1.widget-list-display2 .widget-list-ticket-countdown {
+    padding-top: 5px;
+  }
+
+  .widget-list-display2 .widget-list-ticket img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 60px;
+    height: 63px;
+  }
+  .widget-list-display2 .widget-list-ticket h2,
+  .widget-list-display2 .widget-list-ticket .widget-div-title {
+    font-size: 1.7em;
+    padding-top: 28px;
+    line-height: 16px;
+  }
+  .widget-list-display2 .widget-list-ticket .widget-list-hamount {
+    font-size: 2.1em;
+    padding-bottom: 24px;
+  }
+
+  /* view 1 */
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(5n) {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(5n + 1) {
+    margin-left: 0;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(4n) {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(4n + 1) {
+    margin-left: 0;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(3n + 1) {
+    margin-left: 0;
+  }
+
+  .widget-list-display1 .widget-list-grid .widget-list-ticket:nth-of-type(2n),
+  .widget-list-display1 .widget-list-grid .widget-list-ticket-last {
+    margin-right: 0;
+  }
+
+  .widget-list-display1
+    .widget-list-grid
+    .widget-list-ticket:nth-of-type(2n + 1) {
+    margin-left: 0;
+  }
+
+  /* view 2 */
+
+  .widget-list-ticket-countdown-before {
+    font-size: 1.2em;
+  }
+
+  .widget-list-ticket-countdown-before .fa {
+    margin-right: 2px;
+  }
+
+  /* common */
+
+  .widget-list-display2 .widget-list-carousel .widget-list-ticket {
+    margin-bottom: 20px;
+  }
+
+  .widget-list-carousel .widget-list-ticket {
+    margin-bottom: 20px;
+  }
+
+  /***** SMALL PURCHASE SECTION *****/
+  .small-purchase-section {
+    display: block;
+  }
+  /***** TICKET ******/
+
+  .widget-ticket-header .widget-ticket-time-remain {
+    margin-bottom: 10px;
+  }
+  .widget-ticket-header .widget-ticket-time-remain.mobile-show {
+    font-size: 0.75em;
+  }
+
+  .widget-ticket-entity {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    opacity: 1;
+    z-index: 3;
+  }
+
+  .widget-ticket-entity.widget-raffle-ticket-entity,
+  .widget-ticket-entity.widget-raffle-ticket-summary {
+    position: initial;
+  }
+
+  .widget-raffle-ticket-summary {
+    margin-top: 20px;
+  }
+
+  .widget-ticket-entity.mobile-hidden {
+    display: none;
+  }
+  .widget-ticket-entity-content {
+    padding: 20px;
+  }
+  .widget-ticket-entity:hover {
+    padding: 0;
+  }
+
+  .widget-ticket-entity:nth-of-type(5n + 1) {
+    margin-left: 0;
+  }
+  .widget-ticket-entity:nth-of-type(4n + 1) {
+    margin-left: 0;
+  }
+  .widget-ticket-entity:nth-of-type(3n + 1) {
+    margin-left: 0;
+  }
+
+  .widget-ticket-entity .widget-ticket-buttons {
+    position: static;
+    top: 0;
+    float: right;
+  }
+  .widget-ticket-entity .widget-ticket-buttons button {
+    font-size: 1.2em;
+  }
+  .widget-ticket-entity-help,
+  .widget-ticket-entity span.widget-ticket-entity-ok,
+  .widget-ticket-entity span.widget-ticket-entity-processing {
+    text-align: left;
+    line-height: 30px;
+    float: left;
+  }
+
+  .widget-ticket-entity.processing {
+    z-index: 2;
+  }
+  .widget-ticket-numbers > a.widget-ticket-number,
+  .widget-ticket-bnumbers > a.widget-ticket-number {
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+  }
+  .widget-ticket-numbers > a:hover,
+  .widget-ticket-numbers > a.checked,
+  .widget-ticket-numbers > a.checked:hover,
+  .widget-ticket-entity.checked .widget-ticket-numbers > a.checked:hover,
+  .widget-ticket-entity .widget-ticket-numbers.checked > a.checked:hover {
+    line-height: 32px;
+  }
+  .widget-ticket-bnumbers > a:hover,
+  .widget-ticket-bnumbers > a.checked,
+  .widget-ticket-bnumbers > a.checked:hover,
+  .widget-ticket-entity.checked .widget-ticket-bnumbers > a.checked:hover,
+  .widget-ticket-entity .widget-ticket-bnumbers.checked > a.checked:hover {
+    line-height: 32px;
+  }
+  .widget-ticket-entity.checked .widget-ticket-numbers > a:hover,
+  .widget-ticket-entity .widget-ticket-numbers.checked > a:hover {
+    line-height: 32px;
+  }
+  .widget-ticket-entity.checked .widget-ticket-bnumbers > a:hover,
+  .widget-ticket-entity .widget-ticket-bnumbers.checked > a:hover {
+    line-height: 32px;
+  }
+  .widget-ticket-entity.checked .widget-ticket-icon-ok {
+    display: block;
+    position: static;
+    float: left;
+    line-height: 30px;
+    margin-right: 5px;
+  }
+  .widget-ticket-buttons-bottom:not(.widget-ticket-buttons-bottom-keno) {
+    display: none;
+  }
+  .widget-ticket-mobile-close {
+    display: block;
+  }
+  .widget-ticket-content {
+    margin: 15px 0;
+  }
+  .widget-ticket-entity-mobile {
+    display: block;
+  }
+  .widget-ticket-entity-mobile.mobile-hidden {
+    display: none;
+  }
+
+  .widget-ticket-button-wrapper {
+    .widget-ticket-summary {
+      padding-top: 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+    }
+    .widget-ticket-summary-content-total {
+      font-size: 1.6em;
+      padding-top: 0;
+      float: none;
+      text-align: center;
+    }
+  }
+
+  .widget-ticket-mobile-button {
+    display: block;
+  }
+
+  #numbers-selector {
+    width: calc(100% - 40px);
+  }
+  .widget-ticket-entity.widget-ticket-entity-horizontal {
+    position: relative;
+    overflow: initial;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    justify-content: center;
+
+    &.checked {
+      position: relative;
+
+      .widget-ticket-icon-ok {
+        position: absolute;
+        left: 50%;
+        top: 0;
+      }
+    }
+
+    .widget-ticket-entity-content {
+      padding: 10px 0 0;
+      width: 250px;
+
+      .widget-ticket-entity-help-wrapper {
+        margin: 0 0 5px 0;
+        span {
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+      .widget-ticket-numbers {
+        .widget-ball {
+          margin: 5px;
+        }
+      }
+    }
+  }
+
+  .widget-ticket-options {
+    .widget-ticket-additional-form {
+      border: none;
+      padding: 0;
+      margin: 0 0 5px;
+      &:first-child {
+        border: none;
+      }
+
+      .widget-ticket-option-top {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5px;
+
+        .widget-ticket-option-select-wrapper {
+          float: none;
+          padding-left: 0;
+        }
+
+        select {
+          width: 100%;
+        }
+      }
+
+      .widget-ticket-options-description {
+        display: none;
+        &-mobile {
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .widget-ticket-bottom {
+    flex-direction: column;
+    * {
+      text-align: center;
+    }
+
+    .widget-ticket-buttons-bottom.widget-ticket-buttons-bottom-keno {
+      margin: 10px 0 0;
+    }
+
+    .widget-ticket-summary {
+      margin: 0;
+      padding-top: 10px;
+    }
+  }
+
+  .widget-raffle-button-wrapper {
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .widget-raffle-random-button-wrapper {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .widget-raffle-filter-button {
+    width: 33%;
+    font-size: 1.3em;
+  }
+
+  button.raffle-ticket-add-random {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 2%;
+  }
+
+  button.raffle-ticket-clear-all {
+    width: 16%;
+  }
+
+  .widget-raffle-checkbox-wrapper label {
+    font-size: 1.4em;
+  }
+
+  /***** SMALL WIDGETS ****/
+
+  .small-widget-title {
+    font-size: 1.8em;
+    line-height: 54px;
+    padding: 0 20px;
+  }
+  .small-widget-no-info {
+    padding: 15px 20px;
+    font-size: 1.4em;
+  }
+  .small-widget-winners-item,
+  .small-widget-winners-item:first-of-type {
+    padding: 10px 0;
+  }
+  .small-widget-winners-item h2 {
+    font-size: 1.5em;
+  }
+  .small-widget-winners-item-name {
+    font-size: 1.4em;
+  }
+  .small-widget-winners-amount {
+    font-size: 1.4em;
+  }
+  .small-widget-winners-item-compact-name {
+    float: none;
+    display: inline-block;
+    font-size: 1.5em;
+  }
+  .small-widget-winners-item-compact-country {
+    float: none;
+    display: inline-block;
+    line-height: normal;
+    margin-left: 5px;
+    padding: 0 8px;
+    border-radius: 12px;
+  }
+  .small-widget-winners-item-compact-amount {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .small-widget-winners-item-compact {
+    padding: 11px 0 12px;
+    line-height: 11px;
+  }
+  .small-widget-winners-item-compact-country i {
+    margin-right: 3px;
+    transform: scale(0.75);
+  }
+  .small-widget-content {
+    padding: 0 20px;
+  }
+  .small-widget-slider-page-active,
+  .small-widget-slider-page {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 1.2em;
+  }
+  .small-widget-slider-pager-line {
+    margin-top: 12px;
+  }
+  .small-widget-slider .small-widget-slider-header {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+  }
+  .small-widget-slider-content-item p {
+    font-size: 1.4em;
+    margin: 10px 0;
+  }
+  .small-widget-slider-content {
+    padding-bottom: 10px;
+  }
+  .small-widget-slider .small-widget-content {
+    padding-bottom: 12px;
+  }
+  .small-widget-slider-pager-numbers {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .small-widget-results h2,
+  .small-widget-results .widget-div-title {
+    font-size: 1.5em;
+  }
+  .small-widget-results-date {
+    font-size: 1.2em;
+  }
+  .small-widget-results h2,
+  .small-widget-results .widget-div-title {
+    margin-bottom: 8px;
+  }
+  .small-widget-results-item {
+    padding-top: 11px;
+  }
+  .small-widget-results .ticket-line {
+    padding-bottom: 15px;
+  }
+  .small-widget-results-date .fa {
+    margin-right: 5px;
+  }
+
+  .small-widget-lottery p {
+    font-size: 1.4em;
+    line-height: 20px;
+  }
+  .small-widget-lottery .btn {
+    padding: 0px 10px;
+    line-height: 29px;
+    height: auto;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    margin-top: 1px;
+  }
+  .small-widget-lottery .small-widget-content {
+    padding-top: 0;
+  }
+
+  .small-widget-lottery .small-widget-lottery-image img {
+    width: 70px;
+  }
+  .small-widget-lottery .small-widget-lottery-image {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+  }
+  .small-widget-lottery-mobile-hide {
+    display: none;
+  }
+
+  /**** LINES ****/
+  .ticket-line-number,
+  .ticket-line-bnumber {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.75rem !important;
+    margin: 4px 2px;
+  }
+  .small-widget-results-item .ticket-line-number,
+  .small-widget-results-item .ticket-line-bnumber {
+    font-size: 1em;
+  }
+  /***** LIST *****/
+  .widget-list-content .widget-list-title,
+  .widget-list-content-grid .widget-list-title {
+    font-size: 2.4em;
+    padding: 10px 0;
+    line-height: 30px;
+  }
+
+  /******* LATEST NEWS *****/
+  .widget-latest-news-title {
+    font-size: 2.4em;
+    padding: 10px 0;
+    line-height: 30px;
+  }
+
+  section.latest-news article h2 {
+    font-size: 1.5em;
+    line-height: 21px;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  section.latest-news .news-container article.news {
+    padding: 15px 20px;
+  }
+  section.latest-news article time {
+    font-size: 1.2em;
+  }
+  section.post-content article.post time {
+    font-size: 0.75em;
+  }
+  article.post div.categories {
+    font-size: 0.75em;
+  }
+  article.news p {
+    font-size: 1.4em;
+    margin: 10px 0;
+    line-height: 20px;
+  }
+  section.latest-news article time .fa,
+  section.post-content article.post time .fa,
+  article.post div.categories span {
+    margin-right: 5px;
+  }
+
+  /*** MOBILE ***/
+  .latest-news-mobile-hide {
+    display: none;
+  }
+
+  .home-area .latest-news-mobile-hide {
+    display: block;
+  }
+
+  .latest-news-mobile-pagination {
+    display: block;
+  }
+
+  nav.pagination .page-numbers.next,
+  nav.pagination .page-numbers.prev {
+    font-size: 10px;
+    line-height: 31px;
+  }
+
+  section.latest-news .pagination .mobile-hide,
+  .myaccount-content .pagination .mobile-hide {
+    display: none;
+  }
+  section.latest-news .pagination .mobile-only,
+  .myaccount-content .pagination .mobile-only {
+    display: inline;
+  }
+
+  section.latest-news article.news img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  /**** RESULTS ****/
+
+  .results-short-line {
+    margin: 10px 0 0px;
+  }
+
+  /* RESULTS INFO TABS */
+  .content-group-lottery {
+    a {
+      padding: 0 15px;
+    }
+  }
+
+  /**** INFO ****/
+  table#info-table tbody tr td:nth-child(5) {
+    clear: none;
+  }
+  table#info-table tbody tr td:nth-child(4) {
+    clear: both;
+  }
+  table#info-table tbody tr td:nth-child(3) {
+    padding-top: 18px;
+  }
+
+  /**** NEXT DRAW / COUNTER ****/
+
+  .widget-draw-countdown .desktop-only {
+    display: none;
+  }
+  .widget-draw-countdown time {
+    display: block;
+  }
+  .widget-draw-button {
+    height: 45px;
+    font-size: 1.6em;
+    line-height: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  /**** PAGINATION ****/
+  nav.pagination .page-numbers {
+    line-height: 27px;
+    height: 29px;
+    padding: 0 12px;
+    font-size: 1.5em;
+  }
+  .myaccount-content nav.pagination {
+    padding: 20px 0;
+    margin-top: 0;
+  }
+  .myaccount-content nav.pagination .page-numbers {
+    font-size: 0.9375em;
+    line-height: 27px;
+  }
+  nav.pagination .page-numbers.next,
+  nav.pagination .page-numbers.prev {
+    font-size: 10px;
+    line-height: 31px;
+  }
+
+  /***** MY ACCOUNT ******/
+  .myaccount-icon-description {
+    display: none;
+  }
+
+  .myaccount-data .btn-xs {
+    margin-left: 0;
+  }
+
+  .widget-ticket-entity-mobile .btn-xs {
+    height: 24px;
+    padding: 0 7px;
+  }
+
+  .tickets-lines strong {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .ticket-prize {
+    font-size: 1.1em;
+  }
+
+  .myaccount-data > .btn-secondary {
+    margin-top: 15px;
+  }
+
+  .myaccount-filter {
+    float: none;
+  }
+
+  /***** FORMS ****/
+  .platform-form-profile {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /***** FOOTER ****/
+
+  .footer-logotypes {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /******** TABLES ******/
+
+  .results-detailed-content,
+  .results-short-content {
+    margin: 25px 0;
+  }
+
+  table.table-order
+    tbody
+    tr
+    td.order-summary-lines
+    .ticket-line
+    .ticket-line-number,
+  table.table-order
+    tbody
+    tr
+    td.order-summary-lines
+    .ticket-line
+    .ticket-line-bnumber {
+    font-size: 1.2em;
+  }
+
+  /******** TICKETS ******/
+
+  .reintegro span {
+    font-size: 7px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+  }
+
+  .widget-ticket-additional-form {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .widget-ticket-additional-form-first {
+    margin-bottom: 10px;
+  }
+
+  .widget-ticket-additional-form-header {
+    margin-top: 10px;
+    display: block;
+  }
+
+  /** PROMO CODES **/
+  .promo-info button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // ticket card
+  .ticket-card {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .ticket-card-logo {
+      margin: 0;
+      position: absolute;
+    }
+
+    .ticket-card-logo img {
+      width: 30px;
+      margin-top: 7px;
+    }
+
+    .ticket-card-details {
+      width: 100%;
+      .ticket-card-raffle-name {
+        margin: 10px 44px;
+      }
+    }
+
+    .widget-ticket-numbers {
+      margin: 1rem 0;
+    }
+
+    .ticket-card-amount {
+      text-align: left;
+      font-size: 1rem;
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+  }
+
+  // raffle info
+  table.table-short.table-raffle-info {
+    thead th {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 700;
+      padding: 10px;
+      color: #747474;
+      &:first-of-type {
+        padding-left: 15px;
+      }
+      &:last-of-type {
+        padding-right: 15px;
+      }
+    }
+    tbody td {
+      padding: 10px;
+      font-size: 15px;
+      &:first-of-type {
+        padding-left: 15px;
+      }
+      &:last-of-type {
+        padding-right: 15px;
+      }
+    }
+  }
+
+  table.table.table-info-detailed-raffle,
+  table.table.table-results-detailed-raffle {
+    thead tr th,
+    tbody tr td {
+      padding: 10px;
+      &:first-of-type {
+        padding-left: 15px;
+      }
+      &:last-of-type {
+        padding-right: 15px;
+      }
+    }
+  }
+
+  //raffle results
+  .results-short-content.results-short-content-raffle {
+    margin-top: 0;
+  }
+
+  //keno results
+  .table-parent {
+    grid-template-columns: 40px;
+    grid-template-rows: 40px;
+
+    .table-row {
+      > :first-child {
+        max-width: 50px;
+      }
+
+      > .table-heading {
+        padding: 11px 0;
+      }
+    }
+  }
+  .results-short-content-keno {
+    .results-short-jackpot {
+      margin-top: 15px;
+    }
+  }
+
+  #winnings-table-multiplier-wrapper {
+    label {
+      padding-left: 0;
+    }
+  }
+
+  #winnings-table-content-label-horizontal {
+    margin-left: 60px;
+    grid-area: 1 / 2 / 2 / 12;
+    padding: 7px 0;
+  }
+}

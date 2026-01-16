@@ -1,0 +1,53 @@
+//
+//    Custom widget style
+//
+
+#lotto_platform_widget_featured-2 {
+  .widget-featured-content {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -15px;
+      right: calc(3% + 175px);
+      bottom: 0;
+      left: 0;
+      background-image: url('../../lottomonks/images/monk.png');
+      background-position: 100% 50%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      pointer-events: none;
+    }
+  }
+  .widget-featured-countdown {
+    display: none !important;
+  }
+
+  [dir='rtl'] & {
+    .widget-featured-content {
+      &::after {
+        right: 0;
+        left: calc(3% + 175px);
+        background-position: 0% 50%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    & {
+      .widget-featured-content {
+        &::after {
+          right: calc(3% + 100px);
+        }
+      }
+    }
+
+    [dir='rtl'] & {
+      .widget-featured-content {
+        &::after {
+          left: calc(3% + 100px);
+        }
+      }
+    }
+  }
+}

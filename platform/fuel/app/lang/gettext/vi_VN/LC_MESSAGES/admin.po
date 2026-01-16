@@ -1,0 +1,4439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-09-27 17:24+0200\n"
+"PO-Revision-Date: 2017-10-02 09:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: classes/controller/admin.php\n"
+"X-Poedit-SearchPath-1: classes/controller/aff.php\n"
+"X-Poedit-SearchPath-2: classes/controller/api.php\n"
+"X-Poedit-SearchPath-3: classes/controller/dev.php\n"
+"X-Poedit-SearchPath-4: classes/controller/index.php\n"
+"X-Poedit-SearchPath-5: classes/controller/task.php\n"
+"X-Poedit-SearchPath-6: classes/controller/whitelabel.php\n"
+"X-Poedit-SearchPath-7: views/admin\n"
+"X-Poedit-SearchPath-8: views/aff\n"
+"X-Poedit-SearchPath-9: views/index\n"
+"X-Poedit-SearchPath-10: views/whitelabel\n"
+"X-Poedit-SearchPath-11: lang/translation.php\n"
+
+#: classes/controller/admin.php:70 classes/controller/aff.php:135
+#: classes/controller/aff.php:437 classes/controller/whitelabel.php:100
+#: classes/controller/whitelabel.php:525 classes/controller/whitelabel.php:1525
+#: classes/controller/whitelabel.php:1949 views/admin/signin/index.php:13
+#: views/admin/signin/index.php:14 views/aff/settings/edit.php:20
+#: views/aff/settings/profile.php:14 views/aff/signin/index.php:13
+#: views/aff/signin/index.php:14 views/whitelabel/affs/edit.php:44
+#: views/whitelabel/affs/index.php:48 views/whitelabel/affs/index.php:72
+#: views/whitelabel/affs/new.php:29 views/whitelabel/affs/view.php:30
+#: views/whitelabel/signin/index.php:13 views/whitelabel/signin/index.php:14
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: classes/controller/admin.php:72 classes/controller/admin.php:184
+#: classes/controller/admin.php:252 classes/controller/aff.php:137
+#: classes/controller/whitelabel.php:102 classes/controller/whitelabel.php:529
+#: views/admin/signin/index.php:17 views/admin/signin/index.php:18
+#: views/admin/whitelabels/add.php:34 views/admin/whitelabels/edit.php:34
+#: views/aff/settings/profile.php:45 views/aff/signin/index.php:17
+#: views/aff/signin/index.php:18 views/whitelabel/affs/new.php:37
+#: views/whitelabel/affs/view.php:53 views/whitelabel/settings/account.php:18
+#: views/whitelabel/signin/index.php:17 views/whitelabel/signin/index.php:18
+#: views/whitelabel/users/view.php:40
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: classes/controller/admin.php:74 classes/controller/aff.php:139
+#: classes/controller/whitelabel.php:104 views/admin/signin/index.php:21
+#: views/aff/signin/index.php:21 views/whitelabel/signin/index.php:21
+msgid "Remember me"
+msgstr "Nhớ đến tôi"
+
+#: classes/controller/admin.php:90 classes/controller/admin.php:94
+#: classes/controller/aff.php:156 classes/controller/aff.php:160
+#: classes/controller/whitelabel.php:120 classes/controller/whitelabel.php:124
+msgid "Wrong credentials! Please try again."
+msgstr "Sai thông tin! Vui lòng nhập lại."
+
+#: classes/controller/admin.php:99 classes/controller/aff.php:165
+#: classes/controller/whitelabel.php:129
+msgid "Too many login attempts! Please try again later."
+msgstr "Bạn đã đăng nhập quá nhiều lần. Vui lòng thử lại sau."
+
+#: classes/controller/admin.php:104 classes/controller/aff.php:170
+#: classes/controller/whitelabel.php:134
+msgid "Wrong captcha."
+msgstr "Sai captcha."
+
+#: classes/controller/admin.php:108 classes/controller/aff.php:174
+#: classes/controller/whitelabel.php:138 classes/controller/whitelabel.php:2142
+#: classes/controller/whitelabel.php:4594
+msgid "Security error! Please try again."
+msgstr "Lỗi bảo mật. Vui lòng thử lại."
+
+#: classes/controller/admin.php:124 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/menu.php:2
+msgid "Lottery List"
+msgstr "Danh sách xổ số"
+
+#: classes/controller/admin.php:125 views/admin/lotteries/delays.php:10
+#: views/admin/lotteries/menu.php:3
+msgid "Postponed Draws"
+msgstr "Số lần bỏ rút thăm xổ số"
+
+#: classes/controller/admin.php:126 views/admin/lotteries/logs.php:7
+#: views/admin/lotteries/menu.php:4
+msgid "Lottery Logs"
+msgstr "Nhật ký xổ số"
+
+#: classes/controller/admin.php:127 views/admin/lotteries/imvalaplogs.php:7
+#: views/admin/lotteries/menu.php:5
+msgid "Imvalap Logs"
+msgstr "Nhật ký Imvalap"
+
+#: classes/controller/admin.php:128 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/lotteries/menu.php:6
+msgid "Lottorisq Logs"
+msgstr "Nhật ký Lottorisq"
+
+#: classes/controller/admin.php:129 views/admin/payments/menu.php:2
+#: views/admin/payments/paymentlogs.php:7
+msgid "Payment Logs"
+msgstr "Nhật ký thanh toán"
+
+#: classes/controller/admin.php:130 views/admin/shared/navbar.php:16
+#: views/admin/whitelabels/index.php:10 views/admin/whitelabels/menu.php:2
+msgid "Whitelabels"
+msgstr "Whitelabels"
+
+#: classes/controller/admin.php:131 classes/controller/aff.php:193
+#: classes/controller/aff.php:294 classes/controller/whitelabel.php:163
+#: views/admin/shared/navbar.php:14 views/aff/shared/navbar.php:14
+#: views/whitelabel/shared/navbar.php:14
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: classes/controller/admin.php:177 classes/controller/admin.php:245
+#: classes/controller/admin.php:488 classes/controller/whitelabel.php:242
+#: classes/controller/whitelabel.php:1316
+#: classes/controller/whitelabel.php:3220 views/admin/lotteries/index.php:19
+#: views/admin/whitelabels/add.php:21 views/admin/whitelabels/edit.php:21
+#: views/admin/whitelabels/index.php:19 views/admin/whitelabels/payments.php:21
+#: views/admin/whitelabels/payments_edit.php:37
+#: views/whitelabel/affs/groups.php:20 views/whitelabel/affs/groups_edit.php:21
+#: views/whitelabel/affs/payouts.php:65 views/whitelabel/affs/payouts.php:72
+#: views/whitelabel/affs/payouts.php:77 views/whitelabel/affs/payouts.php:83
+#: views/whitelabel/settings/account.php:14
+#: views/whitelabel/settings/account_edit.php:24
+#: views/whitelabel/settings/lottery.php:17
+#: views/whitelabel/settings/paymentmethods.php:26
+#: views/whitelabel/settings/paymentmethods_edit.php:37
+#: views/whitelabel/transactions/view.php:238
+#: views/whitelabel/users/index.php:67
+msgid "Name"
+msgstr "Tên"
+
+#: classes/controller/admin.php:180 classes/controller/admin.php:248
+#: views/admin/whitelabels/add.php:25 views/admin/whitelabels/edit.php:25
+#: views/admin/whitelabels/index.php:20
+#: views/whitelabel/transactions/view.php:114
+msgid "Domain"
+msgstr "Miền"
+
+#: classes/controller/admin.php:182 classes/controller/admin.php:250
+#: classes/controller/whitelabel.php:240 views/admin/whitelabels/add.php:30
+#: views/admin/whitelabels/edit.php:30 views/whitelabel/affs/index.php:72
+#: views/whitelabel/settings/account.php:12
+#: views/whitelabel/settings/account_edit.php:20
+msgid "Username"
+msgstr "Tên người dùng"
+
+#: classes/controller/admin.php:213
+msgid "Whitelabel has been saved!"
+msgstr "Whitelabel được chấp nhận!"
+
+#: classes/controller/admin.php:233 classes/controller/admin.php:649
+msgid "Wrong whitelabel!"
+msgstr "Sai Whitelabel!"
+
+#: classes/controller/admin.php:254 views/admin/whitelabels/add.php:44
+msgid "Prefix"
+msgstr "Đầu số"
+
+#: classes/controller/admin.php:349
+msgid "Whitelabel has been added!"
+msgstr "Whitelabel đã được thêm vào!"
+
+#: classes/controller/admin.php:429 classes/controller/admin.php:454
+#: classes/controller/whitelabel.php:3162
+#: classes/controller/whitelabel.php:3187
+msgid "Payment method order has been changed!"
+msgstr "Phương thức thanh toán đã được thay đổi!"
+
+#: classes/controller/admin.php:484 classes/controller/whitelabel.php:246
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:3216
+#: classes/controller/whitelabel.php:4699
+#: views/admin/whitelabels/payments.php:19
+#: views/admin/whitelabels/payments_edit.php:20
+#: views/aff/settings/profile.php:48 views/whitelabel/affs/index.php:18
+#: views/whitelabel/affs/index.php:79 views/whitelabel/affs/view.php:56
+#: views/whitelabel/reports/reports.php:20
+#: views/whitelabel/settings/account.php:23
+#: views/whitelabel/settings/account_edit.php:32
+#: views/whitelabel/settings/paymentmethods.php:24
+#: views/whitelabel/settings/paymentmethods_edit.php:20
+#: views/whitelabel/transactions/view.php:439
+#: views/whitelabel/transactions/view.php:497
+#: views/whitelabel/users/index.php:25 views/whitelabel/users/index.php:76
+#: views/whitelabel/users/view.php:43
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: classes/controller/admin.php:486 classes/controller/whitelabel.php:3218
+#: views/admin/whitelabels/payments.php:22
+#: views/admin/whitelabels/payments_edit.php:28
+#: views/whitelabel/settings/paymentmethods.php:27
+#: views/whitelabel/settings/paymentmethods_edit.php:28
+msgid "Integrated Method"
+msgstr "Phương thức tích hợp"
+
+#: classes/controller/admin.php:490 classes/controller/whitelabel.php:3222
+#: views/admin/whitelabels/payments_edit.php:41
+#: views/whitelabel/settings/paymentmethods_edit.php:41
+msgid "Show on payment page"
+msgstr "Hiển thị trên trang thanh toán"
+
+#: classes/controller/admin.php:498 classes/controller/whitelabel.php:3230
+#: views/admin/whitelabels/payments_edit.php:47
+#: views/whitelabel/settings/paymentmethods_edit.php:47
+msgid "Merchant E-mail (required)"
+msgstr "Email thương gia (bắt buộc)"
+
+#: classes/controller/admin.php:500 classes/controller/whitelabel.php:3232
+#: views/admin/whitelabels/payments_edit.php:56
+#: views/whitelabel/settings/paymentmethods_edit.php:56
+msgid "Merchant Logo URL"
+msgstr "URL của Logo thương gia"
+
+#: classes/controller/admin.php:502 classes/controller/whitelabel.php:3234
+#: views/admin/whitelabels/payments_edit.php:61
+#: views/whitelabel/settings/paymentmethods_edit.php:61
+msgid "Merchant Description"
+msgstr "Mô tả chi tiết"
+
+#: classes/controller/admin.php:504 classes/controller/whitelabel.php:3236
+#: views/admin/whitelabels/payments_edit.php:51
+#: views/whitelabel/settings/paymentmethods_edit.php:51
+msgid "Secret Word (required)"
+msgstr "Ô chữ bí mật (bắt buộc)"
+
+#: classes/controller/admin.php:510 classes/controller/whitelabel.php:3242
+#: views/admin/whitelabels/payments_edit.php:68
+#: views/whitelabel/settings/paymentmethods_edit.php:68
+msgid "App Client ID"
+msgstr "App ID khách hàng"
+
+#: classes/controller/admin.php:511 classes/controller/whitelabel.php:3243
+msgid "App Client Secret"
+msgstr "Mã riêng tư App khách hàng"
+
+#: classes/controller/admin.php:512 classes/controller/whitelabel.php:3244
+#: views/admin/whitelabels/payments_edit.php:77
+#: views/whitelabel/settings/paymentmethods_edit.php:77
+msgid "Webhook Secret Key"
+msgstr "Mã riêng tư của Webhook"
+
+#: classes/controller/admin.php:513 classes/controller/whitelabel.php:3245
+#: classes/controller/whitelabel.php:3452
+#: views/admin/whitelabels/payments_edit.php:82
+#: views/whitelabel/settings/ccsettings_edit.php:65
+#: views/whitelabel/settings/paymentmethods_edit.php:82
+msgid "Test account"
+msgstr "Tài khoản test"
+
+#: classes/controller/admin.php:518 classes/controller/whitelabel.php:3250
+#: classes/controller/whitelabel.php:3446
+#: views/admin/whitelabels/payments_edit.php:101
+#: views/whitelabel/settings/ccsettings_edit.php:38
+#: views/whitelabel/settings/paymentmethods_edit.php:101
+msgid "API Key"
+msgstr "Mã API"
+
+#: classes/controller/admin.php:519 classes/controller/whitelabel.php:3251
+#: views/admin/whitelabels/payments_edit.php:106
+#: views/whitelabel/settings/paymentmethods_edit.php:106
+msgid "API Secret"
+msgstr "Mã riêng tư của API"
+
+#: classes/controller/admin.php:524 classes/controller/whitelabel.php:3256
+#: views/whitelabel/transactions/view.php:577
+msgid "tpay.com ID"
+msgstr "tpay.com ID"
+
+#: classes/controller/admin.php:525 classes/controller/whitelabel.php:3257
+#: views/admin/whitelabels/payments_edit.php:93
+#: views/whitelabel/settings/paymentmethods_edit.php:93
+msgid "tpay.com Security Code"
+msgstr "Mã bảo mật của tpay.com"
+
+#: classes/controller/admin.php:530 classes/controller/whitelabel.php:3262
+#: views/admin/whitelabels/payments_edit.php:113
+#: views/whitelabel/settings/paymentmethods_edit.php:113
+msgid "Configuration Key"
+msgstr "Khóa cấu hình"
+
+#: classes/controller/admin.php:601 classes/controller/whitelabel.php:3337
+#: classes/controller/whitelabel.php:3493
+msgid "Payment method has been saved!"
+msgstr "Phương thức thanh toán đã được lưu!"
+
+#: classes/controller/admin.php:606 classes/controller/whitelabel.php:3342
+msgid "This method is already added!"
+msgstr "Phương thức này đã được thêm sẵn!"
+
+#: classes/controller/admin.php:612 classes/controller/whitelabel.php:289
+#: classes/controller/whitelabel.php:3348
+msgid "Wrong language!"
+msgstr "Ngôn ngữ sai!"
+
+#: classes/controller/admin.php:618 classes/controller/whitelabel.php:3354
+msgid "Wrong method!"
+msgstr "Phương thức sai!"
+
+#: classes/controller/admin.php:680 views/admin/lotteries/index.php:23
+#: views/admin/lotteries/jackpot.php:20
+msgid "Current Jackpot"
+msgstr "Giải thưởng hiện tại"
+
+#: classes/controller/admin.php:688
+msgid "Current Jackpot has been changed!"
+msgstr "Giải thưởng hiện tại đã được thay đổi!"
+
+#: classes/controller/admin.php:714 views/admin/lotteries/nextdraw.php:20
+#: views/admin/lotteries/nextdraw.php:22
+msgid "Next Draw Date"
+msgstr "Ngày rút thăm xổ số kế tiếp"
+
+#: classes/controller/admin.php:761
+msgid "Lottery next draw has been changed!"
+msgstr "Lượt rút thăm xổ số kế tiếp đã được thay đổi!"
+
+#: classes/controller/admin.php:766
+msgid "Wrong date format!"
+msgstr "Định dạng ngày sai!"
+
+#: classes/controller/admin.php:801 views/admin/lotteries/index.php:21
+#: views/admin/lotteries/index.php:60 views/admin/lotteries/source.php:20
+msgid "Source"
+msgstr "Nguồn"
+
+#: classes/controller/admin.php:810
+msgid "The source has been changed!"
+msgstr "Nguồn đã được thay đổi!"
+
+#: classes/controller/admin.php:867 views/admin/lotteries/draw_add.php:20
+#: views/admin/lotteries/imvalaplogs.php:46 views/admin/lotteries/logs.php:46
+#: views/admin/lotteries/lottorisqlogs.php:46
+#: views/admin/payments/paymentlogs.php:46 views/aff/reports/commissions.php:57
+#: views/aff/reports/index.php:175 views/aff/reports/payouts.php:18
+#: views/whitelabel/affs/commissions.php:63
+#: views/whitelabel/affs/payouts.php:35 views/whitelabel/affs/reports.php:181
+#: views/whitelabel/tickets/index.php:68 views/whitelabel/tickets/view.php:29
+#: views/whitelabel/transactions/index.php:58
+#: views/whitelabel/transactions/view.php:23
+#: views/whitelabel/transactions/view.php:581
+#: views/whitelabel/transactions/withdrawal.php:23
+#: views/whitelabel/transactions/withdrawals.php:58
+msgid "Date"
+msgstr "Ngày"
+
+#: classes/controller/admin.php:869 views/admin/lotteries/draw_add.php:27
+msgid "Next Jackpot"
+msgstr "Giải thưởng tiếp theo"
+
+#: classes/controller/admin.php:873
+#, php-format
+msgid "Draw Number #%s"
+msgstr "Số thứ tự rút thăm #%s"
+
+#: classes/controller/admin.php:880 views/admin/lotteries/draw_add.php:48
+msgid "Extra Number"
+msgstr "Số phụ"
+
+#: classes/controller/admin.php:880
+#, php-format
+msgid "Bonus Number #%s"
+msgstr "Số tiền thưởng #%s"
+
+#: classes/controller/admin.php:887 views/admin/lotteries/draw_add.php:70
+#: views/admin/lotteries/draw_add.php:71
+msgid "Winners count"
+msgstr "Số người chiến thắng"
+
+#: classes/controller/admin.php:891 views/admin/lotteries/draw_add.php:76
+msgid "Prize per winner"
+msgstr "Giải thưởng cho người chiến thắng"
+
+#: classes/controller/admin.php:929
+msgid "The draw has been successfully added!"
+msgstr "Đã thêm lượt rút thăm thành công!"
+
+#: classes/controller/admin.php:934
+msgid "Bonus numbers must differ (from each other and from draw numbers)."
+msgstr "Số thưởng phải khác nhau (cách biệt giữa các số và lượt rút thăm)"
+
+#: classes/controller/admin.php:940
+msgid "Draw numbers must differ."
+msgstr "Lượt rút thăm phải khác nhau."
+
+#: classes/controller/admin.php:1029
+msgid "The postponed date has been deleted!"
+msgstr "Ngày hủy rút thăm đã bị xóa bỏ!"
+
+#: classes/controller/admin.php:1034
+msgid ""
+"It's too late to delete this postponed date. Use coding skills to adjust "
+"tickets and draw date within the system!"
+msgstr ""
+"Không thể xóa ngày hủy rút thăm. Hãy sử dụng mã code để thay đổi vé và ngày "
+"rút thăm trong hệ thống!"
+
+#: classes/controller/admin.php:1070 views/admin/lotteries/delays.php:20
+#: views/admin/lotteries/delays_edit.php:28
+msgid "Original date"
+msgstr "Ngày rút thăm"
+
+#: classes/controller/admin.php:1072 views/admin/lotteries/delays_edit.php:35
+msgid "Delayed date"
+msgstr "Ngày hoãn rút thăm"
+
+#: classes/controller/admin.php:1074 views/admin/lotteries/delays.php:19
+#: views/admin/lotteries/delays_edit.php:20 views/admin/lotteries/logs.php:19
+#: views/admin/lotteries/logs.php:47 views/whitelabel/reports/index.php:17
+#: views/whitelabel/tickets/index.php:13 views/whitelabel/tickets/index.php:66
+#: views/whitelabel/tickets/view.php:27
+msgid "Lottery"
+msgstr "Xổ số"
+
+#: classes/controller/admin.php:1105
+msgid "The postponed date has been saved!"
+msgstr "Ngày hủy rút thăm đã được lưu lại!"
+
+#: classes/controller/admin.php:1110
+msgid "The postponed date for this draw already exists!"
+msgstr "Ngày hủy rút thăm đã có sẵn!"
+
+#: classes/controller/admin.php:1116
+msgid "The draw date should be within the future draws!"
+msgstr "Ngày rút thăm nên phù hợp với những ngày rút tiếp theo!"
+
+#: classes/controller/admin.php:1122
+msgid "Wrong lottery!"
+msgstr "Xổ số sai!"
+
+#: classes/controller/aff.php:185 classes/controller/aff.php:937
+#: views/aff/reports/menu.php:2 views/aff/reports/payouts.php:7
+#: views/whitelabel/affs/menu.php:9 views/whitelabel/affs/payouts.php:7
+msgid "Payouts"
+msgstr "Thanh toán"
+
+#: classes/controller/aff.php:186 classes/controller/whitelabel.php:161
+#: classes/controller/whitelabel.php:2484 views/aff/reports/index.php:7
+#: views/aff/reports/menu.php:3 views/whitelabel/affs/reports.php:7
+#: views/whitelabel/reports/menu.php:3 views/whitelabel/reports/reports.php:7
+msgid "Generate report"
+msgstr "Báo cáo tổng quát"
+
+#: classes/controller/aff.php:187 views/aff/reports/index.php:56
+#: views/aff/reports/index.php:64 views/aff/reports/leads.php:7
+#: views/aff/reports/menu.php:4 views/whitelabel/affs/leads.php:7
+#: views/whitelabel/affs/menu.php:11 views/whitelabel/affs/reports.php:44
+#: views/whitelabel/affs/reports.php:52
+msgid "Leads"
+msgstr "Đầu mối kinh doanh"
+
+#: classes/controller/aff.php:188 views/aff/reports/ftps.php:7
+#: views/aff/reports/menu.php:5 views/whitelabel/affs/ftps.php:7
+#: views/whitelabel/affs/menu.php:12
+msgid "First-Time Purchases"
+msgstr "Lần mua đầu tiên"
+
+#: classes/controller/aff.php:189 views/aff/reports/commissions.php:7
+#: views/aff/reports/index.php:156 views/aff/reports/menu.php:6
+#: views/aff/reports/payouts.php:21 views/whitelabel/affs/commissions.php:7
+#: views/whitelabel/affs/groups.php:21 views/whitelabel/affs/menu.php:13
+#: views/whitelabel/affs/payouts.php:38 views/whitelabel/affs/reports.php:163
+msgid "Commissions"
+msgstr "Hoa hồng"
+
+#: classes/controller/aff.php:190 views/aff/settings/menu.php:2
+#: views/aff/settings/profile.php:7
+msgid "Edit profile"
+msgstr "Chỉnh sửa thông tin cá nhân"
+
+#: classes/controller/aff.php:191 views/aff/settings/menu.php:3
+msgid "Payment settings"
+msgstr "Cài đặt thanh toán"
+
+#: classes/controller/aff.php:192 classes/controller/whitelabel.php:2212
+#: views/aff/settings/menu.php:4 views/whitelabel/settings/menu.php:3
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: classes/controller/aff.php:263 views/aff/dashboard/index.php:48
+#: views/aff/reports/commissions.php:12 views/aff/reports/commissions.php:51
+#: views/aff/reports/ftps.php:12 views/aff/reports/ftps.php:49
+#: views/aff/reports/index.php:20 views/aff/reports/index.php:81
+#: views/aff/reports/index.php:127 views/aff/reports/index.php:169
+#: views/aff/reports/leads.php:12 views/aff/reports/leads.php:55
+msgid "Medium"
+msgstr "Trung bình"
+
+#: classes/controller/aff.php:265 views/aff/dashboard/index.php:53
+#: views/aff/reports/commissions.php:20 views/aff/reports/commissions.php:52
+#: views/aff/reports/ftps.php:20 views/aff/reports/ftps.php:50
+#: views/aff/reports/index.php:28 views/aff/reports/index.php:82
+#: views/aff/reports/index.php:128 views/aff/reports/index.php:170
+#: views/aff/reports/leads.php:20 views/aff/reports/leads.php:56
+msgid "Campaign"
+msgstr "Chiến dịch"
+
+#: classes/controller/aff.php:267 views/aff/dashboard/index.php:58
+#: views/aff/reports/commissions.php:28 views/aff/reports/commissions.php:53
+#: views/aff/reports/ftps.php:28 views/aff/reports/ftps.php:51
+#: views/aff/reports/index.php:36 views/aff/reports/index.php:83
+#: views/aff/reports/index.php:129 views/aff/reports/index.php:171
+#: views/aff/reports/leads.php:28 views/aff/reports/leads.php:57
+msgid "Content"
+msgstr "Nội dung"
+
+#: classes/controller/aff.php:324 views/aff/settings/payment.php:20
+#: views/whitelabel/affs/payouts.php:64 views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/affs/payouts.php:76 views/whitelabel/affs/payouts.php:81
+#: views/whitelabel/transactions/index.php:13
+#: views/whitelabel/transactions/index.php:56
+#: views/whitelabel/transactions/view.php:30
+#: views/whitelabel/transactions/withdrawal.php:29
+#: views/whitelabel/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:53
+#: views/whitelabel/users/deposit.php:21
+msgid "Method"
+msgstr "Phương thức"
+
+#: classes/controller/aff.php:337 classes/controller/aff.php:350
+#: classes/controller/aff.php:359 views/aff/settings/payment.php:32
+#: views/aff/settings/payment.php:55 views/aff/settings/payment.php:70
+#: views/whitelabel/transactions/view.php:197
+msgid "First name"
+msgstr "Họ"
+
+#: classes/controller/aff.php:339 classes/controller/aff.php:352
+#: classes/controller/aff.php:361 views/aff/settings/payment.php:36
+#: views/aff/settings/payment.php:59 views/aff/settings/payment.php:74
+#: views/whitelabel/transactions/view.php:201
+msgid "Last name"
+msgstr "Tên"
+
+#: classes/controller/aff.php:341 views/aff/settings/payment.php:40
+msgid "Account IBAN number"
+msgstr "Mã IBAN"
+
+#: classes/controller/aff.php:343 views/aff/settings/payment.php:44
+msgid "SWIFT"
+msgstr "Mã SWIFT"
+
+#: classes/controller/aff.php:345 views/aff/settings/payment.php:48
+#: views/whitelabel/transactions/withdrawal.php:75
+msgid "Bank name"
+msgstr "Tên ngân hàng"
+
+#: classes/controller/aff.php:354 views/aff/settings/payment.php:63
+#: views/whitelabel/affs/payouts.php:74
+#: views/whitelabel/transactions/withdrawal.php:59
+msgid "Skrill e-mail"
+msgstr "Địa chỉ Skrill email"
+
+#: classes/controller/aff.php:363 views/aff/settings/payment.php:78
+#: views/whitelabel/affs/payouts.php:79
+#: views/whitelabel/transactions/withdrawal.php:55
+msgid "Neteller e-mail"
+msgstr "Địa chỉ Neteller email"
+
+#: classes/controller/aff.php:368 views/aff/settings/payment.php:84
+msgid "First name (optional)"
+msgstr "Họ (không bắt buộc)"
+
+#: classes/controller/aff.php:370 views/aff/settings/payment.php:88
+msgid "Last name (optional)"
+msgstr "Tên (không bắt buộc)"
+
+#: classes/controller/aff.php:372 views/aff/settings/payment.php:92
+msgid "Bitcoin wallet address"
+msgstr "Địa chỉ ví Bitcoin"
+
+#: classes/controller/aff.php:389
+msgid "Payment settings have been saved!"
+msgstr "Thông tin cài đặt thanh toán đã được lưu lại!"
+
+#: classes/controller/aff.php:439 classes/controller/whitelabel.php:1527
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4112
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:28
+#: views/aff/settings/profile.php:18 views/whitelabel/affs/commissions.php:36
+#: views/whitelabel/affs/edit.php:48 views/whitelabel/affs/ftps.php:36
+#: views/whitelabel/affs/index.php:51 views/whitelabel/affs/leads.php:36
+#: views/whitelabel/affs/view.php:26 views/whitelabel/tickets/view.php:21
+#: views/whitelabel/transactions/view.php:17
+#: views/whitelabel/transactions/view.php:382
+#: views/whitelabel/transactions/view.php:461
+#: views/whitelabel/transactions/withdrawal.php:17
+#: views/whitelabel/transactions/withdrawal.php:50
+#: views/whitelabel/users/edit.php:20 views/whitelabel/users/index.php:46
+#: views/whitelabel/users/view.php:15
+msgid "First Name"
+msgstr "Họ"
+
+#: classes/controller/aff.php:441 classes/controller/whitelabel.php:1531
+#: views/aff/settings/edit.php:24 views/aff/settings/profile.php:16
+#: views/whitelabel/affs/edit.php:40 views/whitelabel/affs/view.php:24
+#: views/whitelabel/transactions/view.php:205
+msgid "Company"
+msgstr "Công ty"
+
+#: classes/controller/aff.php:443 classes/controller/whitelabel.php:1529
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4114
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:32
+#: views/aff/settings/profile.php:20 views/whitelabel/affs/commissions.php:39
+#: views/whitelabel/affs/edit.php:52 views/whitelabel/affs/ftps.php:39
+#: views/whitelabel/affs/index.php:54 views/whitelabel/affs/leads.php:39
+#: views/whitelabel/affs/view.php:28 views/whitelabel/tickets/view.php:23
+#: views/whitelabel/transactions/view.php:19
+#: views/whitelabel/transactions/view.php:386
+#: views/whitelabel/transactions/view.php:465
+#: views/whitelabel/transactions/withdrawal.php:19
+#: views/whitelabel/transactions/withdrawal.php:52
+#: views/whitelabel/users/edit.php:24 views/whitelabel/users/index.php:49
+#: views/whitelabel/users/view.php:17
+msgid "Last Name"
+msgstr "Tên"
+
+#: classes/controller/aff.php:445 classes/controller/whitelabel.php:1533
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4116
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:45
+#: views/aff/settings/profile.php:29 views/whitelabel/affs/edit.php:65
+#: views/whitelabel/affs/view.php:37 views/whitelabel/transactions/view.php:217
+#: views/whitelabel/transactions/view.php:410
+#: views/whitelabel/transactions/view.php:485
+#: views/whitelabel/users/edit.php:37 views/whitelabel/users/view.php:24
+msgid "City"
+msgstr "Thành phố"
+
+#: classes/controller/aff.php:447 classes/controller/whitelabel.php:1535
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4118
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:60
+#: views/aff/settings/profile.php:37 views/whitelabel/affs/edit.php:80
+#: views/whitelabel/affs/view.php:45 views/whitelabel/users/edit.php:52
+#: views/whitelabel/users/view.php:32
+msgid "Postal/ZIP Code"
+msgstr "Mã điện thoại/ZIP"
+
+#: classes/controller/aff.php:449 classes/controller/whitelabel.php:1537
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4120
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:49
+#: views/aff/settings/profile.php:31 views/whitelabel/affs/edit.php:69
+#: views/whitelabel/affs/view.php:39 views/whitelabel/transactions/view.php:414
+#: views/whitelabel/transactions/view.php:489
+#: views/whitelabel/users/edit.php:41 views/whitelabel/users/view.php:26
+msgid "Region"
+msgstr "Khu vực"
+
+#: classes/controller/aff.php:451 classes/controller/whitelabel.php:1539
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4122
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:64
+#: views/aff/settings/profile.php:33 views/whitelabel/affs/edit.php:84
+#: views/whitelabel/affs/view.php:41 views/whitelabel/transactions/view.php:398
+#: views/whitelabel/transactions/view.php:473
+#: views/whitelabel/users/edit.php:56 views/whitelabel/users/view.php:28
+msgid "Address #1"
+msgstr "Địa chỉ 1"
+
+#: classes/controller/aff.php:453 classes/controller/whitelabel.php:1541
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4124
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:68
+#: views/aff/settings/profile.php:35 views/whitelabel/affs/edit.php:88
+#: views/whitelabel/affs/view.php:43 views/whitelabel/transactions/view.php:229
+#: views/whitelabel/transactions/view.php:402
+#: views/whitelabel/transactions/view.php:477
+#: views/whitelabel/users/edit.php:60 views/whitelabel/users/view.php:30
+msgid "Address #2"
+msgstr "Địa chỉ 2"
+
+#: classes/controller/aff.php:455 classes/controller/aff.php:459
+#: classes/controller/whitelabel.php:1543
+#: classes/controller/whitelabel.php:1547
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4126
+#: classes/controller/whitelabel.php:4130
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:89
+#: views/aff/settings/profile.php:41 views/whitelabel/affs/edit.php:109
+#: views/whitelabel/affs/index.php:77 views/whitelabel/affs/view.php:49
+#: views/whitelabel/users/edit.php:81 views/whitelabel/users/index.php:74
+#: views/whitelabel/users/view.php:36
+msgid "Phone"
+msgstr "Điện thoại"
+
+#: classes/controller/aff.php:457 classes/controller/whitelabel.php:1545
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4128
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:36
+#: views/aff/settings/profile.php:27 views/whitelabel/affs/commissions.php:23
+#: views/whitelabel/affs/edit.php:56 views/whitelabel/affs/ftps.php:23
+#: views/whitelabel/affs/ftps.php:57 views/whitelabel/affs/index.php:26
+#: views/whitelabel/affs/index.php:78 views/whitelabel/affs/leads.php:23
+#: views/whitelabel/affs/leads.php:60 views/whitelabel/affs/reports.php:67
+#: views/whitelabel/affs/reports.php:122 views/whitelabel/affs/view.php:35
+#: views/whitelabel/reports/reports.php:28
+#: views/whitelabel/transactions/view.php:209
+#: views/whitelabel/transactions/view.php:390
+#: views/whitelabel/transactions/view.php:469
+#: views/whitelabel/users/edit.php:28 views/whitelabel/users/index.php:33
+#: views/whitelabel/users/index.php:75 views/whitelabel/users/view.php:22
+msgid "Country"
+msgstr "Quốc gia"
+
+#: classes/controller/aff.php:461 classes/controller/whitelabel.php:248
+#: classes/controller/whitelabel.php:1549
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4132
+#: classes/controller/whitelabel.php:4699 views/admin/lotteries/index.php:27
+#: views/aff/settings/edit.php:93 views/aff/settings/profile.php:43
+#: views/whitelabel/affs/edit.php:113 views/whitelabel/affs/index.php:80
+#: views/whitelabel/affs/view.php:51 views/whitelabel/settings/account.php:21
+#: views/whitelabel/settings/account_edit.php:40
+#: views/whitelabel/users/edit.php:85 views/whitelabel/users/index.php:77
+#: views/whitelabel/users/view.php:38
+msgid "Time Zone"
+msgstr "Múi giờ"
+
+#: classes/controller/aff.php:463 classes/controller/whitelabel.php:1551
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4134
+#: classes/controller/whitelabel.php:4699 views/aff/settings/edit.php:72
+#: views/aff/settings/profile.php:39 views/whitelabel/affs/edit.php:92
+#: views/whitelabel/affs/view.php:47 views/whitelabel/users/edit.php:64
+#: views/whitelabel/users/view.php:34
+msgid "Birthdate"
+msgstr "Ngày sinh"
+
+#: classes/controller/aff.php:526 classes/controller/aff.php:532
+#: classes/controller/whitelabel.php:1616
+#: classes/controller/whitelabel.php:1622
+#: classes/controller/whitelabel.php:4187
+#: classes/controller/whitelabel.php:4193
+msgid "Wrong phone number! Please try to specify it in other format!"
+msgstr "Sai số điện thoại! Vui lòng nhập lại!"
+
+#: classes/controller/aff.php:538 classes/controller/whitelabel.php:1628
+#: classes/controller/whitelabel.php:4199
+msgid "You have to specify the user's country before adding a phone number!"
+msgstr "Hãy chọn quốc gia trước khi thêm số điện thoại!"
+
+#: classes/controller/aff.php:563
+msgid "Your details has been saved!"
+msgstr "Thông tin của bạn đã được lưu!"
+
+#: classes/controller/aff.php:569 classes/controller/whitelabel.php:283
+#: classes/controller/whitelabel.php:1661
+#: classes/controller/whitelabel.php:4272
+msgid "Wrong timezone!"
+msgstr "Sai múi giờ!"
+
+#: classes/controller/aff.php:575 classes/controller/whitelabel.php:1667
+#: classes/controller/whitelabel.php:4278
+msgid "Wrong birthdate!"
+msgstr "Sai ngày sinh!"
+
+#: classes/controller/aff.php:581 classes/controller/whitelabel.php:1673
+#: classes/controller/whitelabel.php:4284
+msgid "Wrong region!"
+msgstr "Sai khu vực!"
+
+#: classes/controller/aff.php:587 classes/controller/whitelabel.php:1679
+#: classes/controller/whitelabel.php:4290
+msgid "Wrong country!"
+msgstr "Sai quốc gia!"
+
+#: classes/controller/aff.php:593 classes/controller/whitelabel.php:1685
+msgid "This login is already in use by another affiliate!"
+msgstr "Tài khoản này đang được sử dụng bởi một liên kết khác!"
+
+#: classes/controller/aff.php:618 classes/controller/whitelabel.php:202
+#: classes/controller/whitelabel.php:432 classes/controller/whitelabel.php:4322
+#: views/aff/settings/password.php:20 views/aff/settings/password.php:22
+#: views/whitelabel/affs/password.php:20 views/whitelabel/affs/password.php:22
+#: views/whitelabel/settings/password.php:20
+#: views/whitelabel/settings/password.php:22
+#: views/whitelabel/users/password.php:20
+#: views/whitelabel/users/password.php:22
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: classes/controller/aff.php:630 classes/controller/whitelabel.php:219
+msgid "Your password has been changed!"
+msgstr "Mật khẩu của bạn đã được thay đổi!"
+
+#: classes/controller/aff.php:778 classes/controller/whitelabel.php:2189
+#: views/aff/settings/analytics.php:20
+#: views/whitelabel/settings/analytics.php:20
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics Tracking ID"
+
+#: classes/controller/aff.php:786
+msgid "Google Analytics Tracking ID saved!"
+msgstr "Google Analytics Tracking ID đã được lưu!"
+
+#: classes/controller/whitelabel.php:153 classes/controller/whitelabel.php:3868
+#: views/whitelabel/users/index.php:9 views/whitelabel/users/menu.php:2
+msgid "Active users"
+msgstr "Người dùng đang hoạt động"
+
+#: classes/controller/whitelabel.php:154 classes/controller/whitelabel.php:3869
+#: views/whitelabel/users/index.php:11 views/whitelabel/users/menu.php:3
+msgid "Inactive users"
+msgstr "Người dùng không hoạt động"
+
+#: classes/controller/whitelabel.php:155 classes/controller/whitelabel.php:3870
+#: views/whitelabel/users/index.php:10 views/whitelabel/users/menu.php:4
+msgid "Deleted users"
+msgstr "Người dùng bị xóa"
+
+#: classes/controller/whitelabel.php:156 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:2
+msgid "Purchases"
+msgstr "Giao dịch"
+
+#: classes/controller/whitelabel.php:157 classes/controller/whitelabel.php:3833
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:3
+msgid "Deposits"
+msgstr "Danh sách gửi tiền"
+
+#: classes/controller/whitelabel.php:158
+#: views/whitelabel/transactions/menu.php:4
+#: views/whitelabel/transactions/withdrawals.php:7
+msgid "Withdrawals"
+msgstr "Danh sách rút tiền"
+
+#: classes/controller/whitelabel.php:159 views/whitelabel/shared/navbar.php:17
+#: views/whitelabel/tickets/index.php:7 views/whitelabel/tickets/menu.php:2
+msgid "Tickets"
+msgstr "Danh sách vé"
+
+#: classes/controller/whitelabel.php:160 views/whitelabel/reports/index.php:7
+#: views/whitelabel/reports/menu.php:2
+msgid "Winners"
+msgstr "Người chiến thắng"
+
+#: classes/controller/whitelabel.php:244 classes/controller/whitelabel.php:474
+#: classes/controller/whitelabel.php:527 classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4365
+#: classes/controller/whitelabel.php:4699 views/aff/settings/profile.php:22
+#: views/whitelabel/affs/commissions.php:33 views/whitelabel/affs/email.php:20
+#: views/whitelabel/affs/ftps.php:33 views/whitelabel/affs/index.php:45
+#: views/whitelabel/affs/index.php:73 views/whitelabel/affs/leads.php:33
+#: views/whitelabel/affs/new.php:33 views/whitelabel/affs/view.php:32
+#: views/whitelabel/settings/account.php:16
+#: views/whitelabel/settings/account_edit.php:28
+#: views/whitelabel/tickets/index.php:64 views/whitelabel/tickets/view.php:25
+#: views/whitelabel/transactions/index.php:54
+#: views/whitelabel/transactions/view.php:21
+#: views/whitelabel/transactions/view.php:189
+#: views/whitelabel/transactions/view.php:374
+#: views/whitelabel/transactions/view.php:457
+#: views/whitelabel/transactions/view.php:593
+#: views/whitelabel/transactions/withdrawal.php:21
+#: views/whitelabel/transactions/withdrawals.php:51
+#: views/whitelabel/users/email.php:20 views/whitelabel/users/index.php:43
+#: views/whitelabel/users/index.php:68 views/whitelabel/users/view.php:19
+msgid "E-mail"
+msgstr "Email"
+
+#: classes/controller/whitelabel.php:277 classes/controller/whitelabel.php:2137
+#: classes/controller/whitelabel.php:2282
+msgid "Settings have been saved!"
+msgstr "Đã thay đổi cài đặt!"
+
+#: classes/controller/whitelabel.php:311
+#: views/whitelabel/settings/account.php:7 views/whitelabel/settings/menu.php:8
+msgid "Account settings"
+msgstr "Cài đặt tài khoản"
+
+#: classes/controller/whitelabel.php:389
+msgid "Affiliate has been deleted!"
+msgstr "Liên kết đã bị xóa!"
+
+#: classes/controller/whitelabel.php:393 classes/controller/whitelabel.php:415
+#: classes/controller/whitelabel.php:510 classes/controller/whitelabel.php:1741
+#: classes/controller/whitelabel.php:1769
+#: classes/controller/whitelabel.php:1790
+#: classes/controller/whitelabel.php:1824
+msgid "Wrong affiliate."
+msgstr "Liên kết sai."
+
+#: classes/controller/whitelabel.php:411
+msgid "Affiliate e-mail address has been confirmed!"
+msgstr "Địa chỉ email liên kết đã được xác nhận!"
+
+#: classes/controller/whitelabel.php:443
+msgid "Affiliate password has been changed!"
+msgstr "Password liên kết đã được xác nhận!"
+
+#: classes/controller/whitelabel.php:457 classes/controller/whitelabel.php:4046
+msgid "Wrong affiliate!"
+msgstr "Liên kết sai!"
+
+#: classes/controller/whitelabel.php:490 classes/controller/whitelabel.php:4429
+msgid "User e-mail address has been saved!"
+msgstr "Email người dùng đã được lưu!"
+
+#: classes/controller/whitelabel.php:495 classes/controller/whitelabel.php:4440
+msgid "This e-mail is already taken!"
+msgstr "Địa chỉ email này đã có sẵn!"
+
+#: classes/controller/whitelabel.php:531 classes/controller/whitelabel.php:1553
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/edit.php:20
+#: views/whitelabel/affs/index.php:34 views/whitelabel/affs/index.php:76
+#: views/whitelabel/affs/new.php:20 views/whitelabel/affs/view.php:22
+msgid "Group"
+msgstr "Nhóm"
+
+#: classes/controller/whitelabel.php:576
+msgid "Affiliate has been successfully created!"
+msgstr "Liên kết đã được tạo thành công!"
+
+#: classes/controller/whitelabel.php:581
+msgid "The email address and/or login you have provided are already in use."
+msgstr "Địa chỉ email  bạn cung cấp đã có sẵn."
+
+#: classes/controller/whitelabel.php:606
+msgid "Affiliate group has been deleted!"
+msgstr "Nhóm liên kết đã bị xóa!"
+
+#: classes/controller/whitelabel.php:611 classes/controller/whitelabel.php:1289
+#: classes/controller/whitelabel.php:1307
+msgid "Wrong affiliate group!"
+msgstr "Nhóm liên kết sai!"
+
+#: classes/controller/whitelabel.php:849
+msgid "Commission has been accepted."
+msgstr "Hoa hồng đã được chấp nhận."
+
+#: classes/controller/whitelabel.php:853
+msgid "It is too late to edit this commission!"
+msgstr "Không thể điều chỉnh mức hoa hồng này!"
+
+#: classes/controller/whitelabel.php:858 classes/controller/whitelabel.php:890
+msgid "Incorrect commission!"
+msgstr "Hoa hồng không đúng!"
+
+#: classes/controller/whitelabel.php:881
+msgid "Commission has been deleted!"
+msgstr "Hoa hồng đã bị xóa!"
+
+#: classes/controller/whitelabel.php:885
+msgid "It is too late to delete this commission!"
+msgstr "Không thể xóa mức hoa hồng này!"
+
+#: classes/controller/whitelabel.php:1104
+msgid "The item has been paid out."
+msgstr "Mặt hàng này đã được thanh toán."
+
+#: classes/controller/whitelabel.php:1108
+msgid "Incorrect item!"
+msgstr "Sai mặt hang!"
+
+#: classes/controller/whitelabel.php:1237
+msgid "Lead has been accepted."
+msgstr "Đã nhập đầu mối kinh doanh."
+
+#: classes/controller/whitelabel.php:1241
+#: classes/controller/whitelabel.php:1258
+msgid "Incorrect lead!"
+msgstr "Đầu mối kinh doanh không đúng!"
+
+#: classes/controller/whitelabel.php:1254
+msgid ""
+"Lead has been deleted! The user and lead commissions are left untouched. You "
+"will need to remove them manually."
+msgstr ""
+"Đầu mối kinh doanh đã bị xóa! Người sử dụng và đầu mối hoa hồng còn tồn tại. "
+"Vui lòng xóa chúng bằng cách thủ công."
+
+#: classes/controller/whitelabel.php:1319
+#: classes/controller/whitelabel.php:1321
+#: classes/controller/whitelabel.php:2239
+#: views/admin/lotteries/imvalaplogs.php:28
+#: views/admin/lotteries/imvalaplogs.php:45 views/admin/lotteries/logs.php:28
+#: views/admin/lotteries/logs.php:45 views/admin/lotteries/lottorisqlogs.php:28
+#: views/admin/lotteries/lottorisqlogs.php:45
+#: views/admin/payments/paymentlogs.php:28
+#: views/admin/payments/paymentlogs.php:45 views/admin/whitelabels/index.php:21
+#: views/aff/reports/commissions.php:55 views/aff/reports/index.php:173
+#: views/whitelabel/affs/commissions.php:61
+#: views/whitelabel/affs/groups_edit.php:32
+#: views/whitelabel/affs/groups_edit.php:47
+#: views/whitelabel/affs/reports.php:179
+#: views/whitelabel/transactions/view.php:429
+msgid "Type"
+msgstr "Loại"
+
+#: classes/controller/whitelabel.php:1325 views/aff/dashboard/index.php:27
+#: views/whitelabel/affs/groups.php:37 views/whitelabel/affs/groups.php:59
+#: views/whitelabel/affs/groups_edit.php:56
+msgid "1st-tier First Time Purchase commission value"
+msgstr "Giá trị hoa hồng Mua Lần Đầu hạng nhất"
+
+#: classes/controller/whitelabel.php:1330 views/aff/dashboard/index.php:30
+#: views/whitelabel/affs/groups.php:40 views/whitelabel/affs/groups.php:62
+#: views/whitelabel/affs/groups_edit.php:63
+msgid "2nd-tier First Time Purchase commission value"
+msgstr "Giá trị hoa hồng mua lần đầu hạng hai"
+
+#: classes/controller/whitelabel.php:1338 views/aff/dashboard/index.php:21
+#: views/whitelabel/affs/groups.php:31 views/whitelabel/affs/groups.php:53
+#: views/whitelabel/affs/groups_edit.php:28
+msgid "1st-tier sale commission value"
+msgstr "Giá trị bán hàng hoa hồng hạng nhất"
+
+#: classes/controller/whitelabel.php:1343 views/aff/dashboard/index.php:24
+#: views/whitelabel/affs/groups.php:34 views/whitelabel/affs/groups.php:56
+#: views/whitelabel/affs/groups_edit.php:43
+msgid "2nd-tier sale commission value"
+msgstr "Giá trị bán hàng hoa hồng hạng hai"
+
+#: classes/controller/whitelabel.php:1403
+msgid "Affiliate group has been saved!"
+msgstr "Nhóm liên kết đã được lưu!"
+
+#: classes/controller/whitelabel.php:1408
+msgid "The affiliate group with this name already exists!"
+msgstr "Tên nhóm liên kết này đã có tồn tại!"
+
+#: classes/controller/whitelabel.php:1451 views/whitelabel/affs/settings.php:28
+msgid "Automatically payout commissions"
+msgstr "Thanh toán hoa hồng tự động"
+
+#: classes/controller/whitelabel.php:1453 views/whitelabel/affs/settings.php:31
+msgid "Automatically accept new affiliate leads (registrations)"
+msgstr "Tự động nhận thêm đầu mối liên kết mới (thông qua đăng ký)"
+
+#: classes/controller/whitelabel.php:1470
+msgid "Affiliate settings has been saved!"
+msgstr "Cài đặt liên kết đã được lưu!"
+
+#: classes/controller/whitelabel.php:1555 views/whitelabel/affs/edit.php:29
+#: views/whitelabel/affs/index.php:75 views/whitelabel/affs/view.php:15
+msgid "Parent"
+msgstr "Bố mẹ"
+
+#: classes/controller/whitelabel.php:1655
+msgid "Affiliate details has been saved!"
+msgstr "Thông tin liên kết đã được lưu!"
+
+#: classes/controller/whitelabel.php:1700
+#: classes/controller/whitelabel.php:3906
+#: classes/controller/whitelabel.php:3929
+#: classes/controller/whitelabel.php:3964
+#: classes/controller/whitelabel.php:4062
+#: classes/controller/whitelabel.php:4084
+#: classes/controller/whitelabel.php:4305
+#: classes/controller/whitelabel.php:4348
+#: classes/controller/whitelabel.php:4455
+#: classes/controller/whitelabel.php:4484
+#: classes/controller/whitelabel.php:4525
+#: classes/controller/whitelabel.php:4602
+msgid "Incorrect user."
+msgstr "Tên người dùng không đúng."
+
+#: classes/controller/whitelabel.php:1765
+msgid "Affiliate has been activated and confirmed!"
+msgstr "Liên kết đã được kích hoạt và xác nhận!"
+
+#: classes/controller/whitelabel.php:1786
+msgid "Affiliate has been accepted!"
+msgstr "Liên kết đã được chấp nhận!"
+
+#: classes/controller/whitelabel.php:1815
+msgid "Affiliate has been restored!"
+msgstr "Liên kết đã được phục hồi!"
+
+#: classes/controller/whitelabel.php:1819
+msgid ""
+"Affiliate cannot be restored, because an active affiliate with this e-mail "
+"address exists."
+msgstr ""
+"Liên kết không thể phục hồi được vì người dùng có liên kết với địa chỉ email "
+"này đã có sẵn."
+
+#: classes/controller/whitelabel.php:1949
+msgid "Affiliate ID"
+msgstr "ID liên kết"
+
+#: classes/controller/whitelabel.php:1949
+msgid "Parent Affiliate"
+msgstr "Liên kết của bố mẹ"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/view.php:338
+#: views/whitelabel/transactions/view.php:443
+#: views/whitelabel/transactions/view.php:639
+msgid "Currency"
+msgstr "Đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699
+msgid "Phone Country"
+msgstr "Mã điện thoại quốc gia"
+
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/view.php:58
+msgid "Date created"
+msgstr "Ngày tạo"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4699 views/whitelabel/affs/view.php:62
+#: views/whitelabel/users/view.php:53
+msgid "Last Active"
+msgstr "Lần hoạt động cuối cùng"
+
+#: classes/controller/whitelabel.php:1954
+msgid "Default"
+msgstr "Mặc định"
+
+#: classes/controller/whitelabel.php:2010 views/whitelabel/affs/index.php:12
+#: views/whitelabel/shared/navbar.php:19
+msgid "Affiliates"
+msgstr "Liên kết"
+
+#: classes/controller/whitelabel.php:2090 views/admin/lotteries/index.php:20
+#: views/whitelabel/settings/lottery.php:18
+#: views/whitelabel/settings/lottery_edit.php:21
+msgid "Enabled"
+msgstr "Mở"
+
+#: classes/controller/whitelabel.php:2092
+#: views/whitelabel/settings/lottery.php:22
+#: views/whitelabel/settings/lottery_edit.php:46
+msgid "Minimum Lines"
+msgstr "Số hàng số tối thiểu"
+
+#: classes/controller/whitelabel.php:2094
+#: views/whitelabel/settings/lottery_edit.php:50
+msgid "Line Price by Currency"
+msgstr "Giá hàng số tính theo đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:2096
+msgid "Provider"
+msgstr "Nhà cung cấp"
+
+#: classes/controller/whitelabel.php:2148
+#, php-format
+msgid "Minimum lines count should be multiple of %s!"
+msgstr "Số hàng số tối thiểu phải là bội của %s!"
+
+#: classes/controller/whitelabel.php:2162
+msgid "Incorrect lottery!"
+msgstr "Sai kiểu xổ số!"
+
+#: classes/controller/whitelabel.php:2174
+#: views/whitelabel/settings/lottery.php:7
+#: views/whitelabel/settings/lottery_edit.php:7
+#: views/whitelabel/settings/menu.php:4
+msgid "Lottery settings"
+msgstr "Cài đặt xổ số"
+
+#: classes/controller/whitelabel.php:2200
+msgid "Google Analytics have been saved!"
+msgstr "Google Analytics Tracking đã được lưu!"
+
+#: classes/controller/whitelabel.php:2241
+#: views/whitelabel/settings/index.php:39
+msgid "Maximum Auto-Payout"
+msgstr "Số tiền thanh toán tự động tối đa"
+
+#: classes/controller/whitelabel.php:2243
+#: views/whitelabel/settings/index.php:45
+msgid "Minimum Payment by Currency"
+msgstr "Số tiền thanh toán tối thiểu theo đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:2245
+#: views/whitelabel/settings/index.php:52
+msgid "Minimum Deposit by Currency"
+msgstr "Số tiền gửi tối thiểu theo đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:2248
+#: views/whitelabel/settings/index.php:59
+msgid "Minimum Withdrawal by Currency"
+msgstr "Số tiền rút tối thiểu theo đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:2250
+#: views/whitelabel/settings/index.php:66
+msgid "Maximum Order Amount by Currency"
+msgstr "Số lượng đơn hàng tối đa theo đơn vị tiền tệ"
+
+#: classes/controller/whitelabel.php:2252
+#: views/whitelabel/settings/index.php:74
+msgid "Maximum order items"
+msgstr "Số mặt hàng đặt tối đa"
+
+#: classes/controller/whitelabel.php:2255
+#: views/whitelabel/settings/index.php:20
+msgid "Default site currency"
+msgstr "Đơn vị tiền tệ mặc định"
+
+#: classes/controller/whitelabel.php:2287
+msgid "Incorrect currency."
+msgstr "Sai đơn vị tiền tệ."
+
+#: classes/controller/whitelabel.php:2299 views/whitelabel/settings/index.php:7
+#: views/whitelabel/settings/menu.php:2
+msgid "Site settings"
+msgstr "Cài đặt website"
+
+#: classes/controller/whitelabel.php:2623
+msgid "Line prize has been paid out to the user account balance!"
+msgstr "Tiền thưởng đã được thanh toán về tài khoản của người dùng!"
+
+#: classes/controller/whitelabel.php:2628
+#: classes/controller/whitelabel.php:2633
+#: classes/controller/whitelabel.php:2638
+msgid "Incorrect line!"
+msgstr "Sai day số!"
+
+#: classes/controller/whitelabel.php:2671
+msgid "The ticket has been marked as paid out!"
+msgstr "Vé đã được thanh toán!"
+
+#: classes/controller/whitelabel.php:2675
+msgid ""
+"The ticket has been marked as paid out, however there are still some lines "
+"that will have to be paid automatically!"
+msgstr ""
+"Vé đã được thanh toán, tuy nhiên có một số dãy số cần được thanh toán tự "
+"động!"
+
+#: classes/controller/whitelabel.php:2680
+#: classes/controller/whitelabel.php:2746
+msgid "Incorrect ticket!"
+msgstr "Sai thông tin vé!"
+
+#: classes/controller/whitelabel.php:2892
+#: classes/controller/whitelabel.php:2925
+#: classes/controller/whitelabel.php:2930
+#: classes/controller/whitelabel.php:2952
+#: classes/controller/whitelabel.php:2982
+msgid "Incorrect withdrawal!"
+msgstr "Số tiền rút không đúng!"
+
+#: classes/controller/whitelabel.php:2921
+msgid "Withdrawal has been approved!"
+msgstr "Giao dịch rút tiền được chấp nhận!"
+
+#: classes/controller/whitelabel.php:2948
+msgid "Withdrawal has been declined!"
+msgstr "Giao dịch rút tiền bị từ chối!"
+
+#: classes/controller/whitelabel.php:2978
+msgid ""
+"Withdrawal has been canceled! The withdrawal amount has been returned to "
+"user account."
+msgstr ""
+"Giao dịch rút tiền bị hủy bỏ! Số tiền rút đã được hoàn trả về tài khoản "
+"người dùng."
+
+#: classes/controller/whitelabel.php:3389 views/admin/whitelabels/index.php:33
+#: views/admin/whitelabels/payments.php:10
+#: views/whitelabel/settings/ccsettings.php:13
+#: views/whitelabel/settings/menu.php:6
+#: views/whitelabel/settings/paymentmethods.php:7
+#: views/whitelabel/settings/paymentmethods.php:13
+msgid "Payment methods"
+msgstr "Phương thức thanh toán"
+
+#: classes/controller/whitelabel.php:3435
+#: views/whitelabel/settings/ccsettings.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:20
+#: views/whitelabel/transactions/view.php:42
+msgid "Gateway"
+msgstr "Cổng"
+
+#: classes/controller/whitelabel.php:3443
+#: views/whitelabel/settings/ccsettings_edit.php:33
+#: views/whitelabel/transactions/view.php:106
+#: views/whitelabel/transactions/view.php:378
+msgid "Account ID"
+msgstr "ID tài khoản"
+
+#: classes/controller/whitelabel.php:3445
+#: views/whitelabel/settings/ccsettings_edit.php:43
+msgid "Endpoint URL"
+msgstr "URL đích"
+
+#: classes/controller/whitelabel.php:3447
+#: views/whitelabel/settings/ccsettings_edit.php:48
+msgid "Secret key"
+msgstr "Mã bí mật"
+
+#: classes/controller/whitelabel.php:3448
+#: views/whitelabel/settings/ccsettings_edit.php:61
+msgid "Descriptor"
+msgstr "Nhãn mô tả"
+
+#: classes/controller/whitelabel.php:3450
+#: views/whitelabel/settings/ccsettings_edit.php:53
+msgid "Minimum order"
+msgstr "Đơn hàng tối thiểu"
+
+#: classes/controller/whitelabel.php:3498
+msgid "This gateway is already added!"
+msgstr "Cổng này đã được thêm!"
+
+#: classes/controller/whitelabel.php:3504
+msgid "Wrong gateway!"
+msgstr "Sai cổng!"
+
+#: classes/controller/whitelabel.php:3536
+#: views/whitelabel/settings/ccsettings.php:7
+#: views/whitelabel/settings/ccsettings.php:14
+#: views/whitelabel/settings/paymentmethods.php:14
+msgid "Credit Card methods"
+msgstr "Phương thức thẻ tín dụng"
+
+#: classes/controller/whitelabel.php:3672
+msgid "Transaction accepted! The amount has been subtracted from user balance!"
+msgstr ""
+"Giao dịch được chấp nhận! Tiền đã được trừ trong số dư tài khoản người dùng!"
+
+#: classes/controller/whitelabel.php:3675
+msgid "Transaction accepted! The amount has been added to user balance!"
+msgstr ""
+"Giao dịch được chấp nhận! Tiền đã được thêm vào số dư tài khoản người dùng!"
+
+#: classes/controller/whitelabel.php:3678
+msgid "Transaction accepted!"
+msgstr "Giao dịch được chấp nhận!"
+
+#: classes/controller/whitelabel.php:3684
+#: classes/controller/whitelabel.php:3689
+#: classes/controller/whitelabel.php:3726
+msgid "Incorrect transaction!"
+msgstr "Giao dịch không đúng!"
+
+#: classes/controller/whitelabel.php:3902
+msgid "User has been deleted!"
+msgstr "Người dùng đã bị xóa!"
+
+#: classes/controller/whitelabel.php:3925
+msgid "User has been activated and confirmed!"
+msgstr "Đã kích hoạt và xác nhận người dùng!"
+
+#: classes/controller/whitelabel.php:3955
+msgid "User has been restored!"
+msgstr "Người dùng đã được khôi phục!"
+
+#: classes/controller/whitelabel.php:3959
+msgid ""
+"User cannot be restored because there exists active user with this e-mail."
+msgstr ""
+"Người dùng không thể khôi được phục vì đã có người dùng hoạt động với địa "
+"chỉ email này."
+
+#: classes/controller/whitelabel.php:4010 views/aff/shared/header.php:7
+#: views/whitelabel/affs/commissions.php:13
+#: views/whitelabel/affs/commissions.php:52 views/whitelabel/affs/ftps.php:13
+#: views/whitelabel/affs/ftps.php:52 views/whitelabel/affs/leads.php:13
+#: views/whitelabel/affs/leads.php:52 views/whitelabel/affs/payouts.php:13
+#: views/whitelabel/affs/payouts.php:32 views/whitelabel/affs/reports.php:21
+#: views/whitelabel/affs/reports.php:59 views/whitelabel/affs/reports.php:117
+#: views/whitelabel/affs/reports.php:170 views/whitelabel/users/aff.php:20
+#: views/whitelabel/users/index.php:71
+msgid "Affiliate"
+msgstr "Liên kết"
+
+#: classes/controller/whitelabel.php:4020
+#: classes/controller/whitelabel.php:4041
+msgid "User affiliate has been changed."
+msgstr "Người dùng liên kết đã được thay đổi."
+
+#: classes/controller/whitelabel.php:4080
+msgid "User e-mail address confirmed!"
+msgstr "Đã xác nhận địa chỉ email của người dung!"
+
+#: classes/controller/whitelabel.php:4266
+msgid "User details has been saved!"
+msgstr "Thông tin người dùng đã được lưu!"
+
+#: classes/controller/whitelabel.php:4334
+msgid "User password has been changed!"
+msgstr "Mật khẩu của người dùng đã được thay đổi!"
+
+#: classes/controller/whitelabel.php:4434
+msgid "Cannot update e-mail in eMerchantPay system. Please contact us!"
+msgstr ""
+"Không thể cập nhật email tren hệ thống eMerchantPay. Hãy liên hệ với chúng "
+"tôi!"
+
+#: classes/controller/whitelabel.php:4501
+#: views/admin/payments/paymentlogs.php:68
+#: views/whitelabel/transactions/withdrawal.php:33
+#: views/whitelabel/transactions/withdrawals.php:55
+msgid "User balance"
+msgstr "Số dư tài khoản người dùng"
+
+#: classes/controller/whitelabel.php:4510
+msgid "User balance saved!"
+msgstr "Số dư tài khoản đã được lưu!"
+
+#: classes/controller/whitelabel.php:4549 views/aff/reports/commissions.php:58
+#: views/aff/reports/index.php:176 views/aff/reports/payouts.php:20
+#: views/whitelabel/affs/commissions.php:64
+#: views/whitelabel/affs/payouts.php:37 views/whitelabel/affs/reports.php:182
+#: views/whitelabel/tickets/index.php:67 views/whitelabel/tickets/view.php:35
+#: views/whitelabel/transactions/index.php:57
+#: views/whitelabel/transactions/view.php:45
+#: views/whitelabel/transactions/view.php:334
+#: views/whitelabel/transactions/view.php:585
+#: views/whitelabel/transactions/view.php:607
+#: views/whitelabel/transactions/withdrawal.php:31
+#: views/whitelabel/transactions/withdrawals.php:57
+#: views/whitelabel/users/deposit.php:30
+msgid "Amount"
+msgstr "Số  tiền"
+
+#: classes/controller/whitelabel.php:4583
+msgid "Deposit has been added!"
+msgstr "Tiền gửi đã được thêm!"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/tickets/index.php:45
+#: views/whitelabel/tickets/view.php:19
+#: views/whitelabel/transactions/index.php:36
+#: views/whitelabel/transactions/view.php:15
+#: views/whitelabel/transactions/withdrawal.php:15
+#: views/whitelabel/transactions/withdrawals.php:33
+msgid "User ID"
+msgstr "ID người dùng"
+
+#: classes/controller/whitelabel.php:4699
+#: views/whitelabel/transactions/index.php:15
+#: views/whitelabel/transactions/index.php:88
+#: views/whitelabel/transactions/view.php:33
+#: views/whitelabel/users/balance.php:20 views/whitelabel/users/index.php:73
+#: views/whitelabel/users/view.php:45
+msgid "Balance"
+msgstr "Số dư"
+
+#: classes/controller/whitelabel.php:4699 views/whitelabel/users/view.php:47
+msgid "Date register"
+msgstr "Ngày đăng ký"
+
+#: lang/translation.php:3
+msgid "Powerball"
+msgstr "Xổ số Powerball"
+
+#: lang/translation.php:4
+msgid "Mega Millions"
+msgstr "Xổ số Mega Millions"
+
+#: lang/translation.php:5
+msgid "Eurojackpot"
+msgstr "Xổ số Eurojackpot"
+
+#: lang/translation.php:6
+msgid "SuperEnalotto"
+msgstr "Xổ số SuperEnalotto"
+
+#: lang/translation.php:7
+msgid "UK Lottery"
+msgstr "Xổ số Anh"
+
+#: lang/translation.php:8
+msgid "EuroMillions"
+msgstr "Xổ số EuroMillions"
+
+#: lang/translation.php:9
+msgid "Polish Lotto"
+msgstr "Xổ số Ba Lan"
+
+#: lang/translation.php:12 views/aff/settings/payment.php:30
+msgid "Bank account"
+msgstr "Tài khoản ngân hàng"
+
+#: lang/translation.php:13 views/aff/settings/payment.php:53
+#: views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/transactions/view.php:286
+msgid "Skrill"
+msgstr "Skrill"
+
+#: lang/translation.php:14 views/aff/settings/payment.php:68
+#: views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/transactions/view.php:312
+msgid "Neteller"
+msgstr "Neteller"
+
+#: lang/translation.php:15 views/whitelabel/affs/payouts.php:81
+msgid "BTC"
+msgstr "BTC"
+
+#: lang/translation.php:16
+msgid "Debit card"
+msgstr "Thẻ nợ ngân hàng"
+
+#: views/admin/lotteries/delays.php:8 views/admin/lotteries/draws.php:8
+#: views/admin/lotteries/draws.php:58 views/whitelabel/affs/groups.php:8
+#: views/whitelabel/affs/index.php:9
+#: views/whitelabel/settings/ccsettings.php:10
+#: views/whitelabel/settings/paymentmethods.php:10
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: views/admin/lotteries/delays.php:11
+msgid ""
+"Here you can add or edit delayed lottery draw dates to automatically process "
+"the changes within the system."
+msgstr ""
+"Tại đây bạn có thể thêm hoặc chỉnh sửa ngày hoãn rút xổ số để tiếp cân thay "
+"đổi trong hệ thống."
+
+#: views/admin/lotteries/delays.php:21
+msgid "Postponed date"
+msgstr "Ngày hoãn"
+
+#: views/admin/lotteries/delays.php:22 views/admin/lotteries/index.php:32
+#: views/admin/whitelabels/index.php:22 views/admin/whitelabels/payments.php:24
+#: views/aff/reports/payouts.php:23 views/whitelabel/affs/commissions.php:66
+#: views/whitelabel/affs/groups.php:22 views/whitelabel/affs/index.php:91
+#: views/whitelabel/affs/leads.php:65 views/whitelabel/affs/payouts.php:41
+#: views/whitelabel/settings/ccsettings.php:25
+#: views/whitelabel/settings/lottery.php:23
+#: views/whitelabel/settings/paymentmethods.php:29
+#: views/whitelabel/tickets/index.php:74
+#: views/whitelabel/transactions/index.php:64
+#: views/whitelabel/transactions/withdrawals.php:61
+#: views/whitelabel/users/index.php:86
+msgid "Manage"
+msgstr "Quản lý"
+
+#: views/admin/lotteries/delays.php:32 views/admin/lotteries/index.php:46
+#: views/admin/whitelabels/index.php:32 views/admin/whitelabels/payments.php:36
+#: views/whitelabel/affs/groups.php:44 views/whitelabel/affs/groups.php:66
+#: views/whitelabel/settings/ccsettings.php:34
+#: views/whitelabel/settings/lottery.php:44
+#: views/whitelabel/settings/paymentmethods.php:41
+#: views/whitelabel/users/index.php:122
+msgid "Edit"
+msgstr "Chính sửa"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:140 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:97 views/whitelabel/affs/leads.php:99
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/index.php:177
+#: views/whitelabel/tickets/view.php:99
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawals.php:97
+#: views/whitelabel/transactions/withdrawals.php:99
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:143
+#: views/whitelabel/users/index.php:150
+msgid "Are you sure?"
+msgstr "Bạn có chắc chắn không?"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:99 views/whitelabel/users/index.php:150
+msgid "Delete"
+msgstr "Xóa"
+
+#: views/admin/lotteries/delays.php:49
+msgid "There are no delays specified."
+msgstr "Không có ngày hoãn nào cụ thể."
+
+#: views/admin/lotteries/delays.php:59 views/aff/reports/payouts.php:78
+#: views/whitelabel/affs/commissions.php:141
+#: views/whitelabel/affs/groups.php:83 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:169 views/whitelabel/affs/leads.php:119
+#: views/whitelabel/affs/payouts.php:140 views/whitelabel/tickets/view.php:156
+#: views/whitelabel/transactions/index.php:140
+#: views/whitelabel/transactions/view.php:754
+#: views/whitelabel/transactions/withdrawal.php:95
+#: views/whitelabel/transactions/withdrawals.php:123
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:170
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#: views/admin/lotteries/delays.php:64 views/aff/reports/payouts.php:83
+#: views/whitelabel/affs/commissions.php:146
+#: views/whitelabel/affs/groups.php:88 views/whitelabel/affs/index.php:174
+#: views/whitelabel/affs/leads.php:124 views/whitelabel/affs/payouts.php:145
+#: views/whitelabel/tickets/index.php:182 views/whitelabel/tickets/view.php:161
+#: views/whitelabel/transactions/index.php:145
+#: views/whitelabel/transactions/view.php:759
+#: views/whitelabel/transactions/withdrawal.php:100
+#: views/whitelabel/transactions/withdrawals.php:128
+#: views/whitelabel/users/index.php:175
+msgid "OK"
+msgstr "OK"
+
+#: views/admin/lotteries/delays.php:65 views/admin/lotteries/draws.php:59
+#: views/admin/lotteries/index.php:91 views/admin/whitelabels/index.php:59
+#: views/admin/whitelabels/payments.php:61 views/aff/reports/payouts.php:84
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:89 views/whitelabel/affs/index.php:175
+#: views/whitelabel/affs/leads.php:125 views/whitelabel/affs/payouts.php:146
+#: views/whitelabel/tickets/index.php:183 views/whitelabel/tickets/view.php:162
+#: views/whitelabel/transactions/index.php:146
+#: views/whitelabel/transactions/view.php:760
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawal.php:101
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/transactions/withdrawals.php:129
+#: views/whitelabel/users/index.php:176
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: views/admin/lotteries/delays_edit.php:7
+msgid "Add new postponed draw"
+msgstr "Thêm ngày hoãn rút xổ số"
+
+#: views/admin/lotteries/delays_edit.php:8
+msgid "You can add a postponed lottery draw here."
+msgstr "Bạn có thể thêm ngày hoãn rút xổ số tại đây."
+
+#: views/admin/lotteries/delays_edit.php:9 views/admin/lotteries/draw_add.php:9
+#: views/admin/lotteries/draws.php:12 views/admin/lotteries/jackpot.php:9
+#: views/admin/lotteries/nextdraw.php:9 views/admin/lotteries/source.php:9
+#: views/admin/whitelabels/add.php:9 views/admin/whitelabels/edit.php:9
+#: views/admin/whitelabels/payments_edit.php:9 views/aff/dashboard/index.php:44
+#: views/aff/settings/edit.php:9 views/aff/settings/password.php:9
+#: views/whitelabel/affs/edit.php:9 views/whitelabel/affs/email.php:9
+#: views/whitelabel/affs/groups_edit.php:9 views/whitelabel/affs/new.php:9
+#: views/whitelabel/affs/password.php:9 views/whitelabel/affs/view.php:9
+#: views/whitelabel/settings/account_edit.php:9
+#: views/whitelabel/settings/ccsettings_edit.php:9
+#: views/whitelabel/settings/lottery_edit.php:9
+#: views/whitelabel/settings/password.php:9
+#: views/whitelabel/settings/paymentmethods_edit.php:9
+#: views/whitelabel/tickets/view.php:9 views/whitelabel/transactions/view.php:9
+#: views/whitelabel/transactions/withdrawal.php:9
+#: views/whitelabel/users/aff.php:9 views/whitelabel/users/balance.php:9
+#: views/whitelabel/users/deposit.php:9 views/whitelabel/users/edit.php:9
+#: views/whitelabel/users/email.php:9 views/whitelabel/users/password.php:9
+#: views/whitelabel/users/view.php:9
+msgid "Back"
+msgstr "Quay lại"
+
+#: views/admin/lotteries/delays_edit.php:29
+#: views/admin/lotteries/delays_edit.php:36
+#: views/admin/lotteries/draw_add.php:21
+msgid "Enter date"
+msgstr "Nhập ngày"
+
+#: views/admin/lotteries/delays_edit.php:31
+#: views/admin/lotteries/delays_edit.php:38
+#: views/admin/lotteries/draw_add.php:23 views/aff/settings/edit.php:75
+#: views/whitelabel/affs/edit.php:95 views/whitelabel/users/edit.php:67
+msgid "Format: mm/dd/yyyy"
+msgstr "Định dạng: m/đd/yyyy"
+
+#: views/admin/lotteries/delays_edit.php:41
+#: views/admin/lotteries/draw_add.php:86 views/admin/lotteries/jackpot.php:26
+#: views/admin/lotteries/nextdraw.php:27 views/admin/lotteries/source.php:27
+#: views/admin/whitelabels/add.php:48 views/admin/whitelabels/edit.php:44
+#: views/admin/whitelabels/payments_edit.php:118
+#: views/aff/settings/analytics.php:24 views/aff/settings/edit.php:101
+#: views/aff/settings/password.php:29 views/aff/settings/payment.php:96
+#: views/whitelabel/affs/edit.php:121 views/whitelabel/affs/email.php:23
+#: views/whitelabel/affs/groups_edit.php:69 views/whitelabel/affs/new.php:46
+#: views/whitelabel/affs/password.php:29 views/whitelabel/affs/settings.php:43
+#: views/whitelabel/settings/account_edit.php:47
+#: views/whitelabel/settings/analytics.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:69
+#: views/whitelabel/settings/index.php:77
+#: views/whitelabel/settings/lottery_edit.php:57
+#: views/whitelabel/settings/password.php:29
+#: views/whitelabel/settings/paymentmethods_edit.php:118
+#: views/whitelabel/users/aff.php:30 views/whitelabel/users/balance.php:27
+#: views/whitelabel/users/deposit.php:37 views/whitelabel/users/edit.php:93
+#: views/whitelabel/users/email.php:23 views/whitelabel/users/password.php:29
+msgid "Submit"
+msgstr "Đăng"
+
+#: views/admin/lotteries/draw_add.php:7
+msgid "Add Draw"
+msgstr "Thêm lượt rút"
+
+#: views/admin/lotteries/draw_add.php:8
+msgid ""
+"You can manually add a lottery draw here. You should only do this when "
+"automatic update is not available!<br>All users' tickets will be processed "
+"according to the added draw data! This operation cannot be undone!"
+msgstr ""
+"Bạn có thể tự thêm lượt rút tại đây. Điều này chỉ có thể thực hiện được khi "
+"không có cập nhật tự động! <br> Vé của người dùng sẽ được xử lý theo dữ liệu "
+"rút được thêm vào! Đây là điều bắt buộc!"
+
+#: views/admin/lotteries/draw_add.php:28
+msgid "Enter next jackpot"
+msgstr "Nhập  jackpot tiếp theo"
+
+#: views/admin/lotteries/draw_add.php:30
+#, php-format
+msgid ""
+"You should add a draw only if the next jackpot is already known.<br>Unit: "
+"million (e.g. type '29.5' for 29.5 million jackpot). Use dot for decimal "
+"digits. <br>Currency: %s<br>Jackpot for this draw: %s"
+msgstr ""
+"Chỉ nên thêm lượt rút khi đã biết trước được giải jackpot tiếp theo. <br> "
+"Đơn vị: triệu (VD: nếu trúng jackpot 29.5 triệu, nhập \"29.5\") <br>. Sử "
+"dụng dấu chấm cho chữ số thập phân. <br>Đơn vị tiền tệ: %s<br> Jackpot cho "
+"lượt rút này: %s"
+
+#: views/admin/lotteries/draw_add.php:34 views/admin/lotteries/draws.php:23
+msgid "Draw Numbers"
+msgstr "Số thứ tự rút"
+
+#: views/admin/lotteries/draw_add.php:39 views/admin/lotteries/draw_add.php:53
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: views/admin/lotteries/draw_add.php:44 views/admin/lotteries/draw_add.php:58
+#, php-format
+msgid "Range: %s"
+msgstr "Pham vi: %s"
+
+#: views/admin/lotteries/draw_add.php:48
+msgid "Bonus Numbers"
+msgstr "Số bổ sung"
+
+#: views/admin/lotteries/draw_add.php:61
+msgid "Draw winners"
+msgstr "Người thắng"
+
+#: views/admin/lotteries/draw_add.php:63
+msgid ""
+"Type 0's in case of no winner/prize.<br>You should add a draw only if prize "
+"breakout is already known."
+msgstr ""
+"Gõ 0's nếu không có người thắng. <br> Bạn  nên chỉ thêm đợt bốc thăm mới khi "
+"đã biết mức giải thưởng mới."
+
+#: views/admin/lotteries/draw_add.php:66 views/whitelabel/tickets/view.php:71
+msgid "Match"
+msgstr "Ghép số"
+
+#: views/admin/lotteries/draw_add.php:78
+msgid "Free Quick Pick"
+msgstr "Lượt chọn nhanh miễn phí"
+
+#: views/admin/lotteries/draw_add.php:80 views/whitelabel/tickets/index.php:71
+#: views/whitelabel/tickets/view.php:78
+msgid "Prize"
+msgstr "Giải thưởng"
+
+#: views/admin/lotteries/draws.php:10
+msgid "Draws"
+msgstr "Lượt rút thăm"
+
+#: views/admin/lotteries/draws.php:11
+msgid "This is a list of lottery draws."
+msgstr "Đây là danh sách lượt rút thăm xổ số."
+
+#: views/admin/lotteries/draws.php:20 views/whitelabel/reports/index.php:19
+#: views/whitelabel/tickets/index.php:36 views/whitelabel/tickets/index.php:69
+#: views/whitelabel/tickets/view.php:32
+msgid "Draw Date"
+msgstr "Ngày rút thăm"
+
+#: views/admin/lotteries/draws.php:21
+msgid "Download Date"
+msgstr "Ngày tải xuống"
+
+#: views/admin/lotteries/draws.php:22 views/whitelabel/tickets/index.php:133
+#: views/whitelabel/tickets/view.php:81 views/whitelabel/tickets/view.php:118
+msgid "Jackpot"
+msgstr "Jackpot"
+
+#: views/admin/lotteries/draws.php:24
+msgid "Draw Bonus Numbers"
+msgstr "Số thứ tự lượt rút thưởng"
+
+#: views/admin/lotteries/draws.php:42
+msgid "There are no draws for this lottery yet."
+msgstr "Không có lượt rút nào."
+
+#: views/admin/lotteries/draws.php:52
+msgid "Confirm new draw"
+msgstr "Xác nhận lượt rút mới"
+
+#: views/admin/lotteries/draws.php:55
+msgid ""
+"Are you sure you want to add new draw?&#10;You should only do this when "
+"automatic update is not available!&#10;All users' tickets will be processed "
+"according to added draw data!"
+msgstr ""
+"Bạn có chắc là muốn thêm lượt rút mowis không?&#10; Chỉ nên làm điều này khi "
+"không có cập nhật tự động!&#10; Vé người dùng sẽ được xử lý theo dữ liệu rút "
+"thăm đã được thêm vào!"
+
+#: views/admin/lotteries/imvalaplogs.php:7 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/logs.php:7 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/shared/navbar.php:15
+msgid "Lotteries"
+msgstr "Xổ số"
+
+#: views/admin/lotteries/imvalaplogs.php:8
+msgid ""
+"Here you can find all logs related to Imvalap provider. Logs are kept for 1 "
+"month."
+msgstr ""
+"Tại đây bạn có thể tìm thấy nhật ký liên quan đến nhà cung cấp Imvalap. Nhật "
+"ký được lưu trữ trong 1 tháng."
+
+#: views/admin/lotteries/imvalaplogs.php:11 views/admin/lotteries/logs.php:11
+#: views/admin/lotteries/lottorisqlogs.php:11
+#: views/admin/payments/paymentlogs.php:11
+msgid "Date Range"
+msgstr "Trong khoảng ngày"
+
+#: views/admin/lotteries/imvalaplogs.php:14 views/admin/lotteries/logs.php:14
+#: views/admin/lotteries/lottorisqlogs.php:14
+#: views/admin/payments/paymentlogs.php:14 views/aff/reports/index.php:14
+#: views/whitelabel/affs/reports.php:14 views/whitelabel/reports/reports.php:14
+msgid "to"
+msgstr "tới"
+
+#: views/admin/lotteries/imvalaplogs.php:19
+#: views/admin/lotteries/imvalaplogs.php:47
+#: views/admin/lotteries/lottorisqlogs.php:19
+#: views/admin/lotteries/lottorisqlogs.php:47
+#: views/admin/payments/paymentlogs.php:19
+#: views/admin/payments/paymentlogs.php:47
+msgid "Whitelabel"
+msgstr "Nhãn trắng"
+
+#: views/admin/lotteries/imvalaplogs.php:21
+#: views/admin/lotteries/imvalaplogs.php:30 views/admin/lotteries/logs.php:21
+#: views/admin/lotteries/logs.php:30 views/admin/lotteries/lottorisqlogs.php:21
+#: views/admin/lotteries/lottorisqlogs.php:30
+#: views/admin/payments/paymentlogs.php:21
+#: views/admin/payments/paymentlogs.php:30
+msgid "All"
+msgstr "Tất cả"
+
+#: views/admin/lotteries/imvalaplogs.php:36 views/admin/lotteries/logs.php:36
+#: views/admin/lotteries/lottorisqlogs.php:36
+#: views/admin/payments/paymentlogs.php:36 views/aff/reports/commissions.php:34
+#: views/aff/reports/ftps.php:34 views/aff/reports/leads.php:34
+#: views/whitelabel/affs/commissions.php:10
+#: views/whitelabel/affs/commissions.php:41 views/whitelabel/affs/ftps.php:10
+#: views/whitelabel/affs/ftps.php:41 views/whitelabel/affs/index.php:15
+#: views/whitelabel/affs/index.php:56 views/whitelabel/affs/leads.php:10
+#: views/whitelabel/affs/leads.php:41 views/whitelabel/affs/payouts.php:10
+#: views/whitelabel/affs/payouts.php:21 views/whitelabel/affs/reports.php:18
+#: views/whitelabel/tickets/index.php:10 views/whitelabel/tickets/index.php:50
+#: views/whitelabel/transactions/index.php:10
+#: views/whitelabel/transactions/index.php:41
+#: views/whitelabel/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/withdrawals.php:38
+#: views/whitelabel/users/index.php:22 views/whitelabel/users/index.php:51
+msgid "Filter"
+msgstr "Lọc"
+
+#: views/admin/lotteries/imvalaplogs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:48
+msgid "Ticket ID"
+msgstr "ID vé"
+
+#: views/admin/lotteries/imvalaplogs.php:49
+msgid "Job ID"
+msgstr "ID nghề nghiệp"
+
+#: views/admin/lotteries/imvalaplogs.php:50 views/admin/lotteries/logs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:50
+#: views/admin/payments/paymentlogs.php:50
+msgid "Message"
+msgstr "Tin nhắn"
+
+#: views/admin/lotteries/imvalaplogs.php:86 views/admin/lotteries/logs.php:73
+#: views/admin/lotteries/lottorisqlogs.php:86
+#: views/admin/payments/paymentlogs.php:99
+msgid "There are no logs for this criteria."
+msgstr "Không có ghi chép cho các tiêu chí này."
+
+#: views/admin/lotteries/index.php:8
+msgid "Show Logs"
+msgstr "Hiển thị nhật ký"
+
+#: views/admin/lotteries/index.php:11
+msgid ""
+"This is an overview of the lotteries. Draws and Jackpots are automatically "
+"updated every 20 minutes."
+msgstr ""
+"Đây là giao diện xổ số. Lượt rút và jackpot tự động cập nhật 20 phút 1 lần."
+
+#: views/admin/lotteries/index.php:22 views/whitelabel/users/view.php:55
+msgid "Last Update"
+msgstr "Cập nhật lần cuối"
+
+#: views/admin/lotteries/index.php:24
+msgid "Draw Days"
+msgstr "Số ngày rút thăm"
+
+#: views/admin/lotteries/index.php:25
+msgid "Draw Hour"
+msgstr "Số giờ rút thăm"
+
+#: views/admin/lotteries/index.php:26
+msgid "Draw Rules"
+msgstr "Luật rút thăm"
+
+#: views/admin/lotteries/index.php:26
+msgid ""
+"Amount of numbers (range of numbers) + Amount of bonus numbers (range of "
+"bonus numbers)&#10;*1 Extra number within the base range of draw numbers"
+msgstr "Số (dãy số) + Số lượng tiền thưởng (dãy số thưởng)"
+
+#: views/admin/lotteries/index.php:28
+msgid "Last (Next) Draw Date"
+msgstr "Ngày rút thăm lần cuối (kế)"
+
+#: views/admin/lotteries/index.php:29
+msgid "Last Numbers"
+msgstr "Số cuối"
+
+#: views/admin/lotteries/index.php:30
+msgid "Last Bonus Numbers"
+msgstr "Số thưởng cuối"
+
+#: views/admin/lotteries/index.php:31
+msgid "Last Extra Number"
+msgstr "Số phụ cuối"
+
+#: views/admin/lotteries/index.php:45
+msgid "pending"
+msgstr "đang chờ"
+
+#: views/admin/lotteries/index.php:53
+msgid "Next Draw"
+msgstr "Lượt rút kế tiếp"
+
+#: views/admin/lotteries/index.php:59
+msgid "View Draws"
+msgstr "Xem lượt rút"
+
+#: views/admin/lotteries/index.php:63 views/admin/lotteries/index.php:90
+#: views/admin/whitelabels/index.php:58 views/admin/whitelabels/payments.php:60
+msgid "Disable"
+msgstr "Tắt"
+
+#: views/admin/lotteries/index.php:65
+msgid "Enable"
+msgstr "Bật"
+
+#: views/admin/lotteries/index.php:74 views/whitelabel/settings/lottery.php:53
+msgid "There are no lotteries."
+msgstr "Không có vé số."
+
+#: views/admin/lotteries/index.php:84 views/admin/whitelabels/index.php:52
+#: views/admin/whitelabels/payments.php:54
+msgid "Confirm lottery switch off"
+msgstr "Xác nhận xổ số: tắt"
+
+#: views/admin/lotteries/index.php:87 views/admin/whitelabels/index.php:55
+#: views/admin/whitelabels/payments.php:57
+msgid ""
+"Are you sure you want to disable this lottery?&#10;All bought users' tickets "
+"will stay pending unless you provide the latest draw numbers manually."
+msgstr ""
+"Bạn có chắc là bạn muốn tắt kiểu xổ số này không?&#10; Vé người dùng đã mua "
+"vẫn sẽ hiển thị trạng thái chờ nếu bạn không tự đưa ra số rút thăm mới nhất."
+
+#: views/admin/lotteries/jackpot.php:7
+msgid "Edit Jackpot"
+msgstr "Chỉnh sửa jackpot"
+
+#: views/admin/lotteries/jackpot.php:8
+msgid ""
+"You can edit the current lottery jackpot here. You should only do this when "
+"the automated script does not work."
+msgstr ""
+"Bạn có thể chính sửa jackpot hiện tại tại đây. Chỉ nên làm điều này khi kết "
+"quả xổ số tự động không hoạt động."
+
+#: views/admin/lotteries/jackpot.php:21
+msgid "Enter current jackpot"
+msgstr "Nhập jackpot hiện tại"
+
+#: views/admin/lotteries/jackpot.php:23
+#, php-format
+msgid ""
+"Unit: million (e.g. type '29.5' for 29.5 million jackpot). Use dot for "
+"decimal digits. <br>Currency: %s"
+msgstr ""
+"Đơn vị: triệu (VD: nếu trúng jackpot 29.5 triệu, nhập \"29.5\"). Sử dụng dấu "
+"chấm cho chữ số thập phân. Đơn vị tiền tệ: %s"
+
+#: views/admin/lotteries/logs.php:8
+msgid ""
+"Here you can find all logs related to the lotteries' data download. Logs are "
+"kept for 7 days."
+msgstr ""
+"Bạn có thể tìm lịch sử dữ liệu xổ số được tải xuống tại đây. Nhật ký được "
+"lưu trữ trong 7 ngày."
+
+#: views/admin/lotteries/lottorisqlogs.php:8
+msgid ""
+"Here you can find all logs related to Lottorisq provider. Logs are kept for "
+"1 month."
+msgstr ""
+"Bạn có thể tìm thấy lịch sử nhà cung cấp Lottorisq. Nhật ký được lưu trữ "
+"trong 1 tháng."
+
+#: views/admin/lotteries/lottorisqlogs.php:49
+msgid "Slip ID"
+msgstr "ID phiếu"
+
+#: views/admin/lotteries/nextdraw.php:7
+msgid "Change next draw"
+msgstr "Thay đổi lượt rút kế tiếp"
+
+#: views/admin/lotteries/nextdraw.php:8
+msgid ""
+"You can manually change the lottery draw date here. You should only do this "
+"and you have to do this only when the lottery draw has been moved! It will "
+"automatically move every ticket to the chosen next draw date. The operation "
+"cannot be undone!"
+msgstr ""
+"Bạn có thể thay đổi ngày rút thăm xổ số tại đây. Chỉ nên làm điều này khi "
+"lượt rút thăm đã được chuyển đổi! Tất cả các vé sẽ được chuyển sang lần rút "
+"tiếp theo. Thao tác này phải được hoàn thiện!"
+
+#: views/admin/lotteries/nextdraw.php:24
+msgid ""
+"Format: mm/dd/yyyy<br><strong>Date should be in lottery local timezone!</"
+"strong>"
+msgstr "Ngày/tháng/năm"
+
+#: views/admin/lotteries/source.php:7
+msgid "Change source"
+msgstr "Thay đổi nguồn"
+
+#: views/admin/lotteries/source.php:8
+msgid ""
+"Here you can change the source for the lottery. You should do this only when "
+"the original one is not working for a longer period of time!"
+msgstr ""
+"Bạn có thể thay đổi nguồn xổ số tại đây. Chỉ nên làm điều này khi xổ số gốc "
+"không hoạt động trong một thời gian dài!"
+
+#: views/admin/payments/paymentlogs.php:7 views/admin/shared/navbar.php:17
+msgid "Payments"
+msgstr "Thanh toán"
+
+#: views/admin/payments/paymentlogs.php:8
+msgid ""
+"Here you can find all logs related to payments. Logs are kept for 1 year."
+msgstr ""
+"Bạn có thể tìm thấy lịch sử thanh toán tại đây. Lịch sử được lưu trữ trong 1 "
+"năm."
+
+#: views/admin/payments/paymentlogs.php:48
+#: views/whitelabel/transactions/view.php:615
+msgid "Payment Method"
+msgstr "Phương thức thanh toán"
+
+#: views/admin/payments/paymentlogs.php:49 views/aff/reports/commissions.php:49
+#: views/aff/reports/index.php:167 views/whitelabel/affs/commissions.php:58
+#: views/whitelabel/affs/reports.php:176 views/whitelabel/tickets/index.php:42
+#: views/whitelabel/tickets/index.php:61 views/whitelabel/tickets/view.php:17
+#: views/whitelabel/transactions/view.php:102
+msgid "Transaction ID"
+msgstr "ID giao dịch"
+
+#: views/admin/payments/paymentlogs.php:51
+msgid "Data"
+msgstr "Dữ liệu"
+
+#: views/admin/payments/paymentlogs.php:70
+#: views/whitelabel/settings/ccsettings_edit.php:7
+#: views/whitelabel/transactions/index.php:17
+#: views/whitelabel/transactions/index.php:90
+#: views/whitelabel/transactions/view.php:35
+#: views/whitelabel/users/deposit.php:23
+msgid "Credit Card"
+msgstr "Thẻ tín dụng"
+
+#: views/admin/payments/paymentlogs.php:88
+msgid "Show data"
+msgstr "Hiển thị dữ liệu"
+
+#: views/admin/shared/header.php:7
+msgid "Admin panel"
+msgstr "Bảng điều khiển quản trị"
+
+#: views/admin/shared/header.php:7 views/admin/shared/navbar.php:10
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+msgid "Lotto network"
+msgstr "Mạng lotto"
+
+#: views/admin/shared/navbar.php:5 views/aff/shared/navbar.php:5
+#: views/whitelabel/shared/navbar.php:5
+msgid "Toggle navigation"
+msgstr "Điều hướng chuyển hướng"
+
+#: views/admin/shared/navbar.php:20 views/aff/shared/navbar.php:20
+#: views/whitelabel/shared/navbar.php:25
+msgid "Sign out"
+msgstr "Đăng xuất"
+
+#: views/admin/signin/index.php:11 views/aff/signin/index.php:11
+#: views/whitelabel/signin/index.php:11
+msgid "Please sign in"
+msgstr "Vui lòng đăng nhập"
+
+#: views/admin/signin/index.php:27 views/aff/signin/index.php:27
+#: views/whitelabel/signin/index.php:27
+msgid "Sign in"
+msgstr "Đăng nhập"
+
+#: views/admin/whitelabels/add.php:7
+msgid "Add whitelabel"
+msgstr "Thêm whitelabel"
+
+#: views/admin/whitelabels/add.php:8
+msgid "You can add new whitelabel here."
+msgstr "Bạn có thể tạo whitelabel mới tại đây."
+
+#: views/admin/whitelabels/add.php:22 views/admin/whitelabels/edit.php:22
+msgid "Enter site name"
+msgstr "Nhập tên site"
+
+#: views/admin/whitelabels/add.php:26 views/admin/whitelabels/edit.php:26
+msgid "Enter site domain"
+msgstr "Nhập domain của trang"
+
+#: views/admin/whitelabels/add.php:27 views/admin/whitelabels/edit.php:27
+msgid ""
+"E.g. <strong>https://whitelabel.com</strong>. Only lowercase letters (a-z), "
+"numbers, and hyphens are allowed."
+msgstr ""
+"Ví dụ. <strong>https://whitelabel.com</strong>. Chỉ cho phép nhập kí tự "
+"thường (a-z), chữ số, và dấu gạch nối."
+
+#: views/admin/whitelabels/add.php:31 views/admin/whitelabels/edit.php:31
+msgid "Enter site username"
+msgstr "Nhập tên người dung site"
+
+#: views/admin/whitelabels/add.php:36 views/admin/whitelabels/edit.php:36
+#: views/whitelabel/affs/new.php:39
+msgid "Enter password"
+msgstr "Nhập mật khẩu"
+
+#: views/admin/whitelabels/add.php:38 views/admin/whitelabels/edit.php:38
+#: views/aff/settings/password.php:24 views/whitelabel/affs/new.php:41
+#: views/whitelabel/affs/password.php:24
+#: views/whitelabel/settings/password.php:24
+#: views/whitelabel/users/password.php:24
+msgid "Random"
+msgstr "Chọn ngẫu nhiên"
+
+#: views/admin/whitelabels/add.php:41 views/admin/whitelabels/edit.php:41
+#: views/aff/settings/password.php:27 views/whitelabel/affs/new.php:44
+#: views/whitelabel/affs/password.php:27
+#: views/whitelabel/settings/password.php:27
+#: views/whitelabel/users/password.php:27
+msgid "Generated password"
+msgstr "Mật khẩu đã được tạo"
+
+#: views/admin/whitelabels/add.php:45
+msgid "Enter site prefix"
+msgstr "Nhập tiền tố của site"
+
+#: views/admin/whitelabels/add.php:46
+msgid "Should be 2-letters long, e.g. <strong>WL</strong>."
+msgstr "Độ dài cần phải là 2 kí tự, ví dụ <strong>WL</strong>."
+
+#: views/admin/whitelabels/edit.php:7
+msgid "Edit whitelabel"
+msgstr "Sửa whitelabel"
+
+#: views/admin/whitelabels/edit.php:8
+msgid "You can edit whitelabel here."
+msgstr "Bạn có thể chỉnh sửa whitelabel  tại đây."
+
+#: views/admin/whitelabels/edit.php:42
+msgid "Leave blank to keep the current password"
+msgstr "Bỏ trống để lưu mật khẩu hiện tại"
+
+#: views/admin/whitelabels/index.php:8 views/admin/whitelabels/payments.php:8
+msgid "Add new"
+msgstr "Thêm mới"
+
+#: views/admin/whitelabels/index.php:11
+msgid "This is an overview of your whitelabels."
+msgstr "Đây là thông tin tổng quan về whitelabel của bạn."
+
+#: views/admin/whitelabels/index.php:42
+msgid "There are no whitelabels."
+msgstr "Không có whitelabel."
+
+#: views/admin/whitelabels/payments.php:11
+msgid "Here you can manage payment methods of your whitelabels."
+msgstr "Bạn có thể quản lý  phương thức thanh toán whitelabel tại đây."
+
+#: views/admin/whitelabels/payments.php:20
+#: views/whitelabel/settings/paymentmethods.php:25
+msgid "Order"
+msgstr "Đơn hàng"
+
+#: views/admin/whitelabels/payments.php:23
+#: views/whitelabel/settings/paymentmethods.php:28
+msgid "Manual"
+msgstr "Thủ công"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:31 views/whitelabel/tickets/index.php:150
+#: views/whitelabel/users/index.php:139
+msgid "No"
+msgstr "Không"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:32 views/whitelabel/tickets/index.php:149
+#: views/whitelabel/users/index.php:139
+msgid "Yes"
+msgstr "Có"
+
+#: views/admin/whitelabels/payments.php:44
+msgid "There are no payment methods specified for this whitelabel."
+msgstr "Không có phương thức thanh toán cho whitelabel này."
+
+#: views/admin/whitelabels/payments_edit.php:7
+#: views/whitelabel/settings/paymentmethods_edit.php:7
+#: views/whitelabel/transactions/view.php:130
+msgid "Payment method"
+msgstr "Phương thức thanh toán"
+
+#: views/admin/whitelabels/payments_edit.php:8
+#: views/whitelabel/settings/paymentmethods_edit.php:8
+msgid "You can add new or edit payment method here."
+msgstr "Bạn có thể thêm hoặc chỉnh sửa phương thức thanh toán tại đây."
+
+#: views/admin/whitelabels/payments_edit.php:30
+#: views/aff/settings/payment.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:30
+#: views/whitelabel/users/aff.php:22 views/whitelabel/users/index.php:115
+msgid "None"
+msgstr "Không có"
+
+#: views/admin/whitelabels/payments_edit.php:38
+#: views/whitelabel/affs/groups_edit.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:38
+msgid "Enter name"
+msgstr "Nhập tên"
+
+#: views/admin/whitelabels/payments_edit.php:42
+#: views/whitelabel/settings/paymentmethods_edit.php:42
+msgid "Do not check this for manual-only payments."
+msgstr "Không tích vào đây đối với thanh toán thủ công."
+
+#: views/admin/whitelabels/payments_edit.php:45
+#: views/whitelabel/settings/paymentmethods_edit.php:45
+msgid "Skrill integration details"
+msgstr "Thông tin chi tiết về skrill tích hợp"
+
+#: views/admin/whitelabels/payments_edit.php:48
+#: views/whitelabel/settings/paymentmethods_edit.php:48
+msgid "Enter merchant account e-mail"
+msgstr "Nhập địa chỉ email thương gia"
+
+#: views/admin/whitelabels/payments_edit.php:52
+#: views/whitelabel/settings/paymentmethods_edit.php:52
+msgid "Enter Skrill secret word"
+msgstr "Nhập mã riêng tư Skrill"
+
+#: views/admin/whitelabels/payments_edit.php:53
+#: views/whitelabel/settings/paymentmethods_edit.php:53
+msgid ""
+"Can be set in <strong>Settings &gt; Developer Settings</strong> section of "
+"your Skrill Digital Wallet account."
+msgstr ""
+"Có thể điều chỉnh trong phần Cài đặt Cài đặt cho nhà phát triển trong tài "
+"khoán ví điện tử Skrill của bạn."
+
+#: views/admin/whitelabels/payments_edit.php:57
+#: views/whitelabel/settings/paymentmethods_edit.php:57
+msgid "Enter merchant logo URL"
+msgstr "Nhập URL logo thương gia"
+
+#: views/admin/whitelabels/payments_edit.php:58
+#: views/whitelabel/settings/paymentmethods_edit.php:58
+msgid "At least 107px &times; 65px."
+msgstr "Cấu hình tổi thiếu 107  &times; 65px."
+
+#: views/admin/whitelabels/payments_edit.php:62
+#: views/whitelabel/settings/paymentmethods_edit.php:62
+msgid "Enter merchant description (logo alt)"
+msgstr "Nhập mô tả thương gia (cho phần logo)"
+
+#: views/admin/whitelabels/payments_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:66
+msgid "Neteller integration details"
+msgstr "Thông tin chi tiết về Neteller tích hợp"
+
+#: views/admin/whitelabels/payments_edit.php:69
+#: views/whitelabel/settings/paymentmethods_edit.php:69
+msgid "Enter App Client ID"
+msgstr "Nhập App ID khách hàng"
+
+#: views/admin/whitelabels/payments_edit.php:72
+#: views/admin/whitelabels/payments_edit.php:73
+#: views/whitelabel/settings/paymentmethods_edit.php:72
+#: views/whitelabel/settings/paymentmethods_edit.php:73
+msgid "Enter App Client Secret"
+msgstr "Nhập mã khách hàng riêng tư"
+
+#: views/admin/whitelabels/payments_edit.php:74
+#: views/whitelabel/settings/paymentmethods_edit.php:74
+msgid ""
+"Both Client ID &amp; Client Secret should be taken from <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+msgstr ""
+"ID Khách Hàng &amp; Mã Riêng Tư Khách Hàng <strong> Bảng điều khiển Neteller "
+"Merchant &gt; Nhà phát triển &gt; Ứng dung </strong>."
+
+#: views/admin/whitelabels/payments_edit.php:78
+#: views/whitelabel/settings/paymentmethods_edit.php:78
+msgid "Enter Webhook Secret Key"
+msgstr "Mã riêng của Webhook"
+
+#: views/admin/whitelabels/payments_edit.php:79
+#, php-format
+msgid ""
+"Can be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; "
+"Webhooks</strong>. You should set the <strong>Webhook URL</strong> to "
+"<strong>%s</strong> and check following hooks: <strong>payment_cancelled</"
+"strong>, <strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Có thể điều chỉnh trong <strong> Bảng điều khiển Neteller Merchant &gt;  Nhà "
+"phát triển &gt;  Webhooks </strong>. Nên đặt <strong> địa chỉ URL Webhook "
+"tới <strong> %s </strong> và kiểm tra các hook sau: <strong> "
+"payment_cancelled , <strong> payment_declined </strong>, <strong> "
+"payment_failed (thanh toán thất bại </strong>, <strong> payment_succeeded  </"
+"strong>."
+
+#: views/admin/whitelabels/payments_edit.php:83
+#: views/whitelabel/settings/ccsettings_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:83
+msgid "Check it for test account."
+msgstr "Kiểm tra tài khoản thử nghiệm."
+
+#: views/admin/whitelabels/payments_edit.php:87
+#: views/whitelabel/settings/paymentmethods_edit.php:87
+msgid "tpay.com integration details"
+msgstr "Thông tin chi tiết về tài khoản tích hợp tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:89
+#: views/whitelabel/transactions/view.php:308
+msgid "Merchant ID"
+msgstr "ID thương gia"
+
+#: views/admin/whitelabels/payments_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:90
+msgid "Enter tpay.com ID"
+msgstr "Nhập ID tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:94
+#: views/whitelabel/settings/paymentmethods_edit.php:94
+msgid "Enter tpay.com Security Code"
+msgstr "Nhập mã bảo mật trên tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:95
+#: views/whitelabel/settings/paymentmethods_edit.php:95
+msgid ""
+"Can be set in <strong>Settings &gt; notifications &gt; Security Code</"
+"strong> section of your tpay.com Merchant Panel.<br>Make sure <strong>Allow "
+"notification URL overwrite</strong> is set to <strong>yes</strong>."
+msgstr ""
+"Có thể điều chỉnh trong phần <strong> Cài đặt &gt; thông báo &gt; Mã bảo "
+"mật</strong>trên Bảng điều khiển thương gia của bạn trên trang tpay.com. "
+"<br>Hãy chắc chắn rằng<br> phần ghi đè lên URL thông báo được hiển thị là  "
+"<strong> có</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:99
+#: views/whitelabel/settings/paymentmethods_edit.php:99
+msgid "Cubits integration details"
+msgstr "Thông tin chi tiết về hệ thống Cubits tích hợp"
+
+#: views/admin/whitelabels/payments_edit.php:102
+#: views/whitelabel/settings/ccsettings_edit.php:39
+#: views/whitelabel/settings/paymentmethods_edit.php:102
+msgid "Enter API Key"
+msgstr "Nhập mã API"
+
+#: views/admin/whitelabels/payments_edit.php:105
+#: views/whitelabel/settings/paymentmethods_edit.php:105
+msgid "Enter API Secret"
+msgstr "Nhập mã API riêng tư"
+
+#: views/admin/whitelabels/payments_edit.php:107
+#: views/whitelabel/settings/paymentmethods_edit.php:107
+msgid ""
+"Can be generated in <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+msgstr ""
+"Có thể tạo trong phần <strong> Công cụ tích hợp &gt;  Thương Gia &gt;Tích "
+"hợp API </strong>."
+
+#: views/admin/whitelabels/payments_edit.php:111
+#: views/whitelabel/settings/paymentmethods_edit.php:111
+msgid "Sofort integration details"
+msgstr "Thông tin chi tiết về Sofort tích hợp"
+
+#: views/admin/whitelabels/payments_edit.php:114
+#: views/whitelabel/settings/paymentmethods_edit.php:114
+msgid "Enter Configuration Key"
+msgstr "Nhập khóa cấu hình"
+
+#: views/admin/whitelabels/payments_edit.php:115
+#: views/whitelabel/settings/paymentmethods_edit.php:115
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Projects &gt; My projects "
+"&gt; (choose your project) &gt; General settings &gt; Configuration key for "
+"your shop system</strong>."
+msgstr ""
+"Có thể được tìm thấy tại <strong>Bảng Thương gial &gt; Dự án &gt; Dự án của "
+"tôi &gt; (chọn dự án) &gt; Cài đặt chung &gt; Khóa cấu hình cho hệ thống "
+"shop của bạn </strong>."
+
+#: views/aff/dashboard/index.php:6
+msgid "Your data"
+msgstr "Dữ liệu của bạn"
+
+#: views/aff/dashboard/index.php:9
+msgid "Ref"
+msgstr "Giới thiệu"
+
+#: views/aff/dashboard/index.php:12
+msgid "General link"
+msgstr "Đường link chung"
+
+#: views/aff/dashboard/index.php:18
+msgid "Your plan"
+msgstr "Kế hoạch của bạn"
+
+#: views/aff/dashboard/index.php:37
+msgid "Generate your affiliate link"
+msgstr "Tạo đường link liên kết của bạn"
+
+#: views/aff/dashboard/index.php:41
+msgid "Generated link"
+msgstr "Tạo đường link"
+
+#: views/aff/dashboard/index.php:49
+msgid "Enter medium"
+msgstr "Nhập mức trung bình"
+
+#: views/aff/dashboard/index.php:50
+msgid ""
+"The advertising or marketing medium, for example: cpc, banner, email "
+"newsletter."
+msgstr ""
+"Phương tiện quảng cáo hoặc marketing. Ví dụ: CPC, biểu ngữ, bản tin email..."
+
+#: views/aff/dashboard/index.php:54
+msgid "Enter campaign"
+msgstr "Nhập chiến dịch"
+
+#: views/aff/dashboard/index.php:55
+msgid "The individual campaign name, slogan, promo code, etc."
+msgstr "Tên chiến dịch, slogan, mã khuyến mại riêng v.v..."
+
+#: views/aff/dashboard/index.php:59
+msgid "Enter content"
+msgstr "Nhập nội dung"
+
+#: views/aff/dashboard/index.php:60
+msgid ""
+"Used to differentiate similar content, or links within the same ad. For "
+"example, if you have two call-to-action links within the same email message, "
+"you can use <em>content</em> and set different values for each so you can "
+"tell which version is more effective."
+msgstr ""
+"Được sử dụng để phân biệt các nội dung giống nhau hoặc các đường link trong "
+"cùng 1 quảng cáo. Ví dụ: nếu có 2 đường link call-to-action trong cùng một "
+"tin nhắn email, bạn có thể sử dung <em> nội dung </em> và đặt các giá trị "
+"khác nhau cho từng đường link để biết được phiên bản nào hiệu quả hơn."
+
+#: views/aff/dashboard/index.php:62
+msgid "Generate link"
+msgstr "Đường link chung"
+
+#: views/aff/reports/commissions.php:8
+msgid "Here you can view your latest commissions."
+msgstr "Bạn có thể xem hoa hồng gần đây nhất tại đây."
+
+#: views/aff/reports/commissions.php:45 views/aff/reports/ftps.php:45
+#: views/aff/reports/index.php:77 views/aff/reports/index.php:123
+#: views/aff/reports/index.php:163 views/aff/reports/leads.php:51
+#: views/aff/settings/profile.php:12 views/whitelabel/affs/commissions.php:30
+#: views/whitelabel/affs/ftps.php:30 views/whitelabel/affs/groups.php:19
+#: views/whitelabel/affs/index.php:42 views/whitelabel/affs/index.php:70
+#: views/whitelabel/affs/leads.php:30 views/whitelabel/affs/view.php:13
+#: views/whitelabel/settings/ccsettings.php:23
+#: views/whitelabel/tickets/index.php:39 views/whitelabel/tickets/index.php:60
+#: views/whitelabel/tickets/view.php:15
+#: views/whitelabel/transactions/index.php:33
+#: views/whitelabel/transactions/index.php:51
+#: views/whitelabel/transactions/view.php:13
+#: views/whitelabel/transactions/withdrawal.php:13
+#: views/whitelabel/transactions/withdrawals.php:30
+#: views/whitelabel/transactions/withdrawals.php:48
+#: views/whitelabel/users/index.php:40 views/whitelabel/users/index.php:65
+#: views/whitelabel/users/view.php:13
+msgid "ID"
+msgstr "ID"
+
+#: views/aff/reports/commissions.php:59 views/aff/reports/index.php:177
+#: views/whitelabel/affs/commissions.php:65
+#: views/whitelabel/affs/reports.php:183
+msgid "Commission"
+msgstr "Hoa hồng"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "Sale"
+msgstr "Tiếp thị"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "FTP"
+msgstr "FTP"
+
+#: views/aff/reports/commissions.php:78 views/aff/reports/index.php:197
+#: views/whitelabel/affs/commissions.php:95
+#: views/whitelabel/affs/reports.php:213
+msgid "Tier"
+msgstr "Hạng"
+
+#: views/aff/reports/commissions.php:94
+#: views/whitelabel/affs/commissions.php:130
+msgid "No commissions."
+msgstr "Không có hoa hồng nào."
+
+#: views/aff/reports/ftps.php:8
+msgid "Here you can view the latest first-time purchases."
+msgstr "Bạn có thể xem lần mua bán đầu tiên tại đây."
+
+#: views/aff/reports/ftps.php:47 views/aff/reports/index.php:79
+#: views/aff/reports/index.php:125 views/aff/reports/leads.php:53
+#: views/whitelabel/affs/ftps.php:58 views/whitelabel/affs/leads.php:61
+#: views/whitelabel/affs/reports.php:68 views/whitelabel/affs/reports.php:123
+msgid "Register country"
+msgstr "Quốc gia đăng ký"
+
+#: views/aff/reports/ftps.php:48 views/aff/reports/index.php:80
+#: views/aff/reports/index.php:126 views/aff/reports/leads.php:54
+#: views/whitelabel/affs/ftps.php:59 views/whitelabel/affs/leads.php:62
+#: views/whitelabel/affs/reports.php:69 views/whitelabel/affs/reports.php:124
+msgid "Last country"
+msgstr "Quốc gia cuối cùng"
+
+#: views/aff/reports/ftps.php:52 views/aff/reports/index.php:84
+#: views/aff/reports/index.php:130 views/aff/reports/leads.php:58
+#: views/whitelabel/affs/ftps.php:60 views/whitelabel/affs/leads.php:63
+#: views/whitelabel/affs/reports.php:70 views/whitelabel/affs/reports.php:125
+msgid "Registered"
+msgstr "Đã đăng ký"
+
+#: views/aff/reports/ftps.php:53 views/aff/reports/index.php:85
+#: views/aff/reports/index.php:131 views/aff/reports/leads.php:59
+#: views/whitelabel/affs/ftps.php:61 views/whitelabel/affs/leads.php:64
+#: views/whitelabel/affs/reports.php:71 views/whitelabel/affs/reports.php:126
+msgid "First purchase"
+msgstr "Lần mua bán đầu tiên"
+
+#: views/aff/reports/ftps.php:77 views/whitelabel/affs/ftps.php:96
+msgid "No first-time purchases."
+msgstr "Không có lần mua bán đầu tiên nào."
+
+#: views/aff/reports/index.php:8 views/whitelabel/affs/reports.php:8
+#: views/whitelabel/reports/reports.php:8
+msgid "Here you can generate a report for a given date range."
+msgstr "Bạn có thể tạo 1 bản báo cáo cho khoảng ngày có sẵn tại đây."
+
+#: views/aff/reports/index.php:11 views/whitelabel/affs/reports.php:11
+#: views/whitelabel/reports/reports.php:11
+msgid "Range"
+msgstr "Khoảng"
+
+#: views/aff/reports/index.php:42 views/aff/reports/index.php:47
+#: views/whitelabel/affs/reports.php:30 views/whitelabel/affs/reports.php:35
+#: views/whitelabel/reports/reports.php:34
+#: views/whitelabel/reports/reports.php:39
+msgid "Report"
+msgstr "Báo cáo"
+
+#: views/aff/reports/index.php:48 views/whitelabel/affs/reports.php:36
+#: views/whitelabel/reports/reports.php:40
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#: views/aff/reports/index.php:50 views/whitelabel/affs/reports.php:38
+#: views/whitelabel/reports/reports.php:42
+msgid "End Date"
+msgstr "Ngày kết thúc"
+
+#: views/aff/reports/index.php:52 views/whitelabel/affs/reports.php:40
+msgid "Clicks"
+msgstr "Lượt click"
+
+#: views/aff/reports/index.php:54 views/whitelabel/affs/reports.php:42
+msgid "Unique clicks"
+msgstr "Lượt click đầu tiên"
+
+#: views/aff/reports/index.php:58 views/aff/reports/index.php:116
+#: views/whitelabel/affs/reports.php:46 views/whitelabel/affs/reports.php:110
+msgid "First-time purchases"
+msgstr "Lượt mua bán đầu tiên"
+
+#: views/aff/reports/index.php:60 views/whitelabel/affs/reports.php:48
+msgid "Total commission"
+msgstr "Tổng hoa hồng"
+
+#: views/aff/reports/index.php:69 views/aff/reports/index.php:121
+#: views/aff/reports/index.php:161 views/whitelabel/affs/reports.php:57
+#: views/whitelabel/affs/reports.php:115 views/whitelabel/affs/reports.php:168
+msgid "#"
+msgstr "#"
+
+#: views/aff/reports/index.php:71 views/aff/reports/leads.php:45
+#: views/whitelabel/affs/index.php:88 views/whitelabel/affs/leads.php:55
+#: views/whitelabel/affs/reports.php:62 views/whitelabel/users/index.php:84
+msgid "Active"
+msgstr "Hoạt động"
+
+#: views/aff/reports/index.php:74 views/aff/reports/leads.php:48
+msgid "Confirmed"
+msgstr "Đã xác nhận"
+
+#: views/aff/reports/leads.php:8
+msgid "Here you can view your latest leads."
+msgstr "Bạn có thể xem các đầu mối tại đây."
+
+#: views/aff/reports/leads.php:89 views/whitelabel/affs/leads.php:108
+msgid "No leads."
+msgstr "Không có đầu mối nào."
+
+#: views/aff/reports/payouts.php:8 views/whitelabel/affs/payouts.php:8
+msgid ""
+"Here you can view and manage your payouts. They are calculated automatically "
+"every month."
+msgstr ""
+"Bạn có thể xem và quản lý thanh toán của bạn tại đây. Thanh toán được tính "
+"tự động vào mỗi tháng."
+
+#: views/aff/reports/payouts.php:22 views/whitelabel/affs/payouts.php:40
+#: views/whitelabel/tickets/index.php:30 views/whitelabel/tickets/index.php:72
+#: views/whitelabel/tickets/view.php:57 views/whitelabel/tickets/view.php:61
+#: views/whitelabel/tickets/view.php:102
+msgid "Paid out"
+msgstr "Đã thanh toán"
+
+#: views/aff/reports/payouts.php:57 views/whitelabel/affs/payouts.php:116
+msgid "View report"
+msgstr "Xem báo cáo"
+
+#: views/aff/reports/payouts.php:67 views/whitelabel/affs/payouts.php:129
+msgid "No payouts."
+msgstr "Không có thanh toán nào."
+
+#: views/aff/settings/analytics.php:7 views/whitelabel/settings/analytics.php:7
+msgid "Edit Google Analytics settings"
+msgstr "Chỉnh sửa cài đặt Google Analytics"
+
+#: views/aff/settings/analytics.php:8 views/whitelabel/settings/analytics.php:8
+msgid "Here you can edit Google Analytics settings."
+msgstr "Bạn có thể chỉnh sửa cài đặt Google Analytics tại đây."
+
+#: views/aff/settings/analytics.php:21
+#: views/whitelabel/settings/analytics.php:21
+msgid "Enter Google Analytics Tracking ID"
+msgstr "Nhập ID theo dõi Google Analytics"
+
+#: views/aff/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will see the data related to "
+"your leads only. You will have to <a href=\"https://support.google.com/"
+"analytics/answer/3123666\" target=\"_blank\">enable User-ID</a> to take the "
+"full advantage of the Google Analytics feature."
+msgstr ""
+"Mẫu: UA-XXXXX-Y. Dữ liệu này liên quan tới đầu mối của bạn. Bạn phải bật ID "
+"người dùng để có thể sử dụng được toàn bộ chức năng trong Google Analytics."
+
+#: views/aff/settings/edit.php:7 views/whitelabel/affs/edit.php:7
+#: views/whitelabel/users/edit.php:7
+msgid "Edit details"
+msgstr "Chỉnh sửa thông tin"
+
+#: views/aff/settings/edit.php:8
+msgid "Edit your details here."
+msgstr "Chỉnh sửa thông tin chi tiết của bạn tại đây."
+
+#: views/aff/settings/edit.php:21
+msgid "Your login"
+msgstr "Tên đăng nhập"
+
+#: views/aff/settings/edit.php:25
+msgid "Your company"
+msgstr "Tên công ty"
+
+#: views/aff/settings/edit.php:29
+msgid "Your first name"
+msgstr "Tên đầu"
+
+#: views/aff/settings/edit.php:33
+msgid "Your last name"
+msgstr "Tên họ"
+
+#: views/aff/settings/edit.php:38
+msgid "Your country"
+msgstr "Quốc gia"
+
+#: views/aff/settings/edit.php:46
+msgid "Your city"
+msgstr "Thành phố"
+
+#: views/aff/settings/edit.php:51 views/aff/settings/edit.php:55
+msgid "Your region"
+msgstr "Vùng lãnh thổ"
+
+#: views/aff/settings/edit.php:61
+msgid "Your postal/ZIP code"
+msgstr "Mã bưu chính/ZIP"
+
+#: views/aff/settings/edit.php:65
+msgid "Your address #1"
+msgstr "Địa chỉ 1"
+
+#: views/aff/settings/edit.php:69
+msgid "Your address #2"
+msgstr "Địa chỉ 2"
+
+#: views/aff/settings/edit.php:74
+msgid "Your birthdate"
+msgstr "Ngày sinh"
+
+#: views/aff/settings/edit.php:78 views/whitelabel/affs/edit.php:98
+#: views/whitelabel/users/edit.php:70
+msgid "Phone prefix"
+msgstr "Đầu số điện thoại"
+
+#: views/aff/settings/edit.php:80 views/whitelabel/affs/edit.php:100
+#: views/whitelabel/users/edit.php:72
+msgid "Choose a phone prefix"
+msgstr "Chọn đầu số"
+
+#: views/aff/settings/edit.php:90
+msgid "Your phone"
+msgstr "Số điện thoại"
+
+#: views/aff/settings/edit.php:95
+msgid "Choose timezone"
+msgstr "Chọn múi giờ"
+
+#: views/aff/settings/password.php:7 views/whitelabel/affs/password.php:7
+#: views/whitelabel/settings/password.php:7
+#: views/whitelabel/users/password.php:7
+msgid "Change password"
+msgstr "Thay đổi mật khẩu"
+
+#: views/aff/settings/password.php:8
+msgid "You can change your password here."
+msgstr "Bạn có thể thay đổi mật khẩu tại đây."
+
+#: views/aff/settings/payment.php:7
+msgid "Edit payment settings"
+msgstr "Chỉnh sửa cài đặt thanh toán"
+
+#: views/aff/settings/payment.php:8
+msgid "Edit your payment details here."
+msgstr "Điều chỉnh thông tin thanh toán của bạn tại đây."
+
+#: views/aff/settings/payment.php:33 views/aff/settings/payment.php:56
+#: views/aff/settings/payment.php:71
+msgid "Enter first name"
+msgstr "Nhập họ"
+
+#: views/aff/settings/payment.php:37 views/aff/settings/payment.php:60
+#: views/aff/settings/payment.php:75
+msgid "Enter last name"
+msgstr "Nhập tên"
+
+#: views/aff/settings/payment.php:41
+msgid "Enter your account IBAN number"
+msgstr "Nhập số IBAN tài khoản ngân hàng"
+
+#: views/aff/settings/payment.php:45
+msgid "Enter your bank SWIFT code"
+msgstr "Nhập mã SWIFT"
+
+#: views/aff/settings/payment.php:49
+msgid "Enter your bank name"
+msgstr "Nhập tên ngân hàng"
+
+#: views/aff/settings/payment.php:64
+msgid "Enter Skrill e-mail"
+msgstr "Nhập email Skrill"
+
+#: views/aff/settings/payment.php:79
+msgid "Enter Neteller e-mail"
+msgstr "Nhập email Neteller"
+
+#: views/aff/settings/payment.php:85
+msgid "Enter first name (optional)"
+msgstr "Nhập họ (tùy ý)"
+
+#: views/aff/settings/payment.php:89
+msgid "Enter last name (optional)"
+msgstr "Nhập tên (tùy ý)"
+
+#: views/aff/settings/payment.php:93
+msgid "Enter bitcoin wallet address"
+msgstr "Nhập địa chỉ ví bitcoin"
+
+#: views/aff/settings/profile.php:8
+msgid "You can view and edit your details here."
+msgstr "Bạn có thể xem và chỉnh sửa đầu mối của bạn tại đây."
+
+#: views/aff/settings/profile.php:13 views/aff/settings/profile.php:17
+#: views/aff/settings/profile.php:28 views/aff/settings/profile.php:30
+#: views/aff/settings/profile.php:32 views/aff/settings/profile.php:34
+#: views/aff/settings/profile.php:36 views/aff/settings/profile.php:38
+#: views/aff/settings/profile.php:40 views/aff/settings/profile.php:42
+#: views/aff/settings/profile.php:44 views/aff/settings/profile.php:49
+#: views/whitelabel/affs/view.php:14 views/whitelabel/affs/view.php:19
+#: views/whitelabel/affs/view.php:25 views/whitelabel/affs/view.php:36
+#: views/whitelabel/affs/view.php:38 views/whitelabel/affs/view.php:40
+#: views/whitelabel/affs/view.php:42 views/whitelabel/affs/view.php:44
+#: views/whitelabel/affs/view.php:46 views/whitelabel/affs/view.php:48
+#: views/whitelabel/affs/view.php:50 views/whitelabel/affs/view.php:52
+#: views/whitelabel/affs/view.php:57 views/whitelabel/settings/account.php:24
+#: views/whitelabel/tickets/view.php:16 views/whitelabel/tickets/view.php:18
+#: views/whitelabel/tickets/view.php:20
+#: views/whitelabel/transactions/view.php:14
+#: views/whitelabel/transactions/view.php:16
+#: views/whitelabel/transactions/withdrawal.php:14
+#: views/whitelabel/transactions/withdrawal.php:16
+#: views/whitelabel/users/view.php:14 views/whitelabel/users/view.php:23
+#: views/whitelabel/users/view.php:25 views/whitelabel/users/view.php:27
+#: views/whitelabel/users/view.php:29 views/whitelabel/users/view.php:31
+#: views/whitelabel/users/view.php:33 views/whitelabel/users/view.php:35
+#: views/whitelabel/users/view.php:37 views/whitelabel/users/view.php:39
+#: views/whitelabel/users/view.php:44 views/whitelabel/users/view.php:58
+msgid "-"
+msgstr "-"
+
+#: views/aff/settings/profile.php:19 views/aff/settings/profile.php:21
+#: views/whitelabel/affs/view.php:27 views/whitelabel/affs/view.php:29
+#: views/whitelabel/tickets/view.php:22 views/whitelabel/tickets/view.php:24
+#: views/whitelabel/transactions/view.php:18
+#: views/whitelabel/transactions/view.php:20
+#: views/whitelabel/transactions/withdrawal.php:18
+#: views/whitelabel/transactions/withdrawal.php:20
+#: views/whitelabel/transactions/withdrawal.php:51
+#: views/whitelabel/transactions/withdrawal.php:53
+#: views/whitelabel/users/view.php:16 views/whitelabel/users/view.php:18
+msgid "Anonymous"
+msgstr "Ẩn danh"
+
+#: views/aff/settings/profile.php:47 views/whitelabel/affs/view.php:55
+#: views/whitelabel/settings/account.php:20 views/whitelabel/users/view.php:42
+msgid "Change Password"
+msgstr "Thay đổi mật khẩu"
+
+#: views/aff/settings/profile.php:50 views/whitelabel/affs/view.php:64
+#: views/whitelabel/settings/account.php:25 views/whitelabel/users/view.php:59
+msgid "Edit Details"
+msgstr "Thay đổi thông tin"
+
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+#, php-format
+msgid "%s management panel"
+msgstr "%s bảng quản lý"
+
+#: views/aff/shared/navbar.php:15 views/whitelabel/affs/menu.php:10
+#: views/whitelabel/shared/navbar.php:18
+msgid "Reports"
+msgstr "Báo cáo"
+
+#: views/aff/shared/navbar.php:16 views/whitelabel/affs/menu.php:18
+#: views/whitelabel/shared/navbar.php:20
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: views/whitelabel/affs/commissions.php:8
+msgid "Here you can view the latest commissions of your affiliates."
+msgstr "Bạn có thể xem hoa hồng gần đây trong các liên kết tại đây."
+
+#: views/whitelabel/affs/commissions.php:16
+#: views/whitelabel/affs/commissions.php:73
+#: views/whitelabel/affs/commissions.php:80 views/whitelabel/affs/edit.php:34
+#: views/whitelabel/affs/ftps.php:16 views/whitelabel/affs/ftps.php:68
+#: views/whitelabel/affs/ftps.php:75 views/whitelabel/affs/index.php:98
+#: views/whitelabel/affs/index.php:109 views/whitelabel/affs/leads.php:16
+#: views/whitelabel/affs/leads.php:72 views/whitelabel/affs/leads.php:81
+#: views/whitelabel/affs/payouts.php:16 views/whitelabel/affs/payouts.php:48
+#: views/whitelabel/affs/reports.php:24 views/whitelabel/affs/reports.php:79
+#: views/whitelabel/affs/reports.php:88 views/whitelabel/affs/reports.php:134
+#: views/whitelabel/affs/reports.php:141 views/whitelabel/affs/reports.php:191
+#: views/whitelabel/affs/reports.php:198 views/whitelabel/affs/view.php:17
+#: views/whitelabel/tickets/index.php:83
+#: views/whitelabel/transactions/index.php:71
+#: views/whitelabel/transactions/withdrawals.php:68
+#: views/whitelabel/users/aff.php:25 views/whitelabel/users/index.php:93
+#: views/whitelabel/users/index.php:108
+msgid "anonymous"
+msgstr "ẩn danh"
+
+#: views/whitelabel/affs/commissions.php:55 views/whitelabel/affs/ftps.php:55
+#: views/whitelabel/affs/leads.php:58 views/whitelabel/affs/reports.php:65
+#: views/whitelabel/affs/reports.php:120 views/whitelabel/affs/reports.php:173
+msgid "User"
+msgstr "Người dùng"
+
+#: views/whitelabel/affs/commissions.php:76 views/whitelabel/affs/ftps.php:71
+#: views/whitelabel/affs/leads.php:75 views/whitelabel/affs/payouts.php:51
+#: views/whitelabel/affs/reports.php:82 views/whitelabel/affs/reports.php:137
+#: views/whitelabel/affs/reports.php:194 views/whitelabel/users/index.php:113
+msgid "View affiliate"
+msgstr "Xem liên kết"
+
+#: views/whitelabel/affs/commissions.php:84 views/whitelabel/affs/ftps.php:79
+#: views/whitelabel/affs/leads.php:85 views/whitelabel/affs/reports.php:92
+#: views/whitelabel/affs/reports.php:145 views/whitelabel/affs/reports.php:202
+#: views/whitelabel/tickets/index.php:88 views/whitelabel/tickets/index.php:90
+#: views/whitelabel/tickets/index.php:92
+#: views/whitelabel/transactions/index.php:76
+#: views/whitelabel/transactions/index.php:78
+#: views/whitelabel/transactions/index.php:80
+msgid "View user"
+msgstr "Xem người dùng"
+
+#: views/whitelabel/affs/commissions.php:85 views/whitelabel/affs/ftps.php:80
+#: views/whitelabel/affs/leads.php:86 views/whitelabel/affs/reports.php:93
+#: views/whitelabel/affs/reports.php:146 views/whitelabel/affs/reports.php:203
+#: views/whitelabel/reports/index.php:49 views/whitelabel/reports/index.php:65
+#: views/whitelabel/reports/index.php:72 views/whitelabel/reports/index.php:78
+#: views/whitelabel/transactions/index.php:83
+#: views/whitelabel/transactions/view.php:743
+#: views/whitelabel/users/index.php:97
+msgid "View tickets"
+msgstr "Xem vé"
+
+#: views/whitelabel/affs/commissions.php:90
+#: views/whitelabel/affs/reports.php:208 views/whitelabel/tickets/index.php:95
+msgid "View transaction"
+msgstr "Xem giao dịch"
+
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/index.php:145 views/whitelabel/affs/leads.php:97
+#: views/whitelabel/transactions/index.php:116
+msgid "Accept"
+msgstr "Chấp nhận"
+
+#: views/whitelabel/affs/edit.php:8
+msgid "Edit affiliate details here."
+msgstr "Điều chỉnh thông tin liên kết tại đây."
+
+#: views/whitelabel/affs/edit.php:22 views/whitelabel/affs/groups.php:28
+#: views/whitelabel/affs/groups_edit.php:7 views/whitelabel/affs/index.php:35
+#: views/whitelabel/affs/index.php:116 views/whitelabel/affs/new.php:22
+#: views/whitelabel/affs/view.php:23
+msgid "Default Group"
+msgstr "Nhóm mặc định"
+
+#: views/whitelabel/affs/edit.php:31
+msgid "Choose parent"
+msgstr "Chọn bố mẹ"
+
+#: views/whitelabel/affs/edit.php:41
+msgid "User company"
+msgstr "Công ty của người dùng"
+
+#: views/whitelabel/affs/edit.php:45 views/whitelabel/affs/new.php:30
+msgid "Enter login"
+msgstr "Nhập tên đăng nhập"
+
+#: views/whitelabel/affs/edit.php:49 views/whitelabel/users/edit.php:21
+msgid "User first name"
+msgstr "Họ người dùng"
+
+#: views/whitelabel/affs/edit.php:53 views/whitelabel/users/edit.php:25
+msgid "User last name"
+msgstr "Tên người dùng"
+
+#: views/whitelabel/affs/edit.php:58 views/whitelabel/users/edit.php:30
+msgid "Choose user country"
+msgstr "Chọn quốc gia người dùng"
+
+#: views/whitelabel/affs/edit.php:66 views/whitelabel/users/edit.php:38
+msgid "User city"
+msgstr "Thành phố người dùng"
+
+#: views/whitelabel/affs/edit.php:71 views/whitelabel/affs/edit.php:75
+#: views/whitelabel/users/edit.php:43 views/whitelabel/users/edit.php:47
+msgid "Choose user region"
+msgstr "Chọn khu vực người dùng"
+
+#: views/whitelabel/affs/edit.php:81 views/whitelabel/users/edit.php:53
+msgid "User Postal/ZIP Code"
+msgstr "Mã vùng điện thoại/ ZIP của người dùng"
+
+#: views/whitelabel/affs/edit.php:85 views/whitelabel/users/edit.php:57
+msgid "User address #1"
+msgstr "Địa chỉ người dùng 1"
+
+#: views/whitelabel/affs/edit.php:89 views/whitelabel/users/edit.php:61
+msgid "User address #2"
+msgstr "Địa chỉ người dùng 2"
+
+#: views/whitelabel/affs/edit.php:94 views/whitelabel/users/edit.php:66
+msgid "User birthdate"
+msgstr "Ngày sinh người dùng"
+
+#: views/whitelabel/affs/edit.php:110 views/whitelabel/users/edit.php:82
+msgid "User phone"
+msgstr "Điện thoại người dùng"
+
+#: views/whitelabel/affs/edit.php:115 views/whitelabel/users/edit.php:87
+msgid "Choose time zone"
+msgstr "Chọn múi giờ"
+
+#: views/whitelabel/affs/email.php:7 views/whitelabel/users/email.php:7
+msgid "Edit e-mail"
+msgstr "Chỉnh sửa email"
+
+#: views/whitelabel/affs/email.php:8
+msgid "You can edit affiliate e-mail here."
+msgstr "Bạn có thể điều chỉnh email liên kết tại đây."
+
+#: views/whitelabel/affs/email.php:21 views/whitelabel/users/email.php:21
+msgid "New e-mail"
+msgstr "Email mới"
+
+#: views/whitelabel/affs/ftps.php:8
+msgid ""
+"Here you can view the latest first-time purchases of your affiliate leads."
+msgstr ""
+"Bạn có thể xem lần mua đầu tiên gần đây nhất theo đầu mối liên kết của bạn "
+"tại đây."
+
+#: views/whitelabel/affs/groups.php:10 views/whitelabel/affs/menu.php:17
+msgid "Affiliate groups"
+msgstr "Nhóm liên kết"
+
+#: views/whitelabel/affs/groups.php:11
+msgid "You can manage affiliate groups here."
+msgstr "Bạn có thể điều chỉnh nhóm liên kết tại đây."
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "Edit affiliate group"
+msgstr "Chỉnh sửa nhóm liên kết"
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "New affiliate group"
+msgstr "Nhóm liên kết mới"
+
+#: views/whitelabel/affs/groups_edit.php:8
+msgid "You can add or edit affiliate group here."
+msgstr "Bạn có thể thêm hoặc điều chỉnh nhóm liên kết tại đây."
+
+#: views/whitelabel/affs/groups_edit.php:29
+#: views/whitelabel/affs/groups_edit.php:44
+#: views/whitelabel/affs/groups_edit.php:58
+#: views/whitelabel/affs/groups_edit.php:65
+msgid "Enter commission value"
+msgstr "Nhập giá trị hoa hồng"
+
+#: views/whitelabel/affs/index.php:13
+msgid "You can manage your affiliates here."
+msgstr "Bạn có thể quản lý liên kết của bạn tại đây."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "How to open in Excel"
+msgstr "Cách mở bằng Excel"
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid ""
+"1. Download and save the file.<br>2. Open Excel and create new file.<br>3. "
+"Choose <i>Data->From Text</i> from <i>Get External Data</i> section.<br>4. "
+"Navigate and choose saved file.<br>5. Choose <i>Delimited</i>, file origin "
+"<i>Unicode (UTF-8)</i>, check <i>My data has headers.</i><br>6. On next step "
+"choose only <i>Comma</i> as the delimiter.<br>7. You can adjust some format "
+"settings in the last step (for best results you should set all columns to "
+"<i>Text</i> type instead of <i>General</i>).<br>8. Click <i>Finish</i> and "
+"choose data placement."
+msgstr ""
+"1.Tải và lưu file\n"
+"2.Mở excel và tạo file mới\n"
+"3.Trên phần \"Lấy dữ liệu ngoài\", từ tab \"Data\" chọn \"From text\"\n"
+"4.Tìm và chọn file đã lưu.\n"
+"5.Chọn \"Phân cách\", trên file gốc Unicode (UTF-8), đánh dấu \"Có tiêu đề "
+"trong dữ liệu của tôi\" \n"
+"6.Chọn \"dấu chấm phẩy\" làm đơn vị phân cách\n"
+"7.Bạn có thể điều chỉnh cài đặt định dạng trong bước cuối (để đạt kết quả "
+"tốt nhất, nên đặt các cột ở dạng chữ thay vì đặt chung)\n"
+"8. Nhấn \"Kết thúc\" và chọn nơi đặt dữ liệu."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "Export View to CSV"
+msgstr "Xuất các tập tin sang CSV"
+
+#: views/whitelabel/affs/index.php:82
+msgid "Created"
+msgstr "Đã tạo"
+
+#: views/whitelabel/affs/index.php:83
+msgid "Last Active<br>IP<br>Country"
+msgstr "Quốc gia hoạt động cuối cùng"
+
+#: views/whitelabel/affs/index.php:85 views/whitelabel/users/index.php:81
+msgid "Date Deleted"
+msgstr "Ngày bị xóa"
+
+#: views/whitelabel/affs/index.php:89 views/whitelabel/users/index.php:111
+msgid "Accepted"
+msgstr "Đã chấp nhận"
+
+#: views/whitelabel/affs/index.php:140 views/whitelabel/users/index.php:143
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: views/whitelabel/affs/index.php:143 views/whitelabel/users/index.php:146
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: views/whitelabel/affs/index.php:147 views/whitelabel/tickets/index.php:157
+#: views/whitelabel/transactions/index.php:113
+#: views/whitelabel/transactions/withdrawals.php:95
+#: views/whitelabel/users/index.php:148
+msgid "Details"
+msgstr "Thông tin chi tiết"
+
+#: views/whitelabel/affs/index.php:159
+msgid "No affiliates."
+msgstr "Không có liên kết nào."
+
+#: views/whitelabel/affs/leads.php:8
+msgid "Here you can view your affiliates latest leads."
+msgstr "Bạn có thể xem các liên kết của bạn theo đầu mối gần đây tại đây."
+
+#: views/whitelabel/affs/menu.php:2
+msgid "Active & Accepted"
+msgstr "Hoạt động và đã nhận"
+
+#: views/whitelabel/affs/menu.php:5 views/whitelabel/tickets/index.php:86
+#: views/whitelabel/transactions/index.php:74
+#: views/whitelabel/transactions/withdrawals.php:71
+#: views/whitelabel/users/index.php:112
+msgid "Deleted"
+msgstr "Đã xóa"
+
+#: views/whitelabel/affs/new.php:7
+msgid "New affiliate"
+msgstr "Liên kết mới"
+
+#: views/whitelabel/affs/new.php:8
+msgid "You can add new affiliate here."
+msgstr "Bạn có thể tạo liên kết mới tại đây."
+
+#: views/whitelabel/affs/new.php:34
+#: views/whitelabel/settings/account_edit.php:29
+msgid "Enter e-mail"
+msgstr "Nhập địa chỉ email"
+
+#: views/whitelabel/affs/password.php:8
+msgid "You can change affiliate password here."
+msgstr "Bạn có thể thay đổi mật khẩu liên kết tại đây."
+
+#: views/whitelabel/affs/payouts.php:39
+msgid "Payment"
+msgstr "Thanh toán"
+
+#: views/whitelabel/affs/payouts.php:64
+msgid "Bank Account"
+msgstr "Tài khoản ngân hàng"
+
+#: views/whitelabel/affs/payouts.php:66 views/whitelabel/affs/payouts.php:73
+#: views/whitelabel/affs/payouts.php:78 views/whitelabel/affs/payouts.php:86
+msgid "Surname"
+msgstr "Họ"
+
+#: views/whitelabel/affs/payouts.php:67
+msgid "Account Number"
+msgstr "Số tài khoản"
+
+#: views/whitelabel/affs/payouts.php:68
+msgid "SWIFT Code"
+msgstr "Mã SWIFT"
+
+#: views/whitelabel/affs/payouts.php:69
+msgid "Bank Name"
+msgstr "Tên ngân hàng"
+
+#: views/whitelabel/affs/payouts.php:88
+#: views/whitelabel/transactions/view.php:531
+msgid "Bitcoin Address"
+msgstr "Địa chỉ bitcoin"
+
+#: views/whitelabel/affs/payouts.php:91
+msgid "Not defined"
+msgstr "Không xác định"
+
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/view.php:145
+msgid "Mark as paid out"
+msgstr "Đánh dấu là đã thanh toán"
+
+#: views/whitelabel/affs/settings.php:7
+msgid "Affiliate settings"
+msgstr "Cài đặt liên kết"
+
+#: views/whitelabel/affs/settings.php:8
+msgid "You can adjust affiliate settings here."
+msgstr "Bạn có thể điều chỉnh cài đặt liên kết tại đây."
+
+#: views/whitelabel/affs/view.php:7
+msgid "Affiliate details"
+msgstr "Liên kết chi tiết"
+
+#: views/whitelabel/affs/view.php:8
+msgid "You can view and edit affiliate details here."
+msgstr "Bạn có thể xem và chỉnh sửa liên kết của bạn tại đây."
+
+#: views/whitelabel/affs/view.php:34 views/whitelabel/users/view.php:21
+msgid "Edit E-mail"
+msgstr "Chỉnh sửa địa chỉ email"
+
+#: views/whitelabel/affs/view.php:60 views/whitelabel/users/view.php:51
+msgid "Last IP"
+msgstr "IP cuối"
+
+#: views/whitelabel/reports/index.php:8
+msgid "Here you can view information about draw winners."
+msgstr "Bạn có thể xem thông tin người rút thăm chiến thắng tại đây."
+
+#: views/whitelabel/reports/index.php:18
+msgid "Date Processed"
+msgstr "Ngày xử lý"
+
+#: views/whitelabel/reports/index.php:20
+msgid "Total Winners"
+msgstr "Tổng số người đoạt giải"
+
+#: views/whitelabel/reports/index.php:21
+msgid "Total Prizes"
+msgstr "Tổng giải thưởng"
+
+#: views/whitelabel/reports/index.php:22
+msgid "Site Winners (Tickets/Lines)"
+msgstr "Người chiến thắng qua mạng (Vé/hàng)"
+
+#: views/whitelabel/reports/index.php:23
+msgid "Site Prizes"
+msgstr "Giải thưởng trên mạng"
+
+#: views/whitelabel/reports/index.php:24
+msgid "Paid Out Tickets/Lines"
+msgstr "Số vé/hàng đã thanh toán"
+
+#: views/whitelabel/reports/index.php:25
+msgid "Awaiting Tickets/Lines"
+msgstr "Số vé/hàng đang chờ"
+
+#: views/whitelabel/reports/index.php:26
+msgid "Site No-Winners (Tickets/Lines)"
+msgstr "Người không chiến thắng qua mạng (Vé/hàng)"
+
+#: views/whitelabel/reports/index.php:40 views/whitelabel/reports/index.php:55
+msgid "Jackpots"
+msgstr "Danh sách Jackpot"
+
+#: views/whitelabel/reports/index.php:43 views/whitelabel/reports/index.php:58
+msgid "Quick Picks"
+msgstr "Chọn nhanh"
+
+#: views/whitelabel/reports/index.php:88
+msgid "No winners data."
+msgstr "Không có dữ liệu về người thắng cuộc nào."
+
+#: views/whitelabel/reports/reports.php:44
+msgid "New Users (Active)"
+msgstr "Người dùng mới (Đang hoạt động)"
+
+#: views/whitelabel/reports/reports.php:48
+msgid ""
+"New <span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> "
+"Users"
+msgstr ""
+"<span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> Người "
+"dùng"
+
+#: views/whitelabel/reports/reports.php:52
+msgid "Sold Tickets"
+msgstr "Vé đã bán"
+
+#: views/whitelabel/reports/reports.php:56
+msgid "Deposits Sum"
+msgstr "Tổng tiền gửi"
+
+#: views/whitelabel/reports/reports.php:60
+msgid "Sales Sum"
+msgstr "Tổng doanh thu"
+
+#: views/whitelabel/reports/reports.php:64
+msgid "Deposits sum by currency"
+msgstr "Tổng tiền gửi theo đơn vị tiền tệ"
+
+#: views/whitelabel/reports/reports.php:71
+msgid "Sales sum by currency"
+msgstr "Tổng doanh thu theo đơn vị tiền tệ"
+
+#: views/whitelabel/settings/account.php:8
+msgid "You can change your account settings here."
+msgstr "Bạn có thể thay đổi cài đặt tài khoản tại đây."
+
+#: views/whitelabel/settings/account_edit.php:7
+msgid "Edit account settings"
+msgstr "Chỉnh sửa cài đặt tài khoản"
+
+#: views/whitelabel/settings/account_edit.php:8
+msgid "You can edit your account settings here."
+msgstr "Bạn có thể chỉnh sửa cài đặt tài khoản tại đây."
+
+#: views/whitelabel/settings/account_edit.php:21
+msgid "Enter username"
+msgstr "Nhập tên người dùng"
+
+#: views/whitelabel/settings/account_edit.php:25
+msgid "Enter realname"
+msgstr "Nhập tên thât"
+
+#: views/whitelabel/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will have to <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">enable User-ID</a> to take the full advantage of the Google Analytics "
+"feature."
+msgstr ""
+"Mẫu: <strong>UA-XXXXX-Y</strong>. Bạn phải <a href=\"https://support.google."
+"com/analytics/answer/3123666\" target=\"_blank\">kích hoạt ID người dùng</a> "
+"để có thể sử dung tính năng Google Analytics."
+
+#: views/whitelabel/settings/ccsettings.php:8
+msgid "Here you can manage Credit Card payment methods settings."
+msgstr ""
+"Bạn có thể quản lý cài đặt phương thức thanh toán thẻ tín dụng tại đây."
+
+#: views/whitelabel/settings/ccsettings.php:43
+msgid "No Credit Card payment methods."
+msgstr "Không có phương thức thanh toán thẻ tín dụng nào."
+
+#: views/whitelabel/settings/ccsettings_edit.php:8
+msgid "Here you can add or edit Credit Card payment methods."
+msgstr ""
+"Bạn có thể thêm hoặc chỉnh sửa phương thức thanh toán thẻ tín dụng tại đây."
+
+#: views/whitelabel/settings/ccsettings_edit.php:22
+msgid "Choose gateway"
+msgstr "Chọn cổng"
+
+#: views/whitelabel/settings/ccsettings_edit.php:31
+msgid "eMerchantPay Gateway Settings"
+msgstr "Cài đặt cổng eMerchantPay"
+
+#: views/whitelabel/settings/ccsettings_edit.php:34
+msgid "Enter Account ID"
+msgstr "Nhập ID tài khoản"
+
+#: views/whitelabel/settings/ccsettings_edit.php:35
+msgid ""
+"Given by eMerchantPay or visible in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+msgstr ""
+"Được cung cấp bởi eMerchantPay hoặc đã có sẵn trong tài khoản eMerchantPay: "
+"<strong> Tài khoản &gt;  Tài khoản của tôi &gt;  Tab thông tin chi tiết "
+"&gt;  Thông tin chi tiết của tài khoản &gt;  ID Tài khoản </strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:40
+msgid ""
+"Given by eMerchantPay or set up in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+msgstr ""
+"Được cung cấp bởi eMerchantPay hoặc đã có sẵn trong tài khoản eMerchantPay: "
+"<strong> Tài khoản &gt;  Tài khoản của tôi &gt;  Tab eCommerce &gt; bảng API "
+"&gt; Khóa API</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:44
+msgid "Enter endpoint URL"
+msgstr "Nhập URL đích"
+
+#: views/whitelabel/settings/ccsettings_edit.php:45
+msgid ""
+"Probably <strong>https://my.emerchantpay.com</strong>. Please consult with "
+"eMerchantPay."
+msgstr ""
+"Có thể là <strong> https://my.emerchantpay.com </strong>. Vui lòng liên hệ "
+"eMerchantPay."
+
+#: views/whitelabel/settings/ccsettings_edit.php:49
+msgid "Enter secret key"
+msgstr "Nhập mã riêng tư"
+
+#: views/whitelabel/settings/ccsettings_edit.php:50
+#, php-format
+msgid ""
+"Can be read or set up in your eMerchantPay account: <strong>Account &gt; My "
+"Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Also, please ensure the field <strong>Account &gt; My Account &gt; "
+"eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; Merchant "
+"Notification URL</strong> is set to <strong>%s</strong> and the following "
+"server notifications (<strong>Account &gt; My Account &gt; Notifications tab "
+"&gt; Server Notifications panel</strong>) are enabled: <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+msgstr ""
+"Có thể được đọc hoặc thiết lập trong tài khoản eMerchantpay: <strong>Tài "
+"khoản Tài khoản của tôi Hình thức thanh toán Bảng điều khiển hình thức thanh "
+"toán Mã riêng tư </strong>. Hãy chắc chắn rằng ở mục <strong> Tài khoản &gt; "
+"Tài khoản của tôi &gt; Tab eCommerce &gt; Bảng điều khiển eCommerce &gt; "
+"Bảng điều khiển thông báo Server phụ &gt; URL thông báo thương gia </strong> "
+"được đặt là <strong> %s </strong> và những thông báo  server sau đây "
+"(<strong> Tài khoản &gt; Tài khoản của tôi &gt; Tab thông báo &gt; Bảng điều "
+"khiên thông báo server &gt; </strong>)được bật <strong> Đơn hàng thành công, "
+"Đơn hàng đang chờ, Đơn hàng bị hủy bỏ, Đơn hàng thất bại </strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:56
+msgid "Enter minimum order"
+msgstr "Nhập số đơn hàng tối thiểu"
+
+#: views/whitelabel/settings/ccsettings_edit.php:58
+msgid ""
+"Should be the same as value in your eMerchantPay account: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [choose specific account] "
+"&gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; Minimum "
+"Amount per TX</strong>."
+msgstr ""
+"Phải giống với giá trị được ghi trong tài khoản eMerchantPay của bạn: "
+"<strong> Tài khoản &gt; Tài khoản của tôi &gt;  Tab ngưỡng giá trị &gt; Giới "
+"hạn giao dịch cá nhân  &gt; Số tiền tối thiểu mỗi TX </strong> và/hoặc "
+"<strong>Tài khoản &gt;  Tài khoản của tôi &gt;  Tab thông tin chi tiết &gt;  "
+"Bảng điều khiển Truy Cập Tài Khoản &gt; (chọn số lượng cụ thể) &gt; Tab "
+"ngưỡng giá trị &gt; Bảng điều khiển Giới hạn Giao Dịch Cá Nhân &gt;  Số tiền "
+"tối thiểu trên TX</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:62
+msgid "Enter descriptor"
+msgstr "Nhập từ khóa mô tả"
+
+#: views/whitelabel/settings/index.php:8
+msgid "You can change site settings here."
+msgstr "Bạn có thể thay đổi cài đặt website tại đây."
+
+#: views/whitelabel/settings/index.php:22
+msgid "Auto-adjusted by user IP country"
+msgstr "Tự động điều chỉnh theo IP quốc gia"
+
+#: views/whitelabel/settings/index.php:27
+msgid ""
+"Default currency for English language for users that do not have country set "
+"up in their profile."
+msgstr "Đơn vị tiền tệ mặc định dành cho người dung không cài đặt quốc gia."
+
+#: views/whitelabel/settings/index.php:30
+msgid "Activation Type"
+msgstr "Kiểu kích hoạt"
+
+#: views/whitelabel/settings/index.php:32
+msgid "No activation"
+msgstr "Không kích hoạt"
+
+#: views/whitelabel/settings/index.php:33
+msgid "Activation optional"
+msgstr "Kích hoạt tùy ý"
+
+#: views/whitelabel/settings/index.php:34
+msgid "Activation required"
+msgstr "Kích hoạt bắt buộc"
+
+#: views/whitelabel/settings/index.php:36
+msgid ""
+"Be aware that changing the e-mail activation type from no activation or "
+"optional level to required level will make all your not-confirmed users "
+"inactive! In other way, changing activation type from required level to "
+"optional or no activation level will make all your not-confirmed users "
+"active!"
+msgstr ""
+"Lưu ý: thay đổi kiểu kích hoạt email từ không kích hoạt/kích hoạt tùy ý sang "
+"kích hoạt bắt buộc sẽ khiến những người dùng không được xác nhận trên hệ "
+"thống không hoạt động. Ngược lại, thay đổi kiểu kích hoạt từ bắt buộc sang "
+"kích hoạt tùy ý hoặc không kích hoạt sẽ khiến người dùng không được xác nhận "
+"hoạt động!"
+
+#: views/whitelabel/settings/index.php:42
+msgid "Enter maximum automatic payout"
+msgstr "Nhập mức thanh toán tự động tối đa"
+
+#: views/whitelabel/settings/index.php:49
+msgid "Enter minimum payment amount"
+msgstr "Nhập mức thanh toán tối thiểu"
+
+#: views/whitelabel/settings/index.php:56
+msgid "Enter minimum deposit amount"
+msgstr "Nhập mức tiền gửi tối thiểu"
+
+#: views/whitelabel/settings/index.php:63
+msgid "Enter minimum withdrawal amount"
+msgstr "Nhập mức tiền rút tối thiểu"
+
+#: views/whitelabel/settings/index.php:70
+msgid "Enter maximum order amount"
+msgstr "Nhập số tiền đơn hàng tối đa"
+
+#: views/whitelabel/settings/index.php:75
+msgid "Enter maximum order items count"
+msgstr "Nhập số lượng đơn hàng tối đa"
+
+#: views/whitelabel/settings/lottery.php:8
+#: views/whitelabel/settings/lottery_edit.php:8
+msgid "You can change lottery settings here."
+msgstr "Bạn có thể thay đổi cài đặt xổ số tại đây."
+
+#: views/whitelabel/settings/lottery.php:21
+msgid "Line Price"
+msgstr "Giá tiền hàng"
+
+#: views/whitelabel/settings/lottery.php:34
+msgid "Imvalap"
+msgstr "Imvalap"
+
+#: views/whitelabel/settings/lottery.php:35
+msgid "Lottorisq"
+msgstr "Lottorisq"
+
+#: views/whitelabel/settings/lottery.php:36
+msgid "Insurance/None"
+msgstr "Bảo hiểm/Không có"
+
+#: views/whitelabel/settings/lottery_edit.php:22
+msgid "All tickets bought before disabling a lottery will be processed."
+msgstr "Vé đã mua trước khi xổ sổ kết thúc sẽ được xử lý."
+
+#: views/whitelabel/settings/lottery_edit.php:47
+msgid "Enter minimum lines count"
+msgstr "Nhập số hàng tối thiểu"
+
+#: views/whitelabel/settings/lottery_edit.php:48
+#, php-format
+msgid ""
+"The value has to be a multiple of <span>X</span> due to our ticket "
+"provider's limits."
+msgstr ""
+"Giá trị phải là bội số của <span>X</span> do số lượng nhà tài trợ vé có hạn."
+
+#: views/whitelabel/settings/lottery_edit.php:54
+msgid "Enter line price"
+msgstr "Nhập giá từng hàng số"
+
+#: views/whitelabel/settings/password.php:8
+msgid "You can edit your password here."
+msgstr "Bạn có thể chỉnh sửa mật khẩu tại đây."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid "Here you can view and manage site payment methods."
+msgstr "Bạn có thể xem và quản lý phương thức thanh toán qua mạng tại đây."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid ""
+"The default payments are those from English language. You don't have to "
+"specify every payment method for every language if they are the same."
+msgstr ""
+"Giao dịch thanh toán mặc định được hiển thị trong tiếng Anh. Bạn không cần  "
+"xác định tất cả các phương thức thanh toán cho từng  ngôn ngữ nếu chúng "
+"giống nhau."
+
+#: views/whitelabel/settings/paymentmethods.php:50
+msgid "No payment methods."
+msgstr "Không có phương thức thanh toán nào."
+
+#: views/whitelabel/settings/paymentmethods_edit.php:79
+#, php-format
+msgid ""
+"Optional for non-shared accounts - improves payment confirmation speed. Can "
+"be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; Webhooks</"
+"strong>. You should set the <strong>Webhook URL</strong> to <strong>%s</"
+"strong> and check following hooks: <strong>payment_cancelled</strong>, "
+"<strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Cài đặt tùy chọn dành cho tài khoản không được chia sẻ - tăng tốc độ xác "
+"nhận thanh toán. Có thể điều chỉnh trong <strong> Bảng điều khiển Neteller "
+"Merchant &gt;  Nhà phát triển &gt;  Webhooks </strong>. Nên đặt <strong> địa "
+"chỉ URL Webhook tới <strong> %s </strong> và kiểm tra các hook sau: <strong> "
+"payment_cancelled , <strong> payment_declined </strong>, <strong> "
+"payment_failed (thanh toán thất bại </strong>, <strong> payment_succeeded  </"
+"strong>."
+
+#: views/whitelabel/shared/navbar.php:15
+msgid "Users"
+msgstr "Người dùng"
+
+#: views/whitelabel/shared/navbar.php:16
+msgid "Transactions"
+msgstr "Giao dịch"
+
+#: views/whitelabel/shared/navbar.php:24
+msgid "Support"
+msgstr "Trợ giúp"
+
+#: views/whitelabel/tickets/index.php:8
+msgid "Here you can view and manage users' tickets."
+msgstr "Bạn có thể xem và quảy lý vé của người dùng tại đây."
+
+#: views/whitelabel/tickets/index.php:21 views/whitelabel/tickets/index.php:70
+#: views/whitelabel/tickets/view.php:43 views/whitelabel/tickets/view.php:94
+#: views/whitelabel/tickets/view.php:107
+#: views/whitelabel/transactions/index.php:25
+#: views/whitelabel/transactions/index.php:60
+#: views/whitelabel/transactions/view.php:49
+#: views/whitelabel/transactions/view.php:358
+#: views/whitelabel/transactions/view.php:527
+#: views/whitelabel/transactions/view.php:623
+#: views/whitelabel/transactions/view.php:729
+#: views/whitelabel/transactions/withdrawal.php:37
+#: views/whitelabel/transactions/withdrawals.php:21
+#: views/whitelabel/transactions/withdrawals.php:60
+msgid "Status"
+msgstr "Trạng thái"
+
+#: views/whitelabel/tickets/index.php:22 views/whitelabel/tickets/index.php:120
+#: views/whitelabel/tickets/view.php:46 views/whitelabel/tickets/view.php:59
+#: views/whitelabel/tickets/view.php:97
+#: views/whitelabel/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:101
+#: views/whitelabel/transactions/view.php:52
+#: views/whitelabel/transactions/withdrawal.php:40
+#: views/whitelabel/transactions/withdrawals.php:22
+#: views/whitelabel/transactions/withdrawals.php:86
+msgid "Pending"
+msgstr "Đang chờ"
+
+#: views/whitelabel/tickets/index.php:23 views/whitelabel/tickets/index.php:122
+#: views/whitelabel/tickets/view.php:48
+msgid "Win"
+msgstr "Thắng"
+
+#: views/whitelabel/tickets/index.php:24 views/whitelabel/tickets/index.php:124
+#: views/whitelabel/tickets/view.php:50 views/whitelabel/tickets/view.php:109
+msgid "No winnings"
+msgstr "Không có lượt thắng nào"
+
+#: views/whitelabel/tickets/index.php:25 views/whitelabel/tickets/index.php:126
+#: views/whitelabel/tickets/index.php:144 views/whitelabel/tickets/view.php:52
+#: views/whitelabel/tickets/view.php:83 views/whitelabel/tickets/view.php:132
+msgid "Quick Pick"
+msgstr "Chọn nhanh"
+
+#: views/whitelabel/tickets/index.php:48
+#: views/whitelabel/transactions/index.php:39
+#: views/whitelabel/transactions/withdrawals.php:36
+msgid "User E-mail"
+msgstr "Email người dùng"
+
+#: views/whitelabel/tickets/index.php:63
+#: views/whitelabel/transactions/index.php:53
+#: views/whitelabel/transactions/withdrawals.php:50
+msgid "User ID &bull; User Name"
+msgstr "ID người dùng/Tên người dùng"
+
+#: views/whitelabel/tickets/index.php:73 views/whitelabel/tickets/view.php:64
+msgid "Lines"
+msgstr "Hàng"
+
+#: views/whitelabel/tickets/index.php:103 views/whitelabel/tickets/view.php:38
+msgid "Free"
+msgstr "Miễn phí"
+
+#: views/whitelabel/tickets/index.php:114
+msgid "Valid to"
+msgstr "Có hiệu lực đến"
+
+#: views/whitelabel/tickets/index.php:128 views/whitelabel/tickets/view.php:53
+msgid "Expired"
+msgstr "Hết hạn"
+
+#: views/whitelabel/tickets/index.php:167
+msgid "No tickets."
+msgstr "Không có vé nào."
+
+#: views/whitelabel/tickets/view.php:7
+msgid "Ticket details"
+msgstr "Chi tiết vé"
+
+#: views/whitelabel/tickets/view.php:8
+msgid "Here you can view ticket details."
+msgstr "Bạn có thể xem thông tin chi tiết vé tại đây."
+
+#: views/whitelabel/tickets/view.php:75
+msgid "none"
+msgstr "không có"
+
+#: views/whitelabel/tickets/view.php:87 views/whitelabel/tickets/view.php:124
+msgid "Net"
+msgstr "Mạng"
+
+#: views/whitelabel/tickets/view.php:99
+msgid "Pay out to user balance"
+msgstr "Thanh toán theo số dư tài khoản người dùng"
+
+#: views/whitelabel/tickets/view.php:117
+msgid "Total Prize"
+msgstr "Tổng giải thưởng"
+
+#: views/whitelabel/tickets/view.php:136
+msgid "Slip images"
+msgstr "Hình ảnh phiếu"
+
+#: views/whitelabel/tickets/view.php:145
+msgid ""
+"Are you sure? The 'mark as paid out' function will not automatically pay out "
+"the lines to the user and will not increase user balance. It will only mark "
+"the tickets and lines as paid out. Also, the Quick Pick lines will not be "
+"marked as paid out as they are paid out automatically after some time. This "
+"function is intended to be used only with bigger prizes which are not "
+"automatically paid out. If you want to pay out the lines to the user balance "
+"please use 'Pay out to user balance' button within specific line."
+msgstr ""
+"Bạn có chắc chứ? Chức năng \"đánh dấu là đã thanh toán\" sẽ không tự động "
+"trả tiền theo hàng cho người dùng và không tăng số dư người dùng. Chức năng "
+"này chỉ đánh dấu vé và hàng đã được thanh toán. Các hàng số Chọn Nhanh cũng "
+"sẽ không được đánh dấu là đã thanh toán do đã được thanh toán tự động một "
+"thời gian sau đó. Chức năng này chỉ hoạt động được với các giải thưởng lớn "
+"hơn không được tự động thanh toán trước. Nếu bạn muốn thanh toán hàng số "
+"theo số dư tài khoản người dùng, chọn \"thanh toán theo số dư tài khoản "
+"người dùng\" cho 1 hàng số cụ thể."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' non-deposit transactions."
+msgstr ""
+"Bạn có thể xem và quản lý giao dịch không có tiền gửi của người dùng tại đây."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' deposit transactions."
+msgstr "Bạn có thể xem và quản lý giao dịch tiền gửi của người dùng tại đây."
+
+#: views/whitelabel/transactions/index.php:27
+#: views/whitelabel/transactions/index.php:103
+#: views/whitelabel/transactions/view.php:54
+#: views/whitelabel/transactions/withdrawal.php:42
+#: views/whitelabel/transactions/withdrawals.php:23
+#: views/whitelabel/transactions/withdrawals.php:88
+msgid "Approved"
+msgstr "Thông qua"
+
+#: views/whitelabel/transactions/index.php:28
+#: views/whitelabel/transactions/index.php:105
+#: views/whitelabel/transactions/view.php:56
+#: views/whitelabel/transactions/view.php:601
+msgid "Error"
+msgstr "Lỗi"
+
+#: views/whitelabel/transactions/index.php:59
+#: views/whitelabel/transactions/view.php:26
+msgid "Date confirmed"
+msgstr "Ngày đã được xác nhận"
+
+#: views/whitelabel/transactions/index.php:62
+msgid "Tickets/Processed"
+msgstr "Vé/Đã xử lý"
+
+#: views/whitelabel/transactions/index.php:130
+msgid "No transactions."
+msgstr "Không có giao dịch nào."
+
+#: views/whitelabel/transactions/view.php:7
+msgid "Transaction details"
+msgstr "Chi tiết giao dịch"
+
+#: views/whitelabel/transactions/view.php:8
+msgid "You can view transaction details here."
+msgstr "Bạn có thể xem chi tiết giao dịch tại đây."
+
+#: views/whitelabel/transactions/view.php:60
+msgid "Payment ID"
+msgstr "ID thanh toán"
+
+#: views/whitelabel/transactions/view.php:64
+msgid "eMerchantPay"
+msgstr "eMerchantPay"
+
+#: views/whitelabel/transactions/view.php:66
+msgid "Order date"
+msgstr "Ngày đặt hàng"
+
+#: views/whitelabel/transactions/view.php:70
+msgid "Order total"
+msgstr "Tổng số đơn hang"
+
+#: views/whitelabel/transactions/view.php:74
+msgid "Order currency"
+msgstr "Đơn vị hàng"
+
+#: views/whitelabel/transactions/view.php:78
+msgid "Order status"
+msgstr "Trạng thái đặt hàng"
+
+#: views/whitelabel/transactions/view.php:82
+msgid "Test transaction"
+msgstr "Giao dịch thử nghiệm"
+
+#: views/whitelabel/transactions/view.php:86
+msgid "Transaction type"
+msgstr "Loại hình giao dịch"
+
+#: views/whitelabel/transactions/view.php:90
+msgid "Response"
+msgstr "Phản hồi"
+
+#: views/whitelabel/transactions/view.php:94
+msgid "Response code"
+msgstr "Mã phản hồi"
+
+#: views/whitelabel/transactions/view.php:98
+msgid "Response text"
+msgstr "Văn bản phản hồi"
+
+#: views/whitelabel/transactions/view.php:110
+msgid "Client ID"
+msgstr "ID người dùng"
+
+#: views/whitelabel/transactions/view.php:118
+msgid "Merchant user ID"
+msgstr "ID người dùng thương gia"
+
+#: views/whitelabel/transactions/view.php:122
+msgid "Notification type"
+msgstr "Loại thông báo"
+
+#: views/whitelabel/transactions/view.php:126
+msgid "emerchantpaypassthrough"
+msgstr "emerchantpaypassthrough"
+
+#: views/whitelabel/transactions/view.php:134
+msgid "Errors"
+msgstr "Lỗi"
+
+#: views/whitelabel/transactions/view.php:136
+msgid "Error code"
+msgstr "Mã lỗi"
+
+#: views/whitelabel/transactions/view.php:138
+msgid "Error text"
+msgstr "Lỗi chi tiết"
+
+#: views/whitelabel/transactions/view.php:143
+msgid "Card details"
+msgstr "Chi tiết thẻ"
+
+#: views/whitelabel/transactions/view.php:146
+msgid "Auth code"
+msgstr "Mã auth"
+
+#: views/whitelabel/transactions/view.php:150
+msgid "Brand"
+msgstr "Thương hiểu"
+
+#: views/whitelabel/transactions/view.php:154
+msgid "Category"
+msgstr "Danh mục"
+
+#: views/whitelabel/transactions/view.php:158
+msgid "Exp. month"
+msgstr "Tháng đáo hạn"
+
+#: views/whitelabel/transactions/view.php:162
+msgid "Exp. year"
+msgstr "Năm đáo hạn"
+
+#: views/whitelabel/transactions/view.php:166
+msgid "Holder name"
+msgstr "Tên chủ sở hữu"
+
+#: views/whitelabel/transactions/view.php:170
+msgid "Issuing bank"
+msgstr "Ngân hàng phát hành"
+
+#: views/whitelabel/transactions/view.php:174
+msgid "Issuing country"
+msgstr "Quốc gia phát hành"
+
+#: views/whitelabel/transactions/view.php:178
+msgid "Number"
+msgstr "Số"
+
+#: views/whitelabel/transactions/view.php:182
+msgid "Subcategory"
+msgstr "Tiểu danh mục"
+
+#: views/whitelabel/transactions/view.php:186
+msgid "Customer data"
+msgstr "Dữ liệu khách hàng"
+
+#: views/whitelabel/transactions/view.php:193
+#: views/whitelabel/transactions/view.php:304
+#: views/whitelabel/transactions/view.php:370
+msgid "Customer ID"
+msgstr "ID khách hàng"
+
+#: views/whitelabel/transactions/view.php:213
+msgid "State"
+msgstr "Bang"
+
+#: views/whitelabel/transactions/view.php:221
+msgid "Postcode"
+msgstr "Mã bưu điện"
+
+#: views/whitelabel/transactions/view.php:225
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: views/whitelabel/transactions/view.php:233
+msgid "Items"
+msgstr "Mặt hàng"
+
+#: views/whitelabel/transactions/view.php:242
+#: views/whitelabel/transactions/view.php:366
+#: views/whitelabel/transactions/view.php:597
+msgid "Description"
+msgstr "Mô tả"
+
+#: views/whitelabel/transactions/view.php:246
+msgid "Item ID"
+msgstr "ID mặt hàng"
+
+#: views/whitelabel/transactions/view.php:250
+msgid "Code"
+msgstr "Mã"
+
+#: views/whitelabel/transactions/view.php:254
+msgid "Quantity"
+msgstr "Số lượng"
+
+#: views/whitelabel/transactions/view.php:258
+msgid "Digital"
+msgstr "Kỹ thuật số"
+
+#: views/whitelabel/transactions/view.php:262
+msgid "Pass-through"
+msgstr "Chuyển giao"
+
+#: views/whitelabel/transactions/view.php:266
+msgid "Rebill"
+msgstr "Tiền trả lại"
+
+#: views/whitelabel/transactions/view.php:270
+msgid "Discount"
+msgstr "Giảm giác"
+
+#: views/whitelabel/transactions/view.php:274
+msgid "Predefined"
+msgstr "Được xác định trước"
+
+#: views/whitelabel/transactions/view.php:279
+msgid "Unit price"
+msgstr "Đơn vị giá"
+
+#: views/whitelabel/transactions/view.php:288
+msgid "Merchant e-mail"
+msgstr "Email thương gia"
+
+#: views/whitelabel/transactions/view.php:292
+msgid "User e-mail"
+msgstr "Email người dùng"
+
+#: views/whitelabel/transactions/view.php:296
+msgid "Skrill amount"
+msgstr "Số lượng trong Skrill"
+
+#: views/whitelabel/transactions/view.php:300
+msgid "Failed reason code"
+msgstr "Mã không thành công"
+
+#: views/whitelabel/transactions/view.php:314
+msgid "Order ID"
+msgstr "ID đơn hàng"
+
+#: views/whitelabel/transactions/view.php:318
+msgid "Event ID"
+msgstr "ID sự kiện"
+
+#: views/whitelabel/transactions/view.php:322
+msgid "Event Date"
+msgstr "Ngày diễn ra sự kiện"
+
+#: views/whitelabel/transactions/view.php:326
+msgid "Event Type"
+msgstr "Loại sự kiện"
+
+#: views/whitelabel/transactions/view.php:330
+msgid "Attempt Number"
+msgstr "Số thử"
+
+#: views/whitelabel/transactions/view.php:342
+msgid "Create Date"
+msgstr "Ngày tạo"
+
+#: views/whitelabel/transactions/view.php:346
+msgid "Update Date"
+msgstr "Ngày cập nhật"
+
+#: views/whitelabel/transactions/view.php:350
+msgid "Error Code"
+msgstr "Mã lỗi"
+
+#: views/whitelabel/transactions/view.php:354
+msgid "Error Message"
+msgstr "Tin nhắn lỗi"
+
+#: views/whitelabel/transactions/view.php:362
+msgid "Transaction Type"
+msgstr "Loại hình giao dịch"
+
+#: views/whitelabel/transactions/view.php:394
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#: views/whitelabel/transactions/view.php:406
+#: views/whitelabel/transactions/view.php:481
+msgid "Address #3"
+msgstr "Địa chỉ 3"
+
+#: views/whitelabel/transactions/view.php:418
+#: views/whitelabel/transactions/view.php:493
+msgid "Post Code"
+msgstr "Mã bưu điện"
+
+#: views/whitelabel/transactions/view.php:422
+msgid "Gender"
+msgstr "Giới tính"
+
+#: views/whitelabel/transactions/view.php:426
+msgid "Customer Contact Details"
+msgstr "Chi tiết liên hệ khách hàng"
+
+#: views/whitelabel/transactions/view.php:433
+msgid "Value"
+msgstr "Giá trị"
+
+#: views/whitelabel/transactions/view.php:447
+msgid "Verification Level"
+msgstr "Mức độ xác minh"
+
+#: views/whitelabel/transactions/view.php:451
+msgid "Customer Balance"
+msgstr "Số dư khách hàng"
+
+#: views/whitelabel/transactions/view.php:455
+msgid "Billing Details"
+msgstr "Chi tiết thanh toán"
+
+#: views/whitelabel/transactions/view.php:502
+msgid "Fees"
+msgstr "Phí"
+
+#: views/whitelabel/transactions/view.php:505
+msgid "Fee Name"
+msgstr "Tên phí"
+
+#: views/whitelabel/transactions/view.php:509
+msgid "Fee Type"
+msgstr "Loại phí"
+
+#: views/whitelabel/transactions/view.php:513
+msgid "Fee Amount"
+msgstr "Số lượng phí"
+
+#: views/whitelabel/transactions/view.php:517
+msgid "Fee Currency"
+msgstr "Đơn vị phí"
+
+#: views/whitelabel/transactions/view.php:525
+msgid "cubits"
+msgstr "cubits"
+
+#: views/whitelabel/transactions/view.php:535
+msgid "Create Time"
+msgstr "Tạo  thời gian"
+
+#: views/whitelabel/transactions/view.php:539
+msgid "Invoice Currency"
+msgstr "Hóa đơn thu"
+
+#: views/whitelabel/transactions/view.php:543
+msgid "Invoice Amount"
+msgstr "Số lượng thu"
+
+#: views/whitelabel/transactions/view.php:547
+msgid "Paid Currency"
+msgstr "Hóa đơn đã được trả"
+
+#: views/whitelabel/transactions/view.php:551
+msgid "Paid Amount"
+msgstr "Số tiền trả"
+
+#: views/whitelabel/transactions/view.php:555
+msgid "Pending Currency"
+msgstr "Hóa đơn trễ"
+
+#: views/whitelabel/transactions/view.php:559
+msgid "Pending Amount"
+msgstr "Số lượng trễ"
+
+#: views/whitelabel/transactions/view.php:563
+msgid "Merchant Currency"
+msgstr "Hóa đơn thương gia"
+
+#: views/whitelabel/transactions/view.php:567
+msgid "Merchant Amount"
+msgstr "Lượng thương gia"
+
+#: views/whitelabel/transactions/view.php:571
+msgid "Share to keep in BTC"
+msgstr "Cổ phần được giữ ở BTC"
+
+#: views/whitelabel/transactions/view.php:575
+msgid "tpay.com"
+msgstr "tpay.com"
+
+#: views/whitelabel/transactions/view.php:589
+msgid "Amount paid"
+msgstr "Khoản đã trả"
+
+#: views/whitelabel/transactions/view.php:605
+msgid "Sofort"
+msgstr "Sofort"
+
+#: views/whitelabel/transactions/view.php:611
+msgid "Amount Refunded"
+msgstr "Số tiền đã hoàn lại"
+
+#: views/whitelabel/transactions/view.php:619
+msgid "Consumer Protection"
+msgstr "Bảo vệ khách hàng"
+
+#: views/whitelabel/transactions/view.php:627
+#: views/whitelabel/transactions/view.php:733
+msgid "Status Reason"
+msgstr "Nguyên nhân trạng thái"
+
+#: views/whitelabel/transactions/view.php:631
+#: views/whitelabel/transactions/view.php:651
+msgid "Status Modified Time"
+msgstr "Thời gian thay đổi trạng thái"
+
+#: views/whitelabel/transactions/view.php:635
+msgid "Language Code"
+msgstr "Mã ngôn ngữ"
+
+#: views/whitelabel/transactions/view.php:643
+msgid "Reason"
+msgstr "Nguyên nhân"
+
+#: views/whitelabel/transactions/view.php:647
+msgid "Test"
+msgstr "Kiểm tra"
+
+#: views/whitelabel/transactions/view.php:655
+msgid "Project ID"
+msgstr "ID dự án"
+
+#: views/whitelabel/transactions/view.php:659
+msgid "Recipient Holder"
+msgstr "Người nhận"
+
+#: views/whitelabel/transactions/view.php:663
+msgid "Recipient Account Number"
+msgstr "Số tài khoản"
+
+#: views/whitelabel/transactions/view.php:667
+msgid "Recipient Bank Code"
+msgstr "Mã ngân hàng"
+
+#: views/whitelabel/transactions/view.php:671
+msgid "Recipient Country Code"
+msgstr "Mã quốc gia"
+
+#: views/whitelabel/transactions/view.php:675
+msgid "Recipient Bank Name"
+msgstr "Tên ngân hàng"
+
+#: views/whitelabel/transactions/view.php:679
+msgid "Recipient BIC"
+msgstr "Mã BIC"
+
+#: views/whitelabel/transactions/view.php:683
+msgid "Recipient IBAN"
+msgstr "Mã IBAN"
+
+#: views/whitelabel/transactions/view.php:687
+msgid "Sender Holder"
+msgstr "Người gửi"
+
+#: views/whitelabel/transactions/view.php:691
+msgid "Sender Account Number"
+msgstr "Số tài khoản"
+
+#: views/whitelabel/transactions/view.php:695
+msgid "Sender Bank Code"
+msgstr "Mã ngân hàng"
+
+#: views/whitelabel/transactions/view.php:699
+msgid "Sender Country Code"
+msgstr "Mã quốc gia"
+
+#: views/whitelabel/transactions/view.php:703
+msgid "Sender Bank Name"
+msgstr "Tên ngân hàng"
+
+#: views/whitelabel/transactions/view.php:707
+msgid "Sender BIC"
+msgstr "Mã BIC của người gửi"
+
+#: views/whitelabel/transactions/view.php:711
+msgid "Sender IBAN"
+msgstr "Mã IBAN"
+
+#: views/whitelabel/transactions/view.php:715
+msgid "Exchange Rate"
+msgstr "Tỉ giá"
+
+#: views/whitelabel/transactions/view.php:719
+msgid "Costs (Exchange Rate)"
+msgstr "Chi phí (tỉ giá hối đoái)"
+
+#: views/whitelabel/transactions/view.php:723
+msgid "Costs (Fees)"
+msgstr "Tiền phí"
+
+#: views/whitelabel/transactions/view.php:726
+msgid "Status History"
+msgstr "Lịch sử trạng thái"
+
+#: views/whitelabel/transactions/view.php:737
+msgid "Time"
+msgstr "Thời gian"
+
+#: views/whitelabel/transactions/withdrawal.php:7
+msgid "Withdrawal details"
+msgstr "Chi tiết rút tiền"
+
+#: views/whitelabel/transactions/withdrawal.php:8
+msgid "Here you can view the withdrawal details."
+msgstr "Bạn có thể xem chi tiết rút tiền tại đây."
+
+#: views/whitelabel/transactions/withdrawal.php:26
+#: views/whitelabel/transactions/withdrawals.php:59
+msgid "Date approved"
+msgstr "Ngày được phê duyệt"
+
+#: views/whitelabel/transactions/withdrawal.php:44
+#: views/whitelabel/transactions/withdrawals.php:24
+#: views/whitelabel/transactions/withdrawals.php:90
+msgid "Declined"
+msgstr "Từ chối"
+
+#: views/whitelabel/transactions/withdrawal.php:46
+#: views/whitelabel/transactions/withdrawals.php:25
+#: views/whitelabel/transactions/withdrawals.php:92
+msgid "Canceled"
+msgstr "Hủy bỏ"
+
+#: views/whitelabel/transactions/withdrawal.php:49
+msgid "Request details"
+msgstr "Chi tiết yêu cầu"
+
+#: views/whitelabel/transactions/withdrawal.php:63
+msgid "Bitcoin wallet"
+msgstr "Ví bitcoin"
+
+#: views/whitelabel/transactions/withdrawal.php:67
+msgid "Account IBAN"
+msgstr "Tài khoản IBAN"
+
+#: views/whitelabel/transactions/withdrawal.php:71
+msgid "SWIFT number"
+msgstr "Số SWIFT"
+
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawals.php:97
+msgid "Approve"
+msgstr "Phê duyệt"
+
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawals.php:99
+msgid "Decline"
+msgstr "Từ chối"
+
+#: views/whitelabel/transactions/withdrawals.php:8
+msgid "Here you can manage your users' withdrawals."
+msgstr "Bạn có thể quản lý tiền rút của người dùng tại đây."
+
+#: views/whitelabel/transactions/withdrawals.php:113
+msgid "No withdrawals."
+msgstr "Không có tiền rút nào."
+
+#: views/whitelabel/users/aff.php:7 views/whitelabel/users/index.php:117
+msgid "Change affiliate"
+msgstr "Thay đổi liên kết"
+
+#: views/whitelabel/users/aff.php:8
+msgid "You can change your user affiliate here."
+msgstr "Bạn có thể thay đổi liên kết người dùng tại đây."
+
+#: views/whitelabel/users/balance.php:7
+msgid "Edit balance"
+msgstr "Chỉnh số dư"
+
+#: views/whitelabel/users/balance.php:8
+msgid "You can edit user balance here."
+msgstr "Bạn có thể chỉnh sửa số dư người dùng tại đây."
+
+#: views/whitelabel/users/balance.php:23
+msgid "Enter user balance"
+msgstr "Nhập số dư người dùng"
+
+#: views/whitelabel/users/balance.php:25 views/whitelabel/users/deposit.php:35
+msgid "Use dot for decimal digits. No whitespaces."
+msgstr "Sử dụng dấu \".\" cho số thập phân, không để khoảng trống."
+
+#: views/whitelabel/users/deposit.php:7
+msgid "Deposit"
+msgstr "Tiền gửi"
+
+#: views/whitelabel/users/deposit.php:8
+msgid "Here you can add manual deposit to the user."
+msgstr "Bạn có thể thêm khoản tiền gửi vào người dùng tại đây."
+
+#: views/whitelabel/users/deposit.php:33
+msgid "Enter amount"
+msgstr "Nhập số lượng"
+
+#: views/whitelabel/users/edit.php:8
+msgid "Edit user details here."
+msgstr "Chỉnh sửa chi tiết người dùng tại đây."
+
+#: views/whitelabel/users/email.php:8
+msgid "You can edit user e-mail here."
+msgstr "Bạn có thể chỉnh sửa email người dùng tại đây."
+
+#: views/whitelabel/users/index.php:14
+msgid "Here you can view and manage your activated users."
+msgstr "Bạn có thể xem và quản lý người dùng đang hoạt động tại đây."
+
+#: views/whitelabel/users/index.php:15
+msgid "Here you can manage your inactive useres."
+msgstr "Bạn có thể quản lý người dùng không hoạt động tại đây."
+
+#: views/whitelabel/users/index.php:16
+msgid "Here you can manage your deleted users."
+msgstr "Bạn có thể quản lý người dùng đã bị xóa tại đây."
+
+#: views/whitelabel/users/index.php:79
+msgid "Registered<br>IP<br>Country"
+msgstr "Quốc gia đã đăng ký"
+
+#: views/whitelabel/users/index.php:98
+msgid "View purchases"
+msgstr "Xem lượt mua"
+
+#: views/whitelabel/users/index.php:99
+msgid "View deposits"
+msgstr "Xem số tiền gửi"
+
+#: views/whitelabel/users/index.php:100
+msgid "View withdrawals"
+msgstr "Xem số tiền rút"
+
+#: views/whitelabel/users/index.php:123
+msgid "Manual deposit"
+msgstr "Tiền gửi thủ công"
+
+#: views/whitelabel/users/index.php:160
+msgid "No users."
+msgstr "Không có người dùng nào."
+
+#: views/whitelabel/users/password.php:8
+msgid "You can change user password here."
+msgstr "Bạn có thể thay đổi mật khẩu người dùng tại đây."
+
+#: views/whitelabel/users/view.php:7
+msgid "User details"
+msgstr "Chi tiết người dung"
+
+#: views/whitelabel/users/view.php:8
+msgid "You can view and edit user details here."
+msgstr "Bạn có thể xem và chỉnh sửa chi tiết người dùng tại đây."
+
+#: views/whitelabel/users/view.php:49
+msgid "Register IP"
+msgstr "IP đăng ký"
+
+#: views/whitelabel/users/view.php:57
+msgid "First Purchase"
+msgstr "Lần mua đầu tiên"
+
+#~ msgid "Lines multiplier"
+#~ msgstr "Số hàng được nhân lên"

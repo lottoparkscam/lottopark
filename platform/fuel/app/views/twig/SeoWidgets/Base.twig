@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ themeStyle('app.min.css') }}
+    {{ themeStyle('widgets/widget1.css') }}
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    {% block widget %}{% endblock %}
+    {% block scripts %}{% endblock %}
+</body>
+</html>

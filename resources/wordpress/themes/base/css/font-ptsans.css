@@ -1,0 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin-ext');*/
+
+input, select, textarea
+{
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+.btn
+{
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+.wpcf7-form input[type="submit"]
+{
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+body
+{
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}

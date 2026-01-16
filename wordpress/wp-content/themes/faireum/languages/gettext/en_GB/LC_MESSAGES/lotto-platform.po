@@ -1,0 +1,2269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLotto - Lotto Platform plugin\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgid "Change e-mail address"
+msgstr ""
+
+msgid "Change password"
+msgstr ""
+
+msgid "Edit profile"
+msgstr ""
+
+msgid "My tickets"
+msgstr ""
+
+msgid "My payment methods"
+msgstr ""
+
+msgid "My transactions"
+msgstr ""
+
+msgid "Deposit"
+msgstr ""
+
+msgid "Withdrawal"
+msgstr ""
+
+msgid "My details"
+msgstr ""
+
+msgid "The item has been deleted!"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Couldn't find the specified item to remove!"
+msgstr ""
+
+msgid "Your order has been deleted!"
+msgstr ""
+
+msgid "Your country has been blocked."
+msgstr ""
+
+msgid "Your item has been restored!"
+msgstr ""
+
+msgid "Bad request! Please contact us!"
+msgstr ""
+
+msgid "Security error! Please try again."
+msgstr ""
+
+msgid "A part of your order was removed as we have disabled some of the lotteries."
+msgstr ""
+
+msgid "You have been successfully logged out!"
+msgstr ""
+
+msgid "Your card has been removed!"
+msgstr ""
+
+msgid "Wrong card!"
+msgstr ""
+
+msgid "Your account has been activated before. Please login to access your account."
+msgstr ""
+
+msgid ""
+"Your activation link has expired. Please <a href=\"%s\">try to resend</a> "
+"activation e-mail or contact us."
+msgstr ""
+
+msgid "Incorrect activation link. Please contact us for manual activation."
+msgstr ""
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow the "
+"link: %1$s"
+msgstr ""
+
+msgid "The activation e-mail has been resent to you."
+msgstr ""
+
+msgid ""
+"We have encountered an error while trying to send the message. Please contact us "
+"to activate your account."
+msgstr ""
+
+msgid ""
+"You can resend the activation link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+
+msgid "Account Activation"
+msgstr ""
+
+msgid ""
+"Thank you for registration! To complete the activation process please follow the "
+"link: <a href=\"%1$s\">activation link</a>."
+msgstr ""
+
+msgid "Incorrect resend link. Please contact us for manual activation."
+msgstr ""
+
+msgid "Congratulations! You have received a free ticket for %1$s as a bonus!"
+msgstr ""
+
+msgid "Play now"
+msgstr ""
+
+msgid "Unknown error! Please contact us!"
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Address #1"
+msgstr ""
+
+msgid "Address #2"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Postal/ZIP Code"
+msgstr ""
+
+msgid "Phone Country"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Birthdate"
+msgstr ""
+
+msgid "Time Zone"
+msgstr ""
+
+msgid "Date register"
+msgstr ""
+
+msgid "Register IP"
+msgstr ""
+
+msgid "Last IP"
+msgstr ""
+
+msgid "Register Country"
+msgstr ""
+
+msgid "Last Country"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+msgid "Last Update"
+msgstr ""
+
+msgid "First Purchase"
+msgstr ""
+
+msgid "Anonymous"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "Payment Type"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date Confirmed"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Ticket ID"
+msgstr ""
+
+msgid "Lottery"
+msgstr ""
+
+msgid "Draw Date"
+msgstr ""
+
+msgid "Date Processed"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Prize"
+msgstr ""
+
+msgid "Prize Net"
+msgstr ""
+
+msgid "Prize Jackpot"
+msgstr ""
+
+msgid "Prize Quickpick"
+msgstr ""
+
+msgid "Win"
+msgstr ""
+
+msgid "No winnings"
+msgstr ""
+
+msgid "Quick Pick"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Jackpot"
+msgstr ""
+
+msgid "Numbers"
+msgstr ""
+
+msgid "Bonus Numbers"
+msgstr ""
+
+msgid "Withdrawal ID"
+msgstr ""
+
+msgid "Withdrawal Type"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Declined"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Card Number"
+msgstr ""
+
+msgid "Exp Month"
+msgstr ""
+
+msgid "Exp Year"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Last used"
+msgstr ""
+
+msgid "PersonalData"
+msgstr ""
+
+msgid "The minimum order for this payment type is %s."
+msgstr ""
+
+msgid "You didn't reach the minimum order for this payment type!"
+msgstr ""
+
+msgid "Lines"
+msgstr ""
+
+msgid "Security error! Please contact us!"
+msgstr ""
+
+msgid "Failed to add more tickets, you have reached the maximum order!"
+msgstr ""
+
+msgid "The ticket has been added to your order!"
+msgstr ""
+
+msgid "You need to choose at least %d lines for every %d-lines ticket!"
+msgstr ""
+
+msgid "Pay with account balance <span>(%s)</span>"
+msgstr ""
+
+msgid "Bank payment"
+msgstr ""
+
+msgid "QIWI, Yandex.Money, Payeer..."
+msgstr ""
+
+msgid "BTC, ETH + %d altcoins"
+msgstr ""
+
+msgid "BTC, ETH + 150 altcoins"
+msgstr ""
+
+msgid "DusuPay (Africa)"
+msgstr ""
+
+msgid "(Africa)"
+msgstr ""
+
+msgid "Credit Card"
+msgstr ""
+
+msgid "Credit Card #2"
+msgstr ""
+
+msgid "Local payment methods"
+msgstr ""
+
+msgid "Bitcoin, Ethereum & Crypto"
+msgstr ""
+
+msgid "BTC, ETH & Crypto"
+msgstr ""
+
+msgid "AstroPay Card"
+msgstr ""
+
+msgid "Wrong format!"
+msgstr ""
+
+msgid "Amount in Gateway"
+msgstr ""
+
+msgid "Currency in Gateway"
+msgstr ""
+
+msgid "The maximum deposit is  %s."
+msgstr ""
+
+msgid "Incorrect deposit amount value!"
+msgstr ""
+
+msgid "The minimum deposit amount is %s."
+msgstr ""
+
+msgid "Repeat e-mail"
+msgstr ""
+
+msgid "This e-mail address is already used by you."
+msgstr ""
+
+msgid "This e-mail address is already registered."
+msgstr ""
+
+msgid ""
+"Failed to update your e-mail address! Please try again or contact us to solve "
+"this issue."
+msgstr ""
+
+msgid ""
+"Thank you for updating your e-mail! To complete the activation process please "
+"follow the link: %1$s"
+msgstr ""
+
+msgid ""
+"Your email address has been changed, however we've encountered problems while "
+"sending the activation e-mail. Please contact us to activate your account."
+msgstr ""
+
+msgid "Draw event on %s"
+msgstr ""
+
+msgid "<a href=\"%s\">%s</a> ticket"
+msgstr ""
+
+msgid "%s to win"
+msgstr ""
+
+msgid "Lines: <span>%s</span> &times; %s"
+msgstr ""
+
+msgid ""
+"For orders less than %1s you can pay with account balance only, however your "
+"balance is insufficient."
+msgstr "You can pay with account balance only for orders less than %1s."
+
+msgid "For orders less than %1s you can pay with account balance only."
+msgstr "You can pay with account balance only for orders less than %1s."
+
+msgid "Current password"
+msgstr ""
+
+msgid "New password"
+msgstr ""
+
+msgid "Repeat new password"
+msgstr ""
+
+msgid "Your password has been changed."
+msgstr ""
+
+msgid "Wrong current password! Please try again."
+msgstr ""
+
+msgid "National ID"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Wrong country! Please contact us to solve the issue!"
+msgstr ""
+
+msgid "Wrong region! Please contact us to solve the issue!"
+msgstr ""
+
+msgid "Wrong birth date!"
+msgstr ""
+
+msgid "Wrong timezone! Please contact us to solve the issue!"
+msgstr ""
+
+msgid "E-mail and Repeat e-mail are not equal!"
+msgstr ""
+
+msgid "Your data has been saved!"
+msgstr ""
+
+msgid "Your e-mail has been changed."
+msgstr ""
+
+msgid "Confirmation Password"
+msgstr ""
+
+msgid "Wrong Confirmation Password! Please try again."
+msgstr ""
+
+msgid ""
+"Your account have been successfully deleted and you have been successfully logged "
+"out!"
+msgstr ""
+
+msgid "Incorrect ticket."
+msgstr ""
+
+msgid "This lottery is no longer available."
+msgstr ""
+
+msgid ""
+"You cannot play with the same numbers because the lottery rules have changed."
+msgstr ""
+
+msgid "A ticket using the same numbers has been added to your order."
+msgstr ""
+
+msgid "Your free Quick Pick ticket has been used!"
+msgstr ""
+
+msgid "Confirmation date"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Payment amount"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Total Sum"
+msgstr ""
+
+msgid "pending"
+msgstr ""
+
+msgid "approved"
+msgstr ""
+
+msgid "failure"
+msgstr ""
+
+msgid "by lowest"
+msgstr ""
+
+msgid "by highest"
+msgstr ""
+
+msgid "by oldest"
+msgstr ""
+
+msgid "by newest"
+msgstr ""
+
+msgid "Incorrect transaction."
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "New withdrawal request has been made by user."
+msgstr ""
+
+msgid "User currency"
+msgstr ""
+
+msgid "New withdrawal request has been made by user"
+msgstr ""
+
+msgid "Withdrawal amount"
+msgstr ""
+
+msgid "Withdrawal method"
+msgstr ""
+
+msgid ""
+"We have received your withdrawal request. Please allow up to 24h for our "
+"acceptance."
+msgstr ""
+
+msgid "Incorrect withdrawal type."
+msgstr ""
+
+msgid "There are no supported withdrawal methods available."
+msgstr ""
+
+msgid "You have requested a withdrawal! Please allow up to 24h for our acceptance."
+msgstr ""
+
+msgid ""
+"You do not have enough balance to withdraw money from the account (minimum %s)!"
+msgstr ""
+
+msgid "Transaction %s"
+msgstr ""
+
+msgid "Please select another payment method."
+msgstr ""
+
+msgid "Card number"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "CVV code"
+msgstr ""
+
+msgid "This card looks expired, please check the expiration date."
+msgstr ""
+
+msgid "IPN Error: Bad request! Please contact us!"
+msgstr ""
+
+msgid "IPN Error: IPN Mode is not HMAC"
+msgstr ""
+
+msgid "IPN Error: No HMAC signature sent."
+msgstr ""
+
+msgid "IPN Error: Error reading POST data."
+msgstr ""
+
+msgid "IPN Error: No or incorrect Merchant ID passed."
+msgstr ""
+
+msgid "IPN Error: HMAC signature does not match"
+msgstr ""
+
+msgid "IPN Error: Original currency mismatch"
+msgstr ""
+
+msgid "IPN Error: Amount is less than order total!"
+msgstr ""
+
+msgid "Name on card"
+msgstr ""
+
+msgid "Save card details for future use"
+msgstr ""
+
+msgid "Choose saved card"
+msgstr ""
+
+msgid "%s ticket"
+msgstr ""
+
+msgid "Return to %s"
+msgstr ""
+
+msgid "E-mail address"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Remember me"
+msgstr ""
+
+msgid "Too many login attempts! Please try again later."
+msgstr ""
+
+msgid "Wrong credentials! Please try again."
+msgstr ""
+
+msgid "You have been successfully logged in!"
+msgstr ""
+
+msgid "Your account is not active. Please contact us to activate your account."
+msgstr ""
+
+msgid ""
+"Your account is not active. Please follow the activation link provided in the e-"
+"mail, <a href=\"%s\">try to resend</a> or contact us for manual activation."
+msgstr ""
+
+msgid ""
+"Incorrect lost password link. Please try again or contact us for manual password "
+"change."
+msgstr ""
+
+msgid ""
+"This password reset link has expired. Please start the password reset process <a "
+"href=\"%s\">once again</a>."
+msgstr ""
+
+msgid ""
+"We have encountered an error while trying to save data. Please try again or "
+"contact us."
+msgstr ""
+
+msgid "Your password has been changed. You have been successfully logged in!"
+msgstr ""
+
+msgid ""
+"We have received a password reset request for your account. To complete the "
+"process please follow the link: %1$s\n"
+"\n"
+"Please ignore this e-mail if you did not request a password reset."
+msgstr ""
+
+msgid ""
+"We have sent you an e-mail with password reset link. Please follow the link to "
+"complete the process."
+msgstr ""
+
+msgid ""
+"We've encountered problems while sending the e-mail. Please try again later or "
+"contact us to reset your password."
+msgstr ""
+
+msgid "Incorrect captcha! Please try again."
+msgstr ""
+
+msgid "We couldn't find your account. Please try another e-mail or contact us."
+msgstr ""
+
+msgid ""
+"You can send lost password link once per 24 hours. Please try again later or "
+"contact us."
+msgstr ""
+
+msgid "Repeat password"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Surname"
+msgstr ""
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a>and the <a href=\"%s\" "
+"target=\"_blank\">Policy</a>"
+msgstr ""
+
+msgid "Please choose currency for your account."
+msgstr ""
+
+msgid "Your e-mail domain is blocked. Please use another e-mail address."
+msgstr ""
+
+msgid "This e-mail is already registered."
+msgstr ""
+
+msgid ""
+"Your account is created, however we've encountered problems while sending the "
+"activation e-mail. Please <a href=\"%s\">try to resend</a> the activation e-mail "
+"or contact us for manual activation."
+msgstr ""
+
+msgid "Account IBAN number"
+msgstr ""
+
+msgid "SWIFT"
+msgstr ""
+
+msgid "Bank name"
+msgstr ""
+
+msgid "First Name (optional)"
+msgstr ""
+
+msgid "Last Name (optional)"
+msgstr ""
+
+msgid "Bitcoin Wallet Address"
+msgstr ""
+
+msgid "Neteller E-mail"
+msgstr ""
+
+msgid "PayPal E-mail"
+msgstr ""
+
+msgid "Skrill E-mail"
+msgstr ""
+
+msgid "and %d Powerball number"
+msgstr ""
+
+msgid "and %d Mega Ball number"
+msgstr ""
+
+msgid "and %d Euronumbers"
+msgstr ""
+
+msgid "and %d Lucky Stars numbers"
+msgstr ""
+
+msgid "and %d Reintegro number"
+msgstr ""
+
+msgid "Setting next_date_local is empty for lottery: "
+msgstr ""
+
+msgid "bn"
+msgstr ""
+
+msgid "m"
+msgstr ""
+
+msgid "Reintegro"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "<strong>Lottery Local Time:</strong>"
+msgstr ""
+
+msgid "next jackpot"
+msgstr ""
+
+msgid "Redirecting to the payment page..."
+msgstr ""
+
+msgid "Amount (%s)"
+msgstr ""
+
+msgid "<strong>Min. amount:</strong> %s"
+msgstr ""
+
+msgid "<strong>Max. amount:</strong> %s"
+msgstr ""
+
+msgid "Choose withdrawal type"
+msgstr ""
+
+msgid "Enter withdrawal amount"
+msgstr ""
+
+msgid "Your first name"
+msgstr ""
+
+msgid "Your last name"
+msgstr ""
+
+msgid "Your account IBAN number"
+msgstr ""
+
+msgid "Your bank SWIFT number"
+msgstr ""
+
+msgid "Your bank name"
+msgstr ""
+
+msgid "Your bitcoin wallet address"
+msgstr ""
+
+msgid "Your Neteller e-mail"
+msgstr ""
+
+msgid "Your name"
+msgstr ""
+
+msgid "Your surname"
+msgstr ""
+
+msgid "Paypal E-mail"
+msgstr ""
+
+msgid "Your PayPal e-mail"
+msgstr ""
+
+msgid "Your Skrill e-mail"
+msgstr ""
+
+msgid ""
+"We encountered a problem while adding the tickets to your order. Please contact "
+"us."
+msgstr ""
+
+msgid "The Quick Pick ticket has been added to your order."
+msgstr ""
+
+msgid "FAQ Category"
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "This category cannot be deleted."
+msgstr ""
+
+msgid "Lotto Platform: You cannot delete this page."
+msgstr ""
+
+msgid ""
+"Lotto Platform: Visual editor disabled. Please edit the HTML content outside "
+"Wordpress and paste it here."
+msgstr ""
+
+msgid "Lotto Platform: You cannot edit this page."
+msgstr ""
+
+msgid "Lottery doesn't exist"
+msgstr ""
+
+msgid "Lotto Next Draw"
+msgstr ""
+
+msgid ""
+"Displays lottery next draw info &bull; LIMIT: Results/Info/Play - Lottery Page"
+msgstr ""
+
+msgid "Lotto Featured"
+msgstr ""
+
+msgid "Displays featured lotteries as a slider &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Lotto List"
+msgstr ""
+
+msgid "Displays the list of lotteries &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Lotto News"
+msgstr ""
+
+msgid "Displays recent posts (news) &bull; LIMIT: none"
+msgstr ""
+
+msgid "Lotto Small Next Draw"
+msgstr ""
+
+msgid "Display small lottery next draw widget &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Lotto Small Lottery"
+msgstr ""
+
+msgid "Display small lottery widget &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Lotto Small Results"
+msgstr ""
+
+msgid "Display small results widget &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Lotto Small Slider"
+msgstr ""
+
+msgid "Display small slider widget &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Small Slider"
+msgstr ""
+
+msgid "Lotto Small Text"
+msgstr ""
+
+msgid "Display small text &bull; LIMIT: none"
+msgstr ""
+
+msgid "Lotto Small Winners"
+msgstr ""
+
+msgid "Display small last winners widget &bull; LIMIT: none"
+msgstr "Display user order info &bull; MUST USE: Order Page &bull; LIMIT: none"
+
+msgid "Small Winners"
+msgstr ""
+
+msgid "Lotto Ticket"
+msgstr ""
+
+msgid ""
+"Display lottery ticket (user can choose his numbers) &bull; LIMIT: Results/Info/"
+"Play - Lottery Page"
+msgstr ""
+
+msgid ""
+"We have sent you an e-mail with the activation link. Please activate your e-mail "
+"for better website experience. You can resend the activation e-mail <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Large with background"
+msgstr ""
+
+msgid "Disable for mobile"
+msgstr ""
+
+msgid "Line #1 text"
+msgstr ""
+
+msgid "Line #2 text"
+msgstr ""
+
+msgid "Language: "
+msgstr ""
+
+msgid "[hide]"
+msgstr ""
+
+msgid "[show]"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "by highest jackpot"
+msgstr ""
+
+msgid "by nearest draw"
+msgstr ""
+
+msgid "by custom order"
+msgstr ""
+
+msgid "Slide count"
+msgstr ""
+
+msgid "Custom name"
+msgstr ""
+
+msgid "Custom order"
+msgstr ""
+
+msgid "Carousel"
+msgstr ""
+
+msgid "Grid"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Countdown"
+msgstr ""
+
+msgid "Always"
+msgstr ""
+
+msgid "24 hours before"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Tall - 5 elements"
+msgstr ""
+
+msgid "Short - 3 elements"
+msgstr ""
+
+msgid "Title Container"
+msgstr ""
+
+msgid "H2"
+msgstr ""
+
+msgid "DIV"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "Number of posts to show:"
+msgstr ""
+
+msgid "Width (%)"
+msgstr ""
+
+msgid "The margins are calculated automatically."
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Hide on mobile"
+msgstr ""
+
+msgid "Please save before use."
+msgstr ""
+
+msgid ""
+"Please fill the fields in English and translate them using WPML String "
+"Translation <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid "H1"
+msgstr ""
+
+msgid "Amount<span></span>"
+msgstr ""
+
+msgid "by random"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Compact"
+msgstr ""
+
+msgid "Not found"
+msgstr ""
+
+msgid ""
+"Oops, the page you're looking for doesn't exist.<br>Go back to <a href=\"%s"
+"\">home page</a> or try your luck and <a href=\"%s\">play the lottery</a>."
+msgstr ""
+
+msgid "404 - Not Found"
+msgstr ""
+
+msgid "back to order"
+msgstr ""
+
+msgid "deposit"
+msgstr ""
+
+msgid "buy tickets"
+msgstr ""
+
+msgid "Don't have an account? "
+msgstr ""
+
+msgid "Sign up"
+msgstr ""
+
+msgid "Your e-mail address"
+msgstr ""
+
+msgid "Your password"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "Forgotten password"
+msgstr ""
+
+msgid "Remember your password? "
+msgstr ""
+
+msgid "Login here"
+msgstr ""
+
+msgid "Your new password"
+msgstr ""
+
+msgid "Repeat your new password"
+msgstr ""
+
+msgid "change"
+msgstr ""
+
+msgid "send"
+msgstr ""
+
+msgid "Play %s"
+msgstr ""
+
+msgid "%s Results"
+msgstr ""
+
+msgid "%s Information"
+msgstr ""
+
+msgid "%s News"
+msgstr ""
+
+msgid "Ticket %s"
+msgstr ""
+
+msgid "choose"
+msgstr ""
+
+msgid "next"
+msgstr ""
+
+msgid "previous"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "No payment methods saved!"
+msgstr ""
+
+msgid "Choose country"
+msgstr ""
+
+msgid "Choose time zone"
+msgstr ""
+
+msgid "Choose your country"
+msgstr ""
+
+msgid "Choose region"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address (optional additional information)"
+msgstr ""
+
+msgid "National id"
+msgstr ""
+
+msgid "Click here to cancel the e-mail change"
+msgstr ""
+
+msgid "Change e-mail"
+msgstr ""
+
+msgid "You will need to activate your new e-mail address."
+msgstr ""
+
+msgid ""
+"We will send you an optional activation e-mail. Please activate your e-mail for "
+"better user experience."
+msgstr ""
+
+msgid "Click here to cancel the password change"
+msgstr ""
+
+msgid "Old password"
+msgstr ""
+
+msgid "save changes"
+msgstr ""
+
+msgid "Download personal data"
+msgstr ""
+
+msgid "Delete account"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete your account? This operation cannot be undone."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Image %1 of %2"
+msgstr ""
+
+msgid "purchased"
+msgstr ""
+
+msgid "win"
+msgstr ""
+
+msgid "no winnings"
+msgstr ""
+
+msgid "Date processed"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Draw date"
+msgstr ""
+
+msgid "paid out"
+msgstr ""
+
+msgid "Pay out"
+msgstr ""
+
+msgid "Draw result"
+msgstr ""
+
+msgid "Ticket details"
+msgstr ""
+
+msgid "Lines: %s"
+msgstr ""
+
+msgid "Match"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "Net"
+msgstr ""
+
+msgid "-"
+msgstr ""
+
+msgid "return to ticket list"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Ticket ID and date"
+msgstr ""
+
+msgid "Lottery name"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "Valid to draw"
+msgstr ""
+
+msgid "quick pick"
+msgstr ""
+
+msgid "Play again"
+msgstr ""
+
+msgid "No tickets."
+msgstr ""
+
+msgid "Transaction details"
+msgstr ""
+
+msgid "return to the transaction list"
+msgstr ""
+
+msgid "Account balance"
+msgstr ""
+
+msgid "withdrawal"
+msgstr ""
+
+msgid "(confirmed)"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "No transactions."
+msgstr ""
+
+msgid "Withdrawal List"
+msgstr ""
+
+msgid "declined"
+msgstr ""
+
+msgid "canceled"
+msgstr ""
+
+msgid ""
+"Pay with account balance. The remaining balance will be %s after the payment is "
+"processed."
+msgstr ""
+
+msgid "Please enter your Entropay card details in the form below."
+msgstr ""
+
+msgid "Your credit card will be charged by %s."
+msgstr ""
+
+msgid "New card"
+msgstr ""
+
+msgid "The 3 or 4-digit CVV code is located on the back side of your payment card."
+msgstr ""
+
+msgid "Card number (spaces allowed)"
+msgstr ""
+
+msgid "What is this?"
+msgstr ""
+
+msgid "Pay using a credit card. Please note that you need to have 3DS enabled."
+msgstr ""
+
+msgid "Address "
+msgstr ""
+
+msgid "This payment method is not supported in your country."
+msgstr ""
+
+msgid ""
+"Argentina (Banco Frances, Banco Corrientes, Santander Rio, Pago Facil, Banco "
+"Macro and Banco Galicia), Brazil (Itau, Bradesco, Banco de Brasil, Caixa and "
+"Santander), Chile (Webpay), Mexico (Oxxo, BBVA Bancomer, Banamex, Banorte, "
+"Santander, Spei and Todito Cash), Peru (Pago Efectivo), Uruguay (Red Pagos), "
+"Paraguay (Pago Express)."
+msgstr ""
+
+msgid ""
+"Brazil: CPF/CNPJ, Argentina: DNI, Uruguay: CI, Mexico: CURP/RFC/IFE, Peru: DNI, "
+"Chile: RUT, Colombia: CC"
+msgstr ""
+
+msgid "Bank"
+msgstr ""
+
+msgid "Pay using a AstroPay Card."
+msgstr ""
+
+msgid "Pay using Credit Card"
+msgstr ""
+
+msgid "Available payment methods: %s."
+msgstr ""
+
+msgid "Available payment methods: %s"
+msgstr ""
+
+msgid "Credit Card, Paysafecard, Skrill 1Tap"
+msgstr ""
+
+msgid ""
+"Please be aware that wire transfers may take up to 2 working days to be processed."
+msgstr ""
+
+msgid "This can result in delay of processing the ticket."
+msgstr ""
+
+msgid "Pay using %s."
+msgstr ""
+
+msgid ""
+"You will be redirected to the standard credit card payment form. If you don't "
+"have an Entropay account, you can always register it <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid "This charge will appear on your statement as "
+msgstr ""
+
+msgid "local payment methods"
+msgstr ""
+
+msgid "try again"
+msgstr ""
+
+msgid "Already a member? "
+msgstr ""
+
+msgid "Repeat your password"
+msgstr ""
+
+msgid "Choose account currency"
+msgstr ""
+
+msgid ""
+"I accept the <a href=\"%s\" target=\"_blank\">Terms</a> and the <a href=\"%s\" "
+"target=\"_blank\">Policy</a>"
+msgstr ""
+
+msgid "sign up"
+msgstr ""
+
+msgid "show all"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Sign Up"
+msgstr ""
+
+msgid "Latest Result"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Guess Range"
+msgstr ""
+
+msgid "Tier"
+msgstr ""
+
+msgid "Match %s"
+msgstr ""
+
+msgid "X"
+msgstr ""
+
+msgid "Chance to win"
+msgstr ""
+
+msgid "Prize #%d"
+msgstr ""
+
+msgid "Free Quick Pick"
+msgstr ""
+
+msgid "%s shared"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Estimated"
+msgstr ""
+
+msgid "1 in %s"
+msgstr ""
+
+msgid "Overall chances of winning any prize"
+msgstr ""
+
+msgid "from A to Z"
+msgstr ""
+
+msgid "from Z to A"
+msgstr ""
+
+msgid "Draw"
+msgstr ""
+
+msgid "Winning Odds"
+msgstr ""
+
+msgid "Estimated Jackpot"
+msgstr ""
+
+msgid "Next Draw"
+msgstr ""
+
+msgid "play"
+msgstr ""
+
+msgid "No lotteries."
+msgstr ""
+
+msgid "Choose payment method"
+msgstr ""
+
+msgid "Pay <span class=\"%s\">%s</span>"
+msgstr ""
+
+msgid "Estimated jackpot"
+msgstr ""
+
+msgid "Winners"
+msgstr ""
+
+msgid "Payout per winner"
+msgstr ""
+
+msgid "Total Winners"
+msgstr ""
+
+msgid "Total Prize"
+msgstr ""
+
+msgid "Last Draw"
+msgstr ""
+
+msgid "Payout"
+msgstr ""
+
+msgid "Results"
+msgstr ""
+
+msgid "Rollover"
+msgstr ""
+
+msgid "Total payout"
+msgstr ""
+
+msgid "change language"
+msgstr ""
+
+msgid "Wrong line"
+msgstr ""
+
+msgid "Too few lines"
+msgstr ""
+
+msgid "Incorrect order"
+msgstr ""
+
+msgid "Minimum bets"
+msgstr ""
+
+msgid "Welcome bonus"
+msgstr ""
+
+msgid ""
+"At least one of your lines is not properly filled in. Do you want to proceed "
+"without incorrect lines?"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid ""
+"You have chosen too few lines. The minimal amount for this lottery is %1s lines! "
+"Do you want to quick pick the lines for you?"
+msgstr ""
+
+msgid ""
+"You have chosen a wrong amount of lines. The chosen lines count should be a "
+"multiple of %1s. Do you want to quick pick the rest of the lines for you?"
+msgstr ""
+
+msgid "You need to choose at least %1d lines for every %2d-lines ticket!"
+msgstr ""
+
+msgid "draw in %s"
+msgstr ""
+
+msgid "%d Quick-Pick lines"
+msgstr ""
+
+msgid "only %s"
+msgstr ""
+
+msgid "or pick the numbers manually"
+msgstr ""
+
+msgid "Latest news"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Front Page"
+msgstr ""
+
+msgid "Front Page widget area."
+msgstr ""
+
+msgid "Play - List Page - Top"
+msgstr ""
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area will "
+"display before \"more\" content."
+msgstr ""
+
+msgid "Play - List Page - Bottom"
+msgstr ""
+
+msgid ""
+"Play Lottery Page (with lottery list) widget area. Widgets from this area will "
+"display after \"more\" content."
+msgstr ""
+
+msgid "Play - Lottery Page - Top"
+msgstr ""
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area will "
+"display before content."
+msgstr ""
+
+msgid "Play - Lottery Page - Bottom"
+msgstr ""
+
+msgid ""
+"Play Lottery Page (with ticket purchase) widget area. Widgets from this area will "
+"display after content."
+msgstr ""
+
+msgid "Results - List Page - Top"
+msgstr ""
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"before \"more\" content."
+msgstr ""
+
+msgid "Results - List Page - Bottom"
+msgstr ""
+
+msgid ""
+"Lottery Results - List Page widget area. Widgets from this area will display "
+"after \"more\" content."
+msgstr ""
+
+msgid "Results - Lottery Page - Top"
+msgstr ""
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area will "
+"display before \"more\" content."
+msgstr ""
+
+msgid "Results - Lottery Page - Bottom"
+msgstr ""
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area will "
+"display after \"more\" content."
+msgstr ""
+
+msgid "Results - Lottery Page - Content"
+msgstr ""
+
+msgid ""
+"Lottery Results - Specific Lottery Page widget area. Widgets from this area will "
+"display next to content."
+msgstr ""
+
+msgid "Info - List Page - Top"
+msgstr ""
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display before "
+"\"more\" content."
+msgstr ""
+
+msgid "Info - List Page - Bottom"
+msgstr ""
+
+msgid ""
+"Lottery Info - List Page widget area. Widgets from this area will display after "
+"\"more\" content."
+msgstr ""
+
+msgid "Info - Lottery Page - Top"
+msgstr ""
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area will "
+"display before \"more\" content."
+msgstr ""
+
+msgid "Info - Lottery Page - Bottom"
+msgstr ""
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area will "
+"display after \"more\" content."
+msgstr ""
+
+msgid "Info - Lottery Page - Content"
+msgstr ""
+
+msgid ""
+"Lottery Info - Specific Lottery Page widget area. Widgets from this area will "
+"display next to content."
+msgstr ""
+
+msgid "News - Default Page - Content"
+msgstr ""
+
+msgid ""
+"Lottery News - Default Page widget area. Widgets from this area will display next "
+"to content."
+msgstr ""
+
+msgid "News - Lottery Page - Content"
+msgstr ""
+
+msgid ""
+"Lottery News - Specific Lottery Page widget area. Widgets from this area will "
+"display next to content related to the lottery."
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "My account"
+msgstr ""
+
+msgid "log out"
+msgstr ""
+
+msgid "Theme Options"
+msgstr ""
+
+msgid "Change your theme options."
+msgstr ""
+
+msgid "Choose header color scheme"
+msgstr ""
+
+msgid "Choose font"
+msgstr ""
+
+msgid "Deposit button place"
+msgstr ""
+
+msgid "Remove H1 from the logotype."
+msgstr ""
+
+msgid "Choose single page header image"
+msgstr ""
+
+msgid "%s: Lotto Featured #%d"
+msgstr ""
+
+msgid "Change your lotto featured widget style."
+msgstr ""
+
+msgid "Choose large background image"
+msgstr ""
+
+msgid "Choose mobile background image for \"large background\" option"
+msgstr ""
+
+msgid "Choose background image"
+msgstr ""
+
+msgid "Choose mobile background image"
+msgstr ""
+
+msgid "Social Links"
+msgstr ""
+
+msgid "Add your social links."
+msgstr ""
+
+msgid "Facebook URL (%s)"
+msgstr ""
+
+msgid "Twitter URL (%s)"
+msgstr ""
+
+msgid "Social Share Links"
+msgstr ""
+
+msgid "Add social share links to articles."
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "checkout"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Sum"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "Share with: "
+msgstr ""
+
+msgid "USA"
+msgstr ""
+
+msgid "Europe"
+msgstr ""
+
+msgid "Italy"
+msgstr ""
+
+msgid "UK"
+msgstr ""
+
+msgid "Poland"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Powerball"
+msgstr ""
+
+msgid "Mega Millions"
+msgstr ""
+
+msgid "Eurojackpot"
+msgstr ""
+
+msgid "SuperEnalotto"
+msgstr ""
+
+msgid "UK Lottery"
+msgstr ""
+
+msgid "EuroMillions"
+msgstr ""
+
+msgid "Polish Lotto"
+msgstr ""
+
+msgid "La Primitiva"
+msgstr ""
+
+msgid "BonoLoto"
+msgstr ""
+
+msgid "Lotto 6aus49"
+msgstr ""
+
+msgid "Mega-Sena"
+msgstr ""
+
+msgid "El Gordo"
+msgstr ""
+
+msgid "Loteria de Navidad"
+msgstr ""
+
+msgid "Loteria del Nino"
+msgstr ""
+
+msgid "Lotto America"
+msgstr ""
+
+msgid "GlucksSpirale"
+msgstr ""
+
+msgid "Thunderball"
+msgstr ""
+
+msgid "Lotto IE"
+msgstr ""
+
+msgid "French Lotto"
+msgstr ""
+
+msgid "Lotto AT"
+msgstr ""
+
+msgid "Lotto 6/49"
+msgstr ""
+
+msgid "Oz Lotto"
+msgstr ""
+
+msgid "Powerball AU"
+msgstr ""
+
+msgid "Saturday Lotto"
+msgstr ""
+
+msgid "Mon & Wed Lotto"
+msgstr ""
+
+msgid "Bank account"
+msgstr ""
+
+msgid "Skrill"
+msgstr ""
+
+msgid "Neteller"
+msgstr ""
+
+msgid "BTC"
+msgstr ""
+
+msgid "Debit card"
+msgstr ""
+
+msgid "edit profile"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "show win"
+msgstr ""
+
+msgid "show no winnings"
+msgstr ""
+
+msgid "show pending"
+msgstr ""
+
+msgid "show approved"
+msgstr ""
+
+msgid "show failure"
+msgstr ""
+
+msgid "Thank you for choosing us! You have been logged in."
+msgstr ""
+
+msgid "Your account is now fully active."
+msgstr ""
+
+msgid ""
+"To fully activate your account and get access to all functionalities, please "
+"confirm your e-mail address by following the confirmation link we have sent you "
+"to your e-mail."
+msgstr ""
+
+msgid ""
+"To activate your account please confirm your e-mail address by following the "
+"confirmation link we have sent you to your e-mail."
+msgstr ""
+
+msgid "Different amount"
+msgstr ""
+
+msgid "The payment couldn't be processed. Please try again or contact us."
+msgstr ""
+
+msgid ""
+"Your credit card may be blocked because of the unsupported region. We suggest you "
+"to register an <a href=\"%s\">Entropay</a> account."
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Add Quick Pick ticket:"
+msgstr ""
+
+msgid "Some of the tickets have been moved to the next draw!"
+msgstr ""
+
+msgid ""
+"You don't have any tickets. <a href=\"%s\">Play now</a> to add tickets to your "
+"order."
+msgstr ""
+
+msgid "add more tickets"
+msgstr ""
+
+msgid "pay now"
+msgstr ""
+
+msgid "Thank you! Your payment has been successfully processed."
+msgstr ""
+
+msgid ""
+"Depending on the payment method, the payment's registration may take up to 60 "
+"minutes."
+msgstr ""
+
+msgid "&laquo; back to the news list"
+msgstr ""
+
+msgid "choose category"
+msgstr ""
+
+msgid "This FAQ category is empty!"
+msgstr ""
+
+msgid "Next estimated jackpot"
+msgstr ""
+
+msgid "Next draw in"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgctxt "featured"
+msgid "hrs"
+msgstr "hrs"
+
+msgctxt "featured"
+msgid "min"
+msgstr "min"
+
+msgctxt "featured"
+msgid "sec"
+msgstr "sec"
+
+msgid "Buy tickets"
+msgstr ""
+
+msgid "Get a Ticket"
+msgstr ""
+
+msgid "No active lotteries."
+msgstr ""
+
+msgctxt "inline"
+msgid "hrs"
+msgstr "hrs"
+
+msgctxt "inline"
+msgid "min"
+msgstr "min"
+
+msgctxt "inline"
+msgid "sec"
+msgstr "sec"
+
+msgid "see more"
+msgstr ""
+
+msgid "No latest news."
+msgstr ""
+
+msgid "This lottery is inactive."
+msgstr ""
+
+msgid "Latest results"
+msgstr ""
+
+msgid "No latest results."
+msgstr ""
+
+msgid "How to play and win?"
+msgstr ""
+
+msgid "learn more"
+msgstr ""
+
+msgid "No slides."
+msgstr ""
+
+msgid "Latest winners"
+msgstr ""
+
+msgid "%s from %s won"
+msgstr ""
+
+msgid "No winners."
+msgstr ""
+
+msgid "Quick Pick All"
+msgstr ""
+
+msgid "Clear All"
+msgstr ""
+
+msgid "You cannot add more tickets to your order!"
+msgstr ""
+
+msgid "You can order a multiple of %s lines only."
+msgstr ""
+
+msgid "Minimum lines for this lottery is %s."
+msgstr ""
+
+msgid ""
+"It's too late to buy a ticket for the nearest draw. Your order will be moved to "
+"the next draw!"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Pick %d numbers"
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "confirm"
+msgstr ""
+
+msgid "+ Add new line"
+msgstr ""
+
+msgid "+ Edit line"
+msgstr ""
+
+msgid "Fewer Lines -"
+msgstr ""
+
+msgid "More Lines +"
+msgstr ""
+
+msgid "continue"
+msgstr ""
+
+msgid "required"
+msgstr "The field :label is required."
+
+msgid "min_length"
+msgstr "The field :label has to contain at least :param:1 characters."
+
+msgid "max_length"
+msgstr "The field :label may not contain more than :param:1 characters."
+
+msgid "exact_length"
+msgstr "The field :label must contain exactly :param:1 characters."
+
+msgid "match_value"
+msgstr "The field :label must contain the value :param:1."
+
+msgid "match_pattern"
+msgstr "The field :label contains invalid characters."
+
+msgid "match_field"
+msgstr "The field :label must match the field :param:1."
+
+msgid "valid_email"
+msgstr "The field :label must contain a valid email address."
+
+msgid "valid_emails"
+msgstr "The field :label must contain a list of valid email addresses."
+
+msgid "valid_url"
+msgstr "The field :label must contain a valid URL."
+
+msgid "valid_ip"
+msgstr "The field :label must contain a valid IP address."
+
+msgid "numeric_min"
+msgstr "The minimum numeric value of :label must be :param:1"
+
+msgid "numeric_max"
+msgstr "The maximum numeric value of :label must be :param:1"
+
+msgid "numeric_between"
+msgstr "The field :label must contain a numeric value between :param:1 and :param:2"
+
+msgid "valid_string"
+msgstr "The field :label contains invalid characters."
+
+msgid "required_with"
+msgstr "The field :label must contain a value if :param:1 contains a value."
+
+msgid "valid_date"
+msgstr "The field :label must contain a valid formatted date."
+
+msgid "Validator_Wordpress_Currency:is_currency_ok"
+msgstr "The field :label has wrong format of the value."
+
+msgid "Validator_Wordpress_Currency:check_min_formatted"
+msgstr "Value :value in :label should be equal or greater than :param:1."
+
+msgid "Validator_Wordpress_Currency:check_max_formatted"
+msgstr "Value :value in :label should be equal or lesser than :param:1."
+
+msgid "Validator_Wordpress_Withdrawal_Type:check_min_value"
+msgstr "The field :label contains invalid type."
+
+msgid "Bonus balance"
+msgstr "Lottery Points"
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> of the deposit amount will be added to your Lottery Points after the transaction is completed."
+
+msgid "You used <b>%s</b> promo code. <b>%s</b> will be added to your bonus balance after the transaction is completed."
+msgstr "You used <b>%s</b> promo code. <b>%s</b> will be added to your Lottery Points after the transaction is completed."
+
+msgid "Pay with bonus balance. The remaining bonus will be %s after the payment is processed."
+msgstr "Pay with Lottery Points. The remaining Lottery Point will be %s after the payment is processed."
+
+msgid "Pay with bonus balance <span>(%s)</span>"
+msgstr "Pay with Lottery Points <span>(%s)</span>"
+
+msgid "bonus: %s"
+msgstr "Lottery Points: %s"
+
+msgid "Paid with bonus balance."
+msgstr "Paid with Lottery Points."
+
+msgid "Tickets will be paid with your bonus balance."
+msgstr "Tickets will be paid with your Lottery Points."
+
+msgid "Your bonus balance is too low to proceed."
+msgstr "Your Lottery Points balance is too low to proceed."

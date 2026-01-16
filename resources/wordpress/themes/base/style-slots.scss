@@ -1,0 +1,238 @@
+.casino-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eaeaea;
+
+  h1 {
+    font-size: 48px;
+  }
+}
+
+.slot-games-container {
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  justify-content: space-between;
+  grid-gap: 0 10px;
+  margin-top: -10px;
+  .slot-game {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    &:hover {
+      .slot-game-buttons {
+        display: block;
+      }
+      .slot-game-image {
+        filter: brightness(20%);
+        transition: all 0.2s;
+      }
+    }
+    .slot-game-image {
+      position: relative;
+      aspect-ratio: 287 / 193;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+    .slot-game-buttons {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      a.btn.btn-primary {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 120px;
+        display: block;
+      }
+    }
+    &:hover a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  .fetching-error {
+    font-size: 22px;
+    grid-column-end: span 4;
+  }
+}
+
+.slot-games-container.slots-slider {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  .slot-game {
+    margin: 10px;
+  }
+}
+
+.loading-container {
+  text-align: center;
+  margin: 0 auto;
+  grid-column-end: span 4;
+}
+
+.play-demo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+
+.play-demo {
+  font-weight: 300;
+}
+
+p {
+  &.casino-error {
+    font-size: 1.6em;
+  }
+}
+
+#show-more {
+  margin: 20px auto;
+  display: block;
+}
+
+.go-to-casino {
+  width: fit-content;
+  margin: 0;
+  display: block;
+  width: max-content;
+  &.right {
+    margin: 10px auto;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.slot-filters {
+  display: flex;
+  justify-content: flex-end;
+  .slots-input {
+    margin-right: 10px !important;
+    &:last-child {
+      margin-right: unset !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .slot-filters {
+    .slots-search {
+      max-width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .casino-top-container {
+    flex-direction: column;
+  }
+  .slot-games-container {
+    grid-template-columns: repeat(2, 48%);
+  }
+  .slot-filters {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.casino-container {
+  .casinoPlayNavigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .currentMode {
+      font-size: 22px;
+    }
+
+    .casinoButtonsContainer {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px 0;
+      .btn {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .casino-container.content-box {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .slot-games-container {
+    grid-template-columns: repeat(3, 31%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body.casino {
+    .login-signup-buttons-main-div-mobile {
+      padding-bottom: 20px;
+    }
+    .deposit-button-div-mobile {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slot-games-container {
+    grid-template-columns: repeat(1, 100%);
+  }
+  body.casino {
+    .login-signup-buttons-main-div-mobile.casino {
+      padding-bottom: 10px;
+      .login-signup-buttons-front-page-small {
+        margin-bottom: 0;
+      }
+    }
+    .deposit-button-div-mobile {
+      margin: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .casino-container {
+    .casinoPlayNavigationContainer {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .casino-container {
+    .casinoPlayNavigationContainer {
+      .casinoButtonsContainer {
+        flex-direction: column;
+        width: 100%;
+        .btn {
+          margin: 6px 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

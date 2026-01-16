@@ -1,0 +1,130 @@
+header {
+  .lang-select {
+    float: left;
+  }
+}
+
+nav {
+  .lang-select {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+nav {
+  .lang-select {
+    @media screen and (min-width: 600px) {
+      & {
+        display: none !important;
+      }
+    }
+  }
+}
+
+header,
+nav {
+  .lang-select {
+    height: 52px;
+    position: relative;
+    margin-top: 6px;
+    font-size: 1.4em;
+    box-sizing: border-box;
+
+    .menu-trigger {
+      padding-top: 13px;
+      padding-right: 16px;
+      padding-bottom: 13px;
+      padding-left: 16px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .actual-lang {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #424242;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .sprite-lang {
+      margin-right: 14px;
+    }
+    .lang-select-text {
+      margin-right: 32px;
+    }
+    .fa {
+      font-size: 10px;
+    }
+    .menu-wrapper {
+      ul {
+        min-width: 160px;
+      }
+      li {
+        border-bottom: 0;
+        a {
+          line-height: 40px;
+          padding: 0 9px;
+          color: #424242;
+        }
+      }
+      &.language-large {
+        $width: 475px;
+        left: -150px;
+        width: $width;
+        ul {
+          width: $width;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        li {
+          width: 33.33333%;
+        }
+      }
+    }
+
+    @media screen and (max-width: 599.98px) {
+      & {
+        .menu-trigger,
+        .menu-wrapper {
+          display: none !important;
+        }
+      }
+    }
+    @media screen and (max-width: 1139.98px) {
+      & {
+        .menu-wrapper {
+          &.language-large {
+            left: -300px;
+          }
+        }
+        .lang-select-text {
+          display: none !important;
+        }
+      }
+    }
+  }
+  .mobile-language {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    @media screen and (min-width: 600px) {
+      & {
+        display: none !important;
+      }
+    }
+  }
+}
+
+// header-dark fix
+.header-dark .lang-select .menu-wrapper li a {
+  color: #424242;
+}
+
+.rtl footer div.lang-select a > span {
+  margin-left: 0;
+  margin-right: 38px;
+}

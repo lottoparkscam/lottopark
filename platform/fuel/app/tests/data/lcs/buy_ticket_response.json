@@ -1,0 +1,19 @@
+[
+    {
+        "status": 0,
+        "is_paid_out": false,
+        "lines_count": 2,
+        "amount_sale_point": 20,
+        "currency_code_sale_point": "USD",
+        "currency_code": "USD",
+        "draw_date": null,
+        "token": "cc5e3d49-9ada-31d3-bab7-6dcf4affa47c",
+        "amount": 20,
+        "ip": "236.129.98.170",
+        "additional_data": [],
+        "uuid": "91870856-0598-48e4-9c82-f42b2e17a197",
+        "ip_country_code": null,
+        "updated_at": "2020-09-14 13:51:04",
+        "created_at": "2020-09-14 13:51:04"
+    }
+]

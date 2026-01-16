@@ -1,0 +1,44 @@
+// PAGE - RAFFLE
+
+.page-custom-raffle {
+  .widget-list-grid {
+    ul {
+      margin-right: -15px;
+      margin-left: -15px;
+
+      @include screen_max_w_1220 {
+        margin-right: -5px;
+        margin-left: -5px;
+      }
+
+      @include screen_max_w_800 {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+    .widget-list-ticket {
+      width: 100%;
+      max-width: 500px;
+      margin: 15px !important;
+
+      @include screen_max_w_1220 {
+        margin: 5px !important;
+      }
+
+      @include screen_max_w_800 {
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+        margin-left: 0 !important;
+      }
+
+      &:nth-of-type(2n + 1) {
+        margin-left: 0;
+      }
+
+      &:nth-of-type(2n) {
+        margin-right: 0;
+      }
+    }
+  }
+}

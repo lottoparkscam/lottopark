@@ -1,0 +1,258 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: ${DOCKER_PREFIX}mysql
+    build:
+      context: ./docker/whitelotto-mysql
+      args:
+        ARCH: ${ARCH}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=mysql"
+    volumes:
+      - db_log:${LOG_FOLDER}/mysql
+      - db_data:/var/lib/mysql
+      - mysqld_scripts:/docker-entrypoint-initdb.d
+      - "mysqldsocket:/run/mysqld"
+    ports:
+      - "${MYSQL_PORT}:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_WORDPRESS_DB: ${MYSQL_WORDPRESS_DB}
+      MYSQL_WORDPRESS_USER: ${MYSQL_WORDPRESS_USER}
+      MYSQL_WORDPRESS_PASSWORD: ${MYSQL_WORDPRESS_PASSWORD}
+      MYSQL_PLATFORM_DB: ${MYSQL_PLATFORM_DB}
+      MYSQL_PLATFORM_USER: ${MYSQL_PLATFORM_USER}
+      MYSQL_PLATFORM_PASSWORD: ${MYSQL_PLATFORM_PASSWORD}
+      MYSQL_SESSIONS_DB: ${MYSQL_SESSIONS_DB}
+      MYSQL_SESSIONS_USER: ${MYSQL_SESSIONS_USER}
+      MYSQL_SESSIONS_PASSWORD: ${MYSQL_SESSIONS_PASSWORD}
+      MYSQL_PHPMYADMIN_PASSWORD: ${MYSQL_PHPMYADMIN_PASSWORD}
+    security_opt:
+      - seccomp:unconfined
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+        reservations:
+          memory: 768m
+
+  nginx:
+    container_name: ${DOCKER_PREFIX}nginx
+    build:
+      context: ./docker/whitelotto-nginx
+      args:
+        ARCH: ${ARCH}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=nginx"
+    restart: always
+    environment:
+      MAIN_DOMAIN: ${MAIN_DOMAIN}
+      WHITELABEL_DOMAINS: ${WHITELABEL_DOMAINS}
+    env_file:
+      - .env
+    ports:
+      - "${NGINX_PORT}:443"
+    volumes:
+      - nginx_log:${LOG_FOLDER}/nginx
+      - "page_cache:/var/cache/nginx"
+      - type: bind
+        source: ${SSL_SOURCE}
+        target: ${SSL_PATH}
+    deploy:
+      resources:
+        limits:
+          memory: 128m
+        reservations:
+          memory: 64m
+
+  httpd:
+    container_name: ${DOCKER_PREFIX}httpd
+    build:
+      context: ./docker/whitelotto-httpd
+      args:
+        ARCH: ${ARCH}
+        PHP_VERSION: ${PHP_VERSION}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=httpd"
+    restart: always
+    environment:
+      MAIN_DOMAIN: ${MAIN_DOMAIN}
+      WHITELABEL_DOMAINS: ${WHITELABEL_DOMAINS}
+    env_file:
+      - .env
+    depends_on:
+      - php
+      - nginx
+    expose:
+      - "8443"
+    volumes:
+      - ${WWW_DATA_VOLUME_NAME}:${PROJECT_FOLDER}
+      - httpd_log:${LOG_FOLDER}/apache2
+      - "phpsocket:/run/php"
+      - type: bind
+        source: ${SSL_SOURCE}
+        target: ${SSL_PATH}
+    deploy:
+      resources:
+        limits:
+          memory: 128m
+        reservations:
+          memory: 64m
+
+  php:
+    container_name: ${DOCKER_PREFIX}php
+    build:
+      context: ./docker/whitelotto-php
+      args:
+        ARCH: ${ARCH}
+        PROJECT_FOLDER: ${PROJECT_FOLDER}
+        UBUNTU_VERSION: ${UBUNTU_VERSION}
+        NODE_VERSION: ${NODE_VERSION}
+        NPM_VERSION: ${NPM_VERSION}
+        PHP_VERSION: ${PHP_VERSION}
+        MAILHOG_SENDMAIL_VERSION: ${MAILHOG_SENDMAIL_VERSION}
+        XDEBUG_MODE: ${XDEBUG_MODE}
+        XDEBUG_DISCOVER_CLIENT_HOST: ${XDEBUG_DISCOVER_CLIENT_HOST}
+        XDEBUG_CLIENT_HOST: ${XDEBUG_CLIENT_HOST}
+        XDEBUG_CLIENT_PORT: ${XDEBUG_CLIENT_PORT}
+        MAIN_DOMAIN: ${MAIN_DOMAIN}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=php-ubuntu${UBUNTU_VERSION}-php${PHP_VERSION}-node${NODE_VERSION}"
+    depends_on:
+      - db
+      - mailhog
+      - redis
+      - nginx
+    restart: always
+    environment:
+      MAIN_DOMAIN: ${MAIN_DOMAIN}
+      WHITELABEL_DOMAINS: ${WHITELABEL_DOMAINS}
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+      REDISCLI_AUTH: ${REDIS_PASSWORD}
+      REDIS_HOST: ${REDIS_HOST}
+    expose:
+      - "9000"
+    volumes:
+      - ${WWW_DATA_VOLUME_NAME}:${PROJECT_FOLDER}
+      - php_log:${LOG_FOLDER}/php
+      - whitelotto_log:${LOG_FOLDER}/whitelotto
+      - "phpsocket:/run/php"
+      - "mysqldsocket:/run/mysqld"
+      - "page_cache:/var/cache/nginx"
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "curl", "-f", "${CURL_FLAG}", "https://${WHITELABEL_DOMAINS}:443"]
+    deploy:
+      resources:
+        limits:
+          memory: 5g
+        reservations:
+          memory: 4608m
+
+  chrome:
+    container_name: ${DOCKER_PREFIX}chrome
+    build:
+      context: ./docker/whitelotto-chrome
+      args:
+        ARCH: ${ARCH}
+        PROJECT_FOLDER: ${PROJECT_FOLDER}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=chrome"
+    environment:
+      MAIN_DOMAIN: ${MAIN_DOMAIN}
+      WHITELABEL_DOMAINS: ${WHITELABEL_DOMAINS}
+      SCREEN_WIDTH: 1920
+      SCREEN_HEIGHT: 1080
+      SE_NODE_SESSION_TIMEOUT: 1500
+    healthcheck:
+      test: ["CMD", "/opt/bin/check-grid.sh", "--host", "0.0.0.0", "--port", "4444"]
+      interval: 15s
+      timeout: 30s
+      retries: 5
+      start_period: 40s
+    shm_size: 2gb
+    expose:
+      - "4444"
+    ports:
+      - "${SELENIUM_PREVIEW_PORT}:7900"
+    depends_on:
+      - php
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+        reservations:
+          memory: 1536m
+
+  redis:
+    container_name: ${DOCKER_PREFIX}redis
+    build:
+      context: ./docker/whitelotto-redis
+      args:
+        ARCH: ${ARCH}
+        REDIS_PASSWORD: ${REDIS_PASSWORD}
+      labels:
+        - "environment=${DOCKER_PREFIX}"
+        - "service=redis"
+    environment:
+      REDISCLI_AUTH: ${REDIS_PASSWORD}
+    expose:
+      - "6379"
+    restart: always
+    volumes:
+      - redis_log:/var/log/redis
+      - redis_lib:/var/lib/redis
+    healthcheck:
+      test: [ "CMD-SHELL", "redis-cli ping | grep PONG" ]
+      interval: 1s
+      timeout: 60s
+      retries: 60
+    deploy:
+      resources:
+        limits:
+          memory: 256m
+        reservations:
+          memory: 128m
+
+  mailhog:
+    container_name: ${DOCKER_PREFIX}mailhog
+    image: mailhog/mailhog
+    labels:
+      - "environment=${DOCKER_PREFIX}"
+      - "service=mailhog"
+    ports:
+      - "${MAILHOG_PORT}:8025" # web ui
+    expose:
+      - "1025" # smtp server
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 128m
+        reservations:
+          memory: 64m
+
+volumes:
+  db_data: {}
+  www_data: {}
+  db_log: {}
+  httpd_log: {}
+  nginx_log: {}
+  php_log: {}
+  whitelotto_log: {}
+  wp_content: {}
+  phpsocket:
+  mysqldsocket:
+  mysqld_scripts:
+  redis_log: {}
+  redis_lib: {}
+  page_cache:

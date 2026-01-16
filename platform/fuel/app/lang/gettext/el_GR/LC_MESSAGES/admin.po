@@ -1,0 +1,4528 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-10-09 22:55+0700\n"
+"PO-Revision-Date: 2017-10-09 22:56+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: classes/controller/admin.php\n"
+"X-Poedit-SearchPath-1: classes/controller/aff.php\n"
+"X-Poedit-SearchPath-2: classes/controller/api.php\n"
+"X-Poedit-SearchPath-3: classes/controller/dev.php\n"
+"X-Poedit-SearchPath-4: classes/controller/index.php\n"
+"X-Poedit-SearchPath-5: classes/controller/task.php\n"
+"X-Poedit-SearchPath-6: classes/controller/whitelabel.php\n"
+"X-Poedit-SearchPath-7: views/admin\n"
+"X-Poedit-SearchPath-8: views/aff\n"
+"X-Poedit-SearchPath-9: views/index\n"
+"X-Poedit-SearchPath-10: views/whitelabel\n"
+"X-Poedit-SearchPath-11: lang/translation.php\n"
+
+#: classes/controller/admin.php:70 classes/controller/aff.php:135
+#: classes/controller/aff.php:437 classes/controller/whitelabel.php:100
+#: classes/controller/whitelabel.php:525 classes/controller/whitelabel.php:1525
+#: classes/controller/whitelabel.php:1949 views/admin/signin/index.php:13
+#: views/admin/signin/index.php:14 views/aff/settings/edit.php:20
+#: views/aff/settings/profile.php:14 views/aff/signin/index.php:13
+#: views/aff/signin/index.php:14 views/whitelabel/affs/edit.php:44
+#: views/whitelabel/affs/index.php:48 views/whitelabel/affs/index.php:72
+#: views/whitelabel/affs/new.php:29 views/whitelabel/affs/view.php:30
+#: views/whitelabel/signin/index.php:13 views/whitelabel/signin/index.php:14
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: classes/controller/admin.php:72 classes/controller/admin.php:184
+#: classes/controller/admin.php:252 classes/controller/aff.php:137
+#: classes/controller/whitelabel.php:102 classes/controller/whitelabel.php:529
+#: views/admin/signin/index.php:17 views/admin/signin/index.php:18
+#: views/admin/whitelabels/add.php:34 views/admin/whitelabels/edit.php:34
+#: views/aff/settings/profile.php:45 views/aff/signin/index.php:17
+#: views/aff/signin/index.php:18 views/whitelabel/affs/new.php:37
+#: views/whitelabel/affs/view.php:53 views/whitelabel/settings/account.php:18
+#: views/whitelabel/signin/index.php:17 views/whitelabel/signin/index.php:18
+#: views/whitelabel/users/view.php:40
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: classes/controller/admin.php:74 classes/controller/aff.php:139
+#: classes/controller/whitelabel.php:104 views/admin/signin/index.php:21
+#: views/aff/signin/index.php:21 views/whitelabel/signin/index.php:21
+msgid "Remember me"
+msgstr "Θυμήσου με"
+
+#: classes/controller/admin.php:90 classes/controller/admin.php:94
+#: classes/controller/aff.php:156 classes/controller/aff.php:160
+#: classes/controller/whitelabel.php:120 classes/controller/whitelabel.php:124
+msgid "Wrong credentials! Please try again."
+msgstr "Λάθος πιστοποιητικά! Παρακαλούμε δοκιμάστε ξανά."
+
+#: classes/controller/admin.php:99 classes/controller/aff.php:165
+#: classes/controller/whitelabel.php:129
+msgid "Too many login attempts! Please try again later."
+msgstr "Πολλές προεπάθειες σύνδεσης! Παρακαλούμε δοκιμάστε ξανά αργότερα."
+
+#: classes/controller/admin.php:104 classes/controller/aff.php:170
+#: classes/controller/whitelabel.php:134
+msgid "Wrong captcha."
+msgstr "Λάθος captcha."
+
+#: classes/controller/admin.php:108 classes/controller/aff.php:174
+#: classes/controller/whitelabel.php:138 classes/controller/whitelabel.php:2142
+#: classes/controller/whitelabel.php:4643
+msgid "Security error! Please try again."
+msgstr "Λάθος ασφάλειας! Παρακαλούμε δοκιμάστε ξανά."
+
+#: classes/controller/admin.php:124 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/menu.php:2
+msgid "Lottery List"
+msgstr "Λίστα Λαχείου"
+
+#: classes/controller/admin.php:125 views/admin/lotteries/delays.php:10
+#: views/admin/lotteries/menu.php:3
+msgid "Postponed Draws"
+msgstr "Κληρώσεις που Αναβλήθηκαν"
+
+#: classes/controller/admin.php:126 views/admin/lotteries/logs.php:7
+#: views/admin/lotteries/menu.php:4
+msgid "Lottery Logs"
+msgstr "Αρχεία Καταγραφής Λαχείου"
+
+#: classes/controller/admin.php:127 views/admin/lotteries/imvalaplogs.php:7
+#: views/admin/lotteries/menu.php:5
+msgid "Imvalap Logs"
+msgstr "Αρχεία Καταγραφής Imvalap"
+
+#: classes/controller/admin.php:128 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/lotteries/menu.php:6
+msgid "Lottorisq Logs"
+msgstr "Αρχεία Καταγραφής Lottorisq"
+
+#: classes/controller/admin.php:129 views/admin/payments/menu.php:2
+#: views/admin/payments/paymentlogs.php:7
+msgid "Payment Logs"
+msgstr "Αρχείο Καταγραφής ΠΛηρωμών"
+
+#: classes/controller/admin.php:130 views/admin/shared/navbar.php:16
+#: views/admin/whitelabels/index.php:10 views/admin/whitelabels/menu.php:2
+msgid "Whitelabels"
+msgstr "Ιδιωτικές Ετικέτες"
+
+#: classes/controller/admin.php:131 classes/controller/aff.php:193
+#: classes/controller/aff.php:294 classes/controller/whitelabel.php:163
+#: views/admin/shared/navbar.php:14 views/aff/shared/navbar.php:14
+#: views/whitelabel/shared/navbar.php:14
+msgid "Dashboard"
+msgstr "Ταμπλό"
+
+#: classes/controller/admin.php:177 classes/controller/admin.php:245
+#: classes/controller/admin.php:488 classes/controller/whitelabel.php:242
+#: classes/controller/whitelabel.php:1316
+#: classes/controller/whitelabel.php:3261 views/admin/lotteries/index.php:19
+#: views/admin/whitelabels/add.php:21 views/admin/whitelabels/edit.php:21
+#: views/admin/whitelabels/index.php:19 views/admin/whitelabels/payments.php:21
+#: views/admin/whitelabels/payments_edit.php:37
+#: views/whitelabel/affs/groups.php:20 views/whitelabel/affs/groups_edit.php:21
+#: views/whitelabel/affs/payouts.php:65 views/whitelabel/affs/payouts.php:72
+#: views/whitelabel/affs/payouts.php:77 views/whitelabel/affs/payouts.php:83
+#: views/whitelabel/settings/account.php:14
+#: views/whitelabel/settings/account_edit.php:24
+#: views/whitelabel/settings/lottery.php:17
+#: views/whitelabel/settings/paymentmethods.php:26
+#: views/whitelabel/settings/paymentmethods_edit.php:37
+#: views/whitelabel/transactions/view.php:238
+#: views/whitelabel/users/index.php:67
+msgid "Name"
+msgstr "Όνομα"
+
+#: classes/controller/admin.php:180 classes/controller/admin.php:248
+#: views/admin/whitelabels/add.php:25 views/admin/whitelabels/edit.php:25
+#: views/admin/whitelabels/index.php:20
+#: views/whitelabel/transactions/view.php:114
+msgid "Domain"
+msgstr "Τομέας"
+
+#: classes/controller/admin.php:182 classes/controller/admin.php:250
+#: classes/controller/whitelabel.php:240 views/admin/whitelabels/add.php:30
+#: views/admin/whitelabels/edit.php:30 views/whitelabel/affs/index.php:72
+#: views/whitelabel/settings/account.php:12
+#: views/whitelabel/settings/account_edit.php:20
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: classes/controller/admin.php:213
+msgid "Whitelabel has been saved!"
+msgstr "Η ιδιωτική ετικέτα έχει αποθηκευτεί!"
+
+#: classes/controller/admin.php:233 classes/controller/admin.php:649
+msgid "Wrong whitelabel!"
+msgstr "Λάθος ιδιωτική ετικέτα!"
+
+#: classes/controller/admin.php:254 views/admin/whitelabels/add.php:44
+msgid "Prefix"
+msgstr "Πρόθεμα"
+
+#: classes/controller/admin.php:349
+msgid "Whitelabel has been added!"
+msgstr "Η ιδωτική ετικέτα έχει προστεθεί!"
+
+#: classes/controller/admin.php:429 classes/controller/admin.php:454
+#: classes/controller/whitelabel.php:3203
+#: classes/controller/whitelabel.php:3228
+msgid "Payment method order has been changed!"
+msgstr "Η παραγγελία μεθόδου πληρωμής έχει αλλάξει!"
+
+#: classes/controller/admin.php:484 classes/controller/whitelabel.php:246
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:3257
+#: classes/controller/whitelabel.php:4748
+#: views/admin/whitelabels/payments.php:19
+#: views/admin/whitelabels/payments_edit.php:20
+#: views/aff/settings/profile.php:48 views/whitelabel/affs/index.php:18
+#: views/whitelabel/affs/index.php:79 views/whitelabel/affs/view.php:56
+#: views/whitelabel/reports/reports.php:20
+#: views/whitelabel/settings/account.php:23
+#: views/whitelabel/settings/account_edit.php:32
+#: views/whitelabel/settings/paymentmethods.php:24
+#: views/whitelabel/settings/paymentmethods_edit.php:20
+#: views/whitelabel/transactions/view.php:439
+#: views/whitelabel/transactions/view.php:497
+#: views/whitelabel/users/index.php:25 views/whitelabel/users/index.php:76
+#: views/whitelabel/users/view.php:43
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: classes/controller/admin.php:486 classes/controller/whitelabel.php:3259
+#: views/admin/whitelabels/payments.php:22
+#: views/admin/whitelabels/payments_edit.php:28
+#: views/whitelabel/settings/paymentmethods.php:27
+#: views/whitelabel/settings/paymentmethods_edit.php:28
+msgid "Integrated Method"
+msgstr "Ενσωματωμένη μέθοδος"
+
+#: classes/controller/admin.php:490 classes/controller/whitelabel.php:2229
+#: classes/controller/whitelabel.php:3263
+#: views/admin/whitelabels/payments_edit.php:41
+#: views/whitelabel/settings/paymentmethods_edit.php:41
+msgid "Show on payment page"
+msgstr "Εμφάνιση στην σελίδα πληρωμής"
+
+#: classes/controller/admin.php:498 classes/controller/whitelabel.php:3271
+#: views/admin/whitelabels/payments_edit.php:47
+#: views/whitelabel/settings/paymentmethods_edit.php:47
+msgid "Merchant E-mail (required)"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου εμπόρου (υποχρεωτικό)"
+
+#: classes/controller/admin.php:500 classes/controller/whitelabel.php:3273
+#: views/admin/whitelabels/payments_edit.php:56
+#: views/whitelabel/settings/paymentmethods_edit.php:56
+msgid "Merchant Logo URL"
+msgstr "URL Λογότυπου Εμπόρου"
+
+#: classes/controller/admin.php:502 classes/controller/whitelabel.php:3275
+#: views/admin/whitelabels/payments_edit.php:61
+#: views/whitelabel/settings/paymentmethods_edit.php:61
+msgid "Merchant Description"
+msgstr "Περιγραφή Εμπόρου"
+
+#: classes/controller/admin.php:504 classes/controller/whitelabel.php:3277
+#: views/admin/whitelabels/payments_edit.php:51
+#: views/whitelabel/settings/paymentmethods_edit.php:51
+msgid "Secret Word (required)"
+msgstr "Μυστική Λέξη (απαιτείται)"
+
+#: classes/controller/admin.php:510 classes/controller/whitelabel.php:3283
+#: views/admin/whitelabels/payments_edit.php:68
+#: views/whitelabel/settings/paymentmethods_edit.php:68
+msgid "App Client ID"
+msgstr "Ταυτότητα Πελάτη Εφαρμογής"
+
+#: classes/controller/admin.php:511 classes/controller/whitelabel.php:3284
+msgid "App Client Secret"
+msgstr "Μυστικό Πελάτη Εφαρμογής"
+
+#: classes/controller/admin.php:512 classes/controller/whitelabel.php:3285
+#: views/admin/whitelabels/payments_edit.php:77
+#: views/whitelabel/settings/paymentmethods_edit.php:77
+msgid "Webhook Secret Key"
+msgstr "Μυστικό Κλειδί Webhook"
+
+#: classes/controller/admin.php:513 classes/controller/whitelabel.php:3286
+#: classes/controller/whitelabel.php:3493
+#: views/admin/whitelabels/payments_edit.php:82
+#: views/whitelabel/settings/ccsettings_edit.php:65
+#: views/whitelabel/settings/paymentmethods_edit.php:82
+msgid "Test account"
+msgstr "Δοκιμή λογαριασμού"
+
+#: classes/controller/admin.php:518 classes/controller/whitelabel.php:3291
+#: classes/controller/whitelabel.php:3487
+#: views/admin/whitelabels/payments_edit.php:101
+#: views/whitelabel/settings/ccsettings_edit.php:38
+#: views/whitelabel/settings/paymentmethods_edit.php:101
+msgid "API Key"
+msgstr "API Κλειδί"
+
+#: classes/controller/admin.php:519 classes/controller/whitelabel.php:3292
+#: views/admin/whitelabels/payments_edit.php:106
+#: views/whitelabel/settings/paymentmethods_edit.php:106
+msgid "API Secret"
+msgstr "API Μυστικό"
+
+#: classes/controller/admin.php:524 classes/controller/whitelabel.php:3297
+#: views/whitelabel/transactions/view.php:577
+msgid "tpay.com ID"
+msgstr "Ταυτότητα tpay.com"
+
+#: classes/controller/admin.php:525 classes/controller/whitelabel.php:3298
+#: views/admin/whitelabels/payments_edit.php:93
+#: views/whitelabel/settings/paymentmethods_edit.php:93
+msgid "tpay.com Security Code"
+msgstr "Κωδικός Ασφαλείας tpay.com"
+
+#: classes/controller/admin.php:530 classes/controller/whitelabel.php:3303
+#: views/admin/whitelabels/payments_edit.php:113
+#: views/whitelabel/settings/paymentmethods_edit.php:113
+msgid "Configuration Key"
+msgstr "Κλειδί Διαμόρφωσης"
+
+#: classes/controller/admin.php:601 classes/controller/whitelabel.php:3378
+#: classes/controller/whitelabel.php:3534
+msgid "Payment method has been saved!"
+msgstr "Η μέθοδος πληρωμής έχει αποθηκευτεί!"
+
+#: classes/controller/admin.php:606 classes/controller/whitelabel.php:3383
+msgid "This method is already added!"
+msgstr "Αυτή η μέθοδος έχει ήδη προστεθεί!"
+
+#: classes/controller/admin.php:612 classes/controller/whitelabel.php:289
+#: classes/controller/whitelabel.php:3389
+msgid "Wrong language!"
+msgstr "Λάθος γλώσσα!"
+
+#: classes/controller/admin.php:618 classes/controller/whitelabel.php:3395
+msgid "Wrong method!"
+msgstr "Λάθος μέθοδος!"
+
+#: classes/controller/admin.php:680 views/admin/lotteries/index.php:23
+#: views/admin/lotteries/jackpot.php:20
+msgid "Current Jackpot"
+msgstr "Τρέχον Τζακπότ"
+
+#: classes/controller/admin.php:688
+msgid "Current Jackpot has been changed!"
+msgstr "Το τρέχον Τζακπότ έχει αλλάξει!"
+
+#: classes/controller/admin.php:714 views/admin/lotteries/nextdraw.php:20
+#: views/admin/lotteries/nextdraw.php:22
+msgid "Next Draw Date"
+msgstr "Ημερομηνία Νέας Κλήρωσης"
+
+#: classes/controller/admin.php:761
+msgid "Lottery next draw has been changed!"
+msgstr "Η επόμενη κλήρωση λαχείου έχει αλλάξει!"
+
+#: classes/controller/admin.php:766
+msgid "Wrong date format!"
+msgstr "Λάθος διάταξη ημερομηνίας!"
+
+#: classes/controller/admin.php:801 views/admin/lotteries/index.php:21
+#: views/admin/lotteries/index.php:60 views/admin/lotteries/source.php:20
+msgid "Source"
+msgstr "Πηγή"
+
+#: classes/controller/admin.php:810
+msgid "The source has been changed!"
+msgstr "Η πηγή έχει αλλάξει!"
+
+#: classes/controller/admin.php:867 views/admin/lotteries/draw_add.php:20
+#: views/admin/lotteries/imvalaplogs.php:46 views/admin/lotteries/logs.php:46
+#: views/admin/lotteries/lottorisqlogs.php:46
+#: views/admin/payments/paymentlogs.php:46 views/aff/reports/commissions.php:57
+#: views/aff/reports/index.php:175 views/aff/reports/payouts.php:18
+#: views/whitelabel/affs/commissions.php:63
+#: views/whitelabel/affs/payouts.php:35 views/whitelabel/affs/reports.php:181
+#: views/whitelabel/tickets/index.php:68 views/whitelabel/tickets/view.php:29
+#: views/whitelabel/transactions/index.php:58
+#: views/whitelabel/transactions/view.php:23
+#: views/whitelabel/transactions/view.php:581
+#: views/whitelabel/transactions/withdrawal.php:23
+#: views/whitelabel/transactions/withdrawals.php:58
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: classes/controller/admin.php:869 views/admin/lotteries/draw_add.php:27
+msgid "Next Jackpot"
+msgstr "Νέο Τζακπότ"
+
+#: classes/controller/admin.php:873
+#, php-format
+msgid "Draw Number #%s"
+msgstr "Αριθμός Κλήρωσης #%s"
+
+#: classes/controller/admin.php:880 views/admin/lotteries/draw_add.php:48
+msgid "Extra Number"
+msgstr "Επιπλέον Αριθμός"
+
+#: classes/controller/admin.php:880
+#, php-format
+msgid "Bonus Number #%s"
+msgstr "Μπόνους Αριθμός #%s"
+
+#: classes/controller/admin.php:887 views/admin/lotteries/draw_add.php:70
+#: views/admin/lotteries/draw_add.php:71
+msgid "Winners count"
+msgstr "Αριθμός Νικητών"
+
+#: classes/controller/admin.php:891 views/admin/lotteries/draw_add.php:76
+msgid "Prize per winner"
+msgstr "Βραβείο ανά νικητή"
+
+#: classes/controller/admin.php:929
+msgid "The draw has been successfully added!"
+msgstr "Η κλήρωση προστέθηκε επιτυχώς!"
+
+#: classes/controller/admin.php:934
+msgid "Bonus numbers must differ (from each other and from draw numbers)."
+msgstr ""
+"Οι αριθμοί μπόνους πρέπει να διαφέρουν (μεταξύ τους και από τους αριθμούς "
+"κληρώσεως)."
+
+#: classes/controller/admin.php:940
+msgid "Draw numbers must differ."
+msgstr "Οι αριθμοί κληρώσεως πρέπει να διαφέρουν."
+
+#: classes/controller/admin.php:1029
+msgid "The postponed date has been deleted!"
+msgstr "Η ημερομηνία που αναβλήθηκε διαγράφηκε!"
+
+#: classes/controller/admin.php:1034
+msgid ""
+"It's too late to delete this postponed date. Use coding skills to adjust "
+"tickets and draw date within the system!"
+msgstr ""
+"Είναι πολύ αργά για να διαγραφεί η ημερομηνία. Χρησιμοποιήστε ικανότητες "
+"κώδικα για να προσαρμόσετε τους λαχνούς και την ημερομηνία της κλήρωσης μέσα "
+"στο σύστημα!"
+
+#: classes/controller/admin.php:1070 views/admin/lotteries/delays.php:20
+#: views/admin/lotteries/delays_edit.php:28
+msgid "Original date"
+msgstr "Αρχική ημερομηνία"
+
+#: classes/controller/admin.php:1072 views/admin/lotteries/delays_edit.php:35
+msgid "Delayed date"
+msgstr "Καθυστερημένη ημερομηνία"
+
+#: classes/controller/admin.php:1074 views/admin/lotteries/delays.php:19
+#: views/admin/lotteries/delays_edit.php:20 views/admin/lotteries/logs.php:19
+#: views/admin/lotteries/logs.php:47 views/whitelabel/reports/index.php:17
+#: views/whitelabel/tickets/index.php:13 views/whitelabel/tickets/index.php:66
+#: views/whitelabel/tickets/view.php:27
+msgid "Lottery"
+msgstr "Λαχείο"
+
+#: classes/controller/admin.php:1105
+msgid "The postponed date has been saved!"
+msgstr "Η ημερομηνία που αναβλήθηκε έχει αποθηκευτεί!"
+
+#: classes/controller/admin.php:1110
+msgid "The postponed date for this draw already exists!"
+msgstr "Η ημερομηνία που αναβλήθηκε για αυτή την κλήρωση υπάρχει ήδη!"
+
+#: classes/controller/admin.php:1116
+msgid "The draw date should be within the future draws!"
+msgstr "Η ημερομηνία κλήρωσης πρέπει να είναι μέσα στις μελλοντικές κληρώσεις!"
+
+#: classes/controller/admin.php:1122
+msgid "Wrong lottery!"
+msgstr "Λάθος λαχείο!"
+
+#: classes/controller/aff.php:185 classes/controller/aff.php:937
+#: views/aff/reports/menu.php:2 views/aff/reports/payouts.php:7
+#: views/whitelabel/affs/menu.php:9 views/whitelabel/affs/payouts.php:7
+msgid "Payouts"
+msgstr "Πληρωμές"
+
+#: classes/controller/aff.php:186 classes/controller/whitelabel.php:161
+#: classes/controller/whitelabel.php:2525 views/aff/reports/index.php:7
+#: views/aff/reports/menu.php:3 views/whitelabel/affs/reports.php:7
+#: views/whitelabel/reports/menu.php:3 views/whitelabel/reports/reports.php:7
+msgid "Generate report"
+msgstr "Δημιοουργία αναφοράς"
+
+#: classes/controller/aff.php:187 views/aff/reports/index.php:56
+#: views/aff/reports/index.php:64 views/aff/reports/leads.php:7
+#: views/aff/reports/menu.php:4 views/whitelabel/affs/leads.php:7
+#: views/whitelabel/affs/menu.php:11 views/whitelabel/affs/reports.php:44
+#: views/whitelabel/affs/reports.php:52
+msgid "Leads"
+msgstr "Υποψήφιοι Πελάτες"
+
+#: classes/controller/aff.php:188 views/aff/reports/ftps.php:7
+#: views/aff/reports/menu.php:5 views/whitelabel/affs/ftps.php:7
+#: views/whitelabel/affs/menu.php:12
+msgid "First-Time Purchases"
+msgstr "Αγορές Πρώτης Φοράς"
+
+#: classes/controller/aff.php:189 views/aff/reports/commissions.php:7
+#: views/aff/reports/index.php:156 views/aff/reports/menu.php:6
+#: views/aff/reports/payouts.php:21 views/whitelabel/affs/commissions.php:7
+#: views/whitelabel/affs/groups.php:21 views/whitelabel/affs/menu.php:13
+#: views/whitelabel/affs/payouts.php:38 views/whitelabel/affs/reports.php:163
+msgid "Commissions"
+msgstr "Προμήθεια"
+
+#: classes/controller/aff.php:190 views/aff/settings/menu.php:2
+#: views/aff/settings/profile.php:7
+msgid "Edit profile"
+msgstr "Επεξεργασία λογαριασμού"
+
+#: classes/controller/aff.php:191 views/aff/settings/menu.php:3
+msgid "Payment settings"
+msgstr "Ρυθμίσεις πληρωμής"
+
+#: classes/controller/aff.php:192 classes/controller/whitelabel.php:2212
+#: views/aff/settings/menu.php:4 views/whitelabel/settings/menu.php:9
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: classes/controller/aff.php:263 views/aff/dashboard/index.php:48
+#: views/aff/reports/commissions.php:12 views/aff/reports/commissions.php:51
+#: views/aff/reports/ftps.php:12 views/aff/reports/ftps.php:49
+#: views/aff/reports/index.php:20 views/aff/reports/index.php:81
+#: views/aff/reports/index.php:127 views/aff/reports/index.php:169
+#: views/aff/reports/leads.php:12 views/aff/reports/leads.php:55
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: classes/controller/aff.php:265 views/aff/dashboard/index.php:53
+#: views/aff/reports/commissions.php:20 views/aff/reports/commissions.php:52
+#: views/aff/reports/ftps.php:20 views/aff/reports/ftps.php:50
+#: views/aff/reports/index.php:28 views/aff/reports/index.php:82
+#: views/aff/reports/index.php:128 views/aff/reports/index.php:170
+#: views/aff/reports/leads.php:20 views/aff/reports/leads.php:56
+msgid "Campaign"
+msgstr "Καμπάνια"
+
+#: classes/controller/aff.php:267 views/aff/dashboard/index.php:58
+#: views/aff/reports/commissions.php:28 views/aff/reports/commissions.php:53
+#: views/aff/reports/ftps.php:28 views/aff/reports/ftps.php:51
+#: views/aff/reports/index.php:36 views/aff/reports/index.php:83
+#: views/aff/reports/index.php:129 views/aff/reports/index.php:171
+#: views/aff/reports/leads.php:28 views/aff/reports/leads.php:57
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: classes/controller/aff.php:324 views/aff/settings/payment.php:20
+#: views/whitelabel/affs/payouts.php:64 views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/affs/payouts.php:76 views/whitelabel/affs/payouts.php:81
+#: views/whitelabel/transactions/index.php:13
+#: views/whitelabel/transactions/index.php:56
+#: views/whitelabel/transactions/view.php:30
+#: views/whitelabel/transactions/withdrawal.php:29
+#: views/whitelabel/transactions/withdrawals.php:13
+#: views/whitelabel/transactions/withdrawals.php:53
+#: views/whitelabel/users/deposit.php:21
+msgid "Method"
+msgstr "Μέθοδος"
+
+#: classes/controller/aff.php:337 classes/controller/aff.php:350
+#: classes/controller/aff.php:359 views/aff/settings/payment.php:32
+#: views/aff/settings/payment.php:55 views/aff/settings/payment.php:70
+#: views/whitelabel/transactions/view.php:197
+msgid "First name"
+msgstr "Όνομα"
+
+#: classes/controller/aff.php:339 classes/controller/aff.php:352
+#: classes/controller/aff.php:361 views/aff/settings/payment.php:36
+#: views/aff/settings/payment.php:59 views/aff/settings/payment.php:74
+#: views/whitelabel/transactions/view.php:201
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: classes/controller/aff.php:341 views/aff/settings/payment.php:40
+msgid "Account IBAN number"
+msgstr "Αριθμός λογαριασμού IBAN"
+
+#: classes/controller/aff.php:343 views/aff/settings/payment.php:44
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#: classes/controller/aff.php:345 views/aff/settings/payment.php:48
+#: views/whitelabel/transactions/withdrawal.php:75
+msgid "Bank name"
+msgstr "Όνομα τράπεζας"
+
+#: classes/controller/aff.php:354 views/aff/settings/payment.php:63
+#: views/whitelabel/affs/payouts.php:74
+#: views/whitelabel/transactions/withdrawal.php:59
+msgid "Skrill e-mail"
+msgstr "Skrill διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: classes/controller/aff.php:363 views/aff/settings/payment.php:78
+#: views/whitelabel/affs/payouts.php:79
+#: views/whitelabel/transactions/withdrawal.php:55
+msgid "Neteller e-mail"
+msgstr "Neteller διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: classes/controller/aff.php:368 views/aff/settings/payment.php:84
+msgid "First name (optional)"
+msgstr "Όνομα (προεραιτικό)"
+
+#: classes/controller/aff.php:370 views/aff/settings/payment.php:88
+msgid "Last name (optional)"
+msgstr "Επώνυμο (προεραιτικό)"
+
+#: classes/controller/aff.php:372 views/aff/settings/payment.php:92
+msgid "Bitcoin wallet address"
+msgstr "Διεύθυνση πορτοφολιού Bitcoin"
+
+#: classes/controller/aff.php:389
+msgid "Payment settings have been saved!"
+msgstr "Οι ρυθμίσεις πληρωμής έχουν αποθηκευτεί!"
+
+#: classes/controller/aff.php:439 classes/controller/whitelabel.php:1527
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4153
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:28
+#: views/aff/settings/profile.php:18 views/whitelabel/affs/commissions.php:36
+#: views/whitelabel/affs/edit.php:48 views/whitelabel/affs/ftps.php:36
+#: views/whitelabel/affs/index.php:51 views/whitelabel/affs/leads.php:36
+#: views/whitelabel/affs/view.php:26 views/whitelabel/tickets/view.php:21
+#: views/whitelabel/transactions/view.php:17
+#: views/whitelabel/transactions/view.php:382
+#: views/whitelabel/transactions/view.php:461
+#: views/whitelabel/transactions/withdrawal.php:17
+#: views/whitelabel/transactions/withdrawal.php:50
+#: views/whitelabel/users/edit.php:20 views/whitelabel/users/index.php:46
+#: views/whitelabel/users/view.php:15
+msgid "First Name"
+msgstr "Όνομα"
+
+#: classes/controller/aff.php:441 classes/controller/whitelabel.php:1531
+#: views/aff/settings/edit.php:24 views/aff/settings/profile.php:16
+#: views/whitelabel/affs/edit.php:40 views/whitelabel/affs/view.php:24
+#: views/whitelabel/transactions/view.php:205
+msgid "Company"
+msgstr "Εταιρία"
+
+#: classes/controller/aff.php:443 classes/controller/whitelabel.php:1529
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4155
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:32
+#: views/aff/settings/profile.php:20 views/whitelabel/affs/commissions.php:39
+#: views/whitelabel/affs/edit.php:52 views/whitelabel/affs/ftps.php:39
+#: views/whitelabel/affs/index.php:54 views/whitelabel/affs/leads.php:39
+#: views/whitelabel/affs/view.php:28 views/whitelabel/tickets/view.php:23
+#: views/whitelabel/transactions/view.php:19
+#: views/whitelabel/transactions/view.php:386
+#: views/whitelabel/transactions/view.php:465
+#: views/whitelabel/transactions/withdrawal.php:19
+#: views/whitelabel/transactions/withdrawal.php:52
+#: views/whitelabel/users/edit.php:24 views/whitelabel/users/index.php:49
+#: views/whitelabel/users/view.php:17
+msgid "Last Name"
+msgstr "Επώνυμο"
+
+#: classes/controller/aff.php:445 classes/controller/whitelabel.php:1533
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4157
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:45
+#: views/aff/settings/profile.php:29 views/whitelabel/affs/edit.php:65
+#: views/whitelabel/affs/view.php:37 views/whitelabel/transactions/view.php:217
+#: views/whitelabel/transactions/view.php:410
+#: views/whitelabel/transactions/view.php:485
+#: views/whitelabel/users/edit.php:37 views/whitelabel/users/view.php:24
+msgid "City"
+msgstr "Πόλη"
+
+#: classes/controller/aff.php:447 classes/controller/whitelabel.php:1535
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4159
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:60
+#: views/aff/settings/profile.php:37 views/whitelabel/affs/edit.php:80
+#: views/whitelabel/affs/view.php:45 views/whitelabel/users/edit.php:52
+#: views/whitelabel/users/view.php:32
+msgid "Postal/ZIP Code"
+msgstr "Ταχυδρομικός Κώδικας"
+
+#: classes/controller/aff.php:449 classes/controller/whitelabel.php:1537
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4161
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:49
+#: views/aff/settings/profile.php:31 views/whitelabel/affs/edit.php:69
+#: views/whitelabel/affs/view.php:39 views/whitelabel/transactions/view.php:414
+#: views/whitelabel/transactions/view.php:489
+#: views/whitelabel/users/edit.php:41 views/whitelabel/users/view.php:26
+msgid "Region"
+msgstr "Περιοχή"
+
+#: classes/controller/aff.php:451 classes/controller/whitelabel.php:1539
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4163
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:64
+#: views/aff/settings/profile.php:33 views/whitelabel/affs/edit.php:84
+#: views/whitelabel/affs/view.php:41 views/whitelabel/transactions/view.php:398
+#: views/whitelabel/transactions/view.php:473
+#: views/whitelabel/users/edit.php:56 views/whitelabel/users/view.php:28
+msgid "Address #1"
+msgstr "Διεύθυνση #1"
+
+#: classes/controller/aff.php:453 classes/controller/whitelabel.php:1541
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4165
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:68
+#: views/aff/settings/profile.php:35 views/whitelabel/affs/edit.php:88
+#: views/whitelabel/affs/view.php:43 views/whitelabel/transactions/view.php:229
+#: views/whitelabel/transactions/view.php:402
+#: views/whitelabel/transactions/view.php:477
+#: views/whitelabel/users/edit.php:60 views/whitelabel/users/view.php:30
+msgid "Address #2"
+msgstr "Διεύθυνση #2"
+
+#: classes/controller/aff.php:455 classes/controller/aff.php:459
+#: classes/controller/whitelabel.php:1543
+#: classes/controller/whitelabel.php:1547
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4167
+#: classes/controller/whitelabel.php:4171
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:89
+#: views/aff/settings/profile.php:41 views/whitelabel/affs/edit.php:109
+#: views/whitelabel/affs/index.php:77 views/whitelabel/affs/view.php:49
+#: views/whitelabel/users/edit.php:81 views/whitelabel/users/index.php:74
+#: views/whitelabel/users/view.php:36
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: classes/controller/aff.php:457 classes/controller/whitelabel.php:1545
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4169
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:36
+#: views/aff/settings/profile.php:27 views/whitelabel/affs/commissions.php:23
+#: views/whitelabel/affs/edit.php:56 views/whitelabel/affs/ftps.php:23
+#: views/whitelabel/affs/ftps.php:57 views/whitelabel/affs/index.php:26
+#: views/whitelabel/affs/index.php:78 views/whitelabel/affs/leads.php:23
+#: views/whitelabel/affs/leads.php:60 views/whitelabel/affs/reports.php:67
+#: views/whitelabel/affs/reports.php:122 views/whitelabel/affs/view.php:35
+#: views/whitelabel/reports/reports.php:28
+#: views/whitelabel/transactions/view.php:209
+#: views/whitelabel/transactions/view.php:390
+#: views/whitelabel/transactions/view.php:469
+#: views/whitelabel/users/edit.php:28 views/whitelabel/users/index.php:33
+#: views/whitelabel/users/index.php:75 views/whitelabel/users/view.php:22
+msgid "Country"
+msgstr "Χώρα"
+
+#: classes/controller/aff.php:461 classes/controller/whitelabel.php:248
+#: classes/controller/whitelabel.php:1549
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4173
+#: classes/controller/whitelabel.php:4748 views/admin/lotteries/index.php:27
+#: views/aff/settings/edit.php:93 views/aff/settings/profile.php:43
+#: views/whitelabel/affs/edit.php:113 views/whitelabel/affs/index.php:80
+#: views/whitelabel/affs/view.php:51 views/whitelabel/settings/account.php:21
+#: views/whitelabel/settings/account_edit.php:40
+#: views/whitelabel/users/edit.php:85 views/whitelabel/users/index.php:77
+#: views/whitelabel/users/view.php:38
+msgid "Time Zone"
+msgstr "Ζώνη Ώρας"
+
+#: classes/controller/aff.php:463 classes/controller/whitelabel.php:1551
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4175
+#: classes/controller/whitelabel.php:4748 views/aff/settings/edit.php:72
+#: views/aff/settings/profile.php:39 views/whitelabel/affs/edit.php:92
+#: views/whitelabel/affs/view.php:47 views/whitelabel/users/edit.php:64
+#: views/whitelabel/users/view.php:34
+msgid "Birthdate"
+msgstr "Ημερομηνία Γέννησης"
+
+#: classes/controller/aff.php:526 classes/controller/aff.php:532
+#: classes/controller/whitelabel.php:1616
+#: classes/controller/whitelabel.php:1622
+#: classes/controller/whitelabel.php:4228
+#: classes/controller/whitelabel.php:4234
+msgid "Wrong phone number! Please try to specify it in other format!"
+msgstr ""
+"Λάθος αριθμός τηλεφώνου! Παρακαλούμε δοκιμάστε να τον καθορίσετε με άλλο "
+"τρόπο!"
+
+#: classes/controller/aff.php:538 classes/controller/whitelabel.php:1628
+#: classes/controller/whitelabel.php:4240
+msgid "You have to specify the user's country before adding a phone number!"
+msgstr ""
+"Πρέπει να καθορίσετε την χώρα του χρήστη πριν προσθέσετε αριθμό τηλεφώνου!"
+
+#: classes/controller/aff.php:563
+msgid "Your details has been saved!"
+msgstr "Οι πληροφορίες σας έχουν αποθηκευτεί!"
+
+#: classes/controller/aff.php:569 classes/controller/whitelabel.php:283
+#: classes/controller/whitelabel.php:1661
+#: classes/controller/whitelabel.php:4313
+msgid "Wrong timezone!"
+msgstr "Λάθος ζώνη ώρας!"
+
+#: classes/controller/aff.php:575 classes/controller/whitelabel.php:1667
+#: classes/controller/whitelabel.php:4319
+msgid "Wrong birthdate!"
+msgstr "Λάθος ημερομηνία γέννησης!"
+
+#: classes/controller/aff.php:581 classes/controller/whitelabel.php:1673
+#: classes/controller/whitelabel.php:4325
+msgid "Wrong region!"
+msgstr "Λάθος περιοχή!"
+
+#: classes/controller/aff.php:587 classes/controller/whitelabel.php:1679
+#: classes/controller/whitelabel.php:4331
+msgid "Wrong country!"
+msgstr "Λάθος χώρα!"
+
+#: classes/controller/aff.php:593 classes/controller/whitelabel.php:1685
+msgid "This login is already in use by another affiliate!"
+msgstr "Αυτό το όνομα χρήστη χρησιμοποιείται ήδη από κάποιον άλλο συνεργάτη!"
+
+#: classes/controller/aff.php:618 classes/controller/whitelabel.php:202
+#: classes/controller/whitelabel.php:432 classes/controller/whitelabel.php:4363
+#: views/aff/settings/password.php:20 views/aff/settings/password.php:22
+#: views/whitelabel/affs/password.php:20 views/whitelabel/affs/password.php:22
+#: views/whitelabel/settings/password.php:20
+#: views/whitelabel/settings/password.php:22
+#: views/whitelabel/users/password.php:20
+#: views/whitelabel/users/password.php:22
+msgid "New password"
+msgstr "Νέο συνθηματικό"
+
+#: classes/controller/aff.php:630 classes/controller/whitelabel.php:219
+msgid "Your password has been changed!"
+msgstr "Το συνθηματικό σας έχει αλλάξει!"
+
+#: classes/controller/aff.php:778 classes/controller/whitelabel.php:2189
+#: views/aff/settings/analytics.php:20
+#: views/whitelabel/settings/analytics.php:20
+msgid "Google Analytics Tracking ID"
+msgstr "Αναγνωριστικό Παρακολούθησης Google Analytics"
+
+#: classes/controller/aff.php:786
+msgid "Google Analytics Tracking ID saved!"
+msgstr "Το Αναγνωριστικό Παρακολούθησης του Google Analytics έχει αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:153 classes/controller/whitelabel.php:3909
+#: views/whitelabel/users/index.php:9 views/whitelabel/users/menu.php:2
+msgid "Active users"
+msgstr "Ενεργοί χρήστες"
+
+#: classes/controller/whitelabel.php:154 classes/controller/whitelabel.php:3910
+#: views/whitelabel/users/index.php:11 views/whitelabel/users/menu.php:3
+msgid "Inactive users"
+msgstr "Ανενεργοί χρήστες"
+
+#: classes/controller/whitelabel.php:155 classes/controller/whitelabel.php:3911
+#: views/whitelabel/users/index.php:10 views/whitelabel/users/menu.php:4
+msgid "Deleted users"
+msgstr "Διεγραμένοι χρήστες"
+
+#: classes/controller/whitelabel.php:156 classes/controller/whitelabel.php:3874
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:2
+msgid "Purchases"
+msgstr "Αγορές"
+
+#: classes/controller/whitelabel.php:157 classes/controller/whitelabel.php:3874
+#: views/whitelabel/transactions/index.php:7
+#: views/whitelabel/transactions/menu.php:3
+msgid "Deposits"
+msgstr "Καταθέσεις"
+
+#: classes/controller/whitelabel.php:158
+#: views/whitelabel/transactions/menu.php:4
+#: views/whitelabel/transactions/withdrawals.php:7
+msgid "Withdrawals"
+msgstr "Αναλήψεις"
+
+#: classes/controller/whitelabel.php:159 views/whitelabel/shared/navbar.php:17
+#: views/whitelabel/tickets/index.php:7 views/whitelabel/tickets/menu.php:2
+msgid "Tickets"
+msgstr "Λαχνοί"
+
+#: classes/controller/whitelabel.php:160 views/whitelabel/reports/index.php:7
+#: views/whitelabel/reports/menu.php:2
+msgid "Winners"
+msgstr "Νικητές"
+
+#: classes/controller/whitelabel.php:244 classes/controller/whitelabel.php:474
+#: classes/controller/whitelabel.php:527 classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4406
+#: classes/controller/whitelabel.php:4748 views/aff/settings/profile.php:22
+#: views/whitelabel/affs/commissions.php:33 views/whitelabel/affs/email.php:20
+#: views/whitelabel/affs/ftps.php:33 views/whitelabel/affs/index.php:45
+#: views/whitelabel/affs/index.php:73 views/whitelabel/affs/leads.php:33
+#: views/whitelabel/affs/new.php:33 views/whitelabel/affs/view.php:32
+#: views/whitelabel/settings/account.php:16
+#: views/whitelabel/settings/account_edit.php:28
+#: views/whitelabel/tickets/index.php:64 views/whitelabel/tickets/view.php:25
+#: views/whitelabel/transactions/index.php:54
+#: views/whitelabel/transactions/view.php:21
+#: views/whitelabel/transactions/view.php:189
+#: views/whitelabel/transactions/view.php:374
+#: views/whitelabel/transactions/view.php:457
+#: views/whitelabel/transactions/view.php:593
+#: views/whitelabel/transactions/withdrawal.php:21
+#: views/whitelabel/transactions/withdrawals.php:51
+#: views/whitelabel/users/email.php:20 views/whitelabel/users/index.php:43
+#: views/whitelabel/users/index.php:68 views/whitelabel/users/view.php:19
+msgid "E-mail"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: classes/controller/whitelabel.php:277 classes/controller/whitelabel.php:2137
+#: classes/controller/whitelabel.php:2323
+msgid "Settings have been saved!"
+msgstr "Οι ρυθμίσεις έχουν αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:311
+#: views/whitelabel/settings/account.php:7 views/whitelabel/settings/menu.php:7
+msgid "Account settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+#: classes/controller/whitelabel.php:389
+msgid "Affiliate has been deleted!"
+msgstr "Ο συνεργάτης έχει διαγραφεί!"
+
+#: classes/controller/whitelabel.php:393 classes/controller/whitelabel.php:415
+#: classes/controller/whitelabel.php:510 classes/controller/whitelabel.php:1741
+#: classes/controller/whitelabel.php:1769
+#: classes/controller/whitelabel.php:1790
+#: classes/controller/whitelabel.php:1824
+msgid "Wrong affiliate."
+msgstr "Λάθος συνεργάτης."
+
+#: classes/controller/whitelabel.php:411
+msgid "Affiliate e-mail address has been confirmed!"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου του συνεργάτη έχει επιβεβαιωθεί!"
+
+#: classes/controller/whitelabel.php:443
+msgid "Affiliate password has been changed!"
+msgstr "Το συνθηματικό του συνεργάτη έχει αλλάξει!"
+
+#: classes/controller/whitelabel.php:457 classes/controller/whitelabel.php:4087
+msgid "Wrong affiliate!"
+msgstr "Λάθος συνεργάτης!"
+
+#: classes/controller/whitelabel.php:490 classes/controller/whitelabel.php:4470
+msgid "User e-mail address has been saved!"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου του χρήστη έχει αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:495 classes/controller/whitelabel.php:4481
+msgid "This e-mail is already taken!"
+msgstr "Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου χρησιμοποιείται ήδη!"
+
+#: classes/controller/whitelabel.php:531 classes/controller/whitelabel.php:1553
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/edit.php:20
+#: views/whitelabel/affs/index.php:34 views/whitelabel/affs/index.php:76
+#: views/whitelabel/affs/new.php:20 views/whitelabel/affs/view.php:22
+msgid "Group"
+msgstr "Ομάδα"
+
+#: classes/controller/whitelabel.php:576
+msgid "Affiliate has been successfully created!"
+msgstr "Ο συνεργάτης δημιουργήθηκε επιτυχώς!"
+
+#: classes/controller/whitelabel.php:581
+msgid "The email address and/or login you have provided are already in use."
+msgstr ""
+"Η διεύθυνση ηλεκτρονικού ταχυδρομείου και/ή τα στοιχεία σύνδεσης που δώσατε "
+"χρησιμοποιούνται ήδη."
+
+#: classes/controller/whitelabel.php:606
+msgid "Affiliate group has been deleted!"
+msgstr "Η ομάδα του συνεργάτη έχει διαγραφεί!"
+
+#: classes/controller/whitelabel.php:611 classes/controller/whitelabel.php:1289
+#: classes/controller/whitelabel.php:1307
+msgid "Wrong affiliate group!"
+msgstr "Λάθος ομάδα συνεργάτη!"
+
+#: classes/controller/whitelabel.php:849
+msgid "Commission has been accepted."
+msgstr "Η προμήθεια έγινε αποδεκτή."
+
+#: classes/controller/whitelabel.php:853
+msgid "It is too late to edit this commission!"
+msgstr "Είναι πολύ αργά για να αλλάξετε αυτή την προμήθεια!"
+
+#: classes/controller/whitelabel.php:858 classes/controller/whitelabel.php:890
+msgid "Incorrect commission!"
+msgstr "Λάθος προμήθεια!"
+
+#: classes/controller/whitelabel.php:881
+msgid "Commission has been deleted!"
+msgstr "Η προμήθεια έχει διαγραφεί!"
+
+#: classes/controller/whitelabel.php:885
+msgid "It is too late to delete this commission!"
+msgstr "Είναι πολύ αργά για να διαγράψετε αυτή την προμήθεια!"
+
+#: classes/controller/whitelabel.php:1104
+msgid "The item has been paid out."
+msgstr "Το αντικείμενο έχει πληρωθεί."
+
+#: classes/controller/whitelabel.php:1108
+msgid "Incorrect item!"
+msgstr "Λάθος αντικείμενο!"
+
+#: classes/controller/whitelabel.php:1237
+msgid "Lead has been accepted."
+msgstr "Ο υποψήφιος πελάτης έγινε αποδεκτός."
+
+#: classes/controller/whitelabel.php:1241
+#: classes/controller/whitelabel.php:1258
+msgid "Incorrect lead!"
+msgstr "Λάθος υποψήφιος πελάτης!"
+
+#: classes/controller/whitelabel.php:1254
+msgid ""
+"Lead has been deleted! The user and lead commissions are left untouched. You "
+"will need to remove them manually."
+msgstr ""
+"Ο υποψήφιος πελάτης διαγράφηκε! Ο χρήστης και οι προμήθειες του υποψήφιο "
+"πελάτη έχουν μείνει ενέγγιχτες. Θα πρέπει να τα αφαιρέσετε χειροκίνητα."
+
+#: classes/controller/whitelabel.php:1319
+#: classes/controller/whitelabel.php:1321
+#: classes/controller/whitelabel.php:2280
+#: views/admin/lotteries/imvalaplogs.php:28
+#: views/admin/lotteries/imvalaplogs.php:45 views/admin/lotteries/logs.php:28
+#: views/admin/lotteries/logs.php:45 views/admin/lotteries/lottorisqlogs.php:28
+#: views/admin/lotteries/lottorisqlogs.php:45
+#: views/admin/payments/paymentlogs.php:28
+#: views/admin/payments/paymentlogs.php:45 views/admin/whitelabels/index.php:21
+#: views/aff/reports/commissions.php:55 views/aff/reports/index.php:173
+#: views/whitelabel/affs/commissions.php:61
+#: views/whitelabel/affs/groups_edit.php:32
+#: views/whitelabel/affs/groups_edit.php:47
+#: views/whitelabel/affs/reports.php:179
+#: views/whitelabel/transactions/view.php:429
+msgid "Type"
+msgstr "Είδος"
+
+#: classes/controller/whitelabel.php:1325 views/aff/dashboard/index.php:27
+#: views/whitelabel/affs/groups.php:37 views/whitelabel/affs/groups.php:59
+#: views/whitelabel/affs/groups_edit.php:56
+msgid "1st-tier First Time Purchase commission value"
+msgstr "Αξία προμήθειας Αγοράς Πρώτης Φοράς 1ης Βαθμίδας"
+
+#: classes/controller/whitelabel.php:1330 views/aff/dashboard/index.php:30
+#: views/whitelabel/affs/groups.php:40 views/whitelabel/affs/groups.php:62
+#: views/whitelabel/affs/groups_edit.php:63
+msgid "2nd-tier First Time Purchase commission value"
+msgstr "Αξία προμήθειας Αγοράς Πρώτης Φοράς 2ης Βαθμίδας"
+
+#: classes/controller/whitelabel.php:1338 views/aff/dashboard/index.php:21
+#: views/whitelabel/affs/groups.php:31 views/whitelabel/affs/groups.php:53
+#: views/whitelabel/affs/groups_edit.php:28
+msgid "1st-tier sale commission value"
+msgstr "Αξία προμήθειας πώλησης 1ης βαθμίδας"
+
+#: classes/controller/whitelabel.php:1343 views/aff/dashboard/index.php:24
+#: views/whitelabel/affs/groups.php:34 views/whitelabel/affs/groups.php:56
+#: views/whitelabel/affs/groups_edit.php:43
+msgid "2nd-tier sale commission value"
+msgstr "Αξία προμήθειας πώλησης 2ης βαθμίδας"
+
+#: classes/controller/whitelabel.php:1403
+msgid "Affiliate group has been saved!"
+msgstr "Η ομάδα συνεργατών έχει αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:1408
+msgid "The affiliate group with this name already exists!"
+msgstr "Η ομάδα συνεργατών με αυτό το όνομα υπάρχει ήδη!"
+
+#: classes/controller/whitelabel.php:1451 views/whitelabel/affs/settings.php:28
+msgid "Automatically payout commissions"
+msgstr "Αυτόματη πληρωμή προμηθειών"
+
+#: classes/controller/whitelabel.php:1453 views/whitelabel/affs/settings.php:31
+msgid "Automatically accept new affiliate leads (registrations)"
+msgstr "Αυτόματη αποδοχή νέων υποψήφιων πελατών συνεργατών (εγγραφές)"
+
+#: classes/controller/whitelabel.php:1470
+msgid "Affiliate settings has been saved!"
+msgstr "Οι ρυθμίσεις συνεργατών έχουν αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:1555 views/whitelabel/affs/edit.php:29
+#: views/whitelabel/affs/index.php:75 views/whitelabel/affs/view.php:15
+msgid "Parent"
+msgstr "Γονέας"
+
+#: classes/controller/whitelabel.php:1655
+msgid "Affiliate details has been saved!"
+msgstr "Οι λεπτομέρειες συνεργατών έχουν αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:1700
+#: classes/controller/whitelabel.php:3947
+#: classes/controller/whitelabel.php:3970
+#: classes/controller/whitelabel.php:4005
+#: classes/controller/whitelabel.php:4103
+#: classes/controller/whitelabel.php:4125
+#: classes/controller/whitelabel.php:4346
+#: classes/controller/whitelabel.php:4389
+#: classes/controller/whitelabel.php:4496
+#: classes/controller/whitelabel.php:4525
+#: classes/controller/whitelabel.php:4570
+#: classes/controller/whitelabel.php:4651
+msgid "Incorrect user."
+msgstr "Λάθος χρήστης."
+
+#: classes/controller/whitelabel.php:1765
+msgid "Affiliate has been activated and confirmed!"
+msgstr "Ο συνεργάτης έχει ενεργοποιηθεί και επιβεβαιωθεί!"
+
+#: classes/controller/whitelabel.php:1786
+msgid "Affiliate has been accepted!"
+msgstr "Ο συνεργάτης έχει γίνει αποδεκτός!"
+
+#: classes/controller/whitelabel.php:1815
+msgid "Affiliate has been restored!"
+msgstr "Ο συνεργάτης έχει αποκατασταθεί!"
+
+#: classes/controller/whitelabel.php:1819
+msgid ""
+"Affiliate cannot be restored, because an active affiliate with this e-mail "
+"address exists."
+msgstr ""
+"Ο συνεργάτης δεν μπορεί να αποκατασταθεί, γιατί υπάρχει ένας ενεργός "
+"συνεργάτης με αυτή τη διέυθυνση ηλεκτρονικού ταχυδρομείου."
+
+#: classes/controller/whitelabel.php:1949
+msgid "Affiliate ID"
+msgstr "Ταυτότητα συνεργάτη"
+
+#: classes/controller/whitelabel.php:1949
+msgid "Parent Affiliate"
+msgstr "Γονικός Συνεργάτης"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4748
+#: views/whitelabel/transactions/view.php:338
+#: views/whitelabel/transactions/view.php:443
+#: views/whitelabel/transactions/view.php:639
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4748
+msgid "Phone Country"
+msgstr "Χώρα Τηλεφώνου"
+
+#: classes/controller/whitelabel.php:1949 views/whitelabel/affs/view.php:58
+msgid "Date created"
+msgstr "Δημιουργήθηκε ημερομηνία"
+
+#: classes/controller/whitelabel.php:1949
+#: classes/controller/whitelabel.php:4748 views/whitelabel/affs/view.php:62
+#: views/whitelabel/users/view.php:53
+msgid "Last Active"
+msgstr "Τελευταία Ενεργός"
+
+#: classes/controller/whitelabel.php:1954
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: classes/controller/whitelabel.php:2010 views/whitelabel/affs/index.php:12
+#: views/whitelabel/shared/navbar.php:19
+msgid "Affiliates"
+msgstr "Συνεργάτες"
+
+#: classes/controller/whitelabel.php:2090 views/admin/lotteries/index.php:20
+#: views/whitelabel/settings/lottery.php:18
+#: views/whitelabel/settings/lottery_edit.php:21
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: classes/controller/whitelabel.php:2092
+#: views/whitelabel/settings/lottery.php:22
+#: views/whitelabel/settings/lottery_edit.php:46
+msgid "Minimum Lines"
+msgstr "Ελάχιστες Γραμμές"
+
+#: classes/controller/whitelabel.php:2094
+#: views/whitelabel/settings/lottery_edit.php:50
+msgid "Line Price by Currency"
+msgstr "Τιμή Γραμμής ανά Νόμισμα"
+
+#: classes/controller/whitelabel.php:2162
+msgid "Incorrect lottery!"
+msgstr "Λάθος λαχείο!"
+
+#: classes/controller/whitelabel.php:2174
+#: views/whitelabel/settings/lottery.php:7
+#: views/whitelabel/settings/lottery_edit.php:7
+#: views/whitelabel/settings/menu.php:3
+msgid "Lottery settings"
+msgstr "Ρυθμίσεις λαχείου"
+
+#: classes/controller/whitelabel.php:2200
+msgid "Google Analytics have been saved!"
+msgstr "Το Google Analytics έχει αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:2227
+#: views/whitelabel/settings/fbpixel.php:20
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2241
+#, fuzzy
+#| msgid "Payment settings have been saved!"
+msgid "Facebook Pixel settings have been saved!"
+msgstr "Οι ρυθμίσεις πληρωμής έχουν αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:2253 views/whitelabel/settings/menu.php:10
+msgid "Facebook Pixel"
+msgstr ""
+
+#: classes/controller/whitelabel.php:2282
+#: views/whitelabel/settings/index.php:39
+msgid "Maximum Auto-Payout"
+msgstr "Μέγιστη Αυτόματη Πληρωμή"
+
+#: classes/controller/whitelabel.php:2284
+#: views/whitelabel/settings/index.php:45
+msgid "Minimum Payment by Currency"
+msgstr "Ελάχιστη Πληρωμή κατά Νόμισμα"
+
+#: classes/controller/whitelabel.php:2286
+#: views/whitelabel/settings/index.php:52
+msgid "Minimum Deposit by Currency"
+msgstr "Ελάχιστη Κατάθεση κατά Νόμισμα"
+
+#: classes/controller/whitelabel.php:2289
+#: views/whitelabel/settings/index.php:59
+msgid "Minimum Withdrawal by Currency"
+msgstr "Ελάχιστη Ανάληψη κατά Νόμισμα"
+
+#: classes/controller/whitelabel.php:2291
+#: views/whitelabel/settings/index.php:66
+msgid "Maximum Order Amount by Currency"
+msgstr "Μέγιστο Ποσό Παραγγελίας κατά Νόμισμα"
+
+#: classes/controller/whitelabel.php:2293
+#: views/whitelabel/settings/index.php:74
+msgid "Maximum order items"
+msgstr "Μέγιστα αντικείμενα παραγγελίας"
+
+#: classes/controller/whitelabel.php:2296
+#: views/whitelabel/settings/index.php:20
+msgid "Default site currency"
+msgstr "Προεπιλεγμένο νόμισμα ιστοσελίδας"
+
+#: classes/controller/whitelabel.php:2328
+msgid "Incorrect currency."
+msgstr "Λάθος νόμισμα."
+
+#: classes/controller/whitelabel.php:2340 views/whitelabel/settings/index.php:7
+#: views/whitelabel/settings/menu.php:2
+msgid "Site settings"
+msgstr "Ρυθμίσεις ιστοσελίδας"
+
+#: classes/controller/whitelabel.php:2664
+msgid "Line prize has been paid out to the user account balance!"
+msgstr ""
+"Το βραβείο της γραμμής έχει πληρωθεί στο υπόλοιπο λογαριασμού του χρήστη!"
+
+#: classes/controller/whitelabel.php:2669
+#: classes/controller/whitelabel.php:2674
+#: classes/controller/whitelabel.php:2679
+msgid "Incorrect line!"
+msgstr "Λάθος γραμμή!"
+
+#: classes/controller/whitelabel.php:2712
+msgid "The ticket has been marked as paid out!"
+msgstr "Ο λαχνός έχει σημειωθεί ως πληρωμένος!"
+
+#: classes/controller/whitelabel.php:2716
+msgid ""
+"The ticket has been marked as paid out, however there are still some lines "
+"that will have to be paid automatically!"
+msgstr ""
+"Ο λαχνός έχει σημειωθεί ως πληρωμένος, ωστόσο υπάρχουν ακόμα μερικές γραμμές "
+"που θα πρέπει να πληρωθούν αυτόματα!"
+
+#: classes/controller/whitelabel.php:2721
+#: classes/controller/whitelabel.php:2787
+msgid "Incorrect ticket!"
+msgstr "Λάθος λαχνός!"
+
+#: classes/controller/whitelabel.php:2933
+#: classes/controller/whitelabel.php:2966
+#: classes/controller/whitelabel.php:2971
+#: classes/controller/whitelabel.php:2993
+#: classes/controller/whitelabel.php:3023
+msgid "Incorrect withdrawal!"
+msgstr "Λάθος ανάληψη!"
+
+#: classes/controller/whitelabel.php:2962
+msgid "Withdrawal has been approved!"
+msgstr "Η ανάληψη έχει εγκριθεί!"
+
+#: classes/controller/whitelabel.php:2989
+msgid "Withdrawal has been declined!"
+msgstr "Η ανάληψη έχει απορριφθεί!"
+
+#: classes/controller/whitelabel.php:3019
+msgid ""
+"Withdrawal has been canceled! The withdrawal amount has been returned to "
+"user account."
+msgstr ""
+"Η ανάληψη έχει ακυρωθεί! Το ποσό ανάληψης έχει επιστραφεί στον λογαριασμό "
+"του χρήστη."
+
+#: classes/controller/whitelabel.php:3430 views/admin/whitelabels/index.php:33
+#: views/admin/whitelabels/payments.php:10
+#: views/whitelabel/settings/ccsettings.php:13
+#: views/whitelabel/settings/menu.php:5
+#: views/whitelabel/settings/paymentmethods.php:7
+#: views/whitelabel/settings/paymentmethods.php:13
+msgid "Payment methods"
+msgstr "Μέθοδοι πληρωμής"
+
+#: classes/controller/whitelabel.php:3476
+#: views/whitelabel/settings/ccsettings.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:20
+#: views/whitelabel/transactions/view.php:42
+msgid "Gateway"
+msgstr "Πύλη"
+
+#: classes/controller/whitelabel.php:3484
+#: views/whitelabel/settings/ccsettings_edit.php:33
+#: views/whitelabel/transactions/view.php:106
+#: views/whitelabel/transactions/view.php:378
+msgid "Account ID"
+msgstr "Ταυτότητα Λογαριασμού"
+
+#: classes/controller/whitelabel.php:3486
+#: views/whitelabel/settings/ccsettings_edit.php:43
+msgid "Endpoint URL"
+msgstr "URL τελικού σημείου"
+
+#: classes/controller/whitelabel.php:3488
+#: views/whitelabel/settings/ccsettings_edit.php:48
+msgid "Secret key"
+msgstr "Μυστικό κλειδί"
+
+#: classes/controller/whitelabel.php:3489
+#: views/whitelabel/settings/ccsettings_edit.php:61
+msgid "Descriptor"
+msgstr "Περιγραφέας"
+
+#: classes/controller/whitelabel.php:3491
+#: views/whitelabel/settings/ccsettings_edit.php:53
+msgid "Minimum order"
+msgstr "Ελάχιστη παραγγελία"
+
+#: classes/controller/whitelabel.php:3539
+msgid "This gateway is already added!"
+msgstr "Η πύλη έχει ήδη προστεθεί!"
+
+#: classes/controller/whitelabel.php:3545
+msgid "Wrong gateway!"
+msgstr "Λάθος πύλη!"
+
+#: classes/controller/whitelabel.php:3577
+#: views/whitelabel/settings/ccsettings.php:7
+#: views/whitelabel/settings/ccsettings.php:14
+#: views/whitelabel/settings/paymentmethods.php:14
+msgid "Credit Card methods"
+msgstr "Μέθοδοι Πιστωτικών Καρτών"
+
+#: classes/controller/whitelabel.php:3713
+msgid "Transaction accepted! The amount has been subtracted from user balance!"
+msgstr ""
+"Η συναλλαγή έγινε αποδεκτή! Το ποσό έχει αφαιρεθεί από το υπόλοιπο του "
+"χρήστη!"
+
+#: classes/controller/whitelabel.php:3716
+msgid "Transaction accepted! The amount has been added to user balance!"
+msgstr ""
+"Η συναλλαγή έγινε αποδεκτή! Το ποσό έχει προστεθεί στο υπόλοιπο του χρήστη!"
+
+#: classes/controller/whitelabel.php:3719
+msgid "Transaction accepted!"
+msgstr "Η συναλλαγή έγινε αποδεκτή!"
+
+#: classes/controller/whitelabel.php:3725
+#: classes/controller/whitelabel.php:3730
+#: classes/controller/whitelabel.php:3767
+msgid "Incorrect transaction!"
+msgstr "Λάθος συναλλαγή!"
+
+#: classes/controller/whitelabel.php:3943
+msgid "User has been deleted!"
+msgstr "Ο χρήστης έχει διαγραφεί!"
+
+#: classes/controller/whitelabel.php:3966
+msgid "User has been activated and confirmed!"
+msgstr "Ο χρήστης έχει ενεργοποιηθεί και επιβεβαιωθεί!"
+
+#: classes/controller/whitelabel.php:3996
+msgid "User has been restored!"
+msgstr "Ο χρήστης έχει επαναφερθεί!"
+
+#: classes/controller/whitelabel.php:4000
+msgid ""
+"User cannot be restored because there exists active user with this e-mail."
+msgstr ""
+"Ο χρήστης δεν μπορεί να επαναφερθεί γιατί υπάρχει ενεργός χρήστης με την "
+"διεύθυνση ηλεκτρονικού ταχυδρομείου του."
+
+#: classes/controller/whitelabel.php:4051 views/aff/shared/header.php:7
+#: views/whitelabel/affs/commissions.php:13
+#: views/whitelabel/affs/commissions.php:52 views/whitelabel/affs/ftps.php:13
+#: views/whitelabel/affs/ftps.php:52 views/whitelabel/affs/leads.php:13
+#: views/whitelabel/affs/leads.php:52 views/whitelabel/affs/payouts.php:13
+#: views/whitelabel/affs/payouts.php:32 views/whitelabel/affs/reports.php:21
+#: views/whitelabel/affs/reports.php:59 views/whitelabel/affs/reports.php:117
+#: views/whitelabel/affs/reports.php:170 views/whitelabel/users/aff.php:20
+#: views/whitelabel/users/index.php:71
+msgid "Affiliate"
+msgstr "Συνεργάτης"
+
+#: classes/controller/whitelabel.php:4061
+#: classes/controller/whitelabel.php:4082
+msgid "User affiliate has been changed."
+msgstr "Ο συνεργάτης του χρήστη έχει αλλάξει."
+
+#: classes/controller/whitelabel.php:4121
+msgid "User e-mail address confirmed!"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου του χρήστη έχει επιβεβαιωθεί!"
+
+#: classes/controller/whitelabel.php:4307
+msgid "User details has been saved!"
+msgstr "Τα στοιχεία του χρήστη έχουν αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:4375
+msgid "User password has been changed!"
+msgstr "Το συνθηματικό του χρήστη έχει αλλάξει!"
+
+#: classes/controller/whitelabel.php:4475
+msgid "Cannot update e-mail in eMerchantPay system. Please contact us!"
+msgstr ""
+"Δεν μπορούμε να ενημερώσουμε την διεύθυνση ηλεκτρονικού ταχυδρομείου στο "
+"σύστημα eMerchantPay. Παρακαλούμε επικοινωνήστε μαζί μας!"
+
+#: classes/controller/whitelabel.php:4546
+#: views/admin/payments/paymentlogs.php:68
+#: views/whitelabel/transactions/withdrawal.php:33
+#: views/whitelabel/transactions/withdrawals.php:55
+msgid "User balance"
+msgstr "Υπόλοιπο χρήστη"
+
+#: classes/controller/whitelabel.php:4555
+msgid "User balance saved!"
+msgstr "Το υπόλοιπο του χρήστη έχει αποθηκευτεί!"
+
+#: classes/controller/whitelabel.php:4598 views/aff/reports/commissions.php:58
+#: views/aff/reports/index.php:176 views/aff/reports/payouts.php:20
+#: views/whitelabel/affs/commissions.php:64
+#: views/whitelabel/affs/payouts.php:37 views/whitelabel/affs/reports.php:182
+#: views/whitelabel/tickets/index.php:67 views/whitelabel/tickets/view.php:35
+#: views/whitelabel/transactions/index.php:57
+#: views/whitelabel/transactions/view.php:45
+#: views/whitelabel/transactions/view.php:334
+#: views/whitelabel/transactions/view.php:585
+#: views/whitelabel/transactions/view.php:607
+#: views/whitelabel/transactions/withdrawal.php:31
+#: views/whitelabel/transactions/withdrawals.php:57
+#: views/whitelabel/users/deposit.php:30
+msgid "Amount"
+msgstr "Ποσό"
+
+#: classes/controller/whitelabel.php:4632
+msgid "Deposit has been added!"
+msgstr "Η κατάθεση έχει προστεθεί!"
+
+#: classes/controller/whitelabel.php:4748 views/whitelabel/tickets/index.php:45
+#: views/whitelabel/tickets/view.php:19
+#: views/whitelabel/transactions/index.php:36
+#: views/whitelabel/transactions/view.php:15
+#: views/whitelabel/transactions/withdrawal.php:15
+#: views/whitelabel/transactions/withdrawals.php:33
+msgid "User ID"
+msgstr "Ταυτότητα χρήστη"
+
+#: classes/controller/whitelabel.php:4748
+#: views/whitelabel/transactions/index.php:15
+#: views/whitelabel/transactions/index.php:88
+#: views/whitelabel/transactions/view.php:33
+#: views/whitelabel/users/balance.php:20 views/whitelabel/users/index.php:73
+#: views/whitelabel/users/view.php:45
+msgid "Balance"
+msgstr "Υπόλοιπο"
+
+#: classes/controller/whitelabel.php:4748 views/whitelabel/users/view.php:47
+msgid "Date register"
+msgstr "Εγγραφή ημερομηνίας"
+
+#: lang/translation.php:3
+msgid "Powerball"
+msgstr "Powerball"
+
+#: lang/translation.php:4
+msgid "Mega Millions"
+msgstr "Mega Millions"
+
+#: lang/translation.php:5
+msgid "Eurojackpot"
+msgstr "Eurojackpot"
+
+#: lang/translation.php:6
+msgid "SuperEnalotto"
+msgstr "SuperEnalotto"
+
+#: lang/translation.php:7
+msgid "UK Lottery"
+msgstr "Λαχείο Ηνωμένου Βασιλείου"
+
+#: lang/translation.php:8
+msgid "EuroMillions"
+msgstr "EuroMillions"
+
+#: lang/translation.php:9
+msgid "Polish Lotto"
+msgstr "Λόττο Πολωνίας"
+
+#: lang/translation.php:12 views/aff/settings/payment.php:30
+msgid "Bank account"
+msgstr "Τραπεζικός λογαριασμός"
+
+#: lang/translation.php:13 views/aff/settings/payment.php:53
+#: views/whitelabel/affs/payouts.php:71
+#: views/whitelabel/transactions/view.php:286
+msgid "Skrill"
+msgstr "Skrill"
+
+#: lang/translation.php:14 views/aff/settings/payment.php:68
+#: views/whitelabel/affs/payouts.php:76
+#: views/whitelabel/transactions/view.php:312
+msgid "Neteller"
+msgstr "Neteller"
+
+#: lang/translation.php:15 views/whitelabel/affs/payouts.php:81
+msgid "BTC"
+msgstr "BTC"
+
+#: lang/translation.php:16
+msgid "Debit card"
+msgstr "Χρεωστική κάρτα"
+
+#: views/admin/lotteries/delays.php:8 views/admin/lotteries/draws.php:8
+#: views/admin/lotteries/draws.php:58 views/whitelabel/affs/groups.php:8
+#: views/whitelabel/affs/index.php:9
+#: views/whitelabel/settings/ccsettings.php:10
+#: views/whitelabel/settings/paymentmethods.php:10
+msgid "Add New"
+msgstr "Προσθήκη νέου"
+
+#: views/admin/lotteries/delays.php:11
+msgid ""
+"Here you can add or edit delayed lottery draw dates to automatically process "
+"the changes within the system."
+msgstr ""
+"Εδώ μπορείτε να προσθέτετε ή να επεξεργάζεστε ημερομηνίες κλήρωσης λαχείου "
+"για να επεξεργάζεστε αυτόματα τις αλλαγές μέσα στο σύστημα."
+
+#: views/admin/lotteries/delays.php:21
+msgid "Postponed date"
+msgstr "Αναβληθείσα ημερομηνία"
+
+#: views/admin/lotteries/delays.php:22 views/admin/lotteries/index.php:32
+#: views/admin/whitelabels/index.php:22 views/admin/whitelabels/payments.php:24
+#: views/aff/reports/payouts.php:23 views/whitelabel/affs/commissions.php:66
+#: views/whitelabel/affs/groups.php:22 views/whitelabel/affs/index.php:91
+#: views/whitelabel/affs/leads.php:65 views/whitelabel/affs/payouts.php:41
+#: views/whitelabel/settings/ccsettings.php:25
+#: views/whitelabel/settings/lottery.php:23
+#: views/whitelabel/settings/paymentmethods.php:29
+#: views/whitelabel/tickets/index.php:74
+#: views/whitelabel/transactions/index.php:64
+#: views/whitelabel/transactions/withdrawals.php:61
+#: views/whitelabel/users/index.php:86
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: views/admin/lotteries/delays.php:32 views/admin/lotteries/index.php:46
+#: views/admin/whitelabels/index.php:32 views/admin/whitelabels/payments.php:36
+#: views/whitelabel/affs/groups.php:44 views/whitelabel/affs/groups.php:66
+#: views/whitelabel/settings/ccsettings.php:34
+#: views/whitelabel/settings/lottery.php:44
+#: views/whitelabel/settings/paymentmethods.php:41
+#: views/whitelabel/users/index.php:123
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:140 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:97 views/whitelabel/affs/leads.php:99
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/index.php:177
+#: views/whitelabel/tickets/view.php:99
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawals.php:97
+#: views/whitelabel/transactions/withdrawals.php:99
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:145
+#: views/whitelabel/users/index.php:152
+msgid "Are you sure?"
+msgstr "Είστε σίγουροι;"
+
+#: views/admin/lotteries/delays.php:39
+#: views/whitelabel/affs/commissions.php:121
+#: views/whitelabel/affs/groups.php:67 views/whitelabel/affs/index.php:149
+#: views/whitelabel/affs/leads.php:99 views/whitelabel/users/index.php:152
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: views/admin/lotteries/delays.php:49
+msgid "There are no delays specified."
+msgstr "Δεν υπάρχουν καθορισμένες καθυστερήσεις."
+
+#: views/admin/lotteries/delays.php:59 views/aff/reports/payouts.php:78
+#: views/whitelabel/affs/commissions.php:141
+#: views/whitelabel/affs/groups.php:83 views/whitelabel/affs/index.php:103
+#: views/whitelabel/affs/index.php:169 views/whitelabel/affs/leads.php:119
+#: views/whitelabel/affs/payouts.php:140 views/whitelabel/tickets/view.php:156
+#: views/whitelabel/transactions/index.php:140
+#: views/whitelabel/transactions/view.php:754
+#: views/whitelabel/transactions/withdrawal.php:95
+#: views/whitelabel/transactions/withdrawals.php:123
+#: views/whitelabel/users/index.php:102 views/whitelabel/users/index.php:172
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: views/admin/lotteries/delays.php:64 views/aff/reports/payouts.php:83
+#: views/whitelabel/affs/commissions.php:146
+#: views/whitelabel/affs/groups.php:88 views/whitelabel/affs/index.php:174
+#: views/whitelabel/affs/leads.php:124 views/whitelabel/affs/payouts.php:145
+#: views/whitelabel/tickets/index.php:182 views/whitelabel/tickets/view.php:161
+#: views/whitelabel/transactions/index.php:145
+#: views/whitelabel/transactions/view.php:759
+#: views/whitelabel/transactions/withdrawal.php:100
+#: views/whitelabel/transactions/withdrawals.php:128
+#: views/whitelabel/users/index.php:177
+msgid "OK"
+msgstr "ΟΚ"
+
+#: views/admin/lotteries/delays.php:65 views/admin/lotteries/draws.php:59
+#: views/admin/lotteries/index.php:91 views/admin/whitelabels/index.php:59
+#: views/admin/whitelabels/payments.php:61 views/aff/reports/payouts.php:84
+#: views/whitelabel/affs/commissions.php:147
+#: views/whitelabel/affs/groups.php:89 views/whitelabel/affs/index.php:175
+#: views/whitelabel/affs/leads.php:125 views/whitelabel/affs/payouts.php:146
+#: views/whitelabel/tickets/index.php:183 views/whitelabel/tickets/view.php:162
+#: views/whitelabel/transactions/index.php:146
+#: views/whitelabel/transactions/view.php:760
+#: views/whitelabel/transactions/withdrawal.php:84
+#: views/whitelabel/transactions/withdrawal.php:101
+#: views/whitelabel/transactions/withdrawals.php:102
+#: views/whitelabel/transactions/withdrawals.php:129
+#: views/whitelabel/users/index.php:178
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: views/admin/lotteries/delays_edit.php:7
+msgid "Add new postponed draw"
+msgstr "Προσθέστε νέα αναβληθείσα κλήρωση"
+
+#: views/admin/lotteries/delays_edit.php:8
+msgid "You can add a postponed lottery draw here."
+msgstr "Εδώ μπορείτε να προσθέτετε μία αναβληθείσα κλήρωση λαχείου."
+
+#: views/admin/lotteries/delays_edit.php:9 views/admin/lotteries/draw_add.php:9
+#: views/admin/lotteries/draws.php:12 views/admin/lotteries/jackpot.php:9
+#: views/admin/lotteries/nextdraw.php:9 views/admin/lotteries/source.php:9
+#: views/admin/whitelabels/add.php:9 views/admin/whitelabels/edit.php:9
+#: views/admin/whitelabels/payments_edit.php:9 views/aff/dashboard/index.php:44
+#: views/aff/settings/edit.php:9 views/aff/settings/password.php:9
+#: views/whitelabel/affs/edit.php:9 views/whitelabel/affs/email.php:9
+#: views/whitelabel/affs/groups_edit.php:9 views/whitelabel/affs/new.php:9
+#: views/whitelabel/affs/password.php:9 views/whitelabel/affs/view.php:9
+#: views/whitelabel/settings/account_edit.php:9
+#: views/whitelabel/settings/ccsettings_edit.php:9
+#: views/whitelabel/settings/lottery_edit.php:9
+#: views/whitelabel/settings/password.php:9
+#: views/whitelabel/settings/paymentmethods_edit.php:9
+#: views/whitelabel/tickets/view.php:9 views/whitelabel/transactions/view.php:9
+#: views/whitelabel/transactions/withdrawal.php:9
+#: views/whitelabel/users/aff.php:9 views/whitelabel/users/balance.php:9
+#: views/whitelabel/users/deposit.php:9 views/whitelabel/users/edit.php:9
+#: views/whitelabel/users/email.php:9 views/whitelabel/users/password.php:9
+#: views/whitelabel/users/view.php:9
+msgid "Back"
+msgstr "Πίσω"
+
+#: views/admin/lotteries/delays_edit.php:29
+#: views/admin/lotteries/delays_edit.php:36
+#: views/admin/lotteries/draw_add.php:21
+msgid "Enter date"
+msgstr "Εισαγωγή ημερομηνίας"
+
+#: views/admin/lotteries/delays_edit.php:31
+#: views/admin/lotteries/delays_edit.php:38
+#: views/admin/lotteries/draw_add.php:23 views/aff/settings/edit.php:75
+#: views/whitelabel/affs/edit.php:95 views/whitelabel/users/edit.php:67
+msgid "Format: mm/dd/yyyy"
+msgstr "Μορφή: ηη/μμ/εεεε"
+
+#: views/admin/lotteries/delays_edit.php:41
+#: views/admin/lotteries/draw_add.php:86 views/admin/lotteries/jackpot.php:26
+#: views/admin/lotteries/nextdraw.php:27 views/admin/lotteries/source.php:27
+#: views/admin/whitelabels/add.php:48 views/admin/whitelabels/edit.php:44
+#: views/admin/whitelabels/payments_edit.php:118
+#: views/aff/settings/analytics.php:24 views/aff/settings/edit.php:101
+#: views/aff/settings/password.php:29 views/aff/settings/payment.php:96
+#: views/whitelabel/affs/edit.php:121 views/whitelabel/affs/email.php:23
+#: views/whitelabel/affs/groups_edit.php:69 views/whitelabel/affs/new.php:46
+#: views/whitelabel/affs/password.php:29 views/whitelabel/affs/settings.php:43
+#: views/whitelabel/settings/account_edit.php:47
+#: views/whitelabel/settings/analytics.php:24
+#: views/whitelabel/settings/ccsettings_edit.php:69
+#: views/whitelabel/settings/fbpixel.php:27
+#: views/whitelabel/settings/index.php:77
+#: views/whitelabel/settings/lottery_edit.php:57
+#: views/whitelabel/settings/password.php:29
+#: views/whitelabel/settings/paymentmethods_edit.php:118
+#: views/whitelabel/users/aff.php:30 views/whitelabel/users/balance.php:27
+#: views/whitelabel/users/deposit.php:37 views/whitelabel/users/edit.php:93
+#: views/whitelabel/users/email.php:23 views/whitelabel/users/password.php:29
+msgid "Submit"
+msgstr "Καταχώρηση"
+
+#: views/admin/lotteries/draw_add.php:7
+msgid "Add Draw"
+msgstr "Προσθήκη Κλήρωσης"
+
+#: views/admin/lotteries/draw_add.php:8
+msgid ""
+"You can manually add a lottery draw here. You should only do this when "
+"automatic update is not available!<br>All users' tickets will be processed "
+"according to the added draw data! This operation cannot be undone!"
+msgstr ""
+"Μπορείτε να προσθέτετε μία κλήρωση λαχείου χειροκίνητα εδώ. Πρέπει να το "
+"κάνετε αυτό μόνο όταν η αυτόματη αναβάθμιση δεν είναι διαθέσιμη!<br>Οι "
+"λαχνοί όλων των χρηστών θα επεξεργαστούν σύμφωνα με τα δεδομένα της "
+"προστιθέμενης κλήρωσης! Αυτή η διεργασία δεν μπορεί να αναιρεθεί!"
+
+#: views/admin/lotteries/draw_add.php:28
+msgid "Enter next jackpot"
+msgstr "Εισαγωγή νέου τζακπότ"
+
+#: views/admin/lotteries/draw_add.php:30
+#, php-format
+msgid ""
+"You should add a draw only if the next jackpot is already known.<br>Unit: "
+"million (e.g. type '29.5' for 29.5 million jackpot). Use dot for decimal "
+"digits. <br>Currency: %s<br>Jackpot for this draw: %s"
+msgstr ""
+"Πρέπει να προσθέτετε μία κλήρωση μόνο όταν το επόμενο τζακπότ είναι ήδη "
+"γνωστό.<br>Τεμάχιο: εκατομμύριο (π.χ. πληκτρολογήστε ’29.5’ για τζακπότ 29.5 "
+"εκατομμυρίων). Χρησιμοποιήστε τελεία για δεκαδικά ψηφία. <br>Νόμισμα: "
+"%s<br>Τζακπότ για αυτή την κλήρωση: %s"
+
+#: views/admin/lotteries/draw_add.php:34 views/admin/lotteries/draws.php:23
+msgid "Draw Numbers"
+msgstr "Αριθμοί κλήρωσης"
+
+#: views/admin/lotteries/draw_add.php:39 views/admin/lotteries/draw_add.php:53
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: views/admin/lotteries/draw_add.php:44 views/admin/lotteries/draw_add.php:58
+#, php-format
+msgid "Range: %s"
+msgstr "Εύρος: %s"
+
+#: views/admin/lotteries/draw_add.php:48
+msgid "Bonus Numbers"
+msgstr "Αριθμοί Μπόνους"
+
+#: views/admin/lotteries/draw_add.php:61
+msgid "Draw winners"
+msgstr "Νικητές Κλήρωσης"
+
+#: views/admin/lotteries/draw_add.php:63
+msgid ""
+"Type 0's in case of no winner/prize.<br>You should add a draw only if prize "
+"breakout is already known."
+msgstr ""
+"Πληκτρολογήστε 0 σε περίπτωση που δεν υπάρχει νικητής/βραβεί.<br>Πρέπει να "
+"προσθέτετε μία κλήρωση μόνο όταν η αποκάλυψη του βραβείου είναι ήδη γνωστή."
+
+#: views/admin/lotteries/draw_add.php:66 views/whitelabel/tickets/view.php:71
+msgid "Match"
+msgstr "Παιχνίδι"
+
+#: views/admin/lotteries/draw_add.php:78
+msgid "Free Quick Pick"
+msgstr "Δωρεάν Γρήγορη Επιλογή"
+
+#: views/admin/lotteries/draw_add.php:80 views/whitelabel/tickets/index.php:71
+#: views/whitelabel/tickets/view.php:78
+msgid "Prize"
+msgstr "Βραβείο"
+
+#: views/admin/lotteries/draws.php:10
+msgid "Draws"
+msgstr "Κληρώσεις"
+
+#: views/admin/lotteries/draws.php:11
+msgid "This is a list of lottery draws."
+msgstr "Αυτή είναι μία λίστα κληρώσεων λαχείου."
+
+#: views/admin/lotteries/draws.php:20 views/whitelabel/reports/index.php:19
+#: views/whitelabel/tickets/index.php:36 views/whitelabel/tickets/index.php:69
+#: views/whitelabel/tickets/view.php:32
+msgid "Draw Date"
+msgstr "Ημερομηνία Κλήρωσης"
+
+#: views/admin/lotteries/draws.php:21
+msgid "Download Date"
+msgstr "Ημερομηνία Κατεβάσματος"
+
+#: views/admin/lotteries/draws.php:22 views/whitelabel/tickets/index.php:133
+#: views/whitelabel/tickets/view.php:81 views/whitelabel/tickets/view.php:118
+msgid "Jackpot"
+msgstr "Τζακπότ"
+
+#: views/admin/lotteries/draws.php:24
+msgid "Draw Bonus Numbers"
+msgstr "Κλήρωση Μπόνους Αριθμών"
+
+#: views/admin/lotteries/draws.php:42
+msgid "There are no draws for this lottery yet."
+msgstr "Δεν υπάρχουν κληρώσεις για αυτό το λαχείο ακόμα."
+
+#: views/admin/lotteries/draws.php:52
+msgid "Confirm new draw"
+msgstr "Επιβεβαίωση νέας κλήρωσης"
+
+#: views/admin/lotteries/draws.php:55
+msgid ""
+"Are you sure you want to add new draw?&#10;You should only do this when "
+"automatic update is not available!&#10;All users' tickets will be processed "
+"according to added draw data!"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να προσθέσετε νέα κλήρωση;&#10;Πρέπει να το κάνετε "
+"αυτό μόνο όταν η αυτόματη αναβάθμιση δεν είναι διαθέσιμη!&#10;Οι λαχνοί όλων "
+"των χρηστών θα επεξεργαστούν σύμφωνα με τα προστιθέμενα δεδομένα της "
+"κλήρωσης!"
+
+#: views/admin/lotteries/imvalaplogs.php:7 views/admin/lotteries/index.php:10
+#: views/admin/lotteries/logs.php:7 views/admin/lotteries/lottorisqlogs.php:7
+#: views/admin/shared/navbar.php:15
+msgid "Lotteries"
+msgstr "Λαχεία"
+
+#: views/admin/lotteries/imvalaplogs.php:8
+msgid ""
+"Here you can find all logs related to Imvalap provider. Logs are kept for 1 "
+"month."
+msgstr ""
+"Εδώ μπορείτε να βρείτε όλα τα αρχεία καταγραφής που σχετίζονται με τον "
+"παροχέα Imvalap. Τα αρχεία καταγραφής διατηρούνται για 1 μήνα."
+
+#: views/admin/lotteries/imvalaplogs.php:11 views/admin/lotteries/logs.php:11
+#: views/admin/lotteries/lottorisqlogs.php:11
+#: views/admin/payments/paymentlogs.php:11
+msgid "Date Range"
+msgstr "Εύρος Ημερομηνίας"
+
+#: views/admin/lotteries/imvalaplogs.php:14 views/admin/lotteries/logs.php:14
+#: views/admin/lotteries/lottorisqlogs.php:14
+#: views/admin/payments/paymentlogs.php:14 views/aff/reports/index.php:14
+#: views/whitelabel/affs/reports.php:14 views/whitelabel/reports/reports.php:14
+msgid "to"
+msgstr "για"
+
+#: views/admin/lotteries/imvalaplogs.php:19
+#: views/admin/lotteries/imvalaplogs.php:47
+#: views/admin/lotteries/lottorisqlogs.php:19
+#: views/admin/lotteries/lottorisqlogs.php:47
+#: views/admin/payments/paymentlogs.php:19
+#: views/admin/payments/paymentlogs.php:47
+msgid "Whitelabel"
+msgstr "Ιδιωτική Ετικέτα"
+
+#: views/admin/lotteries/imvalaplogs.php:21
+#: views/admin/lotteries/imvalaplogs.php:30 views/admin/lotteries/logs.php:21
+#: views/admin/lotteries/logs.php:30 views/admin/lotteries/lottorisqlogs.php:21
+#: views/admin/lotteries/lottorisqlogs.php:30
+#: views/admin/payments/paymentlogs.php:21
+#: views/admin/payments/paymentlogs.php:30
+msgid "All"
+msgstr "Όλα"
+
+#: views/admin/lotteries/imvalaplogs.php:36 views/admin/lotteries/logs.php:36
+#: views/admin/lotteries/lottorisqlogs.php:36
+#: views/admin/payments/paymentlogs.php:36 views/aff/reports/commissions.php:34
+#: views/aff/reports/ftps.php:34 views/aff/reports/leads.php:34
+#: views/whitelabel/affs/commissions.php:10
+#: views/whitelabel/affs/commissions.php:41 views/whitelabel/affs/ftps.php:10
+#: views/whitelabel/affs/ftps.php:41 views/whitelabel/affs/index.php:15
+#: views/whitelabel/affs/index.php:56 views/whitelabel/affs/leads.php:10
+#: views/whitelabel/affs/leads.php:41 views/whitelabel/affs/payouts.php:10
+#: views/whitelabel/affs/payouts.php:21 views/whitelabel/affs/reports.php:18
+#: views/whitelabel/tickets/index.php:10 views/whitelabel/tickets/index.php:50
+#: views/whitelabel/transactions/index.php:10
+#: views/whitelabel/transactions/index.php:41
+#: views/whitelabel/transactions/withdrawals.php:10
+#: views/whitelabel/transactions/withdrawals.php:38
+#: views/whitelabel/users/index.php:22 views/whitelabel/users/index.php:51
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: views/admin/lotteries/imvalaplogs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:48
+msgid "Ticket ID"
+msgstr "Ταυτότητα Λαχνού"
+
+#: views/admin/lotteries/imvalaplogs.php:49
+msgid "Job ID"
+msgstr "Ταυτότητα εργασίας"
+
+#: views/admin/lotteries/imvalaplogs.php:50 views/admin/lotteries/logs.php:48
+#: views/admin/lotteries/lottorisqlogs.php:50
+#: views/admin/payments/paymentlogs.php:50
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: views/admin/lotteries/imvalaplogs.php:86 views/admin/lotteries/logs.php:73
+#: views/admin/lotteries/lottorisqlogs.php:86
+#: views/admin/payments/paymentlogs.php:99
+msgid "There are no logs for this criteria."
+msgstr "Δεν υπάρχουν αρχεία καταγραφής για αυτά τα κριτήρια."
+
+#: views/admin/lotteries/index.php:8
+msgid "Show Logs"
+msgstr "Εμφάνιση Αρχείων Καταγραφής"
+
+#: views/admin/lotteries/index.php:11
+msgid ""
+"This is an overview of the lotteries. Draws and Jackpots are automatically "
+"updated every 20 minutes."
+msgstr ""
+"Αυτή είναι μία σύνοψη των λαχείων. Οι κληρώσεις και τα Τζακπότ ενημερώνονται "
+"αυτόματα κάθε 20 λεπτά."
+
+#: views/admin/lotteries/index.php:22 views/whitelabel/users/view.php:55
+msgid "Last Update"
+msgstr "Τελευταία Ανανέωση"
+
+#: views/admin/lotteries/index.php:24
+msgid "Draw Days"
+msgstr "Ημέρες Κλήρωσης"
+
+#: views/admin/lotteries/index.php:25
+msgid "Draw Hour"
+msgstr "Ώρα Κλήρωσης"
+
+#: views/admin/lotteries/index.php:26
+msgid "Draw Rules"
+msgstr "Κανόνες Κλήρωσης"
+
+#: views/admin/lotteries/index.php:26
+msgid ""
+"Amount of numbers (range of numbers) + Amount of bonus numbers (range of "
+"bonus numbers)&#10;*1 Extra number within the base range of draw numbers"
+msgstr ""
+"Ποσό αριθμών (εύρος αριθμών) + Ποσό μπόνους αριθμών (εύρος μπόνους "
+"αριθμών)&#10΄*1 Επιπλέον αριθμός μέσα στο εύρος βάσης των αριθμών κλήρωσης"
+
+#: views/admin/lotteries/index.php:28
+msgid "Last (Next) Draw Date"
+msgstr "Τελευταία (Επόμενη) Ημερομηνία Κλήρωσης"
+
+#: views/admin/lotteries/index.php:29
+msgid "Last Numbers"
+msgstr "Τελευταίοι Αριθμοί"
+
+#: views/admin/lotteries/index.php:30
+msgid "Last Bonus Numbers"
+msgstr "Τελευταίοι Μπόνους Αριθμοί"
+
+#: views/admin/lotteries/index.php:31
+msgid "Last Extra Number"
+msgstr "Τελευταίοι Επιπλέον Αριθμοί"
+
+#: views/admin/lotteries/index.php:45
+msgid "pending"
+msgstr "εκκρεμεί"
+
+#: views/admin/lotteries/index.php:53
+msgid "Next Draw"
+msgstr "Επόμενη Κλήρωση"
+
+#: views/admin/lotteries/index.php:59
+msgid "View Draws"
+msgstr "Εμφάνιση Κληρώσεων"
+
+#: views/admin/lotteries/index.php:63 views/admin/lotteries/index.php:90
+#: views/admin/whitelabels/index.php:58 views/admin/whitelabels/payments.php:60
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: views/admin/lotteries/index.php:65
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: views/admin/lotteries/index.php:74 views/whitelabel/settings/lottery.php:53
+msgid "There are no lotteries."
+msgstr "Δεν υπάρχουν λαχεία."
+
+#: views/admin/lotteries/index.php:84 views/admin/whitelabels/index.php:52
+#: views/admin/whitelabels/payments.php:54
+msgid "Confirm lottery switch off"
+msgstr "Επιβεβαιώστε την απενεργοποίηση του λαχείου"
+
+#: views/admin/lotteries/index.php:87 views/admin/whitelabels/index.php:55
+#: views/admin/whitelabels/payments.php:57
+msgid ""
+"Are you sure you want to disable this lottery?&#10;All bought users' tickets "
+"will stay pending unless you provide the latest draw numbers manually."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να απενεργοποιήσετε αυτό το λαχείο;&#10;Όλα τα "
+"αγορασμένα εισιτήρια χρηστών θα μείνουν σε εκκρεμότητα αν δεν δώσετε τους "
+"τελευταίους αριθμούς κλήρωσης χειροκίνητα."
+
+#: views/admin/lotteries/jackpot.php:7
+msgid "Edit Jackpot"
+msgstr "Επεξεργασία Τζακπότ"
+
+#: views/admin/lotteries/jackpot.php:8
+msgid ""
+"You can edit the current lottery jackpot here. You should only do this when "
+"the automated script does not work."
+msgstr ""
+"Μπορείτε να επεξεργαστείτε το τρέχον τζακπότ του λαχείου εδώ. Πρέπει να το "
+"κάνετε αυτό μόον όταν το αυτοματοποιημένο σενάριο δεν λειτουργεί."
+
+#: views/admin/lotteries/jackpot.php:21
+msgid "Enter current jackpot"
+msgstr "Εισαγωγή τρέχοντος τζακπότ"
+
+#: views/admin/lotteries/jackpot.php:23
+#, php-format
+msgid ""
+"Unit: million (e.g. type '29.5' for 29.5 million jackpot). Use dot for "
+"decimal digits. <br>Currency: %s"
+msgstr ""
+"Τεμάχιο: εκατομμύριο (π.χ. πληκτρολογήστε ’29.5’ για τζακπότ 29.5 "
+"εκατομμυρίων). Χρησιμοποιήστε τελεία για δεκαδικά ψηφία. <br>Νόμισμα: %s"
+
+#: views/admin/lotteries/logs.php:8
+msgid ""
+"Here you can find all logs related to the lotteries' data download. Logs are "
+"kept for 7 days."
+msgstr ""
+"Εδώ μπορείτε να βρείτε όλα τα αρχεία καταγραφής που σχετίζονται με τα "
+"δεδομένα των λαχείων. Τα αρχεία καταγραφής διατηρούνταιγια 7 ημέρες."
+
+#: views/admin/lotteries/lottorisqlogs.php:8
+msgid ""
+"Here you can find all logs related to Lottorisq provider. Logs are kept for "
+"1 month."
+msgstr ""
+"Εδώ μπορείτε να βρείτε όλα τα αρχεία καταγραφής που σχετίζονται με τον "
+"παροχέα Lottorisq. Τα αρχεία διατηρούνται για 1 μήνα."
+
+#: views/admin/lotteries/lottorisqlogs.php:49
+msgid "Slip ID"
+msgstr "Ταυτότητα απόδειξης"
+
+#: views/admin/lotteries/nextdraw.php:7
+msgid "Change next draw"
+msgstr "Αλλαγή νέας κλήρωσης"
+
+#: views/admin/lotteries/nextdraw.php:8
+msgid ""
+"You can manually change the lottery draw date here. You should only do this "
+"and you have to do this only when the lottery draw has been moved! It will "
+"automatically move every ticket to the chosen next draw date. The operation "
+"cannot be undone!"
+msgstr ""
+"Μπορείτε να αλλάξετε χειροκίνητα την ημερομηνία της κλήρωσης του λαχείου "
+"εδώ. Πρέπει να το κάνετε μόνο εσείς αυτό και πρέπει να το κάνετε μόνο όταν η "
+"κλήρωση του λαχείου έχει μεταφερθεί! Θα μεταφέρει αυτόματα κάθε λαχνό στην "
+"επόμενη επιλεγμένη ημερομηνία κλήρωσης. Η διεργασία δεν μπορεί να αναιρεθεί!"
+
+#: views/admin/lotteries/nextdraw.php:24
+msgid ""
+"Format: mm/dd/yyyy<br><strong>Date should be in lottery local timezone!</"
+"strong>"
+msgstr ""
+"Μορφή: μμ/ηη/εεεε<br><strong>Η ημερομηνία πρέπει να είναι στην τοπική ζώνη "
+"ώρας του λαχείου!</strong>"
+
+#: views/admin/lotteries/source.php:7
+msgid "Change source"
+msgstr "Αλλαγή πηγής"
+
+#: views/admin/lotteries/source.php:8
+msgid ""
+"Here you can change the source for the lottery. You should do this only when "
+"the original one is not working for a longer period of time!"
+msgstr ""
+"Εδώ μπορείτε να αλλάξετε την πηγή για το λαχείο. Πρέπει να το κάνετε αυτό "
+"μόνο όταν το αυθεντικό δεν λειτουργεί για μεγαλύτερη χρονική περίοδο!"
+
+#: views/admin/payments/paymentlogs.php:7 views/admin/shared/navbar.php:17
+msgid "Payments"
+msgstr "Πληρωμές"
+
+#: views/admin/payments/paymentlogs.php:8
+msgid ""
+"Here you can find all logs related to payments. Logs are kept for 1 year."
+msgstr ""
+"Εδώ μπορείτε να βρείτε όλα τα αρχεία καταγραφής που σχετίζονται με τις "
+"πληρωμές. Τα αρχεία καταγραφής διατηρούνται για 1 χρόνο."
+
+#: views/admin/payments/paymentlogs.php:48
+#: views/whitelabel/transactions/view.php:615
+msgid "Payment Method"
+msgstr "Μέθοδος Πληρωμής"
+
+#: views/admin/payments/paymentlogs.php:49 views/aff/reports/commissions.php:49
+#: views/aff/reports/index.php:167 views/whitelabel/affs/commissions.php:58
+#: views/whitelabel/affs/reports.php:176 views/whitelabel/tickets/index.php:42
+#: views/whitelabel/tickets/index.php:61 views/whitelabel/tickets/view.php:17
+#: views/whitelabel/transactions/view.php:102
+msgid "Transaction ID"
+msgstr "Ταυτότητα Συναλλαγής"
+
+#: views/admin/payments/paymentlogs.php:51
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: views/admin/payments/paymentlogs.php:70
+#: views/whitelabel/settings/ccsettings_edit.php:7
+#: views/whitelabel/transactions/index.php:17
+#: views/whitelabel/transactions/index.php:90
+#: views/whitelabel/transactions/view.php:35
+#: views/whitelabel/users/deposit.php:23
+msgid "Credit Card"
+msgstr "Πιστωτική Κάρτα"
+
+#: views/admin/payments/paymentlogs.php:88
+msgid "Show data"
+msgstr "Εμφάνιση δεδομένων"
+
+#: views/admin/shared/header.php:7
+msgid "Admin panel"
+msgstr "Πάνελ διαχειριστή"
+
+#: views/admin/shared/header.php:7 views/admin/shared/navbar.php:10
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+msgid "Lotto network"
+msgstr "Δίκτυο λόττο"
+
+#: views/admin/shared/navbar.php:5 views/aff/shared/navbar.php:5
+#: views/whitelabel/shared/navbar.php:5
+msgid "Toggle navigation"
+msgstr "Εναλλαγή πλοήγησης"
+
+#: views/admin/shared/navbar.php:20 views/aff/shared/navbar.php:20
+#: views/whitelabel/shared/navbar.php:25
+msgid "Sign out"
+msgstr "Αποσύνδεση"
+
+#: views/admin/signin/index.php:11 views/aff/signin/index.php:11
+#: views/whitelabel/signin/index.php:11
+msgid "Please sign in"
+msgstr "Παρακαλούμε συνδεθείτε"
+
+#: views/admin/signin/index.php:27 views/aff/signin/index.php:27
+#: views/whitelabel/signin/index.php:27
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+#: views/admin/whitelabels/add.php:7
+msgid "Add whitelabel"
+msgstr "Προσθήκη ιδιωτικής ετικέτας"
+
+#: views/admin/whitelabels/add.php:8
+msgid "You can add new whitelabel here."
+msgstr "Εδώ μπορείτε να προσθέσετε νέα ιδιωτική ετικέτα."
+
+#: views/admin/whitelabels/add.php:22 views/admin/whitelabels/edit.php:22
+msgid "Enter site name"
+msgstr "Εισάγετε όνομα ιστοσελίδας"
+
+#: views/admin/whitelabels/add.php:26 views/admin/whitelabels/edit.php:26
+msgid "Enter site domain"
+msgstr "Εισάγετε τομέα ιστοσελίδας"
+
+#: views/admin/whitelabels/add.php:27 views/admin/whitelabels/edit.php:27
+msgid ""
+"E.g. <strong>https://whitelabel.com</strong>. Only lowercase letters (a-z), "
+"numbers, and hyphens are allowed."
+msgstr ""
+"Π.χ. <strong>https://whitelabel.com</strong>. Μόνο μικρά γράμματα (a-z), "
+"αριθμούς, και παύλες επιτρέπονται."
+
+#: views/admin/whitelabels/add.php:31 views/admin/whitelabels/edit.php:31
+msgid "Enter site username"
+msgstr "Εισάγετε όνομα χρήστη ιστοσελίδας"
+
+#: views/admin/whitelabels/add.php:36 views/admin/whitelabels/edit.php:36
+#: views/whitelabel/affs/new.php:39
+msgid "Enter password"
+msgstr "Εισάγετε συνθηματικό"
+
+#: views/admin/whitelabels/add.php:38 views/admin/whitelabels/edit.php:38
+#: views/aff/settings/password.php:24 views/whitelabel/affs/new.php:41
+#: views/whitelabel/affs/password.php:24
+#: views/whitelabel/settings/password.php:24
+#: views/whitelabel/users/password.php:24
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: views/admin/whitelabels/add.php:41 views/admin/whitelabels/edit.php:41
+#: views/aff/settings/password.php:27 views/whitelabel/affs/new.php:44
+#: views/whitelabel/affs/password.php:27
+#: views/whitelabel/settings/password.php:27
+#: views/whitelabel/users/password.php:27
+msgid "Generated password"
+msgstr "Αυτόματο συνθηματικό"
+
+#: views/admin/whitelabels/add.php:45
+msgid "Enter site prefix"
+msgstr "Εισάγετε το πρόθεμα της ιστοσελίδας"
+
+#: views/admin/whitelabels/add.php:46
+msgid "Should be 2-letters long, e.g. <strong>WL</strong>."
+msgstr "Πρέπει να είναι μέχρι 2 γράμματα, π.χ. <strong>WL</strong>."
+
+#: views/admin/whitelabels/edit.php:7
+msgid "Edit whitelabel"
+msgstr "Επεξεργασία ιδιωτικής ετικέτας"
+
+#: views/admin/whitelabels/edit.php:8
+msgid "You can edit whitelabel here."
+msgstr "Εδώ μπορείτε να επεξεργαστείτε την ιδιωτική ετικέτα."
+
+#: views/admin/whitelabels/edit.php:42
+msgid "Leave blank to keep the current password"
+msgstr "Αφήστε το κενό για να κρατήσετε το τρέχον συνθηματικό"
+
+#: views/admin/whitelabels/index.php:8 views/admin/whitelabels/payments.php:8
+msgid "Add new"
+msgstr "Προσθέστε νέο"
+
+#: views/admin/whitelabels/index.php:11
+msgid "This is an overview of your whitelabels."
+msgstr "Αυτή είναι μία σύνοψη των ιδιωτικών ετικετών σας."
+
+#: views/admin/whitelabels/index.php:42
+msgid "There are no whitelabels."
+msgstr "Δεν υπάρχουν ιδιωτικές ετικέτες."
+
+#: views/admin/whitelabels/payments.php:11
+msgid "Here you can manage payment methods of your whitelabels."
+msgstr ""
+"Εδώ μπορείτε να διαχειρίζεστε τις μεθόδους πληρωμής των ιδιωτικών ετικετών "
+"σας."
+
+#: views/admin/whitelabels/payments.php:20
+#: views/whitelabel/settings/paymentmethods.php:25
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: views/admin/whitelabels/payments.php:23
+#: views/whitelabel/settings/paymentmethods.php:28
+msgid "Manual"
+msgstr "Χειροκίνητο"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:31 views/whitelabel/tickets/index.php:150
+#: views/whitelabel/users/index.php:141
+msgid "No"
+msgstr "Όχι"
+
+#: views/admin/whitelabels/payments.php:34 views/whitelabel/affs/index.php:133
+#: views/whitelabel/affs/index.php:136
+#: views/whitelabel/settings/paymentmethods.php:39
+#: views/whitelabel/tickets/index.php:32 views/whitelabel/tickets/index.php:149
+#: views/whitelabel/users/index.php:141
+msgid "Yes"
+msgstr "Ναι"
+
+#: views/admin/whitelabels/payments.php:44
+msgid "There are no payment methods specified for this whitelabel."
+msgstr ""
+"Δεν υπάρχουν καθορισμένες μέθοδοι πληρωμής για αυτή την ιδιωτική ετικέτα."
+
+#: views/admin/whitelabels/payments_edit.php:7
+#: views/whitelabel/settings/paymentmethods_edit.php:7
+#: views/whitelabel/transactions/view.php:130
+msgid "Payment method"
+msgstr "Μέθοδος πληρωμής"
+
+#: views/admin/whitelabels/payments_edit.php:8
+#: views/whitelabel/settings/paymentmethods_edit.php:8
+msgid "You can add new or edit payment method here."
+msgstr "Μπορείτε να προσθέσετε νέα ή να επεξεργαστείτε μέθοδο πληρωμής εδώ."
+
+#: views/admin/whitelabels/payments_edit.php:30
+#: views/aff/settings/payment.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:30
+#: views/whitelabel/users/aff.php:22 views/whitelabel/users/index.php:115
+msgid "None"
+msgstr "Κανένα"
+
+#: views/admin/whitelabels/payments_edit.php:38
+#: views/whitelabel/affs/groups_edit.php:22
+#: views/whitelabel/settings/paymentmethods_edit.php:38
+msgid "Enter name"
+msgstr "Εισάγετε όνομα"
+
+#: views/admin/whitelabels/payments_edit.php:42
+#: views/whitelabel/settings/paymentmethods_edit.php:42
+msgid "Do not check this for manual-only payments."
+msgstr "Μην επιλέξετε αυτό για χειροκίνητες μόνο πληρωμές."
+
+#: views/admin/whitelabels/payments_edit.php:45
+#: views/whitelabel/settings/paymentmethods_edit.php:45
+msgid "Skrill integration details"
+msgstr "Λεπτομέρειες ενσωμάτωσης Skrill"
+
+#: views/admin/whitelabels/payments_edit.php:48
+#: views/whitelabel/settings/paymentmethods_edit.php:48
+msgid "Enter merchant account e-mail"
+msgstr ""
+"Εισάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου του λογαριασμού του εμπόρου"
+
+#: views/admin/whitelabels/payments_edit.php:52
+#: views/whitelabel/settings/paymentmethods_edit.php:52
+msgid "Enter Skrill secret word"
+msgstr "Εισάγατε μυστική λέξη Skrill"
+
+#: views/admin/whitelabels/payments_edit.php:53
+#: views/whitelabel/settings/paymentmethods_edit.php:53
+msgid ""
+"Can be set in <strong>Settings &gt; Developer Settings</strong> section of "
+"your Skrill Digital Wallet account."
+msgstr ""
+"Μπορεί να οριστεί στις <strong>Ρυθμίσεις &gt; Ρυθμίσεις Κατασκευαστή</"
+"strong> τμήμα του λογαριαμού σου Ψηφιακού Πορτοφολιού Skrill."
+
+#: views/admin/whitelabels/payments_edit.php:57
+#: views/whitelabel/settings/paymentmethods_edit.php:57
+msgid "Enter merchant logo URL"
+msgstr "Εισάγετε το URL του λογότυπου του εμπόρου"
+
+#: views/admin/whitelabels/payments_edit.php:58
+#: views/whitelabel/settings/paymentmethods_edit.php:58
+msgid "At least 107px &times; 65px."
+msgstr "Τουλάχιστον 107px &times; 65px."
+
+#: views/admin/whitelabels/payments_edit.php:62
+#: views/whitelabel/settings/paymentmethods_edit.php:62
+msgid "Enter merchant description (logo alt)"
+msgstr "Εισάγετε περιγραφή εμπόρου (logo alt)"
+
+#: views/admin/whitelabels/payments_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:66
+msgid "Neteller integration details"
+msgstr "Λεπτρομέρειες ενσωμάτωσης Neteller"
+
+#: views/admin/whitelabels/payments_edit.php:69
+#: views/whitelabel/settings/paymentmethods_edit.php:69
+msgid "Enter App Client ID"
+msgstr "Εισάγετε Ταυτότητα Πελάτη Εφαρμογής"
+
+#: views/admin/whitelabels/payments_edit.php:72
+#: views/admin/whitelabels/payments_edit.php:73
+#: views/whitelabel/settings/paymentmethods_edit.php:72
+#: views/whitelabel/settings/paymentmethods_edit.php:73
+msgid "Enter App Client Secret"
+msgstr "Εισάγετε Μυστικό Πελάτη Εφαρμογής"
+
+#: views/admin/whitelabels/payments_edit.php:74
+#: views/whitelabel/settings/paymentmethods_edit.php:74
+msgid ""
+"Both Client ID &amp; Client Secret should be taken from <strong>Neteller "
+"Merchant Dashboard &gt; Developer &gt; Apps</strong>."
+msgstr ""
+"Και η Ταυτότητα του Πελάτη &amp; και το Μυστικό του Πελάτη πρέπει να "
+"παίρνονται από <strong>το Ταμπλό του Εμπόρου Neteller &gt; Προγραμματιστής "
+"&gt; Εφαρμογές</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:78
+#: views/whitelabel/settings/paymentmethods_edit.php:78
+msgid "Enter Webhook Secret Key"
+msgstr "Εισάγετε Μυστικό Κλειδί Webhook"
+
+#: views/admin/whitelabels/payments_edit.php:79
+#, php-format
+msgid ""
+"Can be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; "
+"Webhooks</strong>. You should set the <strong>Webhook URL</strong> to "
+"<strong>%s</strong> and check following hooks: <strong>payment_cancelled</"
+"strong>, <strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Μπορεί να οριστεί στο <strong>Ταμπλό Εμπόρου Neteller &gt; Προγραμματιστής "
+"&gt; Webhooks</strong>. Πρέπει να ορίσετε το <strong>Webhook URL</strong> σε "
+"<strong>%s</strong> και να ελέγξετε τις ακόλουθες συνδέσεις: "
+"<strong>πληρωμή_ακυρώθηκε</strong>, <strong>πληρωμή_απορρίφθηκε</strong>, "
+"<strong>πληρωμή_απέτυχε</strong>, <strong>πληρωμή_πέτυχε</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:83
+#: views/whitelabel/settings/ccsettings_edit.php:66
+#: views/whitelabel/settings/paymentmethods_edit.php:83
+msgid "Check it for test account."
+msgstr "Ελέγξτε το για δοκιμαστικό λογαριασμό."
+
+#: views/admin/whitelabels/payments_edit.php:87
+#: views/whitelabel/settings/paymentmethods_edit.php:87
+msgid "tpay.com integration details"
+msgstr "Λεπτομέρειες ενσωμάτωσης tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:89
+#: views/whitelabel/settings/paymentmethods_edit.php:89
+#: views/whitelabel/transactions/view.php:308
+msgid "Merchant ID"
+msgstr "Ταυτότητα εμπόρου"
+
+#: views/admin/whitelabels/payments_edit.php:90
+#: views/whitelabel/settings/paymentmethods_edit.php:90
+msgid "Enter tpay.com ID"
+msgstr "Εισάγετε ταυτότητα tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:94
+#: views/whitelabel/settings/paymentmethods_edit.php:94
+msgid "Enter tpay.com Security Code"
+msgstr "Εισάγετε Κωδικό Ασφαλείας tpay.com"
+
+#: views/admin/whitelabels/payments_edit.php:95
+#: views/whitelabel/settings/paymentmethods_edit.php:95
+msgid ""
+"Can be set in <strong>Settings &gt; notifications &gt; Security Code</"
+"strong> section of your tpay.com Merchant Panel.<br>Make sure <strong>Allow "
+"notification URL overwrite</strong> is set to <strong>yes</strong>."
+msgstr ""
+"Μπορεί να οριστεί σε <strong>Ρυθμίσεις &gt; ειδοποιήσεις &gt; Κωδικός "
+"Ασφαλείας</strong> τμήμα του Πάνελ Εμπόρου tpay.com.<br>Βεβαιωθείτε "
+"<strong>Επιτρέψτε την επανεγγραφή URL ειδοποιήσεων</strong> έχει οριστεί σε "
+"<strong>ναι</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:99
+#: views/whitelabel/settings/paymentmethods_edit.php:99
+msgid "Cubits integration details"
+msgstr "Λεπτομέρειες ενσωμάτωσης Cubits"
+
+#: views/admin/whitelabels/payments_edit.php:102
+#: views/whitelabel/settings/ccsettings_edit.php:39
+#: views/whitelabel/settings/paymentmethods_edit.php:102
+msgid "Enter API Key"
+msgstr "Εισάγετε API Κλειδί"
+
+#: views/admin/whitelabels/payments_edit.php:105
+#: views/whitelabel/settings/paymentmethods_edit.php:105
+msgid "Enter API Secret"
+msgstr "Εισάγετε API Μυστικό"
+
+#: views/admin/whitelabels/payments_edit.php:107
+#: views/whitelabel/settings/paymentmethods_edit.php:107
+msgid ""
+"Can be generated in <strong>Merchant &gt; Integration Tools &gt; API "
+"Integration</strong>."
+msgstr ""
+"Μπορεί να δημιουργηθεί σε <strong>Έμπορος &gt; Εργαλεία Ενσωμάτωσης &gt; "
+"Εσνωμάτωση API</strong>."
+
+#: views/admin/whitelabels/payments_edit.php:111
+#: views/whitelabel/settings/paymentmethods_edit.php:111
+msgid "Sofort integration details"
+msgstr "Λεπτoμέρειες ενσωμάτωσης Sofort"
+
+#: views/admin/whitelabels/payments_edit.php:114
+#: views/whitelabel/settings/paymentmethods_edit.php:114
+msgid "Enter Configuration Key"
+msgstr "Εισαγωγή Κλειδιού Διαμόρφωσης"
+
+#: views/admin/whitelabels/payments_edit.php:115
+#: views/whitelabel/settings/paymentmethods_edit.php:115
+msgid ""
+"Can be found in the <strong>Merchant panel &gt; Projects &gt; My projects "
+"&gt; (choose your project) &gt; General settings &gt; Configuration key for "
+"your shop system</strong>."
+msgstr ""
+"Μπορεί να βρεθεί σε <strong>Πάνελ εμπόρου &gt; Εργασίες &gt; Οι εργασίες μου "
+"&gt; (επιλέξτε την εργασία σας) &gt; Γενικές ρυθμίσεις &gt; Κλειδί "
+"προσαρμογής για το σύστημα αγοράς σας</strong>."
+
+#: views/aff/dashboard/index.php:6
+msgid "Your data"
+msgstr "Τα δεδομένα σας"
+
+#: views/aff/dashboard/index.php:9
+msgid "Ref"
+msgstr "Παραπομπή"
+
+#: views/aff/dashboard/index.php:12
+msgid "General link"
+msgstr "Γενικός σύνδεσμος"
+
+#: views/aff/dashboard/index.php:18
+msgid "Your plan"
+msgstr "Το πρόγραμμά σας"
+
+#: views/aff/dashboard/index.php:37
+msgid "Generate your affiliate link"
+msgstr "Δημιουργήστε τον σύνδεσμο συνεργάτη σας"
+
+#: views/aff/dashboard/index.php:41
+msgid "Generated link"
+msgstr "Δημιουργημένος σύνδεσμος"
+
+#: views/aff/dashboard/index.php:49
+msgid "Enter medium"
+msgstr "Εισαγωγή μέσου"
+
+#: views/aff/dashboard/index.php:50
+msgid ""
+"The advertising or marketing medium, for example: cpc, banner, email "
+"newsletter."
+msgstr ""
+"Η διαφήμιση ή το μέσο μάρκετινγκ, για παράδεισμα: cps, διαφημιστικό πλαίσιο, "
+"ενημερωτικά ηλεκτρονικά μηνύματα."
+
+#: views/aff/dashboard/index.php:54
+msgid "Enter campaign"
+msgstr "Εισάγετε καμπάνια"
+
+#: views/aff/dashboard/index.php:55
+msgid "The individual campaign name, slogan, promo code, etc."
+msgstr "Το μοναδικό όνομα, σλόγκαν, κωδικό προώθησης, κλπ. καμπάνιας."
+
+#: views/aff/dashboard/index.php:59
+msgid "Enter content"
+msgstr "Εισάγετε περιεχόμενο"
+
+#: views/aff/dashboard/index.php:60
+msgid ""
+"Used to differentiate similar content, or links within the same ad. For "
+"example, if you have two call-to-action links within the same email message, "
+"you can use <em>content</em> and set different values for each so you can "
+"tell which version is more effective."
+msgstr ""
+"Χρησιμοποιείται για να διαφοροποιεί παρόμοια περιεχόμενα, ή συνδέσμους μέσα "
+"στην ίδια διαφήμιση. Για παράδειγμα, αν έχετε δύο συνδέσμους προς δράση μέσα "
+"στο ίδιο μήνυμα ηλεκτρονικού ταχυδρομείου, μπορείτε να χρησιμοποιήσετε "
+"<em>το περιεχόμενο</em> και να θέσετε διαφορετικές αξίες για κάθε ένα ώστε "
+"να μπορείτε να ξεχωρίσετε ποια έκδοση είναι πιο αποδοτική."
+
+#: views/aff/dashboard/index.php:62
+msgid "Generate link"
+msgstr "Δημιουργία συνδέσμου"
+
+#: views/aff/reports/commissions.php:8
+msgid "Here you can view your latest commissions."
+msgstr "Εδώ μπορείτε να δείτε τις τελευταίες σας προμήθειες."
+
+#: views/aff/reports/commissions.php:45 views/aff/reports/ftps.php:45
+#: views/aff/reports/index.php:77 views/aff/reports/index.php:123
+#: views/aff/reports/index.php:163 views/aff/reports/leads.php:51
+#: views/aff/settings/profile.php:12 views/whitelabel/affs/commissions.php:30
+#: views/whitelabel/affs/ftps.php:30 views/whitelabel/affs/groups.php:19
+#: views/whitelabel/affs/index.php:42 views/whitelabel/affs/index.php:70
+#: views/whitelabel/affs/leads.php:30 views/whitelabel/affs/view.php:13
+#: views/whitelabel/settings/ccsettings.php:23
+#: views/whitelabel/tickets/index.php:39 views/whitelabel/tickets/index.php:60
+#: views/whitelabel/tickets/view.php:15
+#: views/whitelabel/transactions/index.php:33
+#: views/whitelabel/transactions/index.php:51
+#: views/whitelabel/transactions/view.php:13
+#: views/whitelabel/transactions/withdrawal.php:13
+#: views/whitelabel/transactions/withdrawals.php:30
+#: views/whitelabel/transactions/withdrawals.php:48
+#: views/whitelabel/users/index.php:40 views/whitelabel/users/index.php:65
+#: views/whitelabel/users/view.php:13
+msgid "ID"
+msgstr "Ταυτότητα"
+
+#: views/aff/reports/commissions.php:59 views/aff/reports/index.php:177
+#: views/whitelabel/affs/commissions.php:65
+#: views/whitelabel/affs/reports.php:183
+msgid "Commission"
+msgstr "Προμήθεια"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "Sale"
+msgstr "Πώληση"
+
+#: views/aff/reports/commissions.php:76 views/aff/reports/index.php:195
+#: views/whitelabel/affs/commissions.php:93
+#: views/whitelabel/affs/reports.php:211
+msgid "FTP"
+msgstr "FTP"
+
+#: views/aff/reports/commissions.php:78 views/aff/reports/index.php:197
+#: views/whitelabel/affs/commissions.php:95
+#: views/whitelabel/affs/reports.php:213
+msgid "Tier"
+msgstr "Βαθμίδα"
+
+#: views/aff/reports/commissions.php:94
+#: views/whitelabel/affs/commissions.php:130
+msgid "No commissions."
+msgstr "Καμία προμήθεια."
+
+#: views/aff/reports/ftps.php:8
+msgid "Here you can view the latest first-time purchases."
+msgstr "Εδώ μπορείτε να δείτε τις τελευταίες αγορές πρώτης φοράς."
+
+#: views/aff/reports/ftps.php:47 views/aff/reports/index.php:79
+#: views/aff/reports/index.php:125 views/aff/reports/leads.php:53
+#: views/whitelabel/affs/ftps.php:58 views/whitelabel/affs/leads.php:61
+#: views/whitelabel/affs/reports.php:68 views/whitelabel/affs/reports.php:123
+msgid "Register country"
+msgstr "Εγγραφή χώρας"
+
+#: views/aff/reports/ftps.php:48 views/aff/reports/index.php:80
+#: views/aff/reports/index.php:126 views/aff/reports/leads.php:54
+#: views/whitelabel/affs/ftps.php:59 views/whitelabel/affs/leads.php:62
+#: views/whitelabel/affs/reports.php:69 views/whitelabel/affs/reports.php:124
+msgid "Last country"
+msgstr "Τελευταία χώρα"
+
+#: views/aff/reports/ftps.php:52 views/aff/reports/index.php:84
+#: views/aff/reports/index.php:130 views/aff/reports/leads.php:58
+#: views/whitelabel/affs/ftps.php:60 views/whitelabel/affs/leads.php:63
+#: views/whitelabel/affs/reports.php:70 views/whitelabel/affs/reports.php:125
+msgid "Registered"
+msgstr "Εγγράφηκε"
+
+#: views/aff/reports/ftps.php:53 views/aff/reports/index.php:85
+#: views/aff/reports/index.php:131 views/aff/reports/leads.php:59
+#: views/whitelabel/affs/ftps.php:61 views/whitelabel/affs/leads.php:64
+#: views/whitelabel/affs/reports.php:71 views/whitelabel/affs/reports.php:126
+msgid "First purchase"
+msgstr "Πρώτη αγορά"
+
+#: views/aff/reports/ftps.php:77 views/whitelabel/affs/ftps.php:96
+msgid "No first-time purchases."
+msgstr "Δεν υπάρχουν αγορές πρώτης φοράς."
+
+#: views/aff/reports/index.php:8 views/whitelabel/affs/reports.php:8
+#: views/whitelabel/reports/reports.php:8
+msgid "Here you can generate a report for a given date range."
+msgstr ""
+"Εδώ μπορείτε να δημιουργήσετε μία αναφορά για ένα δεδομένο εύρος ημερομηνιών."
+
+#: views/aff/reports/index.php:11 views/whitelabel/affs/reports.php:11
+#: views/whitelabel/reports/reports.php:11
+msgid "Range"
+msgstr "Εύρος"
+
+#: views/aff/reports/index.php:42 views/aff/reports/index.php:47
+#: views/whitelabel/affs/reports.php:30 views/whitelabel/affs/reports.php:35
+#: views/whitelabel/reports/reports.php:34
+#: views/whitelabel/reports/reports.php:39
+msgid "Report"
+msgstr "Αναφορά"
+
+#: views/aff/reports/index.php:48 views/whitelabel/affs/reports.php:36
+#: views/whitelabel/reports/reports.php:40
+msgid "Start Date"
+msgstr "Αρχική Ημερομηνία"
+
+#: views/aff/reports/index.php:50 views/whitelabel/affs/reports.php:38
+#: views/whitelabel/reports/reports.php:42
+msgid "End Date"
+msgstr "Τελική Ημερομηνία"
+
+#: views/aff/reports/index.php:52 views/whitelabel/affs/reports.php:40
+msgid "Clicks"
+msgstr "Κλικ"
+
+#: views/aff/reports/index.php:54 views/whitelabel/affs/reports.php:42
+msgid "Unique clicks"
+msgstr "Μοναδικά κλικ"
+
+#: views/aff/reports/index.php:58 views/aff/reports/index.php:116
+#: views/whitelabel/affs/reports.php:46 views/whitelabel/affs/reports.php:110
+msgid "First-time purchases"
+msgstr "Αγορές πρώτης φοράς"
+
+#: views/aff/reports/index.php:60 views/whitelabel/affs/reports.php:48
+msgid "Total commission"
+msgstr "Συνολική προμήθεια"
+
+#: views/aff/reports/index.php:69 views/aff/reports/index.php:121
+#: views/aff/reports/index.php:161 views/whitelabel/affs/reports.php:57
+#: views/whitelabel/affs/reports.php:115 views/whitelabel/affs/reports.php:168
+msgid "#"
+msgstr "#"
+
+#: views/aff/reports/index.php:71 views/aff/reports/leads.php:45
+#: views/whitelabel/affs/index.php:88 views/whitelabel/affs/leads.php:55
+#: views/whitelabel/affs/reports.php:62 views/whitelabel/users/index.php:84
+msgid "Active"
+msgstr "Ενεργό"
+
+#: views/aff/reports/index.php:74 views/aff/reports/leads.php:48
+msgid "Confirmed"
+msgstr "Επιβεβαιωμένο"
+
+#: views/aff/reports/leads.php:8
+msgid "Here you can view your latest leads."
+msgstr "Εδώ μπορείτε να δείτε τους τελευταίους υποψήφιους πελάτες σας."
+
+#: views/aff/reports/leads.php:89 views/whitelabel/affs/leads.php:108
+msgid "No leads."
+msgstr "Κανένας υποψήφιος πελάτης."
+
+#: views/aff/reports/payouts.php:8 views/whitelabel/affs/payouts.php:8
+msgid ""
+"Here you can view and manage your payouts. They are calculated automatically "
+"every month."
+msgstr ""
+"Εδώ μπορείτε να βλέπετε και να διαχειρίζεστε τις πληρωμές σας. Υπολογίζονται "
+"αυτόματα κάθε μήνα."
+
+#: views/aff/reports/payouts.php:22 views/whitelabel/affs/payouts.php:40
+#: views/whitelabel/tickets/index.php:30 views/whitelabel/tickets/index.php:72
+#: views/whitelabel/tickets/view.php:57 views/whitelabel/tickets/view.php:61
+#: views/whitelabel/tickets/view.php:102
+msgid "Paid out"
+msgstr "Πληρωμένο"
+
+#: views/aff/reports/payouts.php:57 views/whitelabel/affs/payouts.php:116
+msgid "View report"
+msgstr "Εμφάνιση αναφοράς"
+
+#: views/aff/reports/payouts.php:67 views/whitelabel/affs/payouts.php:129
+msgid "No payouts."
+msgstr "Καμία πληρωμή."
+
+#: views/aff/settings/analytics.php:7 views/whitelabel/settings/analytics.php:7
+msgid "Edit Google Analytics settings"
+msgstr "Επεξεργαστείτε τις ρυθμίσεις του Google Analytics"
+
+#: views/aff/settings/analytics.php:8 views/whitelabel/settings/analytics.php:8
+msgid "Here you can edit Google Analytics settings."
+msgstr "Εδώ μπορείτε να επεξεργαστείτε τις ρυθμίσεις του Google Analytics."
+
+#: views/aff/settings/analytics.php:21
+#: views/whitelabel/settings/analytics.php:21
+msgid "Enter Google Analytics Tracking ID"
+msgstr "Εισάγετε Αναγνωριστικό Ταυτότητας Google Analytics"
+
+#: views/aff/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will see the data related to "
+"your leads only. You will have to <a href=\"https://support.google.com/"
+"analytics/answer/3123666\" target=\"_blank\">enable User-ID</a> to take the "
+"full advantage of the Google Analytics feature."
+msgstr ""
+"Μορφή δείγματος: <strong>UA-XXXXX-Y</strong>. Θα δείτε μόνο τα δεδομένα που "
+"σχετίζονται με τους υποψήφιους πελάτες σας. Θα πρέπει να <a href=\"https://"
+"support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">ενεργοποιήσετε Ταυτότητα-Χρήστη</a> για να εκμεταλλευτείτε πλήρως το "
+"χαρακτηριστικό του Google Analytics."
+
+#: views/aff/settings/edit.php:7 views/whitelabel/affs/edit.php:7
+#: views/whitelabel/users/edit.php:7
+msgid "Edit details"
+msgstr "Επεξεργαστείτε τις λεπτομέρειες"
+
+#: views/aff/settings/edit.php:8
+msgid "Edit your details here."
+msgstr "Επεξεργαστείτε τις λεπτομέρειές σας εδώ."
+
+#: views/aff/settings/edit.php:21
+msgid "Your login"
+msgstr "Το όνομα χρήστη σας"
+
+#: views/aff/settings/edit.php:25
+msgid "Your company"
+msgstr "Η εταιρία σας"
+
+#: views/aff/settings/edit.php:29
+msgid "Your first name"
+msgstr "Το όνομά σας"
+
+#: views/aff/settings/edit.php:33
+msgid "Your last name"
+msgstr "Το επώνυμό σας"
+
+#: views/aff/settings/edit.php:38
+msgid "Your country"
+msgstr "Η χώρα σας"
+
+#: views/aff/settings/edit.php:46
+msgid "Your city"
+msgstr "Η πόλη σας"
+
+#: views/aff/settings/edit.php:51 views/aff/settings/edit.php:55
+msgid "Your region"
+msgstr "Η περιοχή σας"
+
+#: views/aff/settings/edit.php:61
+msgid "Your postal/ZIP code"
+msgstr "Ο ταχυδρομικός σας κώδικας"
+
+#: views/aff/settings/edit.php:65
+msgid "Your address #1"
+msgstr "Η διεύθυνσή σας #1"
+
+#: views/aff/settings/edit.php:69
+msgid "Your address #2"
+msgstr "Η διεύθυνσή σας #2"
+
+#: views/aff/settings/edit.php:74
+msgid "Your birthdate"
+msgstr "Η ημερομηνία γέννησής σας"
+
+#: views/aff/settings/edit.php:78 views/whitelabel/affs/edit.php:98
+#: views/whitelabel/users/edit.php:70
+msgid "Phone prefix"
+msgstr "Πρόθεμα τηλεφώνου"
+
+#: views/aff/settings/edit.php:80 views/whitelabel/affs/edit.php:100
+#: views/whitelabel/users/edit.php:72
+msgid "Choose a phone prefix"
+msgstr "Επιλέξτε ένα πρόθεμα τηλεφώνου"
+
+#: views/aff/settings/edit.php:90
+msgid "Your phone"
+msgstr "Το τηλέφωνό σας"
+
+#: views/aff/settings/edit.php:95
+msgid "Choose timezone"
+msgstr "Επιλέξτε ζώνη ώρας"
+
+#: views/aff/settings/password.php:7 views/whitelabel/affs/password.php:7
+#: views/whitelabel/settings/password.php:7
+#: views/whitelabel/users/password.php:7
+msgid "Change password"
+msgstr "Αλλαγή συνθηματικού"
+
+#: views/aff/settings/password.php:8
+msgid "You can change your password here."
+msgstr "Μπορείτε να αλλάξετε το συνθηματικό σας εδώ."
+
+#: views/aff/settings/payment.php:7
+msgid "Edit payment settings"
+msgstr "Επεξεργασία ρυθμίσεων πληρωμής"
+
+#: views/aff/settings/payment.php:8
+msgid "Edit your payment details here."
+msgstr "Επεξεργαστείτε τις λεπτομέρειες πληρωμής σας εδώ."
+
+#: views/aff/settings/payment.php:33 views/aff/settings/payment.php:56
+#: views/aff/settings/payment.php:71
+msgid "Enter first name"
+msgstr "Εισάγετε όνομα"
+
+#: views/aff/settings/payment.php:37 views/aff/settings/payment.php:60
+#: views/aff/settings/payment.php:75
+msgid "Enter last name"
+msgstr "Εισάγετε επώνυμο"
+
+#: views/aff/settings/payment.php:41
+msgid "Enter your account IBAN number"
+msgstr "Εισάγετε τον IBAN αριθμό του λογαριασμού σας"
+
+#: views/aff/settings/payment.php:45
+msgid "Enter your bank SWIFT code"
+msgstr "Εισάγετε τον SWIFT κωδικό της τράπεζάς σας"
+
+#: views/aff/settings/payment.php:49
+msgid "Enter your bank name"
+msgstr "Εισάγετε το όνομα της τράπεζάς σας"
+
+#: views/aff/settings/payment.php:64
+msgid "Enter Skrill e-mail"
+msgstr "Εισάγετε Skrill διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: views/aff/settings/payment.php:79
+msgid "Enter Neteller e-mail"
+msgstr "Εισάγετε Neteller διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: views/aff/settings/payment.php:85
+msgid "Enter first name (optional)"
+msgstr "Εισάγετε όνομα (προεραιτικό)"
+
+#: views/aff/settings/payment.php:89
+msgid "Enter last name (optional)"
+msgstr "Εισάγετε επώνυμο (προεραιτικό)"
+
+#: views/aff/settings/payment.php:93
+msgid "Enter bitcoin wallet address"
+msgstr "Εισάγετε διεύθυνση bitcoin πορτοφολιού"
+
+#: views/aff/settings/profile.php:8
+msgid "You can view and edit your details here."
+msgstr "Μπορείτε να δείτε και να επεξεργαστείτε τις λεπτομέρειές σας εδώ."
+
+#: views/aff/settings/profile.php:13 views/aff/settings/profile.php:17
+#: views/aff/settings/profile.php:28 views/aff/settings/profile.php:30
+#: views/aff/settings/profile.php:32 views/aff/settings/profile.php:34
+#: views/aff/settings/profile.php:36 views/aff/settings/profile.php:38
+#: views/aff/settings/profile.php:40 views/aff/settings/profile.php:42
+#: views/aff/settings/profile.php:44 views/aff/settings/profile.php:49
+#: views/whitelabel/affs/view.php:14 views/whitelabel/affs/view.php:19
+#: views/whitelabel/affs/view.php:25 views/whitelabel/affs/view.php:36
+#: views/whitelabel/affs/view.php:38 views/whitelabel/affs/view.php:40
+#: views/whitelabel/affs/view.php:42 views/whitelabel/affs/view.php:44
+#: views/whitelabel/affs/view.php:46 views/whitelabel/affs/view.php:48
+#: views/whitelabel/affs/view.php:50 views/whitelabel/affs/view.php:52
+#: views/whitelabel/affs/view.php:57 views/whitelabel/settings/account.php:24
+#: views/whitelabel/tickets/view.php:16 views/whitelabel/tickets/view.php:18
+#: views/whitelabel/tickets/view.php:20
+#: views/whitelabel/transactions/view.php:14
+#: views/whitelabel/transactions/view.php:16
+#: views/whitelabel/transactions/withdrawal.php:14
+#: views/whitelabel/transactions/withdrawal.php:16
+#: views/whitelabel/users/view.php:14 views/whitelabel/users/view.php:23
+#: views/whitelabel/users/view.php:25 views/whitelabel/users/view.php:27
+#: views/whitelabel/users/view.php:29 views/whitelabel/users/view.php:31
+#: views/whitelabel/users/view.php:33 views/whitelabel/users/view.php:35
+#: views/whitelabel/users/view.php:37 views/whitelabel/users/view.php:39
+#: views/whitelabel/users/view.php:44 views/whitelabel/users/view.php:58
+msgid "-"
+msgstr "-"
+
+#: views/aff/settings/profile.php:19 views/aff/settings/profile.php:21
+#: views/whitelabel/affs/view.php:27 views/whitelabel/affs/view.php:29
+#: views/whitelabel/tickets/view.php:22 views/whitelabel/tickets/view.php:24
+#: views/whitelabel/transactions/view.php:18
+#: views/whitelabel/transactions/view.php:20
+#: views/whitelabel/transactions/withdrawal.php:18
+#: views/whitelabel/transactions/withdrawal.php:20
+#: views/whitelabel/transactions/withdrawal.php:51
+#: views/whitelabel/transactions/withdrawal.php:53
+#: views/whitelabel/users/view.php:16 views/whitelabel/users/view.php:18
+msgid "Anonymous"
+msgstr "Ανώνυμος"
+
+#: views/aff/settings/profile.php:47 views/whitelabel/affs/view.php:55
+#: views/whitelabel/settings/account.php:20 views/whitelabel/users/view.php:42
+msgid "Change Password"
+msgstr "Αλλαγή συνθηματικού"
+
+#: views/aff/settings/profile.php:50 views/whitelabel/affs/view.php:64
+#: views/whitelabel/settings/account.php:25 views/whitelabel/users/view.php:59
+msgid "Edit Details"
+msgstr "Επεξεργασία Λεπτομερειών"
+
+#: views/aff/shared/header.php:7 views/whitelabel/shared/header.php:7
+#, php-format
+msgid "%s management panel"
+msgstr "%s πάνελ διαχείρισης"
+
+#: views/aff/shared/navbar.php:15 views/whitelabel/affs/menu.php:10
+#: views/whitelabel/shared/navbar.php:18
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: views/aff/shared/navbar.php:16 views/whitelabel/affs/menu.php:18
+#: views/whitelabel/shared/navbar.php:20
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: views/whitelabel/affs/commissions.php:8
+msgid "Here you can view the latest commissions of your affiliates."
+msgstr "Εδώ μπορείτε να δείτε τις τελευταίες προμήθειες των συνεργατών σας."
+
+#: views/whitelabel/affs/commissions.php:16
+#: views/whitelabel/affs/commissions.php:73
+#: views/whitelabel/affs/commissions.php:80 views/whitelabel/affs/edit.php:34
+#: views/whitelabel/affs/ftps.php:16 views/whitelabel/affs/ftps.php:68
+#: views/whitelabel/affs/ftps.php:75 views/whitelabel/affs/index.php:98
+#: views/whitelabel/affs/index.php:109 views/whitelabel/affs/leads.php:16
+#: views/whitelabel/affs/leads.php:72 views/whitelabel/affs/leads.php:81
+#: views/whitelabel/affs/payouts.php:16 views/whitelabel/affs/payouts.php:48
+#: views/whitelabel/affs/reports.php:24 views/whitelabel/affs/reports.php:79
+#: views/whitelabel/affs/reports.php:88 views/whitelabel/affs/reports.php:134
+#: views/whitelabel/affs/reports.php:141 views/whitelabel/affs/reports.php:191
+#: views/whitelabel/affs/reports.php:198 views/whitelabel/affs/view.php:17
+#: views/whitelabel/tickets/index.php:83
+#: views/whitelabel/transactions/index.php:71
+#: views/whitelabel/transactions/withdrawals.php:68
+#: views/whitelabel/users/aff.php:25 views/whitelabel/users/index.php:93
+#: views/whitelabel/users/index.php:108
+msgid "anonymous"
+msgstr "ανώνυμος"
+
+#: views/whitelabel/affs/commissions.php:55 views/whitelabel/affs/ftps.php:55
+#: views/whitelabel/affs/leads.php:58 views/whitelabel/affs/reports.php:65
+#: views/whitelabel/affs/reports.php:120 views/whitelabel/affs/reports.php:173
+msgid "User"
+msgstr "Χρήστης"
+
+#: views/whitelabel/affs/commissions.php:76 views/whitelabel/affs/ftps.php:71
+#: views/whitelabel/affs/leads.php:75 views/whitelabel/affs/payouts.php:51
+#: views/whitelabel/affs/reports.php:82 views/whitelabel/affs/reports.php:137
+#: views/whitelabel/affs/reports.php:194 views/whitelabel/users/index.php:113
+msgid "View affiliate"
+msgstr "Εμφάνιση συνεργάτη"
+
+#: views/whitelabel/affs/commissions.php:84 views/whitelabel/affs/ftps.php:79
+#: views/whitelabel/affs/leads.php:85 views/whitelabel/affs/reports.php:92
+#: views/whitelabel/affs/reports.php:145 views/whitelabel/affs/reports.php:202
+#: views/whitelabel/tickets/index.php:88 views/whitelabel/tickets/index.php:90
+#: views/whitelabel/tickets/index.php:92
+#: views/whitelabel/transactions/index.php:76
+#: views/whitelabel/transactions/index.php:78
+#: views/whitelabel/transactions/index.php:80
+msgid "View user"
+msgstr "Εμφάνιση χρήστη"
+
+#: views/whitelabel/affs/commissions.php:85 views/whitelabel/affs/ftps.php:80
+#: views/whitelabel/affs/leads.php:86 views/whitelabel/affs/reports.php:93
+#: views/whitelabel/affs/reports.php:146 views/whitelabel/affs/reports.php:203
+#: views/whitelabel/reports/index.php:49 views/whitelabel/reports/index.php:65
+#: views/whitelabel/reports/index.php:72 views/whitelabel/reports/index.php:78
+#: views/whitelabel/transactions/index.php:83
+#: views/whitelabel/transactions/view.php:743
+#: views/whitelabel/users/index.php:97
+msgid "View tickets"
+msgstr "Εμφάνιση λαχνών"
+
+#: views/whitelabel/affs/commissions.php:90
+#: views/whitelabel/affs/reports.php:208 views/whitelabel/tickets/index.php:95
+msgid "View transaction"
+msgstr "Εμφάνιση συναλλαγής"
+
+#: views/whitelabel/affs/commissions.php:119
+#: views/whitelabel/affs/index.php:145 views/whitelabel/affs/leads.php:97
+#: views/whitelabel/transactions/index.php:116
+msgid "Accept"
+msgstr "Αποδοχή"
+
+#: views/whitelabel/affs/edit.php:8
+msgid "Edit affiliate details here."
+msgstr "Επεξεργαστείστε τα στοιχεία του συνεργάτη εδώ."
+
+#: views/whitelabel/affs/edit.php:22 views/whitelabel/affs/groups.php:28
+#: views/whitelabel/affs/groups_edit.php:7 views/whitelabel/affs/index.php:35
+#: views/whitelabel/affs/index.php:116 views/whitelabel/affs/new.php:22
+#: views/whitelabel/affs/view.php:23
+msgid "Default Group"
+msgstr "Προκαθορισμένη Ομάδα"
+
+#: views/whitelabel/affs/edit.php:31
+msgid "Choose parent"
+msgstr "Επιλογή γονέα"
+
+#: views/whitelabel/affs/edit.php:41
+msgid "User company"
+msgstr "Εταιρία χρήστη"
+
+#: views/whitelabel/affs/edit.php:45 views/whitelabel/affs/new.php:30
+msgid "Enter login"
+msgstr "Εισαγωγή ονόματος χρήστη"
+
+#: views/whitelabel/affs/edit.php:49 views/whitelabel/users/edit.php:21
+msgid "User first name"
+msgstr "Όνομα χρήστη"
+
+#: views/whitelabel/affs/edit.php:53 views/whitelabel/users/edit.php:25
+msgid "User last name"
+msgstr "Επώνυμο χρήστη"
+
+#: views/whitelabel/affs/edit.php:58 views/whitelabel/users/edit.php:30
+msgid "Choose user country"
+msgstr "Επιλογή χώρας χρήστη"
+
+#: views/whitelabel/affs/edit.php:66 views/whitelabel/users/edit.php:38
+msgid "User city"
+msgstr "Πόλη χρήστη"
+
+#: views/whitelabel/affs/edit.php:71 views/whitelabel/affs/edit.php:75
+#: views/whitelabel/users/edit.php:43 views/whitelabel/users/edit.php:47
+msgid "Choose user region"
+msgstr "Επιλογή περιοχής χρήστη"
+
+#: views/whitelabel/affs/edit.php:81 views/whitelabel/users/edit.php:53
+msgid "User Postal/ZIP Code"
+msgstr "Ταχυδρομικός Κώδικας Χρήστη"
+
+#: views/whitelabel/affs/edit.php:85 views/whitelabel/users/edit.php:57
+msgid "User address #1"
+msgstr "Διεύθυνση χρήστη #1"
+
+#: views/whitelabel/affs/edit.php:89 views/whitelabel/users/edit.php:61
+msgid "User address #2"
+msgstr "Διεύθυνση χρήστη #2"
+
+#: views/whitelabel/affs/edit.php:94 views/whitelabel/users/edit.php:66
+msgid "User birthdate"
+msgstr "Ημερομηνία γέννησης χρήστη"
+
+#: views/whitelabel/affs/edit.php:110 views/whitelabel/users/edit.php:82
+msgid "User phone"
+msgstr "Τηλέφωνο χρήστη"
+
+#: views/whitelabel/affs/edit.php:115 views/whitelabel/users/edit.php:87
+msgid "Choose time zone"
+msgstr "Επιλογή ζώνης ώρας"
+
+#: views/whitelabel/affs/email.php:7 views/whitelabel/users/email.php:7
+msgid "Edit e-mail"
+msgstr "Επεξεργασία διεύθυνσης ηλεκτρονικού ταχυδρομείου"
+
+#: views/whitelabel/affs/email.php:8
+msgid "You can edit affiliate e-mail here."
+msgstr ""
+"Εδώ μπορείτε να επεξεργαστείτε την διεύθυνση ηλεκτρονικού ταχυδρομείου του "
+"συνεργάτη."
+
+#: views/whitelabel/affs/email.php:21 views/whitelabel/users/email.php:21
+msgid "New e-mail"
+msgstr "Νέα διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: views/whitelabel/affs/ftps.php:8
+msgid ""
+"Here you can view the latest first-time purchases of your affiliate leads."
+msgstr ""
+"Εδώ μπορείτε να δείτε τις τελευταίες αγορές πρώτης φοράς των υποψήφιων "
+"πελατών συνεργατών."
+
+#: views/whitelabel/affs/groups.php:10 views/whitelabel/affs/menu.php:17
+msgid "Affiliate groups"
+msgstr "Ομάδες συνεργατών"
+
+#: views/whitelabel/affs/groups.php:11
+msgid "You can manage affiliate groups here."
+msgstr "Εδώ μπορείτε να διαχειριστείτε της ομάδες συνεργατών."
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "Edit affiliate group"
+msgstr "Επεξεργασία ομάδας συνεργατών"
+
+#: views/whitelabel/affs/groups_edit.php:7
+msgid "New affiliate group"
+msgstr "Νέα ομάδα συνεργατών"
+
+#: views/whitelabel/affs/groups_edit.php:8
+msgid "You can add or edit affiliate group here."
+msgstr "Εδώ μπορείτε να προσθέσετε ή να επεξεργαστείτε ομάδα συνεργατών."
+
+#: views/whitelabel/affs/groups_edit.php:29
+#: views/whitelabel/affs/groups_edit.php:44
+#: views/whitelabel/affs/groups_edit.php:58
+#: views/whitelabel/affs/groups_edit.php:65
+msgid "Enter commission value"
+msgstr "Εισάγετε αξία προμήθειας"
+
+#: views/whitelabel/affs/index.php:13
+msgid "You can manage your affiliates here."
+msgstr "Εδώ μπορείτε να διαχειριστείτε τους συνεργάτες σας."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "How to open in Excel"
+msgstr "Πως να το ανοίξετε στο Excel"
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid ""
+"1. Download and save the file.<br>2. Open Excel and create new file.<br>3. "
+"Choose <i>Data->From Text</i> from <i>Get External Data</i> section.<br>4. "
+"Navigate and choose saved file.<br>5. Choose <i>Delimited</i>, file origin "
+"<i>Unicode (UTF-8)</i>, check <i>My data has headers.</i><br>6. On next step "
+"choose only <i>Comma</i> as the delimiter.<br>7. You can adjust some format "
+"settings in the last step (for best results you should set all columns to "
+"<i>Text</i> type instead of <i>General</i>).<br>8. Click <i>Finish</i> and "
+"choose data placement."
+msgstr ""
+"1. Κατεβάστε και αποθηκεύστε το αρχείο.<br>2. Ανοίξτε το Excel και "
+"δημιουργήστε νέο αρχείο.<br>3. Επιλέξτε <i>Δεδομένα->Από Κείμενο</i> από "
+"<i>Λάβετε Εξωτερικά Δεδομένα</i> περιοχή.<br>4. Πλοηγηθείτε και επιλέξτε το "
+"αποθηκευμένο αρχείο.<br>5. Επιλέξτε <i>Οριοθετημένο</i>, προέλευση αρχείου "
+"<i>Unicode (UTF-8)</i>, ελέγξτε <i>Τα δεδομένα μου έχουν επικεφαλίδες.</"
+"i><br>6. Στο επόμενο βήμα επιλέξτε μόνο <i>Κόμμα</i> ως οριοθέτη.<br>7. "
+"Μπορείτε να προσαρμόσετε μερικές ρυθμίσεις στο τελευταίο βήμα (για καλύτερα "
+"αποτελέσματα πρέπει να θέσετε όλες τις στήλες σε <i>Κείμενο</i> τύπο αντί "
+"για <i>Γενικό</i>).<br>8. Κάνε κλικ στο <i>Τέλος</i> και επιλέξτε την "
+"διάταξη των δεδομένων."
+
+#: views/whitelabel/affs/index.php:62 views/whitelabel/users/index.php:57
+msgid "Export View to CSV"
+msgstr "Προβολή Εξαγωγής σε CSV"
+
+#: views/whitelabel/affs/index.php:82
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: views/whitelabel/affs/index.php:83
+msgid "Last Active<br>IP<br>Country"
+msgstr "Τελευταία Ενεργή<br>IP<br>Χώρα"
+
+#: views/whitelabel/affs/index.php:85 views/whitelabel/users/index.php:81
+msgid "Date Deleted"
+msgstr "Η Ημερομηνία Διαγράφηκε"
+
+#: views/whitelabel/affs/index.php:89 views/whitelabel/users/index.php:111
+msgid "Accepted"
+msgstr "Αποδεκτό"
+
+#: views/whitelabel/affs/index.php:140 views/whitelabel/users/index.php:145
+msgid "Restore"
+msgstr "Ανάκτηση"
+
+#: views/whitelabel/affs/index.php:143 views/whitelabel/users/index.php:148
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: views/whitelabel/affs/index.php:147 views/whitelabel/tickets/index.php:157
+#: views/whitelabel/transactions/index.php:113
+#: views/whitelabel/transactions/withdrawals.php:95
+#: views/whitelabel/users/index.php:150
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: views/whitelabel/affs/index.php:159
+msgid "No affiliates."
+msgstr "Κανένας συνεργάτης."
+
+#: views/whitelabel/affs/leads.php:8
+msgid "Here you can view your affiliates latest leads."
+msgstr ""
+"Εδώ μπορείτε να δείτε τους τελευταίους υποψήφιους πελάτες των συνεργατών σας."
+
+#: views/whitelabel/affs/menu.php:2
+msgid "Active & Accepted"
+msgstr "Ενεργό & Αποδεκτό"
+
+#: views/whitelabel/affs/menu.php:5 views/whitelabel/tickets/index.php:86
+#: views/whitelabel/transactions/index.php:74
+#: views/whitelabel/transactions/withdrawals.php:71
+#: views/whitelabel/users/index.php:112
+msgid "Deleted"
+msgstr "Διεγραμένο"
+
+#: views/whitelabel/affs/new.php:7
+msgid "New affiliate"
+msgstr "Νέος συνεργάτης"
+
+#: views/whitelabel/affs/new.php:8
+msgid "You can add new affiliate here."
+msgstr "Εδώ μπορείτε να προσθέσετε νέο συνεργάτη."
+
+#: views/whitelabel/affs/new.php:34
+#: views/whitelabel/settings/account_edit.php:29
+msgid "Enter e-mail"
+msgstr "Εισάγετε διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: views/whitelabel/affs/password.php:8
+msgid "You can change affiliate password here."
+msgstr "Εδώ μπορείτε να αλλάξετε το συνθηματικό συνεργάτη."
+
+#: views/whitelabel/affs/payouts.php:39
+msgid "Payment"
+msgstr "Πληρωμή"
+
+#: views/whitelabel/affs/payouts.php:64
+msgid "Bank Account"
+msgstr "Λογαριασμός Τράπεζας"
+
+#: views/whitelabel/affs/payouts.php:66 views/whitelabel/affs/payouts.php:73
+#: views/whitelabel/affs/payouts.php:78 views/whitelabel/affs/payouts.php:86
+msgid "Surname"
+msgstr "Επώνυμο"
+
+#: views/whitelabel/affs/payouts.php:67
+msgid "Account Number"
+msgstr "Αριθμός Λογαριασμού"
+
+#: views/whitelabel/affs/payouts.php:68
+msgid "SWIFT Code"
+msgstr "Κωδικός SWIFT"
+
+#: views/whitelabel/affs/payouts.php:69
+msgid "Bank Name"
+msgstr "Όνομα Τράπεζας"
+
+#: views/whitelabel/affs/payouts.php:88
+#: views/whitelabel/transactions/view.php:531
+msgid "Bitcoin Address"
+msgstr "Διεύθυνση Bitcoin"
+
+#: views/whitelabel/affs/payouts.php:91
+msgid "Not defined"
+msgstr "Μη καθορισμένο"
+
+#: views/whitelabel/affs/payouts.php:118 views/whitelabel/tickets/view.php:145
+msgid "Mark as paid out"
+msgstr "Σημείωση ως πληρωμένο"
+
+#: views/whitelabel/affs/settings.php:7
+msgid "Affiliate settings"
+msgstr "Ρυθμίσεις συνεργατών"
+
+#: views/whitelabel/affs/settings.php:8
+msgid "You can adjust affiliate settings here."
+msgstr "Εδώ μπορείτε να προσαρμόσετε τις ρυθμίσεις συνεργατών."
+
+#: views/whitelabel/affs/view.php:7
+msgid "Affiliate details"
+msgstr "Στοιχεία συνεργατών"
+
+#: views/whitelabel/affs/view.php:8
+msgid "You can view and edit affiliate details here."
+msgstr "Εδώ μπορείτε να δείτε και να επεξεργαστείτε τα στοιχεία συνεργατών."
+
+#: views/whitelabel/affs/view.php:34 views/whitelabel/users/view.php:21
+msgid "Edit E-mail"
+msgstr "Επεξεργασία Διεύθυνσης Ηλεκτρονικού Ταχυδρομείου"
+
+#: views/whitelabel/affs/view.php:60 views/whitelabel/users/view.php:51
+msgid "Last IP"
+msgstr "Τελευταίο IP"
+
+#: views/whitelabel/reports/index.php:8
+msgid "Here you can view information about draw winners."
+msgstr "Εδώ μπορείτε να δείτε πληροφορίες για τους νικητές των κληρώσεων."
+
+#: views/whitelabel/reports/index.php:18
+msgid "Date Processed"
+msgstr "Η Ημερομηνία Επεξεργάστηκε"
+
+#: views/whitelabel/reports/index.php:20
+msgid "Total Winners"
+msgstr "Συνολικοί Νικητές"
+
+#: views/whitelabel/reports/index.php:21
+msgid "Total Prizes"
+msgstr "Συνολικά Βραβεία"
+
+#: views/whitelabel/reports/index.php:22
+msgid "Site Winners (Tickets/Lines)"
+msgstr "Νικητές Ιστοσελίδας (Λαχνοί/Γραμμές)"
+
+#: views/whitelabel/reports/index.php:23
+msgid "Site Prizes"
+msgstr "Βραβεία Ιστοσελίδας"
+
+#: views/whitelabel/reports/index.php:24
+msgid "Paid Out Tickets/Lines"
+msgstr "Πληρωμένοι Λαχνοί/Γραμμές"
+
+#: views/whitelabel/reports/index.php:25
+msgid "Awaiting Tickets/Lines"
+msgstr "Λαχνοί/Γραμμές σε Αναμονή"
+
+#: views/whitelabel/reports/index.php:26
+msgid "Site No-Winners (Tickets/Lines)"
+msgstr "Μη Νικητές Ιστοσελίδας (Λαχνοί/Γραμμές)"
+
+#: views/whitelabel/reports/index.php:40 views/whitelabel/reports/index.php:55
+msgid "Jackpots"
+msgstr "Τζακπότ"
+
+#: views/whitelabel/reports/index.php:43 views/whitelabel/reports/index.php:58
+msgid "Quick Picks"
+msgstr "Γρήγορες Επιλογές"
+
+#: views/whitelabel/reports/index.php:88
+msgid "No winners data."
+msgstr "Δεν υπάρχουν δεδομένα νικητών."
+
+#: views/whitelabel/reports/reports.php:44
+msgid "New Users (Active)"
+msgstr "Νέοι Χρήστες (Ενεργοί)"
+
+#: views/whitelabel/reports/reports.php:48
+msgid ""
+"New <span data-toggle=\"tooltip\" title=\"First Time Purchase\">FTP</span> "
+"Users"
+msgstr ""
+"Νέο <span εναλλαγή-δεδομένων=\"συμβουλή εργαλείου\" τίτλος=\"Αγορά Πρώτης "
+"Φοράς\">FTP</span> Χρήστες"
+
+#: views/whitelabel/reports/reports.php:52
+msgid "Sold Tickets"
+msgstr "Πουλημένοι Λαχνοί"
+
+#: views/whitelabel/reports/reports.php:56
+msgid "Deposits Sum"
+msgstr "Άθροισμα Καταθέσεων"
+
+#: views/whitelabel/reports/reports.php:60
+msgid "Sales Sum"
+msgstr "Άθροισμα Πωλήσεων"
+
+#: views/whitelabel/reports/reports.php:64
+msgid "Deposits sum by currency"
+msgstr "Άθροισμα καταθέσεων κατά νόμισμα"
+
+#: views/whitelabel/reports/reports.php:71
+msgid "Sales sum by currency"
+msgstr "Άθροισμα πωλήσεων κατά νόμισμα"
+
+#: views/whitelabel/settings/account.php:8
+msgid "You can change your account settings here."
+msgstr "Μπορείτε να αλλάξετε τις ρυθμίσεις του λογαριασμού σας εδώ."
+
+#: views/whitelabel/settings/account_edit.php:7
+msgid "Edit account settings"
+msgstr "Επεξεργασία ρυθμίσεων λογαριασμού"
+
+#: views/whitelabel/settings/account_edit.php:8
+msgid "You can edit your account settings here."
+msgstr "Μπορείτε να επεξεργαστείτε τις ρυθμίσεις του λογαριασμού σας εδώ."
+
+#: views/whitelabel/settings/account_edit.php:21
+msgid "Enter username"
+msgstr "Εισάγετε όνομα χρήστη"
+
+#: views/whitelabel/settings/account_edit.php:25
+msgid "Enter realname"
+msgstr "Εισάγετε πραγματικό όνομα"
+
+#: views/whitelabel/settings/analytics.php:22
+msgid ""
+"Sample format: <strong>UA-XXXXX-Y</strong>. You will have to <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">enable User-ID</a> to take the full advantage of the Google Analytics "
+"feature."
+msgstr ""
+"Δειγματική μορφή: <strong>UA-XXXXX-Y</strong>. Θα πρέπει να <a href="
+"\"https://support.google.com/analytics/answer/3123666\" target=\"_blank"
+"\">ενεργοποιήσετε Ταυτότητα-Χρήστη</a> για να εκμεταλλευτείτε πλήρως το "
+"χαρακτηριστικό του Google Analytics."
+
+#: views/whitelabel/settings/ccsettings.php:8
+msgid "Here you can manage Credit Card payment methods settings."
+msgstr ""
+"Εδώ μπορείτε να διαχειρίζεστε τις ρυθμίσεις των μεθόδων πληρωμήςμε Πιστωτική "
+"Κάρτα."
+
+#: views/whitelabel/settings/ccsettings.php:43
+msgid "No Credit Card payment methods."
+msgstr "Καμία μέθοδος πληρωμής με Πιστωτική Κάρτα."
+
+#: views/whitelabel/settings/ccsettings_edit.php:8
+msgid "Here you can add or edit Credit Card payment methods."
+msgstr ""
+"Εδώ μπορείτε να προσθέτετε ή να επεξεργάζετε τις μεθόδους πληρωμής με "
+"Πιστωτική Κάρτα."
+
+#: views/whitelabel/settings/ccsettings_edit.php:22
+msgid "Choose gateway"
+msgstr "Επιλέξτε πύλη"
+
+#: views/whitelabel/settings/ccsettings_edit.php:31
+msgid "eMerchantPay Gateway Settings"
+msgstr "Ρυθμίσεις Πύλης eMerchantPay"
+
+#: views/whitelabel/settings/ccsettings_edit.php:34
+msgid "Enter Account ID"
+msgstr "Εισάγετε Ταυτότητα Λογαριασμού"
+
+#: views/whitelabel/settings/ccsettings_edit.php:35
+msgid ""
+"Given by eMerchantPay or visible in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; Details tab &gt; Account Details panel "
+"&gt; Account ID</strong>."
+msgstr ""
+"Δίνεται από το eMerchantPay ή ορατό στον eMerchantPay λογαριασμό σας: "
+"<strong>Λογαριασμός &gt; Ο λογαριασμός μου &gt; καρτέλα Λεπτομερειών &gt; "
+"Πάνελ Λεπτομερειών Λογαριασμού &gt; Ταυτότητα Λογαριασμού</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:40
+msgid ""
+"Given by eMerchantPay or set up in your eMerchantPay account: "
+"<strong>Account &gt; My Account &gt; eCommerce tab &gt; API panel &gt; API "
+"Key</strong>."
+msgstr ""
+"Δίνεται από το eMerchantPay ή ορισμένο στον eMerchantPay λογαριασμό σας: "
+"<strong>Λογαριασμός &gt; Ο Λογαριασμός μου &gt; καρτέλα eCommerse &gt; πάνελ "
+"API %gt; Κλειδί API </strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:44
+msgid "Enter endpoint URL"
+msgstr "Εισάγετε URL τελικού σημείου"
+
+#: views/whitelabel/settings/ccsettings_edit.php:45
+msgid ""
+"Probably <strong>https://my.emerchantpay.com</strong>. Please consult with "
+"eMerchantPay."
+msgstr ""
+"Πιθανόν <strong>https://my.emerchantpay.com</strong>. Παρακαλούμε "
+"επικοινωνήστε με το eMerchantPay."
+
+#: views/whitelabel/settings/ccsettings_edit.php:49
+msgid "Enter secret key"
+msgstr "Εισάγετε μυστικό κλειδί"
+
+#: views/whitelabel/settings/ccsettings_edit.php:50
+#, php-format
+msgid ""
+"Can be read or set up in your eMerchantPay account: <strong>Account &gt; My "
+"Account &gt; Payment Forms tab &gt; Payment Form panel &gt; Secret Key</"
+"strong>. Also, please ensure the field <strong>Account &gt; My Account &gt; "
+"eCommerce tab &gt; eCommerce panel &gt; Notification subpanel &gt; Merchant "
+"Notification URL</strong> is set to <strong>%s</strong> and the following "
+"server notifications (<strong>Account &gt; My Account &gt; Notifications tab "
+"&gt; Server Notifications panel</strong>) are enabled: <strong>Order "
+"Success, Order Pending, Order Declined, Order Failure</strong>."
+msgstr ""
+"Μπορεί να διαβαστεί ή να οριστεί στον eMerchantPay λογαριασμό σας: "
+"<strong>Λογαριασμός &gt; Ο Λογαριασμός μου &gt; Καρτέλα Μορφών Πληρωμής &gt; "
+"Πάνελ Μορφής Πληρωμής &gt; Μυστικό Κλειδί</strong>. Επίσης, παρακαλούμε "
+"επιβεβαιώστε το πεδίο <strong>Λογαριασμός &gt; Ο Λογαριασμός μου &gt; "
+"καρτέλα eCommerse &gt; πάνελ eCommerse &gt; Υποπάνελ Ειδοποίηση &gt; URL "
+"Ειδοποιήσεων Εμπόρου</strong> είναι ορισμένο σε <strong>%s</strong> και οι "
+"ακόλουθες ειδοποίησης διακομιστή (<strong>Λογαριασμός &gt; Ο Λογαριασμός μου "
+"&gt; καρτέλα Ειδοποίησεων &gt; Πάνελ Ειδοποιήσεων Διακομιστή</strong>) είναι "
+"ενεργοποιημένα: <strong>Επιτυχής Παραγγελία, Παραγγελία σε Εκκρεμότητα, "
+"Παραγγελία Απορρίφθηκε, Αποτυχία Παραγγελίας</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:56
+msgid "Enter minimum order"
+msgstr "Εισάγετε ελάχιστη παραγγελία"
+
+#: views/whitelabel/settings/ccsettings_edit.php:58
+msgid ""
+"Should be the same as value in your eMerchantPay account: <strong>Account "
+"&gt; My Account &gt; Thresholds tab &gt; Individual Transaction Limits panel "
+"&gt; Minimum Amount per TX</strong> and/or <strong> Account &gt; My Account "
+"&gt; Details tab &gt; Account Access panel &gt; [choose specific account] "
+"&gt; Thresholds tab &gt; Individual Transaction Limits panel &gt; Minimum "
+"Amount per TX</strong>."
+msgstr ""
+"Πρέπει να είναι ίδια με την αξία στον eMerchantPay λογαριασμό σας: "
+"<strong>Λογαριασμός &gt; Ο Λογαριασμός μου &gt; Καρτέλα Ορίων &gt; Πάνελ "
+"Ορίων Ξεχωριστών Συναλλαγών &gt; Ελάχιστο Ποσό ανά TX</strong> και/ή "
+"<strong> Λογαριασμός &gt; Ο Λογαριασμός μου &gt; Καρτέλα Λεπτομερειών &gt; "
+"Πάνελ Πρόσβασης Λογαριασμού &gt; [επιλέξτε συγκεκριμένο λογαριασμό] &gt; "
+"Καρτέλα Ορίων &gt; Πάνελ Ορίων Ξεχωριστών Συναλλαγών &gt; Ελάχιστο Ποσό ανά "
+"TX</strong>."
+
+#: views/whitelabel/settings/ccsettings_edit.php:62
+msgid "Enter descriptor"
+msgstr "Εισάγετε περιγραφέα"
+
+#: views/whitelabel/settings/fbpixel.php:7
+#, fuzzy
+#| msgid "Edit account settings"
+msgid "Edit Facebook Pixel settings"
+msgstr "Επεξεργασία ρυθμίσεων λογαριασμού"
+
+#: views/whitelabel/settings/fbpixel.php:8
+#, fuzzy
+#| msgid "Here you can edit Google Analytics settings."
+msgid "Here you can edit Facebook Pixel settings."
+msgstr "Εδώ μπορείτε να επεξεργαστείτε τις ρυθμίσεις του Google Analytics."
+
+#: views/whitelabel/settings/fbpixel.php:21
+#, fuzzy
+#| msgid "Enter tpay.com ID"
+msgid "Enter Facebook Pixel ID"
+msgstr "Εισάγετε ταυτότητα tpay.com"
+
+#: views/whitelabel/settings/fbpixel.php:24
+msgid "Activate advanced matching."
+msgstr ""
+
+#: views/whitelabel/settings/fbpixel.php:25
+msgid "Send extended user metadata for better matching."
+msgstr ""
+
+#: views/whitelabel/settings/index.php:8
+msgid "You can change site settings here."
+msgstr "Μπορείτε να αλλάξετε τις ρυθμίσεις της ιστοσελίδας εδώ."
+
+#: views/whitelabel/settings/index.php:22
+msgid "Auto-adjusted by user IP country"
+msgstr "Αυτόματα προσαρμοσμένο από τη χώρα του IP του χρήστη"
+
+#: views/whitelabel/settings/index.php:27
+msgid ""
+"Default currency for English language for users that do not have country set "
+"up in their profile."
+msgstr ""
+"Προκαθορισμένο νόμισμα για την αγγλική γλώσσα για χρήστες που δεν έχουν "
+"ορίσει την χώρα τους στο προφίλ τους."
+
+#: views/whitelabel/settings/index.php:30
+msgid "Activation Type"
+msgstr "Τύπος Ενεργποίησης"
+
+#: views/whitelabel/settings/index.php:32
+msgid "No activation"
+msgstr "Καμία ενεργοποίηση"
+
+#: views/whitelabel/settings/index.php:33
+msgid "Activation optional"
+msgstr "Προεραιτική ενεργοποίηση"
+
+#: views/whitelabel/settings/index.php:34
+msgid "Activation required"
+msgstr "Υποχρεωτική ενεργοποίηση"
+
+#: views/whitelabel/settings/index.php:36
+msgid ""
+"Be aware that changing the e-mail activation type from no activation or "
+"optional level to required level will make all your not-confirmed users "
+"inactive! In other way, changing activation type from required level to "
+"optional or no activation level will make all your not-confirmed users "
+"active!"
+msgstr ""
+"Να ξέρετε ότι η αλλαγή του τύπου ενεργοποίησης της διεύθυνσης ηλεκτρονικού "
+"ταχυδρομείου από το επίπεδο της μη ενεργοποίησης ή του προεραιτικού στο "
+"επίπεδο του υποχρεωτικού θα κάνει όλους τους μη επιβεβαιωμένους χρήστες σας "
+"ανενεργούς! Από την άλλη, η αλλαγή του τύπου ενεργοποίησης από το επίπεδο "
+"του υποχρεωτικού στο επίπεδο του προεραιτικού ή της μη ενεργοποίησης θα "
+"κάνει όλους τους μη ενεργούς χρήστες σας ενεργούς!"
+
+#: views/whitelabel/settings/index.php:42
+msgid "Enter maximum automatic payout"
+msgstr "Εισάγετε μέγιστη αυτόματη πληρωμή"
+
+#: views/whitelabel/settings/index.php:49
+msgid "Enter minimum payment amount"
+msgstr "Εισάγετε ελάχιστο ποσό πληρωμής"
+
+#: views/whitelabel/settings/index.php:56
+msgid "Enter minimum deposit amount"
+msgstr "Εισάγετε ελάχιστο ποσό κατάθεσης"
+
+#: views/whitelabel/settings/index.php:63
+msgid "Enter minimum withdrawal amount"
+msgstr "Εισάγετε ελάχιστο ποσό ανάληψης"
+
+#: views/whitelabel/settings/index.php:70
+msgid "Enter maximum order amount"
+msgstr "Εισάγετε μέγιστο ποσό παραγγελίας"
+
+#: views/whitelabel/settings/index.php:75
+msgid "Enter maximum order items count"
+msgstr "Εισάγετε ελάχιστο αριθμό αντικειμένων παραγγελίας"
+
+#: views/whitelabel/settings/lottery.php:8
+#: views/whitelabel/settings/lottery_edit.php:8
+msgid "You can change lottery settings here."
+msgstr "Μπορείτε να αλλάξετε τις ρυθμίσεις του λαχείου εδώ."
+
+#: views/whitelabel/settings/lottery.php:21
+msgid "Line Price"
+msgstr "Τιμή Γραμμής"
+
+#: views/whitelabel/settings/lottery.php:34
+msgid "Imvalap"
+msgstr "Imvalap"
+
+#: views/whitelabel/settings/lottery.php:35
+msgid "Lottorisq"
+msgstr "Lottorisq"
+
+#: views/whitelabel/settings/lottery.php:36
+msgid "Insurance/None"
+msgstr "Ασφάλεια/Καμία"
+
+#: views/whitelabel/settings/lottery_edit.php:22
+msgid "All tickets bought before disabling a lottery will be processed."
+msgstr ""
+"Όλοι οι λαχνοί που αγοράστηκαν πριν την απενεργοποίηση ενός λαχείου θα "
+"επεξεργαστούν."
+
+#: views/whitelabel/settings/lottery_edit.php:47
+msgid "Enter minimum lines count"
+msgstr "Εισάγετε ελάχιστο αριθμό γραμμών"
+
+#: views/whitelabel/settings/lottery_edit.php:48
+#, php-format
+msgid ""
+"The value has to be a multiple of <span>X</span> due to our ticket "
+"provider's limits."
+msgstr ""
+"Η αξία πρέπει να είναι πολλαπλάσιο του <span>X</span> λόγω των ορίων του "
+"παροχέα των λαχνών μας."
+
+#: views/whitelabel/settings/lottery_edit.php:54
+msgid "Enter line price"
+msgstr "Εισάγετε τιμή γραμμής"
+
+#: views/whitelabel/settings/password.php:8
+msgid "You can edit your password here."
+msgstr "Μπορείτε να επεξεργαστείτε το συνθηματικό σας εδώ."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid "Here you can view and manage site payment methods."
+msgstr ""
+"Εδώ μπορείτε να δείτε και να διαχειριστείτε τις μεθόδους πληρωμής της "
+"ιστοσελίδας."
+
+#: views/whitelabel/settings/paymentmethods.php:8
+msgid ""
+"The default payments are those from English language. You don't have to "
+"specify every payment method for every language if they are the same."
+msgstr ""
+"Η προκαθορισμένες πληρωμές είναι εκείνες από την Αγγλική γλώσσα. Δεν "
+"χρειάζεται να καθορίζετε κάθε μέθοδο πληρωμής για κάθε γλώσσα αν είναι ίδιες."
+
+#: views/whitelabel/settings/paymentmethods.php:50
+msgid "No payment methods."
+msgstr "Καμία μέθοδος πληρωμής."
+
+#: views/whitelabel/settings/paymentmethods_edit.php:79
+#, php-format
+msgid ""
+"Optional for non-shared accounts - improves payment confirmation speed. Can "
+"be set in <strong>Neteller Merchant Dashboard &gt; Developer &gt; Webhooks</"
+"strong>. You should set the <strong>Webhook URL</strong> to <strong>%s</"
+"strong> and check following hooks: <strong>payment_cancelled</strong>, "
+"<strong>payment_declined</strong>, <strong>payment_failed</strong>, "
+"<strong>payment_succeeded</strong>."
+msgstr ""
+"Προεραιτικό για μη κοινούς λογαριασμούς - βελτιώνει την ταχύτητα "
+"επιβεβαίωσης της πληρωμής. Μπορεί να οριστεί στο <strong>Ταμπλό Εμπόρου "
+"Neteller &gt; Προγραμματιστής &gt; Webhooks</strong>. Πρέπει να ορίσετε το "
+"<strong>Webhook URL</strong> σε <strong>%s</strong> και να ελέγξετε τις "
+"ακόλουθες συνδέσεις: <strong>πληρωμή_ακυρώθηκε</strong>, "
+"<strong>πληρωμή_απορρίφθηκε</strong>, <strong>πληρωμή_απέτυχε</strong>, "
+"<strong>πληρωμή_πέτυχε</strong>."
+
+#: views/whitelabel/shared/navbar.php:15
+msgid "Users"
+msgstr "Χρήστες"
+
+#: views/whitelabel/shared/navbar.php:16
+msgid "Transactions"
+msgstr "Συναλλαγές"
+
+#: views/whitelabel/shared/navbar.php:24
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: views/whitelabel/tickets/index.php:8
+msgid "Here you can view and manage users' tickets."
+msgstr "Εδώ μπορείτε να δείτε και να διαχειριστείτε τους λαχνούς των χρηστών."
+
+#: views/whitelabel/tickets/index.php:21 views/whitelabel/tickets/index.php:70
+#: views/whitelabel/tickets/view.php:43 views/whitelabel/tickets/view.php:94
+#: views/whitelabel/tickets/view.php:107
+#: views/whitelabel/transactions/index.php:25
+#: views/whitelabel/transactions/index.php:60
+#: views/whitelabel/transactions/view.php:49
+#: views/whitelabel/transactions/view.php:358
+#: views/whitelabel/transactions/view.php:527
+#: views/whitelabel/transactions/view.php:623
+#: views/whitelabel/transactions/view.php:729
+#: views/whitelabel/transactions/withdrawal.php:37
+#: views/whitelabel/transactions/withdrawals.php:21
+#: views/whitelabel/transactions/withdrawals.php:60
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: views/whitelabel/tickets/index.php:22 views/whitelabel/tickets/index.php:120
+#: views/whitelabel/tickets/view.php:46 views/whitelabel/tickets/view.php:59
+#: views/whitelabel/tickets/view.php:97
+#: views/whitelabel/transactions/index.php:26
+#: views/whitelabel/transactions/index.php:101
+#: views/whitelabel/transactions/view.php:52
+#: views/whitelabel/transactions/withdrawal.php:40
+#: views/whitelabel/transactions/withdrawals.php:22
+#: views/whitelabel/transactions/withdrawals.php:86
+msgid "Pending"
+msgstr "Εκκρεμεί"
+
+#: views/whitelabel/tickets/index.php:23 views/whitelabel/tickets/index.php:122
+#: views/whitelabel/tickets/view.php:48
+msgid "Win"
+msgstr "Νίκη"
+
+#: views/whitelabel/tickets/index.php:24 views/whitelabel/tickets/index.php:124
+#: views/whitelabel/tickets/view.php:50 views/whitelabel/tickets/view.php:109
+msgid "No winnings"
+msgstr "Κανένα κέρδος"
+
+#: views/whitelabel/tickets/index.php:25 views/whitelabel/tickets/index.php:126
+#: views/whitelabel/tickets/index.php:144 views/whitelabel/tickets/view.php:52
+#: views/whitelabel/tickets/view.php:83 views/whitelabel/tickets/view.php:132
+msgid "Quick Pick"
+msgstr "Γρήγορη Επιλογή"
+
+#: views/whitelabel/tickets/index.php:48
+#: views/whitelabel/transactions/index.php:39
+#: views/whitelabel/transactions/withdrawals.php:36
+msgid "User E-mail"
+msgstr "Διεύθυνση Ηλεκτρονικού Ταχυδρομείου Χρήστη"
+
+#: views/whitelabel/tickets/index.php:63
+#: views/whitelabel/transactions/index.php:53
+#: views/whitelabel/transactions/withdrawals.php:50
+msgid "User ID &bull; User Name"
+msgstr "Ταυτότητα Χρήστη &bull; Όνομα Χρήστη"
+
+#: views/whitelabel/tickets/index.php:73 views/whitelabel/tickets/view.php:64
+msgid "Lines"
+msgstr "Γραμμές"
+
+#: views/whitelabel/tickets/index.php:103 views/whitelabel/tickets/view.php:38
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: views/whitelabel/tickets/index.php:114
+msgid "Valid to"
+msgstr "Έγκυρο για"
+
+#: views/whitelabel/tickets/index.php:128 views/whitelabel/tickets/view.php:53
+msgid "Expired"
+msgstr "Έληξε"
+
+#: views/whitelabel/tickets/index.php:167
+msgid "No tickets."
+msgstr "Κανένας λαχνός."
+
+#: views/whitelabel/tickets/view.php:7
+msgid "Ticket details"
+msgstr "Λεπτομέρειες λαχνού"
+
+#: views/whitelabel/tickets/view.php:8
+msgid "Here you can view ticket details."
+msgstr "Εδώ μπορείτε να δείτε τις λεπτομέρειες των λαχνών."
+
+#: views/whitelabel/tickets/view.php:75
+msgid "none"
+msgstr "κανένα"
+
+#: views/whitelabel/tickets/view.php:87 views/whitelabel/tickets/view.php:124
+msgid "Net"
+msgstr "Καθαρό"
+
+#: views/whitelabel/tickets/view.php:99
+msgid "Pay out to user balance"
+msgstr "Πληρωμή στο υπόλοιπο του χρήστη"
+
+#: views/whitelabel/tickets/view.php:117
+msgid "Total Prize"
+msgstr "Συνολικό Βραβείο"
+
+#: views/whitelabel/tickets/view.php:136
+msgid "Slip images"
+msgstr "Εικόνες ολίσθησης"
+
+#: views/whitelabel/tickets/view.php:145
+msgid ""
+"Are you sure? The 'mark as paid out' function will not automatically pay out "
+"the lines to the user and will not increase user balance. It will only mark "
+"the tickets and lines as paid out. Also, the Quick Pick lines will not be "
+"marked as paid out as they are paid out automatically after some time. This "
+"function is intended to be used only with bigger prizes which are not "
+"automatically paid out. If you want to pay out the lines to the user balance "
+"please use 'Pay out to user balance' button within specific line."
+msgstr ""
+"Είστε σίγουροι; Η λειτουργία ‘σημείωσε ως πληρωμένο’ δεν θα πληρώσει "
+"αυτόματα τις γραμμές στον χρήστη και δεν θα αυτξήσει το υπόλοιπο του χρήστη. "
+"Θα σημειώσει μόνο τους λαχνούς και τις γραμμές ως πληρωμένες. Επίσης, οι "
+"γραμμές Γρήγορης Επιλογής δεν θα σημειωθούν ως πληρωμένες καθώς πληρώνονται "
+"αυτόματα μετά από λίγο χρόνο. Αυτή η λειτουργία υποτίθεται ότι "
+"χρησιμοποιείται μόνο με μεγαλύτερα βραβεία που δεν πληρώνονται αυτόματα. Αν "
+"θέλετε να πληρώσετε τις γραμμές στο υπόλοιπο του χρήστη παρακαλούμε "
+"χρησιμοποιήστε το κουμπί ‘Πληρωμή στο υπόλοιπο του χρήστη΄μέσα σε "
+"συγκεκριμένη γραμμή."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' non-deposit transactions."
+msgstr ""
+"Εδώ μπορείτε να δείτε και να διαχειριστείτε τις μη καταθετικές συνναλαγές "
+"του χρήστη."
+
+#: views/whitelabel/transactions/index.php:8
+msgid "Here you can view and manage your users' deposit transactions."
+msgstr ""
+"Εδώ μπορείτε να δείτε και να διαχειριστείτε τις καταθετικές συναλλαγές του "
+"χρήστη."
+
+#: views/whitelabel/transactions/index.php:27
+#: views/whitelabel/transactions/index.php:103
+#: views/whitelabel/transactions/view.php:54
+#: views/whitelabel/transactions/withdrawal.php:42
+#: views/whitelabel/transactions/withdrawals.php:23
+#: views/whitelabel/transactions/withdrawals.php:88
+msgid "Approved"
+msgstr "Εγκεκριμένο"
+
+#: views/whitelabel/transactions/index.php:28
+#: views/whitelabel/transactions/index.php:105
+#: views/whitelabel/transactions/view.php:56
+#: views/whitelabel/transactions/view.php:601
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: views/whitelabel/transactions/index.php:59
+#: views/whitelabel/transactions/view.php:26
+msgid "Date confirmed"
+msgstr "Η ημερομηνία επιβεβαιώθηκε"
+
+#: views/whitelabel/transactions/index.php:62
+msgid "Tickets/Processed"
+msgstr "Λαχνοί/Επεξεργασμένοι"
+
+#: views/whitelabel/transactions/index.php:130
+msgid "No transactions."
+msgstr "Καμία συναλλαγή."
+
+#: views/whitelabel/transactions/view.php:7
+msgid "Transaction details"
+msgstr "Λεπτομέρειες συναλλαγής"
+
+#: views/whitelabel/transactions/view.php:8
+msgid "You can view transaction details here."
+msgstr "Μπορείτε να δείτε τις λεπτομέρειες της συναλλαγής εδώ."
+
+#: views/whitelabel/transactions/view.php:60
+msgid "Payment ID"
+msgstr "Ταυτότητα Πληρωμής"
+
+#: views/whitelabel/transactions/view.php:64
+msgid "eMerchantPay"
+msgstr "eMerchantPay"
+
+#: views/whitelabel/transactions/view.php:66
+msgid "Order date"
+msgstr "Ημερομηνία παραγγελίας"
+
+#: views/whitelabel/transactions/view.php:70
+msgid "Order total"
+msgstr "Σύνολο παραγγελίας"
+
+#: views/whitelabel/transactions/view.php:74
+msgid "Order currency"
+msgstr "Νόμισμα παραγγελίας"
+
+#: views/whitelabel/transactions/view.php:78
+msgid "Order status"
+msgstr "Κατάσταση παραγγελίας"
+
+#: views/whitelabel/transactions/view.php:82
+msgid "Test transaction"
+msgstr "Δοκιμαστική συναλλαγή"
+
+#: views/whitelabel/transactions/view.php:86
+msgid "Transaction type"
+msgstr "Τύπος συναλλαγής"
+
+#: views/whitelabel/transactions/view.php:90
+msgid "Response"
+msgstr "Απάντηση"
+
+#: views/whitelabel/transactions/view.php:94
+msgid "Response code"
+msgstr "Κώδικας απάντησης"
+
+#: views/whitelabel/transactions/view.php:98
+msgid "Response text"
+msgstr "Κείμενο απάντησης"
+
+#: views/whitelabel/transactions/view.php:110
+msgid "Client ID"
+msgstr "Ταυτότητα Πελάτη"
+
+#: views/whitelabel/transactions/view.php:118
+msgid "Merchant user ID"
+msgstr "Ταυτότητα χρήστη εμπόρου"
+
+#: views/whitelabel/transactions/view.php:122
+msgid "Notification type"
+msgstr "Τύπος ειδοποίησης"
+
+#: views/whitelabel/transactions/view.php:126
+msgid "emerchantpaypassthrough"
+msgstr "Επιπλέον δεδομένα"
+
+#: views/whitelabel/transactions/view.php:134
+msgid "Errors"
+msgstr "Σφάλματα"
+
+#: views/whitelabel/transactions/view.php:136
+msgid "Error code"
+msgstr "Κώδικας σφάλματος"
+
+#: views/whitelabel/transactions/view.php:138
+msgid "Error text"
+msgstr "Κείμενο σφάλματος"
+
+#: views/whitelabel/transactions/view.php:143
+msgid "Card details"
+msgstr "Λεπτομέρειες κάρτας"
+
+#: views/whitelabel/transactions/view.php:146
+msgid "Auth code"
+msgstr "Κωδικός πιστοποίησης"
+
+#: views/whitelabel/transactions/view.php:150
+msgid "Brand"
+msgstr "Εταιρία"
+
+#: views/whitelabel/transactions/view.php:154
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: views/whitelabel/transactions/view.php:158
+msgid "Exp. month"
+msgstr "Μήνας λήξης"
+
+#: views/whitelabel/transactions/view.php:162
+msgid "Exp. year"
+msgstr "Έτος λήξης"
+
+#: views/whitelabel/transactions/view.php:166
+msgid "Holder name"
+msgstr "Όνομα κατόχου"
+
+#: views/whitelabel/transactions/view.php:170
+msgid "Issuing bank"
+msgstr "Εκδότρια τράπεζα"
+
+#: views/whitelabel/transactions/view.php:174
+msgid "Issuing country"
+msgstr "Εκδότρια χώρα"
+
+#: views/whitelabel/transactions/view.php:178
+msgid "Number"
+msgstr "Αριθμός"
+
+#: views/whitelabel/transactions/view.php:182
+msgid "Subcategory"
+msgstr "Υποκατηγορία"
+
+#: views/whitelabel/transactions/view.php:186
+msgid "Customer data"
+msgstr "Δεδομένα πελάτη"
+
+#: views/whitelabel/transactions/view.php:193
+#: views/whitelabel/transactions/view.php:304
+#: views/whitelabel/transactions/view.php:370
+msgid "Customer ID"
+msgstr "Ταυτότητα πελάτη"
+
+#: views/whitelabel/transactions/view.php:213
+msgid "State"
+msgstr "Πολιτεία"
+
+#: views/whitelabel/transactions/view.php:221
+msgid "Postcode"
+msgstr "Ταχυδρομικός Κώδικας"
+
+#: views/whitelabel/transactions/view.php:225
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: views/whitelabel/transactions/view.php:233
+msgid "Items"
+msgstr "Αντικείμενα"
+
+#: views/whitelabel/transactions/view.php:242
+#: views/whitelabel/transactions/view.php:366
+#: views/whitelabel/transactions/view.php:597
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: views/whitelabel/transactions/view.php:246
+msgid "Item ID"
+msgstr "Ταυτότητα αντικειμένου"
+
+#: views/whitelabel/transactions/view.php:250
+msgid "Code"
+msgstr "Κωδικός"
+
+#: views/whitelabel/transactions/view.php:254
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: views/whitelabel/transactions/view.php:258
+msgid "Digital"
+msgstr "Ψηφιακό"
+
+#: views/whitelabel/transactions/view.php:262
+msgid "Pass-through"
+msgstr "Επιπλέον δεδομένα"
+
+#: views/whitelabel/transactions/view.php:266
+msgid "Rebill"
+msgstr "Επαναχρέωση"
+
+#: views/whitelabel/transactions/view.php:270
+msgid "Discount"
+msgstr "Έκπτωση"
+
+#: views/whitelabel/transactions/view.php:274
+msgid "Predefined"
+msgstr "Προκαθορισμένο"
+
+#: views/whitelabel/transactions/view.php:279
+msgid "Unit price"
+msgstr "Τιμή τεμαχίου"
+
+#: views/whitelabel/transactions/view.php:288
+msgid "Merchant e-mail"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου εμπόρου"
+
+#: views/whitelabel/transactions/view.php:292
+msgid "User e-mail"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου χρήστη"
+
+#: views/whitelabel/transactions/view.php:296
+msgid "Skrill amount"
+msgstr "Ποσό Skrill"
+
+#: views/whitelabel/transactions/view.php:300
+msgid "Failed reason code"
+msgstr "Αποτυχημένος κωδικός αιτιολογίας"
+
+#: views/whitelabel/transactions/view.php:314
+msgid "Order ID"
+msgstr "Ταυτότητα παραγγελίας"
+
+#: views/whitelabel/transactions/view.php:318
+msgid "Event ID"
+msgstr "Ταυτότητα γεγονότος"
+
+#: views/whitelabel/transactions/view.php:322
+msgid "Event Date"
+msgstr "Ημερομηνία Γεγονότος"
+
+#: views/whitelabel/transactions/view.php:326
+msgid "Event Type"
+msgstr "Τύπος Γεγονότος"
+
+#: views/whitelabel/transactions/view.php:330
+msgid "Attempt Number"
+msgstr "Αριθμός Προσπαθειών"
+
+#: views/whitelabel/transactions/view.php:342
+msgid "Create Date"
+msgstr "Δημιουργία Ημερομηνίας"
+
+#: views/whitelabel/transactions/view.php:346
+msgid "Update Date"
+msgstr "Ενημέρωση Ημερομηνίας"
+
+#: views/whitelabel/transactions/view.php:350
+msgid "Error Code"
+msgstr "Κώδικας Σφάλματος"
+
+#: views/whitelabel/transactions/view.php:354
+msgid "Error Message"
+msgstr "Μήνυμα Σφάλματος"
+
+#: views/whitelabel/transactions/view.php:362
+msgid "Transaction Type"
+msgstr "Τύπος Συναλλαγής"
+
+#: views/whitelabel/transactions/view.php:394
+msgid "Date of Birth"
+msgstr "Ημερομηνία Γέννησης"
+
+#: views/whitelabel/transactions/view.php:406
+#: views/whitelabel/transactions/view.php:481
+msgid "Address #3"
+msgstr "Διεύθυνση #3"
+
+#: views/whitelabel/transactions/view.php:418
+#: views/whitelabel/transactions/view.php:493
+msgid "Post Code"
+msgstr "Ταχυδρομικός Κώδικας"
+
+#: views/whitelabel/transactions/view.php:422
+msgid "Gender"
+msgstr "Φύλο"
+
+#: views/whitelabel/transactions/view.php:426
+msgid "Customer Contact Details"
+msgstr "Λεπτομέρεις Επικοινωνίας Πελάτη"
+
+#: views/whitelabel/transactions/view.php:433
+msgid "Value"
+msgstr "Αξία"
+
+#: views/whitelabel/transactions/view.php:447
+msgid "Verification Level"
+msgstr "Επίπεδο Επαλήθευσης"
+
+#: views/whitelabel/transactions/view.php:451
+msgid "Customer Balance"
+msgstr "Υπόλοιπο Πελάτη"
+
+#: views/whitelabel/transactions/view.php:455
+msgid "Billing Details"
+msgstr "Λεπτομέρειες Χρέωσης"
+
+#: views/whitelabel/transactions/view.php:502
+msgid "Fees"
+msgstr "Τέλη"
+
+#: views/whitelabel/transactions/view.php:505
+msgid "Fee Name"
+msgstr "Όνομα Τέλους"
+
+#: views/whitelabel/transactions/view.php:509
+msgid "Fee Type"
+msgstr "Τύπος Τέλους"
+
+#: views/whitelabel/transactions/view.php:513
+msgid "Fee Amount"
+msgstr "Ποσό Τέλους"
+
+#: views/whitelabel/transactions/view.php:517
+msgid "Fee Currency"
+msgstr "Νόμισμα Τέλους"
+
+#: views/whitelabel/transactions/view.php:525
+msgid "cubits"
+msgstr "cubits"
+
+#: views/whitelabel/transactions/view.php:535
+msgid "Create Time"
+msgstr "Δημιουργία Ώρας"
+
+#: views/whitelabel/transactions/view.php:539
+msgid "Invoice Currency"
+msgstr "Νόμισμα Τιμολογίου"
+
+#: views/whitelabel/transactions/view.php:543
+msgid "Invoice Amount"
+msgstr "Ποσό Τιμολογίου"
+
+#: views/whitelabel/transactions/view.php:547
+msgid "Paid Currency"
+msgstr "Καταβληθέν Νόμισμα"
+
+#: views/whitelabel/transactions/view.php:551
+msgid "Paid Amount"
+msgstr "Καταβληθλέν Ποσό"
+
+#: views/whitelabel/transactions/view.php:555
+msgid "Pending Currency"
+msgstr "Νόμισμα σε Εκκρεμότητα"
+
+#: views/whitelabel/transactions/view.php:559
+msgid "Pending Amount"
+msgstr "Ποσό σε Εκκρεμότητα"
+
+#: views/whitelabel/transactions/view.php:563
+msgid "Merchant Currency"
+msgstr "Νόμισμα Εμπόρου"
+
+#: views/whitelabel/transactions/view.php:567
+msgid "Merchant Amount"
+msgstr "Ποσό Εμπόρου"
+
+#: views/whitelabel/transactions/view.php:571
+msgid "Share to keep in BTC"
+msgstr "Μοιραστείτε για να κρατήσετε στο BTC"
+
+#: views/whitelabel/transactions/view.php:575
+msgid "tpay.com"
+msgstr "tpay.com"
+
+#: views/whitelabel/transactions/view.php:589
+msgid "Amount paid"
+msgstr "Καταβληθέν ποσό"
+
+#: views/whitelabel/transactions/view.php:605
+msgid "Sofort"
+msgstr "Sofort"
+
+#: views/whitelabel/transactions/view.php:611
+msgid "Amount Refunded"
+msgstr "Ποσό που Επιστράφηκε"
+
+#: views/whitelabel/transactions/view.php:619
+msgid "Consumer Protection"
+msgstr "Προστασία Πελατών"
+
+#: views/whitelabel/transactions/view.php:627
+#: views/whitelabel/transactions/view.php:733
+msgid "Status Reason"
+msgstr "Αιτιολογία Κατάστασης"
+
+#: views/whitelabel/transactions/view.php:631
+#: views/whitelabel/transactions/view.php:651
+msgid "Status Modified Time"
+msgstr "Κατάσταση Τροποποιημένης Ώρας"
+
+#: views/whitelabel/transactions/view.php:635
+msgid "Language Code"
+msgstr "Κώδικας Γλώσσας"
+
+#: views/whitelabel/transactions/view.php:643
+msgid "Reason"
+msgstr "Αιτιολογία"
+
+#: views/whitelabel/transactions/view.php:647
+msgid "Test"
+msgstr "Δοκιμή"
+
+#: views/whitelabel/transactions/view.php:655
+msgid "Project ID"
+msgstr "Ταυτότητα Εργασίας"
+
+#: views/whitelabel/transactions/view.php:659
+msgid "Recipient Holder"
+msgstr "Κάτοχος Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:663
+msgid "Recipient Account Number"
+msgstr "Αριθμός Λογαριασμού Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:667
+msgid "Recipient Bank Code"
+msgstr "Κώδικας Τράπεζας Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:671
+msgid "Recipient Country Code"
+msgstr "Κώδικας Χώρας Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:675
+msgid "Recipient Bank Name"
+msgstr "Όνομα Τράπεζας Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:679
+msgid "Recipient BIC"
+msgstr "BIC Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:683
+msgid "Recipient IBAN"
+msgstr "IBAN Παραλήπτη"
+
+#: views/whitelabel/transactions/view.php:687
+msgid "Sender Holder"
+msgstr "Κάτοχος Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:691
+msgid "Sender Account Number"
+msgstr "Αριθμός Λογαριασμού Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:695
+msgid "Sender Bank Code"
+msgstr "Κώδικας Τράπεζας Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:699
+msgid "Sender Country Code"
+msgstr "Κώδικας Χώρας Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:703
+msgid "Sender Bank Name"
+msgstr "Όνομα Τράπεζας Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:707
+msgid "Sender BIC"
+msgstr "BIC Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:711
+msgid "Sender IBAN"
+msgstr "IBAN Αποστολέα"
+
+#: views/whitelabel/transactions/view.php:715
+msgid "Exchange Rate"
+msgstr "Τιμή Συναλλάγματος"
+
+#: views/whitelabel/transactions/view.php:719
+msgid "Costs (Exchange Rate)"
+msgstr "Κόστη (Τιμή Συναλλάγματος)"
+
+#: views/whitelabel/transactions/view.php:723
+msgid "Costs (Fees)"
+msgstr "Κόστη (Τέλη)"
+
+#: views/whitelabel/transactions/view.php:726
+msgid "Status History"
+msgstr "Ιστορικό Κατάστασης"
+
+#: views/whitelabel/transactions/view.php:737
+msgid "Time"
+msgstr "Ώρα"
+
+#: views/whitelabel/transactions/withdrawal.php:7
+msgid "Withdrawal details"
+msgstr "Λεπτομέρειες ανάληψης"
+
+#: views/whitelabel/transactions/withdrawal.php:8
+msgid "Here you can view the withdrawal details."
+msgstr "Εδώ μπορείτε να δείτε τις λεπτομέρειες των αναλήψεων."
+
+#: views/whitelabel/transactions/withdrawal.php:26
+#: views/whitelabel/transactions/withdrawals.php:59
+msgid "Date approved"
+msgstr "Η ημερομηνία εγκρίθηκε"
+
+#: views/whitelabel/transactions/withdrawal.php:44
+#: views/whitelabel/transactions/withdrawals.php:24
+#: views/whitelabel/transactions/withdrawals.php:90
+msgid "Declined"
+msgstr "Απορρίφθηκε"
+
+#: views/whitelabel/transactions/withdrawal.php:46
+#: views/whitelabel/transactions/withdrawals.php:25
+#: views/whitelabel/transactions/withdrawals.php:92
+msgid "Canceled"
+msgstr "Ακυρώθηκε"
+
+#: views/whitelabel/transactions/withdrawal.php:49
+msgid "Request details"
+msgstr "Λεπτομέρειες αιτήματος"
+
+#: views/whitelabel/transactions/withdrawal.php:63
+msgid "Bitcoin wallet"
+msgstr "Πορτοφόλι Bitcoin"
+
+#: views/whitelabel/transactions/withdrawal.php:67
+msgid "Account IBAN"
+msgstr "ΙΒΑΝ λογαριασμού"
+
+#: views/whitelabel/transactions/withdrawal.php:71
+msgid "SWIFT number"
+msgstr "Αριθμός SWIFT"
+
+#: views/whitelabel/transactions/withdrawal.php:79
+#: views/whitelabel/transactions/withdrawals.php:97
+msgid "Approve"
+msgstr "Εγκρίνω"
+
+#: views/whitelabel/transactions/withdrawal.php:81
+#: views/whitelabel/transactions/withdrawals.php:99
+msgid "Decline"
+msgstr "Απορρίπτω"
+
+#: views/whitelabel/transactions/withdrawals.php:8
+msgid "Here you can manage your users' withdrawals."
+msgstr "Εδώ μπορείτε να διαχειριστείτε τις αναλήψεις των χρηστών σας."
+
+#: views/whitelabel/transactions/withdrawals.php:113
+msgid "No withdrawals."
+msgstr "Καμία ανάληψη."
+
+#: views/whitelabel/users/aff.php:7 views/whitelabel/users/index.php:117
+msgid "Change affiliate"
+msgstr "Αλλαγή συνεργάτη"
+
+#: views/whitelabel/users/aff.php:8
+msgid "You can change your user affiliate here."
+msgstr "Εδώ μπορείτε να αλλάξετε τον συνεργάτη χρήστη σας."
+
+#: views/whitelabel/users/balance.php:7
+msgid "Edit balance"
+msgstr "Επεξεργασία υπολοίπου"
+
+#: views/whitelabel/users/balance.php:8
+msgid "You can edit user balance here."
+msgstr "Εδώ μπορείτε να επεξεργαστείτε το υπόλοιπο χρηστών."
+
+#: views/whitelabel/users/balance.php:23
+msgid "Enter user balance"
+msgstr "Εισάγετε υπόλοιπο χρηστών"
+
+#: views/whitelabel/users/balance.php:25 views/whitelabel/users/deposit.php:35
+msgid "Use dot for decimal digits. No whitespaces."
+msgstr "Χρησιμοποιήστε τελεία για δεκαδικά ψηφία. Όχι κενά."
+
+#: views/whitelabel/users/deposit.php:7
+msgid "Deposit"
+msgstr "Κατάθεση"
+
+#: views/whitelabel/users/deposit.php:8
+msgid "Here you can add manual deposit to the user."
+msgstr "Εδώ μπορείτε να προσθέσετε χεροκίνητη κατάθεση στον χρήστη."
+
+#: views/whitelabel/users/deposit.php:33
+msgid "Enter amount"
+msgstr "Εισάγετε ποσό"
+
+#: views/whitelabel/users/edit.php:8
+msgid "Edit user details here."
+msgstr "Επεξεργαστείτε τις λεπτομέρειες του χρήστη εδώ."
+
+#: views/whitelabel/users/email.php:8
+msgid "You can edit user e-mail here."
+msgstr ""
+"Εδώ μπορείτε να επεξεργαστείτε την διεύθυνση ηλεκτρονικού ταχυδρομείου του "
+"χρήστη."
+
+#: views/whitelabel/users/index.php:14
+msgid "Here you can view and manage your activated users."
+msgstr ""
+"Εδώ μπορείτε να δείτε και να διαχειριστείτε τους ενεργοποιημένους χρήστες "
+"σας."
+
+#: views/whitelabel/users/index.php:15
+msgid "Here you can manage your inactive useres."
+msgstr "Εδώ μπορείτε να διαχειριστείτε τους ανενεργούς χρήστες σας."
+
+#: views/whitelabel/users/index.php:16
+msgid "Here you can manage your deleted users."
+msgstr "Εδώ μπορείτε να διαχειριστείτε τους διεγραμένους χρήστες σας."
+
+#: views/whitelabel/users/index.php:79
+msgid "Registered<br>IP<br>Country"
+msgstr "Εγγεγραμμένη<br>IP<br>Χώρα"
+
+#: views/whitelabel/users/index.php:98
+msgid "View purchases"
+msgstr "Εμφάνιση αγορών"
+
+#: views/whitelabel/users/index.php:99
+msgid "View deposits"
+msgstr "Εμφάνιση καταθέσεων"
+
+#: views/whitelabel/users/index.php:100
+msgid "View withdrawals"
+msgstr "Εμφάνιση αναλήψεων"
+
+#: views/whitelabel/users/index.php:124
+msgid "Manual deposit"
+msgstr "Χειροκίνητη κατάθεση"
+
+#: views/whitelabel/users/index.php:162
+msgid "No users."
+msgstr "Κανένας χρήστης."
+
+#: views/whitelabel/users/password.php:8
+msgid "You can change user password here."
+msgstr "Εδώ μπορείτε να αλλάξετε το συνθηματικό του χρήστη."
+
+#: views/whitelabel/users/view.php:7
+msgid "User details"
+msgstr "Λεπτομέρειες χρήστη"
+
+#: views/whitelabel/users/view.php:8
+msgid "You can view and edit user details here."
+msgstr ""
+"Εδώ μπορείτε να δείτε και να επεξεργαστείτε τις λεπτομέρειες του χρήστη."
+
+#: views/whitelabel/users/view.php:49
+msgid "Register IP"
+msgstr "IP εγγραφής"
+
+#: views/whitelabel/users/view.php:57
+msgid "First Purchase"
+msgstr "Πρώτη Αγορά"
+
+#~ msgid "Provider"
+#~ msgstr "Παροχέας"
+
+#~ msgid "Minimum lines count should be multiple of %s!"
+#~ msgstr "Ο αριθμός των ελάχιστων γραμμών πρέπει να είναι πολλαπλάσιο του %s!"
